@@ -86,7 +86,7 @@ const DetailPanel = ({ selectedItem, onClose }) => {
   };
 
   return (
-    <div className="absolute left-72 z-50 p-4">
+    <div className="absolute left-[300px] z-50 p-4 w-full">
     <div ref={panelRef} className="bg-gray-900 rounded-lg shadow-xl max-w-md w-full border border-gray-700">
       <div className="p-6">
         {renderContent()}
