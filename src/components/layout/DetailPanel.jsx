@@ -1,134 +1,98 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
+import { X, ExternalLink } from 'lucide-react';
 
 const DetailPanel = ({ selectedItem, onClose }) => {
+  const panelRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (panelRef.current && !panelRef.current.contains(event.target)) {
+        onClose();
+      }
+    };
+
+    if (selectedItem) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [selectedItem, onClose]);
+
   if (!selectedItem) return null;
 
   const renderContent = () => {
-    switch (selectedItem.id) {
-      case 'overview':
-        return (
-          <div className="space-y-6">
-            <h2 className="text-2xl font-bold text-gray-800">Overview</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="bg-blue-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-blue-800">Total Locations</h3>
-                <p className="text-3xl font-bold text-blue-600">1,247</p>
-              </div>
-              <div className="bg-green-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-green-800">Active Regions</h3>
-                <p className="text-3xl font-bold text-green-600">23</p>
-              </div>
-              <div className="bg-purple-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-purple-800">Data Points</h3>
-                <p className="text-3xl font-bold text-purple-600">45,678</p>
-              </div>
+    return (
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-lg font-semibold text-white">{selectedItem.label}</h2>
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              onClose();
+            }}
+            className="text-gray-400 hover:text-white transition-colors"
+          >
+            <X className="w-5 h-5" />
+          </button>
+        </div>
+        
+        <div className="space-y-3">
+          <p className="text-gray-300 text-sm leading-relaxed">
+            {selectedItem.description}
+          </p>
+          
+          {selectedItem.id === 'for-sale-inventory' && (
+            <div className="space-y-2">
+              <p className="text-gray-300 text-sm">
+                <strong className="text-white">Source:</strong> Realtor.com
+              </p>
+              <p className="text-gray-300 text-sm">
+                <strong className="text-white">Note:</strong> For Sale Inventory excludes listings that are pending.
+              </p>
             </div>
-          </div>
-        );
-
-      case 'analytics':
-        return (
-          <div className="space-y-6">
-            <h2 className="text-2xl font-bold text-gray-800">Analytics</h2>
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-lg font-semibold mb-4">Performance Metrics</h3>
-              <div className="space-y-4">
-                <div className="flex justify-between items-center">
-                  <span>Data Processing Speed</span>
-                  <span className="text-green-600 font-semibold">98.5%</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span>API Response Time</span>
-                  <span className="text-blue-600 font-semibold">245ms</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span>System Uptime</span>
-                  <span className="text-purple-600 font-semibold">99.9%</span>
-                </div>
-              </div>
+          )}
+          
+          {selectedItem.id === 'home-value' && (
+            <div className="space-y-2">
+              <p className="text-gray-300 text-sm">
+                <strong className="text-white">Data Range:</strong> $208,652 - $6,025,408
+              </p>
+              <p className="text-gray-300 text-sm">
+                <strong className="text-white">Update Frequency:</strong> Monthly
+              </p>
             </div>
-          </div>
-        );
-
-      case 'locations':
-        return (
-          <div className="space-y-6">
-            <h2 className="text-2xl font-bold text-gray-800">Locations</h2>
-            <div className="bg-white rounded-lg shadow overflow-hidden">
-              <table className="min-w-full">
-                <thead className="bg-gray-50">
-                  <tr>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Name</th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Type</th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Status</th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Last Updated</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-gray-200">
-                  <tr>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">New York</td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">City</td>
-                    <td className="px-6 py-4 whitespace-nowrap">
-                      <span className="px-2 py-1 text-xs font-semibold rounded-full bg-green-100 text-green-800">Active</span>
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2 hours ago</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">California</td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">State</td>
-                    <td className="px-6 py-4 whitespace-nowrap">
-                      <span className="px-2 py-1 text-xs font-semibold rounded-full bg-green-100 text-green-800">Active</span>
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">1 hour ago</td>
-                  </tr>
-                </tbody>
-              </table>
+          )}
+          
+          {selectedItem.isPremium && (
+            <div className="bg-yellow-400 bg-opacity-20 border border-yellow-400 border-opacity-30 rounded-lg p-3">
+              <p className="text-yellow-300 text-sm">
+                <strong>Premium Feature:</strong> This data point requires a premium subscription to access detailed analytics and historical data.
+              </p>
             </div>
-          </div>
-        );
-
-      case 'mapping':
-        return (
-          <div className="space-y-6">
-            <h2 className="text-2xl font-bold text-gray-800">Mapping</h2>
-            <div className="bg-white p-6 rounded-lg shadow">
-              <div className="h-64 bg-gray-100 rounded-lg flex items-center justify-center">
-                <p className="text-gray-500">Interactive Map Component</p>
-              </div>
-            </div>
-          </div>
-        );
-
-      default:
-        return (
-          <div className="space-y-6">
-            <h2 className="text-2xl font-bold text-gray-800">{selectedItem.label}</h2>
-            <div className="bg-white p-6 rounded-lg shadow">
-              <p className="text-gray-600">Detailed information for {selectedItem.label} will be displayed here.</p>
-              <p className="text-sm text-gray-500 mt-2">{selectedItem.description}</p>
-            </div>
-          </div>
-        );
-    }
+          )}
+        </div>
+        
+        <div className="pt-4 border-t border-gray-700">
+          <button className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 text-sm transition-colors">
+            <ExternalLink className="w-4 h-4" />
+            <span>Learn more about this data point</span>
+          </button>
+        </div>
+      </div>
+    );
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-      <div className="bg-white rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
-        <div className="flex justify-between items-center p-6 border-b">
-          <h1 className="text-xl font-semibold">{selectedItem.label}</h1>
-          <button
-            onClick={onClose}
-            className="text-gray-400 hover:text-gray-600 text-2xl"
-          >
-            ×
-          </button>
-        </div>
-        <div className="p-6">
-          {renderContent()}
-        </div>
+    <div className="absolute left-72 z-50 p-4">
+    <div ref={panelRef} className="bg-gray-900 rounded-lg shadow-xl max-w-md w-full border border-gray-700">
+      <div className="p-6">
+        {renderContent()}
       </div>
     </div>
+  </div>
   );
 };
 
