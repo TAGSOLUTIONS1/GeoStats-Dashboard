@@ -5,6 +5,7 @@ import DataPointItem from './DataPointItem';
 const DataSection = ({ 
   section, 
   activeItem, 
+  selectedDataPoint,
   onItemClick, 
   onInfoClick, 
   hoveredItem, 
@@ -29,7 +30,7 @@ const DataSection = ({
           {section.items.map((item) => (
             <DataPointItem
               key={item.id}
-              item={item}
+              item={{...item, isSelected: selectedDataPoint === item.id}}
               onItemClick={onItemClick}
               onInfoClick={onInfoClick}
               hoveredItem={hoveredItem}

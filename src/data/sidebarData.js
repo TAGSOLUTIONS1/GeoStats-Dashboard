@@ -95,30 +95,57 @@ export const dataSections = [
     id: 'popular-data',
     label: 'Popular Data',
     isExpanded: true,
-    items: dataPoints
+    items: [
+      dataPoints[0], // Home Value
+      dataPoints[1], // Home Value Growth (YoY)
+      dataPoints[2], // For Sale Inventory
+      dataPoints[3], // Home Price Forecast
+    ]
   },
   {
     id: 'home-price-affordability',
     label: 'Home Price & Affordability',
     isExpanded: false,
-    items: []
+    items: [
+      dataPoints[0], // Home Value
+      dataPoints[1], // Home Value Growth (YoY)
+      dataPoints[5], // Home Value Growth (5-Year)
+      dataPoints[6], // Overvalued %
+    ]
   },
   {
     id: 'market-trends',
     label: 'Market Trends',
     isExpanded: false,
-    items: []
+    items: [
+      dataPoints[2], // For Sale Inventory
+      dataPoints[3], // Home Price Forecast
+      dataPoints[7], // Price Cut %
+      {
+        id: 'sale-inventory-growth-yoy',
+        label: 'Sale Inventory Growth (YoY)',
+        icon: TrendingUp,
+        isSelected: false,
+        isPremium: false,
+        description: 'The year-over-year growth rate in the area\'s For Sale Inventory according to Realtor.com. If an area has big inventory increases, it could mean greater likelihood of home price declines, while sharply lower inventory could mean that home prices will continue to go up.'
+      }
+    ]
   },
   {
     id: 'demographic',
     label: 'Demographic',
     isExpanded: false,
-    items: []
+    items: [
+      dataPoints[8], // Population Growth
+    ]
   },
   {
     id: 'investor-metrics',
     label: 'Investor Metrics',
     isExpanded: false,
-    items: []
+    items: [
+      dataPoints[4], // Long-Term Growth Score
+      dataPoints[9], // Cap Rate
+    ]
   }
 ];

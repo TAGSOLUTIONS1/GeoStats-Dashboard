@@ -26,12 +26,17 @@ const DataPointItem = ({
     <div className="relative">
       <button
         onClick={() => onItemClick(item)}
-        className={`w-full flex items-center justify-between p-2 rounded-lg transition-colors group ${
-          item.isSelected ? 'bg-blue-600' : ''
-        }`}
+        className="w-full flex items-center justify-between p-2 rounded-lg transition-colors group hover:bg-gray-200"
       >
         <div className="flex items-center text-left space-x-3">
-          <IconComponent className="w-4 h-4 text-black" />
+          <input
+            type="radio"
+            name="dataPoint"
+            value={item.id}
+            checked={item.isSelected}
+            onChange={() => onItemClick(item)}
+            className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2"
+          />
           <span className="text-sm text-black">{item.label}</span>
         </div>
         <div className="flex items-center space-x-2 relative">

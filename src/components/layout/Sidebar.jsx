@@ -1,16 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { ArrowRight } from 'lucide-react';
 import { useSidebar } from '../../hooks/useSidebar';
 import { dataSections } from '../../data/sidebarData';
 import SidebarSearch from './SidebarSearch';
 import DataSection from './DataSection';
 import DetailPanel from './DetailPanel';
+import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
 
 const Sidebar = () => {
+  const [isExploreModalOpen, setIsExploreModalOpen] = useState(false);
+  
   const {
     activeItem,
     hoveredItem,
     selectedDetailItem,
     detailPanelPosition,
+    selectedDataPoint,
     searchQuery,
     setHoveredItem,
     handleItemClick,
@@ -44,6 +49,7 @@ const Sidebar = () => {
             key={section.id}
             section={section}
             activeItem={activeItem}
+            selectedDataPoint={selectedDataPoint}
             onItemClick={handleItemClick}
             onInfoClick={handleSubItemClick}
             hoveredItem={hoveredItem}
@@ -52,11 +58,28 @@ const Sidebar = () => {
         ))}
       </div>
 
+      {/* Explore Data Points Link */}
+      <div className="p-4 border-t border-gray-300">
+        <button
+          onClick={() => setIsExploreModalOpen(true)}
+          className="w-full flex items-center justify-between p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors group"
+        >
+          <span className="font-medium">Explore Data Points</span>
+          <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+        </button>
+      </div>
+
       {/* Detail Panel */}
       <DetailPanel 
         selectedItem={selectedDetailItem} 
         position={detailPanelPosition}
         onClose={handleCloseDetail} 
+      />
+
+      {/* Explore Data Points Modal */}
+      <ExploreDataPointsModal
+        isOpen={isExploreModalOpen}
+        onClose={() => setIsExploreModalOpen(false)}
       />
     </div>
   );
