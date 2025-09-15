@@ -26,13 +26,13 @@ const DataPointItem = ({
     <div className="relative">
       <button
         onClick={() => onItemClick(item)}
-        className={`w-full flex items-center justify-between p-2 rounded-lg hover:bg-gray-800 transition-colors group ${
+        className={`w-full flex items-center justify-between p-2 rounded-lg transition-colors group ${
           item.isSelected ? 'bg-blue-600' : ''
         }`}
       >
         <div className="flex items-center text-left space-x-3">
-          <IconComponent className="w-4 h-4 text-gray-300" />
-          <span className="text-sm text-gray-200">{item.label}</span>
+          <IconComponent className="w-4 h-4 text-black" />
+          <span className="text-sm text-black">{item.label}</span>
         </div>
         <div className="flex items-center space-x-2 relative">
           {item.isPremium && (
@@ -46,7 +46,12 @@ const DataPointItem = ({
               ref={infoButtonRef}
               onClick={(e) => {
                 e.stopPropagation();
-                onInfoClick(item);
+                const rect = infoButtonRef.current.getBoundingClientRect();
+                const position = {
+                  top: rect.top + window.scrollY,
+                  left: rect.right + window.scrollX + 10
+                };
+                onInfoClick(item, position);
               }}
               onMouseEnter={() => setHoveredItem(item.id)}
               onMouseLeave={() => setHoveredItem(null)}

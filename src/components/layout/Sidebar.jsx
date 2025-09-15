@@ -10,6 +10,7 @@ const Sidebar = () => {
     activeItem,
     hoveredItem,
     selectedDetailItem,
+    detailPanelPosition,
     searchQuery,
     setHoveredItem,
     handleItemClick,
@@ -19,14 +20,14 @@ const Sidebar = () => {
   } = useSidebar();
 
   return (
-    <div className="w-80 bg-gray-900 text-white h-screen flex flex-col relative overflow-visible">
+    <div className="w-80 bg-gray-100 text-black h-screen flex flex-col relative overflow-visible">
       {/* Header with Logo */}
       <div className="p-4 border-b border-gray-700">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-sm">G</span>
+            <span className="text-black font-bold text-sm">G</span>
           </div>
-          <h1 className="text-xl font-bold text-white">GeoStats</h1>
+          <h1 className="text-xl font-bold text-black">GeoStats</h1>
         </div>
       </div>
 
@@ -54,6 +55,7 @@ const Sidebar = () => {
       {/* Detail Panel */}
       <DetailPanel 
         selectedItem={selectedDetailItem} 
+        position={detailPanelPosition}
         onClose={handleCloseDetail} 
       />
     </div>

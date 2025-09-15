@@ -15,12 +15,12 @@ const DataSection = ({
       {/* Section Header */}
       <button
         onClick={() => onItemClick(section.id)}
-        className="w-full flex items-center justify-between text-left py-2 hover:bg-gray-800 rounded-lg px-2"
+        className="w-full flex items-center justify-between text-left py-2 rounded-lg px-2"
       >
-        <span className="font-semibold text-gray-200 uppercase text-sm tracking-wide">
+        <span className="font-semibold text-black uppercase text-sm tracking-wide">
           {section.label}
         </span>
-        <ChevronDown className={`w-4 h-4 text-gray-400 transform transition-transform ${activeItem === section.id ? 'rotate-180' : ''}`} />
+        <ChevronDown className={`w-4 h-4 text-black transform transition-transform ${activeItem === section.id ? 'rotate-180' : ''}`} />
       </button>
 
       {/* Section Items */}

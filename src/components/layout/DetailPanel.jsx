@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { X, ExternalLink } from 'lucide-react';
 
-const DetailPanel = ({ selectedItem, onClose }) => {
+const DetailPanel = ({ selectedItem, position, onClose }) => {
   const panelRef = useRef(null);
 
   useEffect(() => {
@@ -86,13 +86,24 @@ const DetailPanel = ({ selectedItem, onClose }) => {
   };
 
   return (
-    <div className="absolute left-[300px] z-50 p-4 w-full">
-    <div ref={panelRef} className="bg-gray-900 rounded-lg shadow-xl max-w-md w-full border border-gray-700">
-      <div className="p-6">
-        {renderContent()}
+    <div 
+      className="fixed z-50 pointer-events-none"
+      style={{
+        top: `${position.top}px`,
+        left: `${position.left + 10}px`,
+        transform: 'translateY(-50%)',
+      }}
+    >
+      <div ref={panelRef} className="bg-gray-900 rounded-lg shadow-xl max-w-md w-80 border border-gray-700 pointer-events-auto">
+        <div className="p-6">
+          {renderContent()}
+        </div>
       </div>
+        <div 
+        className="absolute left-0 -translate-x-1/2 w-4 h-4 bg-gray-900 rotate-45"
+        style={{ top: '50%' }}
+      />
     </div>
-  </div>
   );
 };
 
