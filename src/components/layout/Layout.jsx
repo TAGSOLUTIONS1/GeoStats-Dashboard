@@ -1,17 +1,35 @@
 import React, { useState } from 'react';
-import { Search, Filter, Share, LogIn , Share2} from 'lucide-react';
+import { Search, Filter, Share, LogIn, Share2, Table } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
+import TableViewModal from '../ui/TableViewModal';
+import DatePicker from '../ui/DatePicker';
+import TooltipToggle from '../ui/TooltipToggle';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedFilter, setSelectedFilter] = useState('State');
   const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
+  const [isTableViewOpen, setIsTableViewOpen] = useState(false);
+  const [isTooltipEnabled, setIsTooltipEnabled] = useState(true);
+  const [selectedDate, setSelectedDate] = useState('Jul 2025');
 
   const filterOptions = ['State', 'City', 'Area', 'Zip'];
 
   const handleFilterPanel = () => {
     setIsFilterPanelOpen(!isFilterPanelOpen);
+  };
+
+  const handleTableView = () => {
+    setIsTableViewOpen(!isTableViewOpen);
+  };
+
+  const handleTooltipToggle = () => {
+    setIsTooltipEnabled(!isTooltipEnabled);
+  };
+
+  const handleDateChange = (newDate) => {
+    setSelectedDate(newDate);
   };
 
   return (
@@ -77,6 +95,27 @@ const Layout = ({ children }) => {
         <div className="p-6">
           {children}
         </div>
+
+        {/* Bottom Control Bar */}
+        <div className="bg-white border-t border-gray-200 px-6 py-4 flex items-center justify-between">
+          <div className="flex items-center space-x-6">
+            <TooltipToggle 
+              isEnabled={isTooltipEnabled}
+              onToggle={handleTooltipToggle}
+            />
+            <button 
+              onClick={handleTableView}
+              className="flex items-center space-x-2 px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+            >
+              <Table className="w-4 h-4 text-gray-600" />
+              <span className="text-sm text-gray-700">Table View</span>
+            </button>
+            <DatePicker 
+              selectedDate={selectedDate}
+              onDateChange={handleDateChange}
+            />
+          </div>
+        </div>
       </main>
       
       {/* Filter Panel */}
@@ -84,6 +123,12 @@ const Layout = ({ children }) => {
           isOpen={isFilterPanelOpen} 
           onClose={handleFilterPanel} 
         />
+      
+      {/* Table View Modal */}
+      <TableViewModal 
+        isOpen={isTableViewOpen} 
+        onClose={handleTableView} 
+      />
     </div>
   );
 };

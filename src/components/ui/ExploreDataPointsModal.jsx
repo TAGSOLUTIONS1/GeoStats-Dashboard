@@ -39,7 +39,7 @@ const ExploreDataPointsModal = ({ isOpen, onClose }) => {
     <motion.div
         initial={{ opacity: 0, y: "100%" }}   // hidden below screen
         animate={isOpen ? { opacity: 1, y: "0%" } : { opacity: 1, y: "100%" }}
-        transition={{ duration: 0.75, ease: "easeInOut" }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
         className="fixed w-[76%] h-[85%] bottom-0 right-5 flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
         >
     {/* <div className="fixed w-[76%] top-[10%] right-5 flex items-center justify-center z-50 p-4"> */}
