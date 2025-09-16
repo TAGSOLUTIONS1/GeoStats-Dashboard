@@ -1,12 +1,18 @@
 import React, { useState } from 'react';
 import { Search, Filter, Share, LogIn , Share2} from 'lucide-react';
 import Sidebar from './Sidebar';
+import FilterPanel from '../ui/FilterPanel';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedFilter, setSelectedFilter] = useState('State');
+  const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
 
   const filterOptions = ['State', 'City', 'Area', 'Zip'];
+
+  const handleFilterPanel = () => {
+    setIsFilterPanelOpen(!isFilterPanelOpen);
+  };
 
   return (
     <div className="flex h-screen bg-gray-50">
@@ -26,7 +32,7 @@ const Layout = ({ children }) => {
                 />
               </div>
 
-              <div className="flex items-center space-x-6">
+              <div className="flex items-center space-x-">
               {/* Filter Options */}
               <div className="flex items-center space-x-8">
                 {filterOptions.map((option) => (
@@ -45,18 +51,21 @@ const Layout = ({ children }) => {
               </div>
 
               {/* Action Buttons */}
-              <div className="flex items-center space-x-6">
+              <div className="flex items-center space-x-2">
                 <button className="p-2 hover:bg-gray-100 rounded-lg transition-colors border border-gray-300">
                     <Share2 className="w-5 h-5 text-gray-600" />
                 </button>
-                <button className="p-2 hover:bg-gray-100 rounded-lg transition-colors flex items-center space-x-1 border border-gray-300">
+                <button 
+                  onClick={handleFilterPanel}
+                  className="p-2 hover:bg-gray-100 rounded-lg transition-colors flex items-center space-x-1 border border-gray-300"
+                >
                   <Filter className="w-5 h-5 text-gray-600" />
                   <p>Filter</p>
                 </button>
                 <button className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
                   Sign up
                 </button>
-                <button className="px-4 py-2 bg-blue-600 text-black text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors flex items-center space-x-1">
+                <button className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors flex items-center space-x-1">
                   <LogIn className="w-4 h-4" />
                   <span>Login</span>
                 </button>
@@ -69,6 +78,12 @@ const Layout = ({ children }) => {
           {children}
         </div>
       </main>
+      
+      {/* Filter Panel */}
+        <FilterPanel 
+          isOpen={isFilterPanelOpen} 
+          onClose={handleFilterPanel} 
+        />
     </div>
   );
 };
