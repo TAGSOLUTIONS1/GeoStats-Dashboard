@@ -48,24 +48,24 @@ const FeedbackModal = ({ isOpen, onClose }) => {
         <form onSubmit={handleSubmit} className="p-6">
           {/* Email Input */}
           <div className="mb-4">
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+            {/* <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
               Enter your email
-            </label>
+            </label> */}
             <input
               type="email"
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              placeholder="your.email@example.com"
+              placeholder="Enter your email"
             />
           </div>
 
           {/* Feedback Textarea */}
           <div className="mb-4">
-            <label htmlFor="feedback" className="block text-sm font-medium text-gray-700 mb-2">
+            {/* <label htmlFor="feedback" className="block text-sm font-medium text-gray-700 mb-2">
               Your feedback
-            </label>
+            </label> */}
             <textarea
               id="feedback"
               value={feedback}
