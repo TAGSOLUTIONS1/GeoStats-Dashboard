@@ -51,7 +51,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
     <>
     {isOpen ? (
     <div 
-      className={`fixed top-8 right-10 h-full w-72 bg-white shadow-2xl z-50 border-l border-gray-200 transition-all duration-500 ease-out transform ${
+      className={`fixed top-8 right-10 h-full w-80 bg-white shadow-2xl z-50 border-l border-gray-200 transition-all duration-500 ease-out transform ${
         isOpen ? 'translate-y-10 opacity-100' : '-translate-y-full opacity-100'
       }`}
       onClick={onClose}
