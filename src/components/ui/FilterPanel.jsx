@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { X, Plus } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const FilterPanel = ({ isOpen, onClose }) => {
 
@@ -49,13 +50,13 @@ const FilterPanel = ({ isOpen, onClose }) => {
 
   return (
     <>
-    {isOpen ? (
-    <div 
-      className={`fixed top-8 right-10 h-full w-80 bg-white shadow-2xl z-50 border-l border-gray-200 transition-all duration-500 ease-out transform ${
-        isOpen ? 'translate-y-10 opacity-100' : '-translate-y-full opacity-100'
-      }`}
-      onClick={onClose}
-    >
+        <motion.div
+        initial={{ opacity: 0, height: 0 }}
+        animate={isOpen ? { opacity: 1, height: "80%" } : { opacity: 1, height: 0 }}
+        transition={{ duration: 0.75, ease: "easeInOut" }}
+        className="fixed top-16 right-10 w-80 bg-white shadow-2xl z-50 overflow-hidden"
+        onClick={onClose}
+        >
       <div 
         className="h-full flex flex-col"
         onClick={(e) => e.stopPropagation()}
@@ -181,10 +182,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
           background: transparent;
         }
       `}</style>
-    </div>
-    ):(
-      <div></div>
-    )}
+    </motion.div>
     </>
   );
 };
