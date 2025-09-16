@@ -7,18 +7,11 @@ const DatePicker = ({ selectedDate, onDateChange, className = '' }) => {
   const [currentMonth, setCurrentMonth] = useState(new Date());
   const dropdownRef = useRef(null);
 
-  // Parse the selected date (format: "Jul 2025")
-  const parseSelectedDate = (dateString) => {
-    const [month, year] = dateString.split(' ');
-    const monthIndex = new Date(`${month} 1, ${year}`).getMonth();
-    return new Date(year, monthIndex);
-  };
 
   const formatDate = (date) => {
     return date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
   };
 
-  const selectedDateObj = parseSelectedDate(selectedDate);
 
   useEffect(() => {
     const handleClickOutside = (event) => {

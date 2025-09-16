@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Filter, Share, LogIn, Share2, Table } from 'lucide-react';
+import { Search, Filter, LogIn, Share2, Table } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
 import TableViewModal from '../ui/TableViewModal';

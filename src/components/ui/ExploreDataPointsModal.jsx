@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Home, TrendingUp, BarChart3, DollarSign, Users, Crown, ChevronDown, ChevronUp } from 'lucide-react';
+import { X , Crown, ChevronDown, ChevronUp } from 'lucide-react';
 import { dataSections } from '../../data/sidebarData';
 import { motion } from 'framer-motion';
 
@@ -13,20 +13,6 @@ const ExploreDataPointsModal = ({ isOpen, onClose }) => {
   });
 
   if (!isOpen) return null;
-
-  const iconMap = {
-    Home,
-    TrendingUp,
-    BarChart3,
-    DollarSign,
-    Users,
-    Crown
-  };
-
-  const getIcon = (iconName) => {
-    const IconComponent = iconMap[iconName] || BarChart3;
-    return <IconComponent className="w-5 h-5" />;
-  };
 
   const toggleSection = (sectionId) => {
     setExpandedSections(prev => ({

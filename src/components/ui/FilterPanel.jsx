@@ -41,13 +41,6 @@ const FilterPanel = ({ isOpen, onClose }) => {
     });
   };
 
-  const formatValue = (value, unit) => {
-    if (unit === '$') {
-      return `$${value.toLocaleString()}`;
-    }
-    return `${value}${unit}`;
-  };
-
   return (
     <>
         <motion.div

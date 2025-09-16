@@ -8,7 +8,6 @@ const DataPointItem = ({
   hoveredItem, 
   setHoveredItem 
 }) => {
-  const IconComponent = item.icon;
   const infoButtonRef = useRef(null);
   const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
 

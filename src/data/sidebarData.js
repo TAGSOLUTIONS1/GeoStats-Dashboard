@@ -4,7 +4,6 @@ import {
   BarChart3,
   DollarSign,
   Users,
-  Crown
 } from 'lucide-react';
 
 export const dataPoints = [
