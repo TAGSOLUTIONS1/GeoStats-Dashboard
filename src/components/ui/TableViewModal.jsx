@@ -83,7 +83,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
       initial={{ opacity: 0, y: "100%" }}
       animate={isOpen ? { opacity: 1, y: "0%" } : { opacity: 1, y: "100%" }}
       transition={{ duration: 0.5, ease: "easeInOut" }}
-      className="fixed w-[76%] h-[85%] bottom-0 right-5 flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
+      className="fixed w-[76%] h-[98%] bottom-0 right-5 flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
     >
       <div className="w-full h-full flex flex-col overflow-y-auto ">
         {/* Header */}
@@ -98,7 +98,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
             </button>
             <button
               onClick={onClose}
-              className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+              className="p-2 hover:bg-gray-200 bg-gray-100 rounded-lg transition-colors"
             >
               <X className="w-6 h-6 text-gray-500" />
             </button>

@@ -50,7 +50,7 @@ const Layout = ({ children }) => {
                 />
               </div>
 
-              <div className="flex items-center space-x-">
+              <div className="flex items-center space-x-6">
               {/* Filter Options */}
               <div className="flex items-center space-x-8">
                 {filterOptions.map((option) => (
@@ -69,7 +69,7 @@ const Layout = ({ children }) => {
               </div>
 
               {/* Action Buttons */}
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-4">
                 <button className="p-2 hover:bg-gray-100 rounded-lg transition-colors border border-gray-300">
                     <Share2 className="w-5 h-5 text-gray-600" />
                 </button>
