@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Search, Filter, LogIn, Share2, Table } from 'lucide-react';
+import { Search, Filter, LogIn, Share2, Table, MessageCircle } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
 import TableViewModal from '../ui/TableViewModal';
 import DatePicker from '../ui/DatePicker';
 import TooltipToggle from '../ui/TooltipToggle';
+import FeedbackModal from '../ui/FeedbackModal';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -13,6 +14,7 @@ const Layout = ({ children }) => {
   const [isTableViewOpen, setIsTableViewOpen] = useState(false);
   const [isTooltipEnabled, setIsTooltipEnabled] = useState(true);
   const [selectedDate, setSelectedDate] = useState('Jul 2025');
+  const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
 
   const filterOptions = ['State', 'City', 'Area', 'Zip'];
 
@@ -30,6 +32,10 @@ const Layout = ({ children }) => {
 
   const handleDateChange = (newDate) => {
     setSelectedDate(newDate);
+  };
+
+  const handleFeedback = () => {
+    setIsFeedbackOpen(!isFeedbackOpen);
   };
 
   return (
@@ -115,6 +121,18 @@ const Layout = ({ children }) => {
               onDateChange={handleDateChange}
             />
           </div>
+          
+          {/* Feedback Button */}
+          <button 
+            onClick={handleFeedback}
+            className="flex items-center space-x-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
+          >
+            <div className="flex items-center -space-x-5">
+              <MessageCircle className="w-4 h-4 text-gray-600 -rotate-90 mt-1 z-10" />
+              <MessageCircle className="w-4 h-4 text-gray-600 rotate-6 fill-white z-20" />
+            </div>
+            <span className="text-sm text-gray-700 ml-6">Feedback</span>
+          </button>
         </div>
       </main>
       
@@ -128,6 +146,12 @@ const Layout = ({ children }) => {
       <TableViewModal 
         isOpen={isTableViewOpen} 
         onClose={handleTableView} 
+      />
+      
+      {/* Feedback Modal */}
+      <FeedbackModal 
+        isOpen={isFeedbackOpen} 
+        onClose={handleFeedback} 
       />
     </div>
   );
