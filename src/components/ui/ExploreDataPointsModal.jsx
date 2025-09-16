@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { X, Home, TrendingUp, BarChart3, DollarSign, Users, Crown, ChevronDown, ChevronUp } from 'lucide-react';
 import { dataSections } from '../../data/sidebarData';
+import { motion } from 'framer-motion';
 
 const ExploreDataPointsModal = ({ isOpen, onClose }) => {
   const [expandedSections, setExpandedSections] = useState({
@@ -35,10 +36,16 @@ const ExploreDataPointsModal = ({ isOpen, onClose }) => {
   };
 
   return (
-    <div className="fixed w-[76%] top-[10%] right-5 flex items-center justify-center z-50 p-4">
-      <div className="bg-white rounded-lg shadow-xl w-full h-full">
+    <motion.div
+        initial={{ opacity: 0, y: "100%" }}   // hidden below screen
+        animate={isOpen ? { opacity: 1, y: "0%" } : { opacity: 1, y: "100%" }}
+        transition={{ duration: 0.75, ease: "easeInOut" }}
+        className="fixed w-[76%] h-[85%] bottom-0 right-5 flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
+        >
+    {/* <div className="fixed w-[76%] top-[10%] right-5 flex items-center justify-center z-50 p-4"> */}
+      <div className=" w-full h-full">
         {/* Header */}
-        <div className="flex items-center justify-between p-6 border-b border-gray-200">
+        <div className="flex items-center justify-between p-6">
           <div>
             <h2 className="text-3xl font-bold text-gray-900">Data Points</h2>
           </div>
@@ -51,8 +58,8 @@ const ExploreDataPointsModal = ({ isOpen, onClose }) => {
         </div>
 
         {/* Content */}
-        <div className="p-6 overflow-y-auto max-h-[calc(90vh-120px)]">
-          <div className="space-y-4">
+        <div className="p-6 overflow-y-auto max-h-[calc(85vh-120px)]">
+          <div className="space-y-4 pb-8">
             {dataSections.map((section) => (
               <div key={section.id} className="border border-gray-200 rounded-lg">
                 {/* Section Header */}
@@ -71,11 +78,11 @@ const ExploreDataPointsModal = ({ isOpen, onClose }) => {
                 {/* Section Content */}
                 {expandedSections[section.id] && (
                   <div className="p-4">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-2">
                       {section.items.map((point) => (
                         <div
                           key={point.id}
-                          className="bg-white rounded-lg p-4 border border-gray-200 hover:border-blue-300 transition-colors"
+                          className="bg-white rounded-lg p-4 border border-gray-200 hover:border-blue-300 transition-colors mb-2"
                         >
                           <div className="mb-3">
                             <h4 className="font-semibold text-gray-900 text-lg mb-2 flex items-center space-x-2">
@@ -109,7 +116,8 @@ const ExploreDataPointsModal = ({ isOpen, onClose }) => {
           </div>
         </div>
       </div>
-    </div>
+    {/* </div> */}
+    </motion.div>
   );
 };
 
