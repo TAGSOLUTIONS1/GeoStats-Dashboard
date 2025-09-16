@@ -70,44 +70,34 @@ const ExploreDataPointsModal = ({ isOpen, onClose }) => {
 
                 {/* Section Content */}
                 {expandedSections[section.id] && (
-                  <div className="p-4 border-t border-gray-200">
+                  <div className="p-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {section.items.map((point) => (
                         <div
                           key={point.id}
-                          className="bg-white border border-gray-200 rounded-lg p-4 hover:border-blue-300 transition-colors"
+                          className="bg-white rounded-lg p-4 border border-gray-200 hover:border-blue-300 transition-colors"
                         >
-                          <div className="flex items-start justify-between mb-3">
-                            <div className="flex items-center space-x-3">
-                              <div className="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600">
-                                {getIcon(point.icon)}
-                              </div>
-                              <div>
-                                <h4 className="font-semibold text-gray-900 flex items-center space-x-2">
-                                  <span>{point.label}</span>
-                                  {point.isPremium && (
-                                    <Crown className="w-4 h-4 text-yellow-500" />
-                                  )}
-                                </h4>
-                                {point.isSelected && (
-                                  <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full">
-                                    Selected
-                                  </span>
-                                )}
-                              </div>
-                            </div>
+                          <div className="mb-3">
+                            <h4 className="font-semibold text-gray-900 text-lg mb-2 flex items-center space-x-2">
+                              <span>{point.label}</span>
+                              {point.isPremium && (
+                                <Crown className="w-4 h-4 text-yellow-500" />
+                              )}
+                            </h4>
                           </div>
-                          <p className="text-gray-600 text-sm leading-relaxed">
+                          <p className="text-gray-600 text-sm leading-relaxed mb-3">
                             {point.description}
                           </p>
-                          <div className="mt-3 flex items-center justify-between">
+                          <div className="flex items-center justify-between">
                             <div className="flex items-center space-x-2">
                               <div className={`w-2 h-2 rounded-full ${point.isPremium ? 'bg-yellow-400' : 'bg-green-400'}`}></div>
                               <span className="text-xs text-gray-500">
                                 {point.isPremium ? 'Premium Feature' : 'Free Feature'}
                               </span>
                             </div>
-                            <span className="text-xs text-blue-600 font-medium">Learn More</span>
+                            <div className="text-xs text-gray-500">
+                              Source: <span className="font-medium text-blue-600">{point.source}</span>
+                            </div>
                           </div>
                         </div>
                       ))}

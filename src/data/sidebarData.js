@@ -14,7 +14,8 @@ export const dataPoints = [
     icon: Home,
     isSelected: true,
     isPremium: false,
-    description: 'The estimated value of residential properties in the area based on recent sales data and market trends.'
+    description: 'The area\'s typical Home Value as determined by the Zillow Home Value Index ("ZHVI"). This is a smoothed, seasonally adjusted figure.',
+    source: 'Zillow'
   },
   {
     id: 'home-value-growth-yoy',
@@ -22,7 +23,8 @@ export const dataPoints = [
     icon: TrendingUp,
     isSelected: false,
     isPremium: false,
-    description: 'Year-over-year percentage change in home values, indicating market growth trends.'
+    description: 'The year-over-year growth rate in the area\'s typical Home Value according to the Zillow Home Value Index ("ZHVI").',
+    source: 'Zillow'
   },
   {
     id: 'for-sale-inventory',
@@ -30,7 +32,8 @@ export const dataPoints = [
     icon: BarChart3,
     isSelected: false,
     isPremium: false,
-    description: 'The number of active listings on the market for sale in the area in a given month as determined by Realtor.com.'
+    description: 'The number of active listings on the market for sale in the area in a given month as determined by Realtor.com. Note: For Sale Inventory excludes listings that are pending.',
+    source: 'Realtor.com'
   },
   {
     id: 'home-price-forecast',
@@ -38,7 +41,8 @@ export const dataPoints = [
     icon: TrendingUp,
     isSelected: false,
     isPremium: false,
-    description: 'Projected future home price movements based on current market conditions and economic indicators.'
+    description: 'Projected future home price movements based on current market conditions and economic indicators.',
+    source: 'Zillow'
   },
   {
     id: 'long-term-growth-score',
@@ -46,7 +50,8 @@ export const dataPoints = [
     icon: BarChart3,
     isSelected: false,
     isPremium: true,
-    description: 'A comprehensive score predicting long-term property value growth potential based on multiple factors.'
+    description: 'A comprehensive score predicting long-term property value growth potential based on multiple factors.',
+    source: 'Reventure'
   },
   {
     id: 'home-value-growth-5year',
@@ -54,7 +59,8 @@ export const dataPoints = [
     icon: TrendingUp,
     isSelected: false,
     isPremium: true,
-    description: 'Five-year compound annual growth rate of home values in the area.'
+    description: 'The 5-year growth rate in home values for an area. Looking at this data point gives a longer-term perspective on how home values have grown in an area.',
+    source: 'Zillow'
   },
   {
     id: 'overvalued-percent',
@@ -62,7 +68,8 @@ export const dataPoints = [
     icon: DollarSign,
     isSelected: false,
     isPremium: true,
-    description: 'Percentage by which current home prices exceed their fundamental value based on economic indicators.'
+    description: 'An estimate of how over or undervalued current Home Values in the area are relative to the fundamentals dictated by local median household income.',
+    source: 'Reventure'
   },
   {
     id: 'price-cut-percent',
@@ -70,7 +77,8 @@ export const dataPoints = [
     icon: DollarSign,
     isSelected: false,
     isPremium: true,
-    description: 'Percentage of listings that have had their prices reduced from the original listing price.'
+    description: 'Percentage of listings that have had their prices reduced from the original listing price.',
+    source: 'Realtor.com'
   },
   {
     id: 'population-growth',
@@ -78,7 +86,8 @@ export const dataPoints = [
     icon: Users,
     isSelected: false,
     isPremium: true,
-    description: 'Annual percentage change in population, indicating demographic trends affecting housing demand.'
+    description: 'Annual percentage change in population, indicating demographic trends affecting housing demand.',
+    source: 'Census Bureau'
   },
   {
     id: 'cap-rate',
@@ -86,7 +95,8 @@ export const dataPoints = [
     icon: BarChart3,
     isSelected: false,
     isPremium: true,
-    description: 'Capitalization rate - the ratio of net operating income to property value, used in real estate investment analysis.'
+    description: 'Capitalization rate - the ratio of net operating income to property value, used in real estate investment analysis.',
+    source: 'Reventure'
   }
 ];
 
@@ -127,7 +137,8 @@ export const dataSections = [
         icon: TrendingUp,
         isSelected: false,
         isPremium: false,
-        description: 'The year-over-year growth rate in the area\'s For Sale Inventory according to Realtor.com. If an area has big inventory increases, it could mean greater likelihood of home price declines, while sharply lower inventory could mean that home prices will continue to go up.'
+        description: 'The year-over-year growth rate in the area\'s For Sale Inventory according to Realtor.com. If an area has big inventory increases, it could mean greater likelihood of home price declines, while sharply lower inventory could mean that home prices will continue to go up.',
+        source: 'Realtor.com'
       }
     ]
   },
