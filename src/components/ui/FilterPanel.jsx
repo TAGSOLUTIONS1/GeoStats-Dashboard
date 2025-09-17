@@ -5,39 +5,62 @@ import { motion } from 'framer-motion';
 const FilterPanel = ({ isOpen, onClose }) => {
 
   const [filters, setFilters] = useState({
-    'population-growth': { min: 0.0, max: 0.0, minRange: 0.0, maxRange: 10.0, label: 'Population Growth', unit: '%' },
-    'price-cut': { min: 0.0, max: 0.0, minRange: 0.0, maxRange: 20.0, label: 'Price Cut %', unit: '%' },
+    'population-growth': { min: 0.0, max: 10.0, minRange: 0.0, maxRange: 10.0, label: 'Population Growth', unit: '%' },
+    'price-cut': { min: 0.0, max: 20.0, minRange: 0.0, maxRange: 20.0, label: 'Price Cut %', unit: '%' },
     'sale-inventory-growth': { min: -100.0, max: 1000.0, minRange: -100.0, maxRange: 1000.0, label: 'Sale Inventory Growth (YoY)', unit: '%' },
-    'median-household-income': { min: 35430, max: 179469, minRange: 20000, maxRange: 200000, label: 'Median Household Income', unit: '$' }
+    'median-household-income': { min: 20000, max: 200000, minRange: 20000, maxRange: 200000, label: 'Median Household Income', unit: '$' }
   });
 
   const handleSliderChange = (filterKey, type, value) => {
-    setFilters(prev => ({
-      ...prev,
-      [filterKey]: {
-        ...prev[filterKey],
-        [type]: parseFloat(value)
+    const numValue = parseFloat(value);
+    const currentFilter = filters[filterKey];
+    
+    setFilters(prev => {
+      const newFilter = { ...prev[filterKey] };
+      
+      if (type === 'min') {
+        // Ensure min doesn't exceed max - 1
+        newFilter.min = Math.min(numValue, currentFilter.max - 1);
+      } else if (type === 'max') {
+        // Ensure max doesn't go below min + 1
+        newFilter.max = Math.max(numValue, currentFilter.min + 1);
       }
-    }));
+      
+      return {
+        ...prev,
+        [filterKey]: newFilter
+      };
+    });
   };
 
   const handleInputChange = (filterKey, type, value) => {
     const numValue = parseFloat(value) || 0;
-    setFilters(prev => ({
-      ...prev,
-      [filterKey]: {
-        ...prev[filterKey],
-        [type]: numValue
+    const currentFilter = filters[filterKey];
+    
+    setFilters(prev => {
+      const newFilter = { ...prev[filterKey] };
+      
+      if (type === 'min') {
+        // Ensure min doesn't exceed max - 1
+        newFilter.min = Math.min(numValue, currentFilter.max - 1);
+      } else if (type === 'max') {
+        // Ensure max doesn't go below min + 1
+        newFilter.max = Math.max(numValue, currentFilter.min + 1);
       }
-    }));
+      
+      return {
+        ...prev,
+        [filterKey]: newFilter
+      };
+    });
   };
 
   const resetFilters = () => {
     setFilters({
-      'population-growth': { min: 0.0, max: 0.0, minRange: 0.0, maxRange: 10.0, label: 'Population Growth', unit: '%' },
-      'price-cut': { min: 0.0, max: 0.0, minRange: 0.0, maxRange: 20.0, label: 'Price Cut %', unit: '%' },
+      'population-growth': { min: 0.0, max: 10.0, minRange: 0.0, maxRange: 10.0, label: 'Population Growth', unit: '%' },
+      'price-cut': { min: 0.0, max: 20.0, minRange: 0.0, maxRange: 20.0, label: 'Price Cut %', unit: '%' },
       'sale-inventory-growth': { min: -100.0, max: 1000.0, minRange: -100.0, maxRange: 1000.0, label: 'Sale Inventory Growth (YoY)', unit: '%' },
-      'median-household-income': { min: 35430, max: 179469, minRange: 20000, maxRange: 200000, label: 'Median Household Income', unit: '$' }
+      'median-household-income': { min: 20000, max: 200000, minRange: 20000, maxRange: 200000, label: 'Median Household Income', unit: '$' }
     });
   };
 
@@ -78,10 +101,10 @@ const FilterPanel = ({ isOpen, onClose }) => {
               
               {/* Range Slider */}
               <div className="space-y-2">
-                <div className="relative h-2">
-                  <div className="absolute top-0 left-0 w-full h-2 bg-gray-200 rounded-lg"></div>
+                <div className="relative h-6 py-2">
+                  <div className="absolute top-3 left-0 w-full h-2 bg-gray-200 rounded-lg"></div>
                   <div 
-                    className="absolute top-0 h-2 bg-red-500 rounded-lg"
+                    className="absolute top-3 h-2 bg-red-500 rounded-lg"
                     style={{
                       left: `${((filter.min - filter.minRange) / (filter.maxRange - filter.minRange)) * 100}%`,
                       width: `${((filter.max - filter.min) / (filter.maxRange - filter.minRange)) * 100}%`
@@ -93,7 +116,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
                     max={filter.maxRange}
                     value={filter.min}
                     onChange={(e) => handleSliderChange(key, 'min', e.target.value)}
-                    className="absolute top-0 w-full h-2 bg-transparent appearance-none cursor-pointer slider-thumb"
+                    className="absolute w-full h-4 bg-transparent appearance-none cursor-pointer slider-thumb"
                   />
                   <input
                     type="range"
@@ -101,7 +124,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
                     max={filter.maxRange}
                     value={filter.max}
                     onChange={(e) => handleSliderChange(key, 'max', e.target.value)}
-                    className="absolute top-0 w-full h-2 bg-transparent appearance-none cursor-pointer slider-thumb"
+                    className="absolute w-full h-4 bg-transparent appearance-none cursor-pointer slider-thumb"
                   />
                 </div>
                 
@@ -148,31 +171,47 @@ const FilterPanel = ({ isOpen, onClose }) => {
       <style jsx>{`
         .slider-thumb::-webkit-slider-thumb {
           appearance: none;
-          height: 16px;
-          width: 16px;
+          height: 20px;
+          width: 20px;
           border-radius: 50%;
           background: #ef4444;
           cursor: pointer;
-          border: 2px solid white;
-          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+          border: 3px solid white;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+          position: relative;
+          z-index: 2;
         }
         
         .slider-thumb::-moz-range-thumb {
-          height: 16px;
-          width: 16px;
+          height: 20px;
+          width: 20px;
           border-radius: 50%;
           background: #ef4444;
           cursor: pointer;
-          border: 2px solid white;
-          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+          border: 3px solid white;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+          position: relative;
+          z-index: 2;
         }
         
         .slider-thumb::-webkit-slider-track {
           background: transparent;
+          height: 6px;
         }
         
         .slider-thumb::-moz-range-track {
           background: transparent;
+          height: 6px;
+        }
+        
+        .slider-thumb:hover::-webkit-slider-thumb {
+          transform: scale(1.1);
+          box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        
+        .slider-thumb:hover::-moz-range-thumb {
+          transform: scale(1.1);
+          box-shadow: 0 4px 8px rgba(0,0,0,0.3);
         }
       `}</style>
     </motion.div>
