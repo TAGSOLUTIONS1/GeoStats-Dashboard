@@ -68,7 +68,7 @@ const Layout = ({ children }) => {
                   placeholder="Search your State, City, or ZIP Code"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-80"
+                  className="pl-10 pr-4 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-80"
                 />
               </div>
 
@@ -85,7 +85,7 @@ const Layout = ({ children }) => {
                       onChange={(e) => setSelectedFilter(e.target.value)}
                       className="text-blue-600 w-3 h-3"
                     />
-                    <span className="text-base text-gray-700">{option}</span>
+                    <span className="text-sm text-gray-700">{option}</span>
                   </label>
                 ))}
               </div>
@@ -102,14 +102,14 @@ const Layout = ({ children }) => {
                   onClick={handleFilterPanel}
                   className="p-2 hover:bg-gray-100 rounded-lg transition-colors flex items-center space-x-1 border border-gray-300"
                 >
-                  <Filter className="w-5 h-5 text-gray-600" />
-                  <p>Filter</p>
+                  <Filter className="w-4 h-4 text-gray-600" />
+                  <p className="text-sm">Filter</p>
                 </button>
-                <button className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
+                <button className="px-3 py-1.5 text-xs font-medium text-gray-700 hover:text-gray-900 transition-colors">
                   Sign up
                 </button>
-                <button className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors flex items-center space-x-1">
-                  <LogIn className="w-4 h-4" />
+                <button className="px-3 py-1.5 bg-blue-600 text-white text-xs font-medium rounded-lg hover:bg-blue-700 transition-colors flex items-center space-x-1">
+                  <LogIn className="w-3 h-3" />
                   <span>Login</span>
                 </button>
               </div>

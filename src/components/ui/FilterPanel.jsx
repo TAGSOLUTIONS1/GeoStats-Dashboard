@@ -102,12 +102,12 @@ const FilterPanel = ({ isOpen, onClose }) => {
       >
         {/* Header */}
         <div className="flex items-center justify-between p-4 border-b border-gray-200">
-          <h2 className="text-lg font-semibold text-gray-900">Filter</h2>
+          <h2 className="text-base font-semibold text-gray-900">Filter</h2>
           <button
             onClick={onClose}
             className="p-1 hover:bg-gray-100 rounded-lg transition-colors"
           >
-            <X className="w-5 h-5 text-gray-500" />
+            <X className="w-4 h-4 text-gray-500" />
           </button>
         </div>
 
@@ -116,7 +116,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
           {Object.entries(filters).map(([key, filter]) => (
             <div key={key} className="space-y-3">
               <div className="flex items-center justify-between">
-                <h3 className="text-sm font-medium text-gray-900">{filter.label}</h3>
+                <h3 className="text-xs font-medium text-gray-900">{filter.label}</h3>
                 <button 
                   onClick={() => resetSingleFilter(key)}
                   className="text-gray-400 hover:text-gray-600 transition-colors"
@@ -181,7 +181,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
           {/* Add More Filters Button */}
           <button className="w-full flex items-center justify-center space-x-2 py-3 border-2 border-dashed border-gray-300 rounded-lg text-gray-600 hover:border-gray-400 hover:text-gray-700 transition-colors">
             <Plus className="w-4 h-4" />
-            <span className="text-sm font-medium">Add data filters</span>
+            <span className="text-xs font-medium">Add data filters</span>
           </button>
         </div>
 
@@ -189,7 +189,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
         <div className="p-4 border-t border-gray-200">
           <button
             onClick={resetFilters}
-            className="w-full py-2 px-4 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
+            className="w-full py-2 px-4 text-xs font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
           >
             Reset
           </button>

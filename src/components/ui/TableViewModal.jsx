@@ -89,18 +89,18 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
         {/* Header */}
         <div className="flex items-center justify-between p-6 border-b border-gray-200">
           <div className="flex items-center space-x-4">
-            <h2 className="text-2xl font-bold text-gray-900">GeoStats Table View - Zip</h2>
+            <h2 className="text-lg font-bold text-gray-900">GeoStats Table View - Zip</h2>
           </div>
           <div className="flex items-center space-x-3">
-            <button className="px-4 py-2 bg-red-600 text-white text-sm font-medium rounded-lg hover:bg-red-700 transition-colors flex items-center space-x-2">
-              <Download className="w-4 h-4" />
+            <button className="px-3 py-1.5 bg-red-600 text-white text-xs font-medium rounded-lg hover:bg-red-700 transition-colors flex items-center space-x-2">
+              <Download className="w-3 h-3" />
               <span>Download Report</span>
             </button>
             <button
               onClick={onClose}
               className="p-2 hover:bg-gray-200 bg-gray-100 rounded-lg transition-colors"
             >
-              <X className="w-6 h-6 text-gray-500" />
+              <X className="w-5 h-5 text-gray-500" />
             </button>
           </div>
         </div>
@@ -114,15 +114,15 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                   {tableHeaders.map((header) => (
                     <th 
                       key={header.key}
-                      className="py-3 px-4 font-semibold text-gray-900 cursor-pointer hover:bg-gray-50 justify-items-center"
+                      className="py-2 px-3 font-semibold text-sm text-gray-900 cursor-pointer hover:bg-gray-50 justify-items-center"
                       onClick={() => header.sortable && handleSort(header.key)}
                     >
                       <div className="flex items-center space-x-1">
                         <span>{header.label}</span>
                         {header.sortable && (
                           sortConfig.key === header.key ? (
-                            sortConfig.direction === 'asc' ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />
-                          ) : <ChevronUp className="w-4 h-4 opacity-30" />
+                            sortConfig.direction === 'asc' ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />
+                          ) : <ChevronUp className="w-3 h-3 opacity-30" />
                         )}
                       </div>
                     </th>
@@ -135,7 +135,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                     {tableHeaders.map((header) => (
                       <td 
                         key={header.key}
-                        className={`py-3 px-4 text-center text-gray-900 ${header.className || ''}`}
+                        className={`py-2 px-3 text-center text-xs text-gray-900 ${header.className || ''}`}
                       >
                         {formatCellValue(row[header.key], header.format)}
                       </td>
@@ -151,18 +151,18 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
         <div className="p-6 border-t border-gray-200">
           <div className="flex items-center justify-between">
               <div className="flex items-center space-x-4">
-                <span className="text-sm text-gray-600">
+                <span className="text-xs text-gray-600">
                   Showing {startIndex + 1} to {Math.min(endIndex, sortedData.length)} of {sortedData.length}
                 </span>
                 <div className="flex items-center space-x-2">
-                  <label className="text-sm text-gray-600">Rows per Page:</label>
+                  <label className="text-xs text-gray-600">Rows per Page:</label>
                   <select
                     value={rowsPerPage}
                     onChange={(e) => {
                       setRowsPerPage(Number(e.target.value));
                       setCurrentPage(1);
                     }}
-                    className="px-2 py-1 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+                    className="px-2 py-1 border border-gray-300 rounded text-xs focus:outline-none focus:ring-1 focus:ring-blue-500"
                   >
                     <option value={10}>10</option>
                     <option value={25}>25</option>
@@ -176,7 +176,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
               <button
                 onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                 disabled={currentPage === 1}
-                className="px-3 py-1 border border-gray-300 rounded text-sm hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="px-2 py-1 border border-gray-300 rounded text-xs hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 &lt;
               </button>
@@ -187,7 +187,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                   <button
                     key={pageNum}
                     onClick={() => setCurrentPage(pageNum)}
-                    className={`px-3 py-1 border rounded text-sm ${
+                    className={`px-2 py-1 border rounded text-xs ${
                       currentPage === pageNum
                         ? 'bg-red-600 text-white border-red-600'
                         : 'border-gray-300 hover:bg-gray-50'
@@ -201,7 +201,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
               <button
                 onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
                 disabled={currentPage === totalPages}
-                className="px-3 py-1 border border-gray-300 rounded text-sm hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="px-2 py-1 border border-gray-300 rounded text-xs hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 &gt;
               </button>

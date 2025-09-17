@@ -26,7 +26,7 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
     return (
       <div className="space-y-4">
         <div className="flex items-center justify-between">
-          <h2 className="text-lg font-semibold text-white">{selectedItem.label}</h2>
+          <h2 className="text-base font-semibold text-white">{selectedItem.label}</h2>
           <button
             onClick={(e) => {
               e.preventDefault();
@@ -40,16 +40,16 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
         </div>
         
         <div className="space-y-3">
-          <p className="text-gray-300 text-sm leading-relaxed">
+          <p className="text-gray-300 text-xs leading-relaxed">
             {selectedItem.description}
           </p>
           
           {selectedItem.id === 'for-sale-inventory' && (
             <div className="space-y-2">
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-300 text-xs">
                 <strong className="text-white">Source:</strong> Realtor.com
               </p>
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-300 text-xs">
                 <strong className="text-white">Note:</strong> For Sale Inventory excludes listings that are pending.
               </p>
             </div>
@@ -57,10 +57,10 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
           
           {selectedItem.id === 'home-value' && (
             <div className="space-y-2">
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-300 text-xs">
                 <strong className="text-white">Data Range:</strong> $208,652 - $6,025,408
               </p>
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-300 text-xs">
                 <strong className="text-white">Update Frequency:</strong> Monthly
               </p>
             </div>
@@ -68,7 +68,7 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
           
           {selectedItem.isPremium && (
             <div className="bg-yellow-400 bg-opacity-20 border border-yellow-400 border-opacity-30 rounded-lg p-3">
-              <p className="text-yellow-300 text-sm">
+              <p className="text-yellow-300 text-xs">
                 <strong>Premium Feature:</strong> This data point requires a premium subscription to access detailed analytics and historical data.
               </p>
             </div>
@@ -76,7 +76,7 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
         </div>
         
         <div className="pt-4 border-t border-gray-700">
-          <button className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 text-sm transition-colors">
+          <button className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 text-xs transition-colors">
             <ExternalLink className="w-4 h-4" />
             <span>Learn more about this data point</span>
           </button>

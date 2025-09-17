@@ -69,7 +69,7 @@ const DatePicker = ({ selectedDate, onDateChange, className = '' }) => {
         className="flex items-center space-x-2 bg-white px-4 py-2 rounded-3xl hover:bg-gray-50 transition-colors"
       >
         <Calendar className="w-4 h-4 text-gray-500" />
-        <span className="text-sm text-gray-700">Date: {selectedDate}</span>
+        <span className="text-xs text-gray-700">Date: {selectedDate}</span>
       </button>
 
       <AnimatePresence>
@@ -91,7 +91,7 @@ const DatePicker = ({ selectedDate, onDateChange, className = '' }) => {
                 <ChevronLeft className="w-4 h-4 text-gray-400" />
               </button>
               
-              <h3 className="text-lg font-semibold text-gray-900">
+              <h3 className="text-base font-semibold text-gray-900">
                 {currentYear}
               </h3>
               
@@ -111,7 +111,7 @@ const DatePicker = ({ selectedDate, onDateChange, className = '' }) => {
                   <button
                     key={month}
                     onClick={() => handleMonthChange(index)}
-                    className={`px-3 py-2 text-sm rounded transition-colors ${
+                    className={`px-2 py-1.5 text-xs rounded transition-colors ${
                       selectedMonth === index
                         ? 'bg-red-600 text-white'
                         : 'hover:bg-gray-100 text-gray-700'

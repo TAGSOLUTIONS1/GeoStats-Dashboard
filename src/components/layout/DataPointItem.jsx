@@ -36,11 +36,11 @@ const DataPointItem = ({
             onChange={() => onItemClick(item)}
             className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2"
           />
-          <span className="text-sm text-black">{item.label}</span>
+          <span className="text-xs text-black">{item.label}</span>
         </div>
         <div className="flex items-center space-x-2 relative">
           {item.isPremium && (
-            <span className="text-xs bg-yellow-400 text-black px-1.5 py-0.5 rounded">New</span>
+            <span className="text-xs bg-yellow-400 text-black px-1 py-0.5 rounded text-xs">New</span>
           )}
           <div className="relative flex items-center space-x-2">
           {item.isPremium && (
@@ -67,7 +67,7 @@ const DataPointItem = ({
              {/* Tooltip */}
              {hoveredItem === item.id && (
               <div 
-                className="fixed bg-black opacity-80 text-white text-sm px-2 py-2 rounded shadow-lg 
+                className="fixed bg-black opacity-80 text-white text-xs px-2 py-1 rounded shadow-lg 
                           whitespace-nowrap z-[9999] pointer-events-none"
                 style={{
                   top: `${tooltipPosition.top}px`,
