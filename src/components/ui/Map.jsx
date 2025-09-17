@@ -247,15 +247,14 @@ const Map = () => {
   const hasValidToken = token && token !== 'your_mapbox_access_token_here';
 
   return (
-    <div className="w-screen h-screen overflow-hidden" style={{ width: '100vw', height: '100vh' }}>
+    <div className="w-full h-full overflow-hidden">
       {/* Mapbox Container */}
       <div 
         ref={mapContainer} 
         className="w-full h-full"
         style={{ 
           width: '100%',
-          height: '100%',
-          minHeight: '100vh'
+          height: '100%'
         }}
       />
       
@@ -296,12 +295,12 @@ const Map = () => {
       </div>
       
       {/* Debug Info */}
-      <div className="absolute top-4 right-4 bg-yellow-100 border border-yellow-300 rounded px-3 py-2 text-sm shadow-lg">
+      {/* <div className="absolute top-4 right-4 bg-yellow-100 border border-yellow-300 rounded px-3 py-2 text-sm shadow-lg">
         <div className="text-yellow-800">
           <div>Container: {mapContainer.current ? 'Found' : 'Not Found'}</div>
           <div>Token: {hasValidToken ? 'Valid' : 'Invalid'}</div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
