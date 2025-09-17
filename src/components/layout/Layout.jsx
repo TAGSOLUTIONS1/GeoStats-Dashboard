@@ -57,9 +57,9 @@ const Layout = ({ children }) => {
         <Map />
       </div>
       
-      <main className="flex-1 relative z-20 flex flex-col">
+      <main className="flex-1 relative z-20 flex flex-col pointer-events-none">
         {/* Top Header */}
-        <div className="bg-white/95 backdrop-blur-sm border-b border-gray-200 px-6 py-4 flex justify-between">
+        <div className="bg-white/95 backdrop-blur-sm border-b border-gray-200 px-6 py-4 flex justify-between pointer-events-auto">
             
               <div className="relative">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
@@ -131,7 +131,7 @@ const Layout = ({ children }) => {
         )}
 
         {/* Bottom Control Bar */}
-        <div className="bg-white/95 backdrop-blur-sm border-t border-gray-200 px-6 py-4 flex items-center justify-between">
+        <div className="bg-white/95 backdrop-blur-sm border-t border-gray-200 px-6 py-4 flex items-center justify-between pointer-events-auto">
           <div className="flex items-center space-x-6">
             <TooltipToggle 
               isEnabled={isTooltipEnabled}
