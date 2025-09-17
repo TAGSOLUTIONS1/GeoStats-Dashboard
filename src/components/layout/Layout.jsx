@@ -150,19 +150,22 @@ const Layout = ({ children }) => {
             />
           </div>
           
-          {/* Feedback Button */}
-          <button 
-            onClick={handleFeedback}
-            className="flex items-center space-x-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
-          >
-            <div className="flex items-center -space-x-5">
-              <MessageCircle className="w-4 h-4 text-gray-600 -rotate-90 mt-1 z-10" />
-              <MessageCircle className="w-4 h-4 text-gray-600 rotate-6 fill-white z-20" />
-            </div>
-            <span className="text-sm text-gray-700 ml-6">Feedback</span>
-          </button>
         </div>
       </main>
+      
+      {/* Feedback Button - Floating above map controls */}
+      <div className="absolute bottom-20 right-4 pointer-events-auto z-30">
+        <button 
+          onClick={handleFeedback}
+          className="flex items-center space-x-2 px-4 py-2 bg-white/95 hover:bg-white rounded-lg shadow-lg transition-all duration-200 ease-in-out hover:shadow-xl transform hover:scale-105"
+        >
+          <div className="flex items-center -space-x-5">
+            <MessageCircle className="w-4 h-4 text-gray-600 -rotate-90 mt-1 z-10" />
+            <MessageCircle className="w-4 h-4 text-gray-600 rotate-6 fill-white z-20" />
+          </div>
+          <span className="text-sm text-gray-700 ml-6">Feedback</span>
+        </button>
+      </div>
       
       {/* Filter Panel */}
         <FilterPanel 

@@ -68,7 +68,7 @@ const Map = () => {
       }
 
       // Add navigation controls
-      map.current.addControl(new mapboxgl.NavigationControl(), 'top-right');
+      map.current.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 
       // Add geolocate control
       map.current.addControl(
@@ -79,11 +79,11 @@ const Map = () => {
           trackUserLocation: true,
           showUserHeading: true
         }),
-        'top-right'
+        'bottom-right'
       );
 
       // Add fullscreen control
-      map.current.addControl(new mapboxgl.FullscreenControl(), 'top-right');
+      map.current.addControl(new mapboxgl.FullscreenControl(), 'bottom-right');
 
       // Add scale control
       map.current.addControl(new mapboxgl.ScaleControl({

@@ -18,6 +18,13 @@
 .env.test.local
 .env.production.local
 
+# environment variables
+.env
+
+# test files
+test-mapbox.html
+setup-mapbox.js
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
