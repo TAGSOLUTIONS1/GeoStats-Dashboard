@@ -7,6 +7,7 @@ import DatePicker from '../ui/DatePicker';
 import TooltipToggle from '../ui/TooltipToggle';
 import FeedbackModal from '../ui/FeedbackModal';
 import ShareModal from '../ui/ShareModal';
+import Map from '../ui/Map';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -45,11 +46,17 @@ const Layout = ({ children }) => {
   };
 
   return (
-    <div className="flex h-screen bg-gray-50">
+    <div className="flex h-screen bg-gray-50 relative">
       <Sidebar />
-      <main className="flex-1 overflow-y-auto">
+      
+      {/* Background Map - Fixed behind main content only */}
+      <div className="absolute left-80 right-0 top-0 bottom-0 z-0">
+        <Map />
+      </div>
+      
+      <main className="flex-1 relative z-10 flex flex-col">
         {/* Top Header */}
-        <div className="bg-white border-b border-gray-200 px-6 py-4 flex justify-between">
+        <div className="bg-white/95 backdrop-blur-sm border-b border-gray-200 px-6 py-4 flex justify-between">
             
               <div className="relative">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
@@ -106,13 +113,13 @@ const Layout = ({ children }) => {
             </div>
         </div>
         
-        {/* Main Content */}
-        <div className="p-6">
+        {/* Main Content Area - Scrollable over map */}
+        <div className="flex-1 overflow-y-auto">
           {children}
         </div>
 
         {/* Bottom Control Bar */}
-        <div className="bg-white border-t border-gray-200 px-6 py-4 flex items-center justify-between">
+        <div className="bg-white/95 backdrop-blur-sm border-t border-gray-200 px-6 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-6">
             <TooltipToggle 
               isEnabled={isTooltipEnabled}
