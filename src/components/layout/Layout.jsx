@@ -6,6 +6,7 @@ import TableViewModal from '../ui/TableViewModal';
 import DatePicker from '../ui/DatePicker';
 import TooltipToggle from '../ui/TooltipToggle';
 import FeedbackModal from '../ui/FeedbackModal';
+import ShareModal from '../ui/ShareModal';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -15,6 +16,7 @@ const Layout = ({ children }) => {
   const [isTooltipEnabled, setIsTooltipEnabled] = useState(true);
   const [selectedDate, setSelectedDate] = useState('Jul 2025');
   const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
+  const [isShareModalOpen, setIsShareModalOpen] = useState(false);
 
   const filterOptions = ['State', 'City', 'Area', 'Zip'];
 
@@ -36,6 +38,10 @@ const Layout = ({ children }) => {
 
   const handleFeedback = () => {
     setIsFeedbackOpen(!isFeedbackOpen);
+  };
+
+  const handleShare = () => {
+    setIsShareModalOpen(true);
   };
 
   return (
@@ -76,7 +82,10 @@ const Layout = ({ children }) => {
 
               {/* Action Buttons */}
               <div className="flex items-center space-x-4">
-                <button className="p-2 hover:bg-gray-100 rounded-lg transition-colors border border-gray-300">
+                <button 
+                  onClick={handleShare}
+                  className="p-2 hover:bg-gray-100 rounded-lg transition-colors border border-gray-300"
+                >
                     <Share2 className="w-5 h-5 text-gray-600" />
                 </button>
                 <button 
@@ -152,6 +161,12 @@ const Layout = ({ children }) => {
       <FeedbackModal 
         isOpen={isFeedbackOpen} 
         onClose={handleFeedback} 
+      />
+      
+      {/* Share Modal */}
+      <ShareModal 
+        isOpen={isShareModalOpen} 
+        onClose={() => setIsShareModalOpen(false)} 
       />
     </div>
   );
