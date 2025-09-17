@@ -80,7 +80,7 @@ const DataPointItem = ({
                 {/* Arrow */}
                 <div 
                   className="absolute left-1/2 -translate-x-1/2 w-2 h-2 bg-black rotate-45"
-                  style={{ top: '90%' }} 
+                  style={{ top: '89%' }} 
                 />
               </div>
             )}

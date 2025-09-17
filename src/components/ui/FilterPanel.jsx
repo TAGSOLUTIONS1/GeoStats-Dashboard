@@ -67,6 +67,17 @@ const FilterPanel = ({ isOpen, onClose }) => {
     });
   };
 
+  const resetSingleFilter = (filterKey) => {
+    setFilters(prev => ({
+      ...prev,
+      [filterKey]: {
+        ...prev[filterKey],
+        min: 0,
+        max: 0
+      }
+    }));
+  };
+
   const resetFilters = () => {
     setFilters({
       'population-growth': { min: 0.0, max: 10.0, minRange: 0.0, maxRange: 10.0, label: 'Population Growth', unit: '%' },
@@ -106,7 +117,10 @@ const FilterPanel = ({ isOpen, onClose }) => {
             <div key={key} className="space-y-3">
               <div className="flex items-center justify-between">
                 <h3 className="text-sm font-medium text-gray-900">{filter.label}</h3>
-                <button className="text-gray-400 hover:text-gray-600">
+                <button 
+                  onClick={() => resetSingleFilter(key)}
+                  className="text-gray-400 hover:text-gray-600 transition-colors"
+                >
                   <X className="w-4 h-4" />
                 </button>
               </div>
