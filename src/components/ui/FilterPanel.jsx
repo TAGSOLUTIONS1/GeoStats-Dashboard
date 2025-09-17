@@ -130,7 +130,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
                 <div className="relative h-6 py-2">
                   <div className="absolute top-3 left-0 w-full h-2 bg-gray-200 rounded-lg"></div>
                   <div 
-                    className="absolute top-3 h-2 bg-red-500 overflow-hidden rounded-lg"
+                    className="absolute top-3 h-2 bg-azure overflow-hidden rounded-lg"
                     style={{
                       left: `${((filter.min - filter.minRange) / (filter.maxRange - filter.minRange)) * 100}%`,
                       width: `${((Math.min(filter.max, filter.maxRange) - filter.min) / (filter.maxRange - filter.minRange)) * 100}%`
@@ -161,7 +161,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
                     value={filter.min}
                     onChange={(e) => handleInputChange(key, 'min', e.target.value)}
                     onBlur={(e) => handleInputBlur(key, 'min', e.target.value)}
-                    className="flex-1 w-1/2 px-2 py-1 text-xs border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
+                    className="flex-1 w-1/2 px-2 py-1 text-xs border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-azure"
                     step="0.1"
                   />
                   <span className="text-xs text-gray-500">to</span>
@@ -170,7 +170,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
                     value={filter.max}
                     onChange={(e) => handleInputChange(key, 'max', e.target.value)}
                     onBlur={(e) => handleInputBlur(key, 'max', e.target.value)}
-                    className="flex-1 w-1/2 px-2 py-1 text-xs border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
+                    className="flex-1 w-1/2 px-2 py-1 text-xs border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-azure"
                     step="0.1"
                   />
                 </div>
@@ -202,7 +202,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
           height: 20px;
           width: 20px;
           border-radius: 50%;
-          background: #ef4444;
+          background: #3696A8;
           cursor: pointer;
           border: 3px solid white;
           box-shadow: 0 2px 6px rgba(0,0,0,0.2);
@@ -214,7 +214,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
           height: 20px;
           width: 20px;
           border-radius: 50%;
-          background: #ef4444;
+          background: #3696A8;
           cursor: pointer;
           border: 3px solid white;
           box-shadow: 0 2px 6px rgba(0,0,0,0.2);

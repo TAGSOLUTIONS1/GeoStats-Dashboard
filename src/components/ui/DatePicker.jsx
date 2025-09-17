@@ -113,7 +113,7 @@ const DatePicker = ({ selectedDate, onDateChange, className = '' }) => {
                     onClick={() => handleMonthChange(index)}
                     className={`px-2 py-1.5 text-xs rounded transition-colors ${
                       selectedMonth === index
-                        ? 'bg-red-600 text-white'
+                        ? 'bg-azure text-white'
                         : 'hover:bg-gray-100 text-gray-700'
                     }`}
                   >

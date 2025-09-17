@@ -92,7 +92,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
             <h2 className="text-lg font-bold text-gray-900">GeoStats Table View - Zip</h2>
           </div>
           <div className="flex items-center space-x-3">
-            <button className="px-3 py-1.5 bg-red-600 text-white text-xs font-medium rounded-lg hover:bg-red-700 transition-colors flex items-center space-x-2">
+            <button className="px-3 py-1.5 bg-azure text-white text-xs font-medium rounded-lg hover:bg-azure-dark transition-colors flex items-center space-x-2">
               <Download className="w-3 h-3" />
               <span>Download Report</span>
             </button>
@@ -162,7 +162,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                       setRowsPerPage(Number(e.target.value));
                       setCurrentPage(1);
                     }}
-                    className="px-2 py-1 border border-gray-300 rounded text-xs focus:outline-none focus:ring-1 focus:ring-blue-500"
+                    className="px-2 py-1 border border-gray-300 rounded text-xs focus:outline-none focus:ring-1 focus:ring-azure"
                   >
                     <option value={10}>10</option>
                     <option value={25}>25</option>
@@ -189,7 +189,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                     onClick={() => setCurrentPage(pageNum)}
                     className={`px-2 py-1 border rounded text-xs ${
                       currentPage === pageNum
-                        ? 'bg-red-600 text-white border-red-600'
+                        ? 'bg-azure text-white border-azure'
                         : 'border-gray-300 hover:bg-gray-50'
                     }`}
                   >

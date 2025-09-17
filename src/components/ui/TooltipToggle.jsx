@@ -10,7 +10,7 @@ const TooltipToggle = ({ isEnabled, onToggle, className = '' }) => {
       <button
         onClick={onToggle} transition={{ type: 'spring', stiffness: 300, damping: 20 }}
         className={`relative inline-flex h-4 w-8 items-center rounded-full transition-colors duration-300 ${
-          isEnabled ? 'bg-red-600' : 'bg-gray-300'
+          isEnabled ? 'bg-azure' : 'bg-gray-300'
         }`}
       >
         <motion.span

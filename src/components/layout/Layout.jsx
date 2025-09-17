@@ -68,7 +68,7 @@ const Layout = ({ children }) => {
                   placeholder="Search your State, City, or ZIP Code"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="pl-10 pr-4 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-80"
+                  className="pl-10 pr-4 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure w-80"
                 />
               </div>
 
@@ -83,7 +83,7 @@ const Layout = ({ children }) => {
                       value={option}
                       checked={selectedFilter === option}
                       onChange={(e) => setSelectedFilter(e.target.value)}
-                      className="text-blue-600 w-3 h-3"
+                      className="text-azure w-3 h-3"
                     />
                     <span className="text-sm text-gray-700">{option}</span>
                   </label>
@@ -108,7 +108,7 @@ const Layout = ({ children }) => {
                 <button className="px-3 py-1.5 text-xs font-medium text-gray-700 hover:text-gray-900 transition-colors">
                   Sign up
                 </button>
-                <button className="px-3 py-1.5 bg-blue-600 text-white text-xs font-medium rounded-lg hover:bg-blue-700 transition-colors flex items-center space-x-1">
+                <button className="px-3 py-1.5 bg-azure text-white text-xs font-medium rounded-lg hover:bg-azure-dark transition-colors flex items-center space-x-1">
                   <LogIn className="w-3 h-3" />
                   <span>Login</span>
                 </button>

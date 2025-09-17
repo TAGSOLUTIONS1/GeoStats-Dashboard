@@ -34,7 +34,7 @@ const DataPointItem = ({
             value={item.id}
             checked={item.isSelected}
             onChange={() => onItemClick(item)}
-            className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2"
+            className="w-4 h-4 text-azure bg-gray-100 border-gray-300 focus:ring-azure focus:ring-2"
           />
           <span className="text-xs text-black">{item.label}</span>
         </div>

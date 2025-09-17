@@ -5,7 +5,13 @@ export default {
     "./public/index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'azure': '#3696A8',
+        'azure-light': '#4BA8B8',
+        'azure-dark': '#2A7A8A',
+      },
+    },
   },
   plugins: [],
 }

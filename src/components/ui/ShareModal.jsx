@@ -55,7 +55,7 @@ const ShareModal = ({ isOpen, onClose }) => {
             type="text"
             value={shareUrl}
             readOnly
-            className="flex-1 px-3 py-2 border border-gray-300 rounded-lg bg-gray-50 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="flex-1 px-3 py-2 border border-gray-300 rounded-lg bg-gray-50 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-azure"
           />
           <button
             onClick={handleCopyLink}

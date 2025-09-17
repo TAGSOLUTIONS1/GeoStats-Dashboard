@@ -29,7 +29,7 @@ const Sidebar = () => {
       {/* Header with Logo */}
       <div className="p-4 border-b border-gray-700">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+          <div className="w-8 h-8 bg-azure rounded-lg flex items-center justify-center">
             <span className="text-black font-bold text-sm">G</span>
           </div>
           <h1 className="text-lg font-bold text-black">GeoStats</h1>
@@ -62,7 +62,7 @@ const Sidebar = () => {
       <div className="p-4 border-t border-gray-300">
         <button
           onClick={() => setIsExploreModalOpen(true)}
-          className="w-full flex items-center justify-between p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors group"
+            className="w-full flex items-center justify-between p-3 bg-azure text-white rounded-lg hover:bg-azure-dark transition-colors group"
         >
           <span className="font-medium">Explore Data Points</span>
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

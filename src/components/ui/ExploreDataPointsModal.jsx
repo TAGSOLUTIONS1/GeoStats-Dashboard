@@ -68,7 +68,7 @@ const ExploreDataPointsModal = ({ isOpen, onClose }) => {
                       {section.items.map((point) => (
                         <div
                           key={point.id}
-                          className="bg-white rounded-lg p-4 border border-gray-200 hover:border-blue-300 transition-colors mb-2"
+                          className="bg-white rounded-lg p-4 border border-gray-200 hover:border-azure transition-colors mb-2"
                         >
                           <div className="mb-3">
                             <h4 className="font-semibold text-gray-900 text-lg mb-2 flex items-center space-x-2">
@@ -89,7 +89,7 @@ const ExploreDataPointsModal = ({ isOpen, onClose }) => {
                               </span>
                             </div>
                             <div className="text-xs text-gray-500">
-                              Source: <span className="font-medium text-blue-600">{point.source}</span>
+                              Source: <span className="font-medium text-azure">{point.source}</span>
                             </div>
                           </div>
                         </div>

@@ -56,7 +56,7 @@ const FeedbackModal = ({ isOpen, onClose }) => {
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure focus:border-transparent"
               placeholder="Enter your email"
             />
           </div>
@@ -71,7 +71,7 @@ const FeedbackModal = ({ isOpen, onClose }) => {
               value={feedback}
               onChange={(e) => setFeedback(e.target.value)}
               rows={4}
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure focus:border-transparent resize-none"
               placeholder="Please leave feedback related to your experience on GeoStats App."
               required
             />

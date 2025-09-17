@@ -158,8 +158,8 @@ const Map = () => {
               <div class="p-2">
                 <h3 class="font-semibold text-gray-900">${point.properties.title}, ${point.properties.state}</h3>
                 <p class="text-sm text-gray-600">${point.properties.dataPoint}</p>
-                <p class="text-lg font-bold text-red-600">${point.properties.value.toLocaleString()}</p>
-                <button class="mt-2 bg-red-500 text-white px-3 py-1 rounded text-xs hover:bg-red-600">
+                <p class="text-lg font-bold text-azure">${point.properties.value.toLocaleString()}</p>
+                <button class="mt-2 bg-azure text-white px-3 py-1 rounded text-xs hover:bg-azure-dark">
                   Click to see metro
                 </button>
               </div>
@@ -167,7 +167,7 @@ const Map = () => {
 
           // Create a marker
           const marker = new mapboxgl.Marker({
-            color: '#ef4444',
+            color: '#3696A8',
             scale: 1.2
           })
             .setLngLat(point.coordinates)
@@ -201,7 +201,7 @@ const Map = () => {
               'base': 1.75,
               'stops': [[12, 8], [22, 180]]
             },
-            'circle-color': '#ef4444',
+            'circle-color': '#3696A8',
             'circle-opacity': 0.8,
             'circle-stroke-width': 2,
             'circle-stroke-color': '#ffffff'
@@ -259,7 +259,7 @@ const Map = () => {
       />
       
       {!hasValidToken && (
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-green-100 flex items-center justify-center">
+        <div className="absolute inset-0 bg-gradient-to-br from-custom-blue/20 to-green-100 flex items-center justify-center">
           <div className="text-center p-8 bg-white/90 backdrop-blur-sm rounded-lg shadow-lg max-w-md">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Mapbox Setup Required</h2>
             <p className="text-gray-600 mb-4">
@@ -268,7 +268,7 @@ const Map = () => {
             <div className="text-left bg-gray-50 p-4 rounded text-sm">
               <p className="font-semibold mb-2">Steps to setup:</p>
               <ol className="list-decimal list-inside space-y-1 text-gray-700">
-                <li>Go to <a href="https://account.mapbox.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">account.mapbox.com</a></li>
+                <li>Go to <a href="https://account.mapbox.com/" target="_blank" rel="noopener noreferrer" className="text-azure hover:underline">account.mapbox.com</a></li>
                 <li>Sign up or log in</li>
                 <li>Copy your access token</li>
                 <li>Replace the token in your .env file</li>

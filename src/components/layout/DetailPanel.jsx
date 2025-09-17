@@ -76,7 +76,7 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
         </div>
         
         <div className="pt-4 border-t border-gray-700">
-          <button className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 text-xs transition-colors">
+          <button className="flex items-center space-x-2 text-azure hover:text-azure-light text-xs transition-colors">
             <ExternalLink className="w-4 h-4" />
             <span>Learn more about this data point</span>
           </button>
