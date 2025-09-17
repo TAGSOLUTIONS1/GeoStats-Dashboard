@@ -285,7 +285,7 @@ const Map = () => {
       
       
       {/* Map Info Display */}
-      <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm border border-gray-300 rounded px-3 py-2 text-sm shadow-lg">
+      <div className="absolute top-40 left-4 bg-white/90 backdrop-blur-sm border border-gray-300 rounded px-3 py-2 text-sm shadow-lg">
         <div className="text-gray-600">
           <div>Longitude: {lng}</div>
           <div>Latitude: {lat}</div>

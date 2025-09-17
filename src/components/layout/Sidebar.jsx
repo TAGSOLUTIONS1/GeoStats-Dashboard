@@ -25,7 +25,7 @@ const Sidebar = () => {
   } = useSidebar();
 
   return (
-    <div className="w-80 bg-gray-100 text-black h-screen flex flex-col relative overflow-visible">
+    <div className="w-80 bg-gray-100 text-black h-screen flex flex-col relative z-20 overflow-visible">
       {/* Header with Logo */}
       <div className="p-4 border-b border-gray-700">
         <div className="flex items-center space-x-2">
