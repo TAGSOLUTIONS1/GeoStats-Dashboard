@@ -154,7 +154,7 @@ const Layout = ({ children }) => {
       </main>
       
       {/* Feedback Button - Floating above map controls */}
-      <div className="absolute bottom-20 right-4 pointer-events-auto z-30">
+      <div className="absolute bottom-52 right-4 pointer-events-auto z-30">
         <button 
           onClick={handleFeedback}
           className="flex items-center space-x-2 px-4 py-2 bg-white/95 hover:bg-white rounded-lg shadow-lg transition-all duration-200 ease-in-out hover:shadow-xl transform hover:scale-105"
