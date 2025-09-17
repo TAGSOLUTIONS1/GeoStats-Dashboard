@@ -35,6 +35,18 @@ const FilterPanel = ({ isOpen, onClose }) => {
 
   const handleInputChange = (filterKey, type, value) => {
     const numValue = parseFloat(value) || 0;
+    
+    setFilters(prev => ({
+      ...prev,
+      [filterKey]: {
+        ...prev[filterKey],
+        [type]: numValue
+      }
+    }));
+  };
+
+  const handleInputBlur = (filterKey, type, value) => {
+    const numValue = parseFloat(value) || 0;
     const currentFilter = filters[filterKey];
     
     setFilters(prev => {
@@ -134,6 +146,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
                     type="number"
                     value={filter.min}
                     onChange={(e) => handleInputChange(key, 'min', e.target.value)}
+                    onBlur={(e) => handleInputBlur(key, 'min', e.target.value)}
                     className="flex-1 w-1/2 px-2 py-1 text-xs border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
                     step="0.1"
                   />
@@ -142,6 +155,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
                     type="number"
                     value={filter.max}
                     onChange={(e) => handleInputChange(key, 'max', e.target.value)}
+                    onBlur={(e) => handleInputBlur(key, 'max', e.target.value)}
                     className="flex-1 w-1/2 px-2 py-1 text-xs border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
                     step="0.1"
                   />
