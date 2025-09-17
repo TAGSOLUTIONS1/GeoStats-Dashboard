@@ -8,9 +8,11 @@ let mapInitialized = false;
 const Map = () => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [lng, setLng] = useState(-98.5795);
-  const [lat, setLat] = useState(39.8283);
-  const [zoom, setZoom] = useState(4);
+  
+  // Correct Dubai coordinates
+  const [lng, setLng] = useState(55.296249);  
+  const [lat, setLat] = useState(25.276987);  
+  const [zoom, setZoom] = useState(12);       
 
   useEffect(() => {
     // Set Mapbox access token
