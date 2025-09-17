@@ -111,7 +111,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
                     type="number"
                     value={filter.min}
                     onChange={(e) => handleInputChange(key, 'min', e.target.value)}
-                    className="flex-1 px-2 py-1 text-xs border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
+                    className="flex-1 w-1/2 px-2 py-1 text-xs border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
                     step="0.1"
                   />
                   <span className="text-xs text-gray-500">to</span>
@@ -119,7 +119,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
                     type="number"
                     value={filter.max}
                     onChange={(e) => handleInputChange(key, 'max', e.target.value)}
-                    className="flex-1 px-2 py-1 text-xs border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
+                    className="flex-1 w-1/2 px-2 py-1 text-xs border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
                     step="0.1"
                   />
                 </div>
