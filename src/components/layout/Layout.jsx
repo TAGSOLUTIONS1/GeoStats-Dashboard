@@ -53,7 +53,7 @@ const Layout = ({ children }) => {
       <Sidebar />
       
       {/* Background Map - Fixed behind main content only */}
-      <div className="absolute left-80 right-0 top-16 bottom-16 z-10">
+      <div className="absolute left-80 right-0 top-0 bottom-0 z-10">
         <Map />
       </div>
       
@@ -131,7 +131,7 @@ const Layout = ({ children }) => {
         )}
 
         {/* Bottom Control Bar */}
-        <div className="bg-white/95 backdrop-blur-sm border-t border-gray-200 px-6 py-4 flex items-center justify-between pointer-events-auto">
+        <div className="px-6 py-4 flex items-center justify-between pointer-events-auto">
           <div className="flex items-center space-x-6">
             <TooltipToggle 
               isEnabled={isTooltipEnabled}
@@ -139,7 +139,7 @@ const Layout = ({ children }) => {
             />
             <button 
               onClick={handleTableView}
-              className="flex items-center space-x-2 px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+              className="flex bg-white px-4 py-2 rounded-3xl hover:bg-gray-50 items-center space-x-2 transition-colors"
             >
               <Table className="w-4 h-4 text-gray-600" />
               <span className="text-sm text-gray-700">Table View</span>

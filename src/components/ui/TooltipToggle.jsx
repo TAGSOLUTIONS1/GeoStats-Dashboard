@@ -3,19 +3,20 @@ import { motion } from 'framer-motion';
 
 const TooltipToggle = ({ isEnabled, onToggle, className = '' }) => {
   return (
-    <div className={`flex items-center space-x-2 ${className}`}>
+    <div
+      className={`flex items-center space-x-2 bg-white px-4 py-2 rounded-3xl hover:bg-gray-50 ${className}`}
+    >
       <span className="text-sm text-gray-700">Tooltip</span>
       <button
-        onClick={onToggle}
-        className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
-          isEnabled ? 'bg-red-600' : 'bg-gray-200'
+        onClick={onToggle} transition={{ type: 'spring', stiffness: 300, damping: 20 }}
+        className={`relative inline-flex h-4 w-8 items-center rounded-full transition-colors duration-300 ${
+          isEnabled ? 'bg-red-600' : 'bg-gray-300'
         }`}
       >
         <motion.span
-          className={`inline-block h-4 w-4 transform rounded-full bg-white shadow-lg transition-transform`}
-          animate={{
-            x: isEnabled ? 20 : 4,
-          }}
+          layout
+          className="inline-block h-3 w-3 rounded-full bg-white shadow-md"
+          animate={{ x: isEnabled ? 18 : 3 }}
           transition={{
             type: "spring",
             stiffness: 500,

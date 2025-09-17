@@ -66,7 +66,7 @@ const DatePicker = ({ selectedDate, onDateChange, className = '' }) => {
     <div className={`relative ${className}`} ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-2 px-3 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="flex items-center space-x-2 bg-white px-4 py-2 rounded-3xl hover:bg-gray-50 transition-colors"
       >
         <Calendar className="w-4 h-4 text-gray-500" />
         <span className="text-sm text-gray-700">Date: {selectedDate}</span>

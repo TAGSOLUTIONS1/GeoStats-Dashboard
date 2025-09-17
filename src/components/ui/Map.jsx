@@ -247,7 +247,7 @@ const Map = () => {
   const hasValidToken = token && token !== 'your_mapbox_access_token_here';
 
   return (
-    <div className="w-full h-full overflow-hidden">
+    <div className="w-full h-full">
       {/* Mapbox Container */}
       <div 
         ref={mapContainer} 
