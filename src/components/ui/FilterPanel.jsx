@@ -104,10 +104,10 @@ const FilterPanel = ({ isOpen, onClose }) => {
                 <div className="relative h-6 py-2">
                   <div className="absolute top-3 left-0 w-full h-2 bg-gray-200 rounded-lg"></div>
                   <div 
-                    className="absolute top-3 h-2 bg-red-500 rounded-lg"
+                    className="absolute top-3 h-2 bg-red-500 overflow-hidden rounded-lg"
                     style={{
                       left: `${((filter.min - filter.minRange) / (filter.maxRange - filter.minRange)) * 100}%`,
-                      width: `${((filter.max - filter.min) / (filter.maxRange - filter.minRange)) * 100}%`
+                      width: `${((Math.min(filter.max, filter.maxRange) - filter.min) / (filter.maxRange - filter.minRange)) * 100}%`
                     }}
                   ></div>
                   <input
