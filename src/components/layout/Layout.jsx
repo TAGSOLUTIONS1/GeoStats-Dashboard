@@ -59,7 +59,7 @@ const Layout = ({ children }) => {
       
       <main className="flex-1 relative z-20 flex flex-col pointer-events-none">
         {/* Top Header */}
-        <div className="bg-white/95 mt-4 mx-6 border-b border-gray-200 px-6 py-2 flex justify-between pointer-events-auto">
+        <div className="bg-white/95 mt-4 mx-6 border-b border-gray-200 px-6 py-2 flex justify-between pointer-events-auto items-center">
             
               <div className="relative">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
