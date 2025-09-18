@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { X, Download, ChevronUp, ChevronDown } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import { X, Download, ChevronUp, ChevronDown, ArrowUpDown, ArrowDownUp } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { sampleData } from '../../data/TableViewData';
 
@@ -7,17 +7,69 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' });
   const [currentPage, setCurrentPage] = useState(1);
   const [rowsPerPage, setRowsPerPage] = useState(10);
+  const [activeDropdown, setActiveDropdown] = useState(null);
+  const [hoveredSort, setHoveredSort] = useState(null);
+  const dropdownRef = useRef(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setActiveDropdown(null);
+      }
+    };
+
+    if (activeDropdown) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [activeDropdown]);
 
   if (!isOpen) return null;
 
   const tableData = data.length > 0 ? data : sampleData;
 
+  // Data points for dropdown (similar to sidebar)
+  const dataPoints = [
+    { id: 'home-value', label: 'Home Value', isPremium: false },
+    { id: 'home-value-growth', label: 'Home Value Growth (YoY)', isPremium: false },
+    { id: 'for-sale-inventory', label: 'For Sale Inventory', isPremium: false },
+    { id: 'home-price-forecast', label: 'Home Price Forecast', isPremium: true },
+    { id: 'long-term-growth', label: 'Long-Term Growth Score', isPremium: true },
+    { id: 'home-value-growth-5y', label: 'Home Value Growth (5-Year)', isPremium: true },
+    { id: 'overvalued', label: 'Overvalued %', isPremium: false },
+    { id: 'price-cut', label: 'Price Cut %', isPremium: false },
+    { id: 'population-growth', label: 'Population Growth', isPremium: false },
+    { id: 'cap-rate', label: 'Cap Rate', isPremium: false }
+  ];
+
   const handleSort = (key) => {
     let direction = 'asc';
     if (sortConfig.key === key && sortConfig.direction === 'asc') {
       direction = 'desc';
+    } else if (sortConfig.key === key && sortConfig.direction === 'desc') {
+      setSortConfig({ key: null, direction: 'asc' });
+      return;
     }
     setSortConfig({ key, direction });
+  };
+
+  const handleDropdownToggle = (headerKey) => {
+    setActiveDropdown(activeDropdown === headerKey ? null : headerKey);
+  };
+
+  const getSortTooltipText = (key) => {
+    if (sortConfig.key === key) {
+      if (sortConfig.direction === 'asc') {
+        return 'Click to sort descending';
+      } else {
+        return 'Click to cancel sorting';
+      }
+    }
+    return 'Click to sort ascending';
   };
 
   const sortedData = [...tableData].sort((a, b) => {
@@ -107,24 +159,67 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
 
         {/* Table Content */}
         <div className="flex-1">
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto" ref={dropdownRef}>
             <table className="w-full border-collapse">
               <thead>
                 <tr className=" text-center">
                   {tableHeaders.map((header) => (
                     <th 
                       key={header.key}
-                      className={`border-l border-gray-200 py-2 px-3 font-medium text-sm text-white bg-blue cursor-pointer hover:bg-blue-dark justify-items-center ${header.width}`}
-                      onClick={() => header.sortable && handleSort(header.key)}
+                      className={`border-l border-gray-200 py-2 px-3 font-medium text-sm text-white bg-blue hover:bg-blue-dark ${header.width} relative`}
                     >
-                      <div className="flex items-center space-x-1">
-                        <span>{header.label}</span>
+                      <div className="flex items-center justify-between w-full">
+                        <span className="text-center flex-1">{header.label}</span>
+                        
+                        {/* Sort Button */}
                         {header.sortable && (
-                          sortConfig.key === header.key ? (
-                            sortConfig.direction === 'asc' ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />
-                          ) : <ChevronUp className="w-3 h-3 opacity-30" />
+                          <div 
+                            className="relative ml-2"
+                            onMouseEnter={() => setHoveredSort(header.key)}
+                            onMouseLeave={() => setHoveredSort(null)}
+                          >
+                            <button
+                              onClick={() => handleSort(header.key)}
+                              className="p-1 hover:bg-blue-light rounded"
+                            >
+                              {sortConfig.key === header.key ? (
+                                sortConfig.direction === 'asc' ? (
+                                  <ArrowUpDown className="w-3 h-3 text-orange" />
+                                ) : (
+                                  <ArrowDownUp className="w-3 h-3 text-orange" />
+                                )
+                              ) : (
+                                <ArrowUpDown className="w-3 h-3" />
+                              )}
+                            </button>
+                            {/* Sort Tooltip */}
+                            {hoveredSort === header.key && (
+                              <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-1 bg-black text-white text-xs px-2 py-1 rounded whitespace-nowrap z-50">
+                                {getSortTooltipText(header.key)}
+                              </div>
+                            )}
+                          </div>
                         )}
                       </div>
+                      
+                      {/* Dropdown Menu */}
+                      {activeDropdown === header.key && (
+                        <div className="absolute top-full left-0 right-0 bg-white border border-gray-200 rounded shadow-lg z-50 mt-1">
+                          <div className="py-2">
+                            {dataPoints.map((point) => (
+                              <div
+                                key={point.id}
+                                className="px-3 py-2 hover:bg-gray-100 cursor-pointer flex items-center justify-between"
+                              >
+                                <span className="text-sm text-gray-700">{point.label}</span>
+                                {point.isPremium && (
+                                  <span className="text-xs bg-yellow-400 text-black px-1 py-0.5 rounded">Premium</span>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
                     </th>
                   ))}
                 </tr>
