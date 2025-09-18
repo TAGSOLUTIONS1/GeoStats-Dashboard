@@ -10,8 +10,8 @@ const Map = () => {
   const map = useRef(null);
   
   // Correct Dubai coordinates
-  const [lng, setLng] = useState(55.296249);  
-  const [lat, setLat] = useState(25.276987);  
+  const [lng, setLng] = useState(55.296249);
+  const [lat, setLat] = useState(25.276987); 
   const [zoom, setZoom] = useState(12);       
 
   useEffect(() => {
@@ -287,14 +287,14 @@ const Map = () => {
       
       
       {/* Map Info Display */}
-      <div className="absolute top-40 left-4 bg-white/90 backdrop-blur-sm border border-gray-300 rounded px-3 py-2 text-sm shadow-lg">
+      {/* <div className="absolute top-40 left-4 bg-white/90 backdrop-blur-sm border border-gray-300 rounded px-3 py-2 text-sm shadow-lg">
         <div className="text-gray-600">
           <div>Longitude: {lng}</div>
           <div>Latitude: {lat}</div>
           <div>Zoom: {zoom}</div>
           <div className="text-green-600 font-bold">Map Status: {map.current ? 'Created' : 'Not Created'}</div>
         </div>
-      </div>
+      </div> */}
       
       {/* Debug Info */}
       {/* <div className="absolute top-4 right-4 bg-yellow-100 border border-yellow-300 rounded px-3 py-2 text-sm shadow-lg">
