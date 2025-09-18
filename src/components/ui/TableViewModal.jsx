@@ -67,12 +67,31 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
   };
 
   const handleColumnHeaderChange = (columnKey, selectedDataPoint) => {
+    // Check if any other column is already using this exact data point name
+    const isDataPointAlreadyUsed = Object.entries(columnHeaders).some(([key, value]) => 
+      key !== columnKey && value?.label === selectedDataPoint.label
+    );
+    
     // Check if any other column is already using this section
     const isSectionAlreadyUsed = Object.entries(columnHeaders).some(([key, value]) => 
       key !== columnKey && value?.sectionId === selectedDataPoint.sectionId
     );
     
-    if (isSectionAlreadyUsed) {
+    if (isDataPointAlreadyUsed) {
+      // If same data point name is already used, swap the columns
+      const existingColumn = Object.entries(columnHeaders).find(([key, value]) => 
+        value?.label === selectedDataPoint.label
+      );
+      
+      if (existingColumn) {
+        const [existingKey, existingValue] = existingColumn;
+        setColumnHeaders(prev => ({
+          ...prev,
+          [existingKey]: prev[columnKey] || null, // Move current column's data to existing column
+          [columnKey]: selectedDataPoint // Set new data to current column
+        }));
+      }
+    } else if (isSectionAlreadyUsed) {
       // If section is already used, swap the columns
       const existingColumn = Object.entries(columnHeaders).find(([key, value]) => 
         value?.sectionId === selectedDataPoint.sectionId
@@ -271,7 +290,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                                     className="px-3 py-2 border-b border-gray-100 cursor-pointer hover:bg-gray-300 flex items-center justify-between"
                                     onClick={() => toggleSection(section.id)}
                                   >
-                                    <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
+                                    <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wide text-left">
                                       {section.label}
                                     </h4>
                                     <ChevronDown 
@@ -283,22 +302,31 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                                   
                                   {/* Section Items - Only show if expanded */}
                                   {isExpanded && section.items.map((point) => {
-                                    const isUsedByOtherColumn = Object.entries(columnHeaders).some(([key, value]) => 
+                                    const isNameUsedByOtherColumn = Object.entries(columnHeaders).some(([key, value]) => 
+                                      key !== header.key && value?.label === point.label
+                                    );
+                                    
+                                    const isSectionUsedByOtherColumn = Object.entries(columnHeaders).some(([key, value]) => 
                                       key !== header.key && value?.sectionId === section.id
                                     );
+                                    
+                                    const isUsedByOtherColumn = isNameUsedByOtherColumn || isSectionUsedByOtherColumn;
                                     
                                     return (
                                       <div
                                         key={point.id}
                                         onClick={() => handleColumnHeaderChange(header.key, point)}
                                         className={`px-3 py-2 hover:bg-gray-100 cursor-pointer flex items-center justify-between ${
-                                          isUsedByOtherColumn ? 'opacity-50' : ''
+                                          isUsedByOtherColumn ? '' : ''
                                         }`}
                                       >
                                         <div className="flex items-center space-x-2">
                                           <span className="text-xs text-left text-gray-700">{point.label}</span>
-                                          {isUsedByOtherColumn && (
-                                            <span className="text-xs text-orange">(Used in another column)</span>
+                                          {/* {isNameUsedByOtherColumn && (
+                                            <span className="text-xs text-red-500">(Same name used)</span>
+                                          )} */}
+                                          {isSectionUsedByOtherColumn && !isNameUsedByOtherColumn && (
+                                            <span className="text-xs text-orange">(Section used)</span>
                                           )}
                                         </div>
                                         {point.isPremium && (
