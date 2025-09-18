@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { Info, Crown } from 'lucide-react';
+import { Crown } from 'lucide-react';
 
 const DataPointItem = ({ 
   item, 
@@ -34,13 +34,13 @@ const DataPointItem = ({
             value={item.id}
             checked={item.isSelected}
             onChange={() => onItemClick(item)}
-            className="w-4 h-4 text-azure bg-gray-100 border-gray-300 focus:ring-azure focus:ring-2"
+            className=""
           />
           <span className="text-xs text-black">{item.label}</span>
         </div>
         <div className="flex items-center space-x-2 relative">
           {item.isPremium && (
-            <span className="text-xs bg-yellow-400 text-black px-1 py-0.5 rounded text-xs">New</span>
+            <span className="bg-yellow-400 text-black px-1 py-0.5 rounded text-xs">New</span>
           )}
           <div className="relative flex items-center space-x-2">
           {item.isPremium && (
@@ -59,9 +59,11 @@ const DataPointItem = ({
               }}
               onMouseEnter={() => setHoveredItem(item.id)}
               onMouseLeave={() => setHoveredItem(null)}
-              className="p-1 rounded relative"
+              className="relative info-icon"
             >
-              <Info className="w-4 h-4 text-gray-900 fill-[#ACACAC] rounded-full" />
+              <div className="w-4 h-4 bg-gray-400 rounded-full flex items-center justify-center">
+                <span className="text-white text-xs font-hoefler font-bold italic">i</span>
+              </div>
             </button>
 
              {/* Tooltip */}
@@ -80,7 +82,7 @@ const DataPointItem = ({
                 {/* Arrow */}
                 <div 
                   className="absolute left-1/2 -translate-x-1/2 w-2 h-2 bg-black rotate-45"
-                  style={{ top: '89%' }} 
+                  style={{ top: '80%' }} 
                 />
               </div>
             )}

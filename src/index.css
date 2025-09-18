@@ -27,3 +27,39 @@ code {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+/* Custom radio button styles for azure color */
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #3696A8;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  background-color: white;
+  border-color: #3696A8;
+}
+
+input[type="radio"]:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #3696A8;
+  transform: translate(-50%, -50%);
+}
+
+/* input[type="radio"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(54, 150, 168, 0.2);
+} */
+

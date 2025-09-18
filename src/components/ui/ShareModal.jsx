@@ -62,7 +62,7 @@ const ShareModal = ({ isOpen, onClose }) => {
             className={`px-4 py-2 rounded-lg font-medium text-sm transition-colors flex items-center space-x-2 ${
               copied 
                 ? 'bg-green-600 text-white' 
-                : 'bg-pink-600 text-white hover:bg-pink-700'
+                : 'bg-azure text-white hover:bg-azure-dark'
             }`}
           >
             {copied ? (

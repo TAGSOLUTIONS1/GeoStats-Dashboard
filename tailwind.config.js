@@ -6,10 +6,17 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'tomorrow': ['Tomorrow', 'sans-serif'],
+        'hoefler': ['Hoefler Text', 'serif'],
+      },
       colors: {
         'azure': '#3696A8',
         'azure-light': '#4BA8B8',
         'azure-dark': '#2A7A8A',
+        'blue':'#052C43',
+        'blue-light':'#0A3D57',
+        'blue-dark':'#041E2B',
         'orange':'#FE6A0F',
         'orange-light':'#FF7E2A',
         'orange-dark':'#E65A00',
