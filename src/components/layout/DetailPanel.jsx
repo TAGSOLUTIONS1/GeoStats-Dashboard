@@ -67,8 +67,8 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
           )}
           
           {selectedItem.isPremium && (
-            <div className="bg-yellow-400 bg-opacity-20 border border-yellow-400 border-opacity-30 rounded-lg p-3">
-              <p className="text-yellow-300 text-xs">
+            <div className="bg-orange-light bg-opacity-20 border border-orange-light border-opacity-30 rounded-lg p-3">
+              <p className="text-orange-light text-xs">
                 <strong>Premium Feature:</strong> This data point requires a premium subscription to access detailed analytics and historical data.
               </p>
             </div>
