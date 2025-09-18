@@ -11,7 +11,7 @@ import Map from '../ui/Map';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedFilter, setSelectedFilter] = useState('State');
+  const [selectedFilter, setSelectedFilter] = useState('Emirate');
   const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
   const [isTableViewOpen, setIsTableViewOpen] = useState(false);
   const [isTooltipEnabled, setIsTooltipEnabled] = useState(true);
@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
   const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
 
-  const filterOptions = ['State', 'City', 'Area', 'Zip'];
+  const filterOptions = ['Emirate', 'City', 'Area', 'Zip'];
 
   const handleFilterPanel = () => {
     setIsFilterPanelOpen(!isFilterPanelOpen);
@@ -54,7 +54,7 @@ const Layout = ({ children }) => {
       
       {/* Background Map - Fixed behind main content only */}
       <div className="absolute left-72 right-0 top-0 bottom-0">
-        <Map />
+        <Map selectedFilter={selectedFilter} />
       </div>
       
       <main className="flex-1 relative z-20 flex flex-col pointer-events-none">
@@ -73,7 +73,7 @@ const Layout = ({ children }) => {
               </div>
 
               <div className="flex items-center space-x-6">
-              {/* Filter Options */}
+              {/* Filter Options - Controls data level mapping */}
               <div className="flex items-center space-x-8">
                 {filterOptions.map((option) => (
                   <label key={option} className="flex items-center space-x-2">

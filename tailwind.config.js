@@ -27,6 +27,7 @@ export default {
         'blue-light':'#0A3D57',
         'blue-dark':'#041E2B',
         'orange':'#FE6A0F',
+        'red':'#FF0000',
         'orange-light':'#FF7E2A',
         'orange-dark':'#E65A00',
       },

@@ -1,18 +1,40 @@
 import React, { useEffect, useRef, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-
+import { emiratesDataPoints, cityDataPoints, areaDataPoints } from '../../data/emiratesDataPoints';
 // Global flag to prevent multiple map initializations
 let mapInitialized = false;
 
-const Map = () => {
+const Map = ({ selectedFilter = 'Emirate' }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
   
   // Correct Dubai coordinates
   const [lng, setLng] = useState(55.296249);
   const [lat, setLat] = useState(25.276987); 
-  const [zoom, setZoom] = useState(12);       
+  const [zoom, setZoom] = useState(9);
+
+  // Function to get data points based on selected level
+  const getDataPointsForLevel = () => {
+    // Choose data source based on filter type
+    let dataPoints;
+    switch (selectedFilter) {
+      case 'City':
+        dataPoints = cityDataPoints;
+        break;
+      case 'Area':
+        dataPoints = areaDataPoints;
+        break;
+      case 'Zip':
+        dataPoints = areaDataPoints; // Use area data for zip level
+        break;
+      default:
+        dataPoints = emiratesDataPoints; // Default to emirate level
+    }
+    
+    console.log(`Selected filter: ${selectedFilter}, returning ${dataPoints.length} data points`);
+    return dataPoints;
+  };       
 
   useEffect(() => {
     // Set Mapbox access token
@@ -54,7 +76,215 @@ const Map = () => {
         // Add event listeners to debug
         map.current.on('load', () => {
           console.log('Map loaded successfully!');
+          initializeMapData();
         });
+
+        // Fallback: try to initialize data after a delay if load event doesn't fire
+        setTimeout(() => {
+          if (map.current && !map.current._dataAdded) {
+            console.log('Fallback: Initializing data after delay');
+            initializeMapData();
+          }
+        }, 2000);
+
+        const initializeMapData = () => {
+          // Check if admin-1 source already exists before adding
+          if (!map.current.getSource('admin-1')) {
+            // Add a vector source for admin-1 boundaries
+            map.current.addSource('admin-1', {
+              type: 'vector',
+              url: 'mapbox://mapbox.boundaries-adm1-v4',
+              promoteId: 'mapbox_id'
+            });
+            
+            // Define a filter for UAE worldview boundaries
+            let worldviewFilter = [
+              'any',
+              ['==', 'all', ['get', 'worldview']],
+              ['in', 'AE', ['get', 'worldview']]
+            ];
+            
+            // Add a fill layer for admin boundaries
+            map.current.addLayer(
+              {
+                id: 'admin-1-fill',
+                type: 'fill',
+                source: 'admin-1',
+                'source-layer': 'boundaries_admin_1',
+                filter: worldviewFilter,
+                paint: {
+                  'fill-color': '#3696A8',
+                  'fill-opacity': 0.1
+                }
+              },
+              'waterway-label'
+            );
+            
+            // Add a line layer for admin boundaries
+            map.current.addLayer(
+              {
+                id: 'admin-1-line',
+                type: 'line',
+                source: 'admin-1',
+                'source-layer': 'boundaries_admin_1',
+                filter: worldviewFilter,
+                paint: {
+                  'line-color': '#3696A8',
+                  'line-width': 2,
+                  'line-opacity': 0.8
+                }
+              },
+              'waterway-label'
+            );
+            
+            // Add hover effects for boundaries
+            map.current.on('mouseenter', 'admin-1-fill', () => {
+              map.current.getCanvas().style.cursor = 'pointer';
+            });
+            
+            map.current.on('mouseleave', 'admin-1-fill', () => {
+              map.current.getCanvas().style.cursor = '';
+            });
+            
+            // Add click handler for boundaries
+            map.current.on('click', 'admin-1-fill', (e) => {
+              const features = map.current.queryRenderedFeatures(e.point, {
+                layers: ['admin-1-fill']
+              });
+              
+              if (features.length > 0) {
+                const feature = features[0];
+                const popup = new mapboxgl.Popup({ offset: 25 })
+                  .setLngLat(e.lngLat)
+                  .setHTML(`
+                    <div class="p-3 bg-white rounded-lg shadow-lg">
+                      <h3 class="font-semibold text-gray-900 text-lg">${feature.properties.NAME_1 || 'Administrative Region'}</h3>
+                      <p class="text-sm text-gray-600">UAE Administrative Boundary</p>
+                      <p class="text-xs text-gray-500 mt-1">Click on data points for property information</p>
+                    </div>
+                  `)
+                  .addTo(map.current);
+              }
+            });
+          }
+          
+          // Check if data has already been added
+          if (map.current._dataAdded) {
+            console.log('Data already added, skipping...');
+            return;
+          }
+
+          console.log('Adding markers and data sources...');
+          
+          // Get data points for selected level
+          const dataPoints = getDataPointsForLevel();
+          
+          // Data points will be visualized using the circle layer below
+
+          // Add a data source for visualization
+          map.current.addSource('data-points', {
+            type: 'geojson',
+            data: {
+              type: 'FeatureCollection',
+              features: dataPoints.map(point => ({
+                type: 'Feature',
+                geometry: {
+                  type: 'Point',
+                  coordinates: point.coordinates
+                },
+                properties: point.properties
+              }))
+            }
+          });
+
+          // Add a layer for data visualization
+          map.current.addLayer({
+            id: 'data-points-layer',
+            type: 'circle',
+            source: 'data-points',
+            paint: {
+              'circle-radius': {
+                'base': 1.75,
+                'stops': [[1, 6], [5, 10], [10, 14], [15, 18], [20, 22]]
+              },
+              'circle-color': '#3696A8',
+              'circle-opacity': 0.9,
+              'circle-stroke-width': 3,
+              'circle-stroke-color': '#ffffff'
+            }
+          });
+
+          // Add symbol layer for labels at higher zoom levels
+          map.current.addLayer({
+            id: 'data-points-labels',
+            type: 'symbol',
+            source: 'data-points',
+            layout: {
+              'text-field': ['get', 'title'],
+              'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+              'text-offset': [0, 1.25],
+              'text-anchor': 'top',
+              'text-size': {
+                'base': 1,
+                'stops': [[10, 10], [15, 12], [20, 14]]
+              }
+            },
+            paint: {
+              'text-color': '#333333',
+              'text-halo-color': '#ffffff',
+              'text-halo-width': 2
+            },
+            minzoom: 10
+          });
+
+          // Add hover effects for data points
+          map.current.on('mouseenter', 'data-points-layer', () => {
+            map.current.getCanvas().style.cursor = 'pointer';
+          });
+          
+          map.current.on('mouseleave', 'data-points-layer', () => {
+            map.current.getCanvas().style.cursor = '';
+          });
+          
+          // Add click handler for data points
+          map.current.on('click', 'data-points-layer', (e) => {
+            const features = map.current.queryRenderedFeatures(e.point, {
+              layers: ['data-points-layer']
+            });
+            
+            if (features.length > 0) {
+              const feature = features[0];
+              const properties = feature.properties;
+              
+              const popup = new mapboxgl.Popup({ offset: 25 })
+                .setLngLat(e.lngLat)
+                .setHTML(`
+                  <div class="p-3 bg-white rounded-lg shadow-lg">
+                    <h3 class="font-semibold text-gray-900 text-lg">${properties.title}, ${properties.emirate}</h3>
+                    <p class="text-sm text-gray-600">${properties.dataPoint}</p>
+                    <p class="text-lg font-bold text-azure">${properties.value.toLocaleString()}</p>
+                    ${properties.population && (
+                      `<p class="text-xs text-gray-500">Population: ${properties.population.toLocaleString()}</p>`
+                    )}
+                    ${properties.area && (
+                      `<p class="text-xs text-gray-500">Area: ${properties.area.toLocaleString()} km²</p>`
+                    )}
+                    ${properties.cities && (
+                      `<p class="text-xs text-gray-500">Cities: ${properties.cities}</p>`
+                    )}
+                    <button class="mt-2 bg-azure text-white px-3 py-1 rounded text-xs hover:bg-azure-dark">
+                      Click to see metro
+                    </button>
+                  </div>
+                `)
+                .addTo(map.current);
+            }
+          });
+          
+          // Mark that data has been added
+          map.current._dataAdded = true;
+          console.log('Data added successfully!');
+        };
         
         map.current.on('error', (e) => {
           console.error('Map error:', e);
@@ -93,127 +323,7 @@ const Map = () => {
         unit: 'imperial'
       }), 'bottom-left');
 
-      // Sample data points for demonstration
-      const sampleDataPoints = [
-        {
-          coordinates: [-74.006, 40.7128],
-          properties: {
-            title: 'New York City',
-            state: 'NY',
-            dataPoint: 'For Sale Inventory',
-            value: 1250
-          }
-        },
-        {
-          coordinates: [-87.6298, 41.8781],
-          properties: {
-            title: 'Chicago',
-            state: 'IL',
-            dataPoint: 'For Sale Inventory',
-            value: 890
-          }
-        },
-        {
-          coordinates: [-122.4194, 37.7749],
-          properties: {
-            title: 'San Francisco',
-            state: 'CA',
-            dataPoint: 'For Sale Inventory',
-            value: 2100
-          }
-        },
-        {
-          coordinates: [-96.7970, 32.7767],
-          properties: {
-            title: 'Dallas',
-            state: 'TX',
-            dataPoint: 'For Sale Inventory',
-            value: 1560
-          }
-        },
-        {
-          coordinates: [-80.1918, 25.7617],
-          properties: {
-            title: 'Miami',
-            state: 'FL',
-            dataPoint: 'For Sale Inventory',
-            value: 980
-          }
-        }
-      ];
 
-      // Add markers and data sources (only once)
-      map.current.on('load', () => {
-        // Check if data has already been added
-        if (map.current._dataAdded) {
-          console.log('Data already added, skipping...');
-          return;
-        }
-
-        console.log('Adding markers and data sources...');
-        
-        // Add markers for data points
-        sampleDataPoints.forEach(point => {
-          // Create a popup
-          const popup = new mapboxgl.Popup({ offset: 25 })
-            .setHTML(`
-              <div class="p-2">
-                <h3 class="font-semibold text-gray-900">${point.properties.title}, ${point.properties.state}</h3>
-                <p class="text-sm text-gray-600">${point.properties.dataPoint}</p>
-                <p class="text-lg font-bold text-azure">${point.properties.value.toLocaleString()}</p>
-                <button class="mt-2 bg-azure text-white px-3 py-1 rounded text-xs hover:bg-azure-dark">
-                  Click to see metro
-                </button>
-              </div>
-            `);
-
-          // Create a marker
-          const marker = new mapboxgl.Marker({
-            color: '#3696A8',
-            scale: 1.2
-          })
-            .setLngLat(point.coordinates)
-            .setPopup(popup)
-            .addTo(map.current);
-        });
-
-        // Add a data source for visualization
-        map.current.addSource('data-points', {
-          type: 'geojson',
-          data: {
-            type: 'FeatureCollection',
-            features: sampleDataPoints.map(point => ({
-              type: 'Feature',
-              geometry: {
-                type: 'Point',
-                coordinates: point.coordinates
-              },
-              properties: point.properties
-            }))
-          }
-        });
-
-        // Add a layer for data visualization
-        map.current.addLayer({
-          id: 'data-points-layer',
-          type: 'circle',
-          source: 'data-points',
-          paint: {
-            'circle-radius': {
-              'base': 1.75,
-              'stops': [[12, 8], [22, 180]]
-            },
-            'circle-color': '#3696A8',
-            'circle-opacity': 0.8,
-            'circle-stroke-width': 2,
-            'circle-stroke-color': '#ffffff'
-          }
-        });
-        
-        // Mark that data has been added
-        map.current._dataAdded = true;
-        console.log('Data added successfully!');
-      });
 
       // Update state when map moves
       map.current.on('move', () => {
@@ -243,6 +353,38 @@ const Map = () => {
       }
     };
   }, [lng, lat, zoom]);
+
+  // Update map data when filter level changes
+  useEffect(() => {
+    if (!map.current || !map.current._dataAdded) return;
+
+    const updateMapData = () => {
+      // Get data points for selected level
+      const dataPoints = getDataPointsForLevel();
+      
+      // Update data source safely
+      try {
+        if (map.current.getSource('data-points')) {
+          map.current.getSource('data-points').setData({
+            type: 'FeatureCollection',
+            features: dataPoints.map(point => ({
+              type: 'Feature',
+              geometry: {
+                type: 'Point',
+                coordinates: point.coordinates
+              },
+              properties: point.properties
+            }))
+          });
+          console.log('Data updated with', dataPoints.length, 'points');
+        }
+      } catch (error) {
+        console.log('Source not ready yet, skipping update:', error);
+      }
+    };
+
+    updateMapData();
+  }, [selectedFilter]);
 
   // Check if token is available
   const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
