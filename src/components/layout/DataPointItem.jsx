@@ -40,7 +40,7 @@ const DataPointItem = ({
         </div>
         <div className="flex items-center space-x-2 relative">
           {item.isPremium && (
-            <span className="bg-yellow-400 text-black px-1 py-0.5 rounded text-xs">New</span>
+            <span className=" text-orange font-semibold font-hoefler text-sm py-0.5 rounded">New</span>
           )}
           <div className="relative flex items-center space-x-2">
           {item.isPremium && (

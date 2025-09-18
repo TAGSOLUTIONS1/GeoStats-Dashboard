@@ -105,7 +105,7 @@ const Layout = ({ children }) => {
                   <Filter className="w-4 h-4 text-gray-600" />
                   <p className="text-sm">Filter</p>
                 </button>
-                <button className="px-3 py-1.5 text-xs font-medium text-gray-700 hover:text-gray-900 transition-colors">
+                <button className="px-3 py-1.5 text-xs font-medium text-azure hover:text-azure-dark transition-colors">
                   Sign up
                 </button>
                 <button className="px-3 py-1.5 bg-azure text-white text-xs font-medium rounded-lg hover:bg-azure-dark transition-colors flex items-center space-x-1">
