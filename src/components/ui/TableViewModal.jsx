@@ -220,7 +220,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                   {tableHeaders.map((header) => (
                     <th 
                       key={header.key}
-                      className={`border-l border-gray-200 py-2 px-3 font-medium text-sm text-white bg-blue hover:bg-blue-dark ${header.width} relative`}
+                      className={`border-l border-gray-200 py-2 px-3 font-medium text-sm text-white bg-blue hover:bg-blue-dark ${header.width} relative font-inter`}
                     >
                       <div className="flex items-center justify-between w-full">
                         {/* Header Label - No dropdown for first 3 columns */}
@@ -352,7 +352,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                     {tableHeaders.map((header) => (
                       <td 
                         key={header.key}
-                        className={`py-3 px-3 text-center text-sm text-gray-900 ${header.width} ${header.className || ''}`}
+                        className={`py-3 px-3 text-center text-sm text-blue ${header.width} ${header.className || ''} font-inter`}
                       >
                         {formatCellValue(row[header.key], header.format)}
                       </td>
@@ -368,18 +368,18 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
         <div className="p-6 border-t border-gray-200">
           <div className="flex items-center justify-between">
               <div className="flex items-center space-x-4">
-                <span className="text-sm text-gray-600">
+                <span className="text-sm text-blue font-inter">
                   Showing {startIndex + 1} to {Math.min(endIndex, sortedData.length)} of {sortedData.length}
                 </span>
                 <div className="flex items-center space-x-2">
-                  <label className="text-sm text-gray-600">Rows per Page:</label>
+                  <label className="text-sm text-blue font-inter">Rows per Page:</label>
                   <select
                     value={rowsPerPage}
                     onChange={(e) => {
                       setRowsPerPage(Number(e.target.value));
                       setCurrentPage(1);
                     }}
-                    className="px-2 py-1 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-azure"
+                    className="px-2 py-1 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue text-blue font-inter"
                   >
                     <option value={10}>10</option>
                     <option value={25}>25</option>
@@ -393,7 +393,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
               <button
                 onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                 disabled={currentPage === 1}
-                className="px-2 py-1 border border-gray-300 rounded text-sm hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="px-2 py-1 border border-gray-300 rounded text-sm hover:bg-blue hover:text-white disabled:opacity-50 disabled:cursor-not-allowed text-blue font-inter"
               >
                 &lt;
               </button>
@@ -404,10 +404,10 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                   <button
                     key={pageNum}
                     onClick={() => setCurrentPage(pageNum)}
-                    className={`px-2 py-1 border rounded text-sm ${
+                    className={`px-2 py-1 border rounded text-sm font-inter ${
                       currentPage === pageNum
-                        ? 'bg-azure text-white border-azure'
-                        : 'border-gray-300 hover:bg-gray-50'
+                        ? 'bg-blue text-white border-blue'
+                        : 'border-gray-300 hover:bg-blue hover:text-white text-blue'
                     }`}
                   >
                     {pageNum}
@@ -418,7 +418,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
               <button
                 onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
                 disabled={currentPage === totalPages}
-                className="px-2 py-1 border border-gray-300 rounded text-sm hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="px-2 py-1 border border-gray-300 rounded text-sm hover:bg-blue hover:text-white disabled:opacity-50 disabled:cursor-not-allowed text-blue font-inter"
               >
                 &gt;
               </button>

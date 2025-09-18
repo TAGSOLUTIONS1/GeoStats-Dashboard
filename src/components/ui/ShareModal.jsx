@@ -44,7 +44,7 @@ const ShareModal = ({ isOpen, onClose }) => {
         </button>
 
         {/* Title */}
-        <h2 className="text-2xl font-bold text-black mb-2">Share</h2>
+        <h2 className="text-2xl font-bold text-blue mb-2">Share</h2>
         
         {/* Subtitle */}
         <p className="text-gray-700 mb-6">Share with your friends</p>

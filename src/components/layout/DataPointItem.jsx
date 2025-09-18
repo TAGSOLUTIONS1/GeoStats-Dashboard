@@ -36,7 +36,7 @@ const DataPointItem = ({
             onChange={() => onItemClick(item)}
             className=""
           />
-          <span className="text-xs text-black">{item.label}</span>
+          <span className="text-xs text-blue">{item.label}</span>
         </div>
         <div className="flex items-center space-x-2 relative">
           {item.isPremium && (

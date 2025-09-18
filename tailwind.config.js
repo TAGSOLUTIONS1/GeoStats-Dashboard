@@ -9,6 +9,14 @@ export default {
       fontFamily: {
         'tomorrow': ['Tomorrow', 'sans-serif'],
         'hoefler': ['Hoefler Text', 'serif'],
+        'inter': ['Inter', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'nunito': ['Nunito', 'sans-serif'],
+        'source-sans': ['Source Sans Pro', 'sans-serif'],
+        'playfair': ['Playfair Display', 'serif'],
+        'merriweather': ['Merriweather', 'serif'],
       },
       colors: {
         'azure': '#3696A8',
