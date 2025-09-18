@@ -17,6 +17,7 @@ export default {
         'source-sans': ['Source Sans Pro', 'sans-serif'],
         'playfair': ['Playfair Display', 'serif'],
         'merriweather': ['Merriweather', 'serif'],
+        'calibri': ['Calibri', 'sans-serif'],
       },
       colors: {
         'azure': '#3696A8',
