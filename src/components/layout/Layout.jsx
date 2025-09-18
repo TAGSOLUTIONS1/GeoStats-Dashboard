@@ -8,18 +8,17 @@ import TooltipToggle from '../ui/TooltipToggle';
 import FeedbackModal from '../ui/FeedbackModal';
 import ShareModal from '../ui/ShareModal';
 import Map from '../ui/Map';
+import { uaeFilterOptions } from '../../data/uaeBoundaries';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedFilter, setSelectedFilter] = useState('State');
+  const [selectedFilter, setSelectedFilter] = useState('Emirate');
   const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
   const [isTableViewOpen, setIsTableViewOpen] = useState(false);
   const [isTooltipEnabled, setIsTooltipEnabled] = useState(true);
   const [selectedDate, setSelectedDate] = useState('Jul 2025');
   const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
-
-  const filterOptions = ['State', 'City', 'Area', 'Zip'];
 
   const handleFilterPanel = () => {
     setIsFilterPanelOpen(!isFilterPanelOpen);
@@ -54,7 +53,7 @@ const Layout = ({ children }) => {
       
       {/* Background Map - Fixed behind main content only */}
       <div className="absolute left-72 right-0 top-0 bottom-0">
-        <Map />
+        <Map selectedFilter={selectedFilter} searchQuery={searchQuery} />
       </div>
       
       <main className="flex-1 relative z-20 flex flex-col pointer-events-none">
@@ -65,7 +64,7 @@ const Layout = ({ children }) => {
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
                 <input
                   type="text"
-                  placeholder="Search your State, City, or ZIP Code"
+                  placeholder="Search your Emirate, Area, or District"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="pl-10 pr-4 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure w-80"
@@ -75,7 +74,7 @@ const Layout = ({ children }) => {
               <div className="flex items-center space-x-6">
               {/* Filter Options */}
               <div className="flex items-center space-x-8">
-                {filterOptions.map((option) => (
+                {uaeFilterOptions.map((option) => (
                   <label key={option} className="flex items-center space-x-2">
                     <input
                       type="radio"
