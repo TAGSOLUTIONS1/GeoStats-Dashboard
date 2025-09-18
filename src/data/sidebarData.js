@@ -32,7 +32,7 @@ export const dataPoints = [
     isSelected: false,
     isPremium: false,
     description: 'The number of active listings on the market for sale in the area in a given month as determined by Realtor.com. Note: For Sale Inventory excludes listings that are pending.',
-    source: 'Realtor.com'
+    source: 'Zillow'
   },
   {
     id: 'home-price-forecast',
@@ -50,7 +50,7 @@ export const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'A comprehensive score predicting long-term property value growth potential based on multiple factors.',
-    source: 'Reventure'
+    source: 'Zillow'
   },
   {
     id: 'home-value-growth-5year',
@@ -68,7 +68,7 @@ export const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'An estimate of how over or undervalued current Home Values in the area are relative to the fundamentals dictated by local median household income.',
-    source: 'Reventure'
+    source: 'Zillow'
   },
   {
     id: 'price-cut-percent',
@@ -77,7 +77,7 @@ export const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'Percentage of listings that have had their prices reduced from the original listing price.',
-    source: 'Realtor.com'
+    source: 'Zillow'
   },
   {
     id: 'population-growth',
@@ -86,7 +86,7 @@ export const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'Annual percentage change in population, indicating demographic trends affecting housing demand.',
-    source: 'Census Bureau'
+    source: 'Zillow'
   },
   {
     id: 'cap-rate',
@@ -95,7 +95,7 @@ export const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'Capitalization rate - the ratio of net operating income to property value, used in real estate investment analysis.',
-    source: 'Reventure'
+    source: 'Zillow'
   }
 ];
 
@@ -137,7 +137,7 @@ export const dataSections = [
         isSelected: false,
         isPremium: false,
         description: 'The year-over-year growth rate in the area\'s For Sale Inventory according to Realtor.com. If an area has big inventory increases, it could mean greater likelihood of home price declines, while sharply lower inventory could mean that home prices will continue to go up.',
-        source: 'Realtor.com'
+        source: 'Zillow'
       }
     ]
   },
