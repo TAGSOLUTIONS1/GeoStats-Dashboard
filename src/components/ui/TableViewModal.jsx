@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { X, Download, ChevronUp, ChevronDown, ArrowUpDown, ArrowDownUp } from 'lucide-react';
+import { X, Download, ChevronUp, ChevronDown, ArrowUpDown, ArrowDownUp, Crown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { sampleData } from '../../data/TableViewData';
+import { dataSections } from '../../data/sidebarData';
 
 const TableViewModal = ({ isOpen, onClose, data = [] }) => {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' });
@@ -9,6 +10,8 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
   const [rowsPerPage, setRowsPerPage] = useState(10);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [hoveredSort, setHoveredSort] = useState(null);
+  const [columnHeaders, setColumnHeaders] = useState({});
+  const [expandedSections, setExpandedSections] = useState({});
   const dropdownRef = useRef(null);
 
   // Close dropdown when clicking outside
@@ -32,19 +35,10 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
 
   const tableData = data.length > 0 ? data : sampleData;
 
-  // Data points for dropdown (similar to sidebar)
-  const dataPoints = [
-    { id: 'home-value', label: 'Home Value', isPremium: false },
-    { id: 'home-value-growth', label: 'Home Value Growth (YoY)', isPremium: false },
-    { id: 'for-sale-inventory', label: 'For Sale Inventory', isPremium: false },
-    { id: 'home-price-forecast', label: 'Home Price Forecast', isPremium: true },
-    { id: 'long-term-growth', label: 'Long-Term Growth Score', isPremium: true },
-    { id: 'home-value-growth-5y', label: 'Home Value Growth (5-Year)', isPremium: true },
-    { id: 'overvalued', label: 'Overvalued %', isPremium: false },
-    { id: 'price-cut', label: 'Price Cut %', isPremium: false },
-    { id: 'population-growth', label: 'Population Growth', isPremium: false },
-    { id: 'cap-rate', label: 'Cap Rate', isPremium: false }
-  ];
+  // Flatten all data points for easy access
+  const allDataPoints = dataSections.flatMap(section => 
+    section.items.map(item => ({ ...item, sectionId: section.id, sectionLabel: section.label }))
+  );
 
   const handleSort = (key) => {
     let direction = 'asc';
@@ -70,6 +64,47 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
       }
     }
     return 'Click to sort ascending';
+  };
+
+  const handleColumnHeaderChange = (columnKey, selectedDataPoint) => {
+    // Check if any other column is already using this section
+    const isSectionAlreadyUsed = Object.entries(columnHeaders).some(([key, value]) => 
+      key !== columnKey && value?.sectionId === selectedDataPoint.sectionId
+    );
+    
+    if (isSectionAlreadyUsed) {
+      // If section is already used, swap the columns
+      const existingColumn = Object.entries(columnHeaders).find(([key, value]) => 
+        value?.sectionId === selectedDataPoint.sectionId
+      );
+      
+      if (existingColumn) {
+        const [existingKey, existingValue] = existingColumn;
+        setColumnHeaders(prev => ({
+          ...prev,
+          [existingKey]: prev[columnKey] || null, // Move current column's data to existing column
+          [columnKey]: selectedDataPoint // Set new data to current column
+        }));
+      }
+    } else {
+      // Normal assignment
+      setColumnHeaders(prev => ({
+        ...prev,
+        [columnKey]: selectedDataPoint
+      }));
+    }
+    setActiveDropdown(null);
+  };
+
+  const getColumnHeaderLabel = (columnKey) => {
+    return columnHeaders[columnKey]?.label || tableHeaders.find(h => h.key === columnKey)?.label || 'Select Data Point';
+  };
+
+  const toggleSection = (sectionId) => {
+    setExpandedSections(prev => ({
+      ...prev,
+      [sectionId]: !prev[sectionId]
+    }));
   };
 
   const sortedData = [...tableData].sort((a, b) => {
@@ -169,7 +204,27 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                       className={`border-l border-gray-200 py-2 px-3 font-medium text-sm text-white bg-blue hover:bg-blue-dark ${header.width} relative`}
                     >
                       <div className="flex items-center justify-between w-full">
-                        <span className="text-center flex-1">{header.label}</span>
+                        {/* Header Label - No dropdown for first 3 columns */}
+                        {['rk', 'zip', 'city'].includes(header.key) ? (
+                          <div className="flex-1">
+                            <span className="text-sm font-medium text-center block">
+                              {header.label}
+                            </span>
+                          </div>
+                        ) : (
+                          /* Dropdown Button with Text for other columns */
+                          <div className="flex-1">
+                            <button
+                              onClick={() => handleDropdownToggle(header.key)}
+                              className="w-full text-left px-2 py-1 hover:bg-blue-light rounded flex items-center justify-between"
+                            >
+                              <span className="text-sm font-medium truncate">
+                                {getColumnHeaderLabel(header.key)}
+                              </span>
+                              <ChevronDown className="w-3 h-3 flex-shrink-0 ml-1" />
+                            </button>
+                          </div>
+                        )}
                         
                         {/* Sort Button */}
                         {header.sortable && (
@@ -204,19 +259,58 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                       
                       {/* Dropdown Menu */}
                       {activeDropdown === header.key && (
-                        <div className="absolute top-full left-0 right-0 bg-white border border-gray-200 rounded shadow-lg z-50 mt-1">
+                        <div className="absolute top-full left-0 right-0 bg-white border border-gray-200 rounded shadow-lg z-50 mt-1 max-h-60 overflow-y-auto">
                           <div className="py-2">
-                            {dataPoints.map((point) => (
-                              <div
-                                key={point.id}
-                                className="px-3 py-2 hover:bg-gray-100 cursor-pointer flex items-center justify-between"
-                              >
-                                <span className="text-sm text-gray-700">{point.label}</span>
-                                {point.isPremium && (
-                                  <span className="text-xs bg-yellow-400 text-black px-1 py-0.5 rounded">Premium</span>
-                                )}
-                              </div>
-                            ))}
+                            {dataSections.map((section) => {
+                              const isExpanded = expandedSections[section.id];
+                              
+                              return (
+                                <div key={section.id}>
+                                  {/* Section Header - Clickable */}
+                                  <div 
+                                    className="px-3 py-2 border-b border-gray-100 cursor-pointer hover:bg-gray-300 flex items-center justify-between"
+                                    onClick={() => toggleSection(section.id)}
+                                  >
+                                    <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
+                                      {section.label}
+                                    </h4>
+                                    <ChevronDown 
+                                      className={`w-3 h-3 text-gray-500 transition-transform ${
+                                        isExpanded ? 'rotate-180' : ''
+                                      }`} 
+                                    />
+                                  </div>
+                                  
+                                  {/* Section Items - Only show if expanded */}
+                                  {isExpanded && section.items.map((point) => {
+                                    const isUsedByOtherColumn = Object.entries(columnHeaders).some(([key, value]) => 
+                                      key !== header.key && value?.sectionId === section.id
+                                    );
+                                    
+                                    return (
+                                      <div
+                                        key={point.id}
+                                        onClick={() => handleColumnHeaderChange(header.key, point)}
+                                        className={`px-3 py-2 hover:bg-gray-100 cursor-pointer flex items-center justify-between ${
+                                          isUsedByOtherColumn ? 'opacity-50' : ''
+                                        }`}
+                                      >
+                                        <div className="flex items-center space-x-2">
+                                          <span className="text-xs text-left text-gray-700">{point.label}</span>
+                                          {isUsedByOtherColumn && (
+                                            <span className="text-xs text-orange">(Used in another column)</span>
+                                          )}
+                                        </div>
+                                        {point.isPremium && (
+                                          <Crown className="w-3 h-3 text-orange" />
+                                        )}
+                                      </div>
+                                    );
+                                  })}
+                                </div>
+                              );
+                            })}
+                            
                           </div>
                         </div>
                       )}

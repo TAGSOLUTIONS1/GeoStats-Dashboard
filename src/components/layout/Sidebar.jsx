@@ -30,7 +30,7 @@ const Sidebar = () => {
       <div className="p-4 border-b border-gray-700">
         <div className="flex items-center space-x-2">
           <div className="w-10 h-10 rounded-lg flex items-center justify-center">
-            <img src="/logo/geostats_logo1.png" alt="Logo" className="w-auto h-8" />
+            <img src="/logo/geo_stats.png" alt="Logo" className="w-auto h-10" />
           </div>
           <h1 className="text-2xl font-semibold text-orange font-tomorrow">GeoStats</h1>
         </div>
