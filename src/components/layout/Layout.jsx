@@ -11,15 +11,16 @@ import Map from '../ui/Map';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedFilter, setSelectedFilter] = useState('State');
+  const [selectedFilter, setSelectedFilter] = useState('Emirates');
   const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
   const [isTableViewOpen, setIsTableViewOpen] = useState(false);
   const [isTooltipEnabled, setIsTooltipEnabled] = useState(true);
   const [selectedDate, setSelectedDate] = useState('Jul 2025');
   const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
+  const [selectedBoundaryLevel, setSelectedBoundaryLevel] = useState('emirates');
 
-  const filterOptions = ['State', 'City', 'Area', 'Zip'];
+  const filterOptions = ['Emirates', 'Cities', 'Areas', 'Zones'];
 
   const handleFilterPanel = () => {
     setIsFilterPanelOpen(!isFilterPanelOpen);
@@ -54,7 +55,7 @@ const Layout = ({ children }) => {
       
       {/* Background Map - Fixed behind main content only */}
       <div className="absolute left-72 right-0 top-0 bottom-0">
-        <Map />
+        <Map boundaryLevel={selectedBoundaryLevel} />
       </div>
       
       <main className="flex-1 relative z-20 flex flex-col pointer-events-none">
@@ -65,7 +66,7 @@ const Layout = ({ children }) => {
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
                 <input
                   type="text"
-                  placeholder="Search your State, City, or ZIP Code"
+                  placeholder="Search Emirates, Cities, or Areas"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="pl-10 pr-4 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure w-80"
@@ -73,6 +74,7 @@ const Layout = ({ children }) => {
               </div>
 
               <div className="flex items-center space-x-6">
+
               {/* Filter Options */}
               <div className="flex items-center space-x-8">
                 {filterOptions.map((option) => (
@@ -82,7 +84,17 @@ const Layout = ({ children }) => {
                       name="filter"
                       value={option}
                       checked={selectedFilter === option}
-                      onChange={(e) => setSelectedFilter(e.target.value)}
+                      onChange={(e) => {
+                        setSelectedFilter(e.target.value);
+                        // Map filter options to boundary levels
+                        const boundaryMap = {
+                          'Emirates': 'emirates',
+                          'Cities': 'cities',
+                          'Areas': 'areas',
+                          'Zones': 'zones'
+                        };
+                        setSelectedBoundaryLevel(boundaryMap[e.target.value]);
+                      }}
                       className="text-azure w-3 h-3"
                     />
                     <span className="text-sm text-gray-700">{option}</span>

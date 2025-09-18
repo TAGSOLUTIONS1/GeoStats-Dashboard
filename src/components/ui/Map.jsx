@@ -1,18 +1,240 @@
 import React, { useEffect, useRef, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
+import { uaeEmirates, uaeCities, getBoundaryData } from '../../data/uaeBoundaries';
 
 // Global flag to prevent multiple map initializations
 let mapInitialized = false;
 
-const Map = () => {
+const Map = ({ boundaryLevel = 'emirates' }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
+  const boundaryTimeoutRef = useRef(null);
   
   // Correct Dubai coordinates
   const [lng, setLng] = useState(55.296249);
   const [lat, setLat] = useState(25.276987); 
-  const [zoom, setZoom] = useState(12);       
+  const [zoom, setZoom] = useState(7);       
+
+  // Debounced function to add UAE boundaries
+  const addUAEBoundariesDebounced = (level) => {
+    if (boundaryTimeoutRef.current) {
+      clearTimeout(boundaryTimeoutRef.current);
+    }
+    
+    boundaryTimeoutRef.current = setTimeout(() => {
+      addUAEBoundaries(level);
+    }, 500);
+  };
+
+  // Function to add UAE boundaries
+  const addUAEBoundaries = (level) => {
+    console.log('=== ADDING UAE BOUNDARIES ===');
+    console.log('Level:', level);
+    
+    if (!map.current || !map.current.isStyleLoaded()) {
+      console.log('Map not ready or style not loaded');
+      return;
+    }
+
+    const boundaryData = getBoundaryData(level);
+    console.log('Boundary data features count:', boundaryData.features.length);
+    
+    // Try to update existing data first to avoid flickering
+    if (map.current.getSource('uae-boundaries')) {
+      console.log('Updating existing boundary data...');
+      try {
+        map.current.getSource('uae-boundaries').setData(boundaryData);
+        console.log('✅ Updated existing boundary data');
+        return;
+      } catch (error) {
+        console.log('Error updating existing data:', error);
+      }
+    }
+
+    // Only recreate layers if source doesn't exist
+    try {
+      // Remove existing layers first
+      if (map.current.getLayer('uae-boundaries-fill')) {
+        map.current.removeLayer('uae-boundaries-fill');
+      }
+      if (map.current.getLayer('uae-boundaries-stroke')) {
+        map.current.removeLayer('uae-boundaries-stroke');
+      }
+      if (map.current.getSource('uae-boundaries')) {
+        map.current.removeSource('uae-boundaries');
+      }
+    } catch (error) {
+      console.log('Error removing existing layers:', error);
+    }
+
+    // Wait a moment then add new layers
+    setTimeout(() => {
+      addBoundaryLayers(level, boundaryData);
+    }, 100);
+  };
+
+  // Separate function to add boundary layers
+  const addBoundaryLayers = (level, boundaryData) => {
+    console.log('=== ADDING BOUNDARY LAYERS ===');
+    console.log('Level:', level);
+    
+    if (!map.current || !map.current.isStyleLoaded()) {
+      console.log('Map not ready for adding layers');
+      return;
+    }
+
+    // Always add boundary source
+    try {
+      console.log('Creating boundary source...');
+      map.current.addSource('uae-boundaries', {
+        type: 'geojson',
+        data: boundaryData
+      });
+      console.log('✅ Successfully added boundary source');
+    } catch (error) {
+      console.log('❌ Error adding boundary source:', error);
+      return;
+    }
+
+    try {
+      if (level === 'emirates') {
+        console.log('Adding emirate boundaries as polygons');
+        // Add emirate boundaries as polygons
+        map.current.addLayer({
+            id: 'uae-boundaries-fill',
+            type: 'fill',
+            source: 'uae-boundaries',
+            minzoom: 0,
+            maxzoom: 22,
+            paint: {
+              'fill-color': [
+                'case',
+                ['==', ['get', 'emirate'], 'Abu Dhabi'], '#FF6B6B',
+                ['==', ['get', 'emirate'], 'Dubai'], '#4ECDC4',
+                ['==', ['get', 'emirate'], 'Sharjah'], '#45B7D1',
+                ['==', ['get', 'emirate'], 'Ajman'], '#96CEB4',
+                ['==', ['get', 'emirate'], 'Ras Al Khaimah'], '#FFEAA7',
+                ['==', ['get', 'emirate'], 'Fujairah'], '#DDA0DD',
+                ['==', ['get', 'emirate'], 'Umm Al Quwain'], '#98D8C8',
+                '#CCCCCC'
+              ],
+              'fill-opacity': 0.8
+            }
+          });
+
+        map.current.addLayer({
+            id: 'uae-boundaries-stroke',
+            type: 'line',
+            source: 'uae-boundaries',
+            minzoom: 0,
+            maxzoom: 22,
+            paint: {
+              'line-color': '#000000',
+              'line-width': 3
+            }
+          });
+        console.log('Successfully added emirate layers');
+      } else {
+        console.log('Adding cities/areas as circles');
+        // Add cities/areas as circles
+        map.current.addLayer({
+          id: 'uae-boundaries-fill',
+          type: 'circle',
+          source: 'uae-boundaries',
+          minzoom: 0,
+          maxzoom: 22,
+          paint: {
+            'circle-radius': [
+              'case',
+              ['==', ['get', 'type'], 'Capital'], 15,
+              ['==', ['get', 'type'], 'Major City'], 12,
+              ['==', ['get', 'type'], 'City'], 10,
+              ['==', ['get', 'type'], 'Town'], 8,
+              ['==', ['get', 'type'], 'Industrial Area'], 10,
+              ['==', ['get', 'type'], 'Coastal City'], 9,
+              8
+            ],
+            'circle-color': [
+              'case',
+              ['==', ['get', 'type'], 'Capital'], '#FF6B6B',
+              ['==', ['get', 'type'], 'Major City'], '#4ECDC4',
+              ['==', ['get', 'type'], 'City'], '#45B7D1',
+              ['==', ['get', 'type'], 'Town'], '#96CEB4',
+              ['==', ['get', 'type'], 'Industrial Area'], '#FFEAA7',
+              ['==', ['get', 'type'], 'Coastal City'], '#DDA0DD',
+              '#CCCCCC'
+            ],
+            'circle-opacity': 0.9,
+            'circle-stroke-width': 2,
+            'circle-stroke-color': '#ffffff'
+          }
+        });
+        console.log('Successfully added city layers');
+      }
+    } catch (error) {
+      console.log('Error adding boundary layers:', error);
+      return;
+    }
+
+    // Add click handler for boundaries (only if not already added)
+    if (!map.current._boundaryClickHandlerAdded && map.current.getContainer()) {
+      map.current.on('click', 'uae-boundaries-fill', (e) => {
+      try {
+        const feature = e.features[0];
+        if (!feature || !feature.properties) {
+          console.log('No feature or properties found');
+          return;
+        }
+        
+        const properties = feature.properties;
+        
+        // Create popup with error handling
+        const popup = new mapboxgl.Popup({
+          closeButton: true,
+          closeOnClick: false
+        });
+        
+        popup.setLngLat(e.lngLat);
+        popup.setHTML(`
+          <div class="p-3">
+            <h3 class="font-bold text-gray-900">${properties.name || 'Unknown'}</h3>
+            ${properties.emirate ? `<p class="text-sm text-gray-600">Emirate: ${properties.emirate}</p>` : ''}
+            ${properties.population ? `<p class="text-sm text-gray-600">Population: ${properties.population.toLocaleString()}</p>` : ''}
+            ${properties.area ? `<p class="text-sm text-gray-600">Area: ${properties.area.toLocaleString()} km²</p>` : ''}
+            ${properties.type ? `<p class="text-sm text-gray-600">Type: ${properties.type}</p>` : ''}
+          </div>
+        `);
+        
+        // Only add to map if it's ready
+        if (map.current && map.current.getContainer()) {
+          popup.addTo(map.current);
+        } else {
+          console.log('Map container not ready for popup');
+        }
+      } catch (error) {
+        console.log('Error creating popup:', error);
+      }
+      });
+      
+      // Mark click handler as added
+      map.current._boundaryClickHandlerAdded = true;
+    }
+
+    // Change cursor on hover (only if not already added)
+    if (!map.current._boundaryHoverHandlersAdded && map.current.getContainer()) {
+      map.current.on('mouseenter', 'uae-boundaries-fill', () => {
+        map.current.getCanvas().style.cursor = 'pointer';
+      });
+
+      map.current.on('mouseleave', 'uae-boundaries-fill', () => {
+        map.current.getCanvas().style.cursor = '';
+      });
+      
+      // Mark hover handlers as added
+      map.current._boundaryHoverHandlersAdded = true;
+    }
+  };
 
   useEffect(() => {
     // Set Mapbox access token
@@ -209,6 +431,21 @@ const Map = () => {
             'circle-stroke-color': '#ffffff'
           }
         });
+
+        // Add UAE boundaries after a short delay to ensure map is ready
+        setTimeout(() => {
+          addUAEBoundaries(boundaryLevel);
+        }, 1000);
+
+
+        // Re-add boundaries when style loads (in case of style changes)
+        map.current.on('styledata', () => {
+          if (map.current.isStyleLoaded()) {
+            setTimeout(() => {
+              addUAEBoundariesDebounced(boundaryLevel);
+            }, 1000);
+          }
+        });
         
         // Mark that data has been added
         map.current._dataAdded = true;
@@ -220,6 +457,23 @@ const Map = () => {
         setLng(map.current.getCenter().lng.toFixed(4));
         setLat(map.current.getCenter().lat.toFixed(4));
         setZoom(map.current.getZoom().toFixed(2));
+      });
+
+      // Re-add boundaries on map interactions to ensure they stay visible (less frequent)
+      map.current.on('moveend', () => {
+        if (map.current.isStyleLoaded()) {
+          setTimeout(() => {
+            addUAEBoundariesDebounced(boundaryLevel);
+          }, 500);
+        }
+      });
+
+      map.current.on('zoomend', () => {
+        if (map.current.isStyleLoaded()) {
+          setTimeout(() => {
+            addUAEBoundariesDebounced(boundaryLevel);
+          }, 500);
+        }
       });
     };
 
@@ -243,6 +497,15 @@ const Map = () => {
       }
     };
   }, [lng, lat, zoom]);
+
+  // Effect to handle boundary level changes
+  useEffect(() => {
+    if (map.current && map.current._dataAdded && map.current.isStyleLoaded()) {
+      // Always add boundaries when level changes
+      addUAEBoundaries(boundaryLevel);
+    }
+  }, [boundaryLevel]);
+
 
   // Check if token is available
   const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
