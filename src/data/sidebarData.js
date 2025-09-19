@@ -8,94 +8,67 @@ import {
 
 export const dataPoints = [
   {
-    id: 'home-value',
-    label: 'Home Value',
-    icon: Home,
+    id: 'population-2019',
+    label: 'Population 2019',
+    icon: Users,
     isSelected: true,
     isPremium: false,
-    description: 'The area\'s typical Home Value as determined by the Zillow Home Value Index ("ZHVI"). This is a smoothed, seasonally adjusted figure.',
-    source: 'Zillow'
+    description: 'Total population count for the Dubai community in 2019.',
+    source: 'Dubai Statistics Center'
   },
   {
-    id: 'home-value-growth-yoy',
-    label: 'Home Value Growth (YoY)',
-    icon: TrendingUp,
+    id: 'population-2018',
+    label: 'Population 2018',
+    icon: Users,
     isSelected: false,
     isPremium: false,
-    description: 'The year-over-year growth rate in the area\'s typical Home Value according to the Zillow Home Value Index ("ZHVI").',
-    source: 'Zillow'
-  },
-  {
-    id: 'for-sale-inventory',
-    label: 'For Sale Inventory',
-    icon: BarChart3,
-    isSelected: false,
-    isPremium: false,
-    description: 'The number of active listings on the market for sale in the area in a given month as determined by Realtor.com. Note: For Sale Inventory excludes listings that are pending.',
-    source: 'Zillow'
-  },
-  {
-    id: 'home-price-forecast',
-    label: 'Home Price Forecast',
-    icon: TrendingUp,
-    isSelected: false,
-    isPremium: false,
-    description: 'Projected future home price movements based on current market conditions and economic indicators.',
-    source: 'Zillow'
-  },
-  {
-    id: 'long-term-growth-score',
-    label: 'Long-Term Growth Score',
-    icon: BarChart3,
-    isSelected: false,
-    isPremium: true,
-    description: 'A comprehensive score predicting long-term property value growth potential based on multiple factors.',
-    source: 'Zillow'
-  },
-  {
-    id: 'home-value-growth-5year',
-    label: 'Home Value Growth (5-Year)',
-    icon: TrendingUp,
-    isSelected: false,
-    isPremium: true,
-    description: 'The 5-year growth rate in home values for an area. Looking at this data point gives a longer-term perspective on how home values have grown in an area.',
-    source: 'Zillow'
-  },
-  {
-    id: 'overvalued-percent',
-    label: 'Overvalued %',
-    icon: DollarSign,
-    isSelected: false,
-    isPremium: true,
-    description: 'An estimate of how over or undervalued current Home Values in the area are relative to the fundamentals dictated by local median household income.',
-    source: 'Zillow'
-  },
-  {
-    id: 'price-cut-percent',
-    label: 'Price Cut %',
-    icon: DollarSign,
-    isSelected: false,
-    isPremium: true,
-    description: 'Percentage of listings that have had their prices reduced from the original listing price.',
-    source: 'Zillow'
+    description: 'Total population count for the Dubai community in 2018.',
+    source: 'Dubai Statistics Center'
   },
   {
     id: 'population-growth',
     label: 'Population Growth',
-    icon: Users,
+    icon: TrendingUp,
     isSelected: false,
-    isPremium: true,
-    description: 'Annual percentage change in population, indicating demographic trends affecting housing demand.',
-    source: 'Zillow'
+    isPremium: false,
+    description: 'Year-over-year population growth rate from 2018 to 2019.',
+    source: 'Dubai Statistics Center'
   },
   {
-    id: 'cap-rate',
-    label: 'Cap Rate',
+    id: 'area-sq-km',
+    label: 'Area (km²)',
+    icon: BarChart3,
+    isSelected: false,
+    isPremium: false,
+    description: 'Total area of the Dubai community in square kilometers.',
+    source: 'Dubai Statistics Center'
+  },
+  {
+    id: 'population-density',
+    label: 'Population Density',
     icon: BarChart3,
     isSelected: false,
     isPremium: true,
-    description: 'Capitalization rate - the ratio of net operating income to property value, used in real estate investment analysis.',
-    source: 'Zillow'
+    description: 'Population density calculated as population per square kilometer.',
+    source: 'Dubai Statistics Center'
+  },
+  {
+    id: 'sector',
+    label: 'Sector',
+    icon: Home,
+    isSelected: false,
+    isPremium: true,
+    description: 'Administrative sector classification for the Dubai community.',
+    source: 'Dubai Statistics Center'
+  },
+  {
+    id: 'community-number',
+    label: 'Community Number',
+    icon: BarChart3,
+    isSelected: false,
+    isPremium: true,
+    description: 'Unique identifier number for the Dubai community.',
+    source: 'Dubai Statistics Center'
   }
 ];
 
@@ -105,40 +78,10 @@ export const dataSections = [
     label: 'Popular Data',
     isExpanded: true,
     items: [
-      dataPoints[0], // Home Value
-      dataPoints[1], // Home Value Growth (YoY)
-      dataPoints[2], // For Sale Inventory
-      dataPoints[3], // Home Price Forecast
-    ]
-  },
-  {
-    id: 'home-price-affordability',
-    label: 'Home Price & Affordability',
-    isExpanded: false,
-    items: [
-      dataPoints[0], // Home Value
-      dataPoints[1], // Home Value Growth (YoY)
-      dataPoints[5], // Home Value Growth (5-Year)
-      dataPoints[6], // Overvalued %
-    ]
-  },
-  {
-    id: 'market-trends',
-    label: 'Market Trends',
-    isExpanded: false,
-    items: [
-      dataPoints[2], // For Sale Inventory
-      dataPoints[3], // Home Price Forecast
-      dataPoints[7], // Price Cut %
-      {
-        id: 'sale-inventory-growth-yoy',
-        label: 'Sale Inventory Growth (YoY)',
-        icon: TrendingUp,
-        isSelected: false,
-        isPremium: false,
-        description: 'The year-over-year growth rate in the area\'s For Sale Inventory according to Realtor.com. If an area has big inventory increases, it could mean greater likelihood of home price declines, while sharply lower inventory could mean that home prices will continue to go up.',
-        source: 'Zillow'
-      }
+      dataPoints[0], // Population 2019
+      dataPoints[1], // Population 2018
+      dataPoints[2], // Population Growth
+      dataPoints[3], // Area (km²)
     ]
   },
   {
@@ -146,16 +89,29 @@ export const dataSections = [
     label: 'Demographic',
     isExpanded: false,
     items: [
-      dataPoints[8], // Population Growth
+      dataPoints[0], // Population 2019
+      dataPoints[1], // Population 2018
+      dataPoints[2], // Population Growth
+      dataPoints[4], // Population Density
     ]
   },
   {
-    id: 'investor-metrics',
-    label: 'Investor Metrics',
+    id: 'geographic',
+    label: 'Geographic',
     isExpanded: false,
     items: [
-      dataPoints[4], // Long-Term Growth Score
-      dataPoints[9], // Cap Rate
+      dataPoints[3], // Area (km²)
+      dataPoints[4], // Population Density
+      dataPoints[5], // Sector
+    ]
+  },
+  {
+    id: 'administrative',
+    label: 'Administrative',
+    isExpanded: false,
+    items: [
+      dataPoints[5], // Sector
+      dataPoints[6], // Community Number
     ]
   }
 ];
