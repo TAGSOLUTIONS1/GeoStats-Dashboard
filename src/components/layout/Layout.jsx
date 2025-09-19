@@ -84,12 +84,20 @@ const Layout = ({ children }) => {
   const handleSearchSelection = (feature) => {
     setSearchQuery(feature.place_name);
     setSearchSuggestions([]);
-    // Center map on selected location
+    
+    const coordinates = feature.center || feature.geometry.coordinates;
+    
     if (window.map) {
+      // Fly to location
       window.map.flyTo({
-        center: feature.center,
-        zoom: 13
+        center: coordinates,
+        zoom: 15,
+        essential: true,
+        duration: 2000
       });
+
+      // Highlight the location
+      window.highlightSearchResult(coordinates);
     }
   };
 

@@ -115,7 +115,53 @@ const Map = () => {
           .addTo(map.current);
       });
 
-      
+      // Load custom marker image
+      map.current.loadImage('/logo/geo_stats.png', (error, image) => {
+        if (error) throw error;
+        
+        // Add the image to the map's style
+        map.current.addImage('search-marker', image);
+
+        // Add source for search result marker
+        map.current.addSource('search-result', {
+          type: 'geojson',
+          data: {
+            type: 'FeatureCollection',
+            features: []
+          }
+        });
+
+        // Add symbol layer using the custom image
+        map.current.addLayer({
+          id: 'search-result-marker',
+          type: 'symbol',
+          source: 'search-result',
+          layout: {
+            'icon-image': 'search-marker',
+            'icon-size': 0.09, // Adjust size as needed
+            'icon-allow-overlap': true,
+            'icon-anchor': 'bottom' // Places bottom of image at the coordinates
+          }
+        });
+      });
+
+      // Expose function to update search marker
+      window.highlightSearchResult = (coordinates) => {
+        if (!coordinates) return;
+        
+        map.current.getSource('search-result').setData({
+          type: 'FeatureCollection',
+          features: [{
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: coordinates
+            },
+            properties: {}
+          }]
+        });
+      };
+
       // Add navigation controls
       map.current.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 
