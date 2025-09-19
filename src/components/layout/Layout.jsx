@@ -133,10 +133,10 @@ const Layout = ({ children }) => {
         {/* Bottom Control Bar */}
         <div className="px-6 py-4 flex items-center justify-between pointer-events-auto">
           <div className="flex items-center space-x-6">
-            <TooltipToggle 
+            {/* <TooltipToggle 
               isEnabled={isTooltipEnabled}
               onToggle={handleTooltipToggle}
-            />
+            /> */}
             <button 
               onClick={handleTableView}
               className="flex bg-white px-4 py-2 rounded-3xl hover:bg-gray-50 items-center space-x-2 transition-colors"

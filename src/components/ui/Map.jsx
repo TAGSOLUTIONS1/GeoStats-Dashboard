@@ -7,9 +7,9 @@ const Map = () => {
   const mapContainer = useRef(null);
   const map = useRef(null);
 
-  const [lng, setLng] = useState(55.296249);
-  const [lat, setLat] = useState(25.276987);
-  const [zoom, setZoom] = useState(10);
+  const [lng, setLng] = useState(55.3);
+  const [lat, setLat] = useState(25.15);
+  const [zoom, setZoom] = useState(6);
 
   useEffect(() => {
     const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
@@ -24,7 +24,11 @@ const Map = () => {
       container: mapContainer.current,
       style: 'mapbox://styles/mapbox/streets-v12',
       center: [lng, lat],
-      zoom: zoom
+      zoom: zoom,
+      maxBounds: [
+        [54.9, 24.8], // Southwest coordinates (approximate for Dubai)
+        [55.6, 25.5]  // Northeast coordinates (approximate for Dubai)
+      ]
     });
 
     map.current.on('load', () => {
@@ -73,30 +77,47 @@ const Map = () => {
         source: 'dubai-communities',
         paint: {
           'fill-color': '#ff6b6b',
-          'fill-opacity': 0.3
+          'fill-opacity': 0.5 // More visible
         },
         filter: ['==', 'COMM_NUM', '']
-      });
+      }, 'dubai-communities-fill'); // Add above fill layer
 
-      // Add popup on click
-      map.current.on('click', 'dubai-communities-fill', (e) => {
-        const props = e.features[0].properties;
-        new mapboxgl.Popup()
-          .setLngLat(e.lngLat)
-          .setHTML(`<strong>${props.CNAME_E}</strong><br/>Population: ${props['Population 2019']}`)
-          .addTo(map.current);
-      });
-
-      // Hover effect
+      // Hover: show just the name
       map.current.on('mouseenter', 'dubai-communities-fill', (e) => {
         map.current.getCanvas().style.cursor = 'pointer';
         if (e.features.length > 0) {
-          map.current.setFilter('dubai-communities-hover', ['==', 'COMM_NUM', e.features[0].properties.COMM_NUM]);
+          const props = e.features[0].properties;
+          map.current.setFilter('dubai-communities-hover', ['==', 'COMM_NUM', props.COMM_NUM]);
+          const infoHtml = `<strong>${props.CNAME_E} - ${props.COMM_NUM}</strong>`;
+          new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
+            .setLngLat(e.lngLat)
+            .setHTML(infoHtml)
+            .addTo(map.current);
         }
       });
+
       map.current.on('mouseleave', 'dubai-communities-fill', () => {
         map.current.getCanvas().style.cursor = '';
         map.current.setFilter('dubai-communities-hover', ['==', 'COMM_NUM', '']);
+        const popups = document.getElementsByClassName('mapboxgl-popup');
+        while (popups[0]) {
+          popups[0].remove();
+        }
+      });
+
+      // Click: show detailed info
+      map.current.on('click', 'dubai-communities-fill', (e) => {
+        const props = e.features[0].properties;
+        const infoHtml = `
+          <strong>${props.COMMUNITY_E}</strong><br/>
+          Sector: ${props.Sector}<br/>
+          Area: ${props["Area Sq Km"]} km²<br/>
+          Population (2019): ${props["Population 2019"]}
+        `;
+        new mapboxgl.Popup()
+          .setLngLat(e.lngLat)
+          .setHTML(infoHtml)
+          .addTo(map.current);
       });
     });
 
