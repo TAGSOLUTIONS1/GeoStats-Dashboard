@@ -36,6 +36,8 @@ const Map = () => {
       ]
     });
 
+    window.map = map.current; // Expose map instance globally
+
   // const bounds = map.current.getBounds();
   //   console.log('SW:', bounds.getSouthWest().lng, bounds.getSouthWest().lat);
   // console.log('NE:', bounds.getNorthEast().lng, bounds.getNorthEast().lat);
@@ -64,7 +66,7 @@ const Map = () => {
             20000, '#03a9f4',
             50000, '#0288d1'
           ],
-          'fill-opacity': 0.6
+          'fill-opacity': 0.3
         }
       });
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Search, Filter, LogIn, Share2, Table, MessageCircle } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
@@ -8,6 +8,7 @@ import TooltipToggle from '../ui/TooltipToggle';
 import FeedbackModal from '../ui/FeedbackModal';
 import ShareModal from '../ui/ShareModal';
 import Map from '../ui/Map';
+import mapboxgl from 'mapbox-gl';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -18,6 +19,9 @@ const Layout = ({ children }) => {
   const [selectedDate, setSelectedDate] = useState('Jul 2025');
   const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
+  const [searchSuggestions, setSearchSuggestions] = useState([]);
+  const [isSearching, setIsSearching] = useState(false);
+  const searchTimeoutRef = useRef(null);
 
   const filterOptions = ['State', 'City', 'Area', 'Zip'];
 
@@ -45,6 +49,50 @@ const Layout = ({ children }) => {
     setIsShareModalOpen(true);
   };
 
+  const handleSearch = async (query) => {
+    setSearchQuery(query);
+    
+    // Clear previous timeout
+    if (searchTimeoutRef.current) {
+      clearTimeout(searchTimeoutRef.current);
+    }
+
+    if (!query) {
+      setSearchSuggestions([]);
+      return;
+    }
+
+    // Debounce the API call
+    searchTimeoutRef.current = setTimeout(async () => {
+      setIsSearching(true);
+      try {
+        const response = await fetch(
+          `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(query)}.json?` +
+          `access_token=${process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}&` +
+          `bbox=54.13,24.5,56.4,25.7` // Restrict to Dubai area
+        );
+        const data = await response.json();
+        setSearchSuggestions(data.features);
+      } catch (error) {
+        console.error('Search error:', error);
+      } finally {
+        setIsSearching(false);
+      }
+    }, 300);
+  };
+
+  const handleSearchSelection = (feature) => {
+    setSearchQuery(feature.place_name);
+    setSearchSuggestions([]);
+    // Center map on selected location
+    if (window.map) {
+      window.map.flyTo({
+        center: feature.center,
+        zoom: 13
+      });
+    }
+  };
+
   return (
     // <div>
     //   <Map />
@@ -65,11 +113,34 @@ const Layout = ({ children }) => {
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
                 <input
                   type="text"
-                  placeholder="Search your State, City, or ZIP Code"
+                  placeholder="Search locations in Dubai"
                   value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onChange={(e) => handleSearch(e.target.value)}
                   className="pl-10 pr-4 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure w-80"
                 />
+                
+                {/* Search suggestions dropdown */}
+                {searchSuggestions.length > 0 && (
+                  <div className="absolute z-50 w-full mt-1 bg-white rounded-lg shadow-lg border border-gray-200 max-h-60 overflow-y-auto">
+                    {searchSuggestions.map((feature) => (
+                      <button
+                        key={feature.id}
+                        onClick={() => handleSearchSelection(feature)}
+                        className="w-full px-4 py-2 text-left hover:bg-gray-50 focus:outline-none focus:bg-gray-50"
+                      >
+                        <p className="text-sm font-medium text-gray-900">{feature.text}</p>
+                        <p className="text-xs text-gray-500">{feature.place_name}</p>
+                      </button>
+                    ))}
+                  </div>
+                )}
+                
+                {/* Loading indicator */}
+                {isSearching && (
+                  <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
+                    <div className="animate-spin rounded-full h-4 w-4 border-2 border-gray-300 border-t-azure"></div>
+                  </div>
+                )}
               </div>
 
               <div className="flex items-center space-x-6">
@@ -192,6 +263,6 @@ const Layout = ({ children }) => {
       />
     </div>
   );
-};
+}
 
 export default Layout;
