@@ -9,7 +9,7 @@ const Map = () => {
 
   const [lng, setLng] = useState(55.3);
   const [lat, setLat] = useState(25.15);
-  const [zoom, setZoom] = useState(6);
+  const [zoom, setZoom] = useState(8.5);
 
   useEffect(() => {
     const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
@@ -26,10 +26,14 @@ const Map = () => {
       center: [lng, lat],
       zoom: zoom,
       maxBounds: [
-        [54.9, 24.8], // Southwest coordinates (approximate for Dubai)
-        [55.6, 25.5]  // Northeast coordinates (approximate for Dubai)
+        [54.13, 24.5], // Southwest coordinates (approximate for Dubai)
+        [56.4, 25.7]  // Northeast coordinates (approximate for Dubai)
       ]
     });
+
+  // const bounds = map.current.getBounds();
+  //   console.log('SW:', bounds.getSouthWest().lng, bounds.getSouthWest().lat);
+  // console.log('NE:', bounds.getNorthEast().lng, bounds.getNorthEast().lat);
 
     map.current.on('load', () => {
       // Add GeoJSON source
@@ -119,14 +123,40 @@ const Map = () => {
           .setHTML(infoHtml)
           .addTo(map.current);
       });
+
+      
+      // Add navigation controls
+      map.current.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
+
+      // Add geolocate control
+      map.current.addControl(
+        new mapboxgl.GeolocateControl({
+          positionOptions: {
+            enableHighAccuracy: true
+          },
+          trackUserLocation: true,
+          showUserHeading: true
+        }),
+        'bottom-right'
+      );
+
+      // Add fullscreen control
+      map.current.addControl(new mapboxgl.FullscreenControl(), 'bottom-right');
+
+      // Add scale control
+      map.current.addControl(new mapboxgl.ScaleControl({
+        maxWidth: 100,
+        unit: 'metric'
+      }), 'bottom-left');
+
     });
 
     // Cleanup
-    return () => {
-      if (map.current) {
-        map.current.remove();
-      }
-    };
+    // return () => {
+    //   if (map.current) {
+    //     map.current.remove();
+    //   }
+    // };
   }, [lng, lat, zoom]);
 
   const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
