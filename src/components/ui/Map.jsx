@@ -17,8 +17,13 @@ const Map = () => {
       return;
     }
     mapboxgl.accessToken = token;
-
     if (map.current) return;
+
+    // Create refs outside event handlers
+    let hoverPopup = null;
+    let hoveredStateId = null;
+    let hoverTimeout = null;
+    
 
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
@@ -74,46 +79,23 @@ const Map = () => {
         }
       });
 
-      // Add hover layer
-      map.current.addLayer({
-        id: 'dubai-communities-hover',
-        type: 'fill',
-        source: 'dubai-communities',
-        paint: {
-          'fill-color': '#ff6b6b',
-          'fill-opacity': 0.5 // More visible
-        },
-        filter: ['==', 'COMM_NUM', '']
-      }, 'dubai-communities-fill'); // Add above fill layer
-
-      let hoverPopup = null; // Add this above your event handlers
-
-      // Hover: show just the name
-      map.current.on('mouseenter', 'dubai-communities-fill', (e) => {
+      // Simple hover tooltip
+      let tooltip = new mapboxgl.Popup({
+        closeButton: false,
+        closeOnClick: false
+      });
+       // Hover events
+      map.current.on('mousemove', 'dubai-communities-fill', (e) => {
         map.current.getCanvas().style.cursor = 'pointer';
-        if (e.features.length > 0) {
-          const props = e.features[0].properties;
-          map.current.setFilter('dubai-communities-hover', ['==', 'COMM_NUM', props.COMM_NUM]);
-          const infoHtml = `<strong>${props.CNAME_E} - ${props.COMM_NUM}</strong>`;
-          // Remove previous popup if exists
-          if (hoverPopup) {
-            hoverPopup.remove();
-          }
-          hoverPopup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
-            .setLngLat(e.lngLat)
-            .setHTML(infoHtml)
-            .addTo(map.current);
-        }
+        const props = e.features[0].properties;
+        tooltip.setLngLat(e.lngLat)
+          .setHTML(`<strong>${props.CNAME_E}</strong>`)
+          .addTo(map.current);
       });
 
       map.current.on('mouseleave', 'dubai-communities-fill', () => {
         map.current.getCanvas().style.cursor = '';
-        map.current.setFilter('dubai-communities-hover', ['==', 'COMM_NUM', '']);
-        // Remove hover popup
-        if (hoverPopup) {
-          hoverPopup.remove();
-          hoverPopup = null;
-        }
+        tooltip.remove();
       });
 
       // Click: show detailed info
@@ -158,13 +140,11 @@ const Map = () => {
 
     });
 
-    // Cleanup
-    // return () => {
-    //   if (map.current) {
-    //     map.current.remove();
-    //   }
-    // };
-  }, [lng, lat, zoom]);
+    return () => {
+      if (hoverTimeout) clearTimeout(hoverTimeout);
+      // if (map.current) map.current.remove();
+    };
+  }, []);
 
   const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
   const hasValidToken = token && token !== 'your_mapbox_access_token_here';
