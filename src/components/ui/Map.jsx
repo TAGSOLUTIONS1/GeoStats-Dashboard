@@ -86,6 +86,8 @@ const Map = () => {
         filter: ['==', 'COMM_NUM', '']
       }, 'dubai-communities-fill'); // Add above fill layer
 
+      let hoverPopup = null; // Add this above your event handlers
+
       // Hover: show just the name
       map.current.on('mouseenter', 'dubai-communities-fill', (e) => {
         map.current.getCanvas().style.cursor = 'pointer';
@@ -93,7 +95,11 @@ const Map = () => {
           const props = e.features[0].properties;
           map.current.setFilter('dubai-communities-hover', ['==', 'COMM_NUM', props.COMM_NUM]);
           const infoHtml = `<strong>${props.CNAME_E} - ${props.COMM_NUM}</strong>`;
-          new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
+          // Remove previous popup if exists
+          if (hoverPopup) {
+            hoverPopup.remove();
+          }
+          hoverPopup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
             .setLngLat(e.lngLat)
             .setHTML(infoHtml)
             .addTo(map.current);
@@ -103,9 +109,10 @@ const Map = () => {
       map.current.on('mouseleave', 'dubai-communities-fill', () => {
         map.current.getCanvas().style.cursor = '';
         map.current.setFilter('dubai-communities-hover', ['==', 'COMM_NUM', '']);
-        const popups = document.getElementsByClassName('mapboxgl-popup');
-        while (popups[0]) {
-          popups[0].remove();
+        // Remove hover popup
+        if (hoverPopup) {
+          hoverPopup.remove();
+          hoverPopup = null;
         }
       });
 
