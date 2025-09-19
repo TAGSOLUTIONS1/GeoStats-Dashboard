@@ -85,7 +85,7 @@ const FeedbackModal = ({ isOpen, onClose }) => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors flex items-center justify-center space-x-2"
+            className="w-full bg-azure text-white py-2 px-4 rounded-lg hover:bg-azure-dark transition-colors flex items-center justify-center space-x-2"
           >
             <Send className="w-4 h-4" />
             <span>Send Feedback</span>
