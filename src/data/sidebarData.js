@@ -1,3 +1,4 @@
+import { label } from 'framer-motion/client';
 import { 
   Home,
   TrendingUp,
@@ -40,7 +41,7 @@ export const dataPoints = [
     icon: TrendingUp,
     isSelected: false,
     isPremium: false,
-    description: 'Projected future home price movements based on current market conditions and economic indicators.',
+    description: 'A forecast of the future direction of home prices in the area based on the most recent trends in the local housing market. The Home Price Forecast is calculated by Reventure using a proprietary algorithm that analyzes the most recent trends in the local housing market.',
     source: 'Zillow'
   },
   {
@@ -49,7 +50,7 @@ export const dataPoints = [
     icon: BarChart3,
     isSelected: false,
     isPremium: true,
-    description: 'A comprehensive score predicting long-term property value growth potential based on multiple factors.',
+    description: 'A score from 0-100 that indicates the long-term appreciation potential of a market, based on its underlying fundamentals.',
     source: 'Zillow'
   },
   {
@@ -58,7 +59,7 @@ export const dataPoints = [
     icon: TrendingUp,
     isSelected: false,
     isPremium: true,
-    description: 'The 5-year growth rate in home values for an area. Looking at this data point gives a longer-term perspective on how home values have grown in an area.',
+    description: 'The 5-year growth rate in home values for an area. Looking at this data point gives a longer-term view of appreciation in the market. The higher the long-term appreciation, the better for homeowners and investors. However - make sure to use this data point in conjunction with Overvalued % to understand if 5-year appreciation is likely to go up or down into the future',
     source: 'Zillow'
   },
   {
@@ -67,7 +68,7 @@ export const dataPoints = [
     icon: DollarSign,
     isSelected: false,
     isPremium: true,
-    description: 'An estimate of how over or undervalued current Home Values in the area are relative to the fundamentals dictated by local median household income.',
+    description: 'An estimate of how over or undervalued current Home Values in the area are relative to the fundamentals dictated by local median incomes. The Overvaluation % is calculated by comparing the area\'s current Value / Income Ratio to the long-term average. Note that this is not a projection for how much home prices will increase or decline, but merely an estimate of over or undervaluation compared to incomes at a given point in time.',
     source: 'Zillow'
   },
   {
@@ -76,7 +77,7 @@ export const dataPoints = [
     icon: DollarSign,
     isSelected: false,
     isPremium: true,
-    description: 'Percentage of listings that have had their prices reduced from the original listing price.',
+    description: 'The percentage of total listings that had a price reduction in each month according to Realtor.com. If more sellers are cutting the price compared to historical norms, it could be a signal that home prices will drop in future months.',
     source: 'Zillow'
   },
   {
@@ -85,7 +86,7 @@ export const dataPoints = [
     icon: Users,
     isSelected: false,
     isPremium: true,
-    description: 'Annual percentage change in population, indicating demographic trends affecting housing demand.',
+    description: 'The growth rate in Population over the last five years according to the most recent year of the US Census Bureau American Community Survey ("ACS").',
     source: 'Zillow'
   },
   {
@@ -94,9 +95,541 @@ export const dataPoints = [
     icon: BarChart3,
     isSelected: false,
     isPremium: true,
-    description: 'Capitalization rate - the ratio of net operating income to property value, used in real estate investment analysis.',
+    description: 'The unlevered annual return a real estate investor can expect if they were to buy a property at prevailing Home Values and rent it out at prevailing Rental Rates. Higher cap rates mean more cash flow returns to investors. Note that Cap Rate figures on Reventure App are estimates and could be subject to error, especially at the ZIP Code Level.',
     source: 'Zillow'
-  }
+  },
+  {
+    id:'value-income',
+    label: 'Value / Income Ratio',
+    icon: DollarSign,
+    isSelected: false,
+    isPremium: true,
+    description: 'The typical Home Value in the area divided by the Median Household Income, an indication of how expensive houses are for local buyers. The higher the Value / Income Ratio compared to historical norms in the area, the greater the likelihood of a Housing Bubble.',
+    source: 'Zillow'
+  },
+  {
+    label:'Mortage Payments',
+    id:'mortage-payments', 
+    icon: DollarSign, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'An estimate of the Mortgage Payment, including mortgage interest, property taxes, and insurance, a homebuyer can expect in each area given prevailing Home Values and Mortgage Rates.',
+    source:'Zillow'
+  },
+  {
+    label:'Salary to Afford a House',
+    id:'salary-to-afford-a-house', 
+    icon: DollarSign, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The household income needed to comfortably afford to buy a house in the area at current home prices and mortgage rates. This calculation assumes that a household spends 30% of their gross income on their mortgage, tax, and insurance payment',
+    source:'Zillow'
+  },
+  {
+    label:'Mtg Payments as % of Income',
+    id:'mtg-payments-as-percent-of-income', 
+    icon: DollarSign, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The area\'s Annual House Payment, including mortgage interest, property taxes, and insurance, divided by the area\'s Median Household Income. This is a measure of relatively homebuyer affordability given prevailing Home Values and Mortgage Rates.',
+    source:'Zillow'
+  },
+  {
+    label:'Property Tax Rate',
+    id:'property-tax-rate', 
+    icon: DollarSign, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The Property Tax Rate as a percentage of the Typical Home Value in the area. Note: this data is derived from the US Census Bureau and is reported on a lag, so in certain cases it might be off slightly from what you see in Zillow\'s Tax Estimates or in your Property Tax Bills.',
+    source:'Zillow' 
+  },
+  {
+    label:'Domestic Migration',
+    id:'domestic-migration',
+    icon: Users,
+    isSelected:false,
+    isPremium:true,
+    description:'Think of this data point as “how many people are moving here”. The net inbound or outbound Migration from an area in the most recent year according to the US Census Bureau migration report. Note that this data is only available at the State, Metro, and County levels.',
+    source:'Zillow'
+  },
+  {
+    label:'Buy v Rent Differential',
+    id:'buy-v-rent-differential', 
+    icon: DollarSign, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'Compares the cost of Buying a House in terms of the Mortgage Payment to the cost of Renting an Apartment. The higher the percentage, the more expensive it to Buy compared to Rent.',
+    source:'Zillow' 
+  },
+  {
+    label:'% Change from June 2022',
+    id:'percent-change-from-june-2022', 
+    icon: TrendingUp, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The % change in Home Value from the "peak" of the Housing Bubble in June 2022. Home Values in many markets have declined since then, while in other markets they are still rising. Homebuyers and investors wanting a quick understanding of the medium-term trends in their markets should look at this data point.',
+    source:'Zillow'
+  },
+  {
+    label:'%Crash from 2007-12',
+    id:'percent-crash-from-2007-12', 
+    icon: TrendingUp, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The % change in Home Value from the "peak" of the Housing Bubble in June 2022. Home Values in many markets have declined since then, while in other markets they are still rising. Homebuyers and investors wanting a quick understanding of the medium-term trends in their markets should look at this data point.',
+    source:'Zillow'
+  },
+  {
+    label:'Home value growth (MoM)',
+    id:'home-value-growth-mom', 
+    icon: TrendingUp, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The seasonally-adjusted month-over-month growth rate in the area\'s typical Home Value according to the Zillow Home Value Index ("ZHVI").',
+    source:'Zillow'
+  },
+  {
+    label:'Sale Inventory Growth (YoY)',
+    id:'sale-inventory-growth-yoy', 
+    icon: TrendingUp, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The year-over-year growth rate in the area\'s For Sale Inventory according to Realtor.com. If an area has big inventory increases, it could mean greater likelihood of home price declines, while sharply lower inventory could mean that home prices will continue to go up.',
+    source:'Zillow'
+  },
+  {
+    label:'Inventory Surplus/Deficit',
+    id:'inventory-surplus-deficit', 
+    icon: BarChart3, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'Comparing the inventory of active listings in the most recent month compared to the long-term average for that month. This metric will you help you understand if inventory in your area is "high" or "low" compared to the long-run norm. Areas with more inventory than normal could be more exposed to price declines in the future. While areas with less inventory could experience more stable prices, or prices going up.',
+    source:'Zillow'
+  },
+  {
+    label:'Days on Market',
+    id:'days-on-market', 
+    icon: BarChart3,
+    isSelected:false, 
+    isPremium:true, 
+    description:'The median number of days a house spends on the market before it either sells or is de-listed. Big increases in Days on the Market from historical norms could be a signal that the local Housing Market is slowing.',
+    source:'Zillow'
+  },
+  {
+    label:'Days on Market Growth (YoY)',
+    id:'days-on-market-growth-yoy', 
+    icon: TrendingUp,
+    isSelected:false, 
+    isPremium:true, 
+    description:'The year-over-year growth rate in the area\'s median Days on the Market according to Realtor.com.',
+    source:'Zillow'
+  },
+  {
+    label:'Inventory as % of Houses ',
+    id:'inventory-as-percent-of-houses',  
+    icon: BarChart3,
+    isSelected:false, 
+    isPremium:true, 
+    description:'The number of Homes currently For Sale according to Realtor.com divided by the total numbers of owned Homes in the area.',
+    source:'Zillow'
+  },
+  {
+    label:'Median Listing Price',
+    id:'median-listing-price', 
+    icon: DollarSign, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The median price of total listings in the specified area during the most recent month. Median List Price is a good real-time indicator of how prices are trending in the market. However, be sure to note that in smaller geographies with a lower sample of listings (e.g., Counties or ZIP Codes), the list price can fluctuate significantly based on the size and quality of houses listed in a given month.',
+    source:'Zillow'
+  },
+  {
+    label:'Median Listing Price (YoY)',
+    id:'median-listing-price-yoy', 
+    icon: TrendingUp, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The year-over-year growth rate in the Median List Price of listings in the specific geography in the most recent month. Looking at this data point will help you understand if sellers are increasing or decreasing the prices of listings compared to one year ago. However, please note: there can be significant fluctuations in median list price based on the size and quality of houses listed, so this might not always be an apples-to-apples comparison of true appreciation.',
+    source:'Zillow'
+  },
+  {
+    label:'New Listings Count',
+    id:'new-listings-count', 
+    icon: BarChart3, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The number of new seller listings that came to the market in a given month. If the number of new listings is increasing over historical norms, that could be a sign that some distress in the market is building and that supply and inventory will shoot up in future months. Conversely, if new listings are decreasing from historical norms, it could be a signal that seller\'s in the market are "on strike" and refusing to list their homes.',
+    source:'Zillow'
+  },
+  {
+    label:'New Listings Count (YoY)',
+    id:'new-listings-count-yoy', 
+    icon: TrendingUp, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The year-over-year growth rate in new seller listings in a given geographic area. The higher the growth rate in New Listings, the more likely it is that inventory will increase and prices decline. Moreover, if New Listings are on a sharp decline, that could eventually translate into a lack of inventory and more stable or growing prices.',
+    source:'Zillow'
+  },
+  {
+    label:'Sale Inventory Growth (MoM)',
+    id:'sale-inventory-growth-mom', 
+    icon: TrendingUp, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The month-over-month growth rate in the area\'s For Sale Inventory according to Realtor.com. Note that the monthly growth rate in inventory is heavily influenced by seasonality in the local Housing Market.',
+    source:'Zillow'
+  },
+  {
+    label:'Population',
+    id:'population', 
+    icon: Users, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The area\'s population according to the most recent year of the US Census Bureau American Community Survey ("ACS").',
+    source:'Zillow'
+  },
+  {
+    label:'Median Household Income',
+    id:'median-household-income', 
+    icon: DollarSign, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The income of the median, or middle, household in the area according to the most recent year of the US Census Bureau American Community Survey ("ACS").',
+    source:'Zillow'
+  },
+  {
+    label:'Income Growth',
+    id:'income-growth', 
+    icon: TrendingUp, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The growth rate in Median Household Income over the last five years according to the most recent year of the US Census Bureau American Community Survey ("ACS"). Higher income growth is generally a positive for Home Values.',
+    source:'Zillow'
+  },
+  {
+    label:'Remote Work %',
+    id:'remote-work-percent', 
+    icon: Users, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The percentage of the workforce in the area that works remotely, which can influence housing demand and market dynamics.',
+    source:'Zillow'
+  },
+  {
+    label:'College Degree Rate',
+    id:'college-degree-rate', 
+    icon: Users, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The percentage of 25+ aged population in the area that has a bachelor\'s degree or higher. Generally speaking - higher college degree rates are associated with higher home prices and income levels.',
+    source:'Zillow'
+  },
+  {
+    label:'Unemployment Rate',
+    id:'unemployment-rate', 
+    icon: Users,    
+    isSelected:false,
+    isPremium:true, 
+    description:'The unemployment rate in the area, providing insight into local economic conditions that can affect the housing market.',
+    source:'Zillow'
+  },
+  {
+    label:'Remote Work %',
+    id:'remote-work-percent', 
+    icon: Users, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The percentage of the workforce in the area that works remotely, which can influence housing demand and market dynamics.',
+    source:'Zillow'
+  },
+  {
+    label:'College Degree Rate',
+    id:'college-degree-rate', 
+    icon: Users,  
+    isSelected:false,
+    isPremium:true, 
+    description:'The percentage of residents in the area with a college degree, indicating educational attainment levels that can impact economic and housing trends.',
+    source:'Zillow'
+  },
+  {
+    label:'Homeownership Rate',
+    id:'homeownership-rate', 
+    icon: Users, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The percentage of Households that own their homes in the local area according to the US Census Bureau.',
+    source:'Zillow'
+  },
+  {
+    label:'Mortgaged Home %',
+    id:'mortgaged-home-percent', 
+    icon: Users, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The percentage of Homeowner Households in the area that have a mortgage on their property.',
+    source:'Zillow'
+  },
+  {
+    label:'Median Age',
+    id:'median-age', 
+    icon: Users,  
+    isSelected:false,
+    isPremium:true, 
+    description:'The age of the median, or middle, resident according to the US Census Bureau.',
+    source:'Zillow'
+  },
+  {
+    label:'Poverty Rate',
+    id:'poverty-rate', 
+    icon: Users, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The percentage of households in the area that fall below the federal poverty rate line based on the most recent year of the US Census Bureau American Community Survey ("ACS").',
+    source:'Zillow'
+  },
+  {
+    label:'Employment Growth',
+    id:'employment-growth', 
+    icon: TrendingUp, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The growth rate of employment in the area, indicating economic trends that can impact housing demand and market dynamics.',
+    source:'Zillow'
+  },
+  {
+    label:'Family Household %',
+    id:'family-household-percent', 
+    icon: Users, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The percentage of households in the area that are classified as family households, providing insight into community composition and housing needs.',
+    source:'Zillow'
+  },
+  {
+    label:'Housing Units',
+    id:'housing-units', 
+    icon: Home, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The number of Housing Units in the area according to the most year of the US Census Bureau American Community Survey ("ACS").',
+    source:'Zillow'
+  },
+  {
+    label:'Housing Units Growth Rate',
+    id:'housing-units-growth-rate', 
+    icon: TrendingUp, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The growth rate in the number of Housing Units in the area over the last five years according to the most recent years of the US Census Bureau American Community Survey. Higher rates of Housing Unit Growth tend to occur in areas with high Population Growth.',
+    source:'Zillow'
+  },
+  {
+    label:'Rental Rate',
+    id:'rental-rate', 
+    icon: DollarSign,
+    isSelected:false, 
+    isPremium:true, 
+    description:'The area\'s typical Monthly Rent as determined by the Zillow Observed Rent Index ("ZORI") at the Metro Level. Note that Rental Rates at the County and ZIP Code Levels were estimated by comparing Zillow\'s rental rate values to historical US Census Bureau Rents.',
+    source:'Zillow'
+  },
+  {
+    label:'Rental Vacancy Rate',
+    id:'rental-vacancy-rate', 
+    icon: Home, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The percentage of rental housing units in the area that are vacant, indicating rental market conditions and availability.',
+    source:'Zillow'
+  },
+  {
+    label:'Rent for Houses',
+    id:'rent-for-houses', 
+    icon: DollarSign, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The typical Monthly Rent for a medium-sized to large house in the area. Rent for Houses is calculated by increasing the Zillow Observed Rent Index ("ZORI") by 25% to account for larger-sized units.',
+    source:'Zillow'
+  },
+  {
+    label:'Cap Rate',
+    id:'cap-rate', 
+    icon: BarChart3, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'Capitalization rate - the ratio of net operating income to property value, used in real estate investment analysis.',
+    source:'Zillow'
+  },
+  {
+    label:'Vacancy Rate',
+    id:'vacancy-rate', 
+    icon: Home, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The number of vacant housing units in the area divided by total housing units.',
+    source:'Zillow'
+  },
+  {
+    label:'Home Value to Rent Ratio',
+    id:'home-value-to-rent-ratio', 
+    icon: DollarSign, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The typical Home Value in an area divided by the Annual Rent for Houses. This metric gives an indication of how expensive it is for a homebuyer to buy compared to rent. This metric also gives an indication of how much rental revenue an investor can expect relative to their purchase price (lower Home Value to Rent Ratios indicate more affordable markets to buy from an investor perspective).',
+    source:'Zillow'
+  },
+  {
+    label:'Rent as % of Income',
+    id:'rent-as-percent-of-income', 
+    icon: DollarSign, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The area\'s typical Annual Rent divided by the Median Household Income, an indication of renter affordability.',
+    source:'Zillow'
+  },
+  {
+    label:'Shadow Inventory %',
+    id:'shadow-inventory-percent', 
+    icon: Home, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The share of owned-houses that are seasonally vacant and/or owned by absentee owners. Areas with higher Shadow Inventory could be more prone to home price volatility and declines during a Recession. Shadow Inventory tends to be higher in vacation and 2nd homes destinations.',
+    source:'Zillow'
+  },
+  {
+    label:'Foreclosure Rate',
+    id:'foreclosure-rate', 
+    icon: Home, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The percentage of homes in the area that are in foreclosure, providing insight into local economic conditions and housing market stress.',
+    source:'Zillow'
+  },
+  {
+    label:'Home Price Forecast',
+    id:'home-price-forecast', 
+    icon: TrendingUp, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'Projected future home price movements based on current market conditions and economic indicators.',
+    source:'Zillow'
+  },
+  {
+    label:'Long Term Growth Score',
+    id:'long-term-growth-score', 
+    icon: BarChart3,  
+    isSelected:false,
+    isPremium:true, 
+    description:'A comprehensive score predicting long-term property value growth potential based on multiple factors.',
+    source:'Zillow'
+  },
+  {
+    label:'2-Bed Rental Price',
+    id:'two-bed-rental-price', 
+    icon: DollarSign,
+    isSelected:false, 
+    isPremium:true, 
+    description:'The median rental price for 2-bedroom units in the area, providing insight into rental market conditions for this common unit size.',
+    source:'Zillow'
+  },
+  {
+    label:'Average Debt to Income',
+    id:'average-debt-to-income', 
+    icon: DollarSign, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The average debt-to-income ratio for residents in the area, indicating overall financial health and borrowing capacity.',
+    source:'Zillow'
+  },
+  {
+    label:'Monthly Home Ownership Cost',
+    id:'monthly-home-ownership-cost', 
+    icon: DollarSign, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'The estimated monthly cost of homeownership in the area, including mortgage payments, property taxes, insurance, and maintenance.',
+    source:'Zillow'
+  },
+  {
+    label:'Education + Age',
+    id:'education-plus-age', 
+    icon: Users, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'A combined metric assessing the educational attainment and age demographics of the area, which can influence housing market trends.',
+    source:'Zillow'
+  },
+  {
+    label:'Income + Employment',
+    id:'income-plus-employment', 
+    icon: Users, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'A combined metric assessing income levels and employment trends in the area, which can impact housing demand and market dynamics.',
+    source:'Zillow'
+  },
+  {
+    label:'Affordability Index',
+    id:'affordability-index', 
+    icon: DollarSign, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'An index measuring the affordability of homes in the area relative to median household income and other economic factors.',
+    source:'Zillow'
+  },
+  {
+    label:'Economic Health Score',
+    id:'economic-health-score', 
+    icon: BarChart3, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'A comprehensive score assessing the overall economic health of the area based on multiple indicators.',
+    source:'Zillow'
+  },
+  {
+    label:'Housing Market Health Score',  
+    id:'housing-market-health-score',
+    icon: BarChart3, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'A comprehensive score assessing the overall health of the housing market in the area based on multiple indicators.',
+    source:'Zillow'
+  },
+  {
+    label:'Livability Score',
+    id:'livability-score', 
+    icon: Users, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'A score measuring the overall livability of the area based on factors such as amenities, schools, safety, and quality of life.',
+    source:'Zillow'
+  },
+  {
+    label:'Neighborhood Quality Score',
+    id:'neighborhood-quality-score', 
+    icon: Users,
+    isSelected:false, 
+    isPremium:true, 
+    description:'A score assessing the quality of neighborhoods in the area based on factors such as amenities, schools, safety, and community characteristics.',
+    source:'Zillow'
+  },
+  {
+    label:'School Quality Score',
+    id:'school-quality-score', 
+    icon: Users, 
+    isSelected:false, 
+    isPremium:true, 
+    description:'A score measuring the quality of schools in the area based on factors such as test scores, graduation rates, and parent reviews.',
+    source:'Zillow'
+  },
+  {
+    label:'Walkability Score',  
+    id:'walkability-score',
+    icon: Users, 
+    isSelected:false,
+    isPremium:true, 
+    description:'A score measuring how walkable the area is based on factors such as proximity to amenities, public transit, and pedestrian infrastructure.',
+    source:'Zillow'
+  },
+
 ];
 
 export const dataSections = [
