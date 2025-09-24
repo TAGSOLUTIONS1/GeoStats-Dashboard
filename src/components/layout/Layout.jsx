@@ -8,6 +8,7 @@ import TooltipToggle from '../ui/TooltipToggle';
 import FeedbackModal from '../ui/FeedbackModal';
 import ShareModal from '../ui/ShareModal';
 import Map from '../ui/Map';
+import GraphModal from '../ui/GraphModal';
 import mapboxgl from 'mapbox-gl';
 
 const Layout = ({ children }) => {
@@ -19,11 +20,23 @@ const Layout = ({ children }) => {
   const [selectedDate, setSelectedDate] = useState('Jul 2025');
   const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
+  const [isGraphOpen, setIsGraphOpen] = useState(false);
+  const [graphPlace, setGraphPlace] = useState('');
   const [searchSuggestions, setSearchSuggestions] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
   const searchTimeoutRef = useRef(null);
 
   const filterOptions = ['State', 'City', 'Area', 'Zip'];
+
+  useEffect(() => {
+    const onPlaceSelected = (e) => {
+      const { placeName } = e.detail || {};
+      setGraphPlace(placeName || 'Selected Area');
+      setIsGraphOpen(true);
+    };
+    window.addEventListener('map:placeSelected', onPlaceSelected);
+    return () => window.removeEventListener('map:placeSelected', onPlaceSelected);
+  }, []);
 
   const handleFilterPanel = () => {
     setIsFilterPanelOpen(!isFilterPanelOpen);
@@ -268,6 +281,12 @@ const Layout = ({ children }) => {
       <ShareModal 
         isOpen={isShareModalOpen} 
         onClose={() => setIsShareModalOpen(false)} 
+      />
+      {/* Graph Modal (opens on map click) */}
+      <GraphModal 
+        isOpen={isGraphOpen}
+        onClose={() => setIsGraphOpen(false)}
+        placeName={graphPlace}
       />
     </div>
   );

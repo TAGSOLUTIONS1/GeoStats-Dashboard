@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { geojsonData } from '../../data/geoData';
@@ -7,9 +7,9 @@ const Map = () => {
   const mapContainer = useRef(null);
   const map = useRef(null);
 
-  const [lng, setLng] = useState(55.3);
-  const [lat, setLat] = useState(25.15);
-  const [zoom, setZoom] = useState(8.5);
+  const lng = 55.3;
+  const lat = 25.15;
+  const zoom = 8.5;
 
   useEffect(() => {
     const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
@@ -100,19 +100,14 @@ const Map = () => {
         tooltip.remove();
       });
 
-      // Click: show detailed info
+      // Click: dispatch custom event so Layout can open a modal
       map.current.on('click', 'dubai-communities-fill', (e) => {
         const props = e.features[0].properties;
-        const infoHtml = `
-          <strong>${props.COMMUNITY_E}</strong><br/>
-          Sector: ${props.Sector}<br/>
-          Area: ${props["Area Sq Km"]} km²<br/>
-          Population (2019): ${props["Population 2019"]}
-        `;
-        new mapboxgl.Popup()
-          .setLngLat(e.lngLat)
-          .setHTML(infoHtml)
-          .addTo(map.current);
+        const detail = {
+          placeName: props.COMMUNITY_E || props.CNAME_E || 'Selected Area',
+          lngLat: e.lngLat,
+        };
+        window.dispatchEvent(new CustomEvent('map:placeSelected', { detail }));
       });
 
       // Load custom marker image
