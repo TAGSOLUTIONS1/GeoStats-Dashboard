@@ -697,7 +697,45 @@ export const dataPoints = [
     description:'A score measuring how walkable the area is based on factors such as proximity to amenities, public transit, and pedestrian infrastructure.',
     source:'Zillow'
   },
-
+  {
+    count: 69,
+    label: 'Home Sales',
+    id: 'home-sales',
+    icon: BarChart3, 
+    isSelected: false, 
+    isPremium: true, 
+    description: 'Number of home sales in the most recent month.', 
+    source: 'Zillow' },
+  {
+    count: 70,
+    label: 'Home Sales Growth (YoY)',
+    id: 'home-sales-growth-yoy',
+    icon: TrendingUp, 
+    isSelected: false, 
+    isPremium: true, 
+    description: 'Year-over-year growth in home sales in the most recent month.', 
+    source: 'Zillow' 
+  },
+  {
+    count: 71,
+    label: 'New Listing Count',
+    id: 'new-listing-count',
+    icon: BarChart3, 
+    isSelected: false, 
+    isPremium: true, 
+    description: 'Count of new listings added in the most recent month.', 
+    source: 'Zillow' 
+  },
+  {
+    count: 72,
+    label: 'Homeownership Rate',
+    id: 'homeownership-rate',
+    icon: Users, 
+    isSelected: false, 
+    isPremium: true, 
+    description: 'The percentage of Households that own their homes in the local area according to the US Census Bureau.', 
+    source: 'Zillow' 
+  }
 ];
 
 export const dataSections = [
@@ -706,11 +744,19 @@ export const dataSections = [
     label: 'Popular Data',
     isExpanded: true,
     items: [
-      dataPoints[30],
+      // Core price metrics
       dataPoints[0], // Home Value
       dataPoints[1], // Home Value Growth (YoY)
-      dataPoints[2], // For Sale Inventory
+      dataPoints[5], // Home Value Growth (5-Year)
       dataPoints[3], // Home Price Forecast
+      dataPoints[2], // For Sale Inventory
+      dataPoints[7], // Price Cut %
+      dataPoints[30], // Sale Inventory Growth (MoM)
+      dataPoints[6], // Overvalued %
+      dataPoints[4], // Long-Term Growth Score
+      dataPoints[10], // Cap Rate
+      dataPoints[8], // Population Growth
+      dataPoints[31], // Population
     ]
   },
   {
@@ -722,6 +768,15 @@ export const dataSections = [
       dataPoints[1], // Home Value Growth (YoY)
       dataPoints[5], // Home Value Growth (5-Year)
       dataPoints[6], // Overvalued %
+      dataPoints[11], // Value / Income Ratio
+      dataPoints[14], // Mtg Payments as % of Income
+      dataPoints[12], // Mortgage Payments
+      dataPoints[13], // Salary to Afford a House
+      dataPoints[15], // Property Tax Rate
+      dataPoints[17], // Buy v Rent Differential
+      dataPoints[18], // % Change from June 2022
+      dataPoints[19], // % Crash from 2007-12
+      dataPoints[20], // Home Value Growth (MoM)
     ]
   },
   {
@@ -730,17 +785,20 @@ export const dataSections = [
     isExpanded: false,
     items: [
       dataPoints[2], // For Sale Inventory
+      dataPoints[21], // Sale Inventory Growth (YoY)
       dataPoints[3], // Home Price Forecast
+      dataPoints[69], // Home Sales
+      dataPoints[22], // Inventory Surplus/Deficit
       dataPoints[7], // Price Cut %
-      {
-        id: 'sale-inventory-growth-yoy',
-        label: 'Sale Inventory Growth (YoY)',
-        icon: TrendingUp,
-        isSelected: false,
-        isPremium: false,
-        description: 'The year-over-year growth rate in the area\'s For Sale Inventory according to Realtor.com. If an area has big inventory increases, it could mean greater likelihood of home price declines, while sharply lower inventory could mean that home prices will continue to go up.',
-        source: 'Zillow'
-      }
+      dataPoints[23], // Days on Market
+      dataPoints[24], // Days on Market Growth (YoY)
+      dataPoints[25], // Inventory as % of Houses
+      dataPoints[26], // Median Listing Price
+      dataPoints[27], // Median Listing Price (YoY)
+      dataPoints[29], // New Listings Count (YoY)
+      dataPoints[30], // Sale Inventory Growth (MoM)
+      dataPoints[71], // New Listing Count
+      dataPoints[21], // Sale Inventory Growth (YoY)
     ]
   },
   {
@@ -748,7 +806,20 @@ export const dataSections = [
     label: 'Demographic',
     isExpanded: false,
     items: [
+      dataPoints[31], // Population
+      dataPoints[32], // Median Household Income
       dataPoints[8], // Population Growth
+      dataPoints[33], // Income Growth
+      dataPoints[34], // Remote Work %
+      dataPoints[35], // College Degree Rate
+      dataPoints[36], // Unemployment Rate
+      dataPoints[72], // Homeownership Rate
+      dataPoints[39], // Mortgaged Home %
+      dataPoints[40], // Median Age
+      dataPoints[41], // Poverty Rate
+      dataPoints[43], // Family Households %
+      dataPoints[44], // Housing Units
+      dataPoints[45], // Housing Units Growth Rate
     ]
   },
   {
@@ -756,8 +827,22 @@ export const dataSections = [
     label: 'Investor Metrics',
     isExpanded: false,
     items: [
-      dataPoints[4], // Long-Term Growth Score
-      dataPoints[9], // Cap Rate
+      dataPoints[46], // Rental Rate
+      dataPoints[48], // Rent for Houses
+      dataPoints[10], // Cap Rate
+      dataPoints[50], // Vacancy Rate
+      dataPoints[51], // Home Value to Rent Ratio
+      dataPoints[52], // Rent as % of Income
+      dataPoints[53], // Shadow Inventory %
+    ]
+  },
+  {
+    id: 'geostats-scores',
+    label: 'Geostats Scores',
+    isExpanded: false,
+    items: [
+      dataPoints[55], 
+      dataPoints[56], 
     ]
   }
 ];
