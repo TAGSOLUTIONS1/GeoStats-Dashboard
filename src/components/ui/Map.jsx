@@ -90,8 +90,17 @@ const Map = () => {
       map.current.on('mousemove', 'dubai-communities-fill', (e) => {
         map.current.getCanvas().style.cursor = 'pointer';
         const props = e.features[0].properties;
+        // Determine selected data point (default to 'population')
+        const selected = (typeof window !== 'undefined' && window.selectedDataPoint) ? window.selectedDataPoint : 'population';
+        // Map selected key to property in geojson
+        let valueLabel = '';
+        if (selected === 'population') {
+          const val = props['Population 2019'] || props['Population 2018'] || props['Population'] || null;
+          valueLabel = val != null ? `<br/>Population: ${val}` : '';
+        }
+
         tooltip.setLngLat(e.lngLat)
-          .setHTML(`<strong>${props.CNAME_E}</strong>`)
+          .setHTML(`<strong>${props.CNAME_E}</strong>${valueLabel}`)
           .addTo(map.current);
       });
 

@@ -314,7 +314,7 @@ export const dataPoints = [
     id:'population', 
     icon: Users, 
     isSelected:false, 
-    isPremium:true, 
+    isPremium:false, 
     description:'The area\'s population according to the most recent year of official UAE statistics and surveys.',
     source:'Zillow'
   },

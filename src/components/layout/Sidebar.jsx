@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { useSidebar } from '../../hooks/useSidebar';
 import { dataSections } from '../../data/sidebarData';
@@ -23,6 +23,13 @@ const Sidebar = () => {
     handleCloseDetail,
     handleSearchChange
   } = useSidebar();
+
+  // Expose currently selected data point for other components (e.g., Map hover tooltip)
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.selectedDataPoint = selectedDataPoint;
+    }
+  }, [selectedDataPoint]);
 
   return (
     <div className="w-72 bg-gray-100 text-blue h-screen flex flex-col relative z-20 overflow-visible">
