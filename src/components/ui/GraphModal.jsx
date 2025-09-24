@@ -193,10 +193,10 @@ const GraphModal = ({ isOpen, onClose, title = 'Home Value Growth (YoY)', subtit
 
             {/* Trend line */}
             {trend && (
-              <line x1={xScale(trend.x0)} y1={yScale(trend.y0)} x2={xScale(trend.x1)} y2={yScale(trend.y1)} stroke="#6366f1" strokeDasharray="4 3" strokeWidth="2" />
+              <line x1={xScale(trend.x0)} y1={yScale(trend.y0)} x2={xScale(trend.x1)} y2={yScale(trend.y1)} stroke="#FF7E2A" strokeDasharray="4 3" strokeWidth="2" />
             )}
           </svg>
-          <div className="mt-3 text-xs text-gray-500">Dummy data shown. We can plug in predictions later.</div>
+          {/* <div className="mt-3 text-xs text-gray-500">Dummy data shown. We can plug in predictions later.</div> */}
         </div>
       </div>
     </motion.div>
