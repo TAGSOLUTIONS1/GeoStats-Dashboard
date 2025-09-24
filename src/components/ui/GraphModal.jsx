@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { X } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 // Lightweight modal with a simple SVG line chart (dummy data supported)
 const GraphModal = ({ isOpen, onClose, title = 'Home Value Growth (YoY)', subtitle, placeName, series = [] }) => {
@@ -79,8 +80,13 @@ const GraphModal = ({ isOpen, onClose, title = 'Home Value Growth (YoY)', subtit
   }, [showTrend, chartType, scatterPoints, dataPoints, xMin, xMax]);
 
   return (isOpen ? (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-      <div className="bg-white w-[880px] max-w-[95vw] rounded-xl shadow-xl">
+    <motion.div
+      initial={{ opacity: 0, y: "100%" }}
+      animate={isOpen ? { opacity: 1, y: "0%" } : { opacity: 1, y: "100%" }}
+      transition={{ duration: 0.5, ease: "easeInOut" }}
+      className="fixed max-w-[95vw] h-[98%] bottom-0 right-[10%] flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
+    >
+      <div className="w-[880px] max-w-[95vw]">
         <div className="flex items-center justify-between px-6 py-4 border-b">
           <div>
             <h2 className="text-lg font-semibold text-gray-900">{title}{placeName ? ` — ${placeName}` : ''}</h2>
@@ -193,7 +199,7 @@ const GraphModal = ({ isOpen, onClose, title = 'Home Value Growth (YoY)', subtit
           <div className="mt-3 text-xs text-gray-500">Dummy data shown. We can plug in predictions later.</div>
         </div>
       </div>
-    </div>
+    </motion.div>
   ) : null);
 };
 
