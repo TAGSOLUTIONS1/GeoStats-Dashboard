@@ -146,7 +146,7 @@ const ExploreDataPointsModal = ({ isOpen, onClose }) => {
                               {point.description}
                             </p>
 
-                            {/* Footer with status and source - always at bottom */}
+                            {/* Footer with status - always at bottom */}
                             <div className="flex items-center justify-between pt-3 border-t border-azure-100 mt-auto">
                               <div className="flex items-center space-x-2">
                                 <div className={`w-2 h-2 rounded-full shadow-sm ${point.isPremium ? 'bg-gradient-to-r from-orange to-orange-light' : 'bg-gradient-to-r from-azure to-azure-light'}`}></div>
@@ -154,12 +154,7 @@ const ExploreDataPointsModal = ({ isOpen, onClose }) => {
                                   {point.isPremium ? 'Premium Feature' : 'Free Feature'}
                                 </span>
                               </div>
-                              <div className="flex items-center space-x-1">
-                                <Star className="w-3 h-3 text-azure" />
-                                <span className="text-xs font-medium text-azure font-inter">
-                                  {point.source}
-                                </span>
-                              </div>
+                              {/* Source intentionally not displayed */}
                             </div>
                           </motion.div>
                         ))}

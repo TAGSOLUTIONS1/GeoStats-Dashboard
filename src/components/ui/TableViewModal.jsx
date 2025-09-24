@@ -144,9 +144,9 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
   const currentData = sortedData.slice(startIndex, endIndex);
 
   const formatCurrency = (value) => {
-    return new Intl.NumberFormat('en-US', {
+    return new Intl.NumberFormat('en-AE', {
       style: 'currency',
-      currency: 'USD',
+      currency: 'AED',
       minimumFractionDigits: 0,
       maximumFractionDigits: 0,
     }).format(value);
@@ -157,13 +157,13 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
   };
 
   const formatNumber = (value) => {
-    return new Intl.NumberFormat('en-US').format(value);
+    return new Intl.NumberFormat('en-AE').format(value);
   };
 
   // Header configuration to reduce repetitive code
   const tableHeaders = [
     { key: 'rk', label: 'RK', sortable: true, format: 'number', width: 'w-16' },
-    { key: 'zip', label: 'Zip', sortable: true, format: 'text', width: 'w-24'},
+    { key: 'zip', label: 'Community', sortable: true, format: 'text', width: 'w-24'},
     { key: 'city', label: 'City', sortable: true, format: 'text', width: 'w-32' },
     { key: 'homeValue', label: 'Home Value', sortable: true, format: 'currency', width: 'w-32' },
     { key: 'homeValueGrowth', label: 'Home Value Growth (YoY)', sortable: true, format: 'percentage', width: 'w-40' },
@@ -195,7 +195,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
         {/* Header */}
         <div className="flex items-center justify-between p-3 border-b border-gray-200">
           <div className="flex items-center space-x-4">
-            <h2 className="text-lg font-bold text-gray-900 font-tomorrow">GeoStats Table View - Zip</h2>
+            <h2 className="text-lg font-bold text-gray-900 font-tomorrow">GeoStats Table View - Community</h2>
           </div>
           <div className="flex items-center space-x-3">
             <button className="px-3 py-1.5 bg-azure text-white text-xs font-medium rounded-lg hover:bg-azure-dark transition-colors flex items-center space-x-2">

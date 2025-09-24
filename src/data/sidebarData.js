@@ -95,7 +95,7 @@ export const dataPoints = [
     icon: Users,
     isSelected: false,
     isPremium: true,
-    description: 'The growth rate in Population over the last five years according to the most recent year of the US Census Bureau American Community Survey ("ACS").',
+    description: 'The growth rate in Population over the last five years according to the most recent year of official UAE statistics and surveys.',
     source: 'Zillow'
   },
   {
@@ -105,7 +105,7 @@ export const dataPoints = [
     icon: BarChart3,
     isSelected: false,
     isPremium: true,
-    description: 'The unlevered annual return a real estate investor can expect if they were to buy a property at prevailing Home Values and rent it out at prevailing Rental Rates. Higher cap rates mean more cash flow returns to investors. Note that Cap Rate figures on Reventure App are estimates and could be subject to error, especially at the ZIP Code Level.',
+    description: 'The unlevered annual return a real estate investor can expect if they were to buy a property at prevailing Home Values and rent it out at prevailing Rental Rates. Higher cap rates mean more cash flow returns to investors. Note that Cap Rate figures are estimates and could be subject to error, especially at the Community level.',
     source: 'Zillow'
   },
   {
@@ -155,7 +155,7 @@ export const dataPoints = [
     icon: DollarSign, 
     isSelected:false, 
     isPremium:true, 
-    description:'The Property Tax Rate as a percentage of the Typical Home Value in the area. Note: this data is derived from the US Census Bureau and is reported on a lag, so in certain cases it might be off slightly from what you see in Zillow\'s Tax Estimates or in your Property Tax Bills.',
+    description:'The Property Tax Rate as a percentage of the Typical Home Value in the area. Note: this data is derived from official UAE statistics and is reported on a lag, so in certain cases it might be off slightly from what you see in tax estimates or in your property tax bills.',
     source:'Zillow' 
   },
   {
@@ -165,7 +165,7 @@ export const dataPoints = [
     icon: Users,
     isSelected:false,
     isPremium:true,
-    description:'Think of this data point as “how many people are moving here”. The net inbound or outbound Migration from an area in the most recent year according to the US Census Bureau migration report. Note that this data is only available at the State, Metro, and County levels.',
+    description:'Think of this data point as “how many people are moving here”. The net inbound or outbound migration in the most recent year according to official UAE migration reports. Note that this data is typically available at the Emirate, City, and Community levels.',
     source:'Zillow'
   },
   {
@@ -265,7 +265,7 @@ export const dataPoints = [
     icon: DollarSign, 
     isSelected:false, 
     isPremium:true, 
-    description:'The median price of total listings in the specified area during the most recent month. Median List Price is a good real-time indicator of how prices are trending in the market. However, be sure to note that in smaller geographies with a lower sample of listings (e.g., Counties or ZIP Codes), the list price can fluctuate significantly based on the size and quality of houses listed in a given month.',
+    description:'The median price of total listings in the specified area during the most recent month. Median List Price is a good real-time indicator of how prices are trending in the market. However, be sure to note that in smaller geographies with a lower sample of listings (e.g., Communities), the list price can fluctuate significantly based on the size and quality of houses listed in a given month.',
     source:'Zillow'
   },
   {
@@ -315,7 +315,7 @@ export const dataPoints = [
     icon: Users, 
     isSelected:false, 
     isPremium:true, 
-    description:'The area\'s population according to the most recent year of the US Census Bureau American Community Survey ("ACS").',
+    description:'The area\'s population according to the most recent year of official UAE statistics and surveys.',
     source:'Zillow'
   },
   {
@@ -325,7 +325,7 @@ export const dataPoints = [
     icon: DollarSign, 
     isSelected:false, 
     isPremium:true, 
-    description:'The income of the median, or middle, household in the area according to the most recent year of the US Census Bureau American Community Survey ("ACS").',
+    description:'The income of the median, or middle, household in the area according to the most recent year of official UAE statistics and surveys.',
     source:'Zillow'
   },
   {
@@ -335,7 +335,7 @@ export const dataPoints = [
     icon: TrendingUp, 
     isSelected:false, 
     isPremium:true, 
-    description:'The growth rate in Median Household Income over the last five years according to the most recent year of the US Census Bureau American Community Survey ("ACS"). Higher income growth is generally a positive for Home Values.',
+    description:'The growth rate in Median Household Income over the last five years according to the most recent year of official UAE statistics and surveys. Higher income growth is generally a positive for Home Values.',
     source:'Zillow'
   },
   {
@@ -394,7 +394,7 @@ export const dataPoints = [
     icon: Users, 
     isSelected:false, 
     isPremium:true, 
-    description:'The percentage of Households that own their homes in the local area according to the US Census Bureau.',
+    description:'The percentage of Households that own their homes in the local area according to official UAE statistics.',
     source:'Zillow'
   },
   {
@@ -414,7 +414,7 @@ export const dataPoints = [
     icon: Users,  
     isSelected:false,
     isPremium:true, 
-    description:'The age of the median, or middle, resident according to the US Census Bureau.',
+    description:'The age of the median, or middle, resident according to official UAE statistics.',
     source:'Zillow'
   },
   {
@@ -424,7 +424,7 @@ export const dataPoints = [
     icon: Users, 
     isSelected:false, 
     isPremium:true, 
-    description:'The percentage of households in the area that fall below the federal poverty rate line based on the most recent year of the US Census Bureau American Community Survey ("ACS").',
+    description:'The percentage of households in the area that fall below the official poverty threshold based on the most recent year of official UAE statistics.',
     source:'Zillow'
   },
   {
@@ -454,7 +454,7 @@ export const dataPoints = [
     icon: Home, 
     isSelected:false, 
     isPremium:true, 
-    description:'The number of Housing Units in the area according to the most year of the US Census Bureau American Community Survey ("ACS").',
+    description:'The number of Housing Units in the area according to the most recent year of official UAE statistics and surveys.',
     source:'Zillow'
   },
   {
@@ -464,7 +464,7 @@ export const dataPoints = [
     icon: TrendingUp, 
     isSelected:false, 
     isPremium:true, 
-    description:'The growth rate in the number of Housing Units in the area over the last five years according to the most recent years of the US Census Bureau American Community Survey. Higher rates of Housing Unit Growth tend to occur in areas with high Population Growth.',
+    description:'The growth rate in the number of Housing Units in the area over the last five years according to the most recent years of official UAE statistics and surveys. Higher rates of Housing Unit Growth tend to occur in areas with high Population Growth.',
     source:'Zillow'
   },
   {
@@ -474,7 +474,7 @@ export const dataPoints = [
     icon: DollarSign,
     isSelected:false, 
     isPremium:true, 
-    description:'The area\'s typical Monthly Rent as determined by the Zillow Observed Rent Index ("ZORI") at the Metro Level. Note that Rental Rates at the County and ZIP Code Levels were estimated by comparing Zillow\'s rental rate values to historical US Census Bureau Rents.',
+    description:'The area\'s typical Monthly Rent as determined by the Zillow Observed Rent Index ("ZORI"). Note that rental rates at smaller geographies (e.g., Communities) may be estimated based on available data.',
     source:'Zillow'
   },
   {
@@ -733,7 +733,7 @@ export const dataPoints = [
     icon: Users, 
     isSelected: false, 
     isPremium: true, 
-    description: 'The percentage of Households that own their homes in the local area according to the US Census Bureau.', 
+    description: 'The percentage of Households that own their homes in the local area according to official UAE statistics.', 
     source: 'Zillow' 
   }
 ];
@@ -745,13 +745,13 @@ export const dataSections = [
     isExpanded: true,
     items: [
       // Core price metrics
+      dataPoints[30], //Population
       dataPoints[0], // Home Value
       dataPoints[1], // Home Value Growth (YoY)
       dataPoints[5], // Home Value Growth (5-Year)
       dataPoints[3], // Home Price Forecast
       dataPoints[2], // For Sale Inventory
       dataPoints[7], // Price Cut %
-      dataPoints[30], // Sale Inventory Growth (MoM)
       dataPoints[6], // Overvalued %
       dataPoints[4], // Long-Term Growth Score
       dataPoints[10], // Cap Rate

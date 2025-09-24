@@ -12,7 +12,7 @@ import GraphModal from '../ui/GraphModal';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedFilter, setSelectedFilter] = useState('State');
+  const [selectedFilter, setSelectedFilter] = useState('Emirate');
   const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
   const [isTableViewOpen, setIsTableViewOpen] = useState(false);
   const [isTooltipEnabled, setIsTooltipEnabled] = useState(true);
@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const searchTimeoutRef = useRef(null);
 
-  const filterOptions = ['State', 'City', 'Area', 'Zip'];
+  const filterOptions = ['Emirate', 'City', 'Community'];
 
   useEffect(() => {
     const onPlaceSelected = (e) => {

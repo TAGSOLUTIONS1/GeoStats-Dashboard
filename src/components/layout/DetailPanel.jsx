@@ -55,7 +55,7 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
             </div>
           )}
           
-          {selectedItem.id === 'home-value' && (
+          {/* {selectedItem.id === 'home-value' && (
             <div className="space-y-2">
               <p className="text-gray-300 text-xs">
                 <strong className="text-white">Data Range:</strong> $208,652 - $6,025,408
@@ -64,7 +64,7 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
                 <strong className="text-white">Update Frequency:</strong> Monthly
               </p>
             </div>
-          )}
+          )} */}
           
           {selectedItem.isPremium && (
             <div className="bg-orange-light bg-opacity-20 border border-orange-light border-opacity-30 rounded-lg p-3">
