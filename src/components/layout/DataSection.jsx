@@ -26,7 +26,7 @@ const DataSection = ({
 
       {/* Section Items */}
       {activeItem === section.id && section.items.length > 0 && (
-        <div className="space-y-1 ml-2">
+        <div className="space-y-1">
           {section.items.map((item) => (
             <DataPointItem
               key={item.id}

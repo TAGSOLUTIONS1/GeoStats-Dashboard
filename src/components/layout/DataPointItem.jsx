@@ -25,10 +25,11 @@ const DataPointItem = ({
     <div className="relative">
       <button
         onClick={() => onItemClick(item)}
-        className="w-full flex items-center justify-between p-2 rounded-lg transition-colors group hover:bg-gray-200"
+        className="w-full flex items-center justify-between p-1 rounded-lg transition-colors group hover:bg-gray-200"
       >
-        <div className="flex items-center text-left space-x-3">
-          <input
+        <div className="flex items-center text-left space-x-2">
+          <div className='flex items-center'>
+            <input
             type="radio"
             name="dataPoint"
             value={item.id}
@@ -36,7 +37,10 @@ const DataPointItem = ({
             onChange={() => onItemClick(item)}
             className=""
           />
-          <span className="text-xs font-inter text-blue">{item.label}</span>
+          </div>
+          <div>
+            <span className="text-xs font-inter text-blue">{item.label}</span>
+          </div>
         </div>
         <div className="flex items-center space-x-2 relative">
           {item.isPremium && (
