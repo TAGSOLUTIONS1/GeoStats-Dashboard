@@ -122,7 +122,7 @@ const Layout = ({ children }) => {
       <Sidebar />
       
       {/* Background Map - Fixed behind main content only */}
-      <div className="absolute left-72 right-0 top-0 bottom-0">
+      <div className="absolute left-0 right-0 top-0 bottom-0">
         <Map />
       </div>
       
