@@ -84,7 +84,7 @@ const GraphModal = ({ isOpen, onClose, title = 'Home Value Growth (YoY)', subtit
       initial={{ opacity: 0, y: "100%" }}
       animate={isOpen ? { opacity: 1, y: "0%" } : { opacity: 1, y: "100%" }}
       transition={{ duration: 0.5, ease: "easeInOut" }}
-      className="fixed max-w-[95vw] h-[98%] bottom-0 right-[10%] flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
+      className="fixed max-w-[95vw] h-[83%] bottom-0 right-[10%] flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
     >
       <div className="w-[880px] max-w-[95vw]">
         <div className="flex items-center justify-between px-6 py-4 border-b">
