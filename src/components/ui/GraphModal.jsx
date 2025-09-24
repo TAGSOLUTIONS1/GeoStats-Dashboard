@@ -171,7 +171,7 @@ const GraphModal = ({ isOpen, onClose, title = 'Home Value Growth (YoY)', subtit
                   <g key={i}>
                     <circle cx={xScale(p.x)} cy={yScale(p.y)} r="4" fill="#10b981" />
                     {showLabels && (
-                      <text x={xScale(p.x) + 6} y={yScale(p.y) - 6} fontSize="10" fill="#334155">{p.y}%</text>
+                      <text x={xScale(p.x) + 6} y={yScale(p.y) - 6} fontSize="10" fill="#052C43">{p.y}%</text>
                     )}
                   </g>
                 ))}
