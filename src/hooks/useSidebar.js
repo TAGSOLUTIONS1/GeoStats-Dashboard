@@ -5,7 +5,7 @@ export const useSidebar = () => {
   const [hoveredItem, setHoveredItem] = useState(null);
   const [selectedDetailItem, setSelectedDetailItem] = useState(null);
   const [detailPanelPosition, setDetailPanelPosition] = useState({ top: 0, left: 0 });
-  const [selectedDataPoint, setSelectedDataPoint] = useState('home-value'); // Default to first item
+  const [selectedDataPoint, setSelectedDataPoint] = useState('population'); // Default to Population
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleItemClick = (item) => {

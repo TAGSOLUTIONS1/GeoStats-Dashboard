@@ -9,6 +9,7 @@ import {
 
 export const dataPoints = [
   {
+    count: 1,
     id: 'home-value',
     label: 'Home Value',
     icon: Home,
@@ -18,6 +19,7 @@ export const dataPoints = [
     source: 'Zillow'
   },
   {
+    count: 2,
     id: 'home-value-growth-yoy',
     label: 'Home Value Growth (YoY)',
     icon: TrendingUp,
@@ -27,6 +29,7 @@ export const dataPoints = [
     source: 'Zillow'
   },
   {
+    count: 3,
     id: 'for-sale-inventory',
     label: 'For Sale Inventory',
     icon: BarChart3,
@@ -36,6 +39,7 @@ export const dataPoints = [
     source: 'Zillow'
   },
   {
+    count: 4,
     id: 'home-price-forecast',
     label: 'Home Price Forecast',
     icon: TrendingUp,
@@ -45,6 +49,7 @@ export const dataPoints = [
     source: 'Zillow'
   },
   {
+    count: 5,
     id: 'long-term-growth-score',
     label: 'Long-Term Growth Score',
     icon: BarChart3,
@@ -54,6 +59,7 @@ export const dataPoints = [
     source: 'Zillow'
   },
   {
+    count: 6,
     id: 'home-value-growth-5year',
     label: 'Home Value Growth (5-Year)',
     icon: TrendingUp,
@@ -63,6 +69,7 @@ export const dataPoints = [
     source: 'Zillow'
   },
   {
+    count: 7,
     id: 'overvalued-percent',
     label: 'Overvalued %',
     icon: DollarSign,
@@ -72,6 +79,7 @@ export const dataPoints = [
     source: 'Zillow'
   },
   {
+    count: 8,
     id: 'price-cut-percent',
     label: 'Price Cut %',
     icon: DollarSign,
@@ -81,6 +89,7 @@ export const dataPoints = [
     source: 'Zillow'
   },
   {
+    count: 9,
     id: 'population-growth',
     label: 'Population Growth',
     icon: Users,
@@ -90,6 +99,7 @@ export const dataPoints = [
     source: 'Zillow'
   },
   {
+    count: 10,
     id: 'cap-rate',
     label: 'Cap Rate',
     icon: BarChart3,
@@ -99,6 +109,7 @@ export const dataPoints = [
     source: 'Zillow'
   },
   {
+    count: 11,
     id:'value-income',
     label: 'Value / Income Ratio',
     icon: DollarSign,
@@ -108,6 +119,7 @@ export const dataPoints = [
     source: 'Zillow'
   },
   {
+    count: 12,
     label:'Mortage Payments',
     id:'mortage-payments', 
     icon: DollarSign, 
@@ -117,6 +129,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 13,
     label:'Salary to Afford a House',
     id:'salary-to-afford-a-house', 
     icon: DollarSign, 
@@ -126,6 +139,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 14,
     label:'Mtg Payments as % of Income',
     id:'mtg-payments-as-percent-of-income', 
     icon: DollarSign, 
@@ -135,6 +149,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 15,
     label:'Property Tax Rate',
     id:'property-tax-rate', 
     icon: DollarSign, 
@@ -144,6 +159,7 @@ export const dataPoints = [
     source:'Zillow' 
   },
   {
+    count: 16,
     label:'Domestic Migration',
     id:'domestic-migration',
     icon: Users,
@@ -153,6 +169,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 17,
     label:'Buy v Rent Differential',
     id:'buy-v-rent-differential', 
     icon: DollarSign, 
@@ -162,6 +179,7 @@ export const dataPoints = [
     source:'Zillow' 
   },
   {
+    count: 18,
     label:'% Change from June 2022',
     id:'percent-change-from-june-2022', 
     icon: TrendingUp, 
@@ -171,6 +189,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 19,
     label:'%Crash from 2007-12',
     id:'percent-crash-from-2007-12', 
     icon: TrendingUp, 
@@ -180,6 +199,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 20,
     label:'Home value growth (MoM)',
     id:'home-value-growth-mom', 
     icon: TrendingUp, 
@@ -189,6 +209,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 21,
     label:'Sale Inventory Growth (YoY)',
     id:'sale-inventory-growth-yoy', 
     icon: TrendingUp, 
@@ -198,6 +219,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 22,
     label:'Inventory Surplus/Deficit',
     id:'inventory-surplus-deficit', 
     icon: BarChart3, 
@@ -207,6 +229,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 23,
     label:'Days on Market',
     id:'days-on-market', 
     icon: BarChart3,
@@ -216,6 +239,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 24,
     label:'Days on Market Growth (YoY)',
     id:'days-on-market-growth-yoy', 
     icon: TrendingUp,
@@ -225,6 +249,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 25,
     label:'Inventory as % of Houses ',
     id:'inventory-as-percent-of-houses',  
     icon: BarChart3,
@@ -234,6 +259,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 26,
     label:'Median Listing Price',
     id:'median-listing-price', 
     icon: DollarSign, 
@@ -243,6 +269,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 27,
     label:'Median Listing Price (YoY)',
     id:'median-listing-price-yoy', 
     icon: TrendingUp, 
@@ -252,6 +279,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 28,
     label:'New Listings Count',
     id:'new-listings-count', 
     icon: BarChart3, 
@@ -261,6 +289,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 29,
     label:'New Listings Count (YoY)',
     id:'new-listings-count-yoy', 
     icon: TrendingUp, 
@@ -270,6 +299,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 30,
     label:'Sale Inventory Growth (MoM)',
     id:'sale-inventory-growth-mom', 
     icon: TrendingUp, 
@@ -279,6 +309,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 31,
     label:'Population',
     id:'population', 
     icon: Users, 
@@ -288,6 +319,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 32,
     label:'Median Household Income',
     id:'median-household-income', 
     icon: DollarSign, 
@@ -297,6 +329,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 33,
     label:'Income Growth',
     id:'income-growth', 
     icon: TrendingUp, 
@@ -306,6 +339,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 34,
     label:'Remote Work %',
     id:'remote-work-percent', 
     icon: Users, 
@@ -315,6 +349,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 35,
     label:'College Degree Rate',
     id:'college-degree-rate', 
     icon: Users, 
@@ -324,6 +359,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 36,
     label:'Unemployment Rate',
     id:'unemployment-rate', 
     icon: Users,    
@@ -333,6 +369,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 37,
     label:'Remote Work %',
     id:'remote-work-percent', 
     icon: Users, 
@@ -342,6 +379,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 38,
     label:'College Degree Rate',
     id:'college-degree-rate', 
     icon: Users,  
@@ -360,6 +398,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 39,
     label:'Mortgaged Home %',
     id:'mortgaged-home-percent', 
     icon: Users, 
@@ -369,6 +408,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 40,
     label:'Median Age',
     id:'median-age', 
     icon: Users,  
@@ -378,6 +418,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 41,
     label:'Poverty Rate',
     id:'poverty-rate', 
     icon: Users, 
@@ -387,6 +428,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 42,
     label:'Employment Growth',
     id:'employment-growth', 
     icon: TrendingUp, 
@@ -396,6 +438,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 43,
     label:'Family Household %',
     id:'family-household-percent', 
     icon: Users, 
@@ -405,6 +448,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 44,
     label:'Housing Units',
     id:'housing-units', 
     icon: Home, 
@@ -414,6 +458,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 45,
     label:'Housing Units Growth Rate',
     id:'housing-units-growth-rate', 
     icon: TrendingUp, 
@@ -423,6 +468,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 46,
     label:'Rental Rate',
     id:'rental-rate', 
     icon: DollarSign,
@@ -432,6 +478,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 47,
     label:'Rental Vacancy Rate',
     id:'rental-vacancy-rate', 
     icon: Home, 
@@ -441,6 +488,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 48,
     label:'Rent for Houses',
     id:'rent-for-houses', 
     icon: DollarSign, 
@@ -450,6 +498,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 49,
     label:'Cap Rate',
     id:'cap-rate', 
     icon: BarChart3, 
@@ -459,6 +508,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 50,
     label:'Vacancy Rate',
     id:'vacancy-rate', 
     icon: Home, 
@@ -468,6 +518,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 51,
     label:'Home Value to Rent Ratio',
     id:'home-value-to-rent-ratio', 
     icon: DollarSign, 
@@ -477,6 +528,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 52,
     label:'Rent as % of Income',
     id:'rent-as-percent-of-income', 
     icon: DollarSign, 
@@ -486,6 +538,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 53,
     label:'Shadow Inventory %',
     id:'shadow-inventory-percent', 
     icon: Home, 
@@ -495,6 +548,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 54,
     label:'Foreclosure Rate',
     id:'foreclosure-rate', 
     icon: Home, 
@@ -504,6 +558,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 55,
     label:'Home Price Forecast',
     id:'home-price-forecast', 
     icon: TrendingUp, 
@@ -513,6 +568,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 56,
     label:'Long Term Growth Score',
     id:'long-term-growth-score', 
     icon: BarChart3,  
@@ -522,6 +578,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 57,
     label:'2-Bed Rental Price',
     id:'two-bed-rental-price', 
     icon: DollarSign,
@@ -531,6 +588,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 58,
     label:'Average Debt to Income',
     id:'average-debt-to-income', 
     icon: DollarSign, 
@@ -540,6 +598,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 59,
     label:'Monthly Home Ownership Cost',
     id:'monthly-home-ownership-cost', 
     icon: DollarSign, 
@@ -549,6 +608,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 60,
     label:'Education + Age',
     id:'education-plus-age', 
     icon: Users, 
@@ -558,6 +618,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 61,
     label:'Income + Employment',
     id:'income-plus-employment', 
     icon: Users, 
@@ -567,6 +628,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 62,
     label:'Affordability Index',
     id:'affordability-index', 
     icon: DollarSign, 
@@ -576,6 +638,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 63,
     label:'Economic Health Score',
     id:'economic-health-score', 
     icon: BarChart3, 
@@ -585,6 +648,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 64,
     label:'Housing Market Health Score',  
     id:'housing-market-health-score',
     icon: BarChart3, 
@@ -594,6 +658,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 65,
     label:'Livability Score',
     id:'livability-score', 
     icon: Users, 
@@ -603,6 +668,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 66,
     label:'Neighborhood Quality Score',
     id:'neighborhood-quality-score', 
     icon: Users,
@@ -612,6 +678,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 67,
     label:'School Quality Score',
     id:'school-quality-score', 
     icon: Users, 
@@ -621,6 +688,7 @@ export const dataPoints = [
     source:'Zillow'
   },
   {
+    count: 68,
     label:'Walkability Score',  
     id:'walkability-score',
     icon: Users, 
@@ -638,6 +706,7 @@ export const dataSections = [
     label: 'Popular Data',
     isExpanded: true,
     items: [
+      dataPoints[30],
       dataPoints[0], // Home Value
       dataPoints[1], // Home Value Growth (YoY)
       dataPoints[2], // For Sale Inventory
