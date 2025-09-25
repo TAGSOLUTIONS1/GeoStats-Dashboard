@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "10642.0625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "10346.3876953125",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "10981.681640625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "10857.0283203125",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "10764.0732421875",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "10270.75390625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "8650.3037109375",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "10013.7978515625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "9097.208984375",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "8280.0",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "8985.5029296875",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "8333.7587890625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "8287.89453125",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "8499.5537109375",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "8147.337890625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "8029.97607421875",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "8296.6220703125",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "8732.5810546875",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "8392.533203125",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "9137.3486328125",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "9040.7451171875",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "8898.724609375",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "9325.1650390625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "9047.0087890625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "8816.0009765625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "8973.158203125",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "8935.22265625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "8935.9189453125",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "9355.6572265625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "9102.583984375",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "8998.8017578125",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "9310.7392578125",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "9107.783203125",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "9132.484375",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "9566.486328125",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "8915.685546875",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "8778.896484375",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "8626.94140625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "8151.18359375",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "8554.1962890625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "8974.6748046875",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "8628.458984375",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "8369.171875",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "9026.263671875",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "8865.4375",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "8582.263671875",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "8712.630859375",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "8691.8681640625",
+    "area_id": "463",
+    "name_en": "Wadi Al Safa 7"
+  }
+]

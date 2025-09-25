@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "13110.099524117953",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "13108.06454269442",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "13096.33212633514",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "13078.52561463843",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "13077.015111051955",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "13075.790716916561",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "13079.215607563192",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "13081.280529401913",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "13083.916489649182",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "13092.340137249515",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "13079.923586903527",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "13034.788981474792",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "12982.813575223101",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "12983.85065652131",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "12984.708147503898",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "12985.163960350408",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "12983.981546264227",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "12981.248587661958",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "12979.124187197924",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "12977.682683552535",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "12976.52396184667",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "12975.377370312459",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "12974.493244609464",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "12974.549933641612",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "12975.904111626622",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "12978.00221540501",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "12979.837029300332",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "12981.103285473762",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "12980.19100293828",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "12977.678698398931",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "12975.87383253625",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "12974.855528965587",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "12974.216442498959",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "12973.652852640316",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "12973.41139124493",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "12974.039050566445",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "12975.692038990088",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "12977.833073695607",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "12979.70290716546",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "12980.997047693627",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "12980.097699376687",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "12977.597953637473",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "12975.80774498346",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "12974.8049968551",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "12974.180774571947",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "12973.629802715925",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "12973.397789049995",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "12974.031288711914",
+    "area_id": "317",
+    "name_en": "Jumeirah First"
+  }
+]

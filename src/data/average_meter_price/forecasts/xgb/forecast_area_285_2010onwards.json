@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "8511.671875",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "8976.6416015625",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "9871.0849609375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "9342.75390625",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "9377.9794921875",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "9888.365234375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "9750.8193359375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "9730.7431640625",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "9795.658203125",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "9844.3212890625",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "9560.0087890625",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "10202.1953125",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "9714.8466796875",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "9341.193359375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "9239.8642578125",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "9619.0673828125",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "9873.90625",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "9415.0166015625",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "9442.427734375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "9984.7646484375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "9892.595703125",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "9501.2265625",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "9803.8876953125",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "9543.5537109375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "9509.134765625",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "9773.146484375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "9387.162109375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "9345.115234375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "9836.876953125",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "9828.6982421875",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "9511.298828125",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "9599.072265625",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "9856.5703125",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "9862.201171875",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "9500.443359375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "9824.7939453125",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "9591.232421875",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "9446.66015625",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "9734.396484375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "9560.2822265625",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "9559.1513671875",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "9791.4814453125",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "9734.7470703125",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "9738.5927734375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "9736.9052734375",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "9691.373046875",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "9574.05078125",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "9351.0341796875",
+    "area_id": "285",
+    "name_en": "Nad Al Shiba"
+  }
+]

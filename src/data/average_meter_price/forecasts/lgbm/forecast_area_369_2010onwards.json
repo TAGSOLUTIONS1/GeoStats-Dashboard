@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-08-01",
+    "yhat": "7191.4556348925835",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "5375.877941208619",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "6779.011985019504",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "6068.198816228944",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "7928.655425675744",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "6584.95264358345",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "7155.301165553166",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "6830.433882825855",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "6081.313760042633",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "6301.290465942589",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "5725.88964920172",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "5544.989923756864",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "5541.148217102741",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "4581.138234887257",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "6804.021011428353",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "4775.260419837587",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "8264.680904817807",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "5254.589609414478",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "7615.251146934005",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "5285.093750501912",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "6655.769337161703",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "4714.47851280451",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "7051.3772194123885",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "4145.941161394609",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "7284.706753807739",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "5035.829211664607",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "5653.207834618446",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "5169.643361130281",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "7017.643774586397",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "5504.056154753905",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "7652.8443741533565",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "6286.1765095787905",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "4462.436188033582",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "6674.0473031119855",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "3970.5911830423747",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "7625.258056452273",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "3690.4954944067777",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "6889.055087426949",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "4466.284597639487",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "7731.371824909761",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "5081.7218448773965",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "7103.4530787495005",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "5227.592049585214",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "6303.439682698769",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "4960.09539131859",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "6303.192990305112",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "5382.903687473476",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "5594.69388370809",
+    "area_id": "369",
+    "name_en": "Al Barsha Third"
+  }
+]

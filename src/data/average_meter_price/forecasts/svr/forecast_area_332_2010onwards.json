@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "20850.73289331699",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "20843.800208735283",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "20838.04087816326",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "20833.74632817178",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "20832.811638565618",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "20832.000348710586",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "20832.125092727136",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "20832.05814911825",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "20832.1459935988",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "20833.04913361724",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "20833.040548622186",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "20816.593149264627",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "20739.91361562242",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "20740.659637798977",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "20742.917405518987",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "20746.615505013662",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "20754.003155456823",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "20748.551103534828",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "20743.775617041254",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "20740.179688179705",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "20737.853304153727",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "20736.275020072437",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "20735.071022349333",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "20734.147679521848",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "20734.022540558475",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "20735.581220684544",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "20738.736592539386",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "20743.30358569158",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "20751.163780098883",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "20745.955744230658",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "20741.48930964518",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "20738.23128056814",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "20736.191385509417",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "20734.960026011744",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "20734.109230307993",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "20733.60953191358",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "20733.87535662454",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "20735.464306635105",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "20738.646863496848",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "20743.236030800326",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "20751.111882910543",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "20745.911954250085",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "20741.45377944602",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "20738.20349943249",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "20736.170460123616",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "20734.945432870958",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "20734.099855279197",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "20733.604326057266",
+    "area_id": "332",
+    "name_en": "Zaabeel Second"
+  }
+]

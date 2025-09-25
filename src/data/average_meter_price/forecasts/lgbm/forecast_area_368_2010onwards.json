@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "10024.278924293494",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "11721.953389804308",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "10248.248169107692",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "6226.590836765517",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "11378.315716984718",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "10701.781087176756",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "7943.238669831771",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "16279.868132356329",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "10744.58810507773",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "10476.359768499146",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "20597.32657933035",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "14234.059842326375",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "12601.77698650085",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "12955.028447690978",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "12790.034268259013",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "12009.366093071312",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "8716.305201237969",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "10780.819716741133",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "13958.122747250434",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "5804.458505935002",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "9214.683507405201",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "16372.112482555596",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "10269.386193906248",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "12683.623513031644",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "15876.752777221347",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "8324.446427336312",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "14150.132864914536",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "14193.204000447378",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "9285.110234789401",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "13716.070091700967",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "14863.867627630298",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "10741.050412834744",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "17104.317149838687",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "15337.021240512724",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "8178.74176613333",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "15421.577702487972",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "16079.597000486556",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "8809.90832361792",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "13719.67340284733",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "13067.670679501332",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "7236.115764617384",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "9267.953472131343",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "13859.221723087388",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "8418.173921916268",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "10443.434194163417",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "18469.459353051705",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "14562.028179154831",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "9253.00062995033",
+    "area_id": "368",
+    "name_en": "Al Barsha First"
+  }
+]

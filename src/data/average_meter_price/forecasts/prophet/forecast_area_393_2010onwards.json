@@ -1,0 +1,1426 @@
+[
+  {
+    "ds": "2010-01-01",
+    "yhat": "2503.0119981344887",
+    "yhat_lower": "837.2413948259438",
+    "yhat_upper": "4137.6203099580625",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2010-02-01",
+    "yhat": "2740.4644658116745",
+    "yhat_lower": "1083.8377814396626",
+    "yhat_upper": "4454.855913409603",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2010-03-01",
+    "yhat": "2824.9337201638373",
+    "yhat_lower": "1061.7116142867803",
+    "yhat_upper": "4626.358383862115",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2010-04-01",
+    "yhat": "3376.9067048676256",
+    "yhat_lower": "1705.0336748319626",
+    "yhat_upper": "5125.20594496051",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "3889.413231534394",
+    "yhat_lower": "2317.04839926625",
+    "yhat_upper": "5664.926923649913",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2010-07-01",
+    "yhat": "2890.8105005688108",
+    "yhat_lower": "1330.4512641662523",
+    "yhat_upper": "4579.162972022649",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2010-08-01",
+    "yhat": "3491.284430167476",
+    "yhat_lower": "1768.300488776913",
+    "yhat_upper": "5305.696077058655",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2010-10-01",
+    "yhat": "3487.1185045692437",
+    "yhat_lower": "1816.079979130913",
+    "yhat_upper": "5121.853907722081",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "3338.020645328177",
+    "yhat_lower": "1764.2204896379496",
+    "yhat_upper": "5130.432006640951",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2010-12-01",
+    "yhat": "2701.142969478387",
+    "yhat_lower": "1024.469726444077",
+    "yhat_upper": "4349.624558823152",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2011-02-01",
+    "yhat": "3071.734153777796",
+    "yhat_lower": "1327.7845606594105",
+    "yhat_upper": "4617.6796377957435",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "3335.523804704713",
+    "yhat_lower": "1801.1309139091477",
+    "yhat_upper": "5008.95072264947",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2011-04-01",
+    "yhat": "3642.096102582506",
+    "yhat_lower": "1937.3121999052541",
+    "yhat_upper": "5244.389509571266",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "2528.3207008822797",
+    "yhat_lower": "707.1964514851035",
+    "yhat_upper": "4132.77608748953",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "4434.992484897468",
+    "yhat_lower": "2651.0581383898675",
+    "yhat_upper": "6051.819048150764",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "3845.330968599956",
+    "yhat_lower": "2222.584328695752",
+    "yhat_upper": "5573.844717244152",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "2954.803186546583",
+    "yhat_lower": "1250.4175428473047",
+    "yhat_upper": "4560.011169506316",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "3873.104888895589",
+    "yhat_lower": "2047.7257589371482",
+    "yhat_upper": "5588.945942646506",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "3597.071245967177",
+    "yhat_lower": "1890.5552523671988",
+    "yhat_upper": "5418.175466564797",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "3101.580246360627",
+    "yhat_lower": "1536.576083099868",
+    "yhat_upper": "4860.329201478455",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "3644.1945973081006",
+    "yhat_lower": "2060.861516854998",
+    "yhat_upper": "5333.487646865701",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "3401.695195826164",
+    "yhat_lower": "1856.047131709401",
+    "yhat_upper": "5055.0037671099035",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "3355.8305689114773",
+    "yhat_lower": "1601.4290863633883",
+    "yhat_upper": "5006.540376098403",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "4392.589887999444",
+    "yhat_lower": "2529.0017602153594",
+    "yhat_upper": "5975.380299768908",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "3662.35649236714",
+    "yhat_lower": "2035.0826100498614",
+    "yhat_upper": "5344.085763889483",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "4378.151138242545",
+    "yhat_lower": "2670.069208761281",
+    "yhat_upper": "5932.969811144214",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2012-09-01",
+    "yhat": "3536.2578971382045",
+    "yhat_lower": "1660.0394316766988",
+    "yhat_upper": "5204.378422375058",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "4272.12245506782",
+    "yhat_lower": "2595.5749459171093",
+    "yhat_upper": "5958.159747345192",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "4383.396445614862",
+    "yhat_lower": "2701.2725596147357",
+    "yhat_upper": "5924.744945376488",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "3475.226707862421",
+    "yhat_lower": "1695.8977768472316",
+    "yhat_upper": "5240.914562088411",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "3493.3452418539136",
+    "yhat_lower": "1834.096193645486",
+    "yhat_upper": "5171.831757657685",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "3968.282603373867",
+    "yhat_lower": "2329.7272834350583",
+    "yhat_upper": "5661.349236531555",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "3871.9191628823037",
+    "yhat_lower": "2120.87465664072",
+    "yhat_upper": "5603.608879112775",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "4667.379862832581",
+    "yhat_lower": "3052.219136328494",
+    "yhat_upper": "6422.179799953467",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "3799.4528084324766",
+    "yhat_lower": "1974.2142763406994",
+    "yhat_upper": "5480.260072232778",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "3862.915925560596",
+    "yhat_lower": "2193.4286187164544",
+    "yhat_upper": "5468.840972899939",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "4692.798556590637",
+    "yhat_lower": "2971.4608928926223",
+    "yhat_upper": "6443.420505967675",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "3863.87079247665",
+    "yhat_lower": "2202.0284883852487",
+    "yhat_upper": "5411.158787058879",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "4660.111662843767",
+    "yhat_lower": "2977.9853306663035",
+    "yhat_upper": "6368.5489005957215",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "4639.859395906026",
+    "yhat_lower": "2962.116053804813",
+    "yhat_upper": "6246.518162691321",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "4062.236676298616",
+    "yhat_lower": "2485.8544631283376",
+    "yhat_upper": "5655.992592966527",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "4383.604509219236",
+    "yhat_lower": "2631.7298491389506",
+    "yhat_upper": "6010.119915549076",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "4934.470267517847",
+    "yhat_lower": "3312.4508084488984",
+    "yhat_upper": "6611.103210954343",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "3937.5926303140036",
+    "yhat_lower": "2299.804768566162",
+    "yhat_upper": "5575.939059836116",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "5444.798058350537",
+    "yhat_lower": "3869.7762996934234",
+    "yhat_upper": "7103.427757478771",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "5044.490520350663",
+    "yhat_lower": "3340.1560745410065",
+    "yhat_upper": "6765.752277022528",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "4181.05856265074",
+    "yhat_lower": "2513.130893225693",
+    "yhat_upper": "5991.441133234537",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "5036.535342138663",
+    "yhat_lower": "3324.8470736671757",
+    "yhat_upper": "6791.556170785398",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "4885.511797144615",
+    "yhat_lower": "3193.6495794989874",
+    "yhat_upper": "6607.17135960219",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "4617.1893463856995",
+    "yhat_lower": "2910.7857770171872",
+    "yhat_upper": "6510.39734555784",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "4604.251955816521",
+    "yhat_lower": "2908.187041450662",
+    "yhat_upper": "6260.077251405945",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "4857.93984134468",
+    "yhat_lower": "3228.339327646575",
+    "yhat_upper": "6556.076952801188",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "5153.32804181574",
+    "yhat_lower": "3361.5778247193807",
+    "yhat_upper": "6957.019916783493",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "4028.729320129618",
+    "yhat_lower": "2395.8887516511104",
+    "yhat_upper": "5636.060845745688",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "5924.217006828587",
+    "yhat_lower": "4193.317892884389",
+    "yhat_upper": "7583.296479317679",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "4941.938537350728",
+    "yhat_lower": "3239.874737086969",
+    "yhat_upper": "6573.097437993786",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "5284.53935956747",
+    "yhat_lower": "3629.8273618784074",
+    "yhat_upper": "6900.570239345089",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "4368.593543744497",
+    "yhat_lower": "2666.1117592917417",
+    "yhat_upper": "6278.203001995135",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "4690.03526503692",
+    "yhat_lower": "3043.335135968674",
+    "yhat_upper": "6427.590900917189",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "4611.120727640104",
+    "yhat_lower": "2997.297156173016",
+    "yhat_upper": "6291.879839262067",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "5612.550832077391",
+    "yhat_lower": "3976.9146907770623",
+    "yhat_upper": "7309.881537468357",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "4848.127873880525",
+    "yhat_lower": "3126.1809342219562",
+    "yhat_upper": "6605.655720518228",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "5528.593305104778",
+    "yhat_lower": "3755.1661410839843",
+    "yhat_upper": "7213.086315574799",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "4381.796873086725",
+    "yhat_lower": "2862.5770380854165",
+    "yhat_upper": "6161.161138415645",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "5252.558903605102",
+    "yhat_lower": "3517.4319753414943",
+    "yhat_upper": "6927.114878251071",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "5320.63471982476",
+    "yhat_lower": "3630.4561686344223",
+    "yhat_upper": "6965.904708240987",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "4345.580657096109",
+    "yhat_lower": "2701.416606771528",
+    "yhat_upper": "5935.585384910706",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "4777.258342116021",
+    "yhat_lower": "3153.3125969255616",
+    "yhat_upper": "6501.54012845407",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "4484.231413280615",
+    "yhat_lower": "2850.219283953514",
+    "yhat_upper": "6183.5432401623875",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "5552.179138554889",
+    "yhat_lower": "3739.9342381269776",
+    "yhat_upper": "7223.389248688792",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "4462.570654647664",
+    "yhat_lower": "2784.119985485638",
+    "yhat_upper": "6146.465093802666",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "5249.19354318776",
+    "yhat_lower": "3662.1584517742785",
+    "yhat_upper": "6980.051527672358",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "5131.664272691263",
+    "yhat_lower": "3416.981761434689",
+    "yhat_upper": "6824.929043744628",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "5068.443283684857",
+    "yhat_lower": "3412.6121473790795",
+    "yhat_upper": "6919.763478522924",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "4252.077852832257",
+    "yhat_lower": "2587.4727855177384",
+    "yhat_upper": "5989.34064704739",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "4406.269204830808",
+    "yhat_lower": "2633.207186705068",
+    "yhat_upper": "6099.774610884385",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "4600.461921046986",
+    "yhat_lower": "2930.87520659352",
+    "yhat_upper": "6328.415127317019",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "5009.4108016122445",
+    "yhat_lower": "3207.229985863462",
+    "yhat_upper": "6692.24487864013",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "4817.053190499124",
+    "yhat_lower": "3000.6253790712503",
+    "yhat_upper": "6527.086289731442",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "4910.411795416091",
+    "yhat_lower": "3173.37321894371",
+    "yhat_upper": "6519.865069132319",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "4009.611075787745",
+    "yhat_lower": "2321.126467368947",
+    "yhat_upper": "5671.877100651201",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "4566.755112013261",
+    "yhat_lower": "2853.739698717777",
+    "yhat_upper": "6183.773410845123",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "4029.399838702183",
+    "yhat_lower": "2209.970148851098",
+    "yhat_upper": "5712.079787655236",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "4528.7544408374815",
+    "yhat_lower": "2800.345217839743",
+    "yhat_upper": "6145.08582035198",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "4242.995290544778",
+    "yhat_lower": "2577.9203181275498",
+    "yhat_upper": "5841.669257032674",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "4156.661868195843",
+    "yhat_lower": "2406.0315014552384",
+    "yhat_upper": "5852.069678082535",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "5050.598672700686",
+    "yhat_lower": "3342.5863513071126",
+    "yhat_upper": "6628.120971627584",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "3903.7426549612933",
+    "yhat_lower": "2330.7783724991564",
+    "yhat_upper": "5615.771618947154",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "4080.321668637215",
+    "yhat_lower": "2303.2257795169376",
+    "yhat_upper": "5838.4730534912815",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "4774.32195604907",
+    "yhat_lower": "3151.5771372847603",
+    "yhat_upper": "6308.836573221711",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "4842.336200394647",
+    "yhat_lower": "3162.59281732531",
+    "yhat_upper": "6526.401925513995",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "3892.3021921262252",
+    "yhat_lower": "2175.8582779738545",
+    "yhat_upper": "5551.59227521884",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "3867.1609798513796",
+    "yhat_lower": "2110.88762238414",
+    "yhat_upper": "5487.72593441572",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "4298.838595106544",
+    "yhat_lower": "2609.5497951556904",
+    "yhat_upper": "6017.70772784322",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "4163.401835408019",
+    "yhat_lower": "2323.655645280064",
+    "yhat_upper": "5948.5585775660575",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "5073.759121493462",
+    "yhat_lower": "3398.317887862018",
+    "yhat_upper": "6803.121735921396",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "3984.1505693003296",
+    "yhat_lower": "2359.628781809708",
+    "yhat_upper": "5695.398075366944",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "4770.773455205222",
+    "yhat_lower": "3115.713255400763",
+    "yhat_upper": "6452.164688318648",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "3898.5859459644985",
+    "yhat_lower": "2321.9218044288664",
+    "yhat_upper": "5554.146271620958",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "4653.244179518387",
+    "yhat_lower": "2855.261265135449",
+    "yhat_upper": "6275.3621221704525",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "3773.6577552301546",
+    "yhat_lower": "2180.488349071627",
+    "yhat_upper": "5515.291078517543",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "3927.8491078926927",
+    "yhat_lower": "2102.420955545276",
+    "yhat_upper": "5521.199967141107",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "4122.041824767603",
+    "yhat_lower": "2522.021269954701",
+    "yhat_upper": "5880.461328248972",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "4167.4377558162005",
+    "yhat_lower": "2386.9326208335137",
+    "yhat_upper": "5778.908500032328",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "3638.4805868755802",
+    "yhat_lower": "2075.1959631386944",
+    "yhat_upper": "5250.762454327986",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "5103.533490467684",
+    "yhat_lower": "3336.2654450542686",
+    "yhat_upper": "6857.723318086362",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "4063.0664840937534",
+    "yhat_lower": "2366.2781627900913",
+    "yhat_upper": "5651.925275041508",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "4620.280662431711",
+    "yhat_lower": "2991.013927784299",
+    "yhat_upper": "6362.492916106705",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "3715.514639228074",
+    "yhat_lower": "2030.4929635376689",
+    "yhat_upper": "5409.369251779797",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "4530.990710161578",
+    "yhat_lower": "2821.465616345018",
+    "yhat_upper": "6183.784925175553",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "4338.633099662247",
+    "yhat_lower": "2758.2324331878854",
+    "yhat_upper": "6041.631644371383",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "3659.891148518575",
+    "yhat_lower": "1990.2530198995128",
+    "yhat_upper": "5326.7124574113595",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "3988.975874848364",
+    "yhat_lower": "2343.004411024974",
+    "yhat_upper": "5589.554254476608",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "3943.962830544278",
+    "yhat_lower": "2258.5578026901994",
+    "yhat_upper": "5570.292794235739",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "4168.679157862381",
+    "yhat_lower": "2521.0495100464686",
+    "yhat_upper": "5841.616866408669",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "4431.991704602073",
+    "yhat_lower": "2662.059551514508",
+    "yhat_upper": "6137.363491326244",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "3276.35202769124",
+    "yhat_lower": "1736.2403992878872",
+    "yhat_upper": "4956.4325618673",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "5139.764060657052",
+    "yhat_lower": "3492.983328252",
+    "yhat_upper": "6916.163754626691",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "4140.219413165019",
+    "yhat_lower": "2390.8012921608456",
+    "yhat_upper": "5864.087611751363",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "3531.190984995441",
+    "yhat_lower": "1763.5191309640788",
+    "yhat_upper": "5175.978848416983",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "4407.628413644675",
+    "yhat_lower": "2563.64663882143",
+    "yhat_upper": "5994.215697492223",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "4088.3350212287874",
+    "yhat_lower": "2459.870857191274",
+    "yhat_upper": "5765.869131284851",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "3550.9797479226727",
+    "yhat_lower": "1830.4216760860445",
+    "yhat_upper": "5263.965234695027",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "4050.3343493786365",
+    "yhat_lower": "2343.819469972033",
+    "yhat_upper": "5770.10484791554",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "3764.5751984099834",
+    "yhat_lower": "2125.645151215533",
+    "yhat_upper": "5392.930764379057",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "3678.241775426388",
+    "yhat_lower": "1878.2521027411701",
+    "yhat_upper": "5369.380032984886",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "4671.741346993825",
+    "yhat_lower": "2953.3976413572127",
+    "yhat_upper": "6250.647308163274",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "4572.178577920944",
+    "yhat_lower": "2978.4979541780986",
+    "yhat_upper": "6265.172452122217",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "3425.3225595241934",
+    "yhat_lower": "1705.9611184791993",
+    "yhat_upper": "5117.212237827292",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "4438.049332331747",
+    "yhat_lower": "2735.032508326073",
+    "yhat_upper": "6114.678043658903",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "3601.901571767614",
+    "yhat_lower": "1811.5092274231245",
+    "yhat_upper": "5321.728461127374",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "4295.901858483791",
+    "yhat_lower": "2539.749608347819",
+    "yhat_upper": "5916.789010919346",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "4363.916102113562",
+    "yhat_lower": "2671.871159782227",
+    "yhat_upper": "6116.42706142644",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "3413.8820931481905",
+    "yhat_lower": "1713.9739235108275",
+    "yhat_upper": "4987.355648433106",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "3388.7408804156976",
+    "yhat_lower": "1759.3014430056328",
+    "yhat_upper": "5154.7486708017805",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "3820.4184952140054",
+    "yhat_lower": "2235.4284028595594",
+    "yhat_upper": "5440.021526421357",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "3684.981735104229",
+    "yhat_lower": "1963.2960038458366",
+    "yhat_upper": "5321.759704144095",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "4437.182688331486",
+    "yhat_lower": "2813.3300010119847",
+    "yhat_upper": "6224.164506916107",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "3527.3913647806467",
+    "yhat_lower": "1750.5180523397996",
+    "yhat_upper": "5272.482935409083",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "4595.339019832889",
+    "yhat_lower": "2863.2067368109992",
+    "yhat_upper": "6226.824796328262",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "3505.7304679697363",
+    "yhat_lower": "1872.5882359173986",
+    "yhat_upper": "5335.2297095951",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "4292.353354209432",
+    "yhat_lower": "2574.6537961346166",
+    "yhat_upper": "5961.303479645379",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "3420.165845306882",
+    "yhat_lower": "1838.6852011042406",
+    "yhat_upper": "5205.690339879175",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "4174.824079187456",
+    "yhat_lower": "2462.610004835441",
+    "yhat_upper": "5793.661166895936",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "4111.603087880607",
+    "yhat_lower": "2476.9065403794416",
+    "yhat_upper": "5773.705492486351",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "3295.237654801247",
+    "yhat_lower": "1647.3176274393975",
+    "yhat_upper": "5001.6125086551465",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "3449.429007414158",
+    "yhat_lower": "1749.2724933934012",
+    "yhat_upper": "5044.623362959525",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "3643.621724242691",
+    "yhat_lower": "1920.975472337479",
+    "yhat_upper": "5308.001626793371",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "3689.017655245597",
+    "yhat_lower": "1997.248136489845",
+    "yhat_upper": "5331.006650399185",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "4197.730889098259",
+    "yhat_lower": "2517.550384056845",
+    "yhat_upper": "6007.30566794526",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "3160.060486302637",
+    "yhat_lower": "1448.4085214545496",
+    "yhat_upper": "4854.197725739667",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "4625.113389896824",
+    "yhat_lower": "2901.997536137134",
+    "yhat_upper": "6424.846153923621",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "3584.646383522264",
+    "yhat_lower": "2053.20353607594",
+    "yhat_upper": "5359.408528878117",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "4141.860561860621",
+    "yhat_lower": "2359.643134527791",
+    "yhat_upper": "5926.86500260981",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "3237.0945386554404",
+    "yhat_lower": "1598.3493567884486",
+    "yhat_upper": "5070.993771076289",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "4052.5706095914206",
+    "yhat_lower": "2281.7517876882725",
+    "yhat_upper": "5646.022449534062",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "3860.2129990910826",
+    "yhat_lower": "2288.090630981592",
+    "yhat_upper": "5581.749234137184",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "3181.4710479472706",
+    "yhat_lower": "1355.6925990393527",
+    "yhat_upper": "4924.848143814795",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "3510.5557742754877",
+    "yhat_lower": "1905.509990666847",
+    "yhat_upper": "5162.1747127673425",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "3465.542729972572",
+    "yhat_lower": "1933.2819568720022",
+    "yhat_upper": "5115.709318617281",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "3690.2590572921144",
+    "yhat_lower": "1892.4907065786663",
+    "yhat_upper": "5286.161171253876",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "3953.571604030137",
+    "yhat_lower": "2319.9990823130283",
+    "yhat_upper": "5653.494915408866",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "2797.9319271203167",
+    "yhat_lower": "1178.9258653769505",
+    "yhat_upper": "4490.793171020015",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "4661.343960085011",
+    "yhat_lower": "2899.342230779443",
+    "yhat_upper": "6192.406167139285",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "3661.7993125937146",
+    "yhat_lower": "1863.2515438997866",
+    "yhat_upper": "5230.724986468225",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "3986.5584175282506",
+    "yhat_lower": "2232.3116314696445",
+    "yhat_upper": "5688.531138228973",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "3052.77088442357",
+    "yhat_lower": "1429.9936249966922",
+    "yhat_upper": "4715.325552895059",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "3929.208313072664",
+    "yhat_lower": "2273.2967150063037",
+    "yhat_upper": "5730.684606525801",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "3609.9149206574707",
+    "yhat_lower": "1921.491304602863",
+    "yhat_upper": "5256.444735050955",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "3072.559647351317",
+    "yhat_lower": "1457.560936363537",
+    "yhat_upper": "4814.598921322134",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "3571.914248809",
+    "yhat_lower": "1820.9702379262471",
+    "yhat_upper": "5315.736143936761",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "3286.1550978393057",
+    "yhat_lower": "1494.353915626198",
+    "yhat_upper": "4917.335012001367",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "3199.8216748557597",
+    "yhat_lower": "1449.5772651000118",
+    "yhat_upper": "4907.319134452927",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "4193.321246422259",
+    "yhat_lower": "2376.5202932442858",
+    "yhat_upper": "5822.986834783496",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "3421.2235789960746",
+    "yhat_lower": "1748.1019810973792",
+    "yhat_upper": "5084.141664778285",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "4093.758477348698",
+    "yhat_lower": "2492.95492461814",
+    "yhat_upper": "5859.085139296537",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "2946.9024589534174",
+    "yhat_lower": "1238.0403391758393",
+    "yhat_upper": "4805.890897307964",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "3959.6292317592906",
+    "yhat_lower": "2246.551895571269",
+    "yhat_upper": "5685.764774035472",
+    "area_id": "393",
+    "name_en": "Al Barsha Second"
+  }
+]

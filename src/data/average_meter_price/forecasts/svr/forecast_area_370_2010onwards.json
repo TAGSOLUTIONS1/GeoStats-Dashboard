@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "18257.50892506426",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "18246.354206262837",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "18232.834837597566",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "18218.569654538525",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "18212.518255442028",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "18211.856187024918",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "18208.920198807704",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "18210.534418476185",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "18208.549396063554",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "18205.971936170412",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "18201.79111829752",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "18194.18572453022",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "18186.386377994448",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "18184.716610089752",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "18180.729083447626",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "18175.274802697364",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "18165.174573400716",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "18168.186319330445",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "18171.7915275599",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "18175.35396858661",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "18178.361028349304",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "18180.8126615368",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "18182.97313552585",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "18184.743381254433",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "18185.36135202544",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "18183.895772303305",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "18180.077735439056",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "18174.759498531155",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "18164.71627401983",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "18167.799682359095",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "18171.477975138678",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "18175.1066610715",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "18178.181675940064",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "18180.693731011976",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "18182.90713968954",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "18184.715654815453",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "18185.351660471988",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "18183.888499042638",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "18180.072308587103",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "18174.75547080183",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "18164.712950355595",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "18167.79706900416",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "18171.47602440649",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "18175.105292829827",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "18178.180789776052",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "18180.69320588726",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "18182.90686648168",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "18184.71552731776",
+    "area_id": "370",
+    "name_en": "Um Suqaim Third"
+  }
+]

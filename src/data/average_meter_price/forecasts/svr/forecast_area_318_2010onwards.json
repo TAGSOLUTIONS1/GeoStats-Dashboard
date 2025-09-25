@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-08-01",
+    "yhat": "7016.713055027612",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "7016.714025137272",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "7016.719446584068",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "7016.73068052196",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "7016.747884117227",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "7016.7237470296395",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "7016.779994625831",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "7016.833161811015",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "7016.786991582416",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "7016.8180001108785",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "7016.750918956845",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "7030.8535977549855",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "7025.061822790882",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "7019.38886125778",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "7013.6199702301565",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "7009.146572934732",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "7007.0255309767745",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "7016.183445739259",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "7018.749317397592",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "7023.052563477231",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "7027.6467518482405",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "7030.922133214479",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "7031.747484304272",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "7029.781671357311",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "7025.38652291954",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "7019.629387546097",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "7013.837801771479",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "7009.331272032025",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "7007.2018441523705",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "7016.335184957847",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "7018.910190731549",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "7023.185521950749",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "7027.737532355558",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "7030.981863976573",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "7031.778056453844",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "7029.787550487428",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "7025.393041823562",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "7019.634544062184",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "7013.841896399879",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "7009.334559427695",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "7007.204309980428",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "7016.337002549744",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "7018.911546439318",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "7023.186399025535",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "7027.738046139681",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "7030.982171286998",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "7031.778220344133",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "7029.7876506021275",
+    "area_id": "318",
+    "name_en": "Jumeirah Third"
+  }
+]

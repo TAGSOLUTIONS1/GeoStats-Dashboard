@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "18754.940006796132",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "18726.175267817303",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "18695.05261825441",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "18667.822668780056",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "18659.05502493862",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "18653.948899054172",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "18648.778967540176",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "18645.216629727536",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "18641.44836616733",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "18634.73269404096",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "18624.921440940827",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "18597.334851955857",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "18544.2455327347",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "18542.848785076436",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "18544.517096400843",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "18549.27374135931",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "18563.43771007814",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "18563.987061329637",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "18564.1179860097",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "18562.35910882769",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "18558.20342842155",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "18552.41716271501",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "18546.481820454974",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "18541.617969870666",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "18538.684886425035",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "18538.32864199715",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "18540.94407418744",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "18546.512011295996",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "18561.07976046001",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "18561.907070656023",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "18562.368638566746",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "18560.950469359326",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "18557.119138919188",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "18551.642968359844",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "18545.973561404346",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "18541.363575198076",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "18538.584455853834",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "18538.251310332435",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "18540.88582772232",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "18546.468907791495",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "18561.045225949274",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "18561.87959606814",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "18562.34799188737",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "18560.935757662144",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "18557.10921848615",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "18551.636637541542",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "18545.969733007078",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "18541.361358972008",
+    "area_id": "410",
+    "name_en": "Palm Jumeirah"
+  }
+]

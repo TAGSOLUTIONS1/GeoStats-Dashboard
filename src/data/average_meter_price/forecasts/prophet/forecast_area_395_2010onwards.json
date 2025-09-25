@@ -1,0 +1,1114 @@
+[
+  {
+    "ds": "2010-01-01",
+    "yhat": "5589.840053822265",
+    "yhat_lower": "-450.984394561026",
+    "yhat_upper": "11930.279875516688",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2010-02-01",
+    "yhat": "13015.724138780643",
+    "yhat_lower": "7347.236178916207",
+    "yhat_upper": "19511.368680715153",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2010-07-01",
+    "yhat": "9880.86978710658",
+    "yhat_lower": "3919.3820680050026",
+    "yhat_upper": "15902.575683012701",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2010-08-01",
+    "yhat": "5420.926422597871",
+    "yhat_lower": "-439.2755049270103",
+    "yhat_upper": "11730.67181134693",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "6028.071733745908",
+    "yhat_lower": "-296.0009029946777",
+    "yhat_upper": "11691.656053546298",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "6975.404130269606",
+    "yhat_lower": "921.4732184839496",
+    "yhat_upper": "12999.320695926657",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "3721.5523463451764",
+    "yhat_lower": "-2249.784206337279",
+    "yhat_upper": "9827.527780683908",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "4498.467550814623",
+    "yhat_lower": "-1448.6948211527942",
+    "yhat_upper": "10442.983072108624",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "5387.426611373288",
+    "yhat_lower": "-896.6268786638703",
+    "yhat_upper": "11522.277979344997",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "5009.301809919613",
+    "yhat_lower": "-845.8943491281483",
+    "yhat_upper": "10730.470443778328",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "5901.1642927080175",
+    "yhat_lower": "-34.2054530661079",
+    "yhat_upper": "12030.521401652546",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "8808.401120786033",
+    "yhat_lower": "2705.2771168161644",
+    "yhat_upper": "14564.402553099753",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "5379.524825401847",
+    "yhat_lower": "-395.97364414475504",
+    "yhat_upper": "11558.956034085146",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "8152.0353695949825",
+    "yhat_lower": "2321.872731524562",
+    "yhat_upper": "14152.305916221525",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "13033.64536824691",
+    "yhat_lower": "7015.060196017749",
+    "yhat_upper": "19300.535987128707",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "3921.792087057065",
+    "yhat_lower": "-2600.033199192265",
+    "yhat_upper": "9836.488864284693",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "9987.961715022244",
+    "yhat_lower": "4114.722079355225",
+    "yhat_upper": "15747.751415256436",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "6135.163661976801",
+    "yhat_lower": "262.4449803671021",
+    "yhat_upper": "12354.707592291812",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "6381.813294930876",
+    "yhat_lower": "367.7589074230782",
+    "yhat_upper": "11976.258789412183",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "6064.381364194721",
+    "yhat_lower": "359.55448499659263",
+    "yhat_upper": "12438.901885288118",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "10108.672029480778",
+    "yhat_lower": "4184.851869459608",
+    "yhat_upper": "16451.744597211513",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "4175.3521376547",
+    "yhat_lower": "-2029.4166028024965",
+    "yhat_upper": "10252.450672581093",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "4494.249784105552",
+    "yhat_lower": "-1345.1307383947558",
+    "yhat_upper": "10337.256230109893",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "13403.84814597393",
+    "yhat_lower": "7313.39874079974",
+    "yhat_upper": "19513.360337344493",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "6488.543619045539",
+    "yhat_lower": "486.960805731746",
+    "yhat_upper": "12619.74900254454",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "7082.496059602677",
+    "yhat_lower": "797.2040761955644",
+    "yhat_upper": "13325.510936855544",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "5673.940419561893",
+    "yhat_lower": "-475.16909547728596",
+    "yhat_upper": "11150.730923615929",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "4605.559480485578",
+    "yhat_lower": "-1506.1623794474067",
+    "yhat_upper": "10570.971980430793",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "9122.392643262108",
+    "yhat_lower": "2592.9390868815335",
+    "yhat_upper": "15106.985934347484",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "7979.902298580679",
+    "yhat_lower": "1838.4777600244824",
+    "yhat_upper": "14002.430306142292",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "5494.518541744438",
+    "yhat_lower": "-594.8005377212384",
+    "yhat_upper": "11657.304727260904",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "4356.992639505796",
+    "yhat_lower": "-1602.6420116057523",
+    "yhat_upper": "10377.358198449381",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "6178.869504429085",
+    "yhat_lower": "508.679372212994",
+    "yhat_upper": "12423.414502110285",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "5381.521563330599",
+    "yhat_lower": "-254.44922750327797",
+    "yhat_upper": "11640.321876366163",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "16228.053287129129",
+    "yhat_lower": "10325.643258966209",
+    "yhat_upper": "22485.623921240585",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "5116.39374153774",
+    "yhat_lower": "-918.0262022304046",
+    "yhat_upper": "10986.567834695392",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "6008.256224606214",
+    "yhat_lower": "116.52970510158292",
+    "yhat_upper": "12074.623806326463",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "8915.49305296982",
+    "yhat_lower": "2647.9625908396333",
+    "yhat_upper": "14647.962060076537",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "6634.114507952267",
+    "yhat_lower": "1037.8796067082249",
+    "yhat_upper": "12901.327385111103",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "12882.079210143813",
+    "yhat_lower": "6722.050298916571",
+    "yhat_upper": "18970.117993656975",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "6761.831727415178",
+    "yhat_lower": "925.3978996934092",
+    "yhat_upper": "12637.334150260369",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "8044.489018231634",
+    "yhat_lower": "1986.9566154617944",
+    "yhat_upper": "13845.140014726701",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "5486.616759131708",
+    "yhat_lower": "-785.8084239392325",
+    "yhat_upper": "11517.164279195687",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "5305.3419923185775",
+    "yhat_lower": "-750.7456645440341",
+    "yhat_upper": "11722.373889158673",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "6349.861473403299",
+    "yhat_lower": "185.90302509182308",
+    "yhat_upper": "12452.050553111467",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "5804.023916622938",
+    "yhat_lower": "380.006581570504",
+    "yhat_upper": "11709.572973153285",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "13229.908003004182",
+    "yhat_lower": "7162.185693640233",
+    "yhat_upper": "19962.144677920922",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "4652.40672834133",
+    "yhat_lower": "-1447.8559543482434",
+    "yhat_upper": "10557.851872427318",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "8259.12730884573",
+    "yhat_lower": "2643.728148020372",
+    "yhat_upper": "14772.360788408163",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "13140.737308813517",
+    "yhat_lower": "7015.081708980836",
+    "yhat_upper": "19171.42489441473",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "4028.8840289591467",
+    "yhat_lower": "-1567.3530813794127",
+    "yhat_upper": "10053.925531158204",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "10095.05365826605",
+    "yhat_lower": "4165.055901712252",
+    "yhat_upper": "16387.683439844357",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "5466.075138548385",
+    "yhat_lower": "-655.4015552509524",
+    "yhat_upper": "11321.673695826676",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "6242.255610568514",
+    "yhat_lower": "3.2774262625797097",
+    "yhat_upper": "12365.05198700269",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "6488.905244843751",
+    "yhat_lower": "991.4902966610427",
+    "yhat_upper": "12569.772961233102",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "6171.4733155360755",
+    "yhat_lower": "151.96390166087758",
+    "yhat_upper": "12199.245414029396",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "10215.763982287408",
+    "yhat_lower": "4730.943933556635",
+    "yhat_upper": "16202.99816867168",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "4282.444091720883",
+    "yhat_lower": "-1682.2523812340385",
+    "yhat_upper": "10511.574505429686",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "10577.490173549242",
+    "yhat_lower": "4382.400865273815",
+    "yhat_upper": "16733.81440006857",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "17276.42099291202",
+    "yhat_lower": "11308.635530787145",
+    "yhat_upper": "23624.420696413286",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "7324.069699619258",
+    "yhat_lower": "1342.2549431641503",
+    "yhat_upper": "13187.014832917082",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "5431.806973069028",
+    "yhat_lower": "-701.2321082862843",
+    "yhat_upper": "11408.062152169407",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "6595.635585415291",
+    "yhat_lower": "603.3759691589283",
+    "yhat_upper": "12774.289159194066",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "6484.4442071507465",
+    "yhat_lower": "725.8525329495644",
+    "yhat_upper": "12747.402413505664",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "7189.588028740296",
+    "yhat_lower": "842.7891129224472",
+    "yhat_upper": "12831.589732204171",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "3935.7362476515564",
+    "yhat_lower": "-2088.5250109674935",
+    "yhat_upper": "9811.317660938445",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "4712.651453516514",
+    "yhat_lower": "-1541.6209263742762",
+    "yhat_upper": "10523.703907403504",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "9229.484617562679",
+    "yhat_lower": "2899.947869036571",
+    "yhat_upper": "15186.427963104376",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "4464.084620215346",
+    "yhat_lower": "-752.2613366509299",
+    "yhat_upper": "10376.408282997209",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "6285.961486259966",
+    "yhat_lower": "517.0076945205229",
+    "yhat_upper": "12252.60189273595",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "5488.613546330482",
+    "yhat_lower": "-394.00385321890525",
+    "yhat_upper": "11453.746084970893",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "5223.485726770112",
+    "yhat_lower": "-1024.4079524905846",
+    "yhat_upper": "11059.146503305481",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "6741.206496595589",
+    "yhat_lower": "743.3210461388492",
+    "yhat_upper": "12487.035701002145",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "12989.17119992917",
+    "yhat_lower": "6874.633186871947",
+    "yhat_upper": "19556.95821257796",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "8151.581010167943",
+    "yhat_lower": "2065.787236835802",
+    "yhat_upper": "14340.135443870815",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "5412.433986382628",
+    "yhat_lower": "-13.846564294399432",
+    "yhat_upper": "11428.334849382643",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "6456.953468234574",
+    "yhat_lower": "688.7432155280077",
+    "yhat_upper": "12698.515861997552",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "13247.829304611225",
+    "yhat_lower": "7199.349788487867",
+    "yhat_upper": "19052.058877541087",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "4135.976024856484",
+    "yhat_lower": "-1712.6587878225757",
+    "yhat_upper": "9836.929203749589",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "10864.173903675826",
+    "yhat_lower": "5284.523727273276",
+    "yhat_upper": "17253.076468793315",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "6595.997241138121",
+    "yhat_lower": "465.89009647886485",
+    "yhat_upper": "12201.993102377382",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "6278.565311844109",
+    "yhat_lower": "593.3364139408419",
+    "yhat_upper": "12379.556109706265",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "7431.161696095718",
+    "yhat_lower": "1442.056625818772",
+    "yhat_upper": "13867.62805986415",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "13618.032104733638",
+    "yhat_lower": "7151.767360456261",
+    "yhat_upper": "19534.91805526333",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "7273.486866077386",
+    "yhat_lower": "1134.4686585452132",
+    "yhat_upper": "13085.504348954948",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "6702.72758193812",
+    "yhat_lower": "676.2814908001276",
+    "yhat_upper": "12512.426469297194",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "6591.536203700304",
+    "yhat_lower": "1042.2972228346466",
+    "yhat_upper": "12623.8235066389",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "7296.680025294656",
+    "yhat_lower": "1286.594676896345",
+    "yhat_upper": "13547.867147428933",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "5888.124386587051",
+    "yhat_lower": "-304.4774012023696",
+    "yhat_upper": "12215.051697762365",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "4819.743450183843",
+    "yhat_lower": "-1000.2357101332334",
+    "yhat_upper": "11017.961932943528",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "9336.576614327168",
+    "yhat_lower": "3184.832416583656",
+    "yhat_upper": "15267.145929630193",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "15894.858654345087",
+    "yhat_lower": "8871.396401944921",
+    "yhat_upper": "22199.248355039184",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "8194.086272288434",
+    "yhat_lower": "2426.6562532606968",
+    "yhat_upper": "14257.042730214043",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "5590.122780188096",
+    "yhat_lower": "-704.2397586727632",
+    "yhat_upper": "10832.456846933397",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "5708.702518128024",
+    "yhat_lower": "-123.67192639171851",
+    "yhat_upper": "11620.925834939944",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "4571.176617204558",
+    "yhat_lower": "-751.0800916343012",
+    "yhat_upper": "10872.041182809267",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "6393.053483299936",
+    "yhat_lower": "660.2500597652004",
+    "yhat_upper": "12137.951726780271",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "5595.705543423355",
+    "yhat_lower": "-412.2139632418197",
+    "yhat_upper": "11451.588109101807",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "16442.2372684165",
+    "yhat_lower": "10239.175362645245",
+    "yhat_upper": "22445.12400540417",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "5330.577723915844",
+    "yhat_lower": "-775.034334094704",
+    "yhat_upper": "10961.574716316729",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "6222.440208167034",
+    "yhat_lower": "-64.24910845962255",
+    "yhat_upper": "12408.874333356669",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "9129.677037673613",
+    "yhat_lower": "3347.3114708787284",
+    "yhat_upper": "15417.147174485952",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "6848.298493759244",
+    "yhat_lower": "1181.0989542480852",
+    "yhat_upper": "13173.503975111937",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "13096.26319703857",
+    "yhat_lower": "7116.3733244263885",
+    "yhat_upper": "18717.338598187733",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "6976.015715409979",
+    "yhat_lower": "1160.279285077445",
+    "yhat_upper": "13214.06451191982",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "8258.673007302803",
+    "yhat_lower": "2429.7087942199005",
+    "yhat_upper": "14118.552416439848",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "5700.80074925217",
+    "yhat_lower": "-137.9922722802817",
+    "yhat_upper": "11923.837214549741",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "5519.525983517979",
+    "yhat_lower": "-744.5055714541592",
+    "yhat_upper": "11428.89534031167",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "6564.045465366947",
+    "yhat_lower": "460.611440828167",
+    "yhat_upper": "13022.068731156147",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "6018.207909360607",
+    "yhat_lower": "239.78630526646467",
+    "yhat_upper": "12295.980628095453",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "13444.091995805451",
+    "yhat_lower": "7685.261697798562",
+    "yhat_upper": "20180.913704859413",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "4866.590721185253",
+    "yhat_lower": "-1452.917112074677",
+    "yhat_upper": "10530.90241449581",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "8473.31130173478",
+    "yhat_lower": "2558.3858400681734",
+    "yhat_upper": "14222.989881652495",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "13354.921301752851",
+    "yhat_lower": "7633.742441252912",
+    "yhat_upper": "19391.409254049515",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "4243.068021964171",
+    "yhat_lower": "-2098.9479685045303",
+    "yhat_upper": "10413.520500407882",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "10309.237651324014",
+    "yhat_lower": "4112.414579556477",
+    "yhat_upper": "16209.031393122965",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "5849.294288340413",
+    "yhat_lower": "-139.33958641262157",
+    "yhat_upper": "11898.022546747154",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "10971.265900819031",
+    "yhat_lower": "4968.245904765355",
+    "yhat_upper": "17628.011593477717",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "5680.259131816526",
+    "yhat_lower": "-308.75791889160575",
+    "yhat_upper": "11755.50070125912",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "6456.439603912503",
+    "yhat_lower": "516.2280701403043",
+    "yhat_upper": "12363.182682512017",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "6703.089238265556",
+    "yhat_lower": "759.34658285271",
+    "yhat_upper": "12940.710916734977",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "6385.657308980357",
+    "yhat_lower": "389.8685133964844",
+    "yhat_upper": "11960.812390361301",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "10429.947975747267",
+    "yhat_lower": "4347.710282032138",
+    "yhat_upper": "15983.947953069835",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "4496.628085154152",
+    "yhat_lower": "-1298.621233427825",
+    "yhat_upper": "10589.462354845928",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "10791.674167031055",
+    "yhat_lower": "4687.695781256215",
+    "yhat_upper": "16533.79129082767",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "17490.604986438128",
+    "yhat_lower": "11615.457552224752",
+    "yhat_upper": "23061.23855280754",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "1523.51854295692",
+    "yhat_lower": "-4666.028576334989",
+    "yhat_upper": "7701.980947727326",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "7538.25369323697",
+    "yhat_lower": "1740.4206160745227",
+    "yhat_upper": "13432.825983161169",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "4815.525738593354",
+    "yhat_lower": "-1055.9728306519924",
+    "yhat_upper": "10687.347784263895",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "13725.124101880698",
+    "yhat_lower": "7963.2216683035895",
+    "yhat_upper": "20010.665849447585",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "5645.9909666992735",
+    "yhat_lower": "-97.21998680274133",
+    "yhat_upper": "11782.711171000263",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "7380.578863209116",
+    "yhat_lower": "1115.7623343203973",
+    "yhat_upper": "13256.773352907981",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "6809.819579078766",
+    "yhat_lower": "985.1800447723094",
+    "yhat_upper": "12749.758086689304",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "6698.628200827394",
+    "yhat_lower": "772.5396976616073",
+    "yhat_upper": "12753.962474009619",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "7403.772022442174",
+    "yhat_lower": "1297.1883925546122",
+    "yhat_upper": "13555.763905083648",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "5995.216383721119",
+    "yhat_lower": "-206.1284059307662",
+    "yhat_upper": "11875.996831652634",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "4149.920241411322",
+    "yhat_lower": "-1715.4254858204154",
+    "yhat_upper": "10015.356351052267",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "4926.83544730715",
+    "yhat_lower": "-725.1363782643107",
+    "yhat_upper": "10943.83017984292",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "9443.668611475252",
+    "yhat_lower": "3431.772903768419",
+    "yhat_upper": "15288.123135194082",
+    "area_id": "395",
+    "name_en": "Jabal Ali Industrial First"
+  }
+]

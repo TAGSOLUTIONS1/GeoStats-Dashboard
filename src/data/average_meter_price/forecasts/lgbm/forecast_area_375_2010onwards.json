@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "28357.90685211226",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "18814.659252404796",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "30132.01030873648",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "31825.250790351452",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "37611.48294572269",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "28631.752602601413",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "34521.181793054326",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "36702.520839025936",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "32182.162360107628",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "32182.162360107628",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "31095.067736138324",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "30253.73502415346",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "28357.90685211226",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "18814.659252404796",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "30132.01030873648",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "31825.250790351452",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "37611.48294572269",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "28631.752602601413",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "34521.181793054326",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "36702.520839025936",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "32182.162360107628",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "32182.162360107628",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "31095.067736138324",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "30253.73502415346",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "28357.90685211226",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "18814.659252404796",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "30132.01030873648",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "31825.250790351452",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "37611.48294572269",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "28631.752602601413",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "34521.181793054326",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "36702.520839025936",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "32182.162360107628",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "32182.162360107628",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "31095.067736138324",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "30253.73502415346",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "28357.90685211226",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "18814.659252404796",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "30132.01030873648",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "31825.250790351452",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "37611.48294572269",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "28631.752602601413",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "34521.181793054326",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "36702.520839025936",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "32182.162360107628",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "32182.162360107628",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "31095.067736138324",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "30253.73502415346",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  }
+]

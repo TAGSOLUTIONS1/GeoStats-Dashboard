@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-07-01",
+    "yhat": "8260.523895744174",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "12758.65949034",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "10513.302300665477",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "7982.217714364732",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "13827.787880132455",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "8849.261738336714",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "-2278.800947330413",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "4359.186959899296",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "11161.50204522255",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "7074.677528632032",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "-884.1488307498936",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "18132.451037123068",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "18372.299623379586",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "7422.541680272056",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "15878.695699016807",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "18446.640996420698",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "12729.345688896581",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "16931.72807448909",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "17203.838784857624",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "8933.073178190314",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "13416.282232101763",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "15900.745920427613",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "10052.120277729644",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "12549.53013501113",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "14439.33898593526",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "12967.084014628315",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "12521.628771541464",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "13009.186015702311",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "13698.479105196271",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "5171.800643897938",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "3749.511261945602",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "5650.742149187291",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "549.1507497301423",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "4904.929783848017",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "5941.005815973744",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "7718.4626906570065",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "9619.744086793571",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "5641.088316150629",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "8093.653245938099",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "7313.599537472116",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "11246.45248510406",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "4285.535107101141",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "10250.485474991603",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "5300.364918210041",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "8384.11913896079",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "7784.32052746158",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "15346.889596399982",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "11551.075861794623",
+    "area_id": "297",
+    "name_en": "Al Warqa First"
+  }
+]

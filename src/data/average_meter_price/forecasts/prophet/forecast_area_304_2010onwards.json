@@ -1,0 +1,1218 @@
+[
+  {
+    "ds": "2010-02-01",
+    "yhat": "7269.998516026204",
+    "yhat_lower": "2456.423374071594",
+    "yhat_upper": "11877.593787171289",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2010-03-01",
+    "yhat": "5963.229059023972",
+    "yhat_lower": "974.1122551028074",
+    "yhat_upper": "10942.611717553287",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "6072.19384812982",
+    "yhat_lower": "1075.5626503755007",
+    "yhat_upper": "11092.038860287694",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2010-09-01",
+    "yhat": "5373.358796888806",
+    "yhat_lower": "273.9813775370186",
+    "yhat_upper": "10099.681142766338",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2010-10-01",
+    "yhat": "5555.531812456582",
+    "yhat_lower": "1054.232640877288",
+    "yhat_upper": "9951.846786961749",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2011-02-01",
+    "yhat": "7550.974073383669",
+    "yhat_lower": "2854.341918286412",
+    "yhat_upper": "12145.83461219067",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "6178.343675953218",
+    "yhat_lower": "1382.4668705072806",
+    "yhat_upper": "10580.817127369593",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2011-04-01",
+    "yhat": "6117.118003011795",
+    "yhat_lower": "850.057523028227",
+    "yhat_upper": "10847.679290393971",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "8771.851424069311",
+    "yhat_lower": "3576.761502079425",
+    "yhat_upper": "13537.99545758494",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "6337.019697343493",
+    "yhat_lower": "1462.1619675470392",
+    "yhat_upper": "11393.164683068533",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2011-07-01",
+    "yhat": "7576.101552848089",
+    "yhat_lower": "2787.6590217499443",
+    "yhat_upper": "12692.967341514834",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "5654.5892713659505",
+    "yhat_lower": "840.3065102869415",
+    "yhat_upper": "10683.332657784906",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "5867.373939825767",
+    "yhat_lower": "1322.8641981047294",
+    "yhat_upper": "10582.481006015922",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "9043.58816749574",
+    "yhat_lower": "4265.190769541939",
+    "yhat_upper": "13855.983933016936",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "6219.937418934432",
+    "yhat_lower": "1767.7566850294543",
+    "yhat_upper": "11110.629601565784",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "9060.003819366797",
+    "yhat_lower": "3974.5704133567197",
+    "yhat_upper": "13992.423481260128",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "6618.394908035823",
+    "yhat_lower": "2092.14322603846",
+    "yhat_upper": "11441.001438347948",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "7777.628671865175",
+    "yhat_lower": "3124.496252144553",
+    "yhat_upper": "12457.589191597908",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "7844.859963895611",
+    "yhat_lower": "3258.037582706459",
+    "yhat_upper": "12490.074525267455",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "6007.393675649683",
+    "yhat_lower": "1141.5192157503707",
+    "yhat_upper": "10627.026034838507",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "7291.195286422734",
+    "yhat_lower": "2398.191019059568",
+    "yhat_upper": "12076.927952930297",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "9532.738550139731",
+    "yhat_lower": "4864.463165976814",
+    "yhat_upper": "14643.585243198495",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "7620.457746360742",
+    "yhat_lower": "3108.565443863546",
+    "yhat_upper": "12572.767538644777",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "8062.254923316276",
+    "yhat_lower": "3331.2140117825925",
+    "yhat_upper": "12946.307740791413",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "6823.621110648775",
+    "yhat_lower": "1515.7499858018145",
+    "yhat_upper": "11651.635190292734",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "6542.478078136063",
+    "yhat_lower": "1389.727462398212",
+    "yhat_upper": "11161.071941271395",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "9323.711590118746",
+    "yhat_lower": "4608.009561476323",
+    "yhat_upper": "14125.663208606848",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "6882.26515520433",
+    "yhat_lower": "2093.6237326845767",
+    "yhat_upper": "11742.572692190475",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "8069.659053626864",
+    "yhat_lower": "3277.5386084430493",
+    "yhat_upper": "12981.268079353738",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "8049.765243431637",
+    "yhat_lower": "3299.168195405924",
+    "yhat_upper": "12774.144877157263",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "6168.477046693723",
+    "yhat_lower": "1049.6808091662467",
+    "yhat_upper": "11042.661678186203",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "6318.460248792264",
+    "yhat_lower": "1522.2248909828995",
+    "yhat_upper": "11299.514831740971",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "7573.268640266081",
+    "yhat_lower": "2683.779002681582",
+    "yhat_upper": "12522.05666194433",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "9728.435032108435",
+    "yhat_lower": "4861.357617189574",
+    "yhat_upper": "14507.426418874133",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "8344.414565420451",
+    "yhat_lower": "3438.2958316265804",
+    "yhat_upper": "12943.020748661005",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "7037.645095063794",
+    "yhat_lower": "2005.3403676695568",
+    "yhat_upper": "11859.378231742978",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "6866.365174039818",
+    "yhat_lower": "2038.6481607339792",
+    "yhat_upper": "11835.541651938234",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "8360.341148237354",
+    "yhat_lower": "3832.150464059742",
+    "yhat_upper": "13439.354828268999",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "6447.296730700191",
+    "yhat_lower": "1729.2438785570407",
+    "yhat_upper": "11537.239290385582",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "6629.37600319141",
+    "yhat_lower": "1848.6334802673296",
+    "yhat_upper": "11163.996406896256",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "8247.190660901213",
+    "yhat_lower": "3703.8412758442555",
+    "yhat_upper": "12775.894572862464",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "7190.39334371161",
+    "yhat_lower": "2424.949414415457",
+    "yhat_upper": "11626.340561323628",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "7410.104380401964",
+    "yhat_lower": "2269.833061602372",
+    "yhat_upper": "12285.304424220605",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "8649.09246985394",
+    "yhat_lower": "3935.3649147308115",
+    "yhat_upper": "13438.23587231571",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "8457.138997144084",
+    "yhat_lower": "3602.555338302226",
+    "yhat_upper": "13388.662660711952",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "6940.0772940675015",
+    "yhat_lower": "2355.87206244976",
+    "yhat_upper": "11567.526344225957",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "8131.7625979781715",
+    "yhat_lower": "2865.1396096877074",
+    "yhat_upper": "12353.022971980914",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "10116.100852455369",
+    "yhat_lower": "5399.301107927745",
+    "yhat_upper": "15422.071485256934",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "8561.451500413492",
+    "yhat_lower": "3549.3332850796464",
+    "yhat_upper": "13133.108355409564",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "7292.06876175387",
+    "yhat_lower": "2412.3684839412526",
+    "yhat_upper": "11989.844284144889",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "10132.041389927177",
+    "yhat_lower": "4894.108126751507",
+    "yhat_upper": "14597.58676420283",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "8849.475570595801",
+    "yhat_lower": "4324.151539766277",
+    "yhat_upper": "13880.924563987686",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "6962.760172725589",
+    "yhat_lower": "2244.9890974405234",
+    "yhat_upper": "11647.264745100967",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "7078.952999202616",
+    "yhat_lower": "2309.553667321725",
+    "yhat_upper": "12220.99469684559",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "8362.65770818119",
+    "yhat_lower": "3270.255439698176",
+    "yhat_upper": "13162.709092089195",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "8691.729487261586",
+    "yhat_lower": "3521.856451082853",
+    "yhat_upper": "13216.445200359276",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "7613.468489677467",
+    "yhat_lower": "2799.3619457675595",
+    "yhat_upper": "12531.728075274663",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "10394.608226449922",
+    "yhat_lower": "5536.091412588226",
+    "yhat_upper": "15298.017816380543",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "9140.365026405312",
+    "yhat_lower": "4441.32600454501",
+    "yhat_upper": "13873.518324469791",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "7238.989230288393",
+    "yhat_lower": "2396.8341766230537",
+    "yhat_upper": "12025.9203914417",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "7388.87865858037",
+    "yhat_lower": "2609.8095874052437",
+    "yhat_upper": "12223.751024167437",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "8643.590150453281",
+    "yhat_lower": "3714.7200371567496",
+    "yhat_upper": "13409.09853563752",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "10655.558682556128",
+    "yhat_lower": "5778.244296746064",
+    "yhat_upper": "15694.028436671693",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "9430.19055939802",
+    "yhat_lower": "4792.045636578939",
+    "yhat_upper": "14300.201409408848",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "9323.807630509775",
+    "yhat_lower": "4561.786856213793",
+    "yhat_upper": "14142.933551204325",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "9694.283038854694",
+    "yhat_lower": "4813.918464594956",
+    "yhat_upper": "14186.034926357093",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "8479.95352964199",
+    "yhat_lower": "3493.905880911607",
+    "yhat_upper": "13287.171498481644",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "9526.988120120175",
+    "yhat_lower": "5019.279580144871",
+    "yhat_upper": "14351.924862275135",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "9201.611692213151",
+    "yhat_lower": "4396.73638156622",
+    "yhat_upper": "14265.425958894033",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "9631.300581013234",
+    "yhat_lower": "4519.144959840965",
+    "yhat_upper": "14880.818834958009",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "9986.459012060452",
+    "yhat_lower": "5792.377610517969",
+    "yhat_upper": "14989.8728637816",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "8148.802040982803",
+    "yhat_lower": "3358.025694877327",
+    "yhat_upper": "13022.976165071543",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "9432.506747365695",
+    "yhat_lower": "4870.909954800674",
+    "yhat_upper": "14370.329596179821",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "9761.578521066465",
+    "yhat_lower": "5044.592362137116",
+    "yhat_upper": "14274.402982881786",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "10203.278791902438",
+    "yhat_lower": "5053.971869527335",
+    "yhat_upper": "14725.460057279872",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "8964.557452574632",
+    "yhat_lower": "3773.1807275359274",
+    "yhat_upper": "13530.668930443706",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "11464.45725710535",
+    "yhat_lower": "6418.246791577535",
+    "yhat_upper": "16805.743270041934",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "9022.913928270538",
+    "yhat_lower": "4081.19008720424",
+    "yhat_upper": "13791.189849987262",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "10210.214058381993",
+    "yhat_lower": "5313.5012031215365",
+    "yhat_upper": "14887.583652212148",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "8308.838263607313",
+    "yhat_lower": "3213.7508343938507",
+    "yhat_upper": "12846.896726403007",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "11868.511823659532",
+    "yhat_lower": "6997.796487669206",
+    "yhat_upper": "16778.9884745894",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "10073.690298209292",
+    "yhat_lower": "5637.473839942332",
+    "yhat_upper": "14944.89491137544",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "10484.29758231077",
+    "yhat_lower": "5532.178396427694",
+    "yhat_upper": "15316.118464747711",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "9177.440601122298",
+    "yhat_lower": "4564.236605594987",
+    "yhat_upper": "14050.707638675412",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "9006.063793105817",
+    "yhat_lower": "4090.2472411424214",
+    "yhat_upper": "13468.641187188656",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "11725.407774959716",
+    "yhat_lower": "6504.412015491473",
+    "yhat_upper": "16515.061904042697",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "10500.039666362476",
+    "yhat_lower": "5709.927690032226",
+    "yhat_upper": "15444.399156868285",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "10393.656744875001",
+    "yhat_lower": "5725.828615044385",
+    "yhat_upper": "15256.174037936884",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "8586.995180051836",
+    "yhat_lower": "3362.7352558040075",
+    "yhat_upper": "13498.028672558186",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "8769.07441926598",
+    "yhat_lower": "4150.4564134382035",
+    "yhat_upper": "13332.178586428276",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "12062.437361482305",
+    "yhat_lower": "7260.287200836497",
+    "yhat_upper": "16960.776690011924",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "10764.132197142599",
+    "yhat_lower": "6184.62187904316",
+    "yhat_upper": "15692.777096769605",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "9391.414275115025",
+    "yhat_lower": "4643.460033014296",
+    "yhat_upper": "14042.59640359266",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "9330.091699941862",
+    "yhat_lower": "4839.219693030445",
+    "yhat_upper": "13731.744114031791",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "11984.731345081585",
+    "yhat_lower": "7028.938416024919",
+    "yhat_upper": "16867.343238933583",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "9549.802716575285",
+    "yhat_lower": "4999.6915641216165",
+    "yhat_upper": "14313.179746963264",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "10788.790796162482",
+    "yhat_lower": "6149.495491553569",
+    "yhat_upper": "15808.807447630508",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "10596.837320705135",
+    "yhat_lower": "5887.655608045833",
+    "yhat_upper": "14929.548722624917",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "8867.084716888185",
+    "yhat_lower": "4368.005758674553",
+    "yhat_upper": "13666.175897627629",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "10271.460913386109",
+    "yhat_lower": "5474.529871455846",
+    "yhat_upper": "15398.346452793196",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "10701.14981583736",
+    "yhat_lower": "5756.918591227123",
+    "yhat_upper": "15958.876588001796",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "11042.77864114711",
+    "yhat_lower": "6131.675633832083",
+    "yhat_upper": "15480.471910747172",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "9822.558464719705",
+    "yhat_lower": "5358.587862849779",
+    "yhat_upper": "14746.036053810365",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "10989.173884860516",
+    "yhat_lower": "6424.233090135473",
+    "yhat_upper": "15650.83792969612",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "11056.308276863632",
+    "yhat_lower": "6204.4107566990215",
+    "yhat_upper": "15491.337959087212",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "9102.458486182944",
+    "yhat_lower": "3896.593011575334",
+    "yhat_upper": "14236.660738833312",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "9218.651314370898",
+    "yhat_lower": "4732.620361648101",
+    "yhat_upper": "14549.111366937646",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "10502.356025117084",
+    "yhat_lower": "6108.366382033495",
+    "yhat_upper": "15162.800187007057",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "12743.805513074432",
+    "yhat_lower": "8162.433772250227",
+    "yhat_upper": "17507.271976211603",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "10831.427807676295",
+    "yhat_lower": "6090.996423748722",
+    "yhat_upper": "15461.752721906047",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "11273.128083013362",
+    "yhat_lower": "6502.674359881366",
+    "yhat_upper": "15934.899333760353",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "10034.406747751125",
+    "yhat_lower": "5510.118864942051",
+    "yhat_upper": "14864.54569600939",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "9753.166815224427",
+    "yhat_lower": "4548.4693449172655",
+    "yhat_upper": "14550.607074188081",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "12534.306552998603",
+    "yhat_lower": "7727.531134722624",
+    "yhat_upper": "17660.714573340672",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "10092.763224527236",
+    "yhat_lower": "5010.151934338629",
+    "yhat_upper": "14830.515832634419",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "11280.063354991053",
+    "yhat_lower": "6513.410491834869",
+    "yhat_upper": "15871.30368697771",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "11260.072651239416",
+    "yhat_lower": "6535.2465750084675",
+    "yhat_upper": "16112.779213820893",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "9378.687560944634",
+    "yhat_lower": "4440.962414043432",
+    "yhat_upper": "14292.431304130449",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "9528.576996768154",
+    "yhat_lower": "4626.94669247903",
+    "yhat_upper": "14414.469408530282",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "10783.288496423755",
+    "yhat_lower": "6105.813675476638",
+    "yhat_upper": "15771.270236091854",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "12938.361121990964",
+    "yhat_lower": "8331.78438371459",
+    "yhat_upper": "17531.69953359395",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "11143.539596878703",
+    "yhat_lower": "6350.892727438476",
+    "yhat_upper": "16058.539695448755",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "11554.146881318697",
+    "yhat_lower": "7141.980369267293",
+    "yhat_upper": "16514.102260003503",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "10247.289900130609",
+    "yhat_lower": "5249.423184365887",
+    "yhat_upper": "14828.83849864149",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "10075.913092114866",
+    "yhat_lower": "5627.568223102567",
+    "yhat_upper": "14735.977422994156",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "12795.257073968101",
+    "yhat_lower": "7648.521758581856",
+    "yhat_upper": "17333.482486203808",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "10355.967109769254",
+    "yhat_lower": "5228.5287920877845",
+    "yhat_upper": "15182.770203279264",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "11569.888965370725",
+    "yhat_lower": "6693.3422451608285",
+    "yhat_upper": "16362.693589110902",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "11463.506043883548",
+    "yhat_lower": "6903.645432377539",
+    "yhat_upper": "16268.427828486261",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "9656.844479060726",
+    "yhat_lower": "5211.409672203091",
+    "yhat_upper": "14586.55241304739",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "9838.923718274638",
+    "yhat_lower": "5181.786645457819",
+    "yhat_upper": "14534.261969865089",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "11062.950696746258",
+    "yhat_lower": "6408.530812823845",
+    "yhat_upper": "15753.429931372993",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "13132.28666049054",
+    "yhat_lower": "8316.4118526876",
+    "yhat_upper": "18112.702648409784",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "11456.738345733631",
+    "yhat_lower": "6768.916589440251",
+    "yhat_upper": "16286.165805112854",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "11833.981496150891",
+    "yhat_lower": "6821.572478082882",
+    "yhat_upper": "16509.844696264394",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "10461.263574123239",
+    "yhat_lower": "5366.423988497577",
+    "yhat_upper": "14870.953718251956",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "10399.940998950226",
+    "yhat_lower": "5703.56913339922",
+    "yhat_upper": "15716.984460273745",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "13054.5806440904",
+    "yhat_lower": "8387.338281995397",
+    "yhat_upper": "17780.566650876015",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "10619.65201558347",
+    "yhat_lower": "6027.729734683592",
+    "yhat_upper": "15393.442943997277",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "11858.640095171535",
+    "yhat_lower": "6872.105208543916",
+    "yhat_upper": "16627.659605544988",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "11666.686619713677",
+    "yhat_lower": "7095.637606622748",
+    "yhat_upper": "16668.71446069315",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "9936.934015897272",
+    "yhat_lower": "5429.329404080033",
+    "yhat_upper": "14898.452552232477",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "10149.624911230958",
+    "yhat_lower": "5509.547486185446",
+    "yhat_upper": "14783.959960149185",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "11341.31021239492",
+    "yhat_lower": "6072.404075066026",
+    "yhat_upper": "15965.580214611762",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "13325.648466879715",
+    "yhat_lower": "8466.222037946009",
+    "yhat_upper": "17830.652292836035",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "11770.999114846343",
+    "yhat_lower": "6905.812183304092",
+    "yhat_upper": "16404.328012236423",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "12112.627940155568",
+    "yhat_lower": "7526.6204807705635",
+    "yhat_upper": "16722.691569820003",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "10892.407763728004",
+    "yhat_lower": "5944.916283155766",
+    "yhat_upper": "15879.56289777941",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "10501.616376211885",
+    "yhat_lower": "5705.797872545441",
+    "yhat_upper": "15171.75872505489",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "13341.589003994706",
+    "yhat_lower": "8718.15465169163",
+    "yhat_upper": "18373.161600484877",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "10899.88319425887",
+    "yhat_lower": "6613.12446289866",
+    "yhat_upper": "15634.807135919893",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "12059.023183869485",
+    "yhat_lower": "7204.209990962952",
+    "yhat_upper": "16783.296655234502",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  }
+]

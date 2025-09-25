@@ -1,0 +1,1146 @@
+[
+  {
+    "ds": "2010-01-01",
+    "yhat": "3177.750018836827",
+    "yhat_lower": "1860.8988274350354",
+    "yhat_upper": "4450.031760490682",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2010-03-01",
+    "yhat": "3446.555678839108",
+    "yhat_lower": "2215.4829523704107",
+    "yhat_upper": "4688.873533104147",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2010-05-01",
+    "yhat": "3317.672976217677",
+    "yhat_lower": "2049.3222789064384",
+    "yhat_upper": "4551.594063416237",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2010-10-01",
+    "yhat": "3595.553570341019",
+    "yhat_lower": "2394.718316676381",
+    "yhat_upper": "4883.03426846459",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2010-12-01",
+    "yhat": "3114.29419844454",
+    "yhat_lower": "1880.2430752563228",
+    "yhat_upper": "4396.904996444795",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "3841.657466593769",
+    "yhat_lower": "2590.83195833092",
+    "yhat_upper": "5094.052195274005",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "3620.0872833619032",
+    "yhat_lower": "2328.4429269683696",
+    "yhat_upper": "4949.16755001864",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "2619.780214289498",
+    "yhat_lower": "1413.7106216924378",
+    "yhat_upper": "3918.964682053845",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "2879.0550277319808",
+    "yhat_lower": "1648.1499751650845",
+    "yhat_upper": "4168.670920396076",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "3665.376729858587",
+    "yhat_lower": "2355.9031542458865",
+    "yhat_upper": "4850.086551557256",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "3210.2937343940766",
+    "yhat_lower": "1994.0947928802134",
+    "yhat_upper": "4483.36147801235",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "2843.103091662861",
+    "yhat_lower": "1629.170533658715",
+    "yhat_upper": "4208.988691667191",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "2278.570067617745",
+    "yhat_lower": "886.2899157520453",
+    "yhat_upper": "3494.7558994237006",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "3079.986057806439",
+    "yhat_lower": "1758.9584873085703",
+    "yhat_upper": "4321.720529368537",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "2568.9509425010583",
+    "yhat_lower": "1392.7025759712967",
+    "yhat_upper": "3889.8457495688363",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "3256.360290146371",
+    "yhat_lower": "1895.5148881928048",
+    "yhat_upper": "4531.275052469662",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "2612.527924218243",
+    "yhat_lower": "1252.869381538177",
+    "yhat_upper": "3862.8231879949703",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "3503.5019025040906",
+    "yhat_lower": "2217.366668408543",
+    "yhat_upper": "4751.855790394671",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "3652.0194489182145",
+    "yhat_lower": "2405.557043060544",
+    "yhat_upper": "5020.601591783703",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "2657.556750651036",
+    "yhat_lower": "1395.8736351476396",
+    "yhat_upper": "3943.993026123162",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2012-09-01",
+    "yhat": "2582.1026364852355",
+    "yhat_lower": "1298.6445543764432",
+    "yhat_upper": "3896.6151997748707",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "2875.09884506628",
+    "yhat_lower": "1668.9595078960224",
+    "yhat_upper": "4162.8026609783765",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "3553.566520426178",
+    "yhat_lower": "2202.72203754869",
+    "yhat_upper": "4771.145171161905",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "3555.9688059172786",
+    "yhat_lower": "2317.949911731064",
+    "yhat_upper": "4878.458800043254",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "2822.6474954416544",
+    "yhat_lower": "1589.5301669343037",
+    "yhat_upper": "4070.2530307214392",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "2968.4958633545016",
+    "yhat_lower": "1637.5409636565307",
+    "yhat_upper": "4208.645701068849",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "2928.0874420647224",
+    "yhat_lower": "1613.8042803623255",
+    "yhat_upper": "4150.192695292593",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "3192.458035166774",
+    "yhat_lower": "1897.05965156483",
+    "yhat_upper": "4389.227688340685",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "3200.40935596591",
+    "yhat_lower": "1857.5944754361155",
+    "yhat_upper": "4395.060727974018",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "3438.7924653538444",
+    "yhat_lower": "2172.644993938803",
+    "yhat_upper": "4723.496964299595",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "2968.88856064779",
+    "yhat_lower": "1810.6436075661663",
+    "yhat_upper": "4326.507297581207",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "3297.6014104609358",
+    "yhat_lower": "2068.7398364482797",
+    "yhat_upper": "4540.093821915109",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "3097.2720217155634",
+    "yhat_lower": "1823.18038758963",
+    "yhat_upper": "4379.258759656668",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "2868.4589566698273",
+    "yhat_lower": "1597.6068563974243",
+    "yhat_upper": "4058.0993552053005",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "2736.907509272811",
+    "yhat_lower": "1443.5808703579073",
+    "yhat_upper": "4044.6204348380907",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "3033.8162015046228",
+    "yhat_lower": "1736.0105257507175",
+    "yhat_upper": "4334.035285288176",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "2644.4564503788606",
+    "yhat_lower": "1446.4427653110251",
+    "yhat_upper": "3880.84956896193",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "3761.1794696924485",
+    "yhat_lower": "2449.6949857865975",
+    "yhat_upper": "4990.283196304947",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "3737.1462691198576",
+    "yhat_lower": "2530.5675000114065",
+    "yhat_upper": "4965.682871108038",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "3129.8157376035697",
+    "yhat_lower": "1970.44060020769",
+    "yhat_upper": "4425.067435263131",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "3175.882293437504",
+    "yhat_lower": "1941.9717122001434",
+    "yhat_upper": "4446.899642045076",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "2532.049927526549",
+    "yhat_lower": "1295.9922020842805",
+    "yhat_upper": "3778.9060083835498",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "3423.02390582952",
+    "yhat_lower": "2195.638550835374",
+    "yhat_upper": "4730.057241187238",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "3571.541452253873",
+    "yhat_lower": "2281.9434393092856",
+    "yhat_upper": "4809.003593266133",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "2794.6208484265408",
+    "yhat_lower": "1616.1880478881951",
+    "yhat_upper": "4005.359422002281",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "3473.0885237949633",
+    "yhat_lower": "2185.6560181568298",
+    "yhat_upper": "4847.863506628556",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "2742.169498818453",
+    "yhat_lower": "1487.1339916701002",
+    "yhat_upper": "3953.794150277133",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "2888.0178667361483",
+    "yhat_lower": "1671.4970758877394",
+    "yhat_upper": "4134.9362384640435",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "2847.6094454552904",
+    "yhat_lower": "1530.7256306729198",
+    "yhat_upper": "4112.040381226589",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "3111.9800385565854",
+    "yhat_lower": "1767.1207897220877",
+    "yhat_upper": "4337.213315489365",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "3119.9313593559727",
+    "yhat_lower": "1797.6762340984326",
+    "yhat_upper": "4360.980242880788",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "3358.3144687391455",
+    "yhat_lower": "2058.8612982856876",
+    "yhat_upper": "4604.228484720878",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "2888.4105640255543",
+    "yhat_lower": "1581.3969444080396",
+    "yhat_upper": "4158.75727232426",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "3217.12341383125",
+    "yhat_lower": "1951.3793489343964",
+    "yhat_upper": "4462.33163258468",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "2781.168212348497",
+    "yhat_lower": "1485.123763877326",
+    "yhat_upper": "4020.0415761284007",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "3156.716982487344",
+    "yhat_lower": "1868.6598914037677",
+    "yhat_upper": "4446.593352557592",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "2790.4449208456035",
+    "yhat_lower": "1539.5746511723119",
+    "yhat_upper": "4060.4103514364806",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "2656.429512556796",
+    "yhat_lower": "1345.833688852921",
+    "yhat_upper": "3890.5726669686787",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "2973.347511620509",
+    "yhat_lower": "1650.861224630444",
+    "yhat_upper": "4231.011609977596",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "2953.3382047297855",
+    "yhat_lower": "1626.0627983559693",
+    "yhat_upper": "4246.3124985538725",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "2563.978453585109",
+    "yhat_lower": "1272.9825504196365",
+    "yhat_upper": "3841.73189584193",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "2846.949916433047",
+    "yhat_lower": "1583.8463988749063",
+    "yhat_upper": "4076.2400827271194",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "3680.701472883261",
+    "yhat_lower": "2403.187173398446",
+    "yhat_upper": "4972.95534328957",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "2458.824220590571",
+    "yhat_lower": "1211.6555421862763",
+    "yhat_upper": "3746.5684380814328",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "2117.6140739357006",
+    "yhat_lower": "819.5035507369192",
+    "yhat_upper": "3330.2785149228134",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "2919.0300641267004",
+    "yhat_lower": "1564.2470048009081",
+    "yhat_upper": "4152.537380911261",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "3491.0634552400397",
+    "yhat_lower": "2164.9041251762123",
+    "yhat_upper": "4677.647667807662",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "2421.146642807169",
+    "yhat_lower": "1093.4819677517253",
+    "yhat_upper": "3614.6420241921674",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "3195.3678428426833",
+    "yhat_lower": "1957.3633675454091",
+    "yhat_upper": "4435.2514635325",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "2714.142851383815",
+    "yhat_lower": "1356.3825288276919",
+    "yhat_upper": "3958.9048749836984",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "3392.610526744677",
+    "yhat_lower": "2143.3228314015787",
+    "yhat_upper": "4699.115930623833",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "3395.0128122404326",
+    "yhat_lower": "2106.3757541511573",
+    "yhat_upper": "4713.510006692289",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "2899.9581409476045",
+    "yhat_lower": "1553.5814878179629",
+    "yhat_upper": "4182.166582273016",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "2767.131448381232",
+    "yhat_lower": "1463.8749174511245",
+    "yhat_upper": "4010.641649577587",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "3031.5020414769233",
+    "yhat_lower": "1776.9784194029264",
+    "yhat_upper": "4279.4901862908655",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "3277.836471642024",
+    "yhat_lower": "2059.5834313787104",
+    "yhat_upper": "4473.606231391056",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "2807.932566923537",
+    "yhat_lower": "1508.129531113825",
+    "yhat_upper": "4105.707226691442",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "2707.5029629070623",
+    "yhat_lower": "1463.2890866344885",
+    "yhat_upper": "4022.90973312455",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "3076.238985355194",
+    "yhat_lower": "1833.2181128155073",
+    "yhat_upper": "4358.263362363649",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "2709.9669237148314",
+    "yhat_lower": "1507.1162068075173",
+    "yhat_upper": "3963.6111179528975",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "3187.46926945007",
+    "yhat_lower": "1891.4865500946346",
+    "yhat_upper": "4386.364062840478",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "3354.119579484592",
+    "yhat_lower": "2071.6047511088473",
+    "yhat_upper": "4695.023750774086",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "2892.869514476615",
+    "yhat_lower": "1600.654640434868",
+    "yhat_upper": "4267.129481398651",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "2872.860207584235",
+    "yhat_lower": "1573.9724811955487",
+    "yhat_upper": "4188.473373961189",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "2483.5004564368783",
+    "yhat_lower": "1257.6162156223081",
+    "yhat_upper": "3747.7927427441487",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "3600.2234757288406",
+    "yhat_lower": "2348.3922597775068",
+    "yhat_upper": "4783.797989765798",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "2497.575503045097",
+    "yhat_lower": "1227.9486125067572",
+    "yhat_upper": "3690.9476767930155",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "3378.653292498323",
+    "yhat_lower": "2070.7976795843456",
+    "yhat_upper": "4589.157357706344",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "2378.3462234235367",
+    "yhat_lower": "1097.1193870260734",
+    "yhat_upper": "3666.9597491386535",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "2157.1140736756424",
+    "yhat_lower": "855.4494256011965",
+    "yhat_upper": "3435.547340440203",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "2601.669100805066",
+    "yhat_lower": "1352.860909513239",
+    "yhat_upper": "3911.2809615040273",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "2037.1360767663746",
+    "yhat_lower": "764.9424192051315",
+    "yhat_upper": "3325.5169561187477",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "2838.5520669528637",
+    "yhat_lower": "1648.4642230663685",
+    "yhat_upper": "4169.192665485299",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "2327.5169516503006",
+    "yhat_lower": "1043.2075503745962",
+    "yhat_upper": "3641.441638697479",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "3262.067911651371",
+    "yhat_lower": "2010.66544857964",
+    "yhat_upper": "4597.773632856816",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "3410.5854580660416",
+    "yhat_lower": "2116.8789597592213",
+    "yhat_upper": "4635.78739689452",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "2416.1227597932643",
+    "yhat_lower": "1169.8437931080082",
+    "yhat_upper": "3690.119095848114",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "2340.668645617995",
+    "yhat_lower": "1080.861548991763",
+    "yhat_upper": "3499.474776558919",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "3114.889845652641",
+    "yhat_lower": "1829.429353209349",
+    "yhat_upper": "4445.477463005322",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "2633.664854192063",
+    "yhat_lower": "1272.3841680540843",
+    "yhat_upper": "3854.2922393141803",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "3312.1325295481633",
+    "yhat_lower": "2174.440429584027",
+    "yhat_upper": "4743.482032165124",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "3314.534815038127",
+    "yhat_lower": "2024.8203643043553",
+    "yhat_upper": "4537.114727001295",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "2581.2135045522778",
+    "yhat_lower": "1222.1094591601218",
+    "yhat_upper": "3850.62737184075",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "2727.061872461759",
+    "yhat_lower": "1457.0720486047992",
+    "yhat_upper": "3980.070605622902",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "2819.4801437268206",
+    "yhat_lower": "1649.4221058824548",
+    "yhat_upper": "4064.932959633604",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "2686.6534511566983",
+    "yhat_lower": "1466.643208737761",
+    "yhat_upper": "3971.133269582774",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "2951.0240442512727",
+    "yhat_lower": "1666.208248457111",
+    "yhat_upper": "4278.152063747069",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "2958.975365042268",
+    "yhat_lower": "1659.4351239008547",
+    "yhat_upper": "4208.484207914884",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "2448.4433421505173",
+    "yhat_lower": "1228.3630082369602",
+    "yhat_upper": "3665.92917597834",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "2721.794758135267",
+    "yhat_lower": "1477.0122420807006",
+    "yhat_upper": "3953.8449279524484",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "3197.3584743983884",
+    "yhat_lower": "1914.3335079839214",
+    "yhat_upper": "4530.484587402205",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "2727.454569680921",
+    "yhat_lower": "1443.415416249666",
+    "yhat_upper": "3956.032190400387",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "3056.1674194809875",
+    "yhat_lower": "1777.072307020337",
+    "yhat_upper": "4241.812572977771",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "2855.838030727608",
+    "yhat_lower": "1627.273817896682",
+    "yhat_upper": "3980.568059613008",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "2627.0249656643896",
+    "yhat_lower": "1320.5749258926842",
+    "yhat_upper": "3838.4205012042216",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "3124.6436907338557",
+    "yhat_lower": "1875.6779881479172",
+    "yhat_upper": "4411.378915023914",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "2620.2122179783737",
+    "yhat_lower": "1399.7055948890882",
+    "yhat_upper": "3989.8601591789648",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "2995.7609881139824",
+    "yhat_lower": "1780.2776726366133",
+    "yhat_upper": "4307.525070186313",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "2629.4889264723847",
+    "yhat_lower": "1347.5270021721785",
+    "yhat_upper": "3959.028613411407",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "2514.1342941006383",
+    "yhat_lower": "1458.9760372321987",
+    "yhat_upper": "3972.8472959488026",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "2495.473518175375",
+    "yhat_lower": "1232.630560725806",
+    "yhat_upper": "3843.8143204319354",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "3106.9912722089175",
+    "yhat_lower": "1808.8093945028024",
+    "yhat_upper": "4326.318028601082",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "3273.6415822378394",
+    "yhat_lower": "2037.189030003257",
+    "yhat_upper": "4533.5833593069065",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "2812.3915172334428",
+    "yhat_lower": "1547.8365226173216",
+    "yhat_upper": "4082.425467461637",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "2792.3822103401785",
+    "yhat_lower": "1578.3508972201207",
+    "yhat_upper": "4047.81064286457",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "2403.0224591962387",
+    "yhat_lower": "1174.1853597986753",
+    "yhat_upper": "3560.0763864313103",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "2685.99392203822",
+    "yhat_lower": "1393.0752737755927",
+    "yhat_upper": "3955.376455607047",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "3519.7454784901565",
+    "yhat_lower": "2222.239546085905",
+    "yhat_upper": "4736.073658420397",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "2417.097505803277",
+    "yhat_lower": "1183.604686920383",
+    "yhat_upper": "3672.5262033781355",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "3298.1752952541337",
+    "yhat_lower": "2004.8644328755558",
+    "yhat_upper": "4577.220623122053",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "2297.8682261841363",
+    "yhat_lower": "996.7067783385905",
+    "yhat_upper": "3480.0472826237783",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "2076.636076432461",
+    "yhat_lower": "857.2469933178635",
+    "yhat_upper": "3335.259154122703",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "2557.1430396294236",
+    "yhat_lower": "1315.640500186488",
+    "yhat_upper": "3756.177563432704",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "3495.712277835537",
+    "yhat_lower": "2316.404901512929",
+    "yhat_upper": "4729.713192607588",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "3343.464741757688",
+    "yhat_lower": "2106.697821453234",
+    "yhat_upper": "4575.205697916047",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "2888.381746292389",
+    "yhat_lower": "1647.9747333609157",
+    "yhat_upper": "4166.278818508414",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "2521.1911035611643",
+    "yhat_lower": "1289.0922009399762",
+    "yhat_upper": "3816.0709981079226",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "1956.658079520953",
+    "yhat_lower": "626.3737390659765",
+    "yhat_upper": "3176.670318503535",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "2758.0740697103884",
+    "yhat_lower": "1543.334518706144",
+    "yhat_upper": "4020.187511645977",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "2247.0389544121535",
+    "yhat_lower": "918.9424396091687",
+    "yhat_upper": "3494.989436771885",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "2934.448302047748",
+    "yhat_lower": "1696.262367805423",
+    "yhat_upper": "4235.381470675578",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "2290.615936121332",
+    "yhat_lower": "975.538811670314",
+    "yhat_upper": "3530.0747003450792",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "3181.5899144086793",
+    "yhat_lower": "1852.2821672580772",
+    "yhat_upper": "4391.598565846509",
+    "area_id": "394",
+    "name_en": "Al Mizhar Second"
+  }
+]

@@ -1,0 +1,1738 @@
+[
+  {
+    "ds": "2010-01-01",
+    "yhat": "11041.8739339164",
+    "yhat_lower": "5985.486166864431",
+    "yhat_upper": "15902.882128958703",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2010-02-01",
+    "yhat": "9517.947724903743",
+    "yhat_lower": "4521.007430117414",
+    "yhat_upper": "14777.288246067827",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2010-04-01",
+    "yhat": "10606.363831351087",
+    "yhat_lower": "6039.808111514918",
+    "yhat_upper": "15495.753293174406",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2010-05-01",
+    "yhat": "9088.38500927449",
+    "yhat_lower": "4269.594096425608",
+    "yhat_upper": "14196.076078441209",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "9616.287423764585",
+    "yhat_lower": "4587.70542109616",
+    "yhat_upper": "14340.49499099311",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2010-07-01",
+    "yhat": "9225.986576675721",
+    "yhat_lower": "4279.579365326889",
+    "yhat_upper": "14036.706862691408",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2010-08-01",
+    "yhat": "8875.552073258677",
+    "yhat_lower": "3533.1482485915344",
+    "yhat_upper": "13642.333953912037",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2010-09-01",
+    "yhat": "9895.711324797867",
+    "yhat_lower": "5149.495403092854",
+    "yhat_upper": "15100.044257843583",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2010-10-01",
+    "yhat": "11095.226921294916",
+    "yhat_lower": "6292.609451530038",
+    "yhat_upper": "15722.940759251711",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "9981.794941509183",
+    "yhat_lower": "4787.399365503652",
+    "yhat_upper": "14738.35984521563",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2010-12-01",
+    "yhat": "11283.226952965248",
+    "yhat_lower": "6427.933271410737",
+    "yhat_upper": "16342.638196007518",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2011-01-01",
+    "yhat": "11480.939070769384",
+    "yhat_lower": "6314.304344362498",
+    "yhat_upper": "16491.967996797324",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2011-02-01",
+    "yhat": "10181.628707360396",
+    "yhat_lower": "5041.180057351029",
+    "yhat_upper": "14891.701703161238",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "10808.800096328181",
+    "yhat_lower": "5658.761518161684",
+    "yhat_upper": "15933.902557521367",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2011-04-01",
+    "yhat": "11326.174614048843",
+    "yhat_lower": "6108.394105113686",
+    "yhat_upper": "16541.65443130424",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "9774.797989102239",
+    "yhat_lower": "5084.9320237113325",
+    "yhat_upper": "14912.499897965276",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "10356.755725891988",
+    "yhat_lower": "4713.930785021806",
+    "yhat_upper": "15407.865501179067",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2011-07-01",
+    "yhat": "9710.41661766542",
+    "yhat_lower": "4710.009488882193",
+    "yhat_upper": "14404.53932102691",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "9469.801810494437",
+    "yhat_lower": "4336.0510039357105",
+    "yhat_upper": "14335.64489896486",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "10541.835257770947",
+    "yhat_lower": "5316.653302029958",
+    "yhat_upper": "15677.93183867251",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "12024.370148460628",
+    "yhat_lower": "7392.728312020277",
+    "yhat_upper": "17360.336443892393",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "10548.847658688612",
+    "yhat_lower": "5059.904265692097",
+    "yhat_upper": "15797.515585619203",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "12029.06573452848",
+    "yhat_lower": "7282.707223637172",
+    "yhat_upper": "17017.731727856983",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "11918.834401183181",
+    "yhat_lower": "6875.365980114191",
+    "yhat_upper": "17169.54612752154",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "10849.630953795286",
+    "yhat_lower": "5484.018749548177",
+    "yhat_upper": "15868.161818485976",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "11825.647212058662",
+    "yhat_lower": "6510.094841999447",
+    "yhat_upper": "16778.963935754226",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "10374.340103009226",
+    "yhat_lower": "5299.223135444524",
+    "yhat_upper": "15252.915482955283",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "10785.27885666295",
+    "yhat_lower": "5778.538908979067",
+    "yhat_upper": "15883.35968941029",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "10913.004194979956",
+    "yhat_lower": "5660.537224251488",
+    "yhat_upper": "16309.467782248914",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "10359.07108477593",
+    "yhat_lower": "5726.527586773624",
+    "yhat_upper": "15523.032643208762",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2012-09-01",
+    "yhat": "11280.97522577717",
+    "yhat_lower": "6205.136597273394",
+    "yhat_upper": "16397.04458661696",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "11894.90539715861",
+    "yhat_lower": "6950.395449436159",
+    "yhat_upper": "16945.57505619724",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "11499.330935380778",
+    "yhat_lower": "6620.6113370542525",
+    "yhat_upper": "16793.820746868863",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "12442.552432373619",
+    "yhat_lower": "7270.8068746032395",
+    "yhat_upper": "17111.20189850515",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "13262.533221965385",
+    "yhat_lower": "8108.970517786218",
+    "yhat_upper": "18393.621397751427",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "11519.672771188158",
+    "yhat_lower": "6524.806668197511",
+    "yhat_upper": "16889.512186652973",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "12005.57880619812",
+    "yhat_lower": "7094.985582402852",
+    "yhat_upper": "17109.13383347916",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "12546.923916150448",
+    "yhat_lower": "7671.6483559356875",
+    "yhat_upper": "17453.099271608826",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "11062.314580635637",
+    "yhat_lower": "6375.330274240646",
+    "yhat_upper": "15979.554487474184",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "11533.21347396229",
+    "yhat_lower": "6579.08288380331",
+    "yhat_upper": "16350.984785483419",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "11401.026640672524",
+    "yhat_lower": "6400.35586285634",
+    "yhat_upper": "16434.773513690874",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "10946.123467465526",
+    "yhat_lower": "5927.704711995307",
+    "yhat_upper": "16131.996609863563",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "11916.182937278558",
+    "yhat_lower": "6757.829040230372",
+    "yhat_upper": "16755.85187095892",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "12826.075204448729",
+    "yhat_lower": "7597.282609768861",
+    "yhat_upper": "17735.68853052439",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "12072.725772501512",
+    "yhat_lower": "6631.050619496721",
+    "yhat_upper": "16770.61192393583",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "13195.152278462494",
+    "yhat_lower": "8424.301394017522",
+    "yhat_upper": "18427.087374928054",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "13703.026237477729",
+    "yhat_lower": "8680.32333231198",
+    "yhat_upper": "18953.341328227612",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "12179.100022282288",
+    "yhat_lower": "7180.859465112217",
+    "yhat_upper": "17010.90769883215",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "12737.024503848155",
+    "yhat_lower": "7845.086946907329",
+    "yhat_upper": "17779.509134972977",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "13267.51611545125",
+    "yhat_lower": "8214.640281115877",
+    "yhat_upper": "18428.620239081367",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "11749.537285931367",
+    "yhat_lower": "6567.1732479195725",
+    "yhat_upper": "16765.707800582575",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "12277.43969272848",
+    "yhat_lower": "7317.440050688444",
+    "yhat_upper": "17197.022325346625",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "11536.704327870984",
+    "yhat_lower": "6402.230299607834",
+    "yhat_upper": "16900.721765992308",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "12556.863572503999",
+    "yhat_lower": "7668.308511762018",
+    "yhat_upper": "17875.057798948284",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "13756.37916231662",
+    "yhat_lower": "8683.838635837612",
+    "yhat_upper": "18731.607291875665",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "12642.944409640384",
+    "yhat_lower": "7451.603524196903",
+    "yhat_upper": "17904.682049750125",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "13944.373737651735",
+    "yhat_lower": "8981.904376283288",
+    "yhat_upper": "19314.01895825314",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "14142.08308256469",
+    "yhat_lower": "9277.840460550166",
+    "yhat_upper": "18640.907756201348",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "12842.769945883023",
+    "yhat_lower": "7660.901252867276",
+    "yhat_upper": "17725.158367789005",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "13469.938829960003",
+    "yhat_lower": "8390.494538723768",
+    "yhat_upper": "18534.68558571535",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "13986.083813821793",
+    "yhat_lower": "9290.101870662917",
+    "yhat_upper": "19183.16494428669",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "12433.517317395326",
+    "yhat_lower": "7523.818911510973",
+    "yhat_upper": "17400.007777748408",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "13014.245520325367",
+    "yhat_lower": "7896.23143432927",
+    "yhat_upper": "18224.89425694878",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "12366.716542744181",
+    "yhat_lower": "7637.480101557631",
+    "yhat_upper": "17116.872077882115",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "12124.872203909552",
+    "yhat_lower": "7270.014191254121",
+    "yhat_upper": "17017.749860720538",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "13181.893127281148",
+    "yhat_lower": "8152.561326978332",
+    "yhat_upper": "18528.39237724574",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "14649.899769032554",
+    "yhat_lower": "9289.777755088588",
+    "yhat_upper": "19399.36222753858",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "13159.364755354996",
+    "yhat_lower": "8178.319888851006",
+    "yhat_upper": "18344.914691031874",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "14625.054582450908",
+    "yhat_lower": "9783.467520263515",
+    "yhat_upper": "19642.75136600574",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "14499.810725403462",
+    "yhat_lower": "9709.22358750791",
+    "yhat_upper": "19662.26181264565",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "13415.594754313346",
+    "yhat_lower": "8431.546354787562",
+    "yhat_upper": "18971.685029449225",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "13810.433434735703",
+    "yhat_lower": "8805.924806489951",
+    "yhat_upper": "18851.43545738348",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "14326.939138359568",
+    "yhat_lower": "9392.182872703333",
+    "yhat_upper": "19456.48560715033",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "12843.29609220166",
+    "yhat_lower": "7601.011291270304",
+    "yhat_upper": "17598.53660584857",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "13220.821044176002",
+    "yhat_lower": "7873.273923998596",
+    "yhat_upper": "18527.296997402755",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "13316.210445118944",
+    "yhat_lower": "8345.306054100292",
+    "yhat_upper": "18339.076668615824",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "12711.102173367552",
+    "yhat_lower": "7742.103630759116",
+    "yhat_upper": "17666.088771276623",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "13581.83115282389",
+    "yhat_lower": "8896.146553203867",
+    "yhat_upper": "18682.127775271078",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "14146.23697432115",
+    "yhat_lower": "9257.982594257894",
+    "yhat_upper": "19258.763836961713",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "13699.487350998166",
+    "yhat_lower": "8444.221388322507",
+    "yhat_upper": "18839.821274071943",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "14593.184499059473",
+    "yhat_lower": "9589.076579940789",
+    "yhat_upper": "19317.476609538004",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "15346.692937534073",
+    "yhat_lower": "10064.542287608701",
+    "yhat_upper": "20389.348461499343",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "13537.360135637264",
+    "yhat_lower": "8420.582270500969",
+    "yhat_upper": "18469.625169802457",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "13963.226627701055",
+    "yhat_lower": "8744.123952922568",
+    "yhat_upper": "19054.284764044845",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "14438.099386535452",
+    "yhat_lower": "9714.003877404664",
+    "yhat_upper": "19286.3136496508",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "12889.161969291823",
+    "yhat_lower": "7750.085855353673",
+    "yhat_upper": "17911.53627703721",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "13293.588512771079",
+    "yhat_lower": "8551.443604944443",
+    "yhat_upper": "18428.689495465955",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "13087.263532858631",
+    "yhat_lower": "8068.737056366225",
+    "yhat_upper": "18140.904622135564",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "12555.75094147753",
+    "yhat_lower": "7491.96712310527",
+    "yhat_upper": "17871.78594648391",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "13449.200993116552",
+    "yhat_lower": "8495.773197217693",
+    "yhat_upper": "18337.58090720536",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "14284.95511366752",
+    "yhat_lower": "9376.61725485889",
+    "yhat_upper": "19462.898371585736",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "13454.996264934556",
+    "yhat_lower": "8202.277319734341",
+    "yhat_upper": "18072.518494498807",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "14498.275272444207",
+    "yhat_lower": "9310.443964969414",
+    "yhat_upper": "18887.730074477702",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "14924.363483061052",
+    "yhat_lower": "9789.140633986997",
+    "yhat_upper": "20089.669230287458",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "13318.651519463581",
+    "yhat_lower": "8457.78551585834",
+    "yhat_upper": "18222.516966024472",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "13802.705002474398",
+    "yhat_lower": "8649.599315257687",
+    "yhat_upper": "18866.9322720311",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "14251.410867186509",
+    "yhat_lower": "9223.481663216166",
+    "yhat_upper": "19158.30917986929",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "12654.284467065967",
+    "yhat_lower": "7565.620149881538",
+    "yhat_upper": "17277.61480980958",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "13100.401050908878",
+    "yhat_lower": "7955.85688355683",
+    "yhat_upper": "18487.898293832448",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "12630.952625773198",
+    "yhat_lower": "7564.310701843297",
+    "yhat_upper": "17627.804432454097",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "12198.732292497629",
+    "yhat_lower": "7407.369857106607",
+    "yhat_upper": "17243.12635248035",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "13137.105714175546",
+    "yhat_lower": "8069.934051479063",
+    "yhat_upper": "18206.409222550603",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "14257.473733388062",
+    "yhat_lower": "9264.464623907992",
+    "yhat_upper": "18856.121745874618",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "13062.255236352363",
+    "yhat_lower": "8351.263079286575",
+    "yhat_upper": "18226.008487976113",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "14284.539005308638",
+    "yhat_lower": "9184.121493585691",
+    "yhat_upper": "19663.22092279503",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "14400.464605861083",
+    "yhat_lower": "9336.699562603771",
+    "yhat_upper": "19186.62168321419",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "13019.367724822061",
+    "yhat_lower": "7861.0123060967735",
+    "yhat_upper": "17818.304131335648",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "13572.667420446489",
+    "yhat_lower": "8794.613600404757",
+    "yhat_upper": "18918.643446432507",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "14008.255419202882",
+    "yhat_lower": "8969.043835387674",
+    "yhat_upper": "18699.173592122876",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "12377.730550096063",
+    "yhat_lower": "7706.596628125063",
+    "yhat_upper": "17142.657794112405",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "12152.414417661008",
+    "yhat_lower": "7507.69284467082",
+    "yhat_upper": "17281.031451618852",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "11830.013093721322",
+    "yhat_lower": "6948.214086760638",
+    "yhat_upper": "17150.98321461072",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "12820.26002423005",
+    "yhat_lower": "7893.6797534434345",
+    "yhat_upper": "17348.95277481604",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "14223.646672888548",
+    "yhat_lower": "8924.129724919307",
+    "yhat_upper": "19083.507737292348",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "12666.337651606285",
+    "yhat_lower": "7754.554812450523",
+    "yhat_upper": "17619.647555330383",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "14067.407471343422",
+    "yhat_lower": "9070.879818785119",
+    "yhat_upper": "19220.785934527994",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "13875.389606690926",
+    "yhat_lower": "8665.848961887385",
+    "yhat_upper": "18984.399708477245",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "12724.399627997127",
+    "yhat_lower": "7873.100090813376",
+    "yhat_upper": "17588.11641540835",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "13073.986400059013",
+    "yhat_lower": "8336.012116256963",
+    "yhat_upper": "18442.71255366836",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "12389.393275577831",
+    "yhat_lower": "7530.109789838626",
+    "yhat_upper": "17381.04538758797",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "11753.673624237343",
+    "yhat_lower": "6644.463120194076",
+    "yhat_upper": "16803.66565388106",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "12593.79122410007",
+    "yhat_lower": "7665.786744170165",
+    "yhat_upper": "17688.614568469886",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "13128.573129864937",
+    "yhat_lower": "8094.637519008237",
+    "yhat_upper": "18009.723935520567",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "12651.212126949518",
+    "yhat_lower": "7784.192389445865",
+    "yhat_upper": "18002.735327337152",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "13515.285361681115",
+    "yhat_lower": "8314.698550092933",
+    "yhat_upper": "18349.55341763563",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "14253.479613603806",
+    "yhat_lower": "9502.612978419886",
+    "yhat_upper": "19649.888406205126",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "12428.832625157283",
+    "yhat_lower": "6976.477412209931",
+    "yhat_upper": "17272.11276461182",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "12840.866948723908",
+    "yhat_lower": "7853.453629467917",
+    "yhat_upper": "18254.976150936087",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "13300.42552100783",
+    "yhat_lower": "8052.237650122062",
+    "yhat_upper": "18297.380160522327",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "11736.667923234214",
+    "yhat_lower": "6825.489450864715",
+    "yhat_upper": "16643.013048046312",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "12125.780275307492",
+    "yhat_lower": "7006.387753525819",
+    "yhat_upper": "17022.71660506453",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "11914.445176287834",
+    "yhat_lower": "6673.167166933287",
+    "yhat_upper": "16838.740295086867",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "11377.75546182556",
+    "yhat_lower": "6565.764498633443",
+    "yhat_upper": "16283.48522646552",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "12266.028390387979",
+    "yhat_lower": "7432.68152626576",
+    "yhat_upper": "17038.005470543838",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "13096.77239183012",
+    "yhat_lower": "8045.7894970628195",
+    "yhat_upper": "18168.098421784565",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "12261.636419455155",
+    "yhat_lower": "7375.903574274747",
+    "yhat_upper": "17384.10058707617",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "13304.91466048732",
+    "yhat_lower": "8490.696245615367",
+    "yhat_upper": "18638.195240663623",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "13731.00207907762",
+    "yhat_lower": "8892.20795607784",
+    "yhat_upper": "18720.545280488634",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "12125.289323457753",
+    "yhat_lower": "7313.546629895755",
+    "yhat_upper": "17278.19160546344",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "12609.342091090075",
+    "yhat_lower": "7811.946790941587",
+    "yhat_upper": "17549.23953447822",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "13058.047163775582",
+    "yhat_lower": "8229.92748231553",
+    "yhat_upper": "17953.541829507725",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "11460.92007078722",
+    "yhat_lower": "6312.652210284192",
+    "yhat_upper": "16832.657768823407",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "11907.035938666919",
+    "yhat_lower": "7143.74204703117",
+    "yhat_upper": "16845.787533405888",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "11437.586820664961",
+    "yhat_lower": "6521.768031020281",
+    "yhat_upper": "16644.251781476254",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "11005.365771426426",
+    "yhat_lower": "6267.151466761089",
+    "yhat_upper": "15980.646011690516",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "11943.738477140854",
+    "yhat_lower": "6714.615129506905",
+    "yhat_upper": "17008.147495243687",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "13064.105803486178",
+    "yhat_lower": "8057.905147744291",
+    "yhat_upper": "18174.14430768015",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "11868.8872778765",
+    "yhat_lower": "6933.188014629143",
+    "yhat_upper": "16832.413701653717",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "13091.17101918163",
+    "yhat_lower": "8182.263857899216",
+    "yhat_upper": "18105.131252527644",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "13207.09659116116",
+    "yhat_lower": "8089.1676309856975",
+    "yhat_upper": "18243.910995678325",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "11825.999681551368",
+    "yhat_lower": "6542.523865922498",
+    "yhat_upper": "16674.07058388603",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "12379.299351367932",
+    "yhat_lower": "7545.188172375269",
+    "yhat_upper": "17354.212499596466",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "12814.887322888044",
+    "yhat_lower": "7695.513402626783",
+    "yhat_upper": "17881.89041197618",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "11184.362427422571",
+    "yhat_lower": "5935.047523877838",
+    "yhat_upper": "16396.7717289407",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "11684.533618010613",
+    "yhat_lower": "6465.893131285137",
+    "yhat_upper": "16730.81350804388",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "10959.046241392192",
+    "yhat_lower": "5735.560702795835",
+    "yhat_upper": "15964.144921612231",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "10636.644890216901",
+    "yhat_lower": "6124.713843083361",
+    "yhat_upper": "15729.707483326873",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "11626.891793489267",
+    "yhat_lower": "6955.190119064313",
+    "yhat_upper": "16674.515065522195",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "13030.278415787958",
+    "yhat_lower": "8164.041233157599",
+    "yhat_upper": "18184.767253631228",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "11472.969382011457",
+    "yhat_lower": "6616.566999689066",
+    "yhat_upper": "16477.454680944076",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "12874.039189657035",
+    "yhat_lower": "8120.07285301391",
+    "yhat_upper": "17910.19383102917",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "12682.021312512963",
+    "yhat_lower": "7654.9994455232945",
+    "yhat_upper": "18031.793771362765",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "11531.031321321463",
+    "yhat_lower": "6776.103724289068",
+    "yhat_upper": "16486.09690532258",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "11880.618081693952",
+    "yhat_lower": "6829.152174319468",
+    "yhat_upper": "16970.195082649258",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "12348.751043194974",
+    "yhat_lower": "7336.788849842003",
+    "yhat_upper": "17493.44919063233",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "10818.2956659523",
+    "yhat_lower": "5624.4575211619795",
+    "yhat_upper": "15530.978486020307",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "11147.447875804693",
+    "yhat_lower": "6233.0847424027315",
+    "yhat_upper": "16587.671796407576",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "11196.024945662944",
+    "yhat_lower": "5855.444674582107",
+    "yhat_upper": "16019.457327262577",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "10560.305291385284",
+    "yhat_lower": "5670.882311448229",
+    "yhat_upper": "15353.018504481866",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "11400.422888313471",
+    "yhat_lower": "6355.695570007711",
+    "yhat_upper": "16336.597739337602",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "11935.204791233164",
+    "yhat_lower": "7225.999014971258",
+    "yhat_upper": "16762.580378917803",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "11457.843785384604",
+    "yhat_lower": "6426.633078096623",
+    "yhat_upper": "16267.844759541678",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "12321.917014872524",
+    "yhat_lower": "7286.303272048476",
+    "yhat_upper": "17579.900434535448",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "13060.111261377195",
+    "yhat_lower": "8041.251846241198",
+    "yhat_upper": "17940.648917117185",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "11235.464267510184",
+    "yhat_lower": "5815.286315444652",
+    "yhat_upper": "15929.612709698917",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "11647.49858618308",
+    "yhat_lower": "6905.226015109272",
+    "yhat_upper": "16726.440587811543",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "12107.0571530474",
+    "yhat_lower": "7181.532469910457",
+    "yhat_upper": "17180.375113939204",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "10543.29955002803",
+    "yhat_lower": "5260.125982585135",
+    "yhat_upper": "15729.904789849845",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "10932.411901537585",
+    "yhat_lower": "6139.464232625865",
+    "yhat_upper": "15751.412391060638",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "10721.076801971254",
+    "yhat_lower": "5896.546992566576",
+    "yhat_upper": "15487.593944073205",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "10184.387086947729",
+    "yhat_lower": "5180.464288749211",
+    "yhat_upper": "15136.025694918024",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "11072.660014944364",
+    "yhat_lower": "6120.654295554449",
+    "yhat_upper": "16347.768562058158",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "11903.404015840466",
+    "yhat_lower": "6700.273741825584",
+    "yhat_upper": "17151.80995281028",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "11068.26804346661",
+    "yhat_lower": "6074.40544702201",
+    "yhat_upper": "16224.74410820685",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "12111.546284499578",
+    "yhat_lower": "6935.368474697567",
+    "yhat_upper": "16836.038584891183",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "12537.633703091611",
+    "yhat_lower": "7754.700111876194",
+    "yhat_upper": "17876.570225869968",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "10931.920947468378",
+    "yhat_lower": "5419.543269738785",
+    "yhat_upper": "15828.17965174776",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "11415.973715101756",
+    "yhat_lower": "6625.441781140132",
+    "yhat_upper": "16314.721191867131",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "11864.678787787741",
+    "yhat_lower": "6539.9125448357745",
+    "yhat_upper": "16997.079237485475",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "10267.55169479988",
+    "yhat_lower": "4971.864261586431",
+    "yhat_upper": "15383.304220159182",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "10713.667562680672",
+    "yhat_lower": "5619.322673692033",
+    "yhat_upper": "15918.565509128792",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "10244.2184446764",
+    "yhat_lower": "5355.441728538851",
+    "yhat_upper": "15251.739735620846",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "9811.997395436902",
+    "yhat_lower": "4386.7836565982225",
+    "yhat_upper": "14924.647973447924",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "10750.370101152468",
+    "yhat_lower": "5498.160767673393",
+    "yhat_upper": "15678.671276729665",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "11870.737427497243",
+    "yhat_lower": "6756.592298407809",
+    "yhat_upper": "17306.85817218509",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "10675.518901889563",
+    "yhat_lower": "5545.5921100089845",
+    "yhat_upper": "15473.91828266692",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "11897.802643194244",
+    "yhat_lower": "6813.765812565967",
+    "yhat_upper": "16887.806484837318",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "12013.728215174175",
+    "yhat_lower": "7101.578543551555",
+    "yhat_upper": "16884.633860214963",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "10632.631305562467",
+    "yhat_lower": "5187.946747425449",
+    "yhat_upper": "15899.048805598786",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "11185.93097537966",
+    "yhat_lower": "6346.5702494140305",
+    "yhat_upper": "16277.67763816916",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "11621.518946900129",
+    "yhat_lower": "6602.370197635165",
+    "yhat_upper": "16429.29717815643",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "9990.99405143486",
+    "yhat_lower": "5293.763235193737",
+    "yhat_upper": "15071.012193975968",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "10491.165242022676",
+    "yhat_lower": "5667.05888048998",
+    "yhat_upper": "15511.922591144552",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "9765.677865403431",
+    "yhat_lower": "4804.545383127207",
+    "yhat_upper": "14844.798938327862",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "9443.276514227418",
+    "yhat_lower": "4566.859390454146",
+    "yhat_upper": "14449.437283126033",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "10433.523417499482",
+    "yhat_lower": "5713.320632278529",
+    "yhat_upper": "15556.635439783158",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "11836.910039799131",
+    "yhat_lower": "6793.348042153325",
+    "yhat_upper": "16738.26341786469",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "10279.601006024868",
+    "yhat_lower": "5476.706228554473",
+    "yhat_upper": "15329.95401662921",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "11680.670813668647",
+    "yhat_lower": "6509.427914111162",
+    "yhat_upper": "16600.05901396917",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "11488.652936522369",
+    "yhat_lower": "6684.09028016069",
+    "yhat_upper": "16774.29703269197",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "10337.662945332695",
+    "yhat_lower": "5309.618534551052",
+    "yhat_upper": "15221.157698505027",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "10687.24970570569",
+    "yhat_lower": "5772.651519436972",
+    "yhat_upper": "15474.064426320916",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "11155.38266720756",
+    "yhat_lower": "6124.450327905247",
+    "yhat_upper": "15811.67590147535",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "9624.927289964833",
+    "yhat_lower": "4540.573231320783",
+    "yhat_upper": "15000.858543697615",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "9954.079499815427",
+    "yhat_lower": "5104.67112053388",
+    "yhat_upper": "15202.786843112874",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "10002.656569674162",
+    "yhat_lower": "4881.256652490343",
+    "yhat_upper": "14785.15386665804",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "9366.936915396354",
+    "yhat_lower": "4333.1926992375775",
+    "yhat_upper": "14418.227176276941",
+    "area_id": "443",
+    "name_en": "Al Thanyah First"
+  }
+]

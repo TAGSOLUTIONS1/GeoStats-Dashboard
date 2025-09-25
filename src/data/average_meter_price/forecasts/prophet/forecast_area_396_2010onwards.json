@@ -1,0 +1,1306 @@
+[
+  {
+    "ds": "2010-05-01",
+    "yhat": "1895.0025793742323",
+    "yhat_lower": "777.7305372392696",
+    "yhat_upper": "3165.9687477004068",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "1768.0409720863465",
+    "yhat_lower": "576.8302035108624",
+    "yhat_upper": "2941.088883845056",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2011-01-01",
+    "yhat": "2792.4234727807498",
+    "yhat_lower": "1530.3911361557653",
+    "yhat_upper": "4034.321054777513",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2011-02-01",
+    "yhat": "2046.927319154145",
+    "yhat_lower": "868.3846331045748",
+    "yhat_upper": "3237.9207414200696",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "1719.5381885112465",
+    "yhat_lower": "529.1708237323448",
+    "yhat_upper": "2911.7641557111288",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2011-04-01",
+    "yhat": "1957.7541463315758",
+    "yhat_lower": "793.8121732595677",
+    "yhat_upper": "3180.666765551909",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "2080.72958464979",
+    "yhat_lower": "882.0791440401711",
+    "yhat_upper": "3305.159346474794",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "1985.959838700943",
+    "yhat_lower": "743.9947079778229",
+    "yhat_upper": "3240.8799052493587",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2011-07-01",
+    "yhat": "2009.3483167840814",
+    "yhat_lower": "769.6499243144963",
+    "yhat_upper": "3159.5754062744454",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "1639.8617736251804",
+    "yhat_lower": "432.3959595531569",
+    "yhat_upper": "2841.732000401595",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "2950.1599948453954",
+    "yhat_lower": "1818.2351987319846",
+    "yhat_upper": "4174.721168922356",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "3000.3544790734786",
+    "yhat_lower": "1753.5766860713495",
+    "yhat_upper": "4297.0097402323045",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "2258.708120232318",
+    "yhat_lower": "1021.8735089620467",
+    "yhat_upper": "3452.5869467608454",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "2106.779335024947",
+    "yhat_lower": "968.6941009310445",
+    "yhat_upper": "3296.282600498323",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "1981.8856106675014",
+    "yhat_lower": "798.5881350294592",
+    "yhat_upper": "3153.5647469182195",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "2311.6863844987",
+    "yhat_lower": "1126.5768411778038",
+    "yhat_upper": "3551.0567465420804",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "3182.0734231404617",
+    "yhat_lower": "2021.684142319816",
+    "yhat_upper": "4359.713516071241",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "2428.9719707332724",
+    "yhat_lower": "1196.048158626078",
+    "yhat_upper": "3654.614362354679",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "2226.428847456101",
+    "yhat_lower": "1061.703199334473",
+    "yhat_upper": "3414.151885729133",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "2325.725951354778",
+    "yhat_lower": "1123.0066262038135",
+    "yhat_upper": "3420.8067828246503",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "2518.378180181653",
+    "yhat_lower": "1266.9430488468754",
+    "yhat_upper": "3689.0033600870565",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "2252.783520315167",
+    "yhat_lower": "1053.8309045737333",
+    "yhat_upper": "3469.254885286877",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "2493.616419894308",
+    "yhat_lower": "1355.427162990624",
+    "yhat_upper": "3780.5037104900703",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "2390.3416423656095",
+    "yhat_lower": "1126.1436278358979",
+    "yhat_upper": "3698.0618572665658",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "3262.8633784255094",
+    "yhat_lower": "2103.3285995357146",
+    "yhat_upper": "4457.047446604588",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "3391.872670777935",
+    "yhat_lower": "2211.9916941537685",
+    "yhat_upper": "4599.028569970667",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "2642.5659378799596",
+    "yhat_lower": "1413.8453321553195",
+    "yhat_upper": "3869.3049942858493",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "2545.4933329675946",
+    "yhat_lower": "1341.1553308898883",
+    "yhat_upper": "3691.5032128995012",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "2703.3271831803277",
+    "yhat_lower": "1549.7355944360625",
+    "yhat_upper": "3887.617583247533",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "2576.3655699961737",
+    "yhat_lower": "1442.390980197264",
+    "yhat_upper": "3749.037282449847",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "3600.7480685152123",
+    "yhat_lower": "2370.052888214034",
+    "yhat_upper": "4821.703401416526",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "2855.25191378266",
+    "yhat_lower": "1639.2841770583368",
+    "yhat_upper": "4142.597129927432",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "2766.078738959966",
+    "yhat_lower": "1560.5074045918218",
+    "yhat_upper": "3844.4479177117123",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "2794.28442935853",
+    "yhat_lower": "1530.0050834936985",
+    "yhat_upper": "3896.7351994364303",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "2817.672905602667",
+    "yhat_lower": "1587.0661184150715",
+    "yhat_upper": "3991.98521915402",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "2856.7768643981026",
+    "yhat_lower": "1648.529301709729",
+    "yhat_upper": "3954.3075277197177",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "2763.644090801115",
+    "yhat_lower": "1613.0428306721028",
+    "yhat_upper": "3948.5776916316386",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "3758.484574538742",
+    "yhat_lower": "2616.143014907065",
+    "yhat_upper": "4990.770094675277",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "3808.679057126279",
+    "yhat_lower": "2664.511973011192",
+    "yhat_upper": "5084.573040403655",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "2884.528416467123",
+    "yhat_lower": "1594.3319534625864",
+    "yhat_upper": "4009.3728482291435",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "3142.536576469125",
+    "yhat_lower": "1922.2371303256862",
+    "yhat_upper": "4290.445975178762",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "2790.2101807926015",
+    "yhat_lower": "1572.758742385181",
+    "yhat_upper": "3975.085411719519",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "3280.871560690978",
+    "yhat_lower": "2078.2653777522855",
+    "yhat_upper": "4523.457077797511",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "3013.8904295440584",
+    "yhat_lower": "1861.5735026897175",
+    "yhat_upper": "4212.6944733093405",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "3823.571899857868",
+    "yhat_lower": "2678.240594911012",
+    "yhat_upper": "5035.3022106854",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "3990.3979848841645",
+    "yhat_lower": "2736.086836609148",
+    "yhat_upper": "5202.440469688047",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "3237.2965314376397",
+    "yhat_lower": "1974.8109271375768",
+    "yhat_upper": "4350.692321678962",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "3034.7534072214944",
+    "yhat_lower": "1768.8589221408702",
+    "yhat_upper": "4230.513999736631",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "3134.050510964972",
+    "yhat_lower": "1967.5025320077673",
+    "yhat_upper": "4318.6140948772",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "3326.7027396413932",
+    "yhat_lower": "2102.4775156339074",
+    "yhat_upper": "4490.847602760978",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "3061.108079619863",
+    "yhat_lower": "1922.3090493955929",
+    "yhat_upper": "4284.659060386949",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "3289.684814964725",
+    "yhat_lower": "2137.6458432939035",
+    "yhat_upper": "4499.591775729425",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "3484.7265587312636",
+    "yhat_lower": "2149.023557785049",
+    "yhat_upper": "4727.242058306572",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "2868.4336602963745",
+    "yhat_lower": "1686.5928714669365",
+    "yhat_upper": "4093.3842106860343",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "3301.9409786441493",
+    "yhat_lower": "2131.856719461345",
+    "yhat_upper": "4549.623849590861",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "3198.666201486469",
+    "yhat_lower": "1973.533107120422",
+    "yhat_upper": "4411.685128634831",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "4071.187937883314",
+    "yhat_lower": "2985.991271961385",
+    "yhat_upper": "5269.861947750769",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "4200.197230583351",
+    "yhat_lower": "2950.53528571151",
+    "yhat_upper": "5403.718261261174",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "3450.890497946395",
+    "yhat_lower": "2179.0723279509866",
+    "yhat_upper": "4658.709701515357",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "3185.2866475486926",
+    "yhat_lower": "2051.017572036962",
+    "yhat_upper": "4429.455747090365",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "3062.5031923363545",
+    "yhat_lower": "1828.1661657187037",
+    "yhat_upper": "4214.385015264037",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "3483.424257189689",
+    "yhat_lower": "2273.7117675482805",
+    "yhat_upper": "4650.674996521016",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "3384.6901365174626",
+    "yhat_lower": "2119.743984257626",
+    "yhat_upper": "4519.328515531648",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "4318.953997906141",
+    "yhat_lower": "3126.921490247111",
+    "yhat_upper": "5427.952599093623",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "4409.07263679666",
+    "yhat_lower": "3238.919598356721",
+    "yhat_upper": "5629.705685450832",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "3663.5764829583477",
+    "yhat_lower": "2500.624017549325",
+    "yhat_upper": "4824.543145441452",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "3336.1873521244775",
+    "yhat_lower": "2170.4455841260874",
+    "yhat_upper": "4491.5570589117815",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "3574.4033099630738",
+    "yhat_lower": "2363.934650774389",
+    "yhat_upper": "4778.14329131719",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "3625.9974804192298",
+    "yhat_lower": "2399.339986328705",
+    "yhat_upper": "4823.284706702324",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "3891.6411221703625",
+    "yhat_lower": "2697.5676626325985",
+    "yhat_upper": "5058.655753619099",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "3256.511861924368",
+    "yhat_lower": "2084.3932053043727",
+    "yhat_upper": "4384.626598324994",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "3665.1032643855897",
+    "yhat_lower": "2429.2690570542895",
+    "yhat_upper": "4888.18400415851",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "3571.9714173863013",
+    "yhat_lower": "2383.9068536364994",
+    "yhat_upper": "4841.620044440101",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "4566.81279758004",
+    "yhat_lower": "3350.9644730240607",
+    "yhat_upper": "5683.614052388791",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "4617.008213726304",
+    "yhat_lower": "3557.516272844851",
+    "yhat_upper": "5883.224587335137",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "3875.362786784211",
+    "yhat_lower": "2730.371541602318",
+    "yhat_upper": "5075.490062182318",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "3692.859379955027",
+    "yhat_lower": "2497.7843338352677",
+    "yhat_upper": "4818.670240183625",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "3598.5439765507854",
+    "yhat_lower": "2362.351960648064",
+    "yhat_upper": "4775.272327896716",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "4089.2072340914287",
+    "yhat_lower": "2879.3940862588374",
+    "yhat_upper": "5253.823694639706",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "3482.619759549976",
+    "yhat_lower": "2288.247474084183",
+    "yhat_upper": "4567.891389301474",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "3928.9604489824637",
+    "yhat_lower": "2734.4409807811526",
+    "yhat_upper": "5079.0803635607335",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "3822.2546923928694",
+    "yhat_lower": "2643.65626052684",
+    "yhat_upper": "5089.210271618125",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "4631.962012841525",
+    "yhat_lower": "3424.4532693596334",
+    "yhat_upper": "5773.464331420229",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "4045.7400677048454",
+    "yhat_lower": "2888.1943242283455",
+    "yhat_upper": "5245.432876277778",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "3942.5448849293603",
+    "yhat_lower": "2771.140759659079",
+    "yhat_upper": "5072.940060168275",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "3869.655049798678",
+    "yhat_lower": "2690.258356363805",
+    "yhat_upper": "5079.945952969356",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "3677.059955873175",
+    "yhat_lower": "2606.005358497745",
+    "yhat_upper": "4914.930136867474",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "4110.593141192662",
+    "yhat_lower": "2959.016663500354",
+    "yhat_upper": "5266.864908142992",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "4007.345093375037",
+    "yhat_lower": "2802.956499646042",
+    "yhat_upper": "5123.44547583064",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "5008.928718960839",
+    "yhat_lower": "3901.811926821185",
+    "yhat_upper": "6199.323097337181",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "4259.648715687179",
+    "yhat_lower": "3095.115441171998",
+    "yhat_upper": "5473.493473026603",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "3994.069007513568",
+    "yhat_lower": "2792.3303237567748",
+    "yhat_upper": "5206.356713042209",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "4162.626983198024",
+    "yhat_lower": "3019.2677011255496",
+    "yhat_upper": "5272.657659708366",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "4320.486700704241",
+    "yhat_lower": "3163.7393614771972",
+    "yhat_upper": "5624.2545906586465",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "4267.228453606292",
+    "yhat_lower": "3056.337358601108",
+    "yhat_upper": "5457.463780089027",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "3871.4442006856743",
+    "yhat_lower": "2645.037476779496",
+    "yhat_upper": "5125.172651967822",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "4292.391132123581",
+    "yhat_lower": "3050.3329981243214",
+    "yhat_upper": "5513.786520436364",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "4193.68374025508",
+    "yhat_lower": "2970.360125542975",
+    "yhat_upper": "5355.6440280317",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "5218.1188358258805",
+    "yhat_lower": "3977.727089026698",
+    "yhat_upper": "6420.720806960451",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "4472.649410742632",
+    "yhat_lower": "3208.945115130995",
+    "yhat_upper": "5696.897071562601",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "4145.284422009809",
+    "yhat_lower": "3021.797966987783",
+    "yhat_upper": "5282.50800517842",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "4506.5284132285915",
+    "yhat_lower": "3305.5042991336227",
+    "yhat_upper": "5672.763420798005",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "4411.785395927327",
+    "yhat_lower": "3266.2968006487026",
+    "yhat_upper": "5568.026843900816",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "4435.199740393559",
+    "yhat_lower": "3261.105351841324",
+    "yhat_upper": "5569.851274610081",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "4700.8701107742345",
+    "yhat_lower": "3495.6317658867347",
+    "yhat_upper": "5892.036516705923",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "4474.383028402504",
+    "yhat_lower": "3403.557513672566",
+    "yhat_upper": "5665.771889919764",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "4381.276985300954",
+    "yhat_lower": "3289.169923965109",
+    "yhat_upper": "5565.447328647609",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "5376.143337008926",
+    "yhat_lower": "4275.448282208538",
+    "yhat_upper": "6589.145782489493",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "5426.364549832701",
+    "yhat_lower": "4160.230251091159",
+    "yhat_upper": "6654.770715551573",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "4684.744919567852",
+    "yhat_lower": "3392.049808697453",
+    "yhat_upper": "5849.988636712496",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "4502.265645114481",
+    "yhat_lower": "3387.7376256322027",
+    "yhat_upper": "5614.870628599254",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "4532.867867088638",
+    "yhat_lower": "3370.6602482718686",
+    "yhat_upper": "5759.006477276298",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "4760.326403322569",
+    "yhat_lower": "3455.4767378835913",
+    "yhat_upper": "5911.223691268032",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "4408.026737671797",
+    "yhat_lower": "3253.230899139154",
+    "yhat_upper": "5605.1233067723815",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "4737.8533778665405",
+    "yhat_lower": "3482.9832224515894",
+    "yhat_upper": "5824.846312811755",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "4898.740715362094",
+    "yhat_lower": "3742.840656841174",
+    "yhat_upper": "6079.469132641752",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "4292.179016634262",
+    "yhat_lower": "3115.165741561799",
+    "yhat_upper": "5507.506126813772",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "4738.5446504023",
+    "yhat_lower": "3538.0000312959555",
+    "yhat_upper": "5947.429254505159",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "4631.838912031909",
+    "yhat_lower": "3438.2026328719285",
+    "yhat_upper": "5894.888042813186",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "5441.5462501127695",
+    "yhat_lower": "4194.80704925522",
+    "yhat_upper": "6566.160608886233",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "5608.399065000484",
+    "yhat_lower": "4496.438014216104",
+    "yhat_upper": "6809.380372074945",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "4855.324341415805",
+    "yhat_lower": "3601.427355979293",
+    "yhat_upper": "6025.190347764521",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "4652.805360300197",
+    "yhat_lower": "3352.707560556403",
+    "yhat_upper": "5773.013728332292",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "4752.129193316216",
+    "yhat_lower": "3551.8014487121973",
+    "yhat_upper": "5946.682562213022",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "4944.807289030936",
+    "yhat_lower": "3796.6863464465214",
+    "yhat_upper": "6161.5694707743505",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "4679.239358281947",
+    "yhat_lower": "3534.9262522675995",
+    "yhat_upper": "5936.317857636302",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "4907.841960664792",
+    "yhat_lower": "3752.2655008528072",
+    "yhat_upper": "6125.989251792257",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "5102.91043368456",
+    "yhat_lower": "3956.033736863817",
+    "yhat_upper": "6369.579976807214",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "4486.644264502973",
+    "yhat_lower": "3331.6788350256243",
+    "yhat_upper": "5661.214715153645",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "4920.177449869791",
+    "yhat_lower": "3642.91292284832",
+    "yhat_upper": "6181.365963507201",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "4816.929401965391",
+    "yhat_lower": "3569.567400187903",
+    "yhat_upper": "5978.383256885443",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "5689.477005403385",
+    "yhat_lower": "4518.990811551064",
+    "yhat_upper": "6930.223932530227",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "5818.513027379656",
+    "yhat_lower": "4632.91192500303",
+    "yhat_upper": "7011.375967876602",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "5069.233024018748",
+    "yhat_lower": "3867.339553212445",
+    "yhat_upper": "6289.388144760193",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "4803.653315766773",
+    "yhat_lower": "3602.616424606383",
+    "yhat_upper": "5945.314269746302",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "4972.2112914509535",
+    "yhat_lower": "3824.180975008142",
+    "yhat_upper": "6176.021233878177",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "5130.071008957529",
+    "yhat_lower": "3913.6532505749597",
+    "yhat_upper": "6314.855947930043",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "4950.377163725172",
+    "yhat_lower": "3689.2357228464593",
+    "yhat_upper": "6124.227677973237",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "5076.812761859461",
+    "yhat_lower": "3869.906733462286",
+    "yhat_upper": "6332.197189782029",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "5306.81079280308",
+    "yhat_lower": "4208.213218980891",
+    "yhat_upper": "6545.539832953488",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "4681.028508938882",
+    "yhat_lower": "3549.2217467847604",
+    "yhat_upper": "5815.5654021190885",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "5101.975440377145",
+    "yhat_lower": "3885.9236609495824",
+    "yhat_upper": "6219.903420071256",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "5003.268048508677",
+    "yhat_lower": "3798.877575635233",
+    "yhat_upper": "6288.846827603495",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "5937.557776434287",
+    "yhat_lower": "4739.12293891077",
+    "yhat_upper": "7041.20860712324",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "6027.703144079428",
+    "yhat_lower": "4881.463444322633",
+    "yhat_upper": "7178.069807739552",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "5282.2337189958525",
+    "yhat_lower": "4203.597993329968",
+    "yhat_upper": "6570.106296078077",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "4954.868730262456",
+    "yhat_lower": "3735.997281125853",
+    "yhat_upper": "6222.035337488307",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "5193.111416731137",
+    "yhat_lower": "3940.0556344206643",
+    "yhat_upper": "6377.995342691008",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "5316.112721482234",
+    "yhat_lower": "4128.906751809514",
+    "yhat_upper": "6529.6805280251565",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "5221.369704180474",
+    "yhat_lower": "3972.836249192778",
+    "yhat_upper": "6414.916438337198",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "5244.784048646721",
+    "yhat_lower": "4049.5347786320363",
+    "yhat_upper": "6410.381354440669",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "5510.454419027186",
+    "yhat_lower": "4312.240237933202",
+    "yhat_upper": "6605.982737890971",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "4875.350962679546",
+    "yhat_lower": "3604.5557076538093",
+    "yhat_upper": "6105.785542411246",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "5283.967336655996",
+    "yhat_lower": "4024.6560976494948",
+    "yhat_upper": "6482.246202855459",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "5190.861293554646",
+    "yhat_lower": "3958.643517340801",
+    "yhat_upper": "6375.716504444226",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "6185.72764526245",
+    "yhat_lower": "5060.410930711071",
+    "yhat_upper": "7346.422191500644",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "6235.948858085884",
+    "yhat_lower": "5049.396907944618",
+    "yhat_upper": "7359.910044009709",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "5494.329227820968",
+    "yhat_lower": "4405.228462805401",
+    "yhat_upper": "6665.036323460129",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "5311.8499533672",
+    "yhat_lower": "4098.747211624152",
+    "yhat_upper": "6522.600022472007",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "5342.452175342247",
+    "yhat_lower": "4109.5184863395225",
+    "yhat_upper": "6545.278578777643",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "5569.910711576294",
+    "yhat_lower": "4328.5193222501",
+    "yhat_upper": "6755.359316448697",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "5217.611045925007",
+    "yhat_lower": "4171.052534895889",
+    "yhat_upper": "6438.895693333748",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "5547.437686119625",
+    "yhat_lower": "4377.576366980984",
+    "yhat_upper": "6743.9009913368145",
+    "area_id": "396",
+    "name_en": "Al Khawaneej First"
+  }
+]

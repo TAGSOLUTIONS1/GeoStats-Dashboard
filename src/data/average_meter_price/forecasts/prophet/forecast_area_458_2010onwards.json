@@ -1,0 +1,1714 @@
+[
+  {
+    "ds": "2010-02-01",
+    "yhat": "6206.628558377063",
+    "yhat_lower": "3778.0087027161344",
+    "yhat_upper": "8639.150955478137",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2010-03-01",
+    "yhat": "6603.817610771948",
+    "yhat_lower": "4122.773043012985",
+    "yhat_upper": "8946.827748088745",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2010-05-01",
+    "yhat": "6671.958069559353",
+    "yhat_lower": "4324.6302136246495",
+    "yhat_upper": "9040.6786787281",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "6756.447375257528",
+    "yhat_lower": "4323.447406008209",
+    "yhat_upper": "9152.81416202112",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2010-09-01",
+    "yhat": "6722.544564634046",
+    "yhat_lower": "4209.046370581598",
+    "yhat_upper": "9101.478935430485",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "6487.103672593084",
+    "yhat_lower": "4085.5745449822116",
+    "yhat_upper": "8925.719085176244",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2011-01-01",
+    "yhat": "5971.739423468611",
+    "yhat_lower": "3528.941880579327",
+    "yhat_upper": "8271.534724413625",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "6780.552420184304",
+    "yhat_lower": "4379.146592911678",
+    "yhat_upper": "9131.888712900307",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "6578.369199836761",
+    "yhat_lower": "4106.1244830139285",
+    "yhat_upper": "9192.415278907503",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2011-07-01",
+    "yhat": "6122.918553512615",
+    "yhat_lower": "3623.8291575561448",
+    "yhat_upper": "8514.381368328308",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "5860.457575014103",
+    "yhat_lower": "3275.8299762183824",
+    "yhat_upper": "8115.228124646985",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "6881.262282936272",
+    "yhat_lower": "4327.061753908768",
+    "yhat_upper": "9306.548861991838",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "6468.878112793531",
+    "yhat_lower": "4094.4302962597876",
+    "yhat_upper": "9005.733624544213",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "6506.7179286973505",
+    "yhat_lower": "4011.3672394129762",
+    "yhat_upper": "8804.54805589633",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "6579.576661748702",
+    "yhat_lower": "4359.73832016857",
+    "yhat_upper": "8956.412507001502",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "5960.748438067956",
+    "yhat_lower": "3364.872546733178",
+    "yhat_upper": "8316.583098466745",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "5993.891890009257",
+    "yhat_lower": "3522.793233997603",
+    "yhat_upper": "8497.284116091565",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "6138.581663429026",
+    "yhat_lower": "3708.1060388195706",
+    "yhat_upper": "8729.881057031998",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "6430.669867683958",
+    "yhat_lower": "4004.494877796712",
+    "yhat_upper": "8947.649615376522",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "6745.549261703905",
+    "yhat_lower": "4364.51976635061",
+    "yhat_upper": "9297.042315366616",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "6747.543622517439",
+    "yhat_lower": "4502.990498074038",
+    "yhat_upper": "8960.08525918524",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "6077.000755068272",
+    "yhat_lower": "3683.975773655096",
+    "yhat_upper": "8508.673506269975",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "6188.209767786788",
+    "yhat_lower": "3753.799755892393",
+    "yhat_upper": "8650.87757110322",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2012-09-01",
+    "yhat": "6299.699446037284",
+    "yhat_lower": "3802.749853418942",
+    "yhat_upper": "8672.86106951348",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "6447.132803498148",
+    "yhat_lower": "3967.8647946566807",
+    "yhat_upper": "8997.420137112014",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "6327.86886725319",
+    "yhat_lower": "3892.9741911036017",
+    "yhat_upper": "8767.033962978592",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "5889.425677097878",
+    "yhat_lower": "3439.560712933374",
+    "yhat_upper": "8157.819121441948",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "6207.068276818375",
+    "yhat_lower": "3772.7925554065214",
+    "yhat_upper": "8553.260540362884",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "6315.905597600627",
+    "yhat_lower": "3973.0289921238104",
+    "yhat_upper": "8750.992574486774",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "6372.623731476213",
+    "yhat_lower": "3934.7736261109835",
+    "yhat_upper": "8836.784876219155",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "6653.870712564899",
+    "yhat_lower": "4246.983231130473",
+    "yhat_upper": "9066.410115426399",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "6696.422877156688",
+    "yhat_lower": "4190.414085031642",
+    "yhat_upper": "9122.200322280269",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "6055.211407614223",
+    "yhat_lower": "3611.02119208621",
+    "yhat_upper": "8516.919650337533",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "6038.844726754082",
+    "yhat_lower": "3593.7653619493108",
+    "yhat_upper": "8400.505769076686",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "6454.781709241514",
+    "yhat_lower": "3949.02093496459",
+    "yhat_upper": "8883.595378487156",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "6419.7660477870895",
+    "yhat_lower": "3931.4652158122494",
+    "yhat_upper": "8882.917319035641",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "6353.637254445745",
+    "yhat_lower": "3802.9096153710084",
+    "yhat_upper": "8807.442918480247",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "6849.008646126487",
+    "yhat_lower": "4384.982752758947",
+    "yhat_upper": "9250.110597387247",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "5874.154618322661",
+    "yhat_lower": "3479.188679601935",
+    "yhat_upper": "8376.004053481012",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "6095.888270622876",
+    "yhat_lower": "3764.8204436423925",
+    "yhat_upper": "8644.07412117917",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "6493.088448090042",
+    "yhat_lower": "4179.65138666623",
+    "yhat_upper": "8835.48614893929",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "6310.78695971629",
+    "yhat_lower": "3836.201994337582",
+    "yhat_upper": "8828.103519596021",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "6561.2531436384925",
+    "yhat_lower": "4216.276778975611",
+    "yhat_upper": "9133.631568829487",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "6645.754797619269",
+    "yhat_lower": "4218.532656104598",
+    "yhat_upper": "9062.453363700335",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "6033.668488356512",
+    "yhat_lower": "3681.3821106542396",
+    "yhat_upper": "8465.707189043758",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "5892.743447933457",
+    "yhat_lower": "3372.3966302861604",
+    "yhat_upper": "8361.259085933238",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "6611.888633509865",
+    "yhat_lower": "4185.581611142795",
+    "yhat_upper": "8962.399581929623",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "6390.234064685002",
+    "yhat_lower": "3881.1080118377376",
+    "yhat_upper": "8935.91582541679",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "6376.478472653459",
+    "yhat_lower": "4040.810749792643",
+    "yhat_upper": "8819.378540205442",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "6659.47582366122",
+    "yhat_lower": "4213.0685970439545",
+    "yhat_upper": "9017.55505685956",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "5861.151179004999",
+    "yhat_lower": "3394.9226584279068",
+    "yhat_upper": "8278.711150182531",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "5988.06200006763",
+    "yhat_lower": "3713.0662076597073",
+    "yhat_upper": "8418.03386121718",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "6669.999919544092",
+    "yhat_lower": "4363.194117411286",
+    "yhat_upper": "9272.16111175142",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "6245.23400171987",
+    "yhat_lower": "3817.8514333318026",
+    "yhat_upper": "8627.556265401496",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "6467.854298950231",
+    "yhat_lower": "4134.262521525399",
+    "yhat_upper": "8945.502854438155",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "6595.645639871859",
+    "yhat_lower": "4216.683471522525",
+    "yhat_upper": "9129.464775294231",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "6012.441252380663",
+    "yhat_lower": "3711.126820083272",
+    "yhat_upper": "8620.21100939715",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "5749.999381955568",
+    "yhat_lower": "3406.879004714379",
+    "yhat_upper": "8188.880189130008",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "6770.8231944938325",
+    "yhat_lower": "4353.207748468853",
+    "yhat_upper": "9160.53085077619",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "6358.457514045225",
+    "yhat_lower": "3907.9491215203348",
+    "yhat_upper": "8836.202273851293",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "6396.316435964811",
+    "yhat_lower": "3948.2866023496586",
+    "yhat_upper": "8748.071665686792",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "6469.193658708585",
+    "yhat_lower": "3998.7772932523417",
+    "yhat_upper": "8967.536662605626",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "5850.384541045367",
+    "yhat_lower": "3477.757718976868",
+    "yhat_upper": "8362.79612663081",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "5883.547099003403",
+    "yhat_lower": "3420.067307989439",
+    "yhat_upper": "8427.208662768206",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "6028.254746869847",
+    "yhat_lower": "3642.031442988535",
+    "yhat_upper": "8513.090605807518",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "6320.362058291059",
+    "yhat_lower": "3971.5148267265545",
+    "yhat_upper": "8677.921099836773",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "6635.2599431191675",
+    "yhat_lower": "4173.846307626705",
+    "yhat_upper": "8959.671227927272",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "6637.273411100502",
+    "yhat_lower": "4223.4145346606",
+    "yhat_upper": "8920.593211333695",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "5966.7490344591",
+    "yhat_lower": "3577.5099338245955",
+    "yhat_upper": "8369.880173468293",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "6077.97713713949",
+    "yhat_lower": "3792.9496402672607",
+    "yhat_upper": "8546.828714907002",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "6189.4859053518085",
+    "yhat_lower": "3504.2209318923224",
+    "yhat_upper": "8677.3625241718",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "6336.9377369703325",
+    "yhat_lower": "3928.75427314068",
+    "yhat_upper": "8695.929225163098",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "6217.692890687337",
+    "yhat_lower": "3824.1301990859342",
+    "yhat_upper": "8798.20689185215",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "6927.535171457056",
+    "yhat_lower": "4324.810152988289",
+    "yhat_upper": "9420.47315540388",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "5779.2872661781175",
+    "yhat_lower": "3257.8125503933425",
+    "yhat_upper": "8123.92358774395",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "6096.948931077168",
+    "yhat_lower": "3736.7663444068135",
+    "yhat_upper": "8485.442181558805",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "6205.8034720206215",
+    "yhat_lower": "3805.1127029371946",
+    "yhat_upper": "8669.037363151308",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "6262.540671074228",
+    "yhat_lower": "3759.852055253065",
+    "yhat_upper": "8711.598016410117",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "6543.806102335351",
+    "yhat_lower": "4365.280771879619",
+    "yhat_upper": "8891.538124645122",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "6586.377332106056",
+    "yhat_lower": "4222.8756132076205",
+    "yhat_upper": "8868.49128905411",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "5945.183937607496",
+    "yhat_lower": "3608.718626129669",
+    "yhat_upper": "8483.159146037064",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "5928.83593429177",
+    "yhat_lower": "3592.864090581316",
+    "yhat_upper": "8542.926804575744",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "6344.791594324546",
+    "yhat_lower": "3985.4990923113637",
+    "yhat_upper": "8898.181639084618",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "6309.79400791245",
+    "yhat_lower": "3838.7652028195325",
+    "yhat_upper": "8628.40408853583",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "6243.683892115598",
+    "yhat_lower": "3870.967940459449",
+    "yhat_upper": "8626.331645883341",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "6739.073368837178",
+    "yhat_lower": "4325.4054577438255",
+    "yhat_upper": "9034.833583842908",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "5764.226148532211",
+    "yhat_lower": "3125.6703940485063",
+    "yhat_upper": "8077.828187060073",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "5985.966608330882",
+    "yhat_lower": "3650.174039177911",
+    "yhat_upper": "8294.12996536798",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "6383.172934507342",
+    "yhat_lower": "3840.612201672134",
+    "yhat_upper": "8744.296960019497",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "6200.878253632152",
+    "yhat_lower": "3818.311406922041",
+    "yhat_upper": "8864.354921266919",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "6451.383719731308",
+    "yhat_lower": "4046.7588486346945",
+    "yhat_upper": "8840.31308964217",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "6535.925934058328",
+    "yhat_lower": "4057.5909354149076",
+    "yhat_upper": "9037.980308866343",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "5923.878876743029",
+    "yhat_lower": "3518.8808599275",
+    "yhat_upper": "8351.411043925746",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "5782.994396664503",
+    "yhat_lower": "3495.6943492382507",
+    "yhat_upper": "8006.191000399427",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "6502.180142587393",
+    "yhat_lower": "3997.207848410146",
+    "yhat_upper": "8982.932856836924",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "6285.252864718642",
+    "yhat_lower": "3987.7710217194553",
+    "yhat_upper": "8623.56240332254",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "6276.3757070544",
+    "yhat_lower": "3719.5733479141163",
+    "yhat_upper": "8731.018471823003",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "6564.094123578259",
+    "yhat_lower": "4065.6733845349127",
+    "yhat_upper": "8941.879807629239",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "5770.64791328921",
+    "yhat_lower": "3373.472492967434",
+    "yhat_upper": "8297.566973457824",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "5902.437168718962",
+    "yhat_lower": "3566.0992042668777",
+    "yhat_upper": "8323.023022594947",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "6588.781416010369",
+    "yhat_lower": "4248.17135382318",
+    "yhat_upper": "8957.744953840143",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "6178.898822550601",
+    "yhat_lower": "3633.274977287402",
+    "yhat_upper": "8547.268609841607",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "6415.922336906162",
+    "yhat_lower": "4077.7328610179648",
+    "yhat_upper": "8777.935125363903",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "6558.597002189689",
+    "yhat_lower": "4096.503311043718",
+    "yhat_upper": "8928.397557398319",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "5989.795831822859",
+    "yhat_lower": "3655.3559422139215",
+    "yhat_upper": "8507.258674139866",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "5742.237285759359",
+    "yhat_lower": "3337.9791690455063",
+    "yhat_upper": "8246.524094205894",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "6791.6272043749",
+    "yhat_lower": "4408.528447267767",
+    "yhat_upper": "9218.267211191987",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "6406.906141354907",
+    "yhat_lower": "4114.805823365373",
+    "yhat_upper": "8726.537627979087",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "6473.331167951766",
+    "yhat_lower": "4114.805040226065",
+    "yhat_upper": "8962.32327523681",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "6573.853008123261",
+    "yhat_lower": "4072.5262890717904",
+    "yhat_upper": "8848.105631003302",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "5983.60999513761",
+    "yhat_lower": "3696.0228103954532",
+    "yhat_upper": "8483.474159700903",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "6059.108490841356",
+    "yhat_lower": "3552.376777779775",
+    "yhat_upper": "8583.59372116554",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "6243.420724393853",
+    "yhat_lower": "3647.2712483152945",
+    "yhat_upper": "8545.91279330156",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "6577.863972234496",
+    "yhat_lower": "4130.833248157869",
+    "yhat_upper": "9072.617619478617",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "6933.732118115395",
+    "yhat_lower": "4499.958050221232",
+    "yhat_upper": "9326.6972381398",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "6978.081522518099",
+    "yhat_lower": "4589.254699730106",
+    "yhat_upper": "9513.883134017498",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "6358.665136633494",
+    "yhat_lower": "4064.705436083215",
+    "yhat_upper": "8890.904983392384",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "6522.7048287013",
+    "yhat_lower": "4167.574856277409",
+    "yhat_upper": "8973.221391216444",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "6687.025186301782",
+    "yhat_lower": "4270.945519964496",
+    "yhat_upper": "9286.31242106172",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "6885.585007649872",
+    "yhat_lower": "4335.397389989241",
+    "yhat_upper": "9144.1805535563",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "6819.151750752748",
+    "yhat_lower": "4664.726930787313",
+    "yhat_upper": "9386.195331550705",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "7580.102021251728",
+    "yhat_lower": "5185.760783699838",
+    "yhat_upper": "10054.167740415323",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "6489.17689528208",
+    "yhat_lower": "4204.054155268482",
+    "yhat_upper": "9005.136882111858",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "6864.1613394895485",
+    "yhat_lower": "4516.722086558305",
+    "yhat_upper": "9500.101695903264",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "7024.791294002211",
+    "yhat_lower": "4644.396226781016",
+    "yhat_upper": "9442.53543674366",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "7138.851272364615",
+    "yhat_lower": "4694.036708377165",
+    "yhat_upper": "9537.344427737567",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "7475.5903610206515",
+    "yhat_lower": "5063.904209212156",
+    "yhat_upper": "9875.631146575093",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "7575.484398526873",
+    "yhat_lower": "5147.46519357804",
+    "yhat_upper": "9860.207783547714",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "6989.764688694245",
+    "yhat_lower": "4509.492203546096",
+    "yhat_upper": "9334.229731721372",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "7030.739492866397",
+    "yhat_lower": "4567.972583796553",
+    "yhat_upper": "9325.374341209745",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "7504.017960388477",
+    "yhat_lower": "5206.689995656068",
+    "yhat_upper": "9948.42254840285",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "7524.494058641502",
+    "yhat_lower": "5064.144482825863",
+    "yhat_upper": "10094.921391777078",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "7515.706766104046",
+    "yhat_lower": "5039.0268331494235",
+    "yhat_upper": "10009.470396946934",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "8066.569932755545",
+    "yhat_lower": "5712.66308404662",
+    "yhat_upper": "10555.856022847307",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "7149.045525379727",
+    "yhat_lower": "4766.906159604336",
+    "yhat_upper": "9592.010080812948",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "7428.108798105994",
+    "yhat_lower": "4921.050511385188",
+    "yhat_upper": "10038.276236364882",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "7877.090568216773",
+    "yhat_lower": "5378.670037082363",
+    "yhat_upper": "10230.38160619217",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "7752.118700269841",
+    "yhat_lower": "5266.816332975234",
+    "yhat_upper": "10230.871358396042",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "8058.065162025428",
+    "yhat_lower": "5527.41370366042",
+    "yhat_upper": "10509.124172039581",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "8199.896405194777",
+    "yhat_lower": "5783.690153833298",
+    "yhat_upper": "10665.998193383628",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "7643.290343533395",
+    "yhat_lower": "5279.281795536797",
+    "yhat_upper": "10065.476758725546",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "7559.6948922980355",
+    "yhat_lower": "5115.405500254104",
+    "yhat_upper": "9978.40264203056",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "8336.169667063743",
+    "yhat_lower": "5938.470014817925",
+    "yhat_upper": "10983.015497575441",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "8169.995345841146",
+    "yhat_lower": "5641.490496269545",
+    "yhat_upper": "10522.932064990253",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "8213.562910044648",
+    "yhat_lower": "5730.338328505554",
+    "yhat_upper": "10723.300819950622",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "8552.034283215493",
+    "yhat_lower": "6058.818327321843",
+    "yhat_upper": "10937.09423635128",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "7811.032794794836",
+    "yhat_lower": "5377.152927108964",
+    "yhat_upper": "10351.034406352457",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "7995.266772092112",
+    "yhat_lower": "5459.128600682599",
+    "yhat_upper": "10506.670071943228",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "8728.98044558677",
+    "yhat_lower": "6402.279136880554",
+    "yhat_upper": "11123.263692280754",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "8361.537356578845",
+    "yhat_lower": "5773.754693216467",
+    "yhat_upper": "10723.701622342796",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "8639.631359114512",
+    "yhat_lower": "6308.090438699727",
+    "yhat_upper": "10992.622050104243",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "8824.7455288507",
+    "yhat_lower": "6529.434792325684",
+    "yhat_upper": "11254.52590524723",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "8297.014846664957",
+    "yhat_lower": "5920.5644785636105",
+    "yhat_upper": "10765.469758991032",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "8091.895805054574",
+    "yhat_lower": "5564.085558098085",
+    "yhat_upper": "10683.482044898332",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "9170.042446408343",
+    "yhat_lower": "6901.050843920616",
+    "yhat_upper": "11634.184558792682",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "8813.150469911048",
+    "yhat_lower": "6285.988214619891",
+    "yhat_upper": "11137.115789827634",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "8908.332219248967",
+    "yhat_lower": "6419.874353730187",
+    "yhat_upper": "11355.468589845625",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "9036.683145945006",
+    "yhat_lower": "6538.8921401263415",
+    "yhat_upper": "11468.87358948319",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "8475.196855697595",
+    "yhat_lower": "5965.586067706319",
+    "yhat_upper": "10875.73854550019",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "8565.682241071636",
+    "yhat_lower": "6157.174655943882",
+    "yhat_upper": "11119.77963167602",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "8764.01446818629",
+    "yhat_lower": "6219.674949748144",
+    "yhat_upper": "11115.475922425227",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "9113.444605700639",
+    "yhat_lower": "6733.291129970785",
+    "yhat_upper": "11627.485472432678",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "9483.81619319797",
+    "yhat_lower": "7116.310486125786",
+    "yhat_upper": "11865.629504311091",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "9543.152487270836",
+    "yhat_lower": "7184.3424154593595",
+    "yhat_upper": "11968.998739621724",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "8928.101813299128",
+    "yhat_lower": "6519.8969250896225",
+    "yhat_upper": "11287.93932377307",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "9096.652741011076",
+    "yhat_lower": "6739.598373338721",
+    "yhat_upper": "11561.241673327639",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "9265.484334252998",
+    "yhat_lower": "6963.148667810786",
+    "yhat_upper": "11522.018830920799",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "9468.409867516433",
+    "yhat_lower": "7028.585056697612",
+    "yhat_upper": "12043.187014593068",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "9406.487846264314",
+    "yhat_lower": "6944.449938016868",
+    "yhat_upper": "11888.450610659062",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "10171.80382867612",
+    "yhat_lower": "7797.7669908855305",
+    "yhat_upper": "12469.269664297197",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "9080.878746903545",
+    "yhat_lower": "6607.478128600211",
+    "yhat_upper": "11479.52564094609",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "9455.863235307277",
+    "yhat_lower": "6995.245554875555",
+    "yhat_upper": "11771.614415451655",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "9616.493229741855",
+    "yhat_lower": "7234.3533690995755",
+    "yhat_upper": "12268.810656557489",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "9730.553252301455",
+    "yhat_lower": "7445.698311417101",
+    "yhat_upper": "12091.298839839954",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "10067.29238372896",
+    "yhat_lower": "7636.657742062945",
+    "yhat_upper": "12414.610231761671",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "10167.18643700559",
+    "yhat_lower": "7676.380170626941",
+    "yhat_upper": "12483.110311712979",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "9581.466742435023",
+    "yhat_lower": "7139.648974513407",
+    "yhat_upper": "11980.495956485314",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "9622.441562378173",
+    "yhat_lower": "7186.975421995846",
+    "yhat_upper": "11918.823974393128",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "10095.720045670494",
+    "yhat_lower": "7649.113043679359",
+    "yhat_upper": "12422.195895801857",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "10116.196159187191",
+    "yhat_lower": "7620.870187048894",
+    "yhat_upper": "12409.971189852457",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "10107.408866649084",
+    "yhat_lower": "7750.358505107183",
+    "yhat_upper": "12531.364750399163",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "10658.272033300562",
+    "yhat_lower": "7964.134883706957",
+    "yhat_upper": "13038.732386290136",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "9740.747625924883",
+    "yhat_lower": "7295.119831544048",
+    "yhat_upper": "12202.366436795437",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "10019.810898651887",
+    "yhat_lower": "7626.650154363323",
+    "yhat_upper": "12667.008384061903",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "10468.792668762631",
+    "yhat_lower": "8031.903500002849",
+    "yhat_upper": "12718.678231079344",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "10343.820800816047",
+    "yhat_lower": "7760.300054372664",
+    "yhat_upper": "12819.579991890761",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "10649.767262569449",
+    "yhat_lower": "8359.48534683859",
+    "yhat_upper": "13112.330718020381",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "10791.598505739594",
+    "yhat_lower": "8141.6182277317885",
+    "yhat_upper": "13133.19001308072",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "10234.992444079213",
+    "yhat_lower": "7807.874435926778",
+    "yhat_upper": "12552.141592053564",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "10151.396992843856",
+    "yhat_lower": "7762.666551310055",
+    "yhat_upper": "12533.783486175416",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "10927.871767608774",
+    "yhat_lower": "8456.885222433173",
+    "yhat_upper": "13258.380227943626",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "10761.697446385242",
+    "yhat_lower": "8295.808237638765",
+    "yhat_upper": "13272.55536499792",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "10805.265010588919",
+    "yhat_lower": "8223.580853930687",
+    "yhat_upper": "13081.469236935474",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "11143.73638375939",
+    "yhat_lower": "8606.342061628426",
+    "yhat_upper": "13480.364280826414",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "10402.734895338936",
+    "yhat_lower": "7990.088057582298",
+    "yhat_upper": "12719.96765218137",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "10586.968872637404",
+    "yhat_lower": "8224.055961138258",
+    "yhat_upper": "12886.016716690247",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "11320.682546134027",
+    "yhat_lower": "8950.086622991523",
+    "yhat_upper": "13766.54515091401",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "10953.239457123325",
+    "yhat_lower": "8554.671202411831",
+    "yhat_upper": "13246.687045540146",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "11231.333459659356",
+    "yhat_lower": "8707.41500878667",
+    "yhat_upper": "13696.100932210957",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "11416.447629396469",
+    "yhat_lower": "9013.157408939242",
+    "yhat_upper": "13855.391658678249",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "10888.716947210236",
+    "yhat_lower": "8246.295045262514",
+    "yhat_upper": "13243.32035311911",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "10683.597905600425",
+    "yhat_lower": "8325.032815640456",
+    "yhat_upper": "13072.893418013722",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "11761.744546953914",
+    "yhat_lower": "9358.89979691104",
+    "yhat_upper": "14208.365544421224",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "11404.852570456169",
+    "yhat_lower": "8880.265931317203",
+    "yhat_upper": "13917.950743673555",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "11500.034319793343",
+    "yhat_lower": "9170.502669865178",
+    "yhat_upper": "13911.595948694157",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "11628.38524648929",
+    "yhat_lower": "9150.788870180957",
+    "yhat_upper": "13942.390181724806",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "11066.898956243278",
+    "yhat_lower": "8652.586324412367",
+    "yhat_upper": "13566.98013475598",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "11157.384341617495",
+    "yhat_lower": "8785.400761111589",
+    "yhat_upper": "13572.31919065676",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "11355.716568733462",
+    "yhat_lower": "8879.0564245609",
+    "yhat_upper": "13743.378921586007",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "11705.146706244463",
+    "yhat_lower": "9373.92739294958",
+    "yhat_upper": "14078.834219055218",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "12075.518293742838",
+    "yhat_lower": "9717.790757029803",
+    "yhat_upper": "14575.453638881621",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "12134.854587815493",
+    "yhat_lower": "9625.631198586629",
+    "yhat_upper": "14511.748278019411",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "11519.80391384458",
+    "yhat_lower": "9051.860561965832",
+    "yhat_upper": "13931.82067983563",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "11688.354841555622",
+    "yhat_lower": "9222.37137267024",
+    "yhat_upper": "14268.987287173988",
+    "area_id": "458",
+    "name_en": "Dubai Investment Park First"
+  }
+]

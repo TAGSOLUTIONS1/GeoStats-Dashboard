@@ -1,0 +1,1794 @@
+[
+  {
+    "ds": "2010-01-01",
+    "yhat": "3095.9266817967855",
+    "yhat_lower": "192.23762263432755",
+    "yhat_upper": "6136.364333661616",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2010-02-01",
+    "yhat": "3300.5202298512318",
+    "yhat_lower": "412.88051826672034",
+    "yhat_upper": "5966.839294531635",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2010-03-01",
+    "yhat": "3203.6394654065616",
+    "yhat_lower": "289.77048339227065",
+    "yhat_upper": "6177.679732153038",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2010-04-01",
+    "yhat": "3050.7673606333137",
+    "yhat_lower": "-26.907023378213548",
+    "yhat_upper": "5994.337648846461",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2010-05-01",
+    "yhat": "3103.3933237032984",
+    "yhat_lower": "207.8798132505374",
+    "yhat_upper": "6033.752726438966",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "3067.0458199885575",
+    "yhat_lower": "-95.28104103064213",
+    "yhat_upper": "5943.290882652441",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2010-07-01",
+    "yhat": "3296.8155540907323",
+    "yhat_lower": "370.03895699474",
+    "yhat_upper": "6194.104825907812",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2010-08-01",
+    "yhat": "3522.532467316455",
+    "yhat_lower": "679.8064643999265",
+    "yhat_upper": "6448.856418708181",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2010-09-01",
+    "yhat": "3340.6669616890467",
+    "yhat_lower": "523.0679300746677",
+    "yhat_upper": "5976.432593483156",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2010-10-01",
+    "yhat": "4110.262052430331",
+    "yhat_lower": "1233.2945815586631",
+    "yhat_upper": "6919.136062785168",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "3524.537386824531",
+    "yhat_lower": "694.1991128853415",
+    "yhat_upper": "6275.690565284315",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2010-12-01",
+    "yhat": "3468.3808066560678",
+    "yhat_lower": "522.5931246671508",
+    "yhat_upper": "6429.61009115174",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2011-01-01",
+    "yhat": "3881.239931945729",
+    "yhat_lower": "1136.0047388768062",
+    "yhat_upper": "6965.485592071937",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2011-02-01",
+    "yhat": "4068.777197448708",
+    "yhat_lower": "1131.8459481308257",
+    "yhat_upper": "7001.814659690621",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "4070.2007939990135",
+    "yhat_lower": "1101.870161338731",
+    "yhat_upper": "6947.210150159283",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2011-04-01",
+    "yhat": "3882.4329628886717",
+    "yhat_lower": "978.0873728981252",
+    "yhat_upper": "6805.90526216328",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "3951.977590462594",
+    "yhat_lower": "1059.7440454505054",
+    "yhat_upper": "6951.578782690981",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "3789.130262109633",
+    "yhat_lower": "1032.3157049391662",
+    "yhat_upper": "6619.446439747181",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2011-07-01",
+    "yhat": "4032.7925474750023",
+    "yhat_lower": "1160.8909125224363",
+    "yhat_upper": "6997.582194873963",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "4389.4089866369595",
+    "yhat_lower": "1699.65906580308",
+    "yhat_upper": "7416.068146934802",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "4224.928542467437",
+    "yhat_lower": "1286.2494687971198",
+    "yhat_upper": "6986.103657716736",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "4901.730836403832",
+    "yhat_lower": "2151.18977074858",
+    "yhat_upper": "7808.458130903864",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "4308.744523038348",
+    "yhat_lower": "1377.5474395090312",
+    "yhat_upper": "7125.396161416389",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "4275.356759910646",
+    "yhat_lower": "1533.7416969452097",
+    "yhat_upper": "7210.147808769759",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "4666.419473636827",
+    "yhat_lower": "1729.8691838778525",
+    "yhat_upper": "7522.484465091887",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "4838.210327055039",
+    "yhat_lower": "1920.9129043199953",
+    "yhat_upper": "7810.181323642111",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "4707.337531105362",
+    "yhat_lower": "1855.9173959964057",
+    "yhat_upper": "7533.963287928598",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "4620.218645969377",
+    "yhat_lower": "1614.8489436687291",
+    "yhat_upper": "7335.037761073307",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "4634.13825047075",
+    "yhat_lower": "1773.78178002041",
+    "yhat_upper": "7678.0877168227225",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "4852.516626655401",
+    "yhat_lower": "2014.5460921778433",
+    "yhat_upper": "7666.139239993156",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "5065.991798160846",
+    "yhat_lower": "2151.721629555136",
+    "yhat_upper": "8124.797007585946",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "5030.616009695617",
+    "yhat_lower": "2369.2830199487817",
+    "yhat_upper": "7851.090140236234",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2012-09-01",
+    "yhat": "4805.486481631459",
+    "yhat_lower": "1641.5203226154347",
+    "yhat_upper": "7767.237212844079",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "5755.8498309389915",
+    "yhat_lower": "2861.7953702856807",
+    "yhat_upper": "8814.717531769138",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "5189.215270148138",
+    "yhat_lower": "2305.330017413125",
+    "yhat_upper": "8146.358159806542",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "5088.63459287575",
+    "yhat_lower": "2060.7592392724296",
+    "yhat_upper": "7931.142998687009",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "5544.767252906916",
+    "yhat_lower": "2624.565489621672",
+    "yhat_upper": "8215.550422704617",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "5767.72145115446",
+    "yhat_lower": "3089.72121761585",
+    "yhat_upper": "8848.030932706773",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "5572.211734697149",
+    "yhat_lower": "2686.8786140583024",
+    "yhat_upper": "8551.331321243775",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "5452.89386959539",
+    "yhat_lower": "2531.536727495519",
+    "yhat_upper": "8381.445223420955",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "5486.987748918234",
+    "yhat_lower": "2478.5884246962496",
+    "yhat_upper": "8391.53263577732",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "5577.761966475305",
+    "yhat_lower": "2779.598513080624",
+    "yhat_upper": "8424.381165768644",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "5797.463688678123",
+    "yhat_lower": "2888.868068110029",
+    "yhat_upper": "8505.019932159328",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "5892.463836886107",
+    "yhat_lower": "2888.9679715788907",
+    "yhat_upper": "8512.232353065812",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "5690.367340549622",
+    "yhat_lower": "2980.799849673097",
+    "yhat_upper": "8546.327529432529",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "6551.185454716434",
+    "yhat_lower": "3625.681243905576",
+    "yhat_upper": "9724.917697486311",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "5974.25685902796",
+    "yhat_lower": "2994.9860775317516",
+    "yhat_upper": "8851.913946307188",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "5895.696815512287",
+    "yhat_lower": "3009.1881559818353",
+    "yhat_upper": "8619.519938514472",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "6330.252605440987",
+    "yhat_lower": "3593.0752189897316",
+    "yhat_upper": "9370.24339575106",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "6534.846159190919",
+    "yhat_lower": "3694.6991205004288",
+    "yhat_upper": "9541.923370765524",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "6437.965399891161",
+    "yhat_lower": "3440.1296508947967",
+    "yhat_upper": "9357.128874597856",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "6285.093301032292",
+    "yhat_lower": "3162.4969098755937",
+    "yhat_upper": "8943.108008060857",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "6337.719269825995",
+    "yhat_lower": "3558.011350741104",
+    "yhat_upper": "9445.726318521873",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "6301.371772026287",
+    "yhat_lower": "3406.0316751328915",
+    "yhat_upper": "9356.509284149348",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "6531.141511850965",
+    "yhat_lower": "3494.8899157235196",
+    "yhat_upper": "9380.699424008102",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "6756.858430329028",
+    "yhat_lower": "3792.0731864029544",
+    "yhat_upper": "9626.566844453095",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "6574.9929299535",
+    "yhat_lower": "3813.424705115248",
+    "yhat_upper": "9584.122247920684",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "7344.358792789396",
+    "yhat_lower": "4513.725240467506",
+    "yhat_upper": "10237.68094518031",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "6758.397258347546",
+    "yhat_lower": "4197.447450145703",
+    "yhat_upper": "9723.461874928518",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "6702.011450272944",
+    "yhat_lower": "3929.1670799808676",
+    "yhat_upper": "9598.439148126332",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "7114.633704775593",
+    "yhat_lower": "4100.475120831688",
+    "yhat_upper": "9800.998241259469",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "7301.934099491122",
+    "yhat_lower": "4393.920240064351",
+    "yhat_upper": "9881.286694365881",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "7302.400248204409",
+    "yhat_lower": "4458.331668203884",
+    "yhat_upper": "10150.183742436451",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "7113.572385560253",
+    "yhat_lower": "4273.493415478232",
+    "yhat_upper": "9987.675039492557",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "7182.0911761661955",
+    "yhat_lower": "4219.4428003581215",
+    "yhat_upper": "9956.815870209703",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "7018.183816278682",
+    "yhat_lower": "4285.744146144188",
+    "yhat_upper": "9989.135040737725",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "7260.82026454551",
+    "yhat_lower": "4240.596590246843",
+    "yhat_upper": "10014.007277457844",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "7616.376672039643",
+    "yhat_lower": "4659.254826720981",
+    "yhat_upper": "10615.168137751929",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "7450.721854958364",
+    "yhat_lower": "4556.615349267601",
+    "yhat_upper": "10103.933137321024",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "8126.387658981924",
+    "yhat_lower": "5206.317570117865",
+    "yhat_upper": "10789.382818108423",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "7532.226972705156",
+    "yhat_lower": "4478.99659153529",
+    "yhat_upper": "10211.44561781685",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "7497.7027197537245",
+    "yhat_lower": "4494.552471720954",
+    "yhat_upper": "10248.750896243882",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "7887.5910606621555",
+    "yhat_lower": "4863.71530205699",
+    "yhat_upper": "11223.79933624513",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "8053.05655906307",
+    "yhat_lower": "5196.934374977335",
+    "yhat_upper": "10921.07956580899",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "7916.26649551643",
+    "yhat_lower": "5045.897665403563",
+    "yhat_upper": "10802.057023259124",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "7822.822255362315",
+    "yhat_lower": "5020.359461689699",
+    "yhat_upper": "10655.83473335043",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "7830.620548556259",
+    "yhat_lower": "4878.011647830572",
+    "yhat_upper": "10524.2977088384",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "8042.673568235698",
+    "yhat_lower": "5082.165048934811",
+    "yhat_upper": "10936.804156859504",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "8250.027426993674",
+    "yhat_lower": "5478.540226886552",
+    "yhat_upper": "11030.125744186626",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "8197.8594297249",
+    "yhat_lower": "5180.195343723466",
+    "yhat_upper": "11211.840656961564",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "7955.937692855678",
+    "yhat_lower": "4860.058773989418",
+    "yhat_upper": "10917.338869675785",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "8890.050517514705",
+    "yhat_lower": "5768.0713456036165",
+    "yhat_upper": "11605.202744704211",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "8306.623746578274",
+    "yhat_lower": "5444.683144044402",
+    "yhat_upper": "11402.019501448585",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "8189.792543358634",
+    "yhat_lower": "5300.980704517108",
+    "yhat_upper": "11008.53749118652",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "8615.887409331128",
+    "yhat_lower": "5679.707999744482",
+    "yhat_upper": "11542.650097493775",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "8808.803813519144",
+    "yhat_lower": "5992.468945455667",
+    "yhat_upper": "11533.341059329912",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "8586.163186298658",
+    "yhat_lower": "5584.478316920522",
+    "yhat_upper": "11400.953248195761",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "8436.80752713739",
+    "yhat_lower": "5407.179023477416",
+    "yhat_upper": "11145.394166771977",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "8441.832573297042",
+    "yhat_lower": "5675.999368662443",
+    "yhat_upper": "11330.219807557038",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "8502.568996584541",
+    "yhat_lower": "5724.9723578073",
+    "yhat_upper": "11454.51412134273",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "8682.489214919495",
+    "yhat_lower": "5865.433453718615",
+    "yhat_upper": "11658.417908672616",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "8736.381809130506",
+    "yhat_lower": "5957.538368908746",
+    "yhat_upper": "11548.46603736087",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "8493.177758797498",
+    "yhat_lower": "5465.9019624905",
+    "yhat_upper": "11249.431617289594",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "9314.214369094223",
+    "yhat_lower": "6661.4029261433725",
+    "yhat_upper": "12212.811885630996",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "8696.17821940754",
+    "yhat_lower": "5793.816552036696",
+    "yhat_upper": "11582.077252455028",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "8577.83667202221",
+    "yhat_lower": "5696.838098847813",
+    "yhat_upper": "11385.653340016048",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "8969.161924932287",
+    "yhat_lower": "6156.727445290386",
+    "yhat_upper": "11878.922752946399",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "9130.524941663365",
+    "yhat_lower": "6107.72519230099",
+    "yhat_upper": "12257.247125699689",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "8994.597245701174",
+    "yhat_lower": "5875.065882736184",
+    "yhat_upper": "11796.019922656815",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "8798.494609604682",
+    "yhat_lower": "5913.525281006416",
+    "yhat_upper": "11542.805141515526",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "8809.28457461965",
+    "yhat_lower": "6000.8936860981885",
+    "yhat_upper": "11609.637453328174",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "8729.706539197126",
+    "yhat_lower": "5928.618175244371",
+    "yhat_upper": "11468.496205520225",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "8917.640274871852",
+    "yhat_lower": "6152.759702381483",
+    "yhat_upper": "11899.272638771055",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "9100.12665572791",
+    "yhat_lower": "6246.265608100673",
+    "yhat_upper": "11919.673216127241",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "8875.030617729877",
+    "yhat_lower": "5998.134340208366",
+    "yhat_upper": "11671.40842192282",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "9602.789709403312",
+    "yhat_lower": "6785.994044057318",
+    "yhat_upper": "12399.084817109193",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "8973.83451142734",
+    "yhat_lower": "6198.39878736354",
+    "yhat_upper": "11831.972236620066",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "8875.841933847872",
+    "yhat_lower": "5971.42779454636",
+    "yhat_upper": "11793.28094714933",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "9245.470526528043",
+    "yhat_lower": "6327.395995087674",
+    "yhat_upper": "12128.476525201786",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "9389.777259422388",
+    "yhat_lower": "6387.320251814531",
+    "yhat_upper": "12141.812598246535",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "9352.153923292992",
+    "yhat_lower": "6274.386237081239",
+    "yhat_upper": "12064.682825259742",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "9121.155559573852",
+    "yhat_lower": "6310.425006733036",
+    "yhat_upper": "11995.163205088154",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "9148.864188345664",
+    "yhat_lower": "6309.042120542467",
+    "yhat_upper": "12205.82288151633",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "8942.786327896618",
+    "yhat_lower": "6069.910224842841",
+    "yhat_upper": "11888.916198544166",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "9144.61261432984",
+    "yhat_lower": "6215.456010315474",
+    "yhat_upper": "11984.225043562174",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "9457.99852126266",
+    "yhat_lower": "6712.92915542115",
+    "yhat_upper": "12395.671866417199",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "9250.287544861754",
+    "yhat_lower": "6470.488974323076",
+    "yhat_upper": "12429.378633528266",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "9885.253839866338",
+    "yhat_lower": "6932.935657441294",
+    "yhat_upper": "12837.226141702207",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "9249.036993403768",
+    "yhat_lower": "6428.985538592632",
+    "yhat_upper": "12015.56078551574",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "9173.81323059502",
+    "yhat_lower": "6396.039091888093",
+    "yhat_upper": "12062.154194426612",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "9521.6454113184",
+    "yhat_lower": "6678.603712300758",
+    "yhat_upper": "12545.586313596896",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "9650.205731732938",
+    "yhat_lower": "6736.308528243777",
+    "yhat_upper": "12424.987970272407",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "9478.891469426108",
+    "yhat_lower": "6727.805561462397",
+    "yhat_upper": "12180.86986530884",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "9348.542114929629",
+    "yhat_lower": "6504.125945120895",
+    "yhat_upper": "12268.562432761692",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "9320.625781340832",
+    "yhat_lower": "6462.827468630823",
+    "yhat_upper": "12162.7631424415",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "9495.773686677447",
+    "yhat_lower": "6586.279440837623",
+    "yhat_upper": "12299.604158603115",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "9667.412918652932",
+    "yhat_lower": "6907.19380559304",
+    "yhat_upper": "12672.914686036518",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "9588.806659341428",
+    "yhat_lower": "6708.408607513045",
+    "yhat_upper": "12628.309642911076",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "9320.44666042958",
+    "yhat_lower": "6501.8507870483345",
+    "yhat_upper": "12120.537509471003",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "10228.992078620775",
+    "yhat_lower": "7322.836868366715",
+    "yhat_upper": "13133.09222625625",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "9619.145654334437",
+    "yhat_lower": "6761.337856704321",
+    "yhat_upper": "12401.380271469108",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "9476.74704464729",
+    "yhat_lower": "6595.194726053643",
+    "yhat_upper": "12426.126018201918",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "9889.667841183185",
+    "yhat_lower": "6897.550268468683",
+    "yhat_upper": "12689.183220620684",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "10069.410175934994",
+    "yhat_lower": "7096.285009760555",
+    "yhat_upper": "13107.338545897677",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "9834.938462861128",
+    "yhat_lower": "6813.841559679488",
+    "yhat_upper": "12733.689416986273",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "9672.48410150527",
+    "yhat_lower": "6654.937664032737",
+    "yhat_upper": "12722.63236348961",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "9664.832984250523",
+    "yhat_lower": "6771.295142376057",
+    "yhat_upper": "12643.503900571139",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "9712.470705342708",
+    "yhat_lower": "6892.174742542619",
+    "yhat_upper": "12424.513335504991",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "9890.427430970263",
+    "yhat_lower": "7129.558743748619",
+    "yhat_upper": "12740.507567415374",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "9942.291082714579",
+    "yhat_lower": "7182.192228744937",
+    "yhat_upper": "12918.079969064634",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "9697.06891350655",
+    "yhat_lower": "6603.01950231151",
+    "yhat_upper": "12423.635598790319",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "10516.15250553676",
+    "yhat_lower": "7436.979246447144",
+    "yhat_upper": "13564.907614808862",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "9896.09823697475",
+    "yhat_lower": "7096.0084266053145",
+    "yhat_upper": "12633.681960445754",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "9775.803671323207",
+    "yhat_lower": "6979.001640645088",
+    "yhat_upper": "12586.91979691731",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "10167.233788378435",
+    "yhat_lower": "7336.242598462337",
+    "yhat_upper": "13032.262627470891",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "10328.701669254648",
+    "yhat_lower": "7641.842358530677",
+    "yhat_upper": "13419.023421576505",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "10192.868689294817",
+    "yhat_lower": "7094.9276688188875",
+    "yhat_upper": "13143.857571328854",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "9996.870917343438",
+    "yhat_lower": "7077.266191485648",
+    "yhat_upper": "12738.92493560721",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "10007.762363789294",
+    "yhat_lower": "7102.317356292449",
+    "yhat_upper": "13024.245674733093",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "9928.289192897275",
+    "yhat_lower": "7042.618793329737",
+    "yhat_upper": "12637.089980906389",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "10116.324410373847",
+    "yhat_lower": "7172.534056307585",
+    "yhat_upper": "12850.59768849332",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "10298.915655758694",
+    "yhat_lower": "7573.812631287235",
+    "yhat_upper": "13102.879584265269",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "10073.924482290646",
+    "yhat_lower": "7291.703953731519",
+    "yhat_upper": "12994.405734100888",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "10801.785055767052",
+    "yhat_lower": "8167.958393833977",
+    "yhat_upper": "13638.106591237032",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "10172.934722320013",
+    "yhat_lower": "7387.170977656601",
+    "yhat_upper": "13051.271484826217",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "10075.043624885815",
+    "yhat_lower": "7103.619797029291",
+    "yhat_upper": "12958.712409691954",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "10444.777080382799",
+    "yhat_lower": "7924.093730378873",
+    "yhat_upper": "13255.633714077412",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "10589.188676093345",
+    "yhat_lower": "7874.2094024035305",
+    "yhat_upper": "13624.546895233856",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "10551.66005476682",
+    "yhat_lower": "7697.290821280137",
+    "yhat_upper": "13374.978705789716",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "10320.76655386431",
+    "yhat_lower": "7568.36499085424",
+    "yhat_upper": "13200.701432709147",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "10348.576662284499",
+    "yhat_lower": "7599.630919909071",
+    "yhat_upper": "13267.56074565765",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "10142.603664138154",
+    "yhat_lower": "7350.320747329484",
+    "yhat_upper": "13202.702208135363",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "10344.531430219453",
+    "yhat_lower": "7551.223648064482",
+    "yhat_upper": "12990.129019047445",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "10658.022199455201",
+    "yhat_lower": "7834.203430597979",
+    "yhat_upper": "13633.046481686484",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "10450.416085357518",
+    "yhat_lower": "7287.559336389565",
+    "yhat_upper": "13264.977152178562",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "11085.483860010567",
+    "yhat_lower": "8190.770291751912",
+    "yhat_upper": "13911.14792288547",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "10449.371876718173",
+    "yhat_lower": "7588.312827307853",
+    "yhat_upper": "13412.711185496211",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "10374.2495943961",
+    "yhat_lower": "7346.960838521738",
+    "yhat_upper": "13140.886108930772",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "10722.186638289264",
+    "yhat_lower": "7939.133320889707",
+    "yhat_upper": "13665.609168103403",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "10850.851821873253",
+    "yhat_lower": "7969.47658897361",
+    "yhat_upper": "13854.691893745603",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "10679.635657370065",
+    "yhat_lower": "7881.320890720529",
+    "yhat_upper": "13744.680525462873",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "10549.391102400054",
+    "yhat_lower": "7628.34287387067",
+    "yhat_upper": "13459.60769459546",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "10521.576187707502",
+    "yhat_lower": "7805.897924280902",
+    "yhat_upper": "13212.412590583313",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "10696.828892570597",
+    "yhat_lower": "7969.803213465905",
+    "yhat_upper": "13658.591486455913",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "10868.569543442682",
+    "yhat_lower": "8037.995291320153",
+    "yhat_upper": "13831.034352278528",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "10790.068083656293",
+    "yhat_lower": "7886.47545236098",
+    "yhat_upper": "13579.771065195268",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "10521.812884269693",
+    "yhat_lower": "7709.918096222117",
+    "yhat_upper": "13230.737741947227",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "11430.441712945327",
+    "yhat_lower": "8442.612923133061",
+    "yhat_upper": "14186.32558892953",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "10820.68147949132",
+    "yhat_lower": "8119.841984474881",
+    "yhat_upper": "13736.630533724889",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "10678.366280287246",
+    "yhat_lower": "7612.313641264715",
+    "yhat_upper": "13624.997934987365",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "11091.373267656389",
+    "yhat_lower": "8332.547601270266",
+    "yhat_upper": "13902.215151755854",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "11271.201793240896",
+    "yhat_lower": "8470.60386650082",
+    "yhat_upper": "14069.02994955154",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "11036.739856314558",
+    "yhat_lower": "8137.600856121981",
+    "yhat_upper": "13783.893931842847",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "10874.296318549408",
+    "yhat_lower": "8172.668433627534",
+    "yhat_upper": "13620.813457636194",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "10866.655675738206",
+    "yhat_lower": "7812.0489068796915",
+    "yhat_upper": "13721.754444666658",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "10914.304220422157",
+    "yhat_lower": "8013.993397912402",
+    "yhat_upper": "13806.101579026632",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "11092.271420491252",
+    "yhat_lower": "8150.553961599115",
+    "yhat_upper": "14089.415782779251",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "11144.145895827118",
+    "yhat_lower": "8247.990790983207",
+    "yhat_upper": "13951.766700698478",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "10898.923726618887",
+    "yhat_lower": "7980.095062935848",
+    "yhat_upper": "13830.49763489799",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "11718.007318649612",
+    "yhat_lower": "9045.964843738217",
+    "yhat_upper": "14283.137159257367",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "11097.953050087952",
+    "yhat_lower": "8447.051026438969",
+    "yhat_upper": "13986.555033794019",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "10977.658484436412",
+    "yhat_lower": "8097.454084399925",
+    "yhat_upper": "13792.10072876305",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "11369.088601491332",
+    "yhat_lower": "8713.730096689671",
+    "yhat_upper": "14267.228357996533",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "11530.55648236774",
+    "yhat_lower": "8678.794558822154",
+    "yhat_upper": "14194.288647919928",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "11394.723502407696",
+    "yhat_lower": "8619.50201345088",
+    "yhat_upper": "14377.32946862584",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "11198.725730456415",
+    "yhat_lower": "8386.976649275755",
+    "yhat_upper": "13989.721440985315",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "11209.617176902073",
+    "yhat_lower": "8217.432917787044",
+    "yhat_upper": "14187.944584794486",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "11130.144006009628",
+    "yhat_lower": "8387.858621934658",
+    "yhat_upper": "14026.529622315402",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "11318.179223486832",
+    "yhat_lower": "8474.288268579427",
+    "yhat_upper": "14099.220307198853",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "11500.770468871728",
+    "yhat_lower": "8690.813755880296",
+    "yhat_upper": "14357.634187586786",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "11275.779295403749",
+    "yhat_lower": "8318.135658920863",
+    "yhat_upper": "14249.741091637043",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "12003.639868879349",
+    "yhat_lower": "9249.276017953638",
+    "yhat_upper": "14819.52815231289",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "11374.789535432938",
+    "yhat_lower": "8408.413006836543",
+    "yhat_upper": "14216.484401886253",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "11276.89843799833",
+    "yhat_lower": "8328.982892422184",
+    "yhat_upper": "14033.247609081007",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "11646.631893495885",
+    "yhat_lower": "8762.54828094846",
+    "yhat_upper": "14638.987730437038",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "11791.043489206986",
+    "yhat_lower": "8895.75272742823",
+    "yhat_upper": "14681.638918561679",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "11753.514867880038",
+    "yhat_lower": "8696.841848567741",
+    "yhat_upper": "14464.297256806523",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "11522.621366977148",
+    "yhat_lower": "8722.957504073727",
+    "yhat_upper": "14385.832953343748",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "11550.431475397152",
+    "yhat_lower": "8592.85315003486",
+    "yhat_upper": "14458.471875838966",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "11344.458477251876",
+    "yhat_lower": "8349.843440919345",
+    "yhat_upper": "14191.23627535308",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "11546.386243332228",
+    "yhat_lower": "8571.584548659781",
+    "yhat_upper": "14410.858040789113",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "11859.87701256825",
+    "yhat_lower": "9150.468582299169",
+    "yhat_upper": "14712.07537662216",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "11652.270898470293",
+    "yhat_lower": "8660.842353697275",
+    "yhat_upper": "14592.23842091928",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "12287.338673123484",
+    "yhat_lower": "9386.163340999727",
+    "yhat_upper": "15025.813649319087",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "11651.226689830739",
+    "yhat_lower": "8862.757034803306",
+    "yhat_upper": "14587.202350512396",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "11576.104407508916",
+    "yhat_lower": "8668.873372708793",
+    "yhat_upper": "14237.155086906263",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "11924.041451401754",
+    "yhat_lower": "9073.329859621575",
+    "yhat_upper": "14756.39064806698",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "12052.706634986322",
+    "yhat_lower": "9054.200392182798",
+    "yhat_upper": "14896.024103333419",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "11881.490470483432",
+    "yhat_lower": "9091.275153928289",
+    "yhat_upper": "14835.163619217525",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "11751.245915512683",
+    "yhat_lower": "9003.540908701414",
+    "yhat_upper": "14750.818335638927",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "11723.431000819804",
+    "yhat_lower": "8798.898244978433",
+    "yhat_upper": "14603.785469511073",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "11898.683705683832",
+    "yhat_lower": "8848.528537483271",
+    "yhat_upper": "14632.699121541167",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "12070.424356555244",
+    "yhat_lower": "9125.196645640648",
+    "yhat_upper": "15016.201614523981",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "11991.92289676949",
+    "yhat_lower": "9148.315775360132",
+    "yhat_upper": "14954.382695981105",
+    "area_id": "442",
+    "name_en": "Al Barsha South Fifth"
+  }
+]

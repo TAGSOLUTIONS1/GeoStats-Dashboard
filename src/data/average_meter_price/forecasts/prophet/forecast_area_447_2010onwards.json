@@ -1,0 +1,1290 @@
+[
+  {
+    "ds": "2015-02-01",
+    "yhat": "16210.013163513762",
+    "yhat_lower": "14815.284343888947",
+    "yhat_upper": "17594.957823634613",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "16057.517676792957",
+    "yhat_lower": "14713.77450107188",
+    "yhat_upper": "17492.58021109898",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "16076.103803397793",
+    "yhat_lower": "14786.05122327178",
+    "yhat_upper": "17471.32930052154",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "16120.421273383692",
+    "yhat_lower": "14692.389420547412",
+    "yhat_upper": "17462.199032750545",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "15618.906447792691",
+    "yhat_lower": "14287.869633941213",
+    "yhat_upper": "17003.374835941828",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "16235.910495991273",
+    "yhat_lower": "14942.137464510994",
+    "yhat_upper": "17595.60089446136",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "15708.852605813157",
+    "yhat_lower": "14461.80832690475",
+    "yhat_upper": "17052.233967894357",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "15732.142748727718",
+    "yhat_lower": "14305.783664487319",
+    "yhat_upper": "17174.854236447347",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "16019.950274749623",
+    "yhat_lower": "14675.135770955476",
+    "yhat_upper": "17341.27783200119",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "15625.33076683284",
+    "yhat_lower": "14282.060337663723",
+    "yhat_upper": "17042.45097381949",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "16325.134048576541",
+    "yhat_lower": "14996.336182751442",
+    "yhat_upper": "17627.416931960808",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "16766.993404948887",
+    "yhat_lower": "15429.801626259168",
+    "yhat_upper": "18025.70736690541",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "15896.633788418998",
+    "yhat_lower": "14525.925632880675",
+    "yhat_upper": "17248.171740159472",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "15565.573251532662",
+    "yhat_lower": "14268.294060782313",
+    "yhat_upper": "16820.039257074524",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "15283.83989508398",
+    "yhat_lower": "13978.825944453822",
+    "yhat_upper": "16681.08872364416",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "16268.688268504697",
+    "yhat_lower": "14935.556866643472",
+    "yhat_upper": "17536.156696354214",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "16757.121890169677",
+    "yhat_lower": "15474.63466524808",
+    "yhat_upper": "18048.053148017356",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "16737.86025783318",
+    "yhat_lower": "15409.476208636983",
+    "yhat_upper": "18134.153556088815",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "15924.180953081233",
+    "yhat_lower": "14665.24645808161",
+    "yhat_upper": "17285.49669217682",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "15150.030581418963",
+    "yhat_lower": "13785.529563058895",
+    "yhat_upper": "16422.507031310073",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "15326.407131237498",
+    "yhat_lower": "13963.284423516558",
+    "yhat_upper": "16669.338371781774",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "16583.772037812174",
+    "yhat_lower": "15109.274723920098",
+    "yhat_upper": "17999.90147830552",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "16107.95923507662",
+    "yhat_lower": "14837.021808637348",
+    "yhat_upper": "17448.876366714514",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "16570.925637993216",
+    "yhat_lower": "15270.535893146476",
+    "yhat_upper": "17846.99465437158",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "15992.438615565794",
+    "yhat_lower": "14688.537816628634",
+    "yhat_upper": "17350.37929430573",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "15792.560330750748",
+    "yhat_lower": "14449.720566024962",
+    "yhat_upper": "17126.336681692155",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "15443.473020861735",
+    "yhat_lower": "14214.313066987863",
+    "yhat_upper": "16767.306724807942",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "16190.962281300433",
+    "yhat_lower": "14866.395976924963",
+    "yhat_upper": "17469.582863350453",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "16626.24278400498",
+    "yhat_lower": "15252.257157053995",
+    "yhat_upper": "17865.78931660899",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "16726.059560699843",
+    "yhat_lower": "15445.00132642539",
+    "yhat_upper": "17994.12616144921",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "15889.63515648348",
+    "yhat_lower": "14587.290603531485",
+    "yhat_upper": "17149.48240406207",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "15382.815428139886",
+    "yhat_lower": "13998.020257553668",
+    "yhat_upper": "16737.10752483228",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "15607.673857646178",
+    "yhat_lower": "14350.943595237359",
+    "yhat_upper": "16921.3517536158",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "16311.889134587622",
+    "yhat_lower": "15017.642785840702",
+    "yhat_upper": "17693.38096815609",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "16223.29815636146",
+    "yhat_lower": "14919.88974125215",
+    "yhat_upper": "17563.589108713462",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "16377.184747617846",
+    "yhat_lower": "15157.410418705767",
+    "yhat_upper": "17685.977564903216",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "16095.116615463749",
+    "yhat_lower": "14607.726627479817",
+    "yhat_upper": "17408.141503752515",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "16020.344738585673",
+    "yhat_lower": "14781.023147148093",
+    "yhat_upper": "17367.229843924266",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "15597.864363174787",
+    "yhat_lower": "14267.94104542327",
+    "yhat_upper": "16942.744784844264",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "16107.477754467705",
+    "yhat_lower": "14756.016093433669",
+    "yhat_upper": "17356.106821839876",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "16494.826747976174",
+    "yhat_lower": "15113.595442462347",
+    "yhat_upper": "17705.315202151854",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "16716.386278001224",
+    "yhat_lower": "15387.210724599325",
+    "yhat_upper": "18067.134980422623",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "15859.971626073278",
+    "yhat_lower": "14544.569420195847",
+    "yhat_upper": "17184.34942149741",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "15618.927737823225",
+    "yhat_lower": "14302.389936718015",
+    "yhat_upper": "16911.206485822695",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "15880.752439193464",
+    "yhat_lower": "14554.153298485908",
+    "yhat_upper": "17229.363500995958",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "16033.955965465093",
+    "yhat_lower": "14741.427717452221",
+    "yhat_upper": "17338.741441531794",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "16337.136495234263",
+    "yhat_lower": "14934.337578929435",
+    "yhat_upper": "17617.323068516842",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "16184.467309601769",
+    "yhat_lower": "14787.029445920027",
+    "yhat_upper": "17467.301807076445",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "16202.861126696276",
+    "yhat_lower": "14907.468090381579",
+    "yhat_upper": "17483.123165649697",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "16246.99249070415",
+    "yhat_lower": "14887.429975480012",
+    "yhat_upper": "17503.406084029597",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "15745.285355604476",
+    "yhat_lower": "14489.459857606716",
+    "yhat_upper": "17099.544444421903",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "16016.936062342073",
+    "yhat_lower": "14627.789024006568",
+    "yhat_upper": "17340.793850982685",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "16361.91097424026",
+    "yhat_lower": "15137.492079920105",
+    "yhat_upper": "17741.87499800024",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "16708.002921527754",
+    "yhat_lower": "15362.02031033",
+    "yhat_upper": "17997.48506218566",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "15834.474638420113",
+    "yhat_lower": "14512.251680179059",
+    "yhat_upper": "17170.373236716125",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "15857.572448055898",
+    "yhat_lower": "14465.445804861205",
+    "yhat_upper": "17242.56018119295",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "16145.1938451288",
+    "yhat_lower": "14862.410773650763",
+    "yhat_upper": "17538.04562230357",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "15750.38200396227",
+    "yhat_lower": "14540.66767653913",
+    "yhat_upper": "17115.58812099307",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "16449.99295827902",
+    "yhat_lower": "15134.056824233758",
+    "yhat_upper": "17695.40804581458",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "16891.672395439327",
+    "yhat_lower": "15532.850578779833",
+    "yhat_upper": "18261.206810822063",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "16021.120444666894",
+    "yhat_lower": "14717.166546619246",
+    "yhat_upper": "17394.906691178647",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "15689.873777870413",
+    "yhat_lower": "14321.845052416387",
+    "yhat_upper": "17002.69268668646",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "15407.948091295364",
+    "yhat_lower": "14033.194174299724",
+    "yhat_upper": "16710.692388729156",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "16392.61034037678",
+    "yhat_lower": "15010.099596457127",
+    "yhat_upper": "17685.441355795774",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "16880.85163356289",
+    "yhat_lower": "15554.746373303216",
+    "yhat_upper": "18207.77422023274",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "16900.885140760478",
+    "yhat_lower": "15536.55675435759",
+    "yhat_upper": "18315.070299432206",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "16125.233390396199",
+    "yhat_lower": "14802.773037123006",
+    "yhat_upper": "17423.156790280762",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "15390.37815973874",
+    "yhat_lower": "14047.357093537612",
+    "yhat_upper": "16720.730992071232",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "15604.782265364536",
+    "yhat_lower": "14270.758799234482",
+    "yhat_upper": "16840.985251879443",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "16961.74926447286",
+    "yhat_lower": "15674.428118659798",
+    "yhat_upper": "18297.974874336283",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "16585.538553328974",
+    "yhat_lower": "15365.771148621452",
+    "yhat_upper": "17961.79369430095",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "17138.4681357482",
+    "yhat_lower": "15713.724923073556",
+    "yhat_upper": "18484.522366124707",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "16717.10556143893",
+    "yhat_lower": "15432.934260579363",
+    "yhat_upper": "18087.045474350914",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "16669.283194158903",
+    "yhat_lower": "15289.678043808426",
+    "yhat_upper": "17889.507820664025",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "16477.32033184461",
+    "yhat_lower": "15154.242198978325",
+    "yhat_upper": "17802.85938027553",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "17376.86550929064",
+    "yhat_lower": "16045.513972797015",
+    "yhat_upper": "18741.67623566509",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "18006.747173634532",
+    "yhat_lower": "16662.081173667368",
+    "yhat_upper": "19390.90630877548",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "18301.165111003964",
+    "yhat_lower": "17001.53413388598",
+    "yhat_upper": "19622.494365074854",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "17653.064410664912",
+    "yhat_lower": "16387.527614495295",
+    "yhat_upper": "19018.914909591433",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "17355.42641597752",
+    "yhat_lower": "15966.091470584472",
+    "yhat_upper": "18692.545097104783",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "17782.718781277326",
+    "yhat_lower": "16398.57972679983",
+    "yhat_upper": "19171.385697099708",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "18696.115784826638",
+    "yhat_lower": "17402.86215309348",
+    "yhat_upper": "20084.756346674723",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "18816.70653321654",
+    "yhat_lower": "17446.360791923387",
+    "yhat_upper": "20133.360736434217",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "19162.81760539135",
+    "yhat_lower": "17883.86015769916",
+    "yhat_upper": "20498.521472686116",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "19093.569434257057",
+    "yhat_lower": "17864.01956620932",
+    "yhat_upper": "20436.98815658595",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "19224.845436025276",
+    "yhat_lower": "17860.831688180584",
+    "yhat_upper": "20443.16875751891",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "19020.397131126054",
+    "yhat_lower": "17629.85826430347",
+    "yhat_upper": "20353.92137729307",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "19741.00930033478",
+    "yhat_lower": "18432.16557626142",
+    "yhat_upper": "20999.044349495034",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "20346.438462699163",
+    "yhat_lower": "19051.941698099377",
+    "yhat_upper": "21669.276382191274",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "20786.07816157587",
+    "yhat_lower": "19522.43417610051",
+    "yhat_upper": "22152.704447464286",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "20143.178415735816",
+    "yhat_lower": "18862.09385148097",
+    "yhat_upper": "21498.35525273663",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "20122.766597107257",
+    "yhat_lower": "18756.696878294377",
+    "yhat_upper": "21461.56285082664",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "20598.133432121827",
+    "yhat_lower": "19342.82623903382",
+    "yhat_upper": "21985.23370605777",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "20971.99716315939",
+    "yhat_lower": "19625.959265832058",
+    "yhat_upper": "22255.94942666533",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "21495.837897698046",
+    "yhat_lower": "20177.896213026386",
+    "yhat_upper": "22875.024371783336",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "21542.49267559015",
+    "yhat_lower": "20269.628445230854",
+    "yhat_upper": "22830.858341393003",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "21781.56659515745",
+    "yhat_lower": "20533.50709878474",
+    "yhat_upper": "23154.40215961096",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "22039.259348657255",
+    "yhat_lower": "20629.23540531004",
+    "yhat_upper": "23316.3153507285",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "21758.23231603097",
+    "yhat_lower": "20493.792201587345",
+    "yhat_upper": "23161.942366606567",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "22243.444430055115",
+    "yhat_lower": "20938.71996865588",
+    "yhat_upper": "23592.910310073454",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "22809.09946282029",
+    "yhat_lower": "21416.7126191903",
+    "yhat_upper": "24128.38617300057",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "23375.871530969813",
+    "yhat_lower": "22158.30114992201",
+    "yhat_upper": "24652.011581321487",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "22715.90467123145",
+    "yhat_lower": "21440.472505728867",
+    "yhat_upper": "24059.584019176535",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "22959.682618347353",
+    "yhat_lower": "21629.96056351054",
+    "yhat_upper": "24351.961118003095",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "23460.865438787998",
+    "yhat_lower": "22151.616700472674",
+    "yhat_upper": "24773.12874651012",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "23286.73373510797",
+    "yhat_lower": "21975.129685191085",
+    "yhat_upper": "24569.947105049676",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "24207.02482108365",
+    "yhat_lower": "22891.595925070982",
+    "yhat_upper": "25486.04231453474",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "24855.14696205842",
+    "yhat_lower": "23409.800614082524",
+    "yhat_upper": "26117.605051177015",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "24205.275142945244",
+    "yhat_lower": "22912.99596569828",
+    "yhat_upper": "25535.431812145438",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "24087.58989388337",
+    "yhat_lower": "22792.925156531604",
+    "yhat_upper": "25419.91499914652",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "24026.344334853915",
+    "yhat_lower": "22854.438368602827",
+    "yhat_upper": "25494.901926880797",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "25224.567997689377",
+    "yhat_lower": "23863.94573966627",
+    "yhat_upper": "26416.648590993136",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "25933.48941841672",
+    "yhat_lower": "24672.40435414866",
+    "yhat_upper": "27277.717866396964",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "26134.715585144422",
+    "yhat_lower": "24850.694907334833",
+    "yhat_upper": "27430.364878812517",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "25534.411569806463",
+    "yhat_lower": "24042.098242349723",
+    "yhat_upper": "26867.970619292177",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "24980.748998674186",
+    "yhat_lower": "23613.182234230837",
+    "yhat_upper": "26270.58157812811",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "25370.500839328804",
+    "yhat_lower": "24015.27367107993",
+    "yhat_upper": "26723.92249492757",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "26848.353546433813",
+    "yhat_lower": "25572.553398976434",
+    "yhat_upper": "28093.99395087069",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "26593.02854328557",
+    "yhat_lower": "25225.445121389883",
+    "yhat_upper": "27935.749760427003",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "27255.145216794874",
+    "yhat_lower": "25925.773345551595",
+    "yhat_upper": "28710.911273207003",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "26897.14599395398",
+    "yhat_lower": "25425.889583654996",
+    "yhat_upper": "28260.69993034672",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "26910.64299906083",
+    "yhat_lower": "25490.787788245987",
+    "yhat_upper": "28231.281295117296",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "26782.043488214476",
+    "yhat_lower": "25505.859483109958",
+    "yhat_upper": "28148.480278197552",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "27742.908038047866",
+    "yhat_lower": "26403.115364744317",
+    "yhat_upper": "29157.5924211251",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "28398.676339794773",
+    "yhat_lower": "27065.43346334934",
+    "yhat_upper": "29750.974694696386",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "28718.980914561027",
+    "yhat_lower": "27324.336432239346",
+    "yhat_upper": "30167.251439194562",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "28095.93179879999",
+    "yhat_lower": "26764.92060727073",
+    "yhat_upper": "29550.166274912506",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "27809.59986852791",
+    "yhat_lower": "26534.62437184349",
+    "yhat_upper": "29133.104957273878",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "28247.833586490367",
+    "yhat_lower": "26904.49457200656",
+    "yhat_upper": "29594.942052692062",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "29172.536654459538",
+    "yhat_lower": "27881.58816067111",
+    "yhat_upper": "30415.332010114565",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "29304.433467261148",
+    "yhat_lower": "27926.200354404315",
+    "yhat_upper": "30684.542512980322",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "29657.470321381406",
+    "yhat_lower": "28253.391522693742",
+    "yhat_upper": "31059.50691374676",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "29595.889980254724",
+    "yhat_lower": "28271.905364992454",
+    "yhat_upper": "30942.944753401276",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "29734.58646267883",
+    "yhat_lower": "28309.999783654857",
+    "yhat_upper": "31038.138062403228",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "29532.69005854584",
+    "yhat_lower": "28179.189580771403",
+    "yhat_upper": "30886.459115824277",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "30255.771809141792",
+    "yhat_lower": "28886.47341040326",
+    "yhat_upper": "31702.10629833035",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "30863.75287227165",
+    "yhat_lower": "29478.27661140666",
+    "yhat_upper": "32253.728210957954",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "31305.944471918083",
+    "yhat_lower": "29908.859947936675",
+    "yhat_upper": "32642.711879584796",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "30663.04472607749",
+    "yhat_lower": "29198.1696357135",
+    "yhat_upper": "32107.44736731112",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "30642.63290744935",
+    "yhat_lower": "29183.305050191193",
+    "yhat_upper": "32137.15621500884",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "31117.999742466254",
+    "yhat_lower": "29631.170536489033",
+    "yhat_upper": "32474.594481286476",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "31491.86347350383",
+    "yhat_lower": "29914.175142830765",
+    "yhat_upper": "32971.40493857428",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "32015.70420803984",
+    "yhat_lower": "30604.911790250975",
+    "yhat_upper": "33583.54175003681",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "32062.35898593061",
+    "yhat_lower": "30552.62135315415",
+    "yhat_upper": "33488.09525884892",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "32301.432905501006",
+    "yhat_lower": "30651.807762659184",
+    "yhat_upper": "33916.52222715388",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "32559.12565899943",
+    "yhat_lower": "31049.535240904886",
+    "yhat_upper": "34191.0670243964",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "32278.098626372688",
+    "yhat_lower": "30740.894464031455",
+    "yhat_upper": "33833.69801548024",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "32763.31074039676",
+    "yhat_lower": "31151.1763905987",
+    "yhat_upper": "34404.99481873831",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "33328.96577316046",
+    "yhat_lower": "31760.86060551174",
+    "yhat_upper": "34961.27259950342",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "33895.737841311886",
+    "yhat_lower": "32247.549674463553",
+    "yhat_upper": "35430.83936193263",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "33235.77098157476",
+    "yhat_lower": "31571.814364333728",
+    "yhat_upper": "34831.00575648358",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "33479.54892869095",
+    "yhat_lower": "31859.780003190648",
+    "yhat_upper": "35146.28187934557",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "33980.73174913186",
+    "yhat_lower": "32313.206933766993",
+    "yhat_upper": "35784.96696367852",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "33806.60004544785",
+    "yhat_lower": "32130.812628771317",
+    "yhat_upper": "35432.50883394238",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "34726.89113142469",
+    "yhat_lower": "32968.74711020542",
+    "yhat_upper": "36346.71508469846",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "35375.01327239872",
+    "yhat_lower": "33612.99799863636",
+    "yhat_upper": "37024.00407334451",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "34725.14145328805",
+    "yhat_lower": "32988.14068899858",
+    "yhat_upper": "36558.71471213583",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "34607.45620422718",
+    "yhat_lower": "32774.465008370185",
+    "yhat_upper": "36405.06747991619",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "34546.210645195686",
+    "yhat_lower": "32663.82824873802",
+    "yhat_upper": "36244.408283687015",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "35744.43430803107",
+    "yhat_lower": "33877.89402295308",
+    "yhat_upper": "37700.41665959052",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "36453.35572875924",
+    "yhat_lower": "34489.99443164976",
+    "yhat_upper": "38353.44105774141",
+    "area_id": "447",
+    "name_en": "Al Khairan First"
+  }
+]

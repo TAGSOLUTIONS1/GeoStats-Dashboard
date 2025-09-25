@@ -1,0 +1,602 @@
+[
+  {
+    "ds": "2015-01-01",
+    "yhat": "2347.976151329432",
+    "yhat_lower": "2037.4481071544358",
+    "yhat_upper": "2659.05279879854",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "3041.2990512407587",
+    "yhat_lower": "2750.132678913412",
+    "yhat_upper": "3332.817056214933",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "3185.8863572744017",
+    "yhat_lower": "2880.8507312874426",
+    "yhat_upper": "3506.2740917478977",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "2368.0187969576914",
+    "yhat_lower": "2083.696557260028",
+    "yhat_upper": "2674.506120324357",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "2712.2140537007326",
+    "yhat_lower": "2419.364581702611",
+    "yhat_upper": "3014.1151147013356",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "2628.8448682349426",
+    "yhat_lower": "2357.322533138959",
+    "yhat_upper": "2936.6172918512684",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "1973.2960189588953",
+    "yhat_lower": "1709.7982122846138",
+    "yhat_upper": "2281.281550099464",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "2351.921714217487",
+    "yhat_lower": "2072.2358548202124",
+    "yhat_upper": "2649.275136148066",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "2262.8797843896773",
+    "yhat_lower": "1967.6800814221924",
+    "yhat_upper": "2578.6767415690792",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "2417.188167282843",
+    "yhat_lower": "2137.2377656111944",
+    "yhat_upper": "2738.912713070839",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "2168.080987583663",
+    "yhat_lower": "1884.3437229319838",
+    "yhat_upper": "2466.8210684921655",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "1830.5417497026683",
+    "yhat_lower": "1552.3382689786358",
+    "yhat_upper": "2133.387422926061",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "2315.209044158827",
+    "yhat_lower": "2002.0440070520049",
+    "yhat_upper": "2591.6275682200726",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "2367.560313002239",
+    "yhat_lower": "2058.0588709365356",
+    "yhat_upper": "2648.694640723457",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "2532.318897677336",
+    "yhat_lower": "2228.1520293960125",
+    "yhat_upper": "2847.914470640508",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "2477.5314874719165",
+    "yhat_lower": "2185.4082823071603",
+    "yhat_upper": "2767.110919706045",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "2879.366217515806",
+    "yhat_lower": "2572.0162593905393",
+    "yhat_upper": "3161.4923747232497",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "1846.1019319163256",
+    "yhat_lower": "1563.1736473109045",
+    "yhat_upper": "2131.074123575347",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "2533.470188856764",
+    "yhat_lower": "2238.4398397992345",
+    "yhat_upper": "2808.772528794353",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "2792.4760948352528",
+    "yhat_lower": "2503.636680758662",
+    "yhat_upper": "3056.198320187177",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "1988.185838497652",
+    "yhat_lower": "1685.3123324692265",
+    "yhat_upper": "2267.05060963087",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "2719.7547184353175",
+    "yhat_lower": "2422.3955261221195",
+    "yhat_upper": "3028.647443565513",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "3135.655628772059",
+    "yhat_lower": "2836.128013619801",
+    "yhat_upper": "3420.0424295170496",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "2681.508739658336",
+    "yhat_lower": "2375.5087532673556",
+    "yhat_upper": "2975.4405395999283",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "2428.056286810934",
+    "yhat_lower": "2133.9126420579255",
+    "yhat_upper": "2755.700508027963",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "2437.0525220696845",
+    "yhat_lower": "2126.1145111277197",
+    "yhat_upper": "2734.5406728064477",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "2135.3138957128162",
+    "yhat_lower": "1845.99272741878",
+    "yhat_upper": "2445.5693175616234",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "2403.8958649334877",
+    "yhat_lower": "2110.4158560742612",
+    "yhat_upper": "2679.621767540506",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "2695.9865650482857",
+    "yhat_lower": "2411.097742484499",
+    "yhat_upper": "3000.1106777764635",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "3062.9167713473325",
+    "yhat_lower": "2769.045484744007",
+    "yhat_upper": "3364.0879665891644",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "1152.3787577866176",
+    "yhat_lower": "855.1903096425875",
+    "yhat_upper": "1440.5747464313129",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "744.7728618173719",
+    "yhat_lower": "445.99664752660635",
+    "yhat_upper": "1045.6602191740715",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "3277.0582663788637",
+    "yhat_lower": "2980.888642128868",
+    "yhat_upper": "3581.09455573852",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "3230.4065153804277",
+    "yhat_lower": "2951.5470225775944",
+    "yhat_upper": "3512.839236086261",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "2187.6651638826106",
+    "yhat_lower": "1904.795939227634",
+    "yhat_upper": "2451.925215920075",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "2352.4237484370474",
+    "yhat_lower": "2051.0933518661413",
+    "yhat_upper": "2640.6888339324933",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "2097.21512631956",
+    "yhat_lower": "1814.3095243989317",
+    "yhat_upper": "2397.5764414438295",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "2612.6065466540176",
+    "yhat_lower": "2340.9780912775554",
+    "yhat_upper": "2899.7959187834463",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "2269.0545635576113",
+    "yhat_lower": "1979.7484260410681",
+    "yhat_upper": "2560.270405737507",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "2039.9816696658327",
+    "yhat_lower": "1739.1210511889394",
+    "yhat_upper": "2318.538376872917",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "2297.636337826257",
+    "yhat_lower": "1987.9919763212663",
+    "yhat_upper": "2594.7678502184854",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "2699.4710677572816",
+    "yhat_lower": "2419.4627744476043",
+    "yhat_upper": "2992.849517898772",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "1613.5057151540686",
+    "yhat_lower": "1316.8592541897212",
+    "yhat_upper": "1892.59741342903",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "1409.551439027432",
+    "yhat_lower": "1119.0953530277227",
+    "yhat_upper": "1699.8882904626055",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "2955.638317442348",
+    "yhat_lower": "2682.505547447619",
+    "yhat_upper": "3256.3971083340443",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "2644.214950550934",
+    "yhat_lower": "2364.2203563504177",
+    "yhat_upper": "2944.1190186871604",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "1992.1314114347085",
+    "yhat_lower": "1700.8890483370517",
+    "yhat_upper": "2276.9239630832158",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "2441.889080590018",
+    "yhat_lower": "2132.926941926326",
+    "yhat_upper": "2737.9702597718583",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "2188.3031553138235",
+    "yhat_lower": "1885.0128443089577",
+    "yhat_upper": "2473.981337380132",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "2785.635235159283",
+    "yhat_lower": "2495.2378521454775",
+    "yhat_upper": "3086.445018215259",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "2391.2009341924017",
+    "yhat_lower": "2102.3707556515806",
+    "yhat_upper": "2671.613909287563",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "1666.206780564356",
+    "yhat_lower": "1350.2291812053247",
+    "yhat_upper": "1960.452790103663",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "1903.0894826178605",
+    "yhat_lower": "1610.5267670619705",
+    "yhat_upper": "2204.07728951442",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "2353.5750373365117",
+    "yhat_lower": "2078.589585124458",
+    "yhat_upper": "2640.822175428336",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "2090.562389832854",
+    "yhat_lower": "1809.8371809104342",
+    "yhat_upper": "2364.5711405082593",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "2061.24558179647",
+    "yhat_lower": "1735.758848611511",
+    "yhat_upper": "2349.4642339447064",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "2612.580943193243",
+    "yhat_lower": "2304.2158540610326",
+    "yhat_upper": "2898.5171931051427",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "2057.397866352087",
+    "yhat_lower": "1738.3390924244536",
+    "yhat_upper": "2359.3709448426694",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "1808.2906867337529",
+    "yhat_lower": "1515.3469767517045",
+    "yhat_upper": "2098.5448708775266",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "2539.859566666331",
+    "yhat_lower": "2237.935936013874",
+    "yhat_upper": "2836.668415055503",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "2281.1785455707072",
+    "yhat_lower": "1989.8440885610755",
+    "yhat_upper": "2589.6921205426183",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "2955.7604770058224",
+    "yhat_lower": "2672.5950012801686",
+    "yhat_upper": "3258.2935572951087",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "2501.6135878945847",
+    "yhat_lower": "2201.552044345596",
+    "yhat_upper": "2801.6236688176896",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "1283.0401651152738",
+    "yhat_lower": "1012.5078735347404",
+    "yhat_upper": "1574.1355264913896",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "1512.9489618303105",
+    "yhat_lower": "1216.9013739854984",
+    "yhat_upper": "1801.8662122029239",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "2025.523065859641",
+    "yhat_lower": "1725.2254743846386",
+    "yhat_upper": "2309.6386979974413",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "2582.813421995519",
+    "yhat_lower": "2270.3934944342172",
+    "yhat_upper": "2855.421100962015",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "2698.9522809627497",
+    "yhat_lower": "2415.0068330089007",
+    "yhat_upper": "3000.2015058522643",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "2248.161135046206",
+    "yhat_lower": "1958.5627640027474",
+    "yhat_upper": "2541.306786612836",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "1470.7514494456623",
+    "yhat_lower": "1162.1081577931939",
+    "yhat_upper": "1764.690017641236",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "1636.4591824289128",
+    "yhat_lower": "1370.4411611111896",
+    "yhat_upper": "1949.320781154094",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "2646.2008971894115",
+    "yhat_lower": "2376.7198031203334",
+    "yhat_upper": "2931.312648133311",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "1828.3333371328472",
+    "yhat_lower": "1534.260950684991",
+    "yhat_upper": "2122.5800731868108",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "2257.157370305266",
+    "yhat_lower": "1959.3060767028326",
+    "yhat_upper": "2559.046496018004",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "1955.4187439463874",
+    "yhat_lower": "1658.7784973954044",
+    "yhat_upper": "2257.9185639455286",
+    "area_id": "397",
+    "name_en": "Al Khawaneej Second"
+  }
+]

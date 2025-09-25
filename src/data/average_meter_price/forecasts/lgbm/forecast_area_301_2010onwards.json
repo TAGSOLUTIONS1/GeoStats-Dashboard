@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-08-01",
+    "yhat": "28955.328782549193",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "33818.05786406024",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "19177.130295650513",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "30908.47637008431",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "28711.527929866683",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "29017.430989174063",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "24840.003970865426",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "24809.659444524772",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "24902.39510147465",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "24902.39510147465",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "24902.39510147465",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "22707.99470947168",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "31409.07741491758",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "31409.07741491758",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "31346.686284308358",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "31346.686284308358",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "33541.0866763113",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "24840.003970865426",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "24840.003970865426",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "24840.003970865426",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "24902.39510147465",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "24902.39510147465",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "24902.39510147465",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "22707.99470947168",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "31409.07741491758",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "31409.07741491758",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "31346.686284308358",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "31346.686284308358",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "33541.0866763113",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "24840.003970865426",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "24840.003970865426",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "24840.003970865426",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "24902.39510147465",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "24902.39510147465",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "24902.39510147465",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "22707.99470947168",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "31409.07741491758",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "31409.07741491758",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "31346.686284308358",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "31346.686284308358",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "33541.0866763113",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "24840.003970865426",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "24840.003970865426",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "24840.003970865426",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "24902.39510147465",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "24902.39510147465",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "24902.39510147465",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "22707.99470947168",
+    "area_id": "301",
+    "name_en": "Al Nahda Second"
+  }
+]

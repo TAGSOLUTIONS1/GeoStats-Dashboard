@@ -1,0 +1,1490 @@
+[
+  {
+    "ds": "2012-07-01",
+    "yhat": "6766.3778187353555",
+    "yhat_lower": "4325.451937168914",
+    "yhat_upper": "8979.53032770008",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "6530.573494655439",
+    "yhat_lower": "4227.067592501265",
+    "yhat_upper": "9009.751315403562",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2012-09-01",
+    "yhat": "7131.375243496156",
+    "yhat_lower": "4782.8519566954865",
+    "yhat_upper": "9417.011677626499",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "7198.7165040569935",
+    "yhat_lower": "5008.582057790579",
+    "yhat_upper": "9619.013445101393",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "6540.504580713138",
+    "yhat_lower": "4194.184147794899",
+    "yhat_upper": "8910.678406241963",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "7510.6534886802365",
+    "yhat_lower": "5072.357491657576",
+    "yhat_upper": "9937.154631542488",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "7766.561220443502",
+    "yhat_lower": "5228.740142423638",
+    "yhat_upper": "10168.643218371504",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "7261.624240824143",
+    "yhat_lower": "4916.271197638721",
+    "yhat_upper": "9609.816330429981",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "7364.612262628843",
+    "yhat_lower": "5018.000141376394",
+    "yhat_upper": "9816.958341998119",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "7130.189406537029",
+    "yhat_lower": "4788.096619487344",
+    "yhat_upper": "9811.218536155637",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "7313.465751792737",
+    "yhat_lower": "4946.602333431484",
+    "yhat_upper": "9709.66687503783",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "6510.362007391768",
+    "yhat_lower": "4213.626427864682",
+    "yhat_upper": "8767.711279450417",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "6519.279326605151",
+    "yhat_lower": "4057.9783317727615",
+    "yhat_upper": "8947.934526007264",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "6965.902178251953",
+    "yhat_lower": "4623.243196489119",
+    "yhat_upper": "9443.411416184312",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "7187.400917014964",
+    "yhat_lower": "4628.136049057535",
+    "yhat_upper": "9687.895151681594",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "7332.492129398816",
+    "yhat_lower": "4889.563765316362",
+    "yhat_upper": "9837.079988726382",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "6294.541856805282",
+    "yhat_lower": "3817.1641433667714",
+    "yhat_upper": "8836.54462068047",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "7385.898674910948",
+    "yhat_lower": "4962.002855193372",
+    "yhat_upper": "9767.416692805717",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "7580.766422701223",
+    "yhat_lower": "5325.026614959163",
+    "yhat_upper": "10008.06906834828",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "7283.486610174497",
+    "yhat_lower": "4887.588156612388",
+    "yhat_upper": "9659.258544610986",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "7201.794035911879",
+    "yhat_lower": "5027.433779969823",
+    "yhat_upper": "9575.066045174803",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "7011.541156084261",
+    "yhat_lower": "4541.88911205039",
+    "yhat_upper": "9574.90020697637",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "7161.706236475842",
+    "yhat_lower": "4739.088776655636",
+    "yhat_upper": "9479.333048928813",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "6256.760779568965",
+    "yhat_lower": "3981.2987423527447",
+    "yhat_upper": "8657.409547479716",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "6510.259830147232",
+    "yhat_lower": "4032.8537667061264",
+    "yhat_upper": "9070.077464472957",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "6800.938313938873",
+    "yhat_lower": "4458.230788353166",
+    "yhat_upper": "9125.668353380954",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "7175.3553010188425",
+    "yhat_lower": "4787.5245645386285",
+    "yhat_upper": "9601.011919074193",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "7195.697090664542",
+    "yhat_lower": "4733.7424897458195",
+    "yhat_upper": "9720.518560737448",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "6040.8181366553135",
+    "yhat_lower": "3583.759253872503",
+    "yhat_upper": "8237.03972639337",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "7250.681811477614",
+    "yhat_lower": "4851.9328479843225",
+    "yhat_upper": "9551.05320268219",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "7381.439098287333",
+    "yhat_lower": "4861.223660775403",
+    "yhat_upper": "9866.808241306066",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "7285.845998846118",
+    "yhat_lower": "5033.838191491154",
+    "yhat_upper": "9667.228230042178",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "7010.884503508563",
+    "yhat_lower": "4765.586314576363",
+    "yhat_upper": "9362.08005924846",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "6859.797210766459",
+    "yhat_lower": "4396.416905972021",
+    "yhat_upper": "9302.79494488976",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "6969.730410899287",
+    "yhat_lower": "4718.373332213552",
+    "yhat_upper": "9268.296791511477",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "5960.930180439958",
+    "yhat_lower": "3463.240877963534",
+    "yhat_upper": "8380.57827499484",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "6452.191522027238",
+    "yhat_lower": "4131.601219410147",
+    "yhat_upper": "8780.020653500831",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "6578.778488583632",
+    "yhat_lower": "4276.341270912444",
+    "yhat_upper": "8891.55505876485",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "7098.5294259596385",
+    "yhat_lower": "4627.489941892012",
+    "yhat_upper": "9533.471001214792",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "6992.8200685371885",
+    "yhat_lower": "4591.6842298022475",
+    "yhat_upper": "9232.282957286858",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "5726.364947319659",
+    "yhat_lower": "3054.186164918669",
+    "yhat_upper": "8100.299901906704",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "7057.418019204215",
+    "yhat_lower": "4786.053339722879",
+    "yhat_upper": "9392.088797627915",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "7126.481856746181",
+    "yhat_lower": "4588.013022998535",
+    "yhat_upper": "9457.67458064738",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "6634.492148971553",
+    "yhat_lower": "4268.24510679625",
+    "yhat_upper": "9109.797468434057",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "6913.415603866037",
+    "yhat_lower": "4524.504086510359",
+    "yhat_upper": "9514.683158947058",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "6629.799929790974",
+    "yhat_lower": "4284.299431989112",
+    "yhat_upper": "9167.659709756459",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "6839.007275648324",
+    "yhat_lower": "4284.303839123576",
+    "yhat_upper": "9196.417810404415",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "6135.671743844649",
+    "yhat_lower": "3676.3852731271095",
+    "yhat_upper": "8497.339625891878",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "5893.416525507067",
+    "yhat_lower": "3544.446493139065",
+    "yhat_upper": "8229.944815353814",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "6487.767379152857",
+    "yhat_lower": "4136.425410119702",
+    "yhat_upper": "8939.312214250926",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "6548.8658379117205",
+    "yhat_lower": "4211.97266635127",
+    "yhat_upper": "8952.4538825845",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "6805.320776382632",
+    "yhat_lower": "4565.435557512948",
+    "yhat_upper": "9275.712443757",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "5877.9602175714035",
+    "yhat_lower": "3574.208462427959",
+    "yhat_upper": "8349.091746719032",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "6841.658230192657",
+    "yhat_lower": "4477.351071064889",
+    "yhat_upper": "9493.016362907636",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "7091.115066610079",
+    "yhat_lower": "4711.884282843081",
+    "yhat_upper": "9586.589027785665",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "6580.351471839776",
+    "yhat_lower": "4291.456299494681",
+    "yhat_upper": "8922.590323233233",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "6676.888598297828",
+    "yhat_lower": "4421.783127221585",
+    "yhat_upper": "9047.819824872213",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "6436.22294025824",
+    "yhat_lower": "4160.836879175937",
+    "yhat_upper": "8779.57450802519",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "6613.048390102912",
+    "yhat_lower": "4195.594658540447",
+    "yhat_upper": "9043.250360180285",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "5803.701843691713",
+    "yhat_lower": "3358.1489628376003",
+    "yhat_upper": "8272.821140661208",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "5806.1682674957665",
+    "yhat_lower": "3585.9869352207115",
+    "yhat_upper": "8225.376228632296",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "6246.340223731996",
+    "yhat_lower": "3942.416435009279",
+    "yhat_upper": "8771.526565124524",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "6461.5961606981045",
+    "yhat_lower": "4223.273607659254",
+    "yhat_upper": "8772.641533431539",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "6600.236477889906",
+    "yhat_lower": "4288.3480837693305",
+    "yhat_upper": "8875.681379637985",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "5556.043403498468",
+    "yhat_lower": "3151.0643426417955",
+    "yhat_upper": "7883.44290941296",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "6640.949326413491",
+    "yhat_lower": "4280.926494150112",
+    "yhat_upper": "9084.007443588882",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "6829.3661789099215",
+    "yhat_lower": "4401.89652812392",
+    "yhat_upper": "9161.460583188818",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "6526.259751278341",
+    "yhat_lower": "4154.073559462378",
+    "yhat_upper": "8953.550597573632",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "6438.116281722009",
+    "yhat_lower": "3924.4250021794264",
+    "yhat_upper": "8815.620942047448",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "6241.620599997003",
+    "yhat_lower": "3760.673069333102",
+    "yhat_upper": "8606.064238544734",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "6385.334785094306",
+    "yhat_lower": "3938.1304089302885",
+    "yhat_upper": "8834.881180007782",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "5474.14652632166",
+    "yhat_lower": "3130.533768317295",
+    "yhat_upper": "7671.902005138143",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "6005.422270168299",
+    "yhat_lower": "3739.592948815274",
+    "yhat_upper": "8375.21459229068",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "6373.596455382987",
+    "yhat_lower": "4117.661913554225",
+    "yhat_upper": "8767.981119558282",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "6391.467781353019",
+    "yhat_lower": "3934.0611172434774",
+    "yhat_upper": "8796.370140020017",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "5234.198056214062",
+    "yhat_lower": "2878.5969639354976",
+    "yhat_upper": "7797.794340848488",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "6441.5912675357395",
+    "yhat_lower": "3907.8599076668793",
+    "yhat_upper": "8714.275135901122",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "6569.878090846166",
+    "yhat_lower": "4069.958104342851",
+    "yhat_upper": "8889.731296283931",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "6472.053605016894",
+    "yhat_lower": "4140.544845164963",
+    "yhat_upper": "8893.571840543998",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "6197.0918090803625",
+    "yhat_lower": "3840.5525691811763",
+    "yhat_upper": "8617.570587581607",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "6155.9371249697015",
+    "yhat_lower": "3708.8387916383326",
+    "yhat_upper": "8510.359892451748",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "5147.13660360797",
+    "yhat_lower": "2744.9036062630416",
+    "yhat_upper": "7407.674605058445",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "5638.397932212561",
+    "yhat_lower": "3308.050942242167",
+    "yhat_upper": "8238.715619190025",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "5764.98488578402",
+    "yhat_lower": "3288.1438324166675",
+    "yhat_upper": "8218.29367602046",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "6284.735810401804",
+    "yhat_lower": "3904.671651932386",
+    "yhat_upper": "8664.45386872398",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "4912.571307454846",
+    "yhat_lower": "2495.800431001115",
+    "yhat_upper": "7149.364747360419",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "6312.688193895509",
+    "yhat_lower": "3807.3909075705956",
+    "yhat_upper": "8765.14601066804",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "5820.698475370843",
+    "yhat_lower": "3503.179526555768",
+    "yhat_upper": "8136.673819412389",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "5816.0062437527395",
+    "yhat_lower": "3542.321257144596",
+    "yhat_upper": "8151.344314080368",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "6025.213588616278",
+    "yhat_lower": "3624.859820130647",
+    "yhat_upper": "8401.651742283162",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "5321.878055851073",
+    "yhat_lower": "2935.9255798693325",
+    "yhat_upper": "7860.430975763864",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "5079.62283652081",
+    "yhat_lower": "2719.5899344748486",
+    "yhat_upper": "7530.537054855079",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "5673.973690109666",
+    "yhat_lower": "3290.37956088356",
+    "yhat_upper": "8056.245091061506",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "5735.072149023725",
+    "yhat_lower": "3274.673405286375",
+    "yhat_upper": "8157.378635356129",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "5991.52708765296",
+    "yhat_lower": "3636.343781270665",
+    "yhat_upper": "8363.16358579874",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "5064.166528995492",
+    "yhat_lower": "2681.330611138866",
+    "yhat_upper": "7469.14810925996",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "6027.864541871668",
+    "yhat_lower": "3601.0190499134383",
+    "yhat_upper": "8356.068182952342",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "6277.321378547887",
+    "yhat_lower": "3835.3820635209872",
+    "yhat_upper": "8536.435420792117",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "5766.557784011543",
+    "yhat_lower": "3304.108733596595",
+    "yhat_upper": "8233.035895234945",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "5863.094910729314",
+    "yhat_lower": "3313.8903450874695",
+    "yhat_upper": "8076.496713066997",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "5622.429252941103",
+    "yhat_lower": "3145.0975981515535",
+    "yhat_upper": "7916.657596627813",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "5799.254703267733",
+    "yhat_lower": "3419.7916350548453",
+    "yhat_upper": "8120.211175485406",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "4992.374581609444",
+    "yhat_lower": "2600.28694109131",
+    "yhat_upper": "7487.23991274739",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "5432.546538326698",
+    "yhat_lower": "3123.094105217221",
+    "yhat_upper": "7633.329707098043",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "5647.802475652359",
+    "yhat_lower": "3406.667395045089",
+    "yhat_upper": "8151.709483227164",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "5786.442793215447",
+    "yhat_lower": "3511.441641676011",
+    "yhat_upper": "8101.2295731851655",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "4742.249719142448",
+    "yhat_lower": "2535.881704989462",
+    "yhat_upper": "7181.46959213951",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "5827.155642387786",
+    "yhat_lower": "3437.449614575488",
+    "yhat_upper": "8164.300755908711",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "6015.572495155208",
+    "yhat_lower": "3653.6007068307213",
+    "yhat_upper": "8402.778455736116",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "5712.466067769512",
+    "yhat_lower": "3444.406224153271",
+    "yhat_upper": "8164.755231010656",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "5624.3225987159185",
+    "yhat_lower": "3256.7492724306294",
+    "yhat_upper": "7950.408963955758",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "5571.541103079385",
+    "yhat_lower": "3176.276581339946",
+    "yhat_upper": "7935.038410408556",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "4660.3528447862545",
+    "yhat_lower": "2268.3454922703086",
+    "yhat_upper": "6971.956685048369",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "4907.401000598636",
+    "yhat_lower": "2655.0955206134545",
+    "yhat_upper": "7511.147182123895",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "5191.628589624853",
+    "yhat_lower": "2875.29771242767",
+    "yhat_upper": "7651.567322195204",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "5559.802775318942",
+    "yhat_lower": "3082.253145557032",
+    "yhat_upper": "7890.663454417186",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "5577.674101784547",
+    "yhat_lower": "3047.688108078961",
+    "yhat_upper": "7907.264048388972",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "4420.4043769556",
+    "yhat_lower": "2127.5020047866096",
+    "yhat_upper": "6752.532220939358",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "5627.797588597607",
+    "yhat_lower": "3112.6211043126564",
+    "yhat_upper": "7939.219447893656",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "5756.084412226692",
+    "yhat_lower": "3372.465123331963",
+    "yhat_upper": "8259.313909476588",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "5658.259926687137",
+    "yhat_lower": "3205.2373102208635",
+    "yhat_upper": "8173.178203973212",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "5383.298131007688",
+    "yhat_lower": "3093.8429044307027",
+    "yhat_upper": "7744.367657070758",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "5232.210547611552",
+    "yhat_lower": "2785.2095353051122",
+    "yhat_upper": "7573.0413203446515",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "5342.143447401261",
+    "yhat_lower": "3022.2272898971387",
+    "yhat_upper": "7682.224009945025",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "4333.342926288592",
+    "yhat_lower": "1884.1735199082004",
+    "yhat_upper": "6737.190622922999",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "4824.604255148986",
+    "yhat_lower": "2514.7234188186867",
+    "yhat_upper": "7256.47812795047",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "4951.191208979144",
+    "yhat_lower": "2457.993021215828",
+    "yhat_upper": "7362.211788066016",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "5470.942134038169",
+    "yhat_lower": "3060.9750617054815",
+    "yhat_upper": "7818.2422420259045",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "5365.232763889895",
+    "yhat_lower": "3057.4189287835184",
+    "yhat_upper": "7802.961576660393",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "4098.777631992605",
+    "yhat_lower": "1662.979230191173",
+    "yhat_upper": "6543.029124447877",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "5429.83069284103",
+    "yhat_lower": "2977.400291105104",
+    "yhat_upper": "7847.003374499322",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "5498.894519346057",
+    "yhat_lower": "3127.4676057979395",
+    "yhat_upper": "8019.05895790141",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "5006.9048012478315",
+    "yhat_lower": "2551.354915450972",
+    "yhat_upper": "7322.657706699435",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "5285.828245106408",
+    "yhat_lower": "2862.90656568794",
+    "yhat_upper": "7675.673123521986",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "5002.212570494123",
+    "yhat_lower": "2728.606821761512",
+    "yhat_upper": "7348.676249418785",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "5211.419915795775",
+    "yhat_lower": "2884.7442225844025",
+    "yhat_upper": "7644.209559854837",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "4508.084383455731",
+    "yhat_lower": "2136.172579764171",
+    "yhat_upper": "6904.469191025518",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "4265.829164562932",
+    "yhat_lower": "1834.5301564524752",
+    "yhat_upper": "6688.775159003006",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "4860.180018590855",
+    "yhat_lower": "2462.7565816134234",
+    "yhat_upper": "7238.019510536903",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "4921.278477719102",
+    "yhat_lower": "2599.6737860933918",
+    "yhat_upper": "7356.965574010109",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "5177.733416572963",
+    "yhat_lower": "2810.6994591891075",
+    "yhat_upper": "7511.1048106305025",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "4250.372858131982",
+    "yhat_lower": "1898.321756391864",
+    "yhat_upper": "6590.194284994436",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "5214.070871230355",
+    "yhat_lower": "3010.506964809365",
+    "yhat_upper": "7670.248532444035",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "5463.527708125159",
+    "yhat_lower": "3083.5810429450357",
+    "yhat_upper": "7828.152346429929",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "4952.764113787307",
+    "yhat_lower": "2686.3434154195565",
+    "yhat_upper": "7317.560427944191",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "5049.301240722827",
+    "yhat_lower": "2705.5685155896754",
+    "yhat_upper": "7382.683428135951",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "4808.635583145259",
+    "yhat_lower": "2383.5203716131664",
+    "yhat_upper": "7084.413661562181",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "4985.461033662539",
+    "yhat_lower": "2605.6834782723586",
+    "yhat_upper": "7408.412492369089",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "4176.114487901893",
+    "yhat_lower": "1852.9657364083998",
+    "yhat_upper": "6472.421150363654",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "4178.580912377358",
+    "yhat_lower": "1822.7977697633155",
+    "yhat_upper": "6544.15147221464",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "4618.752869285737",
+    "yhat_lower": "2245.123439081603",
+    "yhat_upper": "7005.908009415615",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "4834.008806795613",
+    "yhat_lower": "2434.40683696996",
+    "yhat_upper": "7181.818076809387",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "4972.649124549663",
+    "yhat_lower": "2676.3632707233346",
+    "yhat_upper": "7389.66617742082",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "3928.4560507019087",
+    "yhat_lower": "1683.608177642861",
+    "yhat_upper": "6245.193948008076",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "5013.36197417916",
+    "yhat_lower": "2611.3080873175372",
+    "yhat_upper": "7362.00985632098",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "5201.778827178836",
+    "yhat_lower": "3007.955601689473",
+    "yhat_upper": "7478.210842749893",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "4898.6724000019",
+    "yhat_lower": "2624.1708399845443",
+    "yhat_upper": "7318.9407033019625",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "4810.528930948708",
+    "yhat_lower": "2409.155348107737",
+    "yhat_upper": "7242.205139451753",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "4614.033249710722",
+    "yhat_lower": "2012.1217715955327",
+    "yhat_upper": "6757.879164811496",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "4757.747435311823",
+    "yhat_lower": "2394.5209497587884",
+    "yhat_upper": "6979.799650069272",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "3846.5591770190576",
+    "yhat_lower": "1349.1932509422754",
+    "yhat_upper": "6086.163163066941",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "4093.6073328318",
+    "yhat_lower": "1932.161933982478",
+    "yhat_upper": "6434.50951667353",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "4377.834921857002",
+    "yhat_lower": "2123.6780167547845",
+    "yhat_upper": "7085.251050907167",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "4746.009107550613",
+    "yhat_lower": "2374.309269105027",
+    "yhat_upper": "7105.508679434883",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "4763.880434016717",
+    "yhat_lower": "2370.2554322518795",
+    "yhat_upper": "7186.140653485778",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "3606.610709186941",
+    "yhat_lower": "1120.008347322181",
+    "yhat_upper": "5985.106273689755",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "4814.0039208295475",
+    "yhat_lower": "2412.409837520496",
+    "yhat_upper": "7154.167865674332",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "4942.290744459448",
+    "yhat_lower": "2687.8659649483543",
+    "yhat_upper": "7199.0775176408615",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "4844.466258920461",
+    "yhat_lower": "2525.169802156823",
+    "yhat_upper": "7257.813581199051",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "4569.504463239694",
+    "yhat_lower": "2184.187230993821",
+    "yhat_upper": "7054.842628369609",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "4418.416879843617",
+    "yhat_lower": "1904.1210747351668",
+    "yhat_upper": "6735.438867439371",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "4528.349779633808",
+    "yhat_lower": "2080.413739019232",
+    "yhat_upper": "6852.7435597457",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "3519.549258520554",
+    "yhat_lower": "1061.5709785422341",
+    "yhat_upper": "5873.897135283107",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "4010.810587382174",
+    "yhat_lower": "1452.2292993516905",
+    "yhat_upper": "6286.66168632831",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "4137.397541210963",
+    "yhat_lower": "1628.1415909898953",
+    "yhat_upper": "6718.047530085633",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "4657.148466269908",
+    "yhat_lower": "2301.104560030993",
+    "yhat_upper": "7153.780938048166",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "4551.4390961218805",
+    "yhat_lower": "2294.813142484756",
+    "yhat_upper": "6890.919233004471",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "3284.9839642238485",
+    "yhat_lower": "784.17578487426",
+    "yhat_upper": "5663.508984156381",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "4616.037025073112",
+    "yhat_lower": "2219.0169148605178",
+    "yhat_upper": "6931.0424580678855",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "4685.100851578689",
+    "yhat_lower": "2283.1983747796935",
+    "yhat_upper": "7140.906060266177",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "4193.11113348119",
+    "yhat_lower": "1813.612685819664",
+    "yhat_upper": "6673.79614723146",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "4472.034577338385",
+    "yhat_lower": "2010.8077628543606",
+    "yhat_upper": "6703.91880980265",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "4188.418902725879",
+    "yhat_lower": "1851.3306236052856",
+    "yhat_upper": "6598.707759353084",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "4397.626248028115",
+    "yhat_lower": "2031.9773807756922",
+    "yhat_upper": "7029.312406006873",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "3694.2907156876618",
+    "yhat_lower": "1430.29295424547",
+    "yhat_upper": "5847.385775694536",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "3452.0354967954304",
+    "yhat_lower": "1084.322768687949",
+    "yhat_upper": "5874.265985824915",
+    "area_id": "459",
+    "name_en": "Dubai Investment Park Second"
+  }
+]

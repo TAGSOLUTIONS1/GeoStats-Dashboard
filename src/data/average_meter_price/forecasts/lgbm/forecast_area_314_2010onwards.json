@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-08-01",
+    "yhat": "6448.494859472222",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "9235.496979246123",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "3582.789183702427",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "8554.540690698961",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "6001.935197878167",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "12357.684656340449",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "5271.949618113192",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "10857.284331132125",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "5235.297870734545",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "12621.303955637537",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "3631.102143148201",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "11653.857950142883",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "4832.3471120336235",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "11314.056341265927",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "4283.236421974609",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "10764.945651206912",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "4283.236421974609",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "11976.828304826657",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "5495.11907559435",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "11976.828304826657",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "6044.229765653365",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "12525.938994885671",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "4832.3471120336235",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "11314.056341265927",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "4832.3471120336235",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "11314.056341265927",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "4283.236421974609",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "10764.945651206912",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "4283.236421974609",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "11976.828304826657",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "5495.11907559435",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "11976.828304826657",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "6044.229765653365",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "12525.938994885671",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "4832.3471120336235",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "11314.056341265927",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "4832.3471120336235",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "11314.056341265927",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "4283.236421974609",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "10764.945651206912",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "4283.236421974609",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "11976.828304826657",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "5495.11907559435",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "11976.828304826657",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "6044.229765653365",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "12525.938994885671",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "4832.3471120336235",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "11314.056341265927",
+    "area_id": "314",
+    "name_en": "Al Saffa Second"
+  }
+]

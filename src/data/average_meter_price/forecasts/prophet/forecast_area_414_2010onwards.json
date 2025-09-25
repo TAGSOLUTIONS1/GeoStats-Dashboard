@@ -1,0 +1,1426 @@
+[
+  {
+    "ds": "2010-11-01",
+    "yhat": "3873.8160365495432",
+    "yhat_lower": "1249.9784723742464",
+    "yhat_upper": "6469.606245953675",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2011-01-01",
+    "yhat": "3645.4171652582136",
+    "yhat_lower": "645.2988996000938",
+    "yhat_upper": "6301.943627621748",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "3166.7440463603716",
+    "yhat_lower": "272.23731073955577",
+    "yhat_upper": "5917.073633537511",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "4530.162924657675",
+    "yhat_lower": "1925.4775376421003",
+    "yhat_upper": "7153.556799225423",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "4989.083029488135",
+    "yhat_lower": "2335.450069916424",
+    "yhat_upper": "7612.0928961721775",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "6276.397644430978",
+    "yhat_lower": "3571.367246320644",
+    "yhat_upper": "8969.055878414443",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "5761.421367248598",
+    "yhat_lower": "3205.4095894876386",
+    "yhat_upper": "8425.337670979658",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "5571.584120162638",
+    "yhat_lower": "2645.3884376065807",
+    "yhat_upper": "8317.396900045878",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "6497.777525988741",
+    "yhat_lower": "3609.8779923296756",
+    "yhat_upper": "9073.232082667355",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "6655.1279846542575",
+    "yhat_lower": "3910.865716982606",
+    "yhat_upper": "9425.53879204719",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "6786.011671434001",
+    "yhat_lower": "3861.489303960017",
+    "yhat_upper": "9469.789748809937",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "6637.411350266015",
+    "yhat_lower": "4024.1926086698495",
+    "yhat_upper": "9473.8508478279",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "6371.392398898093",
+    "yhat_lower": "3556.5802771489134",
+    "yhat_upper": "8826.518409748118",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "8244.918023084618",
+    "yhat_lower": "5747.637635504007",
+    "yhat_upper": "10999.88955441951",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "7855.725469627296",
+    "yhat_lower": "5199.870027783266",
+    "yhat_upper": "10569.223260478244",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "8101.973667734627",
+    "yhat_lower": "5485.286660195223",
+    "yhat_upper": "10899.865216401937",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "8405.301163880196",
+    "yhat_lower": "5801.049405980864",
+    "yhat_upper": "11352.422103885432",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "7868.225539574961",
+    "yhat_lower": "5274.967959739153",
+    "yhat_upper": "10610.42496689095",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "7692.811977122729",
+    "yhat_lower": "5086.206487158901",
+    "yhat_upper": "10452.691384434907",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "8180.399101513684",
+    "yhat_lower": "5476.416361716783",
+    "yhat_upper": "10900.148378881626",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "7368.939155894165",
+    "yhat_lower": "4793.9764830057875",
+    "yhat_upper": "10211.452422833674",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "9058.489820881068",
+    "yhat_lower": "6580.8098094920015",
+    "yhat_upper": "11780.302892740063",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "9545.367328539995",
+    "yhat_lower": "6842.483817575793",
+    "yhat_upper": "12273.50750528554",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "8701.380609526068",
+    "yhat_lower": "6121.662747702953",
+    "yhat_upper": "11446.010988673",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "9246.740421525246",
+    "yhat_lower": "6593.252660597877",
+    "yhat_upper": "11919.501560263314",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "8842.329519070641",
+    "yhat_lower": "6089.267474565404",
+    "yhat_upper": "11706.314342605247",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "9016.503457071805",
+    "yhat_lower": "6491.521674474357",
+    "yhat_upper": "11829.69805616947",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "9345.18287763266",
+    "yhat_lower": "6478.54619514362",
+    "yhat_upper": "11984.607716268698",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "8783.370690629232",
+    "yhat_lower": "6042.158672331697",
+    "yhat_upper": "11379.63572989835",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "8601.515845524107",
+    "yhat_lower": "5945.13172532173",
+    "yhat_upper": "11150.498849162428",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "9020.16736493407",
+    "yhat_lower": "6437.3090831956115",
+    "yhat_upper": "11968.039961727849",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "9444.660753068676",
+    "yhat_lower": "6965.994596236168",
+    "yhat_upper": "12106.705701152341",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "8297.479976640705",
+    "yhat_lower": "5364.164580774186",
+    "yhat_upper": "11103.32674307758",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "9834.293421181297",
+    "yhat_lower": "6998.00524014106",
+    "yhat_upper": "12542.364420630693",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "10302.439831196454",
+    "yhat_lower": "7553.671997531462",
+    "yhat_upper": "12924.045425524733",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "9468.166040900871",
+    "yhat_lower": "7091.779932674117",
+    "yhat_upper": "12299.40614078831",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "9926.401017514347",
+    "yhat_lower": "7208.872365252796",
+    "yhat_upper": "12726.576586534604",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "9503.280322124501",
+    "yhat_lower": "7016.114865760674",
+    "yhat_upper": "12411.06298105963",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "9805.167576570193",
+    "yhat_lower": "7143.812336877587",
+    "yhat_upper": "12371.010073657633",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "9972.459899694424",
+    "yhat_lower": "7338.972824704166",
+    "yhat_upper": "12562.174541319584",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "9410.906313791602",
+    "yhat_lower": "6751.78752431189",
+    "yhat_upper": "12179.546344674836",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "9174.491757985063",
+    "yhat_lower": "6452.845506068521",
+    "yhat_upper": "11691.917753484006",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "9613.233876682509",
+    "yhat_lower": "6866.295606068103",
+    "yhat_upper": "12487.089381801537",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "9999.14503049557",
+    "yhat_lower": "7250.6134057717545",
+    "yhat_upper": "12842.931706620171",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "8798.24041833555",
+    "yhat_lower": "6000.276497784802",
+    "yhat_upper": "11473.822898341947",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "10355.02756972604",
+    "yhat_lower": "7789.051040978529",
+    "yhat_upper": "13074.366344571627",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "10802.728176768678",
+    "yhat_lower": "8104.9813374969835",
+    "yhat_upper": "13368.337624881753",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "9936.316855535839",
+    "yhat_lower": "7180.853507312034",
+    "yhat_upper": "12470.5777873991",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "10395.726786288309",
+    "yhat_lower": "7656.479560036606",
+    "yhat_upper": "13082.342365622924",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "9952.004083767206",
+    "yhat_lower": "7146.153679919898",
+    "yhat_upper": "12746.428948649249",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "10187.374862556628",
+    "yhat_lower": "7449.457184504511",
+    "yhat_upper": "12852.186633956191",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "10385.15693286585",
+    "yhat_lower": "7721.766419145868",
+    "yhat_upper": "13255.14229059766",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "9800.00351145123",
+    "yhat_lower": "7192.962731776836",
+    "yhat_upper": "12444.375089550613",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "9558.234327581387",
+    "yhat_lower": "6666.955439485717",
+    "yhat_upper": "12374.923747872448",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "10353.75563554467",
+    "yhat_lower": "7529.44550467897",
+    "yhat_upper": "13076.765668842172",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "9114.815533458892",
+    "yhat_lower": "6337.202798069118",
+    "yhat_upper": "11767.808767616614",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "10705.711592496127",
+    "yhat_lower": "8025.090134752968",
+    "yhat_upper": "13417.664817817382",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "11148.177742445348",
+    "yhat_lower": "8363.806956505618",
+    "yhat_upper": "13772.472708722662",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "10266.667459394774",
+    "yhat_lower": "7468.7396755091295",
+    "yhat_upper": "13187.95214386753",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "10743.267199533133",
+    "yhat_lower": "8050.717132153011",
+    "yhat_upper": "13583.666336717084",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "10294.300336797722",
+    "yhat_lower": "7560.534113294818",
+    "yhat_upper": "12998.451237472858",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "10478.781748650597",
+    "yhat_lower": "7728.985494107823",
+    "yhat_upper": "13216.111706922564",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "10722.334935518124",
+    "yhat_lower": "8146.915171740194",
+    "yhat_upper": "13546.074293095964",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "10128.792648222054",
+    "yhat_lower": "7589.885714320908",
+    "yhat_upper": "13061.342929164986",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "9896.912422778667",
+    "yhat_lower": "7035.137576004573",
+    "yhat_upper": "12566.5655610704",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "10333.497399952461",
+    "yhat_lower": "7686.196479759396",
+    "yhat_upper": "13120.580808380211",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "10678.002795510109",
+    "yhat_lower": "7929.997186634018",
+    "yhat_upper": "13406.564556616177",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "9410.925633629406",
+    "yhat_lower": "6749.560485353137",
+    "yhat_upper": "11974.459080104843",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "11044.009635646204",
+    "yhat_lower": "8339.66176313817",
+    "yhat_upper": "13679.325062518077",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "11483.704570018037",
+    "yhat_lower": "8665.838321790801",
+    "yhat_upper": "14058.718410959224",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "10590.962525273995",
+    "yhat_lower": "7961.327521939626",
+    "yhat_upper": "13259.144335892408",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "11087.567015368486",
+    "yhat_lower": "8445.685615049568",
+    "yhat_upper": "13738.425681878702",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "10635.97354332872",
+    "yhat_lower": "7832.403723229643",
+    "yhat_upper": "13252.472187480833",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "10770.025452277243",
+    "yhat_lower": "8066.469603125889",
+    "yhat_upper": "13581.69186098291",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "11059.877102787379",
+    "yhat_lower": "8435.640478729369",
+    "yhat_upper": "13882.275459424949",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "10457.942881499195",
+    "yhat_lower": "7884.541552195385",
+    "yhat_upper": "13154.853424799483",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "10235.966002109351",
+    "yhat_lower": "7565.913862304302",
+    "yhat_upper": "12952.134902289741",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "10625.313476279509",
+    "yhat_lower": "7832.141439831274",
+    "yhat_upper": "13280.346765636972",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "11018.481850536575",
+    "yhat_lower": "8533.918423812449",
+    "yhat_upper": "13554.488585335193",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "9840.986545106962",
+    "yhat_lower": "7185.823650042721",
+    "yhat_upper": "12460.205451471727",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "11346.47497634635",
+    "yhat_lower": "8532.971434264002",
+    "yhat_upper": "14239.246948464051",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "11792.434186138467",
+    "yhat_lower": "9016.126300953216",
+    "yhat_upper": "14463.18075658218",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "10935.23362227894",
+    "yhat_lower": "8314.34254936156",
+    "yhat_upper": "13527.089106847787",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "11370.54182609027",
+    "yhat_lower": "8490.019463070197",
+    "yhat_upper": "14139.965682280525",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "10925.233931214552",
+    "yhat_lower": "8061.815460936307",
+    "yhat_upper": "13850.553496030849",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "11211.90673695417",
+    "yhat_lower": "8608.781083460997",
+    "yhat_upper": "13774.392043544478",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "11364.475400040981",
+    "yhat_lower": "8643.036633591166",
+    "yhat_upper": "13864.68878334451",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "10787.707365432245",
+    "yhat_lower": "8215.804158418743",
+    "yhat_upper": "13641.215204765414",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "10536.078363040062",
+    "yhat_lower": "7840.911697872439",
+    "yhat_upper": "13228.310728710956",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "10967.19711156348",
+    "yhat_lower": "8270.245986895718",
+    "yhat_upper": "13436.109391803513",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "11344.668105541377",
+    "yhat_lower": "8771.782147180158",
+    "yhat_upper": "14158.09613015563",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "10135.595596766729",
+    "yhat_lower": "7364.429497221636",
+    "yhat_upper": "12882.365245372444",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "11683.942597402074",
+    "yhat_lower": "8811.067235158815",
+    "yhat_upper": "14457.762087925545",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "12128.49873471798",
+    "yhat_lower": "9434.571614464385",
+    "yhat_upper": "14854.903692221755",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "11258.83812810118",
+    "yhat_lower": "8659.808437157237",
+    "yhat_upper": "13991.099232870778",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "11268.131601222074",
+    "yhat_lower": "8556.140738088154",
+    "yhat_upper": "13892.696319683148",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "11503.501313309618",
+    "yhat_lower": "8884.789315942082",
+    "yhat_upper": "14318.03128768227",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "11701.282351327",
+    "yhat_lower": "8752.53344921519",
+    "yhat_upper": "14424.015936937842",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "11116.127863210884",
+    "yhat_lower": "8617.27407967771",
+    "yhat_upper": "13906.187059136986",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "10874.357612639213",
+    "yhat_lower": "8265.031285651174",
+    "yhat_upper": "13723.444199668429",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "11308.638822003606",
+    "yhat_lower": "8749.600771716105",
+    "yhat_upper": "13898.684880360364",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "11669.876894238112",
+    "yhat_lower": "8977.085315962611",
+    "yhat_upper": "14334.470861678346",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "10430.93658246595",
+    "yhat_lower": "7975.659566380859",
+    "yhat_upper": "13094.853673784008",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "12021.832424826773",
+    "yhat_lower": "9415.465828931892",
+    "yhat_upper": "14771.367910094634",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "12464.298362920821",
+    "yhat_lower": "9798.071432689727",
+    "yhat_upper": "15089.837362066812",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "11582.787860953214",
+    "yhat_lower": "8665.300429322004",
+    "yhat_upper": "14574.170924992703",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "12059.387621389664",
+    "yhat_lower": "9366.102001586167",
+    "yhat_upper": "14727.377658412566",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "11610.420778297297",
+    "yhat_lower": "8786.930302772298",
+    "yhat_upper": "14362.191034316607",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "11794.902210448097",
+    "yhat_lower": "8934.682082029742",
+    "yhat_upper": "14597.394865576489",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "12038.45541695886",
+    "yhat_lower": "9339.220263141511",
+    "yhat_upper": "14884.773365166275",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "11444.913151184837",
+    "yhat_lower": "8752.32497840978",
+    "yhat_upper": "14158.224645844619",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "11213.032947263726",
+    "yhat_lower": "8422.121433497008",
+    "yhat_upper": "13978.855119157413",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "11649.617943876421",
+    "yhat_lower": "8873.932279510438",
+    "yhat_upper": "14361.97318036809",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "11994.123360955997",
+    "yhat_lower": "9419.380499956373",
+    "yhat_upper": "14739.221482895064",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "10727.04621988259",
+    "yhat_lower": "7904.174774210845",
+    "yhat_upper": "13414.345520938014",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "12360.13024340042",
+    "yhat_lower": "9838.52664459056",
+    "yhat_upper": "14943.134948773793",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "12799.825198579874",
+    "yhat_lower": "10114.870279612565",
+    "yhat_upper": "15397.100637426644",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "11907.083175336878",
+    "yhat_lower": "9202.2787321221",
+    "yhat_upper": "14756.961751909736",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "12403.687683107059",
+    "yhat_lower": "9854.50613637783",
+    "yhat_upper": "15206.508503057124",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "11952.09422817274",
+    "yhat_lower": "9267.124738844046",
+    "yhat_upper": "14712.761154452675",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "12086.146154796992",
+    "yhat_lower": "9237.234950254597",
+    "yhat_upper": "14801.622756745996",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "12375.99782241253",
+    "yhat_lower": "9773.577656689748",
+    "yhat_upper": "15117.354890682542",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "11774.063624032167",
+    "yhat_lower": "9162.53511724454",
+    "yhat_upper": "14655.005290992718",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "11552.08676755006",
+    "yhat_lower": "8781.737816132983",
+    "yhat_upper": "14210.111613950463",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "11941.43426314983",
+    "yhat_lower": "9212.61552070798",
+    "yhat_upper": "14697.484176795211",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "12334.602660314631",
+    "yhat_lower": "9919.830677735756",
+    "yhat_upper": "15138.502776559857",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "11157.107376496737",
+    "yhat_lower": "8379.00266788627",
+    "yhat_upper": "13837.674446040426",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "12662.59583006758",
+    "yhat_lower": "9977.892989012098",
+    "yhat_upper": "15197.953936858472",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "13108.555061471143",
+    "yhat_lower": "10297.592217245598",
+    "yhat_upper": "15776.174979914029",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "12251.354519943727",
+    "yhat_lower": "9499.129899210924",
+    "yhat_upper": "15036.771791904592",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "12686.662745324807",
+    "yhat_lower": "10104.344683161133",
+    "yhat_upper": "15352.109475801937",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "12241.354871323212",
+    "yhat_lower": "9480.04803929594",
+    "yhat_upper": "14978.520321569984",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "12528.027698633268",
+    "yhat_lower": "9837.555855422366",
+    "yhat_upper": "15220.764812527885",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "12680.596382594062",
+    "yhat_lower": "9646.799813728643",
+    "yhat_upper": "15289.203043169879",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "12103.82836955543",
+    "yhat_lower": "9440.875850561024",
+    "yhat_upper": "14882.86047226473",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "11852.199386613138",
+    "yhat_lower": "9165.339884389767",
+    "yhat_upper": "14416.118020172815",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "12283.318152704634",
+    "yhat_lower": "9660.709097747615",
+    "yhat_upper": "14788.663654814787",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "12660.789166132443",
+    "yhat_lower": "10094.453684696176",
+    "yhat_upper": "15431.06734144301",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "11451.716676180598",
+    "yhat_lower": "8833.202715340178",
+    "yhat_upper": "14098.87971400889",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "13000.063687185677",
+    "yhat_lower": "10302.183188499166",
+    "yhat_upper": "15759.530995609806",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "13444.619834537109",
+    "yhat_lower": "10716.02828502712",
+    "yhat_upper": "16228.611983303443",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "12574.95923829008",
+    "yhat_lower": "9953.838947805398",
+    "yhat_upper": "15372.280855835073",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "13031.11989402841",
+    "yhat_lower": "10364.786437821589",
+    "yhat_upper": "15760.746157829539",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "12584.252731816136",
+    "yhat_lower": "9676.221071080252",
+    "yhat_upper": "15356.786556694648",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "12819.622443664637",
+    "yhat_lower": "10031.783301699514",
+    "yhat_upper": "15463.759405143486",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "13017.403481450137",
+    "yhat_lower": "10373.224812628463",
+    "yhat_upper": "15765.838209697478",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "12432.248993094705",
+    "yhat_lower": "9702.931637501375",
+    "yhat_upper": "15247.477078790744",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "12190.478742283778",
+    "yhat_lower": "9366.83244069293",
+    "yhat_upper": "14840.407775901182",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "12624.759949623978",
+    "yhat_lower": "9805.79871151112",
+    "yhat_upper": "15276.041744407567",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "12985.998019617387",
+    "yhat_lower": "10229.092057941501",
+    "yhat_upper": "15543.216454669686",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "11747.05770567646",
+    "yhat_lower": "8964.11969420057",
+    "yhat_upper": "14486.142129533988",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "13337.953545796729",
+    "yhat_lower": "10471.01263441066",
+    "yhat_upper": "15925.150743758752",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "13780.41948389052",
+    "yhat_lower": "11129.726798776122",
+    "yhat_upper": "16293.454751438956",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "12898.908981922914",
+    "yhat_lower": "10114.759136303459",
+    "yhat_upper": "15393.460082163505",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "13375.508742359401",
+    "yhat_lower": "10618.38822754729",
+    "yhat_upper": "16237.380467283409",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "12926.54189926713",
+    "yhat_lower": "10077.852498185219",
+    "yhat_upper": "15398.868165191934",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "13111.02333141806",
+    "yhat_lower": "10384.26836716759",
+    "yhat_upper": "15770.201750052025",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "13354.576537928746",
+    "yhat_lower": "10544.482991333814",
+    "yhat_upper": "16109.906439228818",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "12761.034272154579",
+    "yhat_lower": "10337.735660668743",
+    "yhat_upper": "15477.381221175345",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "12529.1540682332",
+    "yhat_lower": "9917.799409437588",
+    "yhat_upper": "15449.705396488189",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "12965.73906484622",
+    "yhat_lower": "10139.45373563532",
+    "yhat_upper": "15671.9089257189",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "13310.244481925829",
+    "yhat_lower": "10898.311682155563",
+    "yhat_upper": "16164.874307450287",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "12043.167340852537",
+    "yhat_lower": "9253.571020083467",
+    "yhat_upper": "14869.391332926045",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "13676.251364370248",
+    "yhat_lower": "10827.704546558096",
+    "yhat_upper": "16299.899618506632",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "14115.9463195496",
+    "yhat_lower": "11540.939240609627",
+    "yhat_upper": "16889.387184396",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "13223.204296306581",
+    "yhat_lower": "10380.472808132135",
+    "yhat_upper": "15872.34596060743",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "13719.808804076638",
+    "yhat_lower": "10998.657648521297",
+    "yhat_upper": "16517.857221139624",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "13268.215349142441",
+    "yhat_lower": "10357.535373301953",
+    "yhat_upper": "15979.414943221736",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "13402.26727576682",
+    "yhat_lower": "10692.173449035276",
+    "yhat_upper": "15993.565015165046",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "13692.118943382284",
+    "yhat_lower": "11145.104836975772",
+    "yhat_upper": "16328.017286085405",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "13090.184745001898",
+    "yhat_lower": "10375.73954824521",
+    "yhat_upper": "15580.602837838635",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "12868.207888519824",
+    "yhat_lower": "10147.132723710636",
+    "yhat_upper": "15468.493098863955",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "13257.555384119643",
+    "yhat_lower": "10786.984914294764",
+    "yhat_upper": "16073.835970553735",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "13650.723781284552",
+    "yhat_lower": "10795.557032672234",
+    "yhat_upper": "16197.781651269339",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "12473.228497466633",
+    "yhat_lower": "9617.678973422464",
+    "yhat_upper": "15308.792289436757",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "13978.716951037197",
+    "yhat_lower": "11234.310911501188",
+    "yhat_upper": "16556.03377811092",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "14424.67618244089",
+    "yhat_lower": "11760.856089065635",
+    "yhat_upper": "16916.797062655274",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "13567.475640913326",
+    "yhat_lower": "10749.327289857645",
+    "yhat_upper": "16115.004969201973",
+    "area_id": "414",
+    "name_en": "Al Barshaa South Second"
+  }
+]

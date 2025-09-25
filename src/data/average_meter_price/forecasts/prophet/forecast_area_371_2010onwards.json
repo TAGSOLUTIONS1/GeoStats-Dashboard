@@ -1,0 +1,690 @@
+[
+  {
+    "ds": "2011-01-01",
+    "yhat": "5435.975262016426",
+    "yhat_lower": "1635.2563164228156",
+    "yhat_upper": "9332.177432661512",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "26068.539177296436",
+    "yhat_lower": "22357.08080508425",
+    "yhat_upper": "30015.331198280284",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "27494.200088970993",
+    "yhat_lower": "23435.694248749576",
+    "yhat_upper": "31279.79740644284",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "20976.309575779807",
+    "yhat_lower": "17046.022696909095",
+    "yhat_upper": "24745.12714801544",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "27345.510342625414",
+    "yhat_lower": "23490.169730472953",
+    "yhat_upper": "31439.371839231113",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "26469.30302600852",
+    "yhat_lower": "22479.025295397783",
+    "yhat_upper": "30190.77541930427",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "29535.562196724175",
+    "yhat_lower": "25695.436547239144",
+    "yhat_upper": "33387.89642796743",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "27153.59498853445",
+    "yhat_lower": "23397.12573406966",
+    "yhat_upper": "31343.791083073083",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "27138.35708887272",
+    "yhat_lower": "22885.046704316985",
+    "yhat_upper": "30964.767593162313",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "27447.27746059767",
+    "yhat_lower": "23467.60385490401",
+    "yhat_upper": "31416.47103728468",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "27532.88570816624",
+    "yhat_lower": "23550.236304750735",
+    "yhat_upper": "31540.039497511705",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "27438.285508404304",
+    "yhat_lower": "23384.083580251154",
+    "yhat_upper": "31209.85084779243",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "31040.204220410924",
+    "yhat_lower": "26614.009621552614",
+    "yhat_upper": "34863.77903505109",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "32694.560517017955",
+    "yhat_lower": "29083.55400951019",
+    "yhat_upper": "36801.10013745984",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "29494.83601505606",
+    "yhat_lower": "25425.56904261128",
+    "yhat_upper": "33408.791762535395",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "23329.009129641578",
+    "yhat_lower": "19380.959436656874",
+    "yhat_upper": "27106.37781886029",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "26662.672059238153",
+    "yhat_lower": "22876.279109344247",
+    "yhat_upper": "30639.63397584848",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "30776.87279701055",
+    "yhat_lower": "26704.94035560483",
+    "yhat_upper": "34515.912716264334",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "31685.469168129024",
+    "yhat_lower": "27873.612978756093",
+    "yhat_upper": "35356.27104912646",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "30820.57448240466",
+    "yhat_lower": "26911.07353035868",
+    "yhat_upper": "34552.250406244726",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "27827.62882174112",
+    "yhat_lower": "24068.60752061822",
+    "yhat_upper": "31795.17878850878",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "29675.543139150537",
+    "yhat_lower": "25973.15404393311",
+    "yhat_upper": "33783.698237489334",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "29308.73631402444",
+    "yhat_lower": "25548.64726025272",
+    "yhat_upper": "33251.964000349806",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "28846.11555384211",
+    "yhat_lower": "24815.46496666268",
+    "yhat_upper": "32776.56152543644",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "35231.14238029996",
+    "yhat_lower": "31676.94783994788",
+    "yhat_upper": "39285.11782735863",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "34916.62052966017",
+    "yhat_lower": "30901.98569101194",
+    "yhat_upper": "38799.059313524114",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "31475.72142817833",
+    "yhat_lower": "27587.191700789506",
+    "yhat_upper": "34957.37984843529",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "25653.674385603543",
+    "yhat_lower": "21952.800716891987",
+    "yhat_upper": "29692.607984856026",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "26009.21423221469",
+    "yhat_lower": "22067.026479889802",
+    "yhat_upper": "29628.630555134205",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "35128.37719079014",
+    "yhat_lower": "31010.542400850023",
+    "yhat_upper": "38905.13902309061",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "33833.36834750271",
+    "yhat_lower": "29704.872403990466",
+    "yhat_upper": "37896.07962980137",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "34464.55901129547",
+    "yhat_lower": "30597.473726464643",
+    "yhat_upper": "38446.82730671386",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "34446.18111755597",
+    "yhat_lower": "30783.236591115725",
+    "yhat_upper": "38443.71112192016",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "31763.79347159967",
+    "yhat_lower": "27697.634643879926",
+    "yhat_upper": "35657.5530628088",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "32746.026764807284",
+    "yhat_lower": "29132.55355881353",
+    "yhat_upper": "36514.221851464376",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "33486.1841063548",
+    "yhat_lower": "29519.980771827468",
+    "yhat_upper": "37348.13715244807",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "31439.384147077733",
+    "yhat_lower": "27797.88092540195",
+    "yhat_upper": "35273.96205093518",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "36899.61175850038",
+    "yhat_lower": "33014.85620997583",
+    "yhat_upper": "40814.85161284634",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "34223.42466297741",
+    "yhat_lower": "30130.73023384091",
+    "yhat_upper": "38184.7427920015",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "27344.639496548083",
+    "yhat_lower": "23561.658825366478",
+    "yhat_upper": "31294.26917792865",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "36804.71470586042",
+    "yhat_lower": "32888.94586899967",
+    "yhat_upper": "40481.47920158198",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "30957.32598539807",
+    "yhat_lower": "27191.52574551662",
+    "yhat_upper": "34809.49548459245",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "36134.46408460314",
+    "yhat_lower": "32268.440691538097",
+    "yhat_upper": "39725.531984928064",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "32215.027725548884",
+    "yhat_lower": "28441.601784394403",
+    "yhat_upper": "36287.54333970517",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "35178.263447462145",
+    "yhat_lower": "31260.6944531471",
+    "yhat_upper": "39269.16251249773",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "33976.76828036809",
+    "yhat_lower": "30416.488122397892",
+    "yhat_upper": "37831.94674616361",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "34512.10782769291",
+    "yhat_lower": "30510.940964093246",
+    "yhat_upper": "38639.88355820911",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "34818.35980678702",
+    "yhat_lower": "30611.14398096791",
+    "yhat_upper": "38756.74629017368",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "35608.73666132292",
+    "yhat_lower": "31816.164860792505",
+    "yhat_upper": "39468.0647971127",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "39188.55302221231",
+    "yhat_lower": "35199.523745352046",
+    "yhat_upper": "42957.29177806799",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "36244.01978150571",
+    "yhat_lower": "32197.415126129916",
+    "yhat_upper": "40232.1251915271",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "29726.128962783994",
+    "yhat_lower": "25521.64716799074",
+    "yhat_upper": "33374.94490487165",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "36095.329414388856",
+    "yhat_lower": "32077.85711946847",
+    "yhat_upper": "40073.376152550205",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "35219.121792663864",
+    "yhat_lower": "31221.654032059632",
+    "yhat_upper": "39372.908279186224",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "38285.3806484307",
+    "yhat_lower": "34460.69033557045",
+    "yhat_upper": "42075.32485216507",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "35903.413125874",
+    "yhat_lower": "32170.98330923192",
+    "yhat_upper": "40027.99088549259",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "35888.17494264671",
+    "yhat_lower": "31970.74952882637",
+    "yhat_upper": "39945.9298143803",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "36197.09500028364",
+    "yhat_lower": "32359.74500722487",
+    "yhat_upper": "40130.26214948904",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "36282.70297787064",
+    "yhat_lower": "32186.75434607009",
+    "yhat_upper": "39906.48187465803",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "36188.102775244624",
+    "yhat_lower": "32299.627817669792",
+    "yhat_upper": "39954.75137072512",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "39790.02148445712",
+    "yhat_lower": "35919.961915290136",
+    "yhat_upper": "43682.78945862161",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "41444.37777903562",
+    "yhat_lower": "37605.46484239984",
+    "yhat_upper": "45360.92289799589",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "38244.653275490244",
+    "yhat_lower": "34452.92167697433",
+    "yhat_upper": "42435.89367162148",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "32078.826389108366",
+    "yhat_lower": "28535.42299736763",
+    "yhat_upper": "36157.22954546185",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "35412.48931763227",
+    "yhat_lower": "31705.962542501227",
+    "yhat_upper": "39284.34997491123",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "39526.690054807834",
+    "yhat_lower": "35642.92030772899",
+    "yhat_upper": "43221.89831651766",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "40435.28642535615",
+    "yhat_lower": "36444.55814690094",
+    "yhat_upper": "44574.9213035873",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "39570.391739041894",
+    "yhat_lower": "35818.130604101825",
+    "yhat_upper": "43461.46597914628",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "36577.446077684115",
+    "yhat_lower": "32852.962450964216",
+    "yhat_upper": "40539.96672652834",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "38425.36039453699",
+    "yhat_lower": "34429.519023762674",
+    "yhat_upper": "42165.99600717514",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "38058.553568756186",
+    "yhat_lower": "33961.488176466635",
+    "yhat_upper": "42097.83317610482",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "37595.93280779203",
+    "yhat_lower": "33708.943631176364",
+    "yhat_upper": "41660.87882148774",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "43980.959633516526",
+    "yhat_lower": "40042.748920808095",
+    "yhat_upper": "48013.872167978065",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "43666.437782306595",
+    "yhat_lower": "39908.112686743785",
+    "yhat_upper": "47586.47950494254",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "40225.538680272366",
+    "yhat_lower": "36530.09972811913",
+    "yhat_upper": "43895.60481674522",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "34403.4916372264",
+    "yhat_lower": "30589.700161018092",
+    "yhat_upper": "38090.51512968733",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "34759.03148375401",
+    "yhat_lower": "30594.880150377183",
+    "yhat_upper": "38985.66467360321",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "43878.19444251247",
+    "yhat_lower": "40133.4989345154",
+    "yhat_upper": "47667.975503106856",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "42583.18559920941",
+    "yhat_lower": "38920.37684429785",
+    "yhat_upper": "46901.86090277569",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "43214.37626299819",
+    "yhat_lower": "39279.02463157926",
+    "yhat_upper": "46839.66735349754",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "43195.998369251596",
+    "yhat_lower": "39031.923397565646",
+    "yhat_upper": "47054.210957100026",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "40513.61072332126",
+    "yhat_lower": "36625.9981960931",
+    "yhat_upper": "44473.95621549335",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "41495.84401651117",
+    "yhat_lower": "37437.99592942916",
+    "yhat_upper": "45309.05097060981",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "42236.00135806484",
+    "yhat_lower": "38222.93712413632",
+    "yhat_upper": "46164.664951021216",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "40189.201398790494",
+    "yhat_lower": "36223.592091652",
+    "yhat_upper": "44007.042577945",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "45649.42901020718",
+    "yhat_lower": "41767.56124218234",
+    "yhat_upper": "49815.11655892195",
+    "area_id": "371",
+    "name_en": "Al Safouh Second"
+  }
+]

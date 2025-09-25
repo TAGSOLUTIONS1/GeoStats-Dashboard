@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "3096.825859305358",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "3093.956422635879",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "3104.7149415550634",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "3105.87197822922",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "3094.944572386675",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "3090.1529570668936",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "3080.183274038537",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "3066.2797432798297",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "3060.8386426551706",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "3055.183592382442",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "3051.2407419540373",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "3054.291984955786",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "3059.8327752013306",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "3067.113164468045",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "3074.6257422275885",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "3080.978798429067",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "3068.099498824613",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "3066.3163330170805",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "3063.902743489631",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "3060.466396197614",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "3056.243299932003",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "3052.3841987978294",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "3050.8565500976915",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "3052.996433963231",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "3058.6275090165163",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "3066.183658706984",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "3073.9261003828688",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "3080.464359071718",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "3067.725772230696",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "3066.0472115472326",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "3063.7277347452355",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "3060.354983076818",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "3056.1607811073022",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "3052.3254122389976",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "3050.8121706386833",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "3052.9601278349946",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "3058.601621435152",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "3066.166101454635",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "3073.91437661673",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "3080.456614158346",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "3067.7201084694475",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "3066.0429189735273",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "3063.7244948366524",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "3060.3524952526395",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "3056.1588720366226",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "3052.323987049896",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "3050.8111365607515",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "3052.959401329608",
+    "area_id": "316",
+    "name_en": "Al Mizhar First"
+  }
+]

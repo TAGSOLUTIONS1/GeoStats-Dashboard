@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "12492.7421875",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "13318.47265625",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "13061.1376953125",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "13583.2216796875",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "14611.0263671875",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "14314.30078125",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "15156.12890625",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "15367.76953125",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "15441.4072265625",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "15631.828125",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "15606.6044921875",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "16379.7216796875",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "15206.2724609375",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "14111.7294921875",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "14750.666015625",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "15046.3662109375",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "14124.12109375",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "14376.59765625",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "14962.14453125",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "15898.6201171875",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "15806.73828125",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "14554.2265625",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "14657.1474609375",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "15222.708984375",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "14346.8916015625",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "14419.908203125",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "14558.9970703125",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "14543.1650390625",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "14077.021484375",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "14429.6552734375",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "15047.787109375",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "16089.69921875",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "15028.01953125",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "14132.53125",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "14255.8544921875",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "15135.4052734375",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "14234.3564453125",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "14203.7666015625",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "14058.75390625",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "14132.541015625",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "14583.158203125",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "14591.8154296875",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "15007.7080078125",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "15800.55859375",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "14466.3349609375",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "14522.171875",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "14778.1279296875",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "14702.587890625",
+    "area_id": "307",
+    "name_en": "Al Safouh First"
+  }
+]

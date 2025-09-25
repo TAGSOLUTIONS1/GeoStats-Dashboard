@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "10710.742394779101",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "10710.155324723297",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "10707.253882384874",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "10699.693566709439",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "10697.325639499308",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "10694.509356589386",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "10690.368842961087",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "10689.543255721774",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "10691.082454589086",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "10692.774136807873",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "10693.097935044525",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "10694.3346523632",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "10698.02156294862",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "10691.434142393866",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "10685.782837662196",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "10682.252285291659",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "10687.587929358535",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "10691.077996673992",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "10696.84097984567",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "10703.43306319824",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "10708.742855342314",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "10711.058905894706",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "10709.776460056693",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "10705.398197261029",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "10699.126531178574",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "10692.343267931186",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "10686.479102414954",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "10682.724883799274",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "10687.824840130896",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "10691.18565501195",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "10696.86072607762",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "10703.420802960041",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "10708.725767397253",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "10711.05094446178",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "10709.76728643094",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "10705.396315037446",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "10699.12904437323",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "10692.343782457601",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "10686.478520981049",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "10682.724139908902",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "10687.824080578774",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "10691.185335017411",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "10696.86067445224",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "10703.4208509089",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "10708.725800652866",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "10711.050961714673",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "10709.76729250064",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "10705.396314764406",
+    "area_id": "409",
+    "name_en": "Al Barshaa South Third"
+  }
+]

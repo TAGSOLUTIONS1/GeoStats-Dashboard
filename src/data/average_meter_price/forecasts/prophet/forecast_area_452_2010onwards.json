@@ -1,0 +1,1466 @@
+[
+  {
+    "ds": "2012-03-01",
+    "yhat": "6266.182839639112",
+    "yhat_lower": "3139.2897128517475",
+    "yhat_upper": "9349.355349642132",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "7051.222732113041",
+    "yhat_lower": "4167.8304270236085",
+    "yhat_upper": "9584.317292183887",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "5764.946644420444",
+    "yhat_lower": "2831.469839056569",
+    "yhat_upper": "8598.153197204205",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "6722.681623584891",
+    "yhat_lower": "4108.591460421679",
+    "yhat_upper": "9591.171137116702",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "6611.094587766708",
+    "yhat_lower": "3743.4713746494785",
+    "yhat_upper": "9539.780815406793",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "5540.530683940825",
+    "yhat_lower": "2687.0486936868347",
+    "yhat_upper": "8289.853891590647",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "7490.774218067837",
+    "yhat_lower": "4610.982354168808",
+    "yhat_upper": "10154.891499245588",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "6204.764282758953",
+    "yhat_lower": "3261.1022679812963",
+    "yhat_upper": "8968.489547732155",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "6446.8778690481395",
+    "yhat_lower": "3533.7160556843855",
+    "yhat_upper": "9141.523554412415",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "7144.88767133521",
+    "yhat_lower": "4359.872524717198",
+    "yhat_upper": "10052.383762902782",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "7018.059434346196",
+    "yhat_lower": "4087.956812177354",
+    "yhat_upper": "9727.321323739128",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "6715.884645779731",
+    "yhat_lower": "3828.605528716851",
+    "yhat_upper": "9694.732912847096",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "5979.805671416054",
+    "yhat_lower": "3089.7698861337476",
+    "yhat_upper": "8833.62303833932",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "7549.664834120687",
+    "yhat_lower": "4594.573248480722",
+    "yhat_upper": "10284.601832089756",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "7919.926740054274",
+    "yhat_lower": "5071.970581724085",
+    "yhat_upper": "10808.880796431595",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "8009.812236510927",
+    "yhat_lower": "5177.539555101862",
+    "yhat_upper": "10678.780409539271",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "7969.624539992251",
+    "yhat_lower": "5056.757045221769",
+    "yhat_upper": "10720.260600185407",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "7090.8470009928815",
+    "yhat_lower": "4271.286073370423",
+    "yhat_upper": "9857.913914201814",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "7930.511631207837",
+    "yhat_lower": "4984.895167075912",
+    "yhat_upper": "10590.942461253315",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "6645.258874848296",
+    "yhat_lower": "3917.8909923020346",
+    "yhat_upper": "9530.646445817387",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "6909.726168059235",
+    "yhat_lower": "3750.456901238732",
+    "yhat_upper": "9861.40116488551",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "7566.027957127867",
+    "yhat_lower": "4665.9435086528065",
+    "yhat_upper": "10188.659692957901",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "7424.872501649759",
+    "yhat_lower": "4347.670141983778",
+    "yhat_upper": "10316.843908416397",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "7143.57737147778",
+    "yhat_lower": "4372.005089199899",
+    "yhat_upper": "9833.099863733476",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "6419.891932377819",
+    "yhat_lower": "3510.1451278078935",
+    "yhat_upper": "9291.241713336663",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "8407.832909322811",
+    "yhat_lower": "5629.694799228934",
+    "yhat_upper": "11083.809401759047",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "7503.932150794506",
+    "yhat_lower": "4799.129885407734",
+    "yhat_upper": "10328.478863492615",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "8370.433772056764",
+    "yhat_lower": "5517.527057724653",
+    "yhat_upper": "11086.355514329623",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "7086.415737876577",
+    "yhat_lower": "4041.9504188305514",
+    "yhat_upper": "10001.435398722559",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "7372.318831979533",
+    "yhat_lower": "4527.2092831921655",
+    "yhat_upper": "10041.074489844923",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "7986.112495295659",
+    "yhat_lower": "4979.185367471616",
+    "yhat_upper": "10691.20157438839",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "7831.5723004794545",
+    "yhat_lower": "5057.154725355282",
+    "yhat_upper": "10814.348274618951",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "7571.768889589123",
+    "yhat_lower": "4728.638906429187",
+    "yhat_upper": "10499.060324725022",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "6860.775330879274",
+    "yhat_lower": "3857.8310643692444",
+    "yhat_upper": "9748.144765369472",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "8420.029015183618",
+    "yhat_lower": "5582.906794349099",
+    "yhat_upper": "11378.914189869281",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "8799.126996761497",
+    "yhat_lower": "6069.719489637",
+    "yhat_upper": "11723.40425574468",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "8864.595929240133",
+    "yhat_lower": "6139.3921646076205",
+    "yhat_upper": "11484.529432429254",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "8845.59898808884",
+    "yhat_lower": "6052.466341866715",
+    "yhat_upper": "11393.415323212486",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "7996.897085844236",
+    "yhat_lower": "5282.2540800970155",
+    "yhat_upper": "10841.389275714806",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "8781.93698467726",
+    "yhat_lower": "5907.310634121098",
+    "yhat_upper": "11678.755061372238",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "7495.660903903706",
+    "yhat_lower": "4622.877266122326",
+    "yhat_upper": "10459.44276770732",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "7714.530170019661",
+    "yhat_lower": "5040.294515167161",
+    "yhat_upper": "10551.097735394607",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "8453.395897136808",
+    "yhat_lower": "5626.74411286728",
+    "yhat_upper": "11160.968582581982",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "8341.808868468208",
+    "yhat_lower": "5421.680173664305",
+    "yhat_upper": "11033.683819026495",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "8019.385279860046",
+    "yhat_lower": "5240.582757232151",
+    "yhat_upper": "10812.334700363173",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "7271.244980346505",
+    "yhat_lower": "4407.938550159923",
+    "yhat_upper": "10099.905069617278",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "8845.022944424802",
+    "yhat_lower": "6213.343609881131",
+    "yhat_upper": "11680.427124539598",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "9210.55510862331",
+    "yhat_lower": "6406.45545534009",
+    "yhat_upper": "11989.044257932097",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "9312.6663170981",
+    "yhat_lower": "6396.119867945428",
+    "yhat_upper": "12040.92863270975",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "9261.681411593834",
+    "yhat_lower": "6427.325189113672",
+    "yhat_upper": "12098.529605906557",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "8408.98608703325",
+    "yhat_lower": "5622.834529256367",
+    "yhat_upper": "11084.409598549952",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "9221.488562891227",
+    "yhat_lower": "6459.903221989334",
+    "yhat_upper": "12071.742356362989",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "7935.478635865077",
+    "yhat_lower": "5157.118877983073",
+    "yhat_upper": "10820.33878796412",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "8177.592230713062",
+    "yhat_lower": "5373.29861057843",
+    "yhat_upper": "10667.378039312513",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "8875.602041282646",
+    "yhat_lower": "5826.480818138756",
+    "yhat_upper": "11805.617116536494",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "8748.773811206007",
+    "yhat_lower": "6055.810403665426",
+    "yhat_upper": "11681.49421420267",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "8446.599029551742",
+    "yhat_lower": "5674.1888772761085",
+    "yhat_upper": "11445.8970178577",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "9280.37923203161",
+    "yhat_lower": "6344.543790738625",
+    "yhat_upper": "12037.011949358826",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "9650.641141881382",
+    "yhat_lower": "6741.339665073516",
+    "yhat_upper": "12728.421290439219",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "9740.526642384772",
+    "yhat_lower": "6692.990251764065",
+    "yhat_upper": "12538.602152968886",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "9700.338949912573",
+    "yhat_lower": "6776.8021282801",
+    "yhat_upper": "12613.220813396238",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "8821.561418012403",
+    "yhat_lower": "5812.828693745765",
+    "yhat_upper": "11570.262036309608",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "9661.226054141456",
+    "yhat_lower": "6917.34028303413",
+    "yhat_upper": "12797.393572191018",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "8375.973303505216",
+    "yhat_lower": "5455.917731678761",
+    "yhat_upper": "11337.837736611265",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "8640.440602630299",
+    "yhat_lower": "5809.34077549005",
+    "yhat_upper": "11507.041039386593",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "9296.742396928345",
+    "yhat_lower": "6439.873628590991",
+    "yhat_upper": "12175.217309217045",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "9155.586945086476",
+    "yhat_lower": "6323.314589328408",
+    "yhat_upper": "12081.0590063756",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "8150.606382969419",
+    "yhat_lower": "5356.145705214282",
+    "yhat_upper": "10941.32895722768",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "9715.62645272283",
+    "yhat_lower": "6691.982457244017",
+    "yhat_upper": "12594.453920703727",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "10090.407529692815",
+    "yhat_lower": "7293.4804635765",
+    "yhat_upper": "12894.354514444476",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "10168.073849127635",
+    "yhat_lower": "7347.6198087821185",
+    "yhat_upper": "13161.032381272791",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "10138.5474291901",
+    "yhat_lower": "7357.620221107982",
+    "yhat_upper": "13012.447124317232",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "9234.646690639282",
+    "yhat_lower": "6501.887259323475",
+    "yhat_upper": "12218.102784851606",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "10101.148333938798",
+    "yhat_lower": "7286.49832120074",
+    "yhat_upper": "12884.367680217965",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "8817.13139860061",
+    "yhat_lower": "5923.06006256737",
+    "yhat_upper": "11681.835918060395",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "9103.03562817364",
+    "yhat_lower": "6089.074610556372",
+    "yhat_upper": "11990.194443238617",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "9716.830390331881",
+    "yhat_lower": "6971.321432190573",
+    "yhat_upper": "12568.757119655673",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "9562.291330878226",
+    "yhat_lower": "6612.819238072894",
+    "yhat_upper": "12360.807482992119",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "9302.48906661594",
+    "yhat_lower": "6374.140476140728",
+    "yhat_upper": "11879.742500983308",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "8591.496617545974",
+    "yhat_lower": "5779.015950681479",
+    "yhat_upper": "11199.296469562649",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "10150.751448478224",
+    "yhat_lower": "7091.756282076983",
+    "yhat_upper": "12944.056947772273",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "10529.85054078856",
+    "yhat_lower": "7666.023293738723",
+    "yhat_upper": "13335.347554470472",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "10595.320819204206",
+    "yhat_lower": "7841.5956031688675",
+    "yhat_upper": "13599.80462941017",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "9727.624580847794",
+    "yhat_lower": "6893.310541539989",
+    "yhat_upper": "12473.960703474242",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "9226.391046599107",
+    "yhat_lower": "6478.319631364855",
+    "yhat_upper": "12162.916205207968",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "9445.261657861472",
+    "yhat_lower": "6706.425533804138",
+    "yhat_upper": "12291.050221868516",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "10184.128686732844",
+    "yhat_lower": "7536.854065366277",
+    "yhat_upper": "13023.393925658387",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "9750.234849109986",
+    "yhat_lower": "6893.25161664286",
+    "yhat_upper": "12638.344154605573",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "9002.15105605833",
+    "yhat_lower": "6285.292238971631",
+    "yhat_upper": "11607.500353052978",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "10575.98741014727",
+    "yhat_lower": "7911.442666773086",
+    "yhat_upper": "13354.277808522438",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "10941.576080807667",
+    "yhat_lower": "7925.605753248696",
+    "yhat_upper": "13687.765614241905",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "11043.745875218861",
+    "yhat_lower": "8203.001223663428",
+    "yhat_upper": "13707.357477003292",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "10992.819555650998",
+    "yhat_lower": "8179.629118726458",
+    "yhat_upper": "13882.946388556185",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "10140.17714741999",
+    "yhat_lower": "7319.452826680011",
+    "yhat_upper": "12933.396535896785",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "10952.738209214327",
+    "yhat_lower": "8246.331580506192",
+    "yhat_upper": "13908.739130943213",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "9666.78499306041",
+    "yhat_lower": "6860.527802054207",
+    "yhat_upper": "12279.428454381941",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "9908.95718914349",
+    "yhat_lower": "7080.989500912937",
+    "yhat_upper": "12877.744572436924",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "10607.02371058488",
+    "yhat_lower": "7814.281561229931",
+    "yhat_upper": "13495.367237778733",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "10480.254081742607",
+    "yhat_lower": "7876.964861950602",
+    "yhat_upper": "13327.173844388662",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "10178.137948609317",
+    "yhat_lower": "7546.952042207999",
+    "yhat_upper": "12959.321600986486",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "9442.11573756806",
+    "yhat_lower": "6734.127103680962",
+    "yhat_upper": "12367.909886339352",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "11012.033555705604",
+    "yhat_lower": "8172.044322331881",
+    "yhat_upper": "13940.481547832167",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "11382.352221924113",
+    "yhat_lower": "8529.13064555091",
+    "yhat_upper": "14324.843694088184",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "11472.296370675087",
+    "yhat_lower": "8761.828610816585",
+    "yhat_upper": "14100.83663528803",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "11432.16773551069",
+    "yhat_lower": "8550.030179919251",
+    "yhat_upper": "14247.739156867032",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "10553.44354225066",
+    "yhat_lower": "7637.878230447334",
+    "yhat_upper": "13518.001626406776",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "11393.16723187411",
+    "yhat_lower": "8507.237232111087",
+    "yhat_upper": "14181.142835176675",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "10107.97162978096",
+    "yhat_lower": "7340.376658755621",
+    "yhat_upper": "12860.259393844311",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "10372.498728380335",
+    "yhat_lower": "7597.368341794684",
+    "yhat_upper": "13279.073970871634",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "11028.85839363157",
+    "yhat_lower": "8116.632508266501",
+    "yhat_upper": "13909.161351702684",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "10887.762741774599",
+    "yhat_lower": "7928.630140020163",
+    "yhat_upper": "13594.960085804503",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "10606.527415223069",
+    "yhat_lower": "7622.368299213564",
+    "yhat_upper": "13384.389469495367",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "9882.89985059483",
+    "yhat_lower": "6865.187104553408",
+    "yhat_upper": "12496.614924224421",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "11447.979720332785",
+    "yhat_lower": "8665.39772879234",
+    "yhat_upper": "14263.481482871734",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "11822.818650370278",
+    "yhat_lower": "9092.223389852878",
+    "yhat_upper": "14406.519000371482",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "11900.54475130815",
+    "yhat_lower": "9056.204698526875",
+    "yhat_upper": "14681.155918124346",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "11871.078112873707",
+    "yhat_lower": "9027.970992203605",
+    "yhat_upper": "14502.827255817612",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "10967.231370519057",
+    "yhat_lower": "8183.1398056038515",
+    "yhat_upper": "13746.51031090269",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "11833.792795321586",
+    "yhat_lower": "8997.917429355277",
+    "yhat_upper": "14630.051372266564",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "10549.83263553544",
+    "yhat_lower": "7875.1268368693445",
+    "yhat_upper": "13703.507246506604",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "10835.795533178905",
+    "yhat_lower": "7939.719296708206",
+    "yhat_upper": "13626.257931461383",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "11449.647070889245",
+    "yhat_lower": "8686.114257484945",
+    "yhat_upper": "14350.14119315598",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "11295.16667950644",
+    "yhat_lower": "8518.791962060883",
+    "yhat_upper": "14248.66170265681",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "11035.423072049525",
+    "yhat_lower": "8172.7227571017775",
+    "yhat_upper": "13900.57180889793",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "10324.487387630032",
+    "yhat_lower": "7394.366597996097",
+    "yhat_upper": "13192.429732847897",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "11883.800875367826",
+    "yhat_lower": "9070.72479651064",
+    "yhat_upper": "14636.823024488618",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "12262.956732328794",
+    "yhat_lower": "9364.142109526862",
+    "yhat_upper": "15180.870809104808",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "12328.485469369933",
+    "yhat_lower": "9171.751026156184",
+    "yhat_upper": "15183.209266827986",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "12309.548332781129",
+    "yhat_lower": "9239.756240272576",
+    "yhat_upper": "15116.128912834445",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "11460.90237674009",
+    "yhat_lower": "8639.417762385738",
+    "yhat_upper": "14111.121161518953",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "12246.00208013539",
+    "yhat_lower": "9344.596112090327",
+    "yhat_upper": "15124.49371462029",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "10959.78387397951",
+    "yhat_lower": "8110.2874362244165",
+    "yhat_upper": "13806.88537040078",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "11178.712943867173",
+    "yhat_lower": "8531.708487239395",
+    "yhat_upper": "14085.094263707131",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "11917.636545601958",
+    "yhat_lower": "9251.24025801957",
+    "yhat_upper": "14761.587074491294",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "11806.109320705045",
+    "yhat_lower": "8849.171599961834",
+    "yhat_upper": "14705.40031323827",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "11483.745536235745",
+    "yhat_lower": "8608.733985393066",
+    "yhat_upper": "14366.413755158685",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "10735.663111695107",
+    "yhat_lower": "8026.17341333648",
+    "yhat_upper": "13545.435752793623",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "12309.500879912306",
+    "yhat_lower": "9711.96890562411",
+    "yhat_upper": "15214.147586690417",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "12675.090919084221",
+    "yhat_lower": "9651.648120505526",
+    "yhat_upper": "15491.889539879352",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "12777.2619312973",
+    "yhat_lower": "10026.709714444713",
+    "yhat_upper": "15666.87296377613",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "12726.33682953138",
+    "yhat_lower": "9733.956202228563",
+    "yhat_upper": "15569.775112511996",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "11873.69552125045",
+    "yhat_lower": "9044.375238662562",
+    "yhat_upper": "14747.022903532168",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "12686.257800846906",
+    "yhat_lower": "9841.610250763782",
+    "yhat_upper": "15473.448165519434",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "11400.305748234336",
+    "yhat_lower": "8610.209205697383",
+    "yhat_upper": "14142.36467479537",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "11642.47914664324",
+    "yhat_lower": "8843.139840337059",
+    "yhat_upper": "14629.36274090969",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "12340.546831626389",
+    "yhat_lower": "9239.824922034877",
+    "yhat_upper": "15049.001065152643",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "12213.778405110457",
+    "yhat_lower": "9254.766044968277",
+    "yhat_upper": "14978.724078512472",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "11911.663427016956",
+    "yhat_lower": "9096.20858088073",
+    "yhat_upper": "14614.229939169167",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "11175.642333756197",
+    "yhat_lower": "8297.190092046163",
+    "yhat_upper": "14118.351110348827",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "12745.561306933716",
+    "yhat_lower": "9900.291499198365",
+    "yhat_upper": "15538.258408475593",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "13115.881090932726",
+    "yhat_lower": "10271.485266933847",
+    "yhat_upper": "15724.509863792968",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "13205.826394723914",
+    "yhat_lower": "10277.002381902668",
+    "yhat_upper": "16123.111302989408",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "13165.69850553932",
+    "yhat_lower": "10204.981312984342",
+    "yhat_upper": "15948.723575449672",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "12286.974986067817",
+    "yhat_lower": "9178.614728687942",
+    "yhat_upper": "14956.7562032412",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "13126.699421671277",
+    "yhat_lower": "10310.610620658532",
+    "yhat_upper": "15990.057532365707",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "11841.504541494367",
+    "yhat_lower": "8869.811461402538",
+    "yhat_upper": "14765.87588307217",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "12106.03164009387",
+    "yhat_lower": "9244.836619782007",
+    "yhat_upper": "14769.893708152986",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "12762.391305344883",
+    "yhat_lower": "9848.037998905802",
+    "yhat_upper": "15546.217224894885",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "12621.2956534877",
+    "yhat_lower": "9918.592562154701",
+    "yhat_upper": "15264.299680998534",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "12340.060326936291",
+    "yhat_lower": "9476.67233017325",
+    "yhat_upper": "15084.24685981263",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "11616.43276230814",
+    "yhat_lower": "8829.735636252006",
+    "yhat_upper": "14466.182113222249",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "13181.512632046197",
+    "yhat_lower": "10283.012349792003",
+    "yhat_upper": "15957.35545830413",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "13556.351562083777",
+    "yhat_lower": "10878.669618462605",
+    "yhat_upper": "16344.19127665321",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "13634.077663021426",
+    "yhat_lower": "10814.900321021312",
+    "yhat_upper": "16501.431651669332",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "13604.611024586842",
+    "yhat_lower": "11083.207408591277",
+    "yhat_upper": "16658.020156383816",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "12700.764282232141",
+    "yhat_lower": "9824.43470527413",
+    "yhat_upper": "15636.321805109366",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "13567.325707034955",
+    "yhat_lower": "10873.24472142193",
+    "yhat_upper": "16503.82066568872",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "12283.3655472488",
+    "yhat_lower": "9613.30630059566",
+    "yhat_upper": "15107.627669484767",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "12569.328444892079",
+    "yhat_lower": "9749.544360501666",
+    "yhat_upper": "15369.257219854013",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "13183.179982602498",
+    "yhat_lower": "10057.052457499922",
+    "yhat_upper": "15938.905292726575",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "13028.69959121954",
+    "yhat_lower": "10382.531449170849",
+    "yhat_upper": "15794.185118077408",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "12768.955983762826",
+    "yhat_lower": "9923.789872505695",
+    "yhat_upper": "15421.455240886171",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "12058.020299343374",
+    "yhat_lower": "9397.4221863113",
+    "yhat_upper": "14644.198120646348",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "13617.333787081365",
+    "yhat_lower": "11072.661212001383",
+    "yhat_upper": "16487.07694981719",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "13996.48964404216",
+    "yhat_lower": "11059.295789913853",
+    "yhat_upper": "16811.800201541868",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "14062.018381083184",
+    "yhat_lower": "10994.510334248085",
+    "yhat_upper": "16799.18768111624",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "14043.081244494388",
+    "yhat_lower": "10981.382118930818",
+    "yhat_upper": "16695.845916073322",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "13194.43528845317",
+    "yhat_lower": "10501.938719232052",
+    "yhat_upper": "15999.719858328155",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "13979.534991848841",
+    "yhat_lower": "11183.114591773267",
+    "yhat_upper": "16844.467050868174",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "12693.31678569311",
+    "yhat_lower": "9872.857163978335",
+    "yhat_upper": "15467.137099769403",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "12912.24585558036",
+    "yhat_lower": "9890.177797614922",
+    "yhat_upper": "15971.42535906188",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "13651.169457315213",
+    "yhat_lower": "10883.324441968458",
+    "yhat_upper": "16353.338338533784",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "13539.642232418284",
+    "yhat_lower": "10635.113600465205",
+    "yhat_upper": "16232.052407654783",
+    "area_id": "452",
+    "name_en": "Al Hebiah Second"
+  }
+]

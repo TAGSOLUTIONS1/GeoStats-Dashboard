@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "25854.078125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "24855.400390625",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "24805.38671875",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "24846.775390625",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "25561.560546875",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "25479.716796875",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "25491.34375",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "25840.66796875",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "26639.53125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "26607.26953125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "26602.9375",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "26639.921875",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "25883.8203125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "24853.17578125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "24788.6875",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "24846.96484375",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "25522.470703125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "25478.439453125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "25491.97265625",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "25840.625",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "26639.53125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "26607.26953125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "26602.9375",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "26639.921875",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "25883.8203125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "24853.17578125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "24788.6875",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "24846.96484375",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "25522.470703125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "25478.439453125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "25491.97265625",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "25840.625",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "26639.53125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "26607.26953125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "26602.9375",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "26639.921875",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "25883.8203125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "24853.17578125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "24788.6875",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "24846.96484375",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "25522.470703125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "25478.439453125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "25491.97265625",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "25840.625",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "26639.53125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "26607.26953125",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "26602.9375",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "26639.921875",
+    "area_id": "526",
+    "name_en": "Business Bay"
+  }
+]
