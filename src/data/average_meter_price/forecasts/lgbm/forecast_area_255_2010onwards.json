@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-05-01",
+    "yhat": "7363.121291461294",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "7358.15763045325",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "4914.441462238037",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "5975.394932062555",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "6621.90067639996",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "8237.122888198866",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "9890.200330769188",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "4998.605015133327",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "9650.435768018428",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "7178.210807189042",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "8674.15942116103",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "7977.868826999008",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "8963.414617039081",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "5569.971873105747",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "7140.354392662628",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "8057.097891136562",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "6790.912269886999",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "10705.742009125055",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "5344.444029175974",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "7629.125586802969",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "5409.978321806964",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "9608.9799120277",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "6237.439437836774",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "8258.355005341355",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "6443.77706782796",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "7631.670004156933",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "9272.113690841225",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "7297.9643369348405",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "7780.391775563978",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "7902.900065007345",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "8683.180718949727",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "4493.709999618361",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "9522.818138097107",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "7716.468071715308",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "7450.3495945907825",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "8500.246547387025",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "6550.804374732133",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "8092.151768740599",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "7054.690476744724",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "6452.390898053454",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "5980.220085985388",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "10771.928385727026",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "5935.737695144969",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "8596.837180791335",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "5568.613784170945",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "7328.868269005932",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "7405.516087750072",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "8356.404133700118",
+    "area_id": "255",
+    "name_en": "Rega Al Buteen"
+  }
+]

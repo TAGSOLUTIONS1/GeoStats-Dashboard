@@ -1,0 +1,1794 @@
+[
+  {
+    "ds": "2010-01-01",
+    "yhat": "7434.864712825558",
+    "yhat_lower": "6003.470692831229",
+    "yhat_upper": "8847.66879466665",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2010-02-01",
+    "yhat": "7752.83291270644",
+    "yhat_lower": "6314.000512370148",
+    "yhat_upper": "9170.917959337345",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2010-03-01",
+    "yhat": "7620.449095521332",
+    "yhat_lower": "6266.430063929516",
+    "yhat_upper": "9030.262286410405",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2010-04-01",
+    "yhat": "7709.073419094559",
+    "yhat_lower": "6395.875321380341",
+    "yhat_upper": "9101.43729234762",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2010-05-01",
+    "yhat": "8173.16276705465",
+    "yhat_lower": "6753.354472592907",
+    "yhat_upper": "9569.58011942596",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "8035.399298554355",
+    "yhat_lower": "6739.081310260318",
+    "yhat_upper": "9380.496019042897",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2010-07-01",
+    "yhat": "8266.668929380967",
+    "yhat_lower": "6876.1786378678025",
+    "yhat_upper": "9590.748846610655",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2010-08-01",
+    "yhat": "8230.579965268142",
+    "yhat_lower": "6980.386096217184",
+    "yhat_upper": "9661.32737737326",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2010-09-01",
+    "yhat": "8015.248821214434",
+    "yhat_lower": "6533.615636717856",
+    "yhat_upper": "9332.608328954917",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2010-10-01",
+    "yhat": "7947.068251917116",
+    "yhat_lower": "6509.256812411634",
+    "yhat_upper": "9402.909764156888",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "7796.210973489218",
+    "yhat_lower": "6472.602103993173",
+    "yhat_upper": "9142.07138089763",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2010-12-01",
+    "yhat": "7670.245969334389",
+    "yhat_lower": "6254.557637915648",
+    "yhat_upper": "8973.795169770343",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2011-01-01",
+    "yhat": "8084.405481741069",
+    "yhat_lower": "6717.8371801909225",
+    "yhat_upper": "9458.842155794897",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2011-02-01",
+    "yhat": "8192.888334961443",
+    "yhat_lower": "6800.614214390619",
+    "yhat_upper": "9542.733563553087",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "8157.763094426953",
+    "yhat_lower": "6788.66249227764",
+    "yhat_upper": "9576.36696923159",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2011-04-01",
+    "yhat": "8144.139122620694",
+    "yhat_lower": "6865.397991672892",
+    "yhat_upper": "9496.069254131708",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "8652.482692078187",
+    "yhat_lower": "7278.586360915185",
+    "yhat_upper": "10006.242143582454",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "8609.188422872681",
+    "yhat_lower": "7110.322188061736",
+    "yhat_upper": "10131.403483073012",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2011-07-01",
+    "yhat": "9050.179356214408",
+    "yhat_lower": "7610.047834676558",
+    "yhat_upper": "10511.775162295819",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "8441.74500134846",
+    "yhat_lower": "7032.300105116874",
+    "yhat_upper": "9752.673304300513",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "8601.013018470761",
+    "yhat_lower": "7177.481652549293",
+    "yhat_upper": "10015.134508017982",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "8404.992178902934",
+    "yhat_lower": "6943.437408957931",
+    "yhat_upper": "9763.46711332622",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "8351.770226163375",
+    "yhat_lower": "7062.74227115321",
+    "yhat_upper": "9827.06451229626",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "8177.503156056439",
+    "yhat_lower": "6735.137765421151",
+    "yhat_upper": "9536.279573460832",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "8732.791663836897",
+    "yhat_lower": "7437.979660457402",
+    "yhat_upper": "10243.39640347545",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "8630.91717182415",
+    "yhat_lower": "7282.843281708166",
+    "yhat_upper": "9955.299365542516",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "8615.998138260707",
+    "yhat_lower": "7245.110244083064",
+    "yhat_upper": "10024.37747545832",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "8910.645254656765",
+    "yhat_lower": "7499.022708937178",
+    "yhat_upper": "10255.274776946588",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "9294.92089828567",
+    "yhat_lower": "7950.268652322162",
+    "yhat_upper": "10696.117407821066",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "8970.860634176044",
+    "yhat_lower": "7565.845351127425",
+    "yhat_upper": "10405.683245253069",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "8756.861570168963",
+    "yhat_lower": "7413.227622966974",
+    "yhat_upper": "10130.577907749308",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "9869.234731614035",
+    "yhat_lower": "8431.716692821221",
+    "yhat_upper": "11281.108040934174",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2012-09-01",
+    "yhat": "8922.441143809965",
+    "yhat_lower": "7503.250711993203",
+    "yhat_upper": "10370.900441973423",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "9105.829284166359",
+    "yhat_lower": "7755.965212892176",
+    "yhat_upper": "10456.09857961982",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "8761.83059509359",
+    "yhat_lower": "7290.94471667737",
+    "yhat_upper": "10049.786848339885",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "8732.498356335054",
+    "yhat_lower": "7291.586022162484",
+    "yhat_upper": "10097.697030771214",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "8856.87010608799",
+    "yhat_lower": "7397.5824372927655",
+    "yhat_upper": "10250.326073269485",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "9383.340834595712",
+    "yhat_lower": "8104.214468569587",
+    "yhat_upper": "10767.366795632845",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "9155.575362578133",
+    "yhat_lower": "7759.005354909566",
+    "yhat_upper": "10510.849520752805",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "9347.094074793093",
+    "yhat_lower": "7927.802568481741",
+    "yhat_upper": "10731.590088385132",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "9769.9135191801",
+    "yhat_lower": "8300.806574027996",
+    "yhat_upper": "11213.910467836815",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "9538.598342344148",
+    "yhat_lower": "8145.358843545534",
+    "yhat_upper": "10942.479093761238",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "9551.584189916488",
+    "yhat_lower": "8172.468579214375",
+    "yhat_upper": "11056.576650376044",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "10089.362055277583",
+    "yhat_lower": "8731.199060127548",
+    "yhat_upper": "11538.906072874985",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "9505.359599422145",
+    "yhat_lower": "8113.780107118209",
+    "yhat_upper": "11012.33440878721",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "9563.747287081127",
+    "yhat_lower": "8260.076334380561",
+    "yhat_upper": "10937.004284617498",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "9316.02445206953",
+    "yhat_lower": "7905.580096164379",
+    "yhat_upper": "10728.220830295033",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "9238.467245707236",
+    "yhat_lower": "7766.126902569105",
+    "yhat_upper": "10656.687288310743",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "9509.059232182102",
+    "yhat_lower": "8096.981684036485",
+    "yhat_upper": "10843.475186356332",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "9827.156618287245",
+    "yhat_lower": "8452.97553864433",
+    "yhat_upper": "11261.976020349875",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "9694.889485433523",
+    "yhat_lower": "8210.89861660632",
+    "yhat_upper": "11086.06779697194",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "9783.643011097343",
+    "yhat_lower": "8396.5947280283",
+    "yhat_upper": "11240.529592858566",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "10247.857393338105",
+    "yhat_lower": "8812.788300669026",
+    "yhat_upper": "11554.86648187194",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "10110.223126928151",
+    "yhat_lower": "8669.324255120366",
+    "yhat_upper": "11505.315523647496",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "10341.61779203912",
+    "yhat_lower": "8934.986848078925",
+    "yhat_upper": "11645.153522525701",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "10305.658011945621",
+    "yhat_lower": "8886.022969903643",
+    "yhat_upper": "11669.665000771713",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "10090.456051908368",
+    "yhat_lower": "8632.516847105835",
+    "yhat_upper": "11459.267350628823",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "10022.400499197342",
+    "yhat_lower": "8632.943352224287",
+    "yhat_upper": "11386.20134325761",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "9871.67240457531",
+    "yhat_lower": "8430.874824705414",
+    "yhat_upper": "11144.13118208375",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "9745.832417006928",
+    "yhat_lower": "8288.965995075316",
+    "yhat_upper": "11144.568099289312",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "10160.120956845743",
+    "yhat_lower": "8762.645991580457",
+    "yhat_upper": "11618.44373171012",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "10268.732837502637",
+    "yhat_lower": "8879.396369888844",
+    "yhat_upper": "11642.129073524875",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "10233.638401743305",
+    "yhat_lower": "8916.583115604484",
+    "yhat_upper": "11616.342060473622",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "10220.048535222502",
+    "yhat_lower": "8795.807664378415",
+    "yhat_upper": "11604.517008753231",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "10728.42510979545",
+    "yhat_lower": "9510.273414399555",
+    "yhat_upper": "12118.46662977879",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "10685.164945877063",
+    "yhat_lower": "9316.865865282116",
+    "yhat_upper": "12036.489302131324",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "11126.188765097717",
+    "yhat_lower": "9780.03016893123",
+    "yhat_upper": "12513.537545265239",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "10517.78839230435",
+    "yhat_lower": "9130.329452380782",
+    "yhat_upper": "11868.293787016504",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "10676.866017197268",
+    "yhat_lower": "9285.760474541848",
+    "yhat_upper": "12048.460409418398",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "10480.660927083361",
+    "yhat_lower": "9131.039849663211",
+    "yhat_upper": "11813.560169455772",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "10427.248582115742",
+    "yhat_lower": "9074.420333707036",
+    "yhat_upper": "11829.953756734696",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "10252.743836172907",
+    "yhat_lower": "8886.201219717408",
+    "yhat_upper": "11653.753068863078",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "10807.786745589034",
+    "yhat_lower": "9385.266353313964",
+    "yhat_upper": "12185.035178114902",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "10697.560533688691",
+    "yhat_lower": "9266.622533578106",
+    "yhat_upper": "12041.800637451654",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "10674.828600874223",
+    "yhat_lower": "9224.744449674712",
+    "yhat_upper": "12193.712323352313",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "10961.123997383174",
+    "yhat_lower": "9546.25809916078",
+    "yhat_upper": "12316.544623239886",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "11337.317331444352",
+    "yhat_lower": "9951.549400761933",
+    "yhat_upper": "12791.475660902104",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "11004.851767502005",
+    "yhat_lower": "9636.23504754533",
+    "yhat_upper": "12324.92832536841",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "10782.718542368637",
+    "yhat_lower": "9402.360138717168",
+    "yhat_upper": "12233.083049225183",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "11857.139270672993",
+    "yhat_lower": "10433.662690784995",
+    "yhat_upper": "13305.804892497026",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "10872.393249730356",
+    "yhat_lower": "9474.864179710694",
+    "yhat_upper": "12305.957881246859",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "11019.053228984363",
+    "yhat_lower": "9716.483440742568",
+    "yhat_upper": "12410.768820729612",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "10637.082032063316",
+    "yhat_lower": "9214.783454425362",
+    "yhat_upper": "12014.643757959715",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "10571.002205066297",
+    "yhat_lower": "9166.966494269984",
+    "yhat_upper": "11949.944441502868",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "10625.726311207722",
+    "yhat_lower": "9308.907788961456",
+    "yhat_upper": "11946.56641412459",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "11082.549396106104",
+    "yhat_lower": "9694.094117012943",
+    "yhat_upper": "12559.959430374378",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "10791.876375020536",
+    "yhat_lower": "9407.142819104276",
+    "yhat_upper": "12120.025234332163",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "10913.747443624297",
+    "yhat_lower": "9510.983996646899",
+    "yhat_upper": "12316.078606421595",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "11269.165915005507",
+    "yhat_lower": "9884.016512557755",
+    "yhat_upper": "12647.844654977665",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "10968.203066065003",
+    "yhat_lower": "9526.687002416777",
+    "yhat_upper": "12437.682072332485",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "10887.132523351302",
+    "yhat_lower": "9517.754813865498",
+    "yhat_upper": "12249.064552301104",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "11327.718785414898",
+    "yhat_lower": "9992.681720313341",
+    "yhat_upper": "12609.892518038536",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "10646.52472626329",
+    "yhat_lower": "9324.490562806639",
+    "yhat_upper": "12043.824061573934",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "10610.856024331411",
+    "yhat_lower": "9216.036492839987",
+    "yhat_upper": "11905.742289219137",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "10265.941586743269",
+    "yhat_lower": "8749.923390938771",
+    "yhat_upper": "11635.942916969796",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "10094.327990789629",
+    "yhat_lower": "8788.314001451954",
+    "yhat_upper": "11497.94648354951",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "10267.727919641688",
+    "yhat_lower": "8915.717006520237",
+    "yhat_upper": "11612.203838842779",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "10488.633248125852",
+    "yhat_lower": "9078.540611232082",
+    "yhat_upper": "11894.2791388861",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "10268.579740646952",
+    "yhat_lower": "8945.946023201483",
+    "yhat_upper": "11671.966282243591",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "10260.14119282184",
+    "yhat_lower": "8810.324515112952",
+    "yhat_upper": "11626.96298898927",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "10630.29872975228",
+    "yhat_lower": "9206.586508454666",
+    "yhat_upper": "12121.961513734583",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "10395.472378902405",
+    "yhat_lower": "9040.183139380608",
+    "yhat_upper": "11854.015833643403",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "10532.810188102412",
+    "yhat_lower": "9128.235267922244",
+    "yhat_upper": "11901.31892248288",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "10399.658323565034",
+    "yhat_lower": "9042.999929133006",
+    "yhat_upper": "11858.332388926785",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "10087.264279089244",
+    "yhat_lower": "8633.083312963836",
+    "yhat_upper": "11464.553635160837",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "9925.151870673837",
+    "yhat_lower": "8608.76342514654",
+    "yhat_upper": "11335.763590081091",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "9677.231691822257",
+    "yhat_lower": "8268.966184414076",
+    "yhat_upper": "11048.253868423468",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "9457.334863554566",
+    "yhat_lower": "8183.311480400047",
+    "yhat_upper": "10862.749431187718",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "9774.431334672337",
+    "yhat_lower": "8474.456386338481",
+    "yhat_upper": "11180.521615514748",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "9785.851146604458",
+    "yhat_lower": "8427.57518370625",
+    "yhat_upper": "11148.822499796684",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "9663.05606232535",
+    "yhat_lower": "8315.404447230196",
+    "yhat_upper": "11049.466127608297",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "9552.369049230572",
+    "yhat_lower": "8155.549060673246",
+    "yhat_upper": "10984.192174362805",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "9966.780618561415",
+    "yhat_lower": "8468.386845290403",
+    "yhat_upper": "11312.568983508245",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "9826.423282557176",
+    "yhat_lower": "8446.434268539013",
+    "yhat_upper": "11117.203742034942",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "10173.482096533618",
+    "yhat_lower": "8735.266292830274",
+    "yhat_upper": "11569.866401378991",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "9467.984551654472",
+    "yhat_lower": "8091.290521283816",
+    "yhat_upper": "10875.433850517358",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "9530.189378769814",
+    "yhat_lower": "8042.873215494199",
+    "yhat_upper": "10924.037455974874",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "9240.23641983475",
+    "yhat_lower": "7828.819691830805",
+    "yhat_upper": "10627.813538742112",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "9089.951263651486",
+    "yhat_lower": "7629.282712400203",
+    "yhat_upper": "10448.227146410922",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "8821.69863588615",
+    "yhat_lower": "7478.938042299296",
+    "yhat_upper": "10173.119806174565",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "9279.86873408448",
+    "yhat_lower": "7861.863192786102",
+    "yhat_upper": "10637.61952296002",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "9080.875832490889",
+    "yhat_lower": "7658.332536680154",
+    "yhat_upper": "10565.164033327646",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "8975.104093188811",
+    "yhat_lower": "7600.431979147284",
+    "yhat_upper": "10335.812033320057",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "9206.605776343926",
+    "yhat_lower": "7922.883792331778",
+    "yhat_upper": "10556.197336787196",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "9529.772936191326",
+    "yhat_lower": "8100.2972806650905",
+    "yhat_upper": "10955.633655295425",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "9142.51365889543",
+    "yhat_lower": "7769.032025278751",
+    "yhat_upper": "10486.080463637845",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "8867.354259549391",
+    "yhat_lower": "7508.201670888242",
+    "yhat_upper": "10265.224556640242",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "9916.528407804584",
+    "yhat_lower": "8561.21490338655",
+    "yhat_upper": "11341.728339965095",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "8906.535806814461",
+    "yhat_lower": "7512.195155301706",
+    "yhat_upper": "10292.675551078888",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "9094.688562044796",
+    "yhat_lower": "7779.320441213418",
+    "yhat_upper": "10482.387776133552",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "8755.593233632353",
+    "yhat_lower": "7420.725690862996",
+    "yhat_upper": "10164.292919250012",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "8731.006182611547",
+    "yhat_lower": "7340.257522109105",
+    "yhat_upper": "10068.596586372878",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "8860.281293026053",
+    "yhat_lower": "7439.351758271079",
+    "yhat_upper": "10106.3756453559",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "9391.655382196315",
+    "yhat_lower": "8023.191950196918",
+    "yhat_upper": "10818.277618593818",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "9245.626962160219",
+    "yhat_lower": "7800.829217571945",
+    "yhat_upper": "10631.38335544337",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "9527.640267639435",
+    "yhat_lower": "8138.631289218643",
+    "yhat_upper": "10808.698292598017",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "10038.035097286074",
+    "yhat_lower": "8711.734785850871",
+    "yhat_upper": "11466.093838922625",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "9897.214485221553",
+    "yhat_lower": "8663.365910139137",
+    "yhat_upper": "11387.574981100815",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "9997.775718052284",
+    "yhat_lower": "8536.078339266493",
+    "yhat_upper": "11294.218899860003",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "10626.04814818127",
+    "yhat_lower": "9236.098923892898",
+    "yhat_upper": "12024.739362300303",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "10221.093931251555",
+    "yhat_lower": "8808.375006995511",
+    "yhat_upper": "11675.760430300556",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "10452.75410888834",
+    "yhat_lower": "9017.905747371584",
+    "yhat_upper": "11858.836511024156",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "10384.079513521701",
+    "yhat_lower": "9006.944574478204",
+    "yhat_upper": "11664.49239855351",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "10479.7947971375",
+    "yhat_lower": "9073.502465911464",
+    "yhat_upper": "11725.962812021893",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "10929.435023255846",
+    "yhat_lower": "9595.111256555576",
+    "yhat_upper": "12305.217646043653",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "11426.580649004052",
+    "yhat_lower": "10035.686810767258",
+    "yhat_upper": "12783.23383518948",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "11456.034506796543",
+    "yhat_lower": "10020.737215354633",
+    "yhat_upper": "12786.420863862048",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "11723.836256237717",
+    "yhat_lower": "10390.619105925423",
+    "yhat_upper": "13115.822298837555",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "12361.32311310372",
+    "yhat_lower": "10969.674881446601",
+    "yhat_upper": "13622.20335298214",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "12402.737070472196",
+    "yhat_lower": "10956.610123726148",
+    "yhat_upper": "13740.097556746045",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "12807.404210206952",
+    "yhat_lower": "11393.65912951506",
+    "yhat_upper": "14180.10164513633",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "12950.492653891204",
+    "yhat_lower": "11619.220425609743",
+    "yhat_upper": "14374.415394665542",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "12914.338917632598",
+    "yhat_lower": "11534.838171694711",
+    "yhat_upper": "14217.011081422397",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "13019.555839750696",
+    "yhat_lower": "11705.902225239912",
+    "yhat_upper": "14420.339508216573",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "13047.875969119184",
+    "yhat_lower": "11556.75055205062",
+    "yhat_upper": "14319.342507562229",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "13095.308456380562",
+    "yhat_lower": "11733.09600699909",
+    "yhat_upper": "14357.059230061683",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "13688.645220211865",
+    "yhat_lower": "12307.544592111552",
+    "yhat_upper": "15069.823096534683",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "13976.305324857469",
+    "yhat_lower": "12652.22000462207",
+    "yhat_upper": "15365.799240012568",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "14103.017601737423",
+    "yhat_lower": "12721.007302805461",
+    "yhat_upper": "15487.640467047906",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "14268.5708813551",
+    "yhat_lower": "12893.975754358613",
+    "yhat_upper": "15625.714603071134",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "14950.311790899885",
+    "yhat_lower": "13568.435406355957",
+    "yhat_upper": "16321.75665727554",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "15086.194773119567",
+    "yhat_lower": "13702.61332231035",
+    "yhat_upper": "16441.767774506745",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "15700.582927310428",
+    "yhat_lower": "14421.908496303799",
+    "yhat_upper": "17155.2901735105",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "15271.32570065426",
+    "yhat_lower": "13977.110728902528",
+    "yhat_upper": "16710.400229954692",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "15609.770845987397",
+    "yhat_lower": "14231.376411687095",
+    "yhat_upper": "16986.251788720863",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "15587.147227267193",
+    "yhat_lower": "14224.625689925064",
+    "yhat_upper": "16959.910475573673",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "15713.10240273929",
+    "yhat_lower": "14270.7901759281",
+    "yhat_upper": "17025.54697639385",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "15712.179128189991",
+    "yhat_lower": "14269.004585523246",
+    "yhat_upper": "17111.386504758873",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "16446.589558043055",
+    "yhat_lower": "15020.754381026303",
+    "yhat_upper": "17847.109822756935",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "16523.8369881059",
+    "yhat_lower": "15160.308643190809",
+    "yhat_upper": "17834.503532796967",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "16676.48362358013",
+    "yhat_lower": "15327.579273467116",
+    "yhat_upper": "18096.06218987403",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "17150.252662052997",
+    "yhat_lower": "15649.121306134724",
+    "yhat_upper": "18371.185505832265",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "17707.87210123848",
+    "yhat_lower": "16284.180464170255",
+    "yhat_upper": "19167.33279767906",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "17562.88017925913",
+    "yhat_lower": "16122.283204390655",
+    "yhat_upper": "18910.03331058737",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "17522.173059249017",
+    "yhat_lower": "16118.148751723937",
+    "yhat_upper": "18797.043258558413",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "18813.61456282341",
+    "yhat_lower": "17444.243413022206",
+    "yhat_upper": "20146.694051724153",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "18045.889317148572",
+    "yhat_lower": "16564.044489171174",
+    "yhat_upper": "19340.014370925783",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "18402.569401502504",
+    "yhat_lower": "17068.205983657663",
+    "yhat_upper": "19776.99733398272",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "18237.618979849736",
+    "yhat_lower": "16862.125261514553",
+    "yhat_upper": "19539.78839860061",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "18381.559257949513",
+    "yhat_lower": "17007.156188198234",
+    "yhat_upper": "19735.049271086296",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "18684.979275123173",
+    "yhat_lower": "17362.04100029764",
+    "yhat_upper": "20039.587780457514",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "19390.498271051012",
+    "yhat_lower": "18041.910165163485",
+    "yhat_upper": "20828.46812988662",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "19324.4538147687",
+    "yhat_lower": "18039.038879299107",
+    "yhat_upper": "20689.0639341562",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "19695.020794405027",
+    "yhat_lower": "18391.13022771375",
+    "yhat_upper": "21088.845700389396",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "20291.112728073724",
+    "yhat_lower": "18864.635400416453",
+    "yhat_upper": "21716.91417641028",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "20238.84579016316",
+    "yhat_lower": "18889.975592858136",
+    "yhat_upper": "21595.553103963182",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "20425.10412701772",
+    "yhat_lower": "19006.174347055352",
+    "yhat_upper": "21871.006705211137",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "21141.93023130254",
+    "yhat_lower": "19801.301135294692",
+    "yhat_upper": "22652.13520385178",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "20736.976014372198",
+    "yhat_lower": "19386.516413985682",
+    "yhat_upper": "22175.14530309856",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "20968.636192009337",
+    "yhat_lower": "19530.49243264921",
+    "yhat_upper": "22400.770142219422",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "20899.961596641166",
+    "yhat_lower": "19430.20433996188",
+    "yhat_upper": "22357.66545196901",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "20995.676880255603",
+    "yhat_lower": "19627.503591877106",
+    "yhat_upper": "22410.83262423453",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "21445.31710637409",
+    "yhat_lower": "20079.356812920152",
+    "yhat_upper": "22875.100333224807",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "21942.462732124448",
+    "yhat_lower": "20493.368858177186",
+    "yhat_upper": "23468.16121386813",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "21971.916589917044",
+    "yhat_lower": "20572.81089558464",
+    "yhat_upper": "23465.519493349115",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "22239.71833935838",
+    "yhat_lower": "20824.087240121182",
+    "yhat_upper": "23742.42478281621",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "22877.20519622273",
+    "yhat_lower": "21338.631692616258",
+    "yhat_upper": "24347.71503932475",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "22918.619153591342",
+    "yhat_lower": "21422.50413351737",
+    "yhat_upper": "24546.14424957744",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "23323.28629332657",
+    "yhat_lower": "21842.935245714805",
+    "yhat_upper": "24828.42505976995",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "23466.374737010738",
+    "yhat_lower": "21960.612813855052",
+    "yhat_upper": "25088.937957038957",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "23430.221000751637",
+    "yhat_lower": "21944.170505869686",
+    "yhat_upper": "25023.81798073264",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "23535.437922870893",
+    "yhat_lower": "21961.670140846214",
+    "yhat_upper": "25165.327378937385",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "23563.758052238314",
+    "yhat_lower": "21989.205468879893",
+    "yhat_upper": "25202.02556797834",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "23611.19053950055",
+    "yhat_lower": "22083.088250029963",
+    "yhat_upper": "25279.540694540854",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "24204.52730333024",
+    "yhat_lower": "22686.967677104672",
+    "yhat_upper": "25805.305525456115",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "24492.187407977108",
+    "yhat_lower": "22925.03686621501",
+    "yhat_upper": "26307.225819107534",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "24618.899684858032",
+    "yhat_lower": "23001.817851815606",
+    "yhat_upper": "26307.286497386413",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "24784.452964473927",
+    "yhat_lower": "23080.25919449507",
+    "yhat_upper": "26450.158634111376",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "25466.193874019307",
+    "yhat_lower": "23828.81417487443",
+    "yhat_upper": "27296.532340566526",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "25602.076856238524",
+    "yhat_lower": "23913.443028771504",
+    "yhat_upper": "27313.347999251295",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "26216.465010431115",
+    "yhat_lower": "24568.098757552903",
+    "yhat_upper": "27943.778196485546",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "25787.207783773763",
+    "yhat_lower": "23958.231130372664",
+    "yhat_upper": "27606.337332430357",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "26125.652929108375",
+    "yhat_lower": "24280.400153658957",
+    "yhat_upper": "28022.151487528106",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "26103.029310386813",
+    "yhat_lower": "24326.779730566093",
+    "yhat_upper": "27996.696338003512",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "26228.984485858888",
+    "yhat_lower": "24422.54091583106",
+    "yhat_upper": "28214.30403989695",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "26228.061211310447",
+    "yhat_lower": "24361.034689996064",
+    "yhat_upper": "28226.147142612826",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "26962.471641164702",
+    "yhat_lower": "24982.810599744465",
+    "yhat_upper": "29007.599656226706",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "27039.719071226507",
+    "yhat_lower": "25072.669744080296",
+    "yhat_upper": "29123.272324793244",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "27192.365706700533",
+    "yhat_lower": "25133.634051154604",
+    "yhat_upper": "29399.965603126675",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "27666.134745171672",
+    "yhat_lower": "25582.55771023116",
+    "yhat_upper": "29798.16267530138",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "28223.754184358255",
+    "yhat_lower": "26110.91194758243",
+    "yhat_upper": "30435.641615377248",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "28078.76226237806",
+    "yhat_lower": "25941.10505272808",
+    "yhat_upper": "30279.52140085522",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "28038.055142370005",
+    "yhat_lower": "25881.759139027035",
+    "yhat_upper": "30356.600718395333",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "29329.49664594207",
+    "yhat_lower": "27225.036560621662",
+    "yhat_upper": "31680.579338777072",
+    "area_id": "350",
+    "name_en": "Al Thanyah Fifth"
+  }
+]

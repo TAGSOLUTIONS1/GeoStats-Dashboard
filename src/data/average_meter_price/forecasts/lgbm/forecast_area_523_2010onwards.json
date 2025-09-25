@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "13396.357603654296",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "12378.56796551693",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "11826.333171701981",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "11163.610044048504",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "10205.689300641065",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "11569.909990026114",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "12080.63762538518",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "12978.544383459252",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "11363.439527012575",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "11055.305838924458",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "10628.183081180641",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "11589.803893702509",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "11584.49086035504",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "11414.098851858944",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "11067.594345212017",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "11869.887634118608",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "11237.521065963754",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "10206.893493520347",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "10766.457173446765",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "10575.787571408831",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "9955.82374204344",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "10275.520054124805",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "10154.086683864425",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "10555.258412619125",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "9656.684784370997",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "9538.5963129231",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "9139.635424009713",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "8993.21745740819",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "10355.891148415121",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "10082.495672252606",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "11180.586919915626",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "10977.94977097121",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "11641.087522578506",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "11817.912450865986",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "12759.323436042156",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "12575.86650472629",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "11822.817663457674",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "11246.470973902187",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "10646.424920453497",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "11538.413117779788",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "12299.372257020997",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "12872.98033811647",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "12446.004951301264",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "12660.169133670071",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "11525.467874622807",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "10699.982173842596",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "11598.540181602666",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "12752.430618613007",
+    "area_id": "523",
+    "name_en": "Al Hebiah Third"
+  }
+]

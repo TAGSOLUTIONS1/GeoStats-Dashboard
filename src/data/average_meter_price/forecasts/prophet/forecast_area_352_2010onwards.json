@@ -1,0 +1,1794 @@
+[
+  {
+    "ds": "2010-01-01",
+    "yhat": "4121.929928271773",
+    "yhat_lower": "3188.638772416731",
+    "yhat_upper": "5030.613690493929",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2010-02-01",
+    "yhat": "4371.342499820538",
+    "yhat_lower": "3459.6898304274573",
+    "yhat_upper": "5279.296283581371",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2010-03-01",
+    "yhat": "4535.819292672501",
+    "yhat_lower": "3635.799460324373",
+    "yhat_upper": "5414.154573152299",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2010-04-01",
+    "yhat": "4533.339673161988",
+    "yhat_lower": "3608.3230401919423",
+    "yhat_upper": "5498.473822495669",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2010-05-01",
+    "yhat": "4464.119625207978",
+    "yhat_lower": "3626.443676537159",
+    "yhat_upper": "5382.374663948905",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "4726.740216967613",
+    "yhat_lower": "3818.8882338761414",
+    "yhat_upper": "5679.573177227733",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2010-07-01",
+    "yhat": "4832.894913435639",
+    "yhat_lower": "3880.2135901213837",
+    "yhat_upper": "5749.930718904744",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2010-08-01",
+    "yhat": "4620.252581660068",
+    "yhat_lower": "3706.4475543546755",
+    "yhat_upper": "5545.51713701956",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2010-09-01",
+    "yhat": "4830.095601802564",
+    "yhat_lower": "3950.5598326289114",
+    "yhat_upper": "5850.492751742253",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2010-10-01",
+    "yhat": "4995.761484723785",
+    "yhat_lower": "4099.635113351681",
+    "yhat_upper": "5875.9762580379065",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "5075.115253265881",
+    "yhat_lower": "4162.321714568358",
+    "yhat_upper": "5942.711415519983",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2010-12-01",
+    "yhat": "5078.0860947218525",
+    "yhat_lower": "4134.5274902393585",
+    "yhat_upper": "5985.046767612874",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2011-01-01",
+    "yhat": "5099.449899024416",
+    "yhat_lower": "4176.63219572829",
+    "yhat_upper": "6026.812588225702",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2011-02-01",
+    "yhat": "5297.057790621776",
+    "yhat_lower": "4364.257996866064",
+    "yhat_upper": "6190.57672560918",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "5611.156350083081",
+    "yhat_lower": "4693.166812802122",
+    "yhat_upper": "6527.172203278922",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2011-04-01",
+    "yhat": "5417.92526488325",
+    "yhat_lower": "4495.779988838985",
+    "yhat_upper": "6380.604304369812",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "5520.494186226501",
+    "yhat_lower": "4620.0032450859235",
+    "yhat_upper": "6386.481585280212",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "5513.262188023013",
+    "yhat_lower": "4652.887801316327",
+    "yhat_upper": "6487.673107769734",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2011-07-01",
+    "yhat": "5869.211846563105",
+    "yhat_lower": "4977.974448193382",
+    "yhat_upper": "6826.6830406660665",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "5439.480674913302",
+    "yhat_lower": "4518.729595915036",
+    "yhat_upper": "6355.387947529324",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "6016.367769899469",
+    "yhat_lower": "5134.618103832164",
+    "yhat_upper": "6962.338433179917",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "5973.442984018444",
+    "yhat_lower": "5070.591166954632",
+    "yhat_upper": "6901.116088852767",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "5914.52341270107",
+    "yhat_lower": "4987.204476296461",
+    "yhat_upper": "6832.62355131862",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "6002.744220469228",
+    "yhat_lower": "5087.887998343948",
+    "yhat_upper": "6903.541406624382",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "6078.166942160664",
+    "yhat_lower": "5205.76566581785",
+    "yhat_upper": "7017.523937842968",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "6224.375021471675",
+    "yhat_lower": "5300.589582600297",
+    "yhat_upper": "7181.009830973092",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "6221.803460525107",
+    "yhat_lower": "5311.56882068016",
+    "yhat_upper": "7135.9426904408",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "6599.707517726173",
+    "yhat_lower": "5709.503118710322",
+    "yhat_upper": "7516.362096107963",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "6184.906290097607",
+    "yhat_lower": "5267.085357703195",
+    "yhat_upper": "7009.4163602158405",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "6990.574773217303",
+    "yhat_lower": "6036.115644304191",
+    "yhat_upper": "7919.11182287668",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "6602.854635603026",
+    "yhat_lower": "5674.18443316842",
+    "yhat_upper": "7461.016066620174",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "6829.807718262395",
+    "yhat_lower": "5905.470065035707",
+    "yhat_upper": "7698.440108245788",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2012-09-01",
+    "yhat": "6302.270561327956",
+    "yhat_lower": "5322.0834724658425",
+    "yhat_upper": "7207.9423382032055",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "6865.287945645636",
+    "yhat_lower": "6016.509092302516",
+    "yhat_upper": "7877.883937288579",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "7229.309668170293",
+    "yhat_lower": "6364.666191541347",
+    "yhat_upper": "8155.2900402427595",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "7072.598257982378",
+    "yhat_lower": "6168.6867735714495",
+    "yhat_upper": "8012.284718153612",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "6984.5055217149975",
+    "yhat_lower": "6063.573935710095",
+    "yhat_upper": "7885.163313332238",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "7286.123091613965",
+    "yhat_lower": "6348.285504861874",
+    "yhat_upper": "8138.557890432012",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "7298.594847973841",
+    "yhat_lower": "6379.7843820929465",
+    "yhat_upper": "8239.470373149587",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "7486.543067461409",
+    "yhat_lower": "6517.382385138334",
+    "yhat_upper": "8371.270347957865",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "7244.84162676761",
+    "yhat_lower": "6335.948882189958",
+    "yhat_upper": "8169.240755288902",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "7778.499413459261",
+    "yhat_lower": "6862.348272857053",
+    "yhat_upper": "8726.977393362813",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "7636.707894049598",
+    "yhat_lower": "6759.255211973191",
+    "yhat_upper": "8601.18967940457",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "7642.989261849426",
+    "yhat_lower": "6827.991182976304",
+    "yhat_upper": "8582.203891789546",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "7484.583615918571",
+    "yhat_lower": "6626.3952503650835",
+    "yhat_upper": "8457.507185486274",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "7852.29166499227",
+    "yhat_lower": "6961.5344022954705",
+    "yhat_upper": "8725.043521022933",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "8072.690696481323",
+    "yhat_lower": "7071.484181395275",
+    "yhat_upper": "8976.681090341777",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "7993.99683460808",
+    "yhat_lower": "7047.229076244553",
+    "yhat_upper": "8863.875822202972",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "7960.830101899584",
+    "yhat_lower": "7015.73980378933",
+    "yhat_upper": "8822.006162601245",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "8210.242566304089",
+    "yhat_lower": "7373.631926354301",
+    "yhat_upper": "9132.386777001186",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "8374.719262380342",
+    "yhat_lower": "7360.565118837561",
+    "yhat_upper": "9331.177888321057",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "8340.969336712382",
+    "yhat_lower": "7466.576768916681",
+    "yhat_upper": "9284.557675494978",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "8241.4877021542",
+    "yhat_lower": "7291.12351643052",
+    "yhat_upper": "9241.224222834024",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "8472.83798775798",
+    "yhat_lower": "7570.353706359819",
+    "yhat_upper": "9350.410462714643",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "8548.731097621077",
+    "yhat_lower": "7672.661686693396",
+    "yhat_upper": "9493.42840384727",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "8304.818459424669",
+    "yhat_lower": "7404.2738417397495",
+    "yhat_upper": "9254.103262611156",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "8483.391173142782",
+    "yhat_lower": "7565.635711667188",
+    "yhat_upper": "9372.60931639726",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "8578.196918046635",
+    "yhat_lower": "7656.836939721674",
+    "yhat_upper": "9494.693754657972",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "8584.328543970954",
+    "yhat_lower": "7622.250714919976",
+    "yhat_upper": "9507.040272192167",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "8516.439247408562",
+    "yhat_lower": "7594.002023035373",
+    "yhat_upper": "9423.863033561425",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "8464.580908413522",
+    "yhat_lower": "7542.559256892783",
+    "yhat_upper": "9378.15051855707",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "8588.96665671664",
+    "yhat_lower": "7666.047227546506",
+    "yhat_upper": "9515.480970440574",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "8813.084395281461",
+    "yhat_lower": "7907.658382245521",
+    "yhat_upper": "9792.639102621475",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "8520.231686946623",
+    "yhat_lower": "7641.239167392401",
+    "yhat_upper": "9534.614566598391",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "8526.392585901776",
+    "yhat_lower": "7652.445326727222",
+    "yhat_upper": "9468.801175660894",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "8419.538964562676",
+    "yhat_lower": "7454.35913393179",
+    "yhat_upper": "9291.26035031626",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "8679.080600647989",
+    "yhat_lower": "7797.61920684688",
+    "yhat_upper": "9576.604818185322",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "8149.727805793525",
+    "yhat_lower": "7247.37564270741",
+    "yhat_upper": "9094.510609944644",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "8617.675710210831",
+    "yhat_lower": "7667.519460672195",
+    "yhat_upper": "9508.9842194609",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "8469.325901201515",
+    "yhat_lower": "7578.788163854159",
+    "yhat_upper": "9421.748867697157",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "8301.467139318274",
+    "yhat_lower": "7346.0268236656",
+    "yhat_upper": "9134.876856203957",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "8284.26292197336",
+    "yhat_lower": "7369.464206922213",
+    "yhat_upper": "9202.052404851618",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "8250.746451049095",
+    "yhat_lower": "7306.303316405484",
+    "yhat_upper": "9056.378734379543",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "8287.176518254759",
+    "yhat_lower": "7370.9303286306185",
+    "yhat_upper": "9200.667873506722",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "8181.909397596129",
+    "yhat_lower": "7199.173790557022",
+    "yhat_upper": "9072.19137773838",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "8450.035442689945",
+    "yhat_lower": "7526.359576536498",
+    "yhat_upper": "9398.58049065894",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "7928.997429153691",
+    "yhat_lower": "7066.614637271089",
+    "yhat_upper": "8815.313422629213",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "8624.887902051254",
+    "yhat_lower": "7673.394224527065",
+    "yhat_upper": "9523.745551400214",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "8130.930980352277",
+    "yhat_lower": "7206.380187034802",
+    "yhat_upper": "9014.486715886123",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "8246.004164870508",
+    "yhat_lower": "7359.9700827838915",
+    "yhat_upper": "9159.418854770449",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "7606.587109793329",
+    "yhat_lower": "6557.864365458258",
+    "yhat_upper": "8569.413112902115",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "8061.333624943321",
+    "yhat_lower": "7139.170501275776",
+    "yhat_upper": "8997.727973052848",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "8313.475449507585",
+    "yhat_lower": "7413.244464087499",
+    "yhat_upper": "9288.522911266968",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "8048.493170326922",
+    "yhat_lower": "7198.203138954784",
+    "yhat_upper": "8991.245247690402",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "7846.014460702454",
+    "yhat_lower": "6939.599247949705",
+    "yhat_upper": "8727.614507215209",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "8033.246057243191",
+    "yhat_lower": "7096.41185423707",
+    "yhat_upper": "9004.285461197005",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "7942.4014505708665",
+    "yhat_lower": "7097.90018768387",
+    "yhat_upper": "8878.290656144749",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "8015.963696699876",
+    "yhat_lower": "7116.572027906863",
+    "yhat_upper": "8931.416512347541",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "7663.566153642321",
+    "yhat_lower": "6750.099418256343",
+    "yhat_upper": "8539.31091436392",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "8082.837967890327",
+    "yhat_lower": "7186.944979034065",
+    "yhat_upper": "8954.241576400878",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "7829.963030584342",
+    "yhat_lower": "6915.609813032499",
+    "yhat_upper": "8730.937691606972",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "7721.458199889781",
+    "yhat_lower": "6809.252423408969",
+    "yhat_upper": "8602.62092313307",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "7448.266355466364",
+    "yhat_lower": "6525.113186227337",
+    "yhat_upper": "8334.88829779165",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "7704.891090412727",
+    "yhat_lower": "6828.450873063955",
+    "yhat_upper": "8679.844142793854",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "7810.504030638519",
+    "yhat_lower": "6866.540511887013",
+    "yhat_upper": "8737.102501913212",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "7620.726854636742",
+    "yhat_lower": "6753.816110523136",
+    "yhat_upper": "8512.095289571567",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "7472.7740295160775",
+    "yhat_lower": "6570.123975287843",
+    "yhat_upper": "8406.936233437218",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "7607.400401507423",
+    "yhat_lower": "6700.5030291439325",
+    "yhat_upper": "8518.427683426955",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "7668.199336695399",
+    "yhat_lower": "6761.75321928893",
+    "yhat_upper": "8535.399160120829",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "7550.93351762701",
+    "yhat_lower": "6678.317018909424",
+    "yhat_upper": "8454.72522669545",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "7370.630050746308",
+    "yhat_lower": "6463.462937548386",
+    "yhat_upper": "8311.787163460278",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "7518.464443184438",
+    "yhat_lower": "6569.8508270057055",
+    "yhat_upper": "8419.283707245831",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "7513.535720954115",
+    "yhat_lower": "6542.357414333974",
+    "yhat_upper": "8380.10632944738",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "7186.107189591027",
+    "yhat_lower": "6313.759843098537",
+    "yhat_upper": "8098.87578222851",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "7281.164010145524",
+    "yhat_lower": "6326.244834401941",
+    "yhat_upper": "8264.844231437979",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "7335.746474111883",
+    "yhat_lower": "6548.6025572467615",
+    "yhat_upper": "8290.142339170423",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "7300.314043066404",
+    "yhat_lower": "6375.382669090249",
+    "yhat_upper": "8226.771628399832",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "7192.2014659964525",
+    "yhat_lower": "6311.168099750406",
+    "yhat_upper": "8115.060792894939",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "7098.779070476519",
+    "yhat_lower": "6193.944296648508",
+    "yhat_upper": "8071.516888128696",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "7181.600762253569",
+    "yhat_lower": "6248.579049288904",
+    "yhat_upper": "8132.475122730461",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "7392.021463811406",
+    "yhat_lower": "6503.71044007112",
+    "yhat_upper": "8304.471554148324",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "7084.004178790621",
+    "yhat_lower": "6115.7741479875",
+    "yhat_upper": "7972.948989920019",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "7075.489681304494",
+    "yhat_lower": "6098.708015150186",
+    "yhat_upper": "7998.795836400589",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "6953.471483641044",
+    "yhat_lower": "5994.725835315555",
+    "yhat_upper": "7903.6054715476785",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "7198.337723284338",
+    "yhat_lower": "6335.197333162873",
+    "yhat_upper": "8140.361198403477",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "6653.820352106051",
+    "yhat_lower": "5845.171349425602",
+    "yhat_upper": "7514.432722785907",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "7115.9212475649265",
+    "yhat_lower": "6227.249751856929",
+    "yhat_upper": "8122.23895720428",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "6961.9130427866385",
+    "yhat_lower": "6094.316744451794",
+    "yhat_upper": "7880.233297971481",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "6825.034861128493",
+    "yhat_lower": "5914.118527334612",
+    "yhat_upper": "7727.3520816773635",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "6837.811850454002",
+    "yhat_lower": "5935.578872563018",
+    "yhat_upper": "7807.51511121964",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "6835.2759597555505",
+    "yhat_lower": "5958.602372252468",
+    "yhat_upper": "7705.269920161589",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "6903.525426675866",
+    "yhat_lower": "6051.032827628217",
+    "yhat_upper": "7772.870712155734",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "6828.024841236191",
+    "yhat_lower": "5878.854182180742",
+    "yhat_upper": "7734.884000527128",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "7184.046121677284",
+    "yhat_lower": "6264.598678244936",
+    "yhat_upper": "8113.234388831955",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "6748.068013316179",
+    "yhat_lower": "5852.70907706443",
+    "yhat_upper": "7670.041649186964",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "7531.853721560082",
+    "yhat_lower": "6674.057550364498",
+    "yhat_upper": "8421.248615253513",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "7122.9567050375335",
+    "yhat_lower": "6209.637114516717",
+    "yhat_upper": "8027.821435877622",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "7328.0270128225275",
+    "yhat_lower": "6449.459886172104",
+    "yhat_upper": "8168.968991888633",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "6778.607081013826",
+    "yhat_lower": "5869.473306208877",
+    "yhat_upper": "7669.785749926548",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "7374.734948558888",
+    "yhat_lower": "6490.569653238517",
+    "yhat_upper": "8218.923627497878",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "7772.970837263679",
+    "yhat_lower": "6816.8883742169",
+    "yhat_upper": "8665.749166890264",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "7649.369910477929",
+    "yhat_lower": "6705.1178738009685",
+    "yhat_upper": "8613.04766747667",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "7595.491340391989",
+    "yhat_lower": "6678.573573624177",
+    "yhat_upper": "8518.409215153202",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "7931.323076472557",
+    "yhat_lower": "7047.6668861964245",
+    "yhat_upper": "8911.612868395026",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "8007.474959770567",
+    "yhat_lower": "7059.120228560633",
+    "yhat_upper": "8893.555798637608",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "8265.926176939442",
+    "yhat_lower": "7395.49285405431",
+    "yhat_upper": "9217.688937237468",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "8092.453444563575",
+    "yhat_lower": "7144.176162552025",
+    "yhat_upper": "9038.451767910705",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "8696.61422984994",
+    "yhat_lower": "7783.114535465852",
+    "yhat_upper": "9655.998455875233",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "8623.051418762392",
+    "yhat_lower": "7742.051418959792",
+    "yhat_upper": "9507.860254915831",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "8699.835785156785",
+    "yhat_lower": "7800.622325819834",
+    "yhat_upper": "9579.49408140182",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "8613.022194850153",
+    "yhat_lower": "7731.02383104399",
+    "yhat_upper": "9439.944727967842",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "9050.012982165448",
+    "yhat_lower": "8125.4714663412715",
+    "yhat_upper": "9985.797996985175",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "9342.004176506447",
+    "yhat_lower": "8464.898634256484",
+    "yhat_upper": "10325.276583328825",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "9332.593052875338",
+    "yhat_lower": "8411.861003479551",
+    "yhat_upper": "10274.059290186291",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "9371.018483018712",
+    "yhat_lower": "8467.882161034922",
+    "yhat_upper": "10190.343875662242",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "9692.0231102731",
+    "yhat_lower": "8877.995912741579",
+    "yhat_upper": "10622.007434197132",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "9921.16369537702",
+    "yhat_lower": "9082.364386356401",
+    "yhat_upper": "10801.604961688416",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "9990.276131572187",
+    "yhat_lower": "9074.915361537636",
+    "yhat_upper": "10917.693216119711",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "9990.338718173725",
+    "yhat_lower": "9013.899592385462",
+    "yhat_upper": "10923.653215153765",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "10324.551365642204",
+    "yhat_lower": "9449.973633123991",
+    "yhat_upper": "11244.50328070989",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "10499.988696663535",
+    "yhat_lower": "9631.801317296213",
+    "yhat_upper": "11386.586735897128",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "10358.938420329523",
+    "yhat_lower": "9487.414753339655",
+    "yhat_upper": "11279.912610811865",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "10640.373495912001",
+    "yhat_lower": "9757.291667736177",
+    "yhat_upper": "11551.02973852381",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "10875.322013131414",
+    "yhat_lower": "9990.497928596056",
+    "yhat_upper": "11789.125552009076",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "11026.267837113997",
+    "yhat_lower": "10014.904707178028",
+    "yhat_upper": "11980.90526200971",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "11098.521312867573",
+    "yhat_lower": "10192.950479607209",
+    "yhat_upper": "11994.508642765162",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "11191.477171931607",
+    "yhat_lower": "10276.21531255697",
+    "yhat_upper": "12077.446427644207",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "11460.677118293132",
+    "yhat_lower": "10603.367737732797",
+    "yhat_upper": "12317.853927016446",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "11839.439469151566",
+    "yhat_lower": "10968.256894633443",
+    "yhat_upper": "12720.356124725064",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "11717.800438714547",
+    "yhat_lower": "10761.90151336258",
+    "yhat_upper": "12635.920927765485",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "11889.651993699099",
+    "yhat_lower": "10986.690480319327",
+    "yhat_upper": "12759.179941069548",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "11954.012050256815",
+    "yhat_lower": "11045.55835558409",
+    "yhat_upper": "12843.518586648957",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "12379.244342370372",
+    "yhat_lower": "11427.591615683437",
+    "yhat_upper": "13288.206997375215",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "12021.105225412985",
+    "yhat_lower": "11114.831298861773",
+    "yhat_upper": "12928.909926017159",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "12669.58437508916",
+    "yhat_lower": "11700.245348016166",
+    "yhat_upper": "13582.25703290966",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "12695.942222782016",
+    "yhat_lower": "11749.597595065994",
+    "yhat_upper": "13563.829344471797",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "12708.614706158922",
+    "yhat_lower": "11724.74886143822",
+    "yhat_upper": "13664.57135001449",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "12866.118145516253",
+    "yhat_lower": "11985.882861417804",
+    "yhat_upper": "13776.335070630092",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "13013.132919850945",
+    "yhat_lower": "12154.299501785947",
+    "yhat_upper": "13883.01918742327",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "13230.933051804474",
+    "yhat_lower": "12315.770696860493",
+    "yhat_upper": "14139.919160345691",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "13295.33470139605",
+    "yhat_lower": "12367.098012247352",
+    "yhat_upper": "14220.936030805904",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "13744.830811240032",
+    "yhat_lower": "12871.229710107667",
+    "yhat_upper": "14686.38868995271",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "13399.312215202399",
+    "yhat_lower": "12502.223291557864",
+    "yhat_upper": "14318.043098220836",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "14276.572752848344",
+    "yhat_lower": "13349.819026577068",
+    "yhat_upper": "15175.122245120258",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "13958.135248648481",
+    "yhat_lower": "13059.43469313555",
+    "yhat_upper": "14853.164174673539",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "14256.680385834838",
+    "yhat_lower": "13310.195824702983",
+    "yhat_upper": "15216.949549073403",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "13800.735283424236",
+    "yhat_lower": "12936.62824135867",
+    "yhat_upper": "14696.100834345061",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "14433.03530115858",
+    "yhat_lower": "13518.823120561563",
+    "yhat_upper": "15345.77525760754",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "14868.649078390506",
+    "yhat_lower": "13917.246101812285",
+    "yhat_upper": "15767.9272522088",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "14781.220301790318",
+    "yhat_lower": "13854.324820889891",
+    "yhat_upper": "15700.935183783153",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "14764.719620231755",
+    "yhat_lower": "13773.647536863678",
+    "yhat_upper": "15678.39430757855",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "15137.92924483657",
+    "yhat_lower": "14277.770934547569",
+    "yhat_upper": "16087.313123563308",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "15215.06479254641",
+    "yhat_lower": "14330.368885261385",
+    "yhat_upper": "16175.05347900804",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "15474.605066740822",
+    "yhat_lower": "14516.674166879566",
+    "yhat_upper": "16364.368786459549",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "15302.186260520071",
+    "yhat_lower": "14351.595988347544",
+    "yhat_upper": "16224.62214007687",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "15907.436102831616",
+    "yhat_lower": "14958.094878484935",
+    "yhat_upper": "16785.21140369465",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "15834.927217895782",
+    "yhat_lower": "14881.52881816613",
+    "yhat_upper": "16741.003400934413",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "15912.80064131664",
+    "yhat_lower": "14920.046611005513",
+    "yhat_upper": "16827.579546519202",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "15825.987051008766",
+    "yhat_lower": "14879.922652827172",
+    "yhat_upper": "16746.814701182273",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "16262.977838325261",
+    "yhat_lower": "15357.83315081023",
+    "yhat_upper": "17209.758633810507",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "16554.969032666853",
+    "yhat_lower": "15618.751276246698",
+    "yhat_upper": "17518.479467576442",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "16545.557909034407",
+    "yhat_lower": "15664.324125307383",
+    "yhat_upper": "17457.459701829426",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "16583.98333917706",
+    "yhat_lower": "15663.944569187728",
+    "yhat_upper": "17537.173691483862",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "16904.9879664332",
+    "yhat_lower": "15859.815877712676",
+    "yhat_upper": "17861.960040717153",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "17134.128551536643",
+    "yhat_lower": "16130.002432491721",
+    "yhat_upper": "18124.065702328764",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "17203.240987732624",
+    "yhat_lower": "16192.099660439562",
+    "yhat_upper": "18161.100599753827",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "17203.30357433241",
+    "yhat_lower": "16096.150198664318",
+    "yhat_upper": "18189.27931127324",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "17537.516221800517",
+    "yhat_lower": "16513.75014856337",
+    "yhat_upper": "18528.864886477226",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "17712.95355282247",
+    "yhat_lower": "16604.054750481024",
+    "yhat_upper": "18696.661558751148",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "17571.90327648925",
+    "yhat_lower": "16421.31695173091",
+    "yhat_upper": "18530.476135029803",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "17853.338352071616",
+    "yhat_lower": "16798.807582047866",
+    "yhat_upper": "18880.66494588172",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "18088.286869289917",
+    "yhat_lower": "16976.772397717363",
+    "yhat_upper": "19227.367482339",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "18239.23269327357",
+    "yhat_lower": "17161.193463015752",
+    "yhat_upper": "19269.146703685434",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "18311.48616902651",
+    "yhat_lower": "17195.834726310415",
+    "yhat_upper": "19402.97489664045",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "18404.442028090616",
+    "yhat_lower": "17196.074693535353",
+    "yhat_upper": "19502.93393584912",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "18673.64197445229",
+    "yhat_lower": "17516.553306671824",
+    "yhat_upper": "19886.41357967022",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "19052.404325311847",
+    "yhat_lower": "17740.557315101265",
+    "yhat_upper": "20200.64947648328",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "18930.76529487309",
+    "yhat_lower": "17614.487710528538",
+    "yhat_upper": "20140.55040081014",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "19102.616849857695",
+    "yhat_lower": "17697.576728608034",
+    "yhat_upper": "20380.399454985552",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "19166.976906417134",
+    "yhat_lower": "17904.501612970744",
+    "yhat_upper": "20331.015290982486",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "19592.209198530403",
+    "yhat_lower": "18305.177142021384",
+    "yhat_upper": "20842.477263892655",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "19234.070081572736",
+    "yhat_lower": "17861.971010796282",
+    "yhat_upper": "20505.760298251593",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "19882.549231249162",
+    "yhat_lower": "18443.47689469978",
+    "yhat_upper": "21194.5322423224",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "19908.907078941043",
+    "yhat_lower": "18394.389991444066",
+    "yhat_upper": "21276.781297744892",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "19921.579562317507",
+    "yhat_lower": "18471.300814116894",
+    "yhat_upper": "21239.71400810559",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "20079.083001675754",
+    "yhat_lower": "18632.58635695169",
+    "yhat_upper": "21464.041859333945",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "20226.097776010545",
+    "yhat_lower": "18605.772969231177",
+    "yhat_upper": "21602.483480833693",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "20443.897907964423",
+    "yhat_lower": "18956.31374279123",
+    "yhat_upper": "21874.85349082405",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "20508.299557556773",
+    "yhat_lower": "18831.828520084608",
+    "yhat_upper": "21947.673640885052",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "20957.79566739812",
+    "yhat_lower": "19340.99916052027",
+    "yhat_upper": "22467.457040519363",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "20612.27707135996",
+    "yhat_lower": "18961.426292260203",
+    "yhat_upper": "22094.302786876462",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "21489.53760900732",
+    "yhat_lower": "19780.163072858068",
+    "yhat_upper": "23147.00470802103",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "21171.1001048081",
+    "yhat_lower": "19456.8519583632",
+    "yhat_upper": "22814.99045270897",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "21469.64524199372",
+    "yhat_lower": "19765.277369316413",
+    "yhat_upper": "23171.833585883465",
+    "area_id": "352",
+    "name_en": "Al Thanayah Fourth"
+  }
+]

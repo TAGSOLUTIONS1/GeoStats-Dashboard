@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "3397.885498046875",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "3598.81494140625",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "3466.890380859375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "3135.6318359375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "3418.038818359375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "3570.043701171875",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "3685.604736328125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "4054.38525390625",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "4347.84423828125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "3785.2158203125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "3852.4541015625",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "3783.94140625",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "3777.1240234375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "3758.248779296875",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "4070.632080078125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "4004.57861328125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "4122.17822265625",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "3778.18505859375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "3372.4892578125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "3569.04052734375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "3795.392333984375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "3693.288818359375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "4193.29931640625",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "4159.04931640625",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "3954.443359375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "3646.641845703125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "3356.63916015625",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "3552.907958984375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "3790.0712890625",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "3784.83642578125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "4026.31396484375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "3888.032470703125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "3903.27783203125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "3468.298828125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "3477.712890625",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "3713.8994140625",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "3796.145751953125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "3920.697998046875",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "4323.83203125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "4085.9423828125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "3749.77734375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "3478.312255859375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "3452.0517578125",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "3647.166748046875",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "4175.0263671875",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "4333.34375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "4337.9052734375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "4008.56396484375",
+    "area_id": "300",
+    "name_en": "Al Rashidiya"
+  }
+]

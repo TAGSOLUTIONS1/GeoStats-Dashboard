@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "9923.48035523987",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "10011.344635657302",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "9990.855222892524",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "9994.34572154653",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "9529.977711966549",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "8703.359735371858",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "9148.147228483003",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "8766.068956486622",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "8678.216586442",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "8259.298361219995",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "8148.07762119204",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "8572.414817525178",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "8989.465859109403",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "9645.999128613563",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "9027.015115721635",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "9087.472975948485",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "9152.045869114609",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "9139.669545626653",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "9710.164234347825",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "9421.25234212819",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "8730.497639916437",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "8173.496380735362",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "8520.061090388588",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "9876.4299108003",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "8244.97640092055",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "9347.87802832236",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "9140.610527530393",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "9689.391392103757",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "9043.234129389612",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "9356.312531874952",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "8310.213480850201",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "8482.395646371422",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "8907.079174138758",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "8666.427322161662",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "8528.417112934723",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "8555.946202206158",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "8268.463609266742",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "8764.136767588896",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "9779.862739071279",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "8925.859395338337",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "9343.891330047334",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "10352.654282731184",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "9993.275551269979",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "9386.505438413671",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "10215.008561914847",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "8841.194865859217",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "9967.213296467782",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "9830.591629834604",
+    "area_id": "451",
+    "name_en": "Al Hebiah Fifth"
+  }
+]

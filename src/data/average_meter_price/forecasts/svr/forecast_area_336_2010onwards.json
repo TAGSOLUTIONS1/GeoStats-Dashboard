@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-02-01",
+    "yhat": "2906.524638541146",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "2906.4231219887715",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "2906.4181284360825",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "2906.4153411310367",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "2906.4217897124267",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "2906.419609326363",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "2906.4211416834014",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "2906.443484075119",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "2906.4020915067645",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "2906.385834322074",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "2906.610779503447",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "2909.323761882557",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "2910.208789558251",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "2910.631330314153",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "2911.266311949347",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "2912.0372183480445",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "2912.716163413257",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "2913.071405495267",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "2913.062199370261",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "2912.8409482441816",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "2912.555789100322",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "2912.2470641486652",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "2911.8910692790423",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "2910.0448384396245",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "2910.264734556127",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "2910.653534584586",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "2911.249413723714",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "2911.9834271229433",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "2912.6412116208903",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "2912.989565003075",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "2912.98916821801",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "2912.7820282660855",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "2912.5150050145835",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "2912.225010063472",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "2911.8835818915736",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "2910.0442135264047",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "2910.2645411560497",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "2910.6536872612687",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "2911.249832750918",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "2911.9840230226114",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "2912.641870340558",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "2912.9901569423755",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "2912.9896080934695",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "2912.7822962348364",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "2912.5151363621526",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "2912.225056413145",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "2911.88358988825",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "2910.0442146159066",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  }
+]

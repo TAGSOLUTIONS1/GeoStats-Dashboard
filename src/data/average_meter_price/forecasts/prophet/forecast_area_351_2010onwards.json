@@ -1,0 +1,1794 @@
+[
+  {
+    "ds": "2010-01-01",
+    "yhat": "9263.108823742337",
+    "yhat_lower": "7772.602359486723",
+    "yhat_upper": "10732.424035879088",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2010-02-01",
+    "yhat": "9395.47862855681",
+    "yhat_lower": "7928.995304773747",
+    "yhat_upper": "10953.653947500414",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2010-03-01",
+    "yhat": "9300.56619978737",
+    "yhat_lower": "7816.494000804265",
+    "yhat_upper": "10859.086085136065",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2010-04-01",
+    "yhat": "9388.330208854497",
+    "yhat_lower": "7928.245062576657",
+    "yhat_upper": "10825.744955474638",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2010-05-01",
+    "yhat": "9166.683216937428",
+    "yhat_lower": "7709.764369424621",
+    "yhat_upper": "10691.073985421952",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "9193.17100736337",
+    "yhat_lower": "7781.273413853815",
+    "yhat_upper": "10658.917356360002",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2010-07-01",
+    "yhat": "9335.11563009679",
+    "yhat_lower": "7862.200333103694",
+    "yhat_upper": "10926.379038594596",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2010-08-01",
+    "yhat": "9120.6120488959",
+    "yhat_lower": "7657.592290784205",
+    "yhat_upper": "10722.175620729407",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2010-09-01",
+    "yhat": "9044.653108371269",
+    "yhat_lower": "7586.187446778187",
+    "yhat_upper": "10486.346606268635",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2010-10-01",
+    "yhat": "9468.249661570444",
+    "yhat_lower": "7983.793561429062",
+    "yhat_upper": "10924.351504703249",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "9610.541207637334",
+    "yhat_lower": "8077.503989043814",
+    "yhat_upper": "11008.03241859917",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2010-12-01",
+    "yhat": "10214.99223940426",
+    "yhat_lower": "8882.91422577142",
+    "yhat_upper": "11670.55828853269",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2011-01-01",
+    "yhat": "10092.327189691194",
+    "yhat_lower": "8584.208141142488",
+    "yhat_upper": "11614.407367121235",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2011-02-01",
+    "yhat": "10221.696045572618",
+    "yhat_lower": "8806.36913819309",
+    "yhat_upper": "11609.177730856563",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "10488.096149696989",
+    "yhat_lower": "8989.632920257854",
+    "yhat_upper": "11930.223526673017",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2011-04-01",
+    "yhat": "10408.128172588828",
+    "yhat_lower": "9001.653121877542",
+    "yhat_upper": "11810.84564807823",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "10069.798790638743",
+    "yhat_lower": "8779.497562716091",
+    "yhat_upper": "11640.824639624296",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "10339.280210065064",
+    "yhat_lower": "8893.884624483531",
+    "yhat_upper": "11750.927355872733",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2011-07-01",
+    "yhat": "10274.884756702977",
+    "yhat_lower": "8845.647300479153",
+    "yhat_upper": "11807.159892178563",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "10033.175664328022",
+    "yhat_lower": "8553.203211936843",
+    "yhat_upper": "11578.026939220044",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "9968.228822506153",
+    "yhat_lower": "8414.912721004435",
+    "yhat_upper": "11454.734331046773",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "10616.936808474007",
+    "yhat_lower": "9139.180103282235",
+    "yhat_upper": "12025.297084558688",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "10547.780743925543",
+    "yhat_lower": "9071.749692369636",
+    "yhat_upper": "11980.328270797483",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "11419.828909641968",
+    "yhat_lower": "9892.461490346659",
+    "yhat_upper": "12912.02152374633",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "10925.479577658232",
+    "yhat_lower": "9379.347645557486",
+    "yhat_upper": "12355.932577583055",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "11064.426709477693",
+    "yhat_lower": "9533.508568565561",
+    "yhat_upper": "12527.909468258673",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "10948.820190415192",
+    "yhat_lower": "9335.719058437817",
+    "yhat_upper": "12438.240335189907",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "11361.185682537493",
+    "yhat_lower": "9814.075312324283",
+    "yhat_upper": "12882.620554581828",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "11387.227611900104",
+    "yhat_lower": "9894.220592858028",
+    "yhat_upper": "12883.933282577475",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "10934.728640070005",
+    "yhat_lower": "9456.472754520732",
+    "yhat_upper": "12224.18363238164",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "11489.797734976692",
+    "yhat_lower": "10032.189963599041",
+    "yhat_upper": "12895.175830983122",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "11348.912702397873",
+    "yhat_lower": "9974.73930834287",
+    "yhat_upper": "12835.329104073724",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2012-09-01",
+    "yhat": "11271.744542819928",
+    "yhat_lower": "9702.303143327774",
+    "yhat_upper": "12770.08721011222",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "11247.8941460063",
+    "yhat_lower": "9801.497441798236",
+    "yhat_upper": "12823.731474062053",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "11820.088652566617",
+    "yhat_lower": "10434.35163199348",
+    "yhat_upper": "13265.61441418872",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "11897.02622844738",
+    "yhat_lower": "10401.066664131877",
+    "yhat_upper": "13393.524416904247",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "12531.46847750699",
+    "yhat_lower": "10998.648418060902",
+    "yhat_upper": "13883.94118308492",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "12684.880737264817",
+    "yhat_lower": "11245.21683337169",
+    "yhat_upper": "14338.935101735831",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "12236.746510108555",
+    "yhat_lower": "10764.67734894459",
+    "yhat_upper": "13722.445143544528",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "12497.080106827574",
+    "yhat_lower": "11111.896856238282",
+    "yhat_upper": "13937.633150512418",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "12405.073544224857",
+    "yhat_lower": "11003.544300120351",
+    "yhat_upper": "13997.599933767557",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "12197.421017125429",
+    "yhat_lower": "10658.583576928206",
+    "yhat_upper": "13571.018851286584",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "12552.290282364704",
+    "yhat_lower": "11055.244805572402",
+    "yhat_upper": "13998.855636608614",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "12378.005674239577",
+    "yhat_lower": "10865.513017104071",
+    "yhat_upper": "13964.820657263746",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "12304.538017720164",
+    "yhat_lower": "10877.63819187711",
+    "yhat_upper": "13710.963747000054",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "12510.242172976123",
+    "yhat_lower": "11026.031404977894",
+    "yhat_upper": "13947.435617612718",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "12872.940263231016",
+    "yhat_lower": "11372.270698490052",
+    "yhat_upper": "14341.978644192202",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "13220.09295668225",
+    "yhat_lower": "11759.794565548666",
+    "yhat_upper": "14713.659472825488",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "13481.861248658304",
+    "yhat_lower": "12021.737806370338",
+    "yhat_upper": "15031.752866296294",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "13624.107374347566",
+    "yhat_lower": "12145.8443949567",
+    "yhat_upper": "15091.754149344319",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "13538.115493466064",
+    "yhat_lower": "12146.907715932623",
+    "yhat_upper": "15167.206159108682",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "13635.752064923092",
+    "yhat_lower": "12037.841244362373",
+    "yhat_upper": "15107.205968852488",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "13423.659165641664",
+    "yhat_lower": "11910.758614188517",
+    "yhat_upper": "14930.312151924938",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "13460.019518456222",
+    "yhat_lower": "12047.961829201218",
+    "yhat_upper": "14881.39253955692",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "13611.51823382702",
+    "yhat_lower": "12100.306069376134",
+    "yhat_upper": "15092.182414886327",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "13406.887215086916",
+    "yhat_lower": "11840.910746358846",
+    "yhat_upper": "14834.506883769856",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "13340.800837023593",
+    "yhat_lower": "11750.865805511463",
+    "yhat_upper": "14728.034766666939",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "13739.03536815667",
+    "yhat_lower": "12197.372520479505",
+    "yhat_upper": "15197.44557325138",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "13855.119491423831",
+    "yhat_lower": "12365.705883698241",
+    "yhat_upper": "15307.992338061915",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "14434.20850112372",
+    "yhat_lower": "12871.665798813081",
+    "yhat_upper": "15885.537155966524",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "14285.336029054786",
+    "yhat_lower": "12635.265195913871",
+    "yhat_upper": "15692.552490626376",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "14388.497462576766",
+    "yhat_lower": "13039.053267506246",
+    "yhat_upper": "15945.592090406024",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "14596.733115477355",
+    "yhat_lower": "13144.289686338981",
+    "yhat_upper": "15987.179157619781",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "14452.368781658224",
+    "yhat_lower": "12953.310091131802",
+    "yhat_upper": "16009.999172244967",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "14051.720344824416",
+    "yhat_lower": "12653.753173267218",
+    "yhat_upper": "15440.671646398358",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "14256.805407541526",
+    "yhat_lower": "12721.451579935889",
+    "yhat_upper": "15748.066088219532",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "14130.090899587558",
+    "yhat_lower": "12601.713544786528",
+    "yhat_upper": "15591.246432328473",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "13823.985450804144",
+    "yhat_lower": "12408.059199597345",
+    "yhat_upper": "15328.012377506362",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "13666.605165791005",
+    "yhat_lower": "12266.94090451451",
+    "yhat_upper": "15134.455008035506",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "14225.861432542824",
+    "yhat_lower": "12742.51310575351",
+    "yhat_upper": "15823.205815306486",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "14064.27192480282",
+    "yhat_lower": "12576.662753882552",
+    "yhat_upper": "15592.176915268508",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "14842.624069002179",
+    "yhat_lower": "13356.55974335404",
+    "yhat_upper": "16346.633448298982",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "14251.45551478215",
+    "yhat_lower": "12754.964998818692",
+    "yhat_upper": "15753.062823891023",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "14268.66384410136",
+    "yhat_lower": "12706.80905750844",
+    "yhat_upper": "15668.962043171645",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "14039.172638828068",
+    "yhat_lower": "12672.210789345765",
+    "yhat_upper": "15502.954298369415",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "14329.799328450676",
+    "yhat_lower": "12828.956585255886",
+    "yhat_upper": "15762.122288313569",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "14238.029513458354",
+    "yhat_lower": "12706.86151895604",
+    "yhat_upper": "15628.283405850827",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "13658.30119645979",
+    "yhat_lower": "12172.322615259587",
+    "yhat_upper": "15127.333029083036",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "14090.24511862149",
+    "yhat_lower": "12668.312549671107",
+    "yhat_upper": "15502.941608673867",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "13803.118161155639",
+    "yhat_lower": "12297.751130913157",
+    "yhat_upper": "15319.308427062537",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "13579.708076694638",
+    "yhat_lower": "12180.227520203945",
+    "yhat_upper": "15045.902694067343",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "13414.333236442952",
+    "yhat_lower": "11929.355603040864",
+    "yhat_upper": "14811.617363158952",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "13840.285818610497",
+    "yhat_lower": "12296.120546162281",
+    "yhat_upper": "15343.978542148312",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "13775.698951527796",
+    "yhat_lower": "12339.543534770748",
+    "yhat_upper": "15186.6631183475",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "14240.315456216036",
+    "yhat_lower": "12737.740144914102",
+    "yhat_upper": "15637.66263403574",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "14223.901971601786",
+    "yhat_lower": "12746.713102877437",
+    "yhat_upper": "15510.263191678714",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "13622.376749527462",
+    "yhat_lower": "12218.354023921826",
+    "yhat_upper": "15145.975102032917",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "13712.884601873253",
+    "yhat_lower": "12379.137891803875",
+    "yhat_upper": "15191.543902882382",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "13456.530544522127",
+    "yhat_lower": "11979.051181613042",
+    "yhat_upper": "15012.375009837087",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "13079.052272852074",
+    "yhat_lower": "11590.556447745534",
+    "yhat_upper": "14630.229022464233",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "13259.119289024411",
+    "yhat_lower": "11706.593714306595",
+    "yhat_upper": "14848.820804116725",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "12904.205690197497",
+    "yhat_lower": "11392.957883104491",
+    "yhat_upper": "14450.792070099475",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "12650.10904297771",
+    "yhat_lower": "11165.789358562324",
+    "yhat_upper": "14105.280523931746",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "12681.010948907675",
+    "yhat_lower": "11087.88487943199",
+    "yhat_upper": "14152.961700077369",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "12863.080048189126",
+    "yhat_lower": "11471.834925445657",
+    "yhat_upper": "14353.038806458277",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "13035.430492314528",
+    "yhat_lower": "11653.200621881422",
+    "yhat_upper": "14549.255612337975",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "13116.569793081808",
+    "yhat_lower": "11675.898354398563",
+    "yhat_upper": "14573.233266856936",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "13078.186927562223",
+    "yhat_lower": "11545.012072431726",
+    "yhat_upper": "14642.877576164206",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "12829.046280427088",
+    "yhat_lower": "11402.637953943182",
+    "yhat_upper": "14328.782471662915",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "12746.057619158355",
+    "yhat_lower": "11389.255157696622",
+    "yhat_upper": "14204.278702604282",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "12359.166107562512",
+    "yhat_lower": "10887.006027913123",
+    "yhat_upper": "13848.815237558067",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "12214.901226662652",
+    "yhat_lower": "10718.061326399393",
+    "yhat_upper": "13571.960848578992",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "12191.601328759745",
+    "yhat_lower": "10818.612930427174",
+    "yhat_upper": "13454.900388120723",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "11806.345076305137",
+    "yhat_lower": "10237.031061078937",
+    "yhat_upper": "13264.55547195632",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "11559.63346452585",
+    "yhat_lower": "10028.798083301586",
+    "yhat_upper": "13105.380509614622",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "11817.985497156673",
+    "yhat_lower": "10423.334955897162",
+    "yhat_upper": "13333.851964511532",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "11789.524371970178",
+    "yhat_lower": "10356.040556865886",
+    "yhat_upper": "13215.722096852658",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "12228.730882539447",
+    "yhat_lower": "10793.697890322735",
+    "yhat_upper": "13634.2440299057",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "11935.313161364107",
+    "yhat_lower": "10447.260014558633",
+    "yhat_upper": "13502.967722088777",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "11893.929345783292",
+    "yhat_lower": "10484.888832483444",
+    "yhat_upper": "13406.00410053072",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "12006.101230520699",
+    "yhat_lower": "10482.74175953295",
+    "yhat_upper": "13501.547634172553",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "11755.38058195213",
+    "yhat_lower": "10232.038086901832",
+    "yhat_upper": "13248.940095573476",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "11251.806679689893",
+    "yhat_lower": "9756.952801686657",
+    "yhat_upper": "12748.39395201859",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "11350.535428128307",
+    "yhat_lower": "9891.246523914904",
+    "yhat_upper": "12703.92857960618",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "11120.895454746216",
+    "yhat_lower": "9559.976531330627",
+    "yhat_upper": "12573.151427372592",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "10708.433691685139",
+    "yhat_lower": "9242.323573504844",
+    "yhat_upper": "12138.052916401617",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "10472.734179177269",
+    "yhat_lower": "8921.035676222704",
+    "yhat_upper": "11872.841778936838",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "10956.197645126313",
+    "yhat_lower": "9450.957374017322",
+    "yhat_upper": "12424.995677817682",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "10732.555715152077",
+    "yhat_lower": "9296.594436327394",
+    "yhat_upper": "12174.071596149408",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "11450.857128155849",
+    "yhat_lower": "10073.81909381991",
+    "yhat_upper": "12915.917010278457",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "10797.63615169871",
+    "yhat_lower": "9320.014647467899",
+    "yhat_upper": "12202.389171125256",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "10777.71163904822",
+    "yhat_lower": "9356.05233140618",
+    "yhat_upper": "12306.07033050299",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "10513.48325903057",
+    "yhat_lower": "9054.25534367691",
+    "yhat_upper": "11936.182439183422",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "10819.057878617126",
+    "yhat_lower": "9353.903603004406",
+    "yhat_upper": "12351.882107589965",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "10741.753802300767",
+    "yhat_lower": "9252.0135054401",
+    "yhat_upper": "12249.9326959279",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "10176.973415268367",
+    "yhat_lower": "8485.998266896877",
+    "yhat_upper": "11684.438700095241",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "10623.38307610458",
+    "yhat_lower": "9186.733894808214",
+    "yhat_upper": "12220.883985366052",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "10370.21662832222",
+    "yhat_lower": "8899.143590004767",
+    "yhat_upper": "11835.401628183285",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "10180.76705354055",
+    "yhat_lower": "8680.801731810743",
+    "yhat_upper": "11517.50338721355",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "10117.644645243368",
+    "yhat_lower": "8614.531439774253",
+    "yhat_upper": "11541.05469948572",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "10649.258073762077",
+    "yhat_lower": "9140.728359413983",
+    "yhat_upper": "12046.984659039568",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "10686.923638634553",
+    "yhat_lower": "9102.701250921733",
+    "yhat_upper": "12187.22094857495",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "11280.784809652252",
+    "yhat_lower": "9744.232319468481",
+    "yhat_upper": "12603.44110181476",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "11393.615991367731",
+    "yhat_lower": "9959.57596687893",
+    "yhat_upper": "12868.289179208838",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "10967.685719620798",
+    "yhat_lower": "9412.600848549939",
+    "yhat_upper": "12380.017548339121",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "11252.602266970853",
+    "yhat_lower": "9721.848808171453",
+    "yhat_upper": "12663.673208184644",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "11184.385656401098",
+    "yhat_lower": "9844.3267090119",
+    "yhat_upper": "12698.013462747007",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "11001.316079733917",
+    "yhat_lower": "9553.984760970987",
+    "yhat_upper": "12484.76820907404",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "11379.975297002007",
+    "yhat_lower": "9891.434849464156",
+    "yhat_upper": "12811.308945688561",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "11230.27363930711",
+    "yhat_lower": "9764.609259996414",
+    "yhat_upper": "12631.709271204012",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "11218.567806567493",
+    "yhat_lower": "9752.888036749422",
+    "yhat_upper": "12826.897588907283",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "11484.041468445042",
+    "yhat_lower": "10093.136844738716",
+    "yhat_upper": "12946.240168634487",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "11908.501382205684",
+    "yhat_lower": "10504.12530372638",
+    "yhat_upper": "13418.786777252782",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "12315.423582277526",
+    "yhat_lower": "10804.952450648347",
+    "yhat_upper": "13816.120443428092",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "12638.953697760422",
+    "yhat_lower": "11282.903587916053",
+    "yhat_upper": "14061.208040237578",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "12842.96164695864",
+    "yhat_lower": "11462.829732751643",
+    "yhat_upper": "14436.768411516961",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "12812.754638921419",
+    "yhat_lower": "11368.274581628504",
+    "yhat_upper": "14196.069713269973",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "12972.15679237017",
+    "yhat_lower": "11463.546726677952",
+    "yhat_upper": "14483.117062183055",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "12819.837036950643",
+    "yhat_lower": "11388.421876775368",
+    "yhat_upper": "14165.196544439075",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "12917.962971757222",
+    "yhat_lower": "11531.626673850726",
+    "yhat_upper": "14447.631766083985",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "13129.234830990903",
+    "yhat_lower": "11545.26726564799",
+    "yhat_upper": "14551.009222333547",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "12986.369394243504",
+    "yhat_lower": "11545.509862024848",
+    "yhat_upper": "14542.566855561268",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "12982.048598171132",
+    "yhat_lower": "11585.607140921213",
+    "yhat_upper": "14488.223406225432",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "13474.97238793667",
+    "yhat_lower": "11942.06732227284",
+    "yhat_upper": "14953.938623349552",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "13688.902078455703",
+    "yhat_lower": "12294.416776955042",
+    "yhat_upper": "15334.380493114253",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "14362.680346789828",
+    "yhat_lower": "12936.153321326045",
+    "yhat_upper": "15819.160037322456",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "14311.653441973047",
+    "yhat_lower": "12879.482862910743",
+    "yhat_upper": "15804.012809893811",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "14512.660442750455",
+    "yhat_lower": "13074.947035721383",
+    "yhat_upper": "16001.022209970048",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "14843.765968070542",
+    "yhat_lower": "13414.515701324644",
+    "yhat_upper": "16360.922288063715",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "14835.43613585894",
+    "yhat_lower": "13368.421887922994",
+    "yhat_upper": "16300.68902363355",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "14566.433990903655",
+    "yhat_lower": "13141.03194333434",
+    "yhat_upper": "16139.664530221673",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "14907.553555226199",
+    "yhat_lower": "13435.429023922214",
+    "yhat_upper": "16273.884638382773",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "14912.485339152878",
+    "yhat_lower": "13460.099319442155",
+    "yhat_upper": "16318.558658739652",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "14742.414391976787",
+    "yhat_lower": "13306.976584914486",
+    "yhat_upper": "16218.178992436886",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "14749.10569535357",
+    "yhat_lower": "13329.00464713817",
+    "yhat_upper": "16298.080675292178",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "15467.140918609568",
+    "yhat_lower": "13875.366616833438",
+    "yhat_upper": "16904.770021558154",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "15469.622999258623",
+    "yhat_lower": "13866.580730927995",
+    "yhat_upper": "16831.646222905427",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "16406.754099964437",
+    "yhat_lower": "14938.561621099228",
+    "yhat_upper": "17798.849261169802",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "15979.657134135268",
+    "yhat_lower": "14520.29352891655",
+    "yhat_upper": "17320.784629573904",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "16185.856632106814",
+    "yhat_lower": "14666.134040557177",
+    "yhat_upper": "17610.439389685886",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "16133.163616866334",
+    "yhat_lower": "14583.311857541345",
+    "yhat_upper": "17497.54414575927",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "16612.781475143398",
+    "yhat_lower": "15187.225311933376",
+    "yhat_upper": "18055.357001171687",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "16703.906339495024",
+    "yhat_lower": "15148.134810970145",
+    "yhat_upper": "18142.226765745036",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "16313.169191151004",
+    "yhat_lower": "14893.128924159702",
+    "yhat_upper": "17783.83236089908",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "16928.007792655928",
+    "yhat_lower": "15507.173107956734",
+    "yhat_upper": "18419.07623563867",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "16848.884583563187",
+    "yhat_lower": "15298.142155571342",
+    "yhat_upper": "18228.032626247572",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "16833.478247472733",
+    "yhat_lower": "15292.03573371126",
+    "yhat_upper": "18351.44944523971",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "16869.39735725482",
+    "yhat_lower": "15384.886524669251",
+    "yhat_upper": "18282.04658878414",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "17503.35368779461",
+    "yhat_lower": "16046.5110272276",
+    "yhat_upper": "18940.747859982595",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "17640.060770748707",
+    "yhat_lower": "16178.511320102061",
+    "yhat_upper": "19289.746030340113",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "18336.26484378716",
+    "yhat_lower": "16767.780826981085",
+    "yhat_upper": "19818.697497972233",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "18551.43892752074",
+    "yhat_lower": "17105.554815620973",
+    "yhat_upper": "19932.260307318546",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "18159.089573636174",
+    "yhat_lower": "16701.50626503147",
+    "yhat_upper": "19588.17298885443",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "18481.184994331492",
+    "yhat_lower": "17018.123671132427",
+    "yhat_upper": "20087.065488269458",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "18448.947938611287",
+    "yhat_lower": "16948.697127216186",
+    "yhat_upper": "19932.077147664386",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "18303.057235290362",
+    "yhat_lower": "16817.599781169785",
+    "yhat_upper": "19886.15319326236",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "18717.696007409915",
+    "yhat_lower": "17306.220729676304",
+    "yhat_upper": "20294.59895395732",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "18605.17322306242",
+    "yhat_lower": "17138.389731620307",
+    "yhat_upper": "20116.252536434233",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "18593.46739032134",
+    "yhat_lower": "17074.804913329353",
+    "yhat_upper": "20061.930225469303",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "18858.941052198465",
+    "yhat_lower": "17265.793628241892",
+    "yhat_upper": "20409.775033623013",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "19283.400965959278",
+    "yhat_lower": "17819.562223427165",
+    "yhat_upper": "20897.01244975505",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "19690.32316603127",
+    "yhat_lower": "18230.620965131828",
+    "yhat_upper": "21252.034997189723",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "20013.853281516956",
+    "yhat_lower": "18519.808846810327",
+    "yhat_upper": "21586.686504492005",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "20217.86123071313",
+    "yhat_lower": "18726.59902308489",
+    "yhat_upper": "21746.671895853557",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "20187.65422267684",
+    "yhat_lower": "18610.120841295135",
+    "yhat_upper": "21787.65387224607",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "20347.05637612453",
+    "yhat_lower": "18793.303117490912",
+    "yhat_upper": "21982.892910242233",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "20194.736620705695",
+    "yhat_lower": "18583.724958255963",
+    "yhat_upper": "21752.312064711532",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "20292.862555513104",
+    "yhat_lower": "18690.576561377162",
+    "yhat_upper": "21826.76373368113",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "20504.134414745655",
+    "yhat_lower": "18773.405003296855",
+    "yhat_upper": "22205.14933786068",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "20361.26897799634",
+    "yhat_lower": "18860.506548210833",
+    "yhat_upper": "22123.292862643182",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "20356.94818192404",
+    "yhat_lower": "18761.603495370706",
+    "yhat_upper": "21999.70980636799",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "20849.871971690623",
+    "yhat_lower": "19169.568958365482",
+    "yhat_upper": "22529.672511789242",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "21063.80166221102",
+    "yhat_lower": "19417.83545860639",
+    "yhat_upper": "22668.307943456093",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "21737.57993054562",
+    "yhat_lower": "20049.85664703353",
+    "yhat_upper": "23413.19243040542",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "21686.553025727844",
+    "yhat_lower": "19928.098676703496",
+    "yhat_upper": "23547.801426026122",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "21887.5600265064",
+    "yhat_lower": "20101.909701829685",
+    "yhat_upper": "23614.098716507513",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "22218.665551826616",
+    "yhat_lower": "20471.749413673853",
+    "yhat_upper": "24142.08589614128",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "22210.335719613573",
+    "yhat_lower": "20350.596982872274",
+    "yhat_upper": "24056.92882792273",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "21941.333574658467",
+    "yhat_lower": "20033.275987647292",
+    "yhat_upper": "23943.210809104134",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "22282.453138981204",
+    "yhat_lower": "20379.80368420969",
+    "yhat_upper": "24201.224110120365",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "22287.384922906676",
+    "yhat_lower": "20422.812089695857",
+    "yhat_upper": "24379.93108924706",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "22117.313975729652",
+    "yhat_lower": "20272.200953005526",
+    "yhat_upper": "24151.536069435264",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "22124.00527910642",
+    "yhat_lower": "20070.147291140533",
+    "yhat_upper": "24201.07434793105",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "22842.040502363492",
+    "yhat_lower": "20830.612901666627",
+    "yhat_upper": "24892.521745798404",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "22844.52258301495",
+    "yhat_lower": "20770.727216530926",
+    "yhat_upper": "25134.403125678706",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "23781.653683719782",
+    "yhat_lower": "21793.146722105874",
+    "yhat_upper": "26125.36659437812",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "23354.556717888416",
+    "yhat_lower": "21053.322180744584",
+    "yhat_upper": "25561.16148346398",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "23560.75621586172",
+    "yhat_lower": "21270.93569851718",
+    "yhat_upper": "26024.586037667978",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "23508.0632006217",
+    "yhat_lower": "21287.64072807663",
+    "yhat_upper": "25868.265090298657",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "23987.6810588983",
+    "yhat_lower": "21716.732987322936",
+    "yhat_upper": "26320.62290747762",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "24078.80592325089",
+    "yhat_lower": "21678.398093182346",
+    "yhat_upper": "26719.252428457126",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "23688.068774904496",
+    "yhat_lower": "21156.230469260907",
+    "yhat_upper": "26270.704956646296",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "24302.90737641039",
+    "yhat_lower": "21961.140467276706",
+    "yhat_upper": "26777.304700650577",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "24223.78416731687",
+    "yhat_lower": "21764.085086039195",
+    "yhat_upper": "26911.839188515773",
+    "area_id": "351",
+    "name_en": "Al Thanyah Third"
+  }
+]

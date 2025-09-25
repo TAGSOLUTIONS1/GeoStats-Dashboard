@@ -1,0 +1,1794 @@
+[
+  {
+    "ds": "2010-01-01",
+    "yhat": "8131.116626683683",
+    "yhat_lower": "5931.804686629705",
+    "yhat_upper": "10211.428831932288",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2010-02-01",
+    "yhat": "8796.94661744267",
+    "yhat_lower": "6664.7504043468",
+    "yhat_upper": "10909.371929598006",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2010-03-01",
+    "yhat": "8687.935014269773",
+    "yhat_lower": "6193.942434067965",
+    "yhat_upper": "10851.729698841396",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2010-04-01",
+    "yhat": "7947.815467216539",
+    "yhat_lower": "5760.8335915603275",
+    "yhat_upper": "10281.711155852392",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2010-05-01",
+    "yhat": "8416.245143320462",
+    "yhat_lower": "6183.344291478076",
+    "yhat_upper": "10573.29392654895",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "8509.399663708451",
+    "yhat_lower": "6211.6852901828115",
+    "yhat_upper": "10575.677054002226",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2010-07-01",
+    "yhat": "8332.06687732149",
+    "yhat_lower": "6229.001033491186",
+    "yhat_upper": "10658.871955558103",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2010-08-01",
+    "yhat": "8451.598881482207",
+    "yhat_lower": "6237.86336775137",
+    "yhat_upper": "10587.354662874859",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2010-09-01",
+    "yhat": "8158.928587518897",
+    "yhat_lower": "5941.1611210716865",
+    "yhat_upper": "10336.566958894431",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2010-10-01",
+    "yhat": "8735.324907214985",
+    "yhat_lower": "6545.51648999201",
+    "yhat_upper": "10984.846308037806",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "8652.172882722221",
+    "yhat_lower": "6509.458213714882",
+    "yhat_upper": "10867.480692323483",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2010-12-01",
+    "yhat": "8352.341811844617",
+    "yhat_lower": "6283.132870843479",
+    "yhat_upper": "10584.650746296362",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2011-01-01",
+    "yhat": "8410.357476538004",
+    "yhat_lower": "6205.927387078004",
+    "yhat_upper": "10711.25875270892",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2011-02-01",
+    "yhat": "9087.49460214052",
+    "yhat_lower": "7033.562748257108",
+    "yhat_upper": "11349.484743339439",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "8911.19471473861",
+    "yhat_lower": "6644.673021743214",
+    "yhat_upper": "11295.554950691161",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2011-04-01",
+    "yhat": "8257.707735403152",
+    "yhat_lower": "5974.285058396311",
+    "yhat_upper": "10499.188375843038",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "8720.820434021949",
+    "yhat_lower": "6405.640138635974",
+    "yhat_upper": "10862.174392044843",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "8805.182074579438",
+    "yhat_lower": "6592.107860610503",
+    "yhat_upper": "10801.353295275096",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2011-07-01",
+    "yhat": "8581.505122349927",
+    "yhat_lower": "6250.489757921365",
+    "yhat_upper": "10767.034825071196",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "8700.467863053258",
+    "yhat_lower": "6442.275881719607",
+    "yhat_upper": "10974.372088456019",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "8458.106117805868",
+    "yhat_lower": "6273.223436807784",
+    "yhat_upper": "10820.249070356182",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "9027.612492567876",
+    "yhat_lower": "6858.843923943844",
+    "yhat_upper": "11225.690129517416",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "8913.727109202779",
+    "yhat_lower": "6611.653848737506",
+    "yhat_upper": "11100.711090075443",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "8650.298813323081",
+    "yhat_lower": "6285.144510625528",
+    "yhat_upper": "10952.068421239777",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "8689.398764389856",
+    "yhat_lower": "6381.944227276177",
+    "yhat_upper": "10836.201542623929",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "9377.133164617151",
+    "yhat_lower": "7190.227855455073",
+    "yhat_upper": "11569.63407438872",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "9359.270811965394",
+    "yhat_lower": "7247.123948159122",
+    "yhat_upper": "11518.17853874117",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "8449.059946275986",
+    "yhat_lower": "6154.7401650854445",
+    "yhat_upper": "10644.120625463896",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "8923.088669508275",
+    "yhat_lower": "6665.685976393775",
+    "yhat_upper": "10994.493950210062",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "9031.31132556234",
+    "yhat_lower": "6719.2726631770465",
+    "yhat_upper": "11223.050379029748",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "8947.749610633937",
+    "yhat_lower": "6824.973943905749",
+    "yhat_upper": "11413.65471212243",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "9072.125943363922",
+    "yhat_lower": "6669.048265359131",
+    "yhat_upper": "11247.505618397903",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2012-09-01",
+    "yhat": "8679.813927798674",
+    "yhat_lower": "6558.311057464361",
+    "yhat_upper": "10909.842548658129",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "9266.139306529165",
+    "yhat_lower": "7138.661116339621",
+    "yhat_upper": "11676.220918189436",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "9245.478113655005",
+    "yhat_lower": "7036.769967110186",
+    "yhat_upper": "11508.186469289458",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "8873.593977578697",
+    "yhat_lower": "6506.3881331105285",
+    "yhat_upper": "11000.361283275603",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "8968.236831464263",
+    "yhat_lower": "6854.4305955715245",
+    "yhat_upper": "11171.91256202832",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "9622.041686801656",
+    "yhat_lower": "7379.767777114852",
+    "yhat_upper": "11714.12162810456",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "9581.680619221801",
+    "yhat_lower": "7288.795726289355",
+    "yhat_upper": "11776.717667027115",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "8755.957483653261",
+    "yhat_lower": "6484.271007283528",
+    "yhat_upper": "11041.835628072058",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "9228.01795526501",
+    "yhat_lower": "6941.2500884119945",
+    "yhat_upper": "11408.004448345546",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "9329.134636349892",
+    "yhat_lower": "7135.977618397111",
+    "yhat_upper": "11463.696720676331",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "9198.527493894744",
+    "yhat_lower": "6917.106293742765",
+    "yhat_upper": "11205.45097976039",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "9319.86446206058",
+    "yhat_lower": "7139.3329844022965",
+    "yhat_upper": "11623.899691698585",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "8977.191331500224",
+    "yhat_lower": "6895.162098986079",
+    "yhat_upper": "11430.785569090962",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "9559.193010122717",
+    "yhat_lower": "7242.674034749213",
+    "yhat_upper": "11927.256292713513",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "9507.12657726625",
+    "yhat_lower": "7358.562052073635",
+    "yhat_upper": "11713.23072130532",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "9171.133679698465",
+    "yhat_lower": "6978.588953276341",
+    "yhat_upper": "11446.812747147533",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "9247.665491318747",
+    "yhat_lower": "7032.077257591096",
+    "yhat_upper": "11457.647157050767",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "9913.49547824863",
+    "yhat_lower": "7681.057285191082",
+    "yhat_upper": "12115.958725663299",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "9804.483871616962",
+    "yhat_lower": "7584.98918430348",
+    "yhat_upper": "12110.759925730943",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "9060.233386584092",
+    "yhat_lower": "6855.736630341831",
+    "yhat_upper": "11285.741051975774",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "9524.665380772276",
+    "yhat_lower": "7273.795566175743",
+    "yhat_upper": "11711.829635839755",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "9613.68896318049",
+    "yhat_lower": "7232.276678292594",
+    "yhat_upper": "11690.375138671108",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "9432.35849487721",
+    "yhat_lower": "7224.224905053631",
+    "yhat_upper": "11753.222317776632",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "9547.75956143683",
+    "yhat_lower": "7373.347149824521",
+    "yhat_upper": "11883.487961652036",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "9250.958329871894",
+    "yhat_lower": "7131.533703778353",
+    "yhat_upper": "11417.356882009704",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "9817.226966947235",
+    "yhat_lower": "7512.989442036165",
+    "yhat_upper": "11904.53019554614",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "9723.60967041324",
+    "yhat_lower": "7357.919654942376",
+    "yhat_upper": "11975.47248792085",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "9413.650916914807",
+    "yhat_lower": "7317.225162098731",
+    "yhat_upper": "11707.62385880748",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "9461.201309560323",
+    "yhat_lower": "6973.051150929755",
+    "yhat_upper": "11731.636002422203",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "10127.873163114924",
+    "yhat_lower": "7982.293045231519",
+    "yhat_upper": "12490.18548038755",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "9935.802196725517",
+    "yhat_lower": "7814.532126292554",
+    "yhat_upper": "12160.838583008537",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "9264.854379940925",
+    "yhat_lower": "7103.922818052312",
+    "yhat_upper": "11507.216296867897",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "9711.069493930732",
+    "yhat_lower": "7397.592494227952",
+    "yhat_upper": "11913.525440449377",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "9777.970297038244",
+    "yhat_lower": "7747.883304208151",
+    "yhat_upper": "11910.342326993394",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "9537.39576047438",
+    "yhat_lower": "7342.809926181366",
+    "yhat_upper": "11897.678383922632",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "9638.897664031992",
+    "yhat_lower": "7345.982902036504",
+    "yhat_upper": "11797.240941579264",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "9372.702582879028",
+    "yhat_lower": "7139.095493678035",
+    "yhat_upper": "11500.02407732567",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "9919.144439022635",
+    "yhat_lower": "7619.769698823353",
+    "yhat_upper": "12097.577334033305",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "9781.425719751827",
+    "yhat_lower": "7367.429250865481",
+    "yhat_upper": "12015.174981473712",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "9494.932905404103",
+    "yhat_lower": "7380.117377066488",
+    "yhat_upper": "11699.561099153552",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "9510.199520720236",
+    "yhat_lower": "7373.563387008506",
+    "yhat_upper": "11680.627507968178",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "10170.078520661893",
+    "yhat_lower": "7869.460611499839",
+    "yhat_upper": "12349.740539311168",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "10126.157890323993",
+    "yhat_lower": "7606.473850955791",
+    "yhat_upper": "12197.330419593532",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "9188.091624349501",
+    "yhat_lower": "7023.704432794077",
+    "yhat_upper": "11415.90167316106",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "9635.16350859597",
+    "yhat_lower": "7494.500561140461",
+    "yhat_upper": "11749.963897083337",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "9715.530764654664",
+    "yhat_lower": "7431.174419631938",
+    "yhat_upper": "11819.907646331307",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "9605.012211021098",
+    "yhat_lower": "7497.296870421925",
+    "yhat_upper": "11893.179574654503",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "9701.533125233513",
+    "yhat_lower": "7446.581348677881",
+    "yhat_upper": "11948.855662580634",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "9281.36569115058",
+    "yhat_lower": "7029.846132672753",
+    "yhat_upper": "11625.007535712344",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "9840.734213251357",
+    "yhat_lower": "7608.841726627448",
+    "yhat_upper": "11902.929628394628",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "9792.217602160783",
+    "yhat_lower": "7642.195408442685",
+    "yhat_upper": "12178.052177990774",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "9393.376609745512",
+    "yhat_lower": "7165.183783421495",
+    "yhat_upper": "11480.409093968074",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "9460.163917684322",
+    "yhat_lower": "7221.207279919534",
+    "yhat_upper": "11535.466821344222",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "10086.113227074955",
+    "yhat_lower": "7943.574898785553",
+    "yhat_upper": "12416.210779975763",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "10020.592311543061",
+    "yhat_lower": "7755.081448419555",
+    "yhat_upper": "12188.651579511366",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "9167.013630028096",
+    "yhat_lower": "6973.518427810686",
+    "yhat_upper": "11586.47115409971",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "9612.117121683877",
+    "yhat_lower": "7400.328487779962",
+    "yhat_upper": "11714.381761839002",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "9685.378256814196",
+    "yhat_lower": "7592.394635626667",
+    "yhat_upper": "11940.2750636052",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "9527.814133692918",
+    "yhat_lower": "7407.991732619935",
+    "yhat_upper": "11593.498211740578",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "9621.295555171162",
+    "yhat_lower": "7361.171575051598",
+    "yhat_upper": "11885.828561326181",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "9250.766877923223",
+    "yhat_lower": "6901.044901611985",
+    "yhat_upper": "11559.367172833641",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "9805.81157821614",
+    "yhat_lower": "7481.572043125375",
+    "yhat_upper": "12038.301686472578",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "9725.889601085883",
+    "yhat_lower": "7481.910377167725",
+    "yhat_upper": "12058.670482950996",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "9362.939725188447",
+    "yhat_lower": "7164.375490179311",
+    "yhat_upper": "11527.22546053924",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "9411.615992979887",
+    "yhat_lower": "7154.265179870334",
+    "yhat_upper": "11581.332481333668",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "10049.59043608061",
+    "yhat_lower": "7801.704732596456",
+    "yhat_upper": "12549.169206515477",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "9915.418983409909",
+    "yhat_lower": "7696.170735642075",
+    "yhat_upper": "12123.111231597652",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "9147.443888699212",
+    "yhat_lower": "6960.2906491136055",
+    "yhat_upper": "11305.901945299955",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "9588.916583198765",
+    "yhat_lower": "7420.284516099711",
+    "yhat_upper": "11915.849475294333",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "9654.215556875215",
+    "yhat_lower": "7466.749318869264",
+    "yhat_upper": "11872.153709751228",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "9449.925789799147",
+    "yhat_lower": "7110.496894932573",
+    "yhat_upper": "11668.007085413423",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "9541.602247626777",
+    "yhat_lower": "7134.794124701637",
+    "yhat_upper": "11882.244434199678",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "9221.076407330045",
+    "yhat_lower": "6871.575798222811",
+    "yhat_upper": "11489.477995156532",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "9770.515746703477",
+    "yhat_lower": "7458.3349056677125",
+    "yhat_upper": "12088.309584917251",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "9659.508175877378",
+    "yhat_lower": "7411.83938107556",
+    "yhat_upper": "11995.443768097897",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "9332.720124641892",
+    "yhat_lower": "7232.882467051301",
+    "yhat_upper": "11557.9124996042",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "9362.880242959132",
+    "yhat_lower": "7120.1498650572685",
+    "yhat_upper": "11542.700533562378",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "10012.16182218512",
+    "yhat_lower": "7889.9054361463395",
+    "yhat_upper": "12269.905710776682",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "9810.702086443502",
+    "yhat_lower": "7652.407787837131",
+    "yhat_upper": "11959.94981642623",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "9129.359560731808",
+    "yhat_lower": "6798.233232293569",
+    "yhat_upper": "11092.442022732077",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "9565.517997398956",
+    "yhat_lower": "7351.992972429725",
+    "yhat_upper": "11711.440526850878",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "9622.026900606446",
+    "yhat_lower": "7434.403169495823",
+    "yhat_upper": "11754.28665188932",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "9371.395686720174",
+    "yhat_lower": "7094.905823864708",
+    "yhat_upper": "11671.214030289535",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "9462.505690377344",
+    "yhat_lower": "7296.337728007644",
+    "yhat_upper": "11688.405151190134",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "9192.291208084684",
+    "yhat_lower": "6901.670291652332",
+    "yhat_upper": "11413.63191449158",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "9734.843321189883",
+    "yhat_lower": "7639.833839936148",
+    "yhat_upper": "11900.710022898433",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "9594.518206829865",
+    "yhat_lower": "7338.16106681624",
+    "yhat_upper": "11940.273102626796",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "9305.503074654187",
+    "yhat_lower": "7067.6738664553",
+    "yhat_upper": "11514.38470892048",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "9318.163294881224",
+    "yhat_lower": "7002.5351360804725",
+    "yhat_upper": "11662.470940680114",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "9979.457964268875",
+    "yhat_lower": "7726.159281651055",
+    "yhat_upper": "12030.119787332862",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "9936.861669863458",
+    "yhat_lower": "7704.203928403932",
+    "yhat_upper": "12100.873077891772",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "9005.333031101558",
+    "yhat_lower": "6739.170107313291",
+    "yhat_upper": "10948.56857271129",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "9458.731651359882",
+    "yhat_lower": "7298.0221832556535",
+    "yhat_upper": "11609.266666845855",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "9545.636534630956",
+    "yhat_lower": "7474.139014288809",
+    "yhat_upper": "11936.477921861202",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "9441.44471700866",
+    "yhat_lower": "7126.9167977625375",
+    "yhat_upper": "11555.777889612948",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "9544.503276956148",
+    "yhat_lower": "7209.964019250085",
+    "yhat_upper": "11793.600189513463",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "9130.873488607924",
+    "yhat_lower": "6879.93443251874",
+    "yhat_upper": "11466.296563168202",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "9703.307079346638",
+    "yhat_lower": "7493.619564215414",
+    "yhat_upper": "11943.35104218983",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "9668.291039182272",
+    "yhat_lower": "7471.8051763472595",
+    "yhat_upper": "11977.59580347085",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "9282.515115404964",
+    "yhat_lower": "7014.201590266856",
+    "yhat_upper": "11455.61445882513",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "9362.80312199968",
+    "yhat_lower": "7065.564049415109",
+    "yhat_upper": "11593.515134133615",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "10002.253130046689",
+    "yhat_lower": "7646.7611561970025",
+    "yhat_upper": "12169.45546851459",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "9954.19570629668",
+    "yhat_lower": "7829.737018090882",
+    "yhat_upper": "12153.22001507116",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "9119.95160496885",
+    "yhat_lower": "6887.342124529644",
+    "yhat_upper": "11517.599675435951",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "9583.765980676704",
+    "yhat_lower": "7318.760158044897",
+    "yhat_upper": "11651.102225399598",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "9676.361695994694",
+    "yhat_lower": "7568.432039099051",
+    "yhat_upper": "11889.242883465666",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "9537.508457635526",
+    "yhat_lower": "7308.863395435059",
+    "yhat_upper": "11836.05166095882",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "9650.324460033537",
+    "yhat_lower": "7386.591974104277",
+    "yhat_upper": "11946.795292981196",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "9302.410675938703",
+    "yhat_lower": "6931.096585736643",
+    "yhat_upper": "11400.212056422359",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "9879.340756701626",
+    "yhat_lower": "7608.866995225391",
+    "yhat_upper": "12072.05257373399",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "9822.033672723996",
+    "yhat_lower": "7659.462549904944",
+    "yhat_upper": "11871.721576506046",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "9480.969177296862",
+    "yhat_lower": "7175.6775049371345",
+    "yhat_upper": "11708.084404481653",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "9552.260337796024",
+    "yhat_lower": "7169.015595176868",
+    "yhat_upper": "11698.37119791114",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "10212.8496736048",
+    "yhat_lower": "7984.972149508081",
+    "yhat_upper": "12443.197347972526",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "10099.104575637843",
+    "yhat_lower": "7923.5092375979475",
+    "yhat_upper": "12315.82408508745",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "9353.744373634328",
+    "yhat_lower": "6970.7167010111325",
+    "yhat_upper": "11689.178589945881",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "9817.102448173782",
+    "yhat_lower": "7742.234914110708",
+    "yhat_upper": "11888.664987878903",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "9905.016313611377",
+    "yhat_lower": "7687.115269556001",
+    "yhat_upper": "11981.554041373369",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "9722.611925659592",
+    "yhat_lower": "7481.504737651422",
+    "yhat_upper": "11825.527157216666",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "9836.903275248898",
+    "yhat_lower": "7677.543316924913",
+    "yhat_upper": "12053.299074897863",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "9538.992326713103",
+    "yhat_lower": "7210.331497881125",
+    "yhat_upper": "11775.312660500798",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "10110.31704521072",
+    "yhat_lower": "7963.314334046345",
+    "yhat_upper": "12358.871969641994",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "10021.924366145786",
+    "yhat_lower": "7819.747763150475",
+    "yhat_upper": "12192.121105344031",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "9717.021694069665",
+    "yhat_lower": "7455.534190994028",
+    "yhat_upper": "11756.147525436318",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "9769.796704184606",
+    "yhat_lower": "7600.469710913641",
+    "yhat_upper": "11964.32606601758",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "10441.693175208973",
+    "yhat_lower": "8303.778629836612",
+    "yhat_upper": "12605.65698236969",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "10260.659793348874",
+    "yhat_lower": "7985.6296405658895",
+    "yhat_upper": "12382.79857971332",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "9601.932159435311",
+    "yhat_lower": "7369.07332517791",
+    "yhat_upper": "11594.718601606965",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "10059.97325684906",
+    "yhat_lower": "7846.860793765964",
+    "yhat_upper": "12343.200333286813",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "10139.094242828307",
+    "yhat_lower": "8004.514186055663",
+    "yhat_upper": "12301.661662402666",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "9910.345689688424",
+    "yhat_lower": "7451.608872324885",
+    "yhat_upper": "12176.152965745232",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "10024.06777611769",
+    "yhat_lower": "7936.6353205111345",
+    "yhat_upper": "12502.480283048611",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "9776.465376596276",
+    "yhat_lower": "7521.130180633439",
+    "yhat_upper": "11985.588529221497",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "10340.900150448182",
+    "yhat_lower": "8129.971372759327",
+    "yhat_upper": "12602.82260175921",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "10221.774112809202",
+    "yhat_lower": "8033.951069076482",
+    "yhat_upper": "12482.679066562687",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "9953.274216169535",
+    "yhat_lower": "7658.765636813595",
+    "yhat_upper": "12058.261650623806",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "9987.133513117777",
+    "yhat_lower": "7728.285351869665",
+    "yhat_upper": "12249.76005110144",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "10669.627259226063",
+    "yhat_lower": "8515.037027823304",
+    "yhat_upper": "12829.963849167307",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "10646.862359173057",
+    "yhat_lower": "8408.774856879802",
+    "yhat_upper": "12944.48892952658",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "9731.410839364835",
+    "yhat_lower": "7498.435467518634",
+    "yhat_upper": "11955.579329519016",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "10200.367961837102",
+    "yhat_lower": "8057.884634584253",
+    "yhat_upper": "12603.306769409746",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "10303.349964062772",
+    "yhat_lower": "8030.412414946482",
+    "yhat_upper": "12664.015676578543",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "10214.716648655083",
+    "yhat_lower": "7848.466439565654",
+    "yhat_upper": "12467.720458923302",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "10333.852327556599",
+    "yhat_lower": "8149.9454963807375",
+    "yhat_upper": "12652.453678775259",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "9936.299658162588",
+    "yhat_lower": "7710.18617318835",
+    "yhat_upper": "12295.569237156045",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "10517.553436414064",
+    "yhat_lower": "8351.544657750874",
+    "yhat_upper": "12695.237666025096",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "10491.651590012514",
+    "yhat_lower": "8257.900759959286",
+    "yhat_upper": "12860.265095109165",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "10114.695853748382",
+    "yhat_lower": "7815.320931443415",
+    "yhat_upper": "12277.447265123996",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "10204.098054106333",
+    "yhat_lower": "8039.023051071675",
+    "yhat_upper": "12482.653180847208",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "10852.662255916388",
+    "yhat_lower": "8555.17430481699",
+    "yhat_upper": "13187.608390130881",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "10807.567694827481",
+    "yhat_lower": "8615.931386597613",
+    "yhat_upper": "13039.942687874509",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "9976.60390573188",
+    "yhat_lower": "7783.252306308769",
+    "yhat_upper": "12268.78214509355",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "10443.592777148504",
+    "yhat_lower": "8146.432031964398",
+    "yhat_upper": "12644.383419048161",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "10539.46880469803",
+    "yhat_lower": "8333.334190826235",
+    "yhat_upper": "12764.593156025865",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "10403.79006204718",
+    "yhat_lower": "8149.580196223275",
+    "yhat_upper": "12794.19851801452",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "10519.886376677987",
+    "yhat_lower": "8270.10560654222",
+    "yhat_upper": "12848.952810404238",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "10171.972592582759",
+    "yhat_lower": "7771.922013860291",
+    "yhat_upper": "12343.12284342546",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "10748.902673345689",
+    "yhat_lower": "8489.977522485704",
+    "yhat_upper": "13056.08084264126",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "10691.595589368237",
+    "yhat_lower": "8420.904434468239",
+    "yhat_upper": "12754.721816856038",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "10350.531093940954",
+    "yhat_lower": "8207.086916398399",
+    "yhat_upper": "12661.455405432913",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "10421.822254439865",
+    "yhat_lower": "8174.745910861454",
+    "yhat_upper": "12745.529901873204",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "11082.411590248457",
+    "yhat_lower": "8913.067251780913",
+    "yhat_upper": "13484.607185501733",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "10968.666492281638",
+    "yhat_lower": "8808.936812374468",
+    "yhat_upper": "13040.85366591572",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "10223.306290278404",
+    "yhat_lower": "7917.2299170332835",
+    "yhat_upper": "12361.127212367857",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "10686.664364817883",
+    "yhat_lower": "8405.901040768757",
+    "yhat_upper": "12811.146368950207",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "10774.578230255598",
+    "yhat_lower": "8585.462069935315",
+    "yhat_upper": "12986.663971254155",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "10592.17384230334",
+    "yhat_lower": "8451.326434772218",
+    "yhat_upper": "12831.929048203678",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "10706.465191892614",
+    "yhat_lower": "8368.680144132655",
+    "yhat_upper": "12974.427306507187",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "10408.554243357368",
+    "yhat_lower": "8384.94296004199",
+    "yhat_upper": "12676.953705524966",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "10979.878961854833",
+    "yhat_lower": "8780.710708337352",
+    "yhat_upper": "13227.702007250004",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "10891.486282790082",
+    "yhat_lower": "8554.583029548994",
+    "yhat_upper": "13137.30345943745",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "10586.583610713944",
+    "yhat_lower": "8327.930031253294",
+    "yhat_upper": "12903.424681164905",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "10639.35862082899",
+    "yhat_lower": "8390.853591049581",
+    "yhat_upper": "12990.320287150545",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "11311.255091852778",
+    "yhat_lower": "8999.371949664599",
+    "yhat_upper": "13693.582231852384",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "11130.221709992185",
+    "yhat_lower": "9061.864076495869",
+    "yhat_upper": "13491.059213260545",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "10471.494076079452",
+    "yhat_lower": "8151.011203299182",
+    "yhat_upper": "12818.662053552922",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "10929.53517349337",
+    "yhat_lower": "8808.000000946544",
+    "yhat_upper": "13318.192049837478",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "11008.656159472237",
+    "yhat_lower": "8661.098196931534",
+    "yhat_upper": "13157.249160382267",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "10779.907606332563",
+    "yhat_lower": "8498.764858075623",
+    "yhat_upper": "12793.329707526254",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "10893.6296927614",
+    "yhat_lower": "8573.778650780976",
+    "yhat_upper": "13010.159405989883",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "10646.02729324024",
+    "yhat_lower": "8320.90799999737",
+    "yhat_upper": "12841.633004021876",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "11210.462067092258",
+    "yhat_lower": "8863.643591599008",
+    "yhat_upper": "13477.388116527216",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "11091.33602945343",
+    "yhat_lower": "8869.849124053557",
+    "yhat_upper": "13215.11966148769",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "10822.83613281367",
+    "yhat_lower": "8566.570618367106",
+    "yhat_upper": "13261.221158442055",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "10856.695429761581",
+    "yhat_lower": "8575.700251469536",
+    "yhat_upper": "12871.617957298537",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "11539.189175869975",
+    "yhat_lower": "9354.13441343205",
+    "yhat_upper": "13804.93666437727",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "11516.42427581661",
+    "yhat_lower": "9334.475527235012",
+    "yhat_upper": "13608.58299754785",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "10600.972756009152",
+    "yhat_lower": "8482.323589022126",
+    "yhat_upper": "12941.21164361565",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "11069.929878481298",
+    "yhat_lower": "8917.744673666106",
+    "yhat_upper": "13314.632506480162",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "11172.91188070671",
+    "yhat_lower": "8893.299479736976",
+    "yhat_upper": "13301.589351061859",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "11084.278565298975",
+    "yhat_lower": "8877.374536186608",
+    "yhat_upper": "13184.774376708263",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "11203.414244200538",
+    "yhat_lower": "8875.881353253493",
+    "yhat_upper": "13436.301452252119",
+    "area_id": "435",
+    "name_en": "Al Hebiah Fourth"
+  }
+]

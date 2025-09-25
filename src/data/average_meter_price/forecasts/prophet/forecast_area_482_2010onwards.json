@@ -1,0 +1,1362 @@
+[
+  {
+    "ds": "2014-06-01",
+    "yhat": "11545.639088094242",
+    "yhat_lower": "9862.249491785027",
+    "yhat_upper": "13425.719839429636",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "11536.24788986383",
+    "yhat_lower": "9833.399241447523",
+    "yhat_upper": "13312.207670241323",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "11744.743433891905",
+    "yhat_lower": "10076.460173319489",
+    "yhat_upper": "13434.36077990255",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "12157.278673540854",
+    "yhat_lower": "10506.361807023095",
+    "yhat_upper": "13951.75843117349",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "12217.921758937237",
+    "yhat_lower": "10610.234253937695",
+    "yhat_upper": "13924.522108737368",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "12233.750091794118",
+    "yhat_lower": "10609.468229192189",
+    "yhat_upper": "13965.436136273258",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "12319.280246063172",
+    "yhat_lower": "10522.33466646658",
+    "yhat_upper": "14023.223325480849",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "12659.415337161296",
+    "yhat_lower": "10791.463607181382",
+    "yhat_upper": "14307.650796344968",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "12247.620663214619",
+    "yhat_lower": "10538.783677215373",
+    "yhat_upper": "13974.713309461215",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "12048.11862528272",
+    "yhat_lower": "10313.0730443364",
+    "yhat_upper": "13672.744829025603",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "12033.020300032662",
+    "yhat_lower": "10174.711751012535",
+    "yhat_upper": "13763.925247421088",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "11429.236458991814",
+    "yhat_lower": "9719.623438878889",
+    "yhat_upper": "13113.131576617314",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "10848.602965430848",
+    "yhat_lower": "9206.302133239064",
+    "yhat_upper": "12431.250003438015",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "11376.624381100937",
+    "yhat_lower": "9575.283126248112",
+    "yhat_upper": "13076.087475455708",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "11783.047109260091",
+    "yhat_lower": "10070.445782080526",
+    "yhat_upper": "13627.035005930507",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "12182.182717053813",
+    "yhat_lower": "10452.140162468571",
+    "yhat_upper": "13944.13977043038",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "11711.660351124498",
+    "yhat_lower": "9939.843797254725",
+    "yhat_upper": "13452.958157165483",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "12031.819936335227",
+    "yhat_lower": "10347.122057430115",
+    "yhat_upper": "13648.937377477576",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "12173.474087663802",
+    "yhat_lower": "10535.029464794894",
+    "yhat_upper": "13944.662529731359",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "11983.026414329957",
+    "yhat_lower": "10218.140199514137",
+    "yhat_upper": "13726.989407556088",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "11535.413431591272",
+    "yhat_lower": "9866.21726007242",
+    "yhat_upper": "13321.872769063259",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "11699.195008684852",
+    "yhat_lower": "9911.789652525793",
+    "yhat_upper": "13501.19424133156",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "11145.070124695865",
+    "yhat_lower": "9383.543984694927",
+    "yhat_upper": "13040.0005383152",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "10384.278712129648",
+    "yhat_lower": "8659.045468504548",
+    "yhat_upper": "12143.412396767657",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "11536.840956223596",
+    "yhat_lower": "9863.458507073385",
+    "yhat_upper": "13178.895649152604",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "11142.375931210763",
+    "yhat_lower": "9397.34883419907",
+    "yhat_upper": "12895.39891237898",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "11581.011512267614",
+    "yhat_lower": "9874.80957678335",
+    "yhat_upper": "13259.626616962887",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "10954.994717052272",
+    "yhat_lower": "9273.127689323717",
+    "yhat_upper": "12643.28400824862",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "11970.294704746242",
+    "yhat_lower": "10358.963290738604",
+    "yhat_upper": "13581.272983277311",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "11630.079098455126",
+    "yhat_lower": "9929.162685880789",
+    "yhat_upper": "13320.095206342457",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "12404.467965718719",
+    "yhat_lower": "10613.53673493566",
+    "yhat_upper": "14098.144022886909",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "11589.538512151377",
+    "yhat_lower": "9805.428777567244",
+    "yhat_upper": "13394.5025695196",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "11475.865626852108",
+    "yhat_lower": "9731.10445377679",
+    "yhat_upper": "13233.633396667032",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "11415.014055514544",
+    "yhat_lower": "9764.423856212921",
+    "yhat_upper": "13183.897447401481",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "11299.836538822854",
+    "yhat_lower": "9507.014266443037",
+    "yhat_upper": "13006.155802502682",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "10650.28604012507",
+    "yhat_lower": "8852.867379331627",
+    "yhat_upper": "12341.328532889122",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "11262.298857155498",
+    "yhat_lower": "9522.668916497856",
+    "yhat_upper": "12884.624107788966",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "11208.151880821106",
+    "yhat_lower": "9442.338788160054",
+    "yhat_upper": "12937.710682353661",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "11676.298763133163",
+    "yhat_lower": "9997.960588626958",
+    "yhat_upper": "13355.554319050323",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "11438.603263820987",
+    "yhat_lower": "9837.409026268218",
+    "yhat_upper": "13304.329815332705",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "11987.250670527446",
+    "yhat_lower": "10266.432081069648",
+    "yhat_upper": "13584.854559087806",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "11888.829389181376",
+    "yhat_lower": "10107.553245102143",
+    "yhat_upper": "13644.347440479765",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "12477.32361092112",
+    "yhat_lower": "10662.345442145841",
+    "yhat_upper": "14073.0043043711",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "11894.711665912051",
+    "yhat_lower": "10346.704186013392",
+    "yhat_upper": "13723.42816701058",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "11762.571069938258",
+    "yhat_lower": "9932.550615299253",
+    "yhat_upper": "13411.489586478387",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "11432.919890369738",
+    "yhat_lower": "9733.620645049117",
+    "yhat_upper": "13162.089694847493",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "11711.831982217365",
+    "yhat_lower": "9999.343493430886",
+    "yhat_upper": "13400.067990522717",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "11114.694059207806",
+    "yhat_lower": "9474.475213730537",
+    "yhat_upper": "12786.654897408822",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "11152.51238379167",
+    "yhat_lower": "9484.099626945186",
+    "yhat_upper": "12834.226699965957",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "11409.791101398536",
+    "yhat_lower": "9596.255831000999",
+    "yhat_upper": "12988.665708107039",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "11871.109514621177",
+    "yhat_lower": "10185.275029495426",
+    "yhat_upper": "13607.611830440279",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "11978.96212354525",
+    "yhat_lower": "10242.468389670013",
+    "yhat_upper": "13752.86405746473",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "12043.57363129884",
+    "yhat_lower": "10418.104058995747",
+    "yhat_upper": "13714.567606348859",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "12176.313309662926",
+    "yhat_lower": "10563.810899076696",
+    "yhat_upper": "13811.201389241955",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "12565.231575656953",
+    "yhat_lower": "10926.314249084944",
+    "yhat_upper": "14258.724379991758",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "12202.220074489183",
+    "yhat_lower": "10488.674162726305",
+    "yhat_upper": "13917.970076228501",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "12046.78025676232",
+    "yhat_lower": "10337.517774472684",
+    "yhat_upper": "13786.69749150393",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "11452.931824808817",
+    "yhat_lower": "9680.137223685268",
+    "yhat_upper": "13197.122695876116",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "12127.67462552422",
+    "yhat_lower": "10473.628159997586",
+    "yhat_upper": "13883.432458635898",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "11572.673956579049",
+    "yhat_lower": "9800.067191355645",
+    "yhat_upper": "13280.880475783508",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "11039.249984404858",
+    "yhat_lower": "9330.951616062568",
+    "yhat_upper": "12922.174837974102",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "11616.054563960446",
+    "yhat_lower": "9725.17821156645",
+    "yhat_upper": "13317.897739685624",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "12071.260457899123",
+    "yhat_lower": "10318.547267781458",
+    "yhat_upper": "13745.755137096028",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "12517.605580964031",
+    "yhat_lower": "10853.899351509592",
+    "yhat_upper": "14223.907568272576",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "12095.866378665349",
+    "yhat_lower": "10360.34455687134",
+    "yhat_upper": "13734.134288402596",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "12463.235477070453",
+    "yhat_lower": "10758.11208690494",
+    "yhat_upper": "14213.899318570799",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "12653.672790883016",
+    "yhat_lower": "10982.198751244207",
+    "yhat_upper": "14309.217124029114",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "12512.008280033711",
+    "yhat_lower": "10811.740111369138",
+    "yhat_upper": "14283.506880180956",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "12109.8268695631",
+    "yhat_lower": "10354.796697412641",
+    "yhat_upper": "13791.926850575175",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "12322.173230803674",
+    "yhat_lower": "10696.476005051769",
+    "yhat_upper": "14016.658757289686",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "11815.046523590125",
+    "yhat_lower": "10169.224488879912",
+    "yhat_upper": "13531.779365235801",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "11102.819893691596",
+    "yhat_lower": "9380.529390516767",
+    "yhat_upper": "12761.395922860213",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "12291.394018126779",
+    "yhat_lower": "10551.623999317606",
+    "yhat_upper": "14067.963154602177",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "11934.141269474485",
+    "yhat_lower": "10153.552509354598",
+    "yhat_upper": "13568.160492623814",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "12441.176280925569",
+    "yhat_lower": "10604.735734683198",
+    "yhat_upper": "14096.641870111222",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "11881.352482868379",
+    "yhat_lower": "10215.177058630723",
+    "yhat_upper": "13593.931341217893",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "12942.494743528852",
+    "yhat_lower": "11340.969854389561",
+    "yhat_upper": "14627.303781028862",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "12646.64262720549",
+    "yhat_lower": "10858.361405226597",
+    "yhat_upper": "14308.070082210665",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "13524.253552396973",
+    "yhat_lower": "11822.097518565319",
+    "yhat_upper": "15134.260769480088",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "12812.54615675771",
+    "yhat_lower": "11024.06079550319",
+    "yhat_upper": "14558.272809152291",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "12778.869218456955",
+    "yhat_lower": "11044.49746729433",
+    "yhat_upper": "14490.25626208715",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "12806.584588443891",
+    "yhat_lower": "11056.114730922287",
+    "yhat_upper": "14493.80913291373",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "12840.300109361551",
+    "yhat_lower": "11173.800905483486",
+    "yhat_upper": "14555.82585963794",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "12344.605749530356",
+    "yhat_lower": "10695.00449328591",
+    "yhat_upper": "14110.576250962084",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "13105.511601209326",
+    "yhat_lower": "11482.475390683028",
+    "yhat_upper": "14819.885415179362",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "13264.918973821565",
+    "yhat_lower": "11435.685064110852",
+    "yhat_upper": "14958.125804382109",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "13946.620205085082",
+    "yhat_lower": "12152.070811446105",
+    "yhat_upper": "15672.886908451266",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "13915.59020420619",
+    "yhat_lower": "12213.70810829255",
+    "yhat_upper": "15575.296255719915",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "14677.79195929295",
+    "yhat_lower": "12947.889739100896",
+    "yhat_upper": "16393.328587430686",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "14829.780351118798",
+    "yhat_lower": "12993.835189326797",
+    "yhat_upper": "16571.102312879473",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "15677.031235137687",
+    "yhat_lower": "13923.059890219363",
+    "yhat_upper": "17301.910484040432",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "15353.175951371162",
+    "yhat_lower": "13626.07817841456",
+    "yhat_upper": "17075.5636531719",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "15454.75104942112",
+    "yhat_lower": "13774.69183747791",
+    "yhat_upper": "17195.816886253502",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "15412.925407506626",
+    "yhat_lower": "13711.487772836634",
+    "yhat_upper": "17106.115692214535",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "15970.378342246346",
+    "yhat_lower": "14276.247573619721",
+    "yhat_upper": "17684.03478984563",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "15661.065956843468",
+    "yhat_lower": "13954.57669196181",
+    "yhat_upper": "17310.70128768478",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "15977.425124278",
+    "yhat_lower": "14339.913205721692",
+    "yhat_upper": "17693.810189083702",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "16522.805139922777",
+    "yhat_lower": "14848.90713563068",
+    "yhat_upper": "18289.100690660413",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "17272.224851185583",
+    "yhat_lower": "15431.941605281387",
+    "yhat_upper": "19067.628654201995",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "17658.885167178432",
+    "yhat_lower": "15910.440025197715",
+    "yhat_upper": "19487.161601384447",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "18011.597972235104",
+    "yhat_lower": "16451.787759837986",
+    "yhat_upper": "19857.57224000641",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "18423.14535766832",
+    "yhat_lower": "16691.87240006839",
+    "yhat_upper": "20127.169044267284",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "19100.164920966596",
+    "yhat_lower": "17370.83998548779",
+    "yhat_upper": "20675.947834231978",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "19025.254719224507",
+    "yhat_lower": "17340.85981080853",
+    "yhat_upper": "20811.85692834115",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "19130.035430007272",
+    "yhat_lower": "17405.366134134027",
+    "yhat_upper": "20927.305942352545",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "18824.288297477502",
+    "yhat_lower": "17255.494580492246",
+    "yhat_upper": "20595.695504843752",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "19777.838807311466",
+    "yhat_lower": "17964.34779332352",
+    "yhat_upper": "21455.408449016555",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "19510.93943805982",
+    "yhat_lower": "17760.737073055006",
+    "yhat_upper": "21174.56839095115",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "19256.323175265967",
+    "yhat_lower": "17532.175977385603",
+    "yhat_upper": "20941.672295266417",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "20121.22905451771",
+    "yhat_lower": "18330.51184937696",
+    "yhat_upper": "21899.58736323979",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "20864.536246259326",
+    "yhat_lower": "19181.66318230555",
+    "yhat_upper": "22549.367313634608",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "21589.68907687249",
+    "yhat_lower": "19886.400628770516",
+    "yhat_upper": "23407.668740258057",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "21456.051172377858",
+    "yhat_lower": "19578.929887789895",
+    "yhat_upper": "23150.367166798624",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "22102.227978332045",
+    "yhat_lower": "20398.96096880494",
+    "yhat_upper": "23828.17076126176",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "22580.766591096843",
+    "yhat_lower": "20977.299108498624",
+    "yhat_upper": "24392.790476245864",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "22727.203379195256",
+    "yhat_lower": "21022.422256705086",
+    "yhat_upper": "24426.80678248068",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "22594.536087096778",
+    "yhat_lower": "20826.962427524366",
+    "yhat_upper": "24275.394796871326",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "23094.98374728735",
+    "yhat_lower": "21420.647897334402",
+    "yhat_upper": "24749.10779752288",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "22866.664750168293",
+    "yhat_lower": "21207.47088802335",
+    "yhat_upper": "24651.075118189034",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "22442.53942070096",
+    "yhat_lower": "20683.52066603705",
+    "yhat_upper": "24214.071892263335",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "23909.921255236943",
+    "yhat_lower": "22243.637307501285",
+    "yhat_upper": "25664.868062655678",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "23840.769807013803",
+    "yhat_lower": "22136.095698713918",
+    "yhat_upper": "25517.75403192086",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "24604.718964859345",
+    "yhat_lower": "22878.745337876848",
+    "yhat_upper": "26221.722835526463",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "24293.52176008043",
+    "yhat_lower": "22626.478427682767",
+    "yhat_upper": "25972.271066313093",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "25611.578167137253",
+    "yhat_lower": "23933.03794810695",
+    "yhat_upper": "27347.781664572216",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "25564.35264410021",
+    "yhat_lower": "23769.82077482878",
+    "yhat_upper": "27243.882402742085",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "26641.49793072281",
+    "yhat_lower": "24940.193174501164",
+    "yhat_upper": "28365.91907072549",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "26129.324896516144",
+    "yhat_lower": "24477.302772394898",
+    "yhat_upper": "27833.477446122928",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "26275.872542736888",
+    "yhat_lower": "24536.786226611228",
+    "yhat_upper": "28058.959637175605",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "26503.12227415486",
+    "yhat_lower": "24697.386646698847",
+    "yhat_upper": "28189.75603945871",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "26666.752469806343",
+    "yhat_lower": "24957.244612629474",
+    "yhat_upper": "28305.33441460351",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "26305.303273863377",
+    "yhat_lower": "24563.830784803406",
+    "yhat_upper": "27993.124770321574",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "27196.1238002758",
+    "yhat_lower": "25510.79604790145",
+    "yhat_upper": "28955.55644479688",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "27430.07812363463",
+    "yhat_lower": "25678.342554172246",
+    "yhat_upper": "29088.96471912836",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "28186.326305641804",
+    "yhat_lower": "26456.82195040291",
+    "yhat_upper": "29934.448198107413",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "28227.438515158883",
+    "yhat_lower": "26570.371002678003",
+    "yhat_upper": "30078.520449671385",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "29064.18722099338",
+    "yhat_lower": "27265.45727708532",
+    "yhat_upper": "30740.04566781865",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "29244.573648476162",
+    "yhat_lower": "27389.211833369216",
+    "yhat_upper": "30993.217611408345",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "30121.16916934258",
+    "yhat_lower": "28397.0959944374",
+    "yhat_upper": "31945.538923809207",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "29826.658522420366",
+    "yhat_lower": "27906.786470434527",
+    "yhat_upper": "31582.221397845562",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "29954.73845375121",
+    "yhat_lower": "28098.86717243296",
+    "yhat_upper": "31664.84661288846",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "29913.18857226745",
+    "yhat_lower": "28158.425045744847",
+    "yhat_upper": "31646.286192625554",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "30470.90837194104",
+    "yhat_lower": "28741.15274737498",
+    "yhat_upper": "32290.419585530533",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "30161.871746970715",
+    "yhat_lower": "28428.362177435283",
+    "yhat_upper": "31957.988161321806",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "30478.497779334542",
+    "yhat_lower": "28713.6186962554",
+    "yhat_upper": "32363.49670158047",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "31023.877794979497",
+    "yhat_lower": "29260.685703644293",
+    "yhat_upper": "33016.77930136443",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "31773.29750624151",
+    "yhat_lower": "29836.18565123631",
+    "yhat_upper": "33726.11699596436",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "32159.95782223429",
+    "yhat_lower": "30388.537071733368",
+    "yhat_upper": "34014.88220015855",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "32512.670627293643",
+    "yhat_lower": "30619.5931868775",
+    "yhat_upper": "34551.469588754844",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "32924.21801272647",
+    "yhat_lower": "31020.31142899995",
+    "yhat_upper": "35010.061079736464",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "33601.23757602485",
+    "yhat_lower": "31754.891178243823",
+    "yhat_upper": "35657.54285214887",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "33526.327374278844",
+    "yhat_lower": "31566.511919573495",
+    "yhat_upper": "35530.726535165966",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "33631.10808506282",
+    "yhat_lower": "31724.91976122568",
+    "yhat_upper": "35795.0148864446",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "33325.360952534975",
+    "yhat_lower": "31301.83420621288",
+    "yhat_upper": "35321.854559760344",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "34278.91146236857",
+    "yhat_lower": "32165.33432377765",
+    "yhat_upper": "36488.72032523707",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "34012.012093115874",
+    "yhat_lower": "32148.753406749092",
+    "yhat_upper": "36112.17690018071",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "33757.3958303218",
+    "yhat_lower": "31746.645935255416",
+    "yhat_upper": "35842.804321385054",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "34622.301709574465",
+    "yhat_lower": "32692.1684851842",
+    "yhat_upper": "36917.231046203546",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "35365.60890131419",
+    "yhat_lower": "33297.29882446879",
+    "yhat_upper": "37600.639029334336",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "36090.76173192863",
+    "yhat_lower": "33872.98237638905",
+    "yhat_upper": "38391.340135637736",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "35957.12382743581",
+    "yhat_lower": "33840.69488025128",
+    "yhat_upper": "38401.621244533424",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "36603.30063338859",
+    "yhat_lower": "34497.04510511636",
+    "yhat_upper": "38909.43923279746",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "37081.83924615148",
+    "yhat_lower": "34772.59492617941",
+    "yhat_upper": "39528.9480719878",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "37228.27603425135",
+    "yhat_lower": "34897.28504020182",
+    "yhat_upper": "39609.21830816078",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "37095.608742153236",
+    "yhat_lower": "34825.10764010828",
+    "yhat_upper": "39579.55866097217",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "37596.056402344155",
+    "yhat_lower": "35390.32698414801",
+    "yhat_upper": "40125.159928726476",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "37367.73740522471",
+    "yhat_lower": "34978.3037698171",
+    "yhat_upper": "39894.267558897314",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "36943.61207575553",
+    "yhat_lower": "34581.37417455621",
+    "yhat_upper": "39653.91040380197",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "38410.993910292",
+    "yhat_lower": "36005.20044079797",
+    "yhat_upper": "41053.08397247066",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "38341.84246206977",
+    "yhat_lower": "35882.03086179908",
+    "yhat_upper": "40939.707323059054",
+    "area_id": "482",
+    "name_en": "Hadaeq Sheikh Mohammed Bin Rashid"
+  }
+]

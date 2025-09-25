@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "12488.236328125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "12521.9384765625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "12594.27734375",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "12449.859375",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "13272.8466796875",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "13922.4189453125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "13811.400390625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "13270.9814453125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "12787.64453125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "12609.5771484375",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "12652.4326171875",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "12603.771484375",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "12613.541015625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "12733.7880859375",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "12855.80078125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "12663.1796875",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "13274.306640625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "13944.9423828125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "13768.7392578125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "13225.134765625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "12811.080078125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "12617.265625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "12657.802734375",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "12621.2158203125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "12742.2353515625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "12746.8134765625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "12799.0986328125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "12674.615234375",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "13273.8515625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "13904.3017578125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "13768.75390625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "13225.09765625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "12817.3857421875",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "12612.66015625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "12658.990234375",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "12621.2158203125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "12742.2353515625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "12746.8134765625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "12799.0986328125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "12674.615234375",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "13273.8515625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "13904.3017578125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "13768.75390625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "13225.09765625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "12817.3857421875",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "12612.66015625",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "12658.990234375",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "12621.2158203125",
+    "area_id": "531",
+    "name_en": "Al Hebiah Sixth"
+  }
+]

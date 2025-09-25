@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-08-01",
+    "yhat": "24160.25390625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "15185.576171875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "16541.033203125",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "18965.994140625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "18954.185546875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "13339.6083984375",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "10529.32421875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "18456.9921875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "15057.998046875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "14908.400390625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "19937.8515625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "17652.14453125",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "12819.0087890625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "14232.4150390625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "16998.52734375",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "14847.35546875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "13671.2236328125",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "14070.9404296875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "14534.2412109375",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "12088.654296875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "17960.939453125",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "17178.458984375",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "16772.884765625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "18720.431640625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "15111.4287109375",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "17358.24609375",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "15260.306640625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "15848.7734375",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "19259.9140625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "13681.021484375",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "13888.408203125",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "14102.3369140625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "13801.2841796875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "18605.275390625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "15096.421875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "15370.3544921875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "16538.521484375",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "12174.013671875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "18648.47265625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "16302.951171875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "14193.9560546875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "17575.560546875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "12907.7626953125",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "15586.607421875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "16217.666015625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "15208.91015625",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "22516.4921875",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "15667.58203125",
+    "area_id": "269",
+    "name_en": "Al Hamriya"
+  }
+]

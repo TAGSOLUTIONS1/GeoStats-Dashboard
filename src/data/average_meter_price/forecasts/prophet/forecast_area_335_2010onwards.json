@@ -1,0 +1,1418 @@
+[
+  {
+    "ds": "2013-02-01",
+    "yhat": "9375.822507969395",
+    "yhat_lower": "5895.394613182779",
+    "yhat_upper": "12847.216494748425",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "9190.686340786597",
+    "yhat_lower": "5616.108996918465",
+    "yhat_upper": "12655.239637369128",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "7878.009400436946",
+    "yhat_lower": "4178.95747598165",
+    "yhat_upper": "11333.071922506002",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "9496.078417147524",
+    "yhat_lower": "5900.779144982404",
+    "yhat_upper": "13079.070501989732",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "8524.759916137418",
+    "yhat_lower": "5157.174914621164",
+    "yhat_upper": "11901.140818853946",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "8779.213780091703",
+    "yhat_lower": "5195.933272313058",
+    "yhat_upper": "12060.560381015037",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "9675.958959191737",
+    "yhat_lower": "6314.667086496962",
+    "yhat_upper": "13319.195490307711",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "10105.632411847731",
+    "yhat_lower": "6689.121147121006",
+    "yhat_upper": "13746.327292591433",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "10142.034064810467",
+    "yhat_lower": "6589.536179840322",
+    "yhat_upper": "13486.515884168963",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "9065.360294421269",
+    "yhat_lower": "5472.508153235725",
+    "yhat_upper": "12535.478012634272",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "9984.931698977076",
+    "yhat_lower": "6293.852716798258",
+    "yhat_upper": "13416.772875353632",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "9155.75052683545",
+    "yhat_lower": "5521.108042328874",
+    "yhat_upper": "12417.720811407982",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "8352.152184049892",
+    "yhat_lower": "4865.152950182552",
+    "yhat_upper": "11938.651223875426",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "9179.389147668164",
+    "yhat_lower": "5965.690336263697",
+    "yhat_upper": "12897.721315511131",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "9610.026624283168",
+    "yhat_lower": "6109.187196884879",
+    "yhat_upper": "13041.573022907452",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "9134.150134324986",
+    "yhat_lower": "6044.075925078236",
+    "yhat_upper": "12680.924272764463",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "8541.03866964788",
+    "yhat_lower": "5225.469497734935",
+    "yhat_upper": "11841.888758609473",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "8934.663625022185",
+    "yhat_lower": "5359.042121769395",
+    "yhat_upper": "12154.936429255995",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "10026.581123303122",
+    "yhat_lower": "6708.88080077368",
+    "yhat_upper": "13595.413606598095",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "10235.530594139867",
+    "yhat_lower": "6679.9504353521825",
+    "yhat_upper": "13719.033134954454",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "10241.200469582443",
+    "yhat_lower": "6765.501453643727",
+    "yhat_upper": "13638.785800958984",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "9201.06205785631",
+    "yhat_lower": "5659.157274973361",
+    "yhat_upper": "12797.343710761792",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "10032.228244085423",
+    "yhat_lower": "6338.66347254618",
+    "yhat_upper": "13510.517640713968",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "8995.568391836096",
+    "yhat_lower": "5301.503778591914",
+    "yhat_upper": "12342.038226453798",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "8832.78486166239",
+    "yhat_lower": "5230.884311135221",
+    "yhat_upper": "12394.594154943223",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "9458.472371888512",
+    "yhat_lower": "5813.67461821834",
+    "yhat_upper": "12778.747522817293",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "9717.659545229075",
+    "yhat_lower": "6320.955300068424",
+    "yhat_upper": "13288.365627569749",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "9742.185815341587",
+    "yhat_lower": "6367.92895865926",
+    "yhat_upper": "13258.564724961563",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "9029.0949442039",
+    "yhat_lower": "5565.865331989265",
+    "yhat_upper": "12494.112771162583",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "9011.868490893175",
+    "yhat_lower": "5562.442083207376",
+    "yhat_upper": "12825.189312401008",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "9502.361770900914",
+    "yhat_lower": "6327.717419710273",
+    "yhat_upper": "13145.01766354177",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "10358.986499740233",
+    "yhat_lower": "6859.2406008702455",
+    "yhat_upper": "14060.973300192229",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "10461.914595078708",
+    "yhat_lower": "6851.273236777122",
+    "yhat_upper": "14047.864483387497",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "9313.854740741343",
+    "yhat_lower": "5696.8141331085935",
+    "yhat_upper": "12732.216611056156",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "10408.267780332331",
+    "yhat_lower": "6832.639051725219",
+    "yhat_upper": "13940.461491307095",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "10021.514593057182",
+    "yhat_lower": "6602.38338316765",
+    "yhat_upper": "13519.347109168726",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "7936.126065684348",
+    "yhat_lower": "4538.192860253537",
+    "yhat_upper": "11518.862815049632",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "9132.361139867831",
+    "yhat_lower": "5626.261388760992",
+    "yhat_upper": "12327.722319440794",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "9901.210014445785",
+    "yhat_lower": "6368.140819233276",
+    "yhat_upper": "13360.047929666009",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "9716.073839910969",
+    "yhat_lower": "6505.941851926854",
+    "yhat_upper": "13472.28934414298",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "9037.769848018557",
+    "yhat_lower": "5354.624310478219",
+    "yhat_upper": "12723.70804322713",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "9155.186051673007",
+    "yhat_lower": "5754.686912046689",
+    "yhat_upper": "12772.23037956276",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "9851.382761066414",
+    "yhat_lower": "6466.5803904090135",
+    "yhat_upper": "13280.437443722461",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "10497.019873156187",
+    "yhat_lower": "7066.8703232177695",
+    "yhat_upper": "13873.095809411427",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "10565.875229170486",
+    "yhat_lower": "7289.019703345514",
+    "yhat_upper": "14194.556993520968",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "9453.229120068565",
+    "yhat_lower": "5760.920077963339",
+    "yhat_upper": "13022.198344861286",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "10460.599015890546",
+    "yhat_lower": "6894.638178088503",
+    "yhat_upper": "14159.528090936079",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "9848.090833682458",
+    "yhat_lower": "6109.042126730392",
+    "yhat_upper": "13446.17126761867",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "8403.396817190569",
+    "yhat_lower": "4735.4765972878085",
+    "yhat_upper": "11828.939087283725",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "9420.848134980499",
+    "yhat_lower": "6102.971153554808",
+    "yhat_upper": "12949.158940743011",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "10021.46581347781",
+    "yhat_lower": "6733.0254748800835",
+    "yhat_upper": "13703.249623512595",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "9688.437923039797",
+    "yhat_lower": "6283.826410644601",
+    "yhat_upper": "13232.514642150325",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "9050.147292282003",
+    "yhat_lower": "5223.66047308543",
+    "yhat_upper": "12663.649035231241",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "9304.601146590972",
+    "yhat_lower": "5971.929596370688",
+    "yhat_upper": "13205.958915064213",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "10201.34631539555",
+    "yhat_lower": "6618.723808823912",
+    "yhat_upper": "13502.251382526832",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "10631.019758084638",
+    "yhat_lower": "7251.179479790989",
+    "yhat_upper": "14217.676073739583",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "10667.421400749634",
+    "yhat_lower": "7150.4844938835895",
+    "yhat_upper": "14058.327407895551",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "9590.747620001861",
+    "yhat_lower": "6068.7376908928145",
+    "yhat_upper": "13228.473982807449",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "10510.31901495002",
+    "yhat_lower": "6872.261096488212",
+    "yhat_upper": "14050.023803253602",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "9681.137832879414",
+    "yhat_lower": "6195.825652457919",
+    "yhat_upper": "13346.275198175568",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "8877.539480488453",
+    "yhat_lower": "5229.402905930831",
+    "yhat_upper": "12524.484680818652",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "9704.77643689843",
+    "yhat_lower": "6116.849464858145",
+    "yhat_upper": "13291.09190828715",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "10135.413906671163",
+    "yhat_lower": "6727.439311916952",
+    "yhat_upper": "13527.713538218693",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "9659.537410537992",
+    "yhat_lower": "6373.176706398085",
+    "yhat_upper": "13235.018358267715",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "9066.425939019988",
+    "yhat_lower": "5514.869371178626",
+    "yhat_upper": "12511.627031655766",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "9460.050891585872",
+    "yhat_lower": "5993.998719042749",
+    "yhat_upper": "12971.350085377631",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "10551.969367350785",
+    "yhat_lower": "7386.7072499426795",
+    "yhat_upper": "13966.761974777322",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "10760.919784143276",
+    "yhat_lower": "7140.3966381778155",
+    "yhat_upper": "14181.729527753523",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "10766.59063707085",
+    "yhat_lower": "7153.561637191529",
+    "yhat_upper": "14204.93120364197",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "9726.453202720137",
+    "yhat_lower": "6223.749679195264",
+    "yhat_upper": "12831.670085878271",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "10559.141295116022",
+    "yhat_lower": "7099.826307561081",
+    "yhat_upper": "14117.401376457232",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "9524.054079239238",
+    "yhat_lower": "6069.988399657187",
+    "yhat_upper": "13039.383212688588",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "9362.792455235784",
+    "yhat_lower": "5624.809673447146",
+    "yhat_upper": "12849.036378945011",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "9990.052602230253",
+    "yhat_lower": "6508.235972455092",
+    "yhat_upper": "13358.152291627202",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "10251.155373341806",
+    "yhat_lower": "6936.651883392529",
+    "yhat_upper": "13633.44933039108",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "10277.473654273084",
+    "yhat_lower": "6714.474553646721",
+    "yhat_upper": "13524.243448022524",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "9566.298380908991",
+    "yhat_lower": "6072.092111187213",
+    "yhat_upper": "13060.70669342909",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "9550.92573189289",
+    "yhat_lower": "6070.1916189757485",
+    "yhat_upper": "12982.61108031475",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "10043.33461011027",
+    "yhat_lower": "6305.75297415223",
+    "yhat_upper": "13552.404375051196",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "10918.868434047152",
+    "yhat_lower": "7362.441039183468",
+    "yhat_upper": "14398.765222724773",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "11041.335927655211",
+    "yhat_lower": "7409.4249482518035",
+    "yhat_upper": "14669.752457065135",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "9912.815471587628",
+    "yhat_lower": "6175.999974500083",
+    "yhat_upper": "13724.477740138389",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "11026.137606060993",
+    "yhat_lower": "7502.414588003065",
+    "yhat_upper": "14346.785954062505",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "10682.025507996519",
+    "yhat_lower": "7246.09971203282",
+    "yhat_upper": "14235.804037115447",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "8637.902550828889",
+    "yhat_lower": "4903.010518490037",
+    "yhat_upper": "12195.626725223965",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "9876.77871422135",
+    "yhat_lower": "6407.290972854368",
+    "yhat_upper": "13212.874328099626",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "10688.268678414628",
+    "yhat_lower": "7056.321043721257",
+    "yhat_upper": "14383.527196418936",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "10563.789442695102",
+    "yhat_lower": "7101.98911072796",
+    "yhat_upper": "14181.479130546073",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "9952.641347351939",
+    "yhat_lower": "6430.940861524272",
+    "yhat_upper": "13200.920262788608",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "10135.047128308515",
+    "yhat_lower": "6845.416360687744",
+    "yhat_upper": "13786.058702888227",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "10898.399735568246",
+    "yhat_lower": "7383.715097857824",
+    "yhat_upper": "14155.454374078849",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "11628.910053243917",
+    "yhat_lower": "8246.381484606569",
+    "yhat_upper": "15046.332596618848",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "11785.467721697503",
+    "yhat_lower": "8164.556268887391",
+    "yhat_upper": "15180.978348926032",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "10760.52392503612",
+    "yhat_lower": "7142.109952400743",
+    "yhat_upper": "14252.30888067255",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "11852.767026792664",
+    "yhat_lower": "8476.555767183212",
+    "yhat_upper": "15378.20015975257",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "11333.716063078202",
+    "yhat_lower": "7704.589016435847",
+    "yhat_upper": "14931.757399257742",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "9979.464516099857",
+    "yhat_lower": "6400.38559407389",
+    "yhat_upper": "13475.37034732856",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "11090.373052386502",
+    "yhat_lower": "7472.3400931058",
+    "yhat_upper": "14621.93462994049",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "11784.44795016438",
+    "yhat_lower": "7909.254021527004",
+    "yhat_upper": "15161.628802659263",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "11535.833032401433",
+    "yhat_lower": "8270.593095159446",
+    "yhat_upper": "15057.86389638538",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "10990.999621389525",
+    "yhat_lower": "7678.0996690755155",
+    "yhat_upper": "14431.57606097931",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "11335.895946418108",
+    "yhat_lower": "7638.427786962914",
+    "yhat_upper": "14758.339576803874",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "12326.098335295515",
+    "yhat_lower": "8932.740245222722",
+    "yhat_upper": "15896.75022297166",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "12846.214249202782",
+    "yhat_lower": "9343.523000314464",
+    "yhat_upper": "16193.565528860723",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "12976.073112124572",
+    "yhat_lower": "9550.47787744497",
+    "yhat_upper": "16374.530375648503",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "11992.85655163362",
+    "yhat_lower": "8430.59894069292",
+    "yhat_upper": "15357.14729653551",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "13002.870417380713",
+    "yhat_lower": "9579.829191500216",
+    "yhat_upper": "16444.897243263582",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "12267.146455136453",
+    "yhat_lower": "8922.307790083902",
+    "yhat_upper": "15643.912226650245",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "11553.990573545703",
+    "yhat_lower": "8117.356503074305",
+    "yhat_upper": "14900.019484373815",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "12474.68474978329",
+    "yhat_lower": "9205.543293169936",
+    "yhat_upper": "16114.426488651505",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "12998.779439015634",
+    "yhat_lower": "9393.692658387947",
+    "yhat_upper": "16545.109136363935",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "12607.315915294676",
+    "yhat_lower": "8926.561679036517",
+    "yhat_upper": "16103.638616010621",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "12107.661663234341",
+    "yhat_lower": "8750.380461834518",
+    "yhat_upper": "15529.648724782088",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "12591.729086242081",
+    "yhat_lower": "9081.240242453778",
+    "yhat_upper": "16261.640633538918",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "13777.103801077783",
+    "yhat_lower": "10234.343051376942",
+    "yhat_upper": "17390.95090533147",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "14076.495739549075",
+    "yhat_lower": "10616.041840142936",
+    "yhat_upper": "17472.955941963857",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "14175.622831547631",
+    "yhat_lower": "10830.720336784347",
+    "yhat_upper": "17829.534165384088",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "13228.94163626641",
+    "yhat_lower": "9837.855635144711",
+    "yhat_upper": "16613.886976654394",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "14150.550290024843",
+    "yhat_lower": "10544.368241927921",
+    "yhat_upper": "17704.925298366248",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "13207.347654219016",
+    "yhat_lower": "9932.19758379974",
+    "yhat_upper": "16585.6949731736",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "13135.006591572415",
+    "yhat_lower": "9562.035917012801",
+    "yhat_upper": "16863.523810231425",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "13854.151318641241",
+    "yhat_lower": "10211.808151188003",
+    "yhat_upper": "17255.039046827984",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "14206.7957088245",
+    "yhat_lower": "10750.221264559059",
+    "yhat_upper": "17705.53845797547",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "14318.749697920752",
+    "yhat_lower": "10815.748830531233",
+    "yhat_upper": "17955.567647100255",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "13699.11604362451",
+    "yhat_lower": "10262.301787204586",
+    "yhat_upper": "17309.69558073097",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "13772.332058225951",
+    "yhat_lower": "10505.388402694756",
+    "yhat_upper": "17168.83959011634",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "14356.282555512662",
+    "yhat_lower": "10882.694424272147",
+    "yhat_upper": "17984.721905711613",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "15303.349752684855",
+    "yhat_lower": "11717.039806864934",
+    "yhat_upper": "18941.335568201113",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "15499.735065302",
+    "yhat_lower": "12144.244609236752",
+    "yhat_upper": "19168.683087162462",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "14445.132428242187",
+    "yhat_lower": "10914.420477087386",
+    "yhat_upper": "17898.43045505075",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "15629.98793595007",
+    "yhat_lower": "12268.174843959981",
+    "yhat_upper": "19087.873783666113",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "15336.69196573057",
+    "yhat_lower": "11796.896719985481",
+    "yhat_upper": "18677.22368723159",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "13341.745906477336",
+    "yhat_lower": "9984.866135677876",
+    "yhat_upper": "16662.795753785977",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "14631.43819771617",
+    "yhat_lower": "10909.25691533964",
+    "yhat_upper": "17797.102285644836",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "15493.74428975629",
+    "yhat_lower": "12189.849708734322",
+    "yhat_upper": "18900.931669037887",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "15393.021085831557",
+    "yhat_lower": "11964.05998276951",
+    "yhat_upper": "18809.27833062041",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "14808.174311402512",
+    "yhat_lower": "11118.143417308193",
+    "yhat_upper": "18336.985975585278",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "15016.032983570929",
+    "yhat_lower": "11263.849321095053",
+    "yhat_upper": "18482.59368910081",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "15805.68691174249",
+    "yhat_lower": "12257.57068116509",
+    "yhat_upper": "19344.88345477027",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "16541.7664936204",
+    "yhat_lower": "13098.678933041992",
+    "yhat_upper": "19909.729887216356",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "16704.07906841496",
+    "yhat_lower": "13293.170334079869",
+    "yhat_upper": "20252.59682289094",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "15684.890178093687",
+    "yhat_lower": "12238.739595303365",
+    "yhat_upper": "19124.395794659253",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "16782.70254404969",
+    "yhat_lower": "13584.554561745283",
+    "yhat_upper": "20277.019318803086",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "16263.651580981716",
+    "yhat_lower": "12610.38914678836",
+    "yhat_upper": "19847.81069181749",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "14909.400034622258",
+    "yhat_lower": "11509.447631415032",
+    "yhat_upper": "18429.206253366734",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "16020.308571551705",
+    "yhat_lower": "12639.313151940647",
+    "yhat_upper": "19481.499480017246",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "16714.38346997605",
+    "yhat_lower": "13373.131329673455",
+    "yhat_upper": "20350.449453440546",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "16465.768552376205",
+    "yhat_lower": "13010.835616318787",
+    "yhat_upper": "20257.95786065491",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "15920.935141544014",
+    "yhat_lower": "12452.185311869454",
+    "yhat_upper": "19555.567670894165",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "16265.831466749472",
+    "yhat_lower": "12914.173651589572",
+    "yhat_upper": "19788.757707276844",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "17256.033855809696",
+    "yhat_lower": "13978.374744587663",
+    "yhat_upper": "20889.103636999167",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "17776.14976971458",
+    "yhat_lower": "14362.82981215545",
+    "yhat_upper": "21359.125096036245",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "17906.008632636444",
+    "yhat_lower": "14304.844417266835",
+    "yhat_upper": "21537.491513982834",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "16922.79207214562",
+    "yhat_lower": "13745.249936061413",
+    "yhat_upper": "20369.422473250946",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "17932.805937895224",
+    "yhat_lower": "14587.311706643894",
+    "yhat_upper": "21462.039595864047",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "17197.081975651592",
+    "yhat_lower": "13877.744692100961",
+    "yhat_upper": "20566.916730264747",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "16483.926094061382",
+    "yhat_lower": "12838.933033709854",
+    "yhat_upper": "20220.807072374904",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "17404.62027029723",
+    "yhat_lower": "14011.6416207034",
+    "yhat_upper": "21058.31359274347",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "17928.714959528465",
+    "yhat_lower": "14668.293063222214",
+    "yhat_upper": "21648.113125362896",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "17537.251435804974",
+    "yhat_lower": "14006.134172810274",
+    "yhat_upper": "21028.070039912636",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "17037.597183748057",
+    "yhat_lower": "13453.465187616766",
+    "yhat_upper": "20297.08191274978",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "17521.66460675615",
+    "yhat_lower": "13920.937865810349",
+    "yhat_upper": "20975.157946561336",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "18707.039321590528",
+    "yhat_lower": "15223.514572570779",
+    "yhat_upper": "22347.669150467245",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "19006.43126006205",
+    "yhat_lower": "15498.395359115753",
+    "yhat_upper": "22627.54788149066",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "19105.558352059452",
+    "yhat_lower": "15724.72956651526",
+    "yhat_upper": "22950.7202070722",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "18158.877156778315",
+    "yhat_lower": "14332.58198185078",
+    "yhat_upper": "21818.82625140311",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "19080.485810538004",
+    "yhat_lower": "15640.178065015336",
+    "yhat_upper": "22476.931301995694",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "18137.283174733035",
+    "yhat_lower": "14491.552939906403",
+    "yhat_upper": "21561.848495161885",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "18064.942112087814",
+    "yhat_lower": "14598.292754268712",
+    "yhat_upper": "21377.30006178434",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "18784.086839154625",
+    "yhat_lower": "15212.363391130131",
+    "yhat_upper": "22105.834002203654",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "19136.731229337714",
+    "yhat_lower": "15670.171228616733",
+    "yhat_upper": "22771.17363045663",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "19248.685218431885",
+    "yhat_lower": "15692.078502896476",
+    "yhat_upper": "22889.652269253405",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "18629.051564138248",
+    "yhat_lower": "15416.176035630846",
+    "yhat_upper": "22479.64141190001",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "18702.26757873898",
+    "yhat_lower": "15268.913513696803",
+    "yhat_upper": "22136.73787837453",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "19286.21807602479",
+    "yhat_lower": "15600.220144964784",
+    "yhat_upper": "22826.01329833282",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "20233.285273197012",
+    "yhat_lower": "16845.67478815994",
+    "yhat_upper": "24107.22363613685",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "20429.670585814456",
+    "yhat_lower": "16666.111657184523",
+    "yhat_upper": "24137.93342017312",
+    "area_id": "335",
+    "name_en": "Nad Al Shiba First"
+  }
+]

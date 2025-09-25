@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "9762.389944279028",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "9859.713354457826",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "10016.184267019642",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "9836.484857829759",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "9664.444145917527",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "9704.644738402854",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "9477.350513348843",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "9640.02617130736",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "9423.6388085476",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "9386.095820534609",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "8969.256501152991",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "9474.228845849178",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "10564.613956208404",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "9663.528251081878",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "10103.601138000316",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "9930.464826240703",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "10134.847326678682",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "9866.349771088955",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "9017.233374539308",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "9656.938868007986",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "9541.14426907412",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "9699.219880294411",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "8849.261681653661",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "9387.054594193785",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "10387.014550643029",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "9326.781804257684",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "9930.860417420547",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "9404.898203583025",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "10315.929361747645",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "9728.96435097757",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "9290.245762285398",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "9055.582873889942",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "9063.471466164081",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "9836.960873605027",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "9568.49692879665",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "9198.029085305343",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "9269.4708539214",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "11097.288676310216",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "9848.138031034196",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "9878.099984898698",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "9697.82373416515",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "8891.945564920454",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "10657.705340405335",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "9714.714542942438",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "9124.204964240802",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "8754.751441573633",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "9473.74562637989",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "10336.961526071795",
+    "area_id": "444",
+    "name_en": "Al Hebiah First"
+  }
+]

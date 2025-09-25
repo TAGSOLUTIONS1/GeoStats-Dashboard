@@ -1,0 +1,802 @@
+[
+  {
+    "ds": "2015-02-01",
+    "yhat": "22009.218175765258",
+    "yhat_lower": "19717.288107781445",
+    "yhat_upper": "24316.880168692507",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "21009.440580432176",
+    "yhat_lower": "18802.93892213897",
+    "yhat_upper": "23335.330230569518",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "21518.01276075322",
+    "yhat_lower": "19234.534645058433",
+    "yhat_upper": "23801.723678473987",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "20910.703153936967",
+    "yhat_lower": "18687.03415753791",
+    "yhat_upper": "22933.955850751503",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "21128.353700610383",
+    "yhat_lower": "18730.722823197844",
+    "yhat_upper": "23424.764108216474",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "20470.95283322147",
+    "yhat_lower": "18248.918532769374",
+    "yhat_upper": "22630.80459684311",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "21313.56740035958",
+    "yhat_lower": "19125.38897502047",
+    "yhat_upper": "23806.321996786526",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "22655.910323123517",
+    "yhat_lower": "20487.988852219132",
+    "yhat_upper": "25036.801211393326",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "20994.883795477002",
+    "yhat_lower": "18764.696169617706",
+    "yhat_upper": "23395.53073195228",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "21296.181025650243",
+    "yhat_lower": "19038.92826586784",
+    "yhat_upper": "23352.943656987794",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "20973.06444498101",
+    "yhat_lower": "18796.702127613335",
+    "yhat_upper": "23227.67120212289",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "22410.329268571244",
+    "yhat_lower": "19961.90418382686",
+    "yhat_upper": "24652.54941602285",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "19767.165672456296",
+    "yhat_lower": "17470.676545696202",
+    "yhat_upper": "22100.268133343016",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "20906.29837336201",
+    "yhat_lower": "18548.960062916234",
+    "yhat_upper": "23271.253732464713",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "16331.900557020896",
+    "yhat_lower": "14169.29866310619",
+    "yhat_upper": "18848.993996570458",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "16353.74652611568",
+    "yhat_lower": "14152.887485933916",
+    "yhat_upper": "18705.55839477333",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "15430.672699468174",
+    "yhat_lower": "13082.117948044208",
+    "yhat_upper": "17449.41846331687",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "18585.775872836955",
+    "yhat_lower": "16361.737882057487",
+    "yhat_upper": "20935.0070298449",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "16925.129834260824",
+    "yhat_lower": "14663.635079577776",
+    "yhat_upper": "19129.54314079268",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "17418.949760280066",
+    "yhat_lower": "15109.693435567608",
+    "yhat_upper": "19592.72801237506",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "18423.64969709917",
+    "yhat_lower": "16322.367627016381",
+    "yhat_upper": "20609.495515562336",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "13913.463310401588",
+    "yhat_lower": "11649.45523646891",
+    "yhat_upper": "16246.543592216081",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "19495.401723237796",
+    "yhat_lower": "17134.93052070114",
+    "yhat_upper": "21616.1963490052",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "17596.012848593353",
+    "yhat_lower": "15525.88048787388",
+    "yhat_upper": "19843.119431684874",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "18963.99594090743",
+    "yhat_lower": "16588.31147403929",
+    "yhat_upper": "21175.66689402098",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "19061.809822461575",
+    "yhat_lower": "16887.833220726046",
+    "yhat_upper": "21443.1479756953",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "18930.671855749002",
+    "yhat_lower": "16588.184699786558",
+    "yhat_upper": "21200.733644119206",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "20132.949045601054",
+    "yhat_lower": "17726.724057154734",
+    "yhat_upper": "22458.232247833195",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "17700.3653487218",
+    "yhat_lower": "15388.924830711194",
+    "yhat_upper": "19937.108023566925",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "20419.17401489926",
+    "yhat_lower": "17986.96951890916",
+    "yhat_upper": "22650.855769978247",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "19762.057818383113",
+    "yhat_lower": "17622.61524971694",
+    "yhat_upper": "22171.79174180994",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "19702.87712728327",
+    "yhat_lower": "17435.717260885478",
+    "yhat_upper": "21916.862633565874",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "20650.527645185804",
+    "yhat_lower": "18420.524578057008",
+    "yhat_upper": "22853.565458932175",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "20910.00668259732",
+    "yhat_lower": "18533.669011994945",
+    "yhat_upper": "23153.039195093705",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "20125.81243728444",
+    "yhat_lower": "17929.682358647653",
+    "yhat_upper": "22526.708773756072",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "20873.12618356428",
+    "yhat_lower": "18622.725527396986",
+    "yhat_upper": "23101.950646238765",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "20346.941976966136",
+    "yhat_lower": "17993.77776960834",
+    "yhat_upper": "22554.466292544195",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "20735.724071193028",
+    "yhat_lower": "18518.90504026562",
+    "yhat_upper": "22779.071632540512",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "21184.483278360745",
+    "yhat_lower": "19135.566115618123",
+    "yhat_upper": "23381.37434366424",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "20765.904517327555",
+    "yhat_lower": "18381.119570568124",
+    "yhat_upper": "23142.975730922088",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "21847.34118820521",
+    "yhat_lower": "19632.71263530924",
+    "yhat_upper": "24215.437807520095",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "21168.08718256645",
+    "yhat_lower": "18945.443304409044",
+    "yhat_upper": "23452.444322826712",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "21428.59326611092",
+    "yhat_lower": "19199.49299575117",
+    "yhat_upper": "23743.418628764844",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "20736.48084053389",
+    "yhat_lower": "18596.049483864746",
+    "yhat_upper": "23014.97059284969",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "22023.054269773937",
+    "yhat_lower": "19798.481872043973",
+    "yhat_upper": "24407.014960621866",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "24368.43384567999",
+    "yhat_lower": "21945.70151328532",
+    "yhat_upper": "26577.933866754116",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "22930.83047035175",
+    "yhat_lower": "20579.526356310267",
+    "yhat_upper": "25150.10061545399",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "23470.959347428627",
+    "yhat_lower": "21079.146151970046",
+    "yhat_upper": "25776.768582505123",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "23378.97016698665",
+    "yhat_lower": "21019.62065535567",
+    "yhat_upper": "25480.097415071163",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "22925.147496914553",
+    "yhat_lower": "20715.788862311747",
+    "yhat_upper": "24994.410982390913",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "21595.266473894695",
+    "yhat_lower": "19435.90502576542",
+    "yhat_upper": "23961.510757744538",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "26115.038979023648",
+    "yhat_lower": "23812.39276253562",
+    "yhat_upper": "28265.713564144746",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "16591.139525979732",
+    "yhat_lower": "14400.248541357447",
+    "yhat_upper": "18894.72592413131",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "25994.98473887095",
+    "yhat_lower": "23640.984829397574",
+    "yhat_upper": "28011.366500720138",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "23590.652794284237",
+    "yhat_lower": "21491.15314277001",
+    "yhat_upper": "25895.9814186604",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "24838.419773474536",
+    "yhat_lower": "22712.02245597588",
+    "yhat_upper": "27024.702187799998",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "25199.744551429198",
+    "yhat_lower": "22766.537603008168",
+    "yhat_upper": "27469.96090693637",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "21207.353259411648",
+    "yhat_lower": "18925.563252005013",
+    "yhat_upper": "23543.288206189285",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "24417.48061970864",
+    "yhat_lower": "22137.618718094855",
+    "yhat_upper": "26746.500528366694",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "25010.174564252746",
+    "yhat_lower": "22681.17781971091",
+    "yhat_upper": "27230.3754610838",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "24760.434501582782",
+    "yhat_lower": "22363.408696169638",
+    "yhat_upper": "27009.154731362258",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "24578.02057859807",
+    "yhat_lower": "22202.780045156625",
+    "yhat_upper": "26810.378850430046",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "23854.60503573669",
+    "yhat_lower": "21533.204756208565",
+    "yhat_upper": "26131.432829086327",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "26703.83480977893",
+    "yhat_lower": "24231.989860711634",
+    "yhat_upper": "28834.77813899583",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "20735.595575490188",
+    "yhat_lower": "18542.411553655886",
+    "yhat_upper": "23117.85886935965",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "26816.77320769863",
+    "yhat_lower": "24353.318460977855",
+    "yhat_upper": "29275.01943106746",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "25271.69598844816",
+    "yhat_lower": "22983.731997385723",
+    "yhat_upper": "27512.667904827",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "25859.55812474402",
+    "yhat_lower": "23721.388443339212",
+    "yhat_upper": "28132.92612536493",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "26498.800065576117",
+    "yhat_lower": "24204.35903387921",
+    "yhat_upper": "28993.29429836094",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "24645.135823521625",
+    "yhat_lower": "22308.148781552634",
+    "yhat_upper": "26853.944913922947",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "25877.26298965014",
+    "yhat_lower": "23394.869248667794",
+    "yhat_upper": "28344.280105719612",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "26538.905665691553",
+    "yhat_lower": "24230.928145222857",
+    "yhat_upper": "28982.350869529164",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "26144.392861021803",
+    "yhat_lower": "23763.420967957067",
+    "yhat_upper": "28688.702545586137",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "26242.99824290953",
+    "yhat_lower": "23910.16845823284",
+    "yhat_upper": "28428.07642819957",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "26112.626244245657",
+    "yhat_lower": "23858.5090395542",
+    "yhat_upper": "28503.011395384998",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "27315.472394263674",
+    "yhat_lower": "25026.44668674542",
+    "yhat_upper": "29552.431759240004",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "24883.282359574252",
+    "yhat_lower": "22595.01726846816",
+    "yhat_upper": "27151.64794956764",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "27602.471989144826",
+    "yhat_lower": "25269.088205063195",
+    "yhat_upper": "30003.36825839364",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "26945.66471960857",
+    "yhat_lower": "24653.651573540992",
+    "yhat_upper": "29213.387328601737",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "26886.753064273078",
+    "yhat_lower": "24450.428624866243",
+    "yhat_upper": "29022.449916124653",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "27834.681585806527",
+    "yhat_lower": "25331.880996341668",
+    "yhat_upper": "30350.62767826657",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "28094.31070579029",
+    "yhat_lower": "25537.4269208631",
+    "yhat_upper": "30175.050428152856",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "27310.25201897495",
+    "yhat_lower": "24856.152210883592",
+    "yhat_upper": "29788.824867729047",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "28057.655847991628",
+    "yhat_lower": "25614.798495027073",
+    "yhat_upper": "30273.25920782139",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "27531.49699523275",
+    "yhat_lower": "25109.849408326518",
+    "yhat_upper": "30006.70031654228",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "27920.30528842598",
+    "yhat_lower": "25453.083846423073",
+    "yhat_upper": "30454.371697008646",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "28369.08323681291",
+    "yhat_lower": "25785.553487456666",
+    "yhat_upper": "30877.64312470364",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "27950.514017866204",
+    "yhat_lower": "25586.47663127111",
+    "yhat_upper": "30479.409538311036",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "29031.96023082961",
+    "yhat_lower": "26484.721041574547",
+    "yhat_upper": "31446.3331431266",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "28352.706225194117",
+    "yhat_lower": "25801.28085776917",
+    "yhat_upper": "30784.94644027592",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "28613.212308723225",
+    "yhat_lower": "26118.22816933822",
+    "yhat_upper": "30923.75152033264",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "27921.09988315074",
+    "yhat_lower": "25368.931144405935",
+    "yhat_upper": "30397.66857131939",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "29207.6733123926",
+    "yhat_lower": "26718.42829500408",
+    "yhat_upper": "31791.101507275685",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "31553.052888294125",
+    "yhat_lower": "28905.90429023879",
+    "yhat_upper": "34080.65410730888",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "30115.4495129731",
+    "yhat_lower": "27486.273279498953",
+    "yhat_upper": "32644.62071423644",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "30655.578390043676",
+    "yhat_lower": "28104.341065516262",
+    "yhat_upper": "33279.06649362737",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "30563.589209604124",
+    "yhat_lower": "27728.390237610398",
+    "yhat_upper": "33057.24116874467",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "30109.76653952926",
+    "yhat_lower": "27310.961176989797",
+    "yhat_upper": "32676.25309878497",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "28779.88551651455",
+    "yhat_lower": "26108.161275888375",
+    "yhat_upper": "31411.783627415967",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "33299.65802163898",
+    "yhat_lower": "30675.247009375686",
+    "yhat_upper": "36025.2441368193",
+    "area_id": "333",
+    "name_en": "Madinat Dubai Almelaheyah"
+  }
+]

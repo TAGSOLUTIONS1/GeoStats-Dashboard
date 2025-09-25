@@ -1,0 +1,1122 @@
+[
+  {
+    "ds": "2010-02-01",
+    "yhat": "-1580.4280235431918",
+    "yhat_lower": "-13990.202529188478",
+    "yhat_upper": "9245.5401226296",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2010-03-01",
+    "yhat": "1166.1589445075247",
+    "yhat_lower": "-10900.87053316175",
+    "yhat_upper": "12732.461597436075",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2010-05-01",
+    "yhat": "3855.0058347423437",
+    "yhat_lower": "-8780.263366454807",
+    "yhat_upper": "15857.792298058534",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "738.6427732776766",
+    "yhat_lower": "-11330.592626426953",
+    "yhat_upper": "12412.647589680138",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2010-09-01",
+    "yhat": "1750.6002837735005",
+    "yhat_lower": "-10490.993384326195",
+    "yhat_upper": "14152.174974129686",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "-1757.6237933740872",
+    "yhat_lower": "-13407.15039393022",
+    "yhat_upper": "10429.173349523186",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2011-02-01",
+    "yhat": "258.73173889418763",
+    "yhat_lower": "-12265.18718132733",
+    "yhat_upper": "12031.570586473044",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2011-07-01",
+    "yhat": "6154.672886654569",
+    "yhat_lower": "-5026.008045138959",
+    "yhat_upper": "17964.680117595697",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "1956.865153672154",
+    "yhat_lower": "-9947.800104894359",
+    "yhat_upper": "13651.218510170762",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "1252.432471002312",
+    "yhat_lower": "-11725.685895385337",
+    "yhat_upper": "12864.75589901556",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "5170.155004678541",
+    "yhat_lower": "-6724.203153866564",
+    "yhat_upper": "17417.17398074461",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "3923.7176544297763",
+    "yhat_lower": "-7910.8108867693045",
+    "yhat_upper": "15795.609136564959",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "8325.7519719531",
+    "yhat_lower": "-3595.3789463989974",
+    "yhat_upper": "19535.290371103474",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "-703.0835241116101",
+    "yhat_lower": "-13124.72619888087",
+    "yhat_upper": "11522.6645542644",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "6087.953977605792",
+    "yhat_lower": "-5728.839319018749",
+    "yhat_upper": "18555.862503855496",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "-2027.7416342018196",
+    "yhat_lower": "-14450.880455535853",
+    "yhat_upper": "9795.723000120242",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "18496.894564798364",
+    "yhat_lower": "6321.668478410184",
+    "yhat_upper": "31020.058441197078",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "6261.658512764081",
+    "yhat_lower": "-5907.789171311557",
+    "yhat_upper": "17994.078967044163",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "9029.439588841908",
+    "yhat_lower": "-2939.0030559240004",
+    "yhat_upper": "20734.485283637277",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "5314.751421248468",
+    "yhat_lower": "-7058.701853540891",
+    "yhat_upper": "17083.581291712013",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "7629.981424941387",
+    "yhat_lower": "-5425.858706920167",
+    "yhat_upper": "19747.49966509592",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "5061.79238768557",
+    "yhat_lower": "-7117.181788838974",
+    "yhat_upper": "17028.100269117684",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "4826.076185459265",
+    "yhat_lower": "-6810.0742492919035",
+    "yhat_upper": "16155.773239303273",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "8595.977810750604",
+    "yhat_lower": "-3809.3427809661393",
+    "yhat_upper": "20328.18706969135",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "9763.329147132072",
+    "yhat_lower": "-2330.6919632975228",
+    "yhat_upper": "22227.175451886982",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "11284.824701189369",
+    "yhat_lower": "-560.2998675102344",
+    "yhat_upper": "23211.6412521373",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "10599.054152016333",
+    "yhat_lower": "-982.9716828672263",
+    "yhat_upper": "21892.19250956196",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "-1139.1496025224214",
+    "yhat_lower": "-13453.22325880827",
+    "yhat_upper": "10124.564962734468",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "11964.574157521216",
+    "yhat_lower": "322.01605528145757",
+    "yhat_upper": "23647.466612306653",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "9000.817275274432",
+    "yhat_lower": "-2298.798033791034",
+    "yhat_upper": "21104.29115903203",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "7688.550606534687",
+    "yhat_lower": "-3969.8682990025077",
+    "yhat_upper": "20105.86497708769",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "5900.4014873583",
+    "yhat_lower": "-5050.560965578609",
+    "yhat_upper": "18262.128941274397",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "13584.491754910465",
+    "yhat_lower": "2300.359299592321",
+    "yhat_upper": "26156.443236867362",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "8682.25133992467",
+    "yhat_lower": "-3014.5040423464516",
+    "yhat_upper": "20094.07665743398",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "19977.073543161052",
+    "yhat_lower": "6882.213786319294",
+    "yhat_upper": "32254.268008832398",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "5402.077235583084",
+    "yhat_lower": "-7216.335338385186",
+    "yhat_upper": "16825.707487847256",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "9429.433700859072",
+    "yhat_lower": "-2818.262942062114",
+    "yhat_upper": "21513.743531446285",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "11447.423138642567",
+    "yhat_lower": "-825.6336588585317",
+    "yhat_upper": "23405.754683930852",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "13691.478538994736",
+    "yhat_lower": "1409.2536757869693",
+    "yhat_upper": "25706.818237412488",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "17815.061757803014",
+    "yhat_lower": "5999.446160530052",
+    "yhat_upper": "30018.306453158497",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "12491.618731085046",
+    "yhat_lower": "848.4609445369409",
+    "yhat_upper": "23792.176708151404",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "3284.7075630396466",
+    "yhat_lower": "-8738.748673302416",
+    "yhat_upper": "15038.21993236004",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "9296.717796239478",
+    "yhat_lower": "-3149.3877406224856",
+    "yhat_upper": "22049.01491875332",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "13279.22478415425",
+    "yhat_lower": "1917.937860467294",
+    "yhat_upper": "25675.008488563963",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "18714.77151454795",
+    "yhat_lower": "7513.671369710163",
+    "yhat_upper": "31259.822175024732",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "13102.375240200923",
+    "yhat_lower": "1586.285186145677",
+    "yhat_upper": "25280.3785170447",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "16431.074803210908",
+    "yhat_lower": "4066.9395871195743",
+    "yhat_upper": "27982.782878013353",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "17957.872592909112",
+    "yhat_lower": "5533.807856252772",
+    "yhat_upper": "29434.59592043882",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "21025.481335130586",
+    "yhat_lower": "9578.058798167183",
+    "yhat_upper": "32653.454399629758",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "9279.844367494712",
+    "yhat_lower": "-2960.157709734883",
+    "yhat_upper": "20342.075281508987",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "16113.14730923707",
+    "yhat_lower": "3888.0348545131906",
+    "yhat_upper": "28780.67980752993",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "18784.606440095125",
+    "yhat_lower": "6793.385581182456",
+    "yhat_upper": "31066.682222573596",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "19537.757388930615",
+    "yhat_lower": "7810.112118494881",
+    "yhat_upper": "31481.53701776563",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "20949.13522447415",
+    "yhat_lower": "8747.734189888388",
+    "yhat_upper": "33166.719761468106",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "15395.514413626162",
+    "yhat_lower": "2738.291850995786",
+    "yhat_upper": "27863.952164720096",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "12833.615472556881",
+    "yhat_lower": "1748.7994912851375",
+    "yhat_upper": "24425.83861702672",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "21123.245002816708",
+    "yhat_lower": "9011.663091530427",
+    "yhat_upper": "33510.1536423309",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "23891.08533617624",
+    "yhat_lower": "11628.426210995196",
+    "yhat_upper": "35180.514756599085",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "22491.80112112025",
+    "yhat_lower": "9166.181446853652",
+    "yhat_upper": "35311.777096492944",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "19923.67134116023",
+    "yhat_lower": "8021.099197813763",
+    "yhat_upper": "32139.837915006105",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "10716.874257216683",
+    "yhat_lower": "-1259.188362363821",
+    "yhat_upper": "22308.134853454765",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "16728.942467629982",
+    "yhat_lower": "5097.7997824446",
+    "yhat_upper": "27897.546964618814",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "30099.95122111655",
+    "yhat_lower": "18075.978273615816",
+    "yhat_upper": "42550.56613496408",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "20329.411995299186",
+    "yhat_lower": "8408.012992533688",
+    "yhat_upper": "32994.46681695249",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "20711.621516940802",
+    "yhat_lower": "8927.125952960549",
+    "yhat_upper": "33128.86144181862",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "23458.262007860558",
+    "yhat_lower": "11131.609791394605",
+    "yhat_upper": "36121.783069112695",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "24625.672601555245",
+    "yhat_lower": "13216.90738785777",
+    "yhat_upper": "36959.853055932654",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "26147.22550146064",
+    "yhat_lower": "14497.030075188613",
+    "yhat_upper": "38765.28433929592",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "23030.921697484446",
+    "yhat_lower": "10941.00477430215",
+    "yhat_upper": "35876.1764607287",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "25461.5715554275",
+    "yhat_lower": "13187.890605656776",
+    "yhat_upper": "36907.18940665388",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "18942.90667998737",
+    "yhat_lower": "6633.542715543774",
+    "yhat_upper": "30572.420116776473",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "24043.055068880094",
+    "yhat_lower": "12002.438023456754",
+    "yhat_upper": "36589.90828246304",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "13723.543661453607",
+    "yhat_lower": "1866.8694675043566",
+    "yhat_upper": "25916.779283134456",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "20534.947595239595",
+    "yhat_lower": "8209.004083157059",
+    "yhat_upper": "32722.95136667103",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "26827.384024767292",
+    "yhat_lower": "14555.499490902403",
+    "yhat_upper": "39041.81566171147",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "23863.686399946575",
+    "yhat_lower": "12114.567594751128",
+    "yhat_upper": "36083.68150309102",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "22551.478988570343",
+    "yhat_lower": "9692.226518987216",
+    "yhat_upper": "33586.9191979829",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "25390.484192198353",
+    "yhat_lower": "13084.22615835629",
+    "yhat_upper": "38359.86828117781",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "32066.818964697304",
+    "yhat_lower": "19376.99152924904",
+    "yhat_upper": "43294.23166638303",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "20763.559252889143",
+    "yhat_lower": "8270.928632631203",
+    "yhat_upper": "32329.08228992035",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "18009.235625939225",
+    "yhat_lower": "6534.863550175722",
+    "yhat_upper": "30215.0660969868",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "16712.45597197933",
+    "yhat_lower": "5428.237096339665",
+    "yhat_upper": "28389.607447092123",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "24250.134251823394",
+    "yhat_lower": "11941.19012153983",
+    "yhat_upper": "35759.60522845739",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "23545.758915128226",
+    "yhat_lower": "11649.368594170346",
+    "yhat_upper": "35370.25721152541",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "27463.54070628842",
+    "yhat_lower": "15305.708180215768",
+    "yhat_upper": "40569.879852405254",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "24398.32192223473",
+    "yhat_lower": "12820.408961544086",
+    "yhat_upper": "36269.92661352975",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "26217.218047951053",
+    "yhat_lower": "14365.307539581008",
+    "yhat_upper": "38514.68661425033",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "30619.311622927693",
+    "yhat_lower": "18678.280656921997",
+    "yhat_upper": "42068.52018136163",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "21590.533472777082",
+    "yhat_lower": "9287.42933261417",
+    "yhat_upper": "33256.76188189996",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "34840.93092803998",
+    "yhat_lower": "23511.81927400694",
+    "yhat_upper": "47335.83195304158",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "26970.36899947263",
+    "yhat_lower": "15228.318241088164",
+    "yhat_upper": "39629.774260688566",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "28381.7468353071",
+    "yhat_lower": "16094.260799705551",
+    "yhat_upper": "39874.544953973316",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "22828.126024732333",
+    "yhat_lower": "11665.060292290194",
+    "yhat_upper": "35030.30108857848",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "15127.614721015761",
+    "yhat_lower": "3172.2717002990526",
+    "yhat_upper": "27540.29917624612",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "20266.22708431855",
+    "yhat_lower": "7795.600568705605",
+    "yhat_upper": "32383.41254571283",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "40790.92062927266",
+    "yhat_lower": "28789.197647866218",
+    "yhat_upper": "53259.060640466116",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "24293.700152762263",
+    "yhat_lower": "12720.973390039668",
+    "yhat_upper": "35997.50303968895",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "26311.74884789441",
+    "yhat_lower": "14385.074373956517",
+    "yhat_upper": "38079.64753517573",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "28555.856614984565",
+    "yhat_lower": "17389.08847443287",
+    "yhat_upper": "40222.7774554249",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "31323.696948477573",
+    "yhat_lower": "19696.941722641724",
+    "yhat_upper": "43599.71197906952",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "27609.066126731555",
+    "yhat_lower": "16820.126962790306",
+    "yhat_upper": "39512.41024409045",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "32679.611895900634",
+    "yhat_lower": "20467.43690547868",
+    "yhat_upper": "44435.1764694535",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "29924.412733688445",
+    "yhat_lower": "17156.529657309653",
+    "yhat_upper": "42368.75583928733",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "27356.28295384514",
+    "yhat_lower": "15926.142459007442",
+    "yhat_upper": "39250.880532451134",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "27120.62600901735",
+    "yhat_lower": "15607.065752175502",
+    "yhat_upper": "39358.182428696084",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "18149.485870133107",
+    "yhat_lower": "5905.681855485296",
+    "yhat_upper": "29628.60448951552",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "24161.554080610353",
+    "yhat_lower": "11940.888540480784",
+    "yhat_upper": "35900.27937763879",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "37532.56283418889",
+    "yhat_lower": "25220.122768038604",
+    "yhat_upper": "48788.601775269555",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "27762.023608432184",
+    "yhat_lower": "15789.054539627012",
+    "yhat_upper": "40827.76272446746",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "28144.233130138455",
+    "yhat_lower": "16441.261630045552",
+    "yhat_upper": "40158.245608913465",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "30890.87362108161",
+    "yhat_lower": "18545.3840346903",
+    "yhat_upper": "42880.05098150358",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "32058.28421485955",
+    "yhat_lower": "20055.913797678866",
+    "yhat_upper": "44237.37403914206",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "33579.8371147652",
+    "yhat_lower": "21678.67409679993",
+    "yhat_upper": "45579.617470632926",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "30463.533310802733",
+    "yhat_lower": "18530.400082102125",
+    "yhat_upper": "42847.92696190024",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "32894.183168822",
+    "yhat_lower": "21047.343165047183",
+    "yhat_upper": "45338.85998239687",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "26375.5182934492",
+    "yhat_lower": "15022.140733631026",
+    "yhat_upper": "39272.37229455653",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "31475.666682374478",
+    "yhat_lower": "19820.35981998825",
+    "yhat_upper": "42528.07262878935",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "21156.15527495257",
+    "yhat_lower": "8731.31370046444",
+    "yhat_upper": "32385.522711840666",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "27967.559208738443",
+    "yhat_lower": "14839.73248243256",
+    "yhat_upper": "39907.72710186212",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "34259.99563825508",
+    "yhat_lower": "22501.962083219998",
+    "yhat_upper": "46115.755243146414",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "31296.298013444895",
+    "yhat_lower": "19336.500233034676",
+    "yhat_upper": "43590.50234540094",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "29984.090602079177",
+    "yhat_lower": "18337.517186162113",
+    "yhat_upper": "41655.36164368493",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "33221.756633390534",
+    "yhat_lower": "21072.78121233394",
+    "yhat_upper": "44958.839367081426",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "32823.095805694255",
+    "yhat_lower": "19623.537162909528",
+    "yhat_upper": "44206.145295070455",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "39499.430578190535",
+    "yhat_lower": "27643.019427022846",
+    "yhat_upper": "51241.73112087085",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "28196.170866401746",
+    "yhat_lower": "16436.701373694443",
+    "yhat_upper": "39839.13124880779",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "35880.31847979354",
+    "yhat_lower": "23268.5477674757",
+    "yhat_upper": "47672.16359039045",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "25441.847239484126",
+    "yhat_lower": "13595.377004956996",
+    "yhat_upper": "37261.94557376878",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "35890.704552338975",
+    "yhat_lower": "24041.849606447595",
+    "yhat_upper": "47969.76596775994",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "24145.06758549114",
+    "yhat_lower": "12298.445367058148",
+    "yhat_upper": "36303.88350856675",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "31682.745865315705",
+    "yhat_lower": "19107.84394692508",
+    "yhat_upper": "43898.057585617214",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "30978.370528626572",
+    "yhat_lower": "18858.332709733764",
+    "yhat_upper": "43687.75887587306",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "34896.15231982778",
+    "yhat_lower": "22934.573291365796",
+    "yhat_upper": "47581.54438032809",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "31830.93353576301",
+    "yhat_lower": "20155.779474173585",
+    "yhat_upper": "43809.065284912715",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "33649.82966149013",
+    "yhat_lower": "21183.34453152747",
+    "yhat_upper": "45341.378342385586",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "38051.92323641674",
+    "yhat_lower": "26013.31285478407",
+    "yhat_upper": "50736.08610893793",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "29023.14508626035",
+    "yhat_lower": "17876.420024520365",
+    "yhat_upper": "41655.22252781876",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "42273.54254156118",
+    "yhat_lower": "29874.04124460586",
+    "yhat_upper": "53391.27291255558",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "34402.98061300363",
+    "yhat_lower": "22780.422471870865",
+    "yhat_upper": "47929.679255186216",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "35814.35844882677",
+    "yhat_lower": "24033.243600251455",
+    "yhat_upper": "47495.73532999789",
+    "area_id": "375",
+    "name_en": "Jumeirah Second"
+  }
+]

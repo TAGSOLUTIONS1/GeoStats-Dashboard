@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "7129.967889158052",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "7129.402386615711",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "7124.036949829829",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "7123.463446809352",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "7114.941112491882",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "7115.11495180875",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "7105.017367087468",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "7076.502537256085",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "7080.15240429196",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "7074.241345209599",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "7078.153112869111",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "7077.914313440848",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "7059.78917134485",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "7061.072249418772",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "7062.24431509767",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "7063.982934230459",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "7061.903648731441",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "7055.426559155379",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "7050.5991907593025",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "7048.269317830795",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "7048.681102607537",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "7051.11436238911",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "7054.363050189566",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "7057.282800870666",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "7059.339186629628",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "7060.697286814768",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "7061.930780451761",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "7063.728408799044",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "7061.684329686448",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "7055.24193355919",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "7050.461970833413",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "7048.183286793168",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "7048.609787471031",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "7051.071476041237",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "7054.332555250438",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "7057.263679253824",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "7059.337662175044",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "7060.696090423306",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "7061.929851244001",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "7063.727724311442",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "7061.68374921021",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "7055.241494274658",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "7050.461674484971",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "7048.183103982005",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "7048.609663348503",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "7051.0714103513055",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "7054.332518505803",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "7057.263659667033",
+    "area_id": "522",
+    "name_en": "Hessyan First"
+  }
+]
