@@ -43,12 +43,12 @@ const DataPointItem = ({
           </div>
         </div>
         <div className="flex items-center space-x-2 relative">
-          {item.isPremium && (
+          {/* {item.isPremium && (
             <span className=" text-orange font-semibold font-hoefler text-sm py-0.5 rounded">New</span>
-          )}
+          )} */}
           <div className="relative flex items-center space-x-2">
-          {item.isPremium && (
-            <Crown className="w-3 h-3 text-yellow-400" />
+          {item.Upcoming && (
+            <Crown className="w-3 h-3 text-orange-light" />
           )}
             <button
               ref={infoButtonRef}

@@ -1,4 +1,4 @@
-import { label } from 'framer-motion/client';
+import { label, tr } from 'framer-motion/client';
 import { 
   Home,
   TrendingUp,
@@ -7,7 +7,7 @@ import {
   Users,
 } from 'lucide-react';
 
-export const dataPoints = [
+const dataPoints = [
   {
     count: 1,
     id: 'home-value',
@@ -16,7 +16,8 @@ export const dataPoints = [
     isSelected: true,
     isPremium: false,
     description: 'The area\'s typical Home Value as determined by the Zillow Home Value Index ("ZHVI"). This is a smoothed, seasonally adjusted figure.',
-    source: 'Zillow'
+    source: 'Zillow',
+    Upcoming: false,
   },
   {
     count: 2,
@@ -26,7 +27,8 @@ export const dataPoints = [
     isSelected: false,
     isPremium: false,
     description: 'The year-over-year growth rate in the area\'s typical Home Value according to the Zillow Home Value Index ("ZHVI").',
-    source: 'Zillow'
+    source: 'Zillow',
+    Upcoming: true,
   },
   {
     count: 3,
@@ -36,7 +38,8 @@ export const dataPoints = [
     isSelected: false,
     isPremium: false,
     description: 'The number of active listings on the market for sale in the area in a given month as determined by Realtor.com. Note: For Sale Inventory excludes listings that are pending.',
-    source: 'Zillow'
+    source: 'Zillow',
+    Upcoming: true,
   },
   {
     count: 4,
@@ -46,7 +49,8 @@ export const dataPoints = [
     isSelected: false,
     isPremium: false,
     description: 'A forecast of the future direction of home prices in the area based on the most recent trends in the local housing market. The Home Price Forecast is calculated by Reventure using a proprietary algorithm that analyzes the most recent trends in the local housing market.',
-    source: 'Zillow'
+    source: 'Zillow',
+    Upcoming: true,
   },
   {
     count: 5,
@@ -56,7 +60,8 @@ export const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'A score from 0-100 that indicates the long-term appreciation potential of a market, based on its underlying fundamentals.',
-    source: 'Zillow'
+    source: 'Zillow',
+    Upcoming: true,
   },
   {
     count: 6,
@@ -66,7 +71,8 @@ export const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'The 5-year growth rate in home values for an area. Looking at this data point gives a longer-term view of appreciation in the market. The higher the long-term appreciation, the better for homeowners and investors. However - make sure to use this data point in conjunction with Overvalued % to understand if 5-year appreciation is likely to go up or down into the future',
-    source: 'Zillow'
+    source: 'Zillow',
+    Upcoming: true,
   },
   {
     count: 7,
@@ -76,7 +82,8 @@ export const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'An estimate of how over or undervalued current Home Values in the area are relative to the fundamentals dictated by local median incomes. The Overvaluation % is calculated by comparing the area\'s current Value / Income Ratio to the long-term average. Note that this is not a projection for how much home prices will increase or decline, but merely an estimate of over or undervaluation compared to incomes at a given point in time.',
-    source: 'Zillow'
+    source: 'Zillow',
+    Upcoming: true,
   },
   {
     count: 8,
@@ -86,7 +93,8 @@ export const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'The percentage of total listings that had a price reduction in each month according to Realtor.com. If more sellers are cutting the price compared to historical norms, it could be a signal that home prices will drop in future months.',
-    source: 'Zillow'
+    source: 'Zillow',
+    Upcoming: true,
   },
   {
     count: 9,
@@ -96,7 +104,8 @@ export const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'The growth rate in Population over the last five years according to the most recent year of official UAE statistics and surveys.',
-    source: 'Zillow'
+    source: 'Zillow',
+    Upcoming: true,
   },
   {
     count: 10,
@@ -106,7 +115,8 @@ export const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'The unlevered annual return a real estate investor can expect if they were to buy a property at prevailing Home Values and rent it out at prevailing Rental Rates. Higher cap rates mean more cash flow returns to investors. Note that Cap Rate figures are estimates and could be subject to error, especially at the Community level.',
-    source: 'Zillow'
+    source: 'Zillow',
+    Upcoming: true,
   },
   {
     count: 11,
@@ -116,17 +126,19 @@ export const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'The typical Home Value in the area divided by the Median Household Income, an indication of how expensive houses are for local buyers. The higher the Value / Income Ratio compared to historical norms in the area, the greater the likelihood of a Housing Bubble.',
-    source: 'Zillow'
+    source: 'Zillow',
+    Upcoming: true,
   },
   {
     count: 12,
-    label:'Mortage Payments',
-    id:'mortage-payments', 
+    label:'Mortgage Payment',
+    id:'mortgage-payment', 
     icon: DollarSign, 
     isSelected:false, 
     isPremium:true, 
     description:'An estimate of the Mortgage Payment, including mortgage interest, property taxes, and insurance, a homebuyer can expect in each area given prevailing Home Values and Mortgage Rates.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 13,
@@ -136,7 +148,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The household income needed to comfortably afford to buy a house in the area at current home prices and mortgage rates. This calculation assumes that a household spends 30% of their gross income on their mortgage, tax, and insurance payment',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 14,
@@ -146,7 +159,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The area\'s Annual House Payment, including mortgage interest, property taxes, and insurance, divided by the area\'s Median Household Income. This is a measure of relatively homebuyer affordability given prevailing Home Values and Mortgage Rates.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 15,
@@ -156,7 +170,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The Property Tax Rate as a percentage of the Typical Home Value in the area. Note: this data is derived from official UAE statistics and is reported on a lag, so in certain cases it might be off slightly from what you see in tax estimates or in your property tax bills.',
-    source:'Zillow' 
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 16,
@@ -166,7 +181,8 @@ export const dataPoints = [
     isSelected:false,
     isPremium:true,
     description:'Think of this data point as “how many people are moving here”. The net inbound or outbound migration in the most recent year according to official UAE migration reports. Note that this data is typically available at the Emirate, City, and Community levels.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 17,
@@ -176,7 +192,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'Compares the cost of Buying a House in terms of the Mortgage Payment to the cost of Renting an Apartment. The higher the percentage, the more expensive it to Buy compared to Rent.',
-    source:'Zillow' 
+    source:'Zillow' ,
+    Upcoming: true,
   },
   {
     count: 18,
@@ -186,7 +203,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The % change in Home Value from the "peak" of the Housing Bubble in June 2022. Home Values in many markets have declined since then, while in other markets they are still rising. Homebuyers and investors wanting a quick understanding of the medium-term trends in their markets should look at this data point.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 19,
@@ -196,7 +214,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The % change in Home Value from the "peak" of the Housing Bubble in June 2022. Home Values in many markets have declined since then, while in other markets they are still rising. Homebuyers and investors wanting a quick understanding of the medium-term trends in their markets should look at this data point.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 20,
@@ -206,7 +225,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The seasonally-adjusted month-over-month growth rate in the area\'s typical Home Value according to the Zillow Home Value Index ("ZHVI").',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 21,
@@ -216,7 +236,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The year-over-year growth rate in the area\'s For Sale Inventory according to Realtor.com. If an area has big inventory increases, it could mean greater likelihood of home price declines, while sharply lower inventory could mean that home prices will continue to go up.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 22,
@@ -226,7 +247,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'Comparing the inventory of active listings in the most recent month compared to the long-term average for that month. This metric will you help you understand if inventory in your area is "high" or "low" compared to the long-run norm. Areas with more inventory than normal could be more exposed to price declines in the future. While areas with less inventory could experience more stable prices, or prices going up.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 23,
@@ -236,7 +258,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The median number of days a house spends on the market before it either sells or is de-listed. Big increases in Days on the Market from historical norms could be a signal that the local Housing Market is slowing.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 24,
@@ -246,7 +269,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The year-over-year growth rate in the area\'s median Days on the Market according to Realtor.com.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 25,
@@ -256,7 +280,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The number of Homes currently For Sale according to Realtor.com divided by the total numbers of owned Homes in the area.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 26,
@@ -266,7 +291,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The median price of total listings in the specified area during the most recent month. Median List Price is a good real-time indicator of how prices are trending in the market. However, be sure to note that in smaller geographies with a lower sample of listings (e.g., Communities), the list price can fluctuate significantly based on the size and quality of houses listed in a given month.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 27,
@@ -276,7 +302,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The year-over-year growth rate in the Median List Price of listings in the specific geography in the most recent month. Looking at this data point will help you understand if sellers are increasing or decreasing the prices of listings compared to one year ago. However, please note: there can be significant fluctuations in median list price based on the size and quality of houses listed, so this might not always be an apples-to-apples comparison of true appreciation.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 28,
@@ -286,7 +313,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The number of new seller listings that came to the market in a given month. If the number of new listings is increasing over historical norms, that could be a sign that some distress in the market is building and that supply and inventory will shoot up in future months. Conversely, if new listings are decreasing from historical norms, it could be a signal that seller\'s in the market are "on strike" and refusing to list their homes.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 29,
@@ -296,7 +324,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The year-over-year growth rate in new seller listings in a given geographic area. The higher the growth rate in New Listings, the more likely it is that inventory will increase and prices decline. Moreover, if New Listings are on a sharp decline, that could eventually translate into a lack of inventory and more stable or growing prices.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 30,
@@ -306,7 +335,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The month-over-month growth rate in the area\'s For Sale Inventory according to Realtor.com. Note that the monthly growth rate in inventory is heavily influenced by seasonality in the local Housing Market.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 31,
@@ -316,7 +346,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:false, 
     description:'The area\'s population according to the most recent year of official UAE statistics and surveys.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 32,
@@ -326,7 +357,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The income of the median, or middle, household in the area according to the most recent year of official UAE statistics and surveys.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 33,
@@ -336,7 +368,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The growth rate in Median Household Income over the last five years according to the most recent year of official UAE statistics and surveys. Higher income growth is generally a positive for Home Values.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 34,
@@ -346,7 +379,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The percentage of the workforce in the area that works remotely, which can influence housing demand and market dynamics.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 35,
@@ -356,7 +390,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The percentage of 25+ aged population in the area that has a bachelor\'s degree or higher. Generally speaking - higher college degree rates are associated with higher home prices and income levels.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 36,
@@ -366,36 +401,30 @@ export const dataPoints = [
     isSelected:false,
     isPremium:true, 
     description:'The unemployment rate in the area, providing insight into local economic conditions that can affect the housing market.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 37,
-    label:'Remote Work %',
-    id:'remote-work-percent', 
-    icon: Users, 
-    isSelected:false, 
-    isPremium:true, 
-    description:'The percentage of the workforce in the area that works remotely, which can influence housing demand and market dynamics.',
-    source:'Zillow'
-  },
-  {
-    count: 38,
-    label:'College Degree Rate',
-    id:'college-degree-rate', 
-    icon: Users,  
-    isSelected:false,
-    isPremium:true, 
-    description:'The percentage of residents in the area with a college degree, indicating educational attainment levels that can impact economic and housing trends.',
-    source:'Zillow'
-  },
-  {
     label:'Homeownership Rate',
     id:'homeownership-rate', 
     icon: Users, 
     isSelected:false, 
     isPremium:true, 
     description:'The percentage of Households that own their homes in the local area according to official UAE statistics.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
+  },
+  {
+    count: 38,
+    label:'Vacant Home %',
+    id:'vacant-home-percent',
+    icon: Home,
+    isSelected:false,
+    isPremium:true,
+    description:'The percentage of Housing Units in the area that are vacant, indicating housing market conditions and availability.',
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 39,
@@ -405,7 +434,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The percentage of Homeowner Households in the area that have a mortgage on their property.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 40,
@@ -415,7 +445,8 @@ export const dataPoints = [
     isSelected:false,
     isPremium:true, 
     description:'The age of the median, or middle, resident according to official UAE statistics.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 41,
@@ -425,7 +456,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The percentage of households in the area that fall below the official poverty threshold based on the most recent year of official UAE statistics.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 42,
@@ -435,7 +467,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The growth rate of employment in the area, indicating economic trends that can impact housing demand and market dynamics.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 43,
@@ -445,7 +478,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The percentage of households in the area that are classified as family households, providing insight into community composition and housing needs.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 44,
@@ -455,7 +489,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The number of Housing Units in the area according to the most recent year of official UAE statistics and surveys.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 45,
@@ -465,7 +500,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The growth rate in the number of Housing Units in the area over the last five years according to the most recent years of official UAE statistics and surveys. Higher rates of Housing Unit Growth tend to occur in areas with high Population Growth.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 46,
@@ -475,7 +511,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The area\'s typical Monthly Rent as determined by the Zillow Observed Rent Index ("ZORI"). Note that rental rates at smaller geographies (e.g., Communities) may be estimated based on available data.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 47,
@@ -485,7 +522,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The percentage of rental housing units in the area that are vacant, indicating rental market conditions and availability.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 48,
@@ -495,7 +533,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The typical Monthly Rent for a medium-sized to large house in the area. Rent for Houses is calculated by increasing the Zillow Observed Rent Index ("ZORI") by 25% to account for larger-sized units.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 49,
@@ -505,7 +544,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'Capitalization rate - the ratio of net operating income to property value, used in real estate investment analysis.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 50,
@@ -515,7 +555,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The number of vacant housing units in the area divided by total housing units.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 51,
@@ -525,7 +566,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The typical Home Value in an area divided by the Annual Rent for Houses. This metric gives an indication of how expensive it is for a homebuyer to buy compared to rent. This metric also gives an indication of how much rental revenue an investor can expect relative to their purchase price (lower Home Value to Rent Ratios indicate more affordable markets to buy from an investor perspective).',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 52,
@@ -535,7 +577,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The area\'s typical Annual Rent divided by the Median Household Income, an indication of renter affordability.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 53,
@@ -545,7 +588,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The share of owned-houses that are seasonally vacant and/or owned by absentee owners. Areas with higher Shadow Inventory could be more prone to home price volatility and declines during a Recession. Shadow Inventory tends to be higher in vacation and 2nd homes destinations.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 54,
@@ -555,7 +599,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The percentage of homes in the area that are in foreclosure, providing insight into local economic conditions and housing market stress.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 55,
@@ -565,7 +610,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'Projected future home price movements based on current market conditions and economic indicators.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 56,
@@ -575,7 +621,8 @@ export const dataPoints = [
     isSelected:false,
     isPremium:true, 
     description:'A comprehensive score predicting long-term property value growth potential based on multiple factors.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 57,
@@ -585,7 +632,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The median rental price for 2-bedroom units in the area, providing insight into rental market conditions for this common unit size.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 58,
@@ -595,7 +643,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The average debt-to-income ratio for residents in the area, indicating overall financial health and borrowing capacity.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 59,
@@ -605,7 +654,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The estimated monthly cost of homeownership in the area, including mortgage payments, property taxes, insurance, and maintenance.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 60,
@@ -615,7 +665,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'A combined metric assessing the educational attainment and age demographics of the area, which can influence housing market trends.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 61,
@@ -625,7 +676,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'A combined metric assessing income levels and employment trends in the area, which can impact housing demand and market dynamics.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 62,
@@ -635,7 +687,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'An index measuring the affordability of homes in the area relative to median household income and other economic factors.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 63,
@@ -645,7 +698,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'A comprehensive score assessing the overall economic health of the area based on multiple indicators.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 64,
@@ -655,7 +709,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'A comprehensive score assessing the overall health of the housing market in the area based on multiple indicators.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 65,
@@ -665,7 +720,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'A score measuring the overall livability of the area based on factors such as amenities, schools, safety, and quality of life.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 66,
@@ -675,7 +731,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'A score assessing the quality of neighborhoods in the area based on factors such as amenities, schools, safety, and community characteristics.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 67,
@@ -685,7 +742,8 @@ export const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'A score measuring the quality of schools in the area based on factors such as test scores, graduation rates, and parent reviews.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 68,
@@ -695,7 +753,8 @@ export const dataPoints = [
     isSelected:false,
     isPremium:true, 
     description:'A score measuring how walkable the area is based on factors such as proximity to amenities, public transit, and pedestrian infrastructure.',
-    source:'Zillow'
+    source:'Zillow',
+    Upcoming: true,
   },
   {
     count: 69,
@@ -705,7 +764,9 @@ export const dataPoints = [
     isSelected: false, 
     isPremium: true, 
     description: 'Number of home sales in the most recent month.', 
-    source: 'Zillow' },
+    source: 'Zillow',
+    Upcoming: true,
+  },
   {
     count: 70,
     label: 'Home Sales Growth (YoY)',
@@ -714,7 +775,8 @@ export const dataPoints = [
     isSelected: false, 
     isPremium: true, 
     description: 'Year-over-year growth in home sales in the most recent month.', 
-    source: 'Zillow' 
+    source: 'Zillow' ,
+    Upcoming: true,
   },
   {
     count: 71,
@@ -724,18 +786,9 @@ export const dataPoints = [
     isSelected: false, 
     isPremium: true, 
     description: 'Count of new listings added in the most recent month.', 
-    source: 'Zillow' 
+    source: 'Zillow',
+    Upcoming: true,
   },
-  {
-    count: 72,
-    label: 'Homeownership Rate',
-    id: 'homeownership-rate',
-    icon: Users, 
-    isSelected: false, 
-    isPremium: true, 
-    description: 'The percentage of Households that own their homes in the local area according to official UAE statistics.', 
-    source: 'Zillow' 
-  }
 ];
 
 export const dataSections = [
@@ -753,10 +806,8 @@ export const dataSections = [
       dataPoints[2], // For Sale Inventory
       dataPoints[7], // Price Cut %
       dataPoints[6], // Overvalued %
-      dataPoints[4], // Long-Term Growth Score
-      dataPoints[10], // Cap Rate
+      dataPoints[9], // Cap Rate
       dataPoints[8], // Population Growth
-      dataPoints[31], // Population
     ]
   },
   {
@@ -768,15 +819,15 @@ export const dataSections = [
       dataPoints[1], // Home Value Growth (YoY)
       dataPoints[5], // Home Value Growth (5-Year)
       dataPoints[6], // Overvalued %
-      dataPoints[11], // Value / Income Ratio
-      dataPoints[14], // Mtg Payments as % of Income
-      dataPoints[12], // Mortgage Payments
-      dataPoints[13], // Salary to Afford a House
-      dataPoints[15], // Property Tax Rate
-      dataPoints[17], // Buy v Rent Differential
-      dataPoints[18], // % Change from June 2022
-      dataPoints[19], // % Crash from 2007-12
-      dataPoints[20], // Home Value Growth (MoM)
+      dataPoints[10], // Value / Income Ratio
+      dataPoints[13], // Mtg Payments as % of Income
+      dataPoints[11], // Mortgage Payments
+      dataPoints[12], // Salary to Afford a House
+      dataPoints[14], // Property Tax Rate
+      dataPoints[16], // Buy v Rent Differential
+      dataPoints[17], // % Change from June 2022
+      dataPoints[18], // % Crash from 2007-12
+      dataPoints[19], // Home Value Growth (MoM)
     ]
   },
   {
@@ -784,21 +835,21 @@ export const dataSections = [
     label: 'Market Trends',
     isExpanded: false,
     items: [
-      dataPoints[2], // For Sale Inventory
-      dataPoints[21], // Sale Inventory Growth (YoY)
       dataPoints[3], // Home Price Forecast
-      dataPoints[69], // Home Sales
-      dataPoints[22], // Inventory Surplus/Deficit
+      dataPoints[68], // Home Sales
+      dataPoints[69], // Home Sales Growth (YoY)
+      dataPoints[21], // Inventory Surplus/Deficit
       dataPoints[7], // Price Cut %
-      dataPoints[23], // Days on Market
-      dataPoints[24], // Days on Market Growth (YoY)
-      dataPoints[25], // Inventory as % of Houses
-      dataPoints[26], // Median Listing Price
-      dataPoints[27], // Median Listing Price (YoY)
-      dataPoints[29], // New Listings Count (YoY)
-      dataPoints[30], // Sale Inventory Growth (MoM)
-      dataPoints[71], // New Listing Count
-      dataPoints[21], // Sale Inventory Growth (YoY)
+      dataPoints[22], // Days on Market
+      dataPoints[23], // Days on Market Growth (YoY)
+      dataPoints[24], // Inventory as % of Houses
+      dataPoints[25], // Median Listing Price
+      dataPoints[26], // Median Listing Price (YoY)
+      dataPoints[70], // New Listing Count
+      dataPoints[28], // New Listings Count (YoY)
+      dataPoints[2], // For Sale Inventory
+      dataPoints[29], // Sale Inventory Growth (MoM)
+      dataPoints[20], // Sale Inventory Growth (YoY)
     ]
   },
   {
@@ -806,20 +857,20 @@ export const dataSections = [
     label: 'Demographic',
     isExpanded: false,
     items: [
-      dataPoints[31], // Population
-      dataPoints[32], // Median Household Income
+      dataPoints[30], // Population
+      dataPoints[31], // Median Household Income
       dataPoints[8], // Population Growth
-      dataPoints[33], // Income Growth
-      dataPoints[34], // Remote Work %
-      dataPoints[35], // College Degree Rate
-      dataPoints[36], // Unemployment Rate
-      dataPoints[72], // Homeownership Rate
-      dataPoints[39], // Mortgaged Home %
-      dataPoints[40], // Median Age
-      dataPoints[41], // Poverty Rate
-      dataPoints[43], // Family Households %
-      dataPoints[44], // Housing Units
-      dataPoints[45], // Housing Units Growth Rate
+      dataPoints[32], // Income Growth
+      dataPoints[33], // Remote Work %
+      dataPoints[34], // College Degree Rate
+      dataPoints[35], // Unemployment Rate
+      dataPoints[36], // Homeownership Rate
+      dataPoints[38], // Mortgaged Home %
+      dataPoints[39], // Median Age
+      dataPoints[40], // Poverty Rate
+      dataPoints[42], // Family Households %
+      dataPoints[43], // Housing Units
+      dataPoints[44], // Housing Units Growth Rate
     ]
   },
   {
@@ -827,13 +878,13 @@ export const dataSections = [
     label: 'Investor Metrics',
     isExpanded: false,
     items: [
-      dataPoints[46], // Rental Rate
-      dataPoints[48], // Rent for Houses
-      dataPoints[10], // Cap Rate
-      dataPoints[50], // Vacancy Rate
-      dataPoints[51], // Home Value to Rent Ratio
-      dataPoints[52], // Rent as % of Income
-      dataPoints[53], // Shadow Inventory %
+      dataPoints[45], // Rental Rate
+      dataPoints[47], // Rent for Houses
+      dataPoints[9], // Cap Rate
+      dataPoints[49], // Vacancy Rate
+      dataPoints[50], // Home Value to Rent Ratio
+      dataPoints[51], // Rent as % of Income
+      dataPoints[52], // Shadow Inventory %
     ]
   },
   {
@@ -841,8 +892,8 @@ export const dataSections = [
     label: 'Geostats Scores',
     isExpanded: false,
     items: [
+      dataPoints[54], 
       dataPoints[55], 
-      dataPoints[56], 
     ]
   }
 ];
