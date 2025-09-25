@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const searchTimeoutRef = useRef(null);
 
-  const filterOptions = ['Emirate', 'City', 'Community'];
+  const filterOptions = ['Emirate', 'Area', 'Community'];
 
   useEffect(() => {
     const onPlaceSelected = (e) => {
@@ -237,7 +237,7 @@ const Layout = ({ children }) => {
                 <label key={option} className="flex items-center space-x-2">
                   <input
                     type="radio"
-                    name="filter"
+                    name="filter-desktop"
                     value={option}
                     checked={selectedFilter === option}
                     onChange={(e) => setSelectedFilter(e.target.value)}
@@ -281,7 +281,7 @@ const Layout = ({ children }) => {
               <label key={option} className="flex items-center space-x-2">
                 <input
                   type="radio"
-                  name="filter"
+                  name="filter-mobile"
                   value={option}
                   checked={selectedFilter === option}
                   onChange={(e) => setSelectedFilter(e.target.value)}
