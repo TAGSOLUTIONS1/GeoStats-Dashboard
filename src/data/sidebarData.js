@@ -15,7 +15,7 @@ const dataPoints = [
     icon: Home,
     isSelected: true,
     isPremium: false,
-    description: 'The area\'s typical Home Value as determined by the Zillow Home Value Index ("ZHVI"). This is a smoothed, seasonally adjusted figure.',
+    description: "The area's typical home value based on market activity in the UAE. This is a smoothed, seasonally adjusted figure representing overall residential property trends.",
     source: 'Zillow',
     Upcoming: true,
   },
@@ -26,7 +26,7 @@ const dataPoints = [
     icon: TrendingUp,
     isSelected: false,
     isPremium: false,
-    description: 'The year-over-year growth rate in the area\'s typical Home Value according to the Zillow Home Value Index ("ZHVI").',
+    description: "The year-over-year percentage change in typical home values within the UAE real estate market.",
     source: 'Zillow',
     Upcoming: true,
   },
@@ -224,7 +224,7 @@ const dataPoints = [
     icon: TrendingUp, 
     isSelected:false, 
     isPremium:true, 
-    description:'The seasonally-adjusted month-over-month growth rate in the area\'s typical Home Value according to the Zillow Home Value Index ("ZHVI").',
+    description: "The seasonally adjusted month-over-month growth rate in the area's typical home value, reflecting short-term changes in the UAE housing market.",
     source:'Zillow',
     Upcoming: true,
   },
@@ -510,7 +510,7 @@ const dataPoints = [
     icon: DollarSign,
     isSelected:false, 
     isPremium:true, 
-    description:'The area\'s typical Monthly Rent as determined by the Zillow Observed Rent Index ("ZORI"). Note that rental rates at smaller geographies (e.g., Communities) may be estimated based on available data.',
+    description: "The area's typical monthly rent based on observed market listings and transactions in the UAE. Note that rental rates for smaller geographies (e.g., communities) may be estimated using available data.",
     source:'Zillow',
     Upcoming: true,
   },
@@ -532,7 +532,7 @@ const dataPoints = [
     icon: DollarSign, 
     isSelected:false, 
     isPremium:true, 
-    description:'The typical Monthly Rent for a medium-sized to large house in the area. Rent for Houses is calculated by increasing the Zillow Observed Rent Index ("ZORI") by 25% to account for larger-sized units.',
+    description: "The typical monthly rent for a medium- to large-sized house in the area. Rent for houses is estimated by adjusting base rental market data upward (around 25%) to account for larger unit sizes.",
     source:'Zillow',
     Upcoming: true,
   },
@@ -609,7 +609,7 @@ const dataPoints = [
     icon: TrendingUp, 
     isSelected:false, 
     isPremium:true, 
-    description:'Projected future home price movements based on current market conditions and economic indicators.',
+    description: "Projected change in home values for the coming year in the UAE housing market, based on historical and current market conditions.",
     source:'Zillow',
     Upcoming: true,
   },
@@ -790,6 +790,7 @@ const dataPoints = [
     Upcoming: true,
   },
 ];
+const getDataPointById = (id) => dataPoints.find((dp) => dp.id === id);
 
 export const dataSections = [
   {
@@ -797,17 +798,16 @@ export const dataSections = [
     label: 'Popular Data',
     isExpanded: true,
     items: [
-      // Core price metrics
-      dataPoints[30], //Population
-      dataPoints[0], // Home Value
-      dataPoints[1], // Home Value Growth (YoY)
-      dataPoints[5], // Home Value Growth (5-Year)
-      dataPoints[3], // Home Price Forecast
-      dataPoints[2], // For Sale Inventory
-      dataPoints[7], // Price Cut %
-      dataPoints[6], // Overvalued %
-      dataPoints[9], // Cap Rate
-      dataPoints[8], // Population Growth
+      getDataPointById('population'),
+      getDataPointById('home-value'),
+      getDataPointById('home-value-growth-yoy'),
+      getDataPointById('home-value-growth-5year'),
+      getDataPointById('home-price-forecast'),
+      getDataPointById('for-sale-inventory'),
+      getDataPointById('price-cut-percent'),
+      getDataPointById('overvalued-percent'),
+      getDataPointById('cap-rate'),
+      getDataPointById('population-growth'),
     ]
   },
   {
