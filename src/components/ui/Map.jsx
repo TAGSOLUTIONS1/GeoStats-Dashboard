@@ -49,6 +49,17 @@ const Map = () => {
         data: geojsonData
       });
 
+      // Add outline layer
+      map.current.addLayer({
+        id: 'dubai-communities-stroke',
+        type: 'line',
+        source: 'dubai-communities',
+        paint: {
+          'line-color': '#1976d2',
+          'line-width': 1
+        }
+      });
+
       // Add fill layer
       map.current.addLayer({
         id: 'dubai-communities-fill',
@@ -70,16 +81,32 @@ const Map = () => {
         }
       });
 
-      // Add outline layer
-      map.current.addLayer({
-        id: 'dubai-communities-stroke',
-        type: 'line',
-        source: 'dubai-communities',
-        paint: {
-          'line-color': '#1976d2',
-          'line-width': 2
-        }
-      });
+      // Add name + population labels
+        map.current.addLayer({
+          id: 'dubai-communities-name',
+          type: 'symbol',
+          source: 'dubai-communities',
+          layout: {
+            // Show Community Name and Population
+            'text-field': [
+              'format',
+              ['get', 'CNAME_E'], { 'font-scale': 1.1 },
+              '\n', {},
+              '', {},
+              ['get', 'Population 2019'], { 'font-scale': 0.7 }
+            ],
+            'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+            'text-size': 10,
+            'text-justify': 'center',
+            'text-anchor': 'center',
+            'text-offset': [0, 0]
+          },
+          paint: {
+            'text-color': '#000000',
+            'text-halo-color': '#ffffff',
+            'text-halo-width': 1
+          }
+        });
 
       // Simple hover tooltip
       let tooltip = new mapboxgl.Popup({
