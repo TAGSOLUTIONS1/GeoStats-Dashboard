@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const searchTimeoutRef = useRef(null);
 
-  const filterOptions = ['Emirate', 'Area', 'Community'];
+  const filterOptions = ['Emirate', 'Area'];
 
   useEffect(() => {
     const onPlaceSelected = (e) => {

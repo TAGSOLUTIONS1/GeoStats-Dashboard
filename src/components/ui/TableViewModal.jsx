@@ -163,8 +163,8 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
   // Header configuration to reduce repetitive code
   const tableHeaders = [
     { key: 'rk', label: 'RK', sortable: true, format: 'number', width: 'w-16' },
-    { key: 'zip', label: 'Community', sortable: true, format: 'text', width: 'w-24'},
-    { key: 'city', label: 'City', sortable: true, format: 'text', width: 'w-32' },
+    // { key: 'zip', label: 'Community', sortable: true, format: 'text', width: 'w-24'},
+    { key: 'area', label: 'Area', sortable: true, format: 'text', width: 'w-32' },
     { key: 'homeValue', label: 'Home Value', sortable: true, format: 'currency', width: 'w-32' },
     { key: 'homeValueGrowth', label: 'Home Value Growth (YoY)', sortable: true, format: 'percentage', width: 'w-40' },
     { key: 'population', label: 'Population', sortable: true, format: 'number', width: 'w-32' }
@@ -224,7 +224,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                     >
                       <div className="flex items-center justify-between w-full">
                         {/* Header Label - No dropdown for first 3 columns */}
-                        {['rk', 'zip', 'city'].includes(header.key) ? (
+                        {['rk', 'zip', 'area'].includes(header.key) ? (
                           <div className="flex-1">
                             <span className="text-sm font-medium text-center block">
                               {header.label}
