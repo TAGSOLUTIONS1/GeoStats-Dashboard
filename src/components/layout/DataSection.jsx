@@ -9,7 +9,9 @@ const DataSection = ({
   onItemClick, 
   onInfoClick, 
   hoveredItem, 
-  setHoveredItem
+  hoveredcrown,
+  setHoveredItem,
+  setHoveredcrown
 }) => {
   return (
     <div className="space-y-2">
@@ -34,7 +36,9 @@ const DataSection = ({
               onItemClick={onItemClick}
               onInfoClick={onInfoClick}
               hoveredItem={hoveredItem}
+              hoveredcrown={hoveredcrown}
               setHoveredItem={setHoveredItem}
+              setHoveredcrown={setHoveredcrown}
             />
           ))}
         </div>

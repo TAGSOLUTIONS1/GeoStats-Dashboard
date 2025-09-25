@@ -17,7 +17,7 @@ const dataPoints = [
     isPremium: false,
     description: 'The area\'s typical Home Value as determined by the Zillow Home Value Index ("ZHVI"). This is a smoothed, seasonally adjusted figure.',
     source: 'Zillow',
-    Upcoming: false,
+    Upcoming: true,
   },
   {
     count: 2,
@@ -347,7 +347,7 @@ const dataPoints = [
     isPremium:false, 
     description:'The area\'s population according to the most recent year of official UAE statistics and surveys.',
     source:'Zillow',
-    Upcoming: true,
+    Upcoming: false,
   },
   {
     count: 32,

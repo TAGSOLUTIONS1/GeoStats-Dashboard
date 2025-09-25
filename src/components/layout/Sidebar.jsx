@@ -13,11 +13,13 @@ const Sidebar = () => {
   const {
     activeItem,
     hoveredItem,
+    hoveredcrown,
     selectedDetailItem,
     detailPanelPosition,
     selectedDataPoint,
     searchQuery,
     setHoveredItem,
+    setHoveredcrown,
     handleItemClick,
     handleSubItemClick,
     handleCloseDetail,
@@ -60,7 +62,9 @@ const Sidebar = () => {
             onItemClick={handleItemClick}
             onInfoClick={handleSubItemClick}
             hoveredItem={hoveredItem}
+            hoveredcrown={hoveredcrown}
             setHoveredItem={setHoveredItem}
+            setHoveredcrown={setHoveredcrown}
           />
         ))}
       </div>

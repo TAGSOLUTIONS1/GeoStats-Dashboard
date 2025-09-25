@@ -6,7 +6,9 @@ const DataPointItem = ({
   onItemClick, 
   onInfoClick, 
   hoveredItem, 
-  setHoveredItem 
+  hoveredcrown,
+  setHoveredItem,
+  setHoveredcrown
 }) => {
   const infoButtonRef = useRef(null);
   const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
@@ -48,7 +50,10 @@ const DataPointItem = ({
           )} */}
           <div className="relative flex items-center space-x-2">
           {item.Upcoming && (
-            <Crown className="w-3 h-3 text-orange-light" />
+            <Crown className="w-3 h-3 text-orange-light"
+              onMouseEnter={() => setHoveredcrown(item.id)}
+              onMouseLeave={() => setHoveredcrown(null)}
+              />
           )}
             <button
               ref={infoButtonRef}
@@ -69,6 +74,26 @@ const DataPointItem = ({
                 <span className="text-white text-xs font-hoefler font-bold italic">i</span>
               </div>
             </button>
+
+           { hoveredcrown === item.id && (
+              <div 
+                className="fixed bg-black opacity-80 text-white text-xs px-2 py-1 rounded shadow-lg 
+                          whitespace-nowrap z-[9999] pointer-events-none"
+                style={{
+                  top: `${tooltipPosition.top}px`,
+                  left: `${tooltipPosition.left}px`,
+                  transform: 'translateY(-190%)'
+                }}
+              >
+                Upcoming Data Point
+
+                {/* Arrow */}
+                <div 
+                  className="absolute left-1/2 -translate-x-1/2 w-2 h-2 bg-black rotate-45"
+                  style={{ top: '80%' }} 
+                />
+              </div>
+            )}
 
              {/* Tooltip */}
              {hoveredItem === item.id && (

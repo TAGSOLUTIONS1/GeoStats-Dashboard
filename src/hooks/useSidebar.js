@@ -3,6 +3,7 @@ import { useState } from 'react';
 export const useSidebar = () => {
   const [activeItem, setActiveItem] = useState(null);
   const [hoveredItem, setHoveredItem] = useState(null);
+  const [hoveredcrown, setHoveredcrown] = useState(null);
   const [selectedDetailItem, setSelectedDetailItem] = useState(null);
   const [detailPanelPosition, setDetailPanelPosition] = useState({ top: 0, left: 0 });
   const [selectedDataPoint, setSelectedDataPoint] = useState('population'); // Default to Population
@@ -37,6 +38,7 @@ export const useSidebar = () => {
     // State
     activeItem,
     hoveredItem,
+    hoveredcrown,
     selectedDetailItem,
     detailPanelPosition,
     selectedDataPoint,
@@ -44,6 +46,7 @@ export const useSidebar = () => {
     
     // Setters
     setHoveredItem,
+    setHoveredcrown,
     
     // Handlers
     handleItemClick,
