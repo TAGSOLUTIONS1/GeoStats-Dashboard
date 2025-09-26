@@ -357,7 +357,7 @@ const tableHeaders = [
                     {tableHeaders.map((header) => (
                       <td 
                         key={header.key}
-                        className={`px-1 py-1 md:px-2 md:py-2 lg:py-3 lg:px-3 text-center text-[10px] sm:text-xs md:text-sm text-blue ${header.className || ''} font-inter`}
+                        className={`px-1 py-1 md:px-2 md:py-2 lg:py-3 lg:px-3 text-center text-xs sm:text-sm text-blue ${header.className || ''} font-inter`}
                       >
                         {formatCellValue(row[header.key], header.format)}
                       </td>
