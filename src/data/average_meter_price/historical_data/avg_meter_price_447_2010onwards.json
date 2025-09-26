@@ -1,0 +1,752 @@
+[
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 15981.909932240607
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 16155.392437138587
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2015-04-01 00:00:00",
+    "avg_meter_price": 17052.893255031762
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2015-05-01 00:00:00",
+    "avg_meter_price": 16493.954503243338
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 16289.804623665914
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 16295.900347132962
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 14950.122019928283
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 15829.438917369002
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2015-12-01 00:00:00",
+    "avg_meter_price": 16499.17858995862
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 15506.729679951084
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2016-02-01 00:00:00",
+    "avg_meter_price": 16081.728813393216
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2016-03-01 00:00:00",
+    "avg_meter_price": 16043.51543438505
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 15531.09048700244
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 16133.606398238942
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 16026.696483446198
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 16020.464770267748
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 16410.868996851485
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2016-09-01 00:00:00",
+    "avg_meter_price": 16921.17248533709
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 13423.305951212218
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 13160.123467072348
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 13640.042691427538
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 16409.97783396163
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2017-02-01 00:00:00",
+    "avg_meter_price": 16558.33966801016
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 16666.050995810754
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 16345.192458061809
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 15281.55993198646
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 12224.808009312455
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 16008.148291782923
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 16202.79426708097
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2017-09-01 00:00:00",
+    "avg_meter_price": 16926.157017274047
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 16518.8032838345
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 17314.08798929231
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 16357.7143882209
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2018-01-01 00:00:00",
+    "avg_meter_price": 16402.961772642084
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 16106.5712349358
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2018-03-01 00:00:00",
+    "avg_meter_price": 16304.125067322637
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 16354.569860973092
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2018-05-01 00:00:00",
+    "avg_meter_price": 16262.293399602007
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2018-06-01 00:00:00",
+    "avg_meter_price": 16098.927500422998
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2018-07-01 00:00:00",
+    "avg_meter_price": 16515.393633801043
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2018-08-01 00:00:00",
+    "avg_meter_price": 17446.410204139203
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2018-09-01 00:00:00",
+    "avg_meter_price": 18825.364889223103
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 18353.25787386572
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2018-11-01 00:00:00",
+    "avg_meter_price": 16664.878532411552
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2018-12-01 00:00:00",
+    "avg_meter_price": 16979.308368240963
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2019-01-01 00:00:00",
+    "avg_meter_price": 16281.514927645032
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2019-02-01 00:00:00",
+    "avg_meter_price": 17982.40831715957
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 17377.345975657532
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 16182.250290062597
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2019-05-01 00:00:00",
+    "avg_meter_price": 17029.549058706503
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2019-06-01 00:00:00",
+    "avg_meter_price": 15538.486400390297
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2019-07-01 00:00:00",
+    "avg_meter_price": 16061.87366263813
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2019-08-01 00:00:00",
+    "avg_meter_price": 15806.043527295891
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2019-09-01 00:00:00",
+    "avg_meter_price": 15956.94789059623
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2019-10-01 00:00:00",
+    "avg_meter_price": 16059.616794965912
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 16043.581795498096
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 15594.682518621426
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 16083.064927148287
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 17676.106031102736
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 17459.24151064262
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2020-04-01 00:00:00",
+    "avg_meter_price": 16104.60623682754
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2020-05-01 00:00:00",
+    "avg_meter_price": 15224.26908602035
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 16336.164087758469
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 16007.52187665955
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2020-08-01 00:00:00",
+    "avg_meter_price": 14481.77341265459
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 15789.009511588874
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 16744.32736446753
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 14579.99386328039
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 13752.169395958366
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 15129.964992453775
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 13822.395698099946
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 17949.931420049455
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 15598.348675940952
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2021-05-01 00:00:00",
+    "avg_meter_price": 16463.518672779977
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 15410.02255118439
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 16087.79712244442
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 18648.487153758822
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 18585.30436401427
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 18772.764234028604
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 18563.51995461316
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 19963.56397108729
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 19429.387086241622
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 19873.37879365794
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 18559.60107080549
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 19041.096473372952
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 19188.449210417
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 19217.76714154205
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 18419.534035340268
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 19030.74013290273
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 19927.9182300322
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 18837.49941933068
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 18816.220970561488
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 20916.04243614816
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 22020.89577849295
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 20988.23891433748
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 21547.03246365681
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 21711.853461246526
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 21370.33101284169
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 22327.953675369085
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 23324.066311491308
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 23379.57526816127
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 23306.396440292225
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 22182.41758940828
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 22587.784171216765
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 22713.821367520948
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 22952.552112937577
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 23683.58571534152
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 23503.901436840293
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 24169.916643428674
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 24016.17482924861
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 24913.96689456316
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 27116.10144123077
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 28740.561115931123
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 28518.450762928816
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 27772.79427045706
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 24848.622925204905
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 25802.276715244057
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 24593.751675824416
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 24568.181562629645
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 25279.688718912475
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 25575.81233549432
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 25982.99310848212
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 26251.82896031396
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 25659.60148423681
+  },
+  {
+    "area_id": 447,
+    "name_en": "Al Khairan First",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 25581.3422368622
+  }
+]

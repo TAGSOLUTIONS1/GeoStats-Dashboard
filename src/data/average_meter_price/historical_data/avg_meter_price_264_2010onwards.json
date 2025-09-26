@@ -1,0 +1,806 @@
+[
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2010-03-01 00:00:00",
+    "avg_meter_price": 1749.1299199885186
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2010-04-01 00:00:00",
+    "avg_meter_price": 1853.2250450697416
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2010-06-01 00:00:00",
+    "avg_meter_price": 1991.3171396792368
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2010-08-01 00:00:00",
+    "avg_meter_price": 2497.224769681139
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2010-09-01 00:00:00",
+    "avg_meter_price": 1829.8632710063791
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2010-11-01 00:00:00",
+    "avg_meter_price": 1532.063254527753
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2010-12-01 00:00:00",
+    "avg_meter_price": 2332.173226651358
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2011-02-01 00:00:00",
+    "avg_meter_price": 2737.9524413499653
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2011-03-01 00:00:00",
+    "avg_meter_price": 1793.9794051164292
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2011-04-01 00:00:00",
+    "avg_meter_price": 2033.1779366227167
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2011-05-01 00:00:00",
+    "avg_meter_price": 1798.4643536292206
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2011-06-01 00:00:00",
+    "avg_meter_price": 2069.304510436748
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2011-09-01 00:00:00",
+    "avg_meter_price": 1894.015800374363
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2011-10-01 00:00:00",
+    "avg_meter_price": 2368.7259075888883
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2011-12-01 00:00:00",
+    "avg_meter_price": 2941.708723689386
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2012-01-01 00:00:00",
+    "avg_meter_price": 2067.564788515835
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2012-02-01 00:00:00",
+    "avg_meter_price": 2168.083144819592
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2012-03-01 00:00:00",
+    "avg_meter_price": 2513.6095589106776
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2012-04-01 00:00:00",
+    "avg_meter_price": 4664.346453302716
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 1937.497757525744
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2012-06-01 00:00:00",
+    "avg_meter_price": 1776.039611065265
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2012-07-01 00:00:00",
+    "avg_meter_price": 1861.427218862389
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2012-08-01 00:00:00",
+    "avg_meter_price": 2280.7413113634043
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2012-09-01 00:00:00",
+    "avg_meter_price": 2475.6942824945413
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2012-10-01 00:00:00",
+    "avg_meter_price": 2734.028475445822
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2012-11-01 00:00:00",
+    "avg_meter_price": 2116.895698037387
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2012-12-01 00:00:00",
+    "avg_meter_price": 4610.537112475022
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2013-01-01 00:00:00",
+    "avg_meter_price": 2287.334543500282
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2013-02-01 00:00:00",
+    "avg_meter_price": 2689.3929149409123
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2013-03-01 00:00:00",
+    "avg_meter_price": 2870.367048186287
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2013-04-01 00:00:00",
+    "avg_meter_price": 3422.661770504196
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2013-05-01 00:00:00",
+    "avg_meter_price": 2260.414050446701
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2013-06-01 00:00:00",
+    "avg_meter_price": 2476.719655061746
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2013-07-01 00:00:00",
+    "avg_meter_price": 3725.304032445684
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2013-09-01 00:00:00",
+    "avg_meter_price": 2690.973190568321
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2013-10-01 00:00:00",
+    "avg_meter_price": 4162.032219870116
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 2665.454124445267
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2014-01-01 00:00:00",
+    "avg_meter_price": 4595.719893253373
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2014-02-01 00:00:00",
+    "avg_meter_price": 3204.086724690529
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 3545.292853581568
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 4484.948512791073
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 4556.711367134624
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2014-11-01 00:00:00",
+    "avg_meter_price": 3135.0382711698403
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2015-01-01 00:00:00",
+    "avg_meter_price": 3121.524164902587
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 4197.924103465319
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 3013.8854005956014
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2015-05-01 00:00:00",
+    "avg_meter_price": 6261.002606537779
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 4305.558296376199
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2015-09-01 00:00:00",
+    "avg_meter_price": 3229.1629292095727
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 8267.361509389568
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 5437.413279876265
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 3121.524164902587
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2016-03-01 00:00:00",
+    "avg_meter_price": 6329.999639746742
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 8363.747740244631
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 4507.653795547026
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 4072.333249614295
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 2852.4272541351224
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2016-09-01 00:00:00",
+    "avg_meter_price": 3229.1629292095727
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 2978.0081297173147
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 3083.8505973951424
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 2784.256036740698
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2017-02-01 00:00:00",
+    "avg_meter_price": 3492.2405176472967
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 5039.234493418184
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 4664.346453302716
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 9254.759457180282
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 2726.8486957769724
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 3033.619174051882
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 5023.150058422771
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 3463.702109622476
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 2940.394012797715
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 2421.87219690718
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2018-03-01 00:00:00",
+    "avg_meter_price": 3569.642724178128
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2018-05-01 00:00:00",
+    "avg_meter_price": 4448.347089930759
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2018-06-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 5920.132036884217
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2018-11-01 00:00:00",
+    "avg_meter_price": 3444.4404578235444
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2019-02-01 00:00:00",
+    "avg_meter_price": 2466.726413044361
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2019-05-01 00:00:00",
+    "avg_meter_price": 3587.9588102328585
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2019-06-01 00:00:00",
+    "avg_meter_price": 3085.711005224181
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2019-07-01 00:00:00",
+    "avg_meter_price": 5023.142334326002
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2019-08-01 00:00:00",
+    "avg_meter_price": 2368.0528147536866
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2019-10-01 00:00:00",
+    "avg_meter_price": 3714.692376759433
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 2808.179044102319
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 2472.799208704253
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 2421.8721969071794
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 3013.891092025652
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 2929.7072244714086
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 1793.9794051164292
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 2116.8956980373864
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 1928.5278605001613
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 3229.174515354725
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 5740.734096372574
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 2196.359025450593
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 3287.6374345479385
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 2825.5256312528227
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 2798.6078719816296
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 4754.045423558538
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 2481.6095010192325
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 3192.480681691435
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 4484.948512791073
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 3211.2256759753955
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 2798.6118885033025
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 3029.43322210661
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 2870.367048186287
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 2690.969107674644
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 3085.6445768002586
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 3127.363705125967
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 3193.2833411072443
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 3229.1629292095727
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 2979.800088309592
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 3068.076209096356
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 3516.1996340282017
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 4510.4386686207
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 3844.252842001208
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 10756.707143598844
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 3085.6445768002586
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 6891.924575748326
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 6589.430064654271
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 7800.55810003965
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 9021.32052189787
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 8318.640437081536
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 5503.276984976695
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 6319.585475448152
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 5485.282479367889
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 9421.31491962743
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 10462.103834571855
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 6056.034696944041
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 6163.218207080302
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 3205.243203808021
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 13055.96764254396
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 6207.5319413799525
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 12129.288383921024
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 9087.00753701056
+  },
+  {
+    "area_id": 264,
+    "name_en": "Nad Al Hamar",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 10176.909074546456
+  }
+]

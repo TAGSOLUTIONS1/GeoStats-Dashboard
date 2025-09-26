@@ -1,0 +1,620 @@
+[
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2010-01-01 00:00:00",
+    "avg_meter_price": 12726.202180912778
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2010-05-01 00:00:00",
+    "avg_meter_price": 9764.931087289437
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 23680.402010050253
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2012-12-01 00:00:00",
+    "avg_meter_price": 26986.128309452208
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 4897.579555555556
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2014-11-01 00:00:00",
+    "avg_meter_price": 10026.714015135529
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 10894.25
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2015-01-01 00:00:00",
+    "avg_meter_price": 12163.353775701931
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 23598.37007627208
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 20821.436162523783
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2015-04-01 00:00:00",
+    "avg_meter_price": 22561.8036756408
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2015-05-01 00:00:00",
+    "avg_meter_price": 17125.4155688618
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 15613.52960904735
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 26339.17264668637
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 21321.52197676479
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2015-09-01 00:00:00",
+    "avg_meter_price": 22938.62661668096
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 14476.958237620714
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2015-12-01 00:00:00",
+    "avg_meter_price": 19205.841203268603
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2016-02-01 00:00:00",
+    "avg_meter_price": 8610.792192881745
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 9522.042939900686
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 8885.858161980697
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 11912.775035674134
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 13128.093228030662
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2016-09-01 00:00:00",
+    "avg_meter_price": 9354.940989146708
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 9589.7538132887
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 12232.874166421663
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 15448.597943755904
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2017-02-01 00:00:00",
+    "avg_meter_price": 5631.005102021201
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 13222.323600973235
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 13353.10218978102
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 11480.384966795858
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 13636.848928544194
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 6356.605572624218
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2017-09-01 00:00:00",
+    "avg_meter_price": 11186.085766933951
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 11193.964776776507
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 9833.246966210265
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 8735.946520814343
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2018-01-01 00:00:00",
+    "avg_meter_price": 8451.554482342288
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 12869.752379724692
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2018-03-01 00:00:00",
+    "avg_meter_price": 7117.311065354991
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2018-06-01 00:00:00",
+    "avg_meter_price": 13926.79758539008
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2018-07-01 00:00:00",
+    "avg_meter_price": 6523.464885149902
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2018-09-01 00:00:00",
+    "avg_meter_price": 6281.40703517588
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2019-01-01 00:00:00",
+    "avg_meter_price": 24495.26977856326
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 3136.434918975431
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 6077.180188392586
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2019-05-01 00:00:00",
+    "avg_meter_price": 5289.341262580055
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2019-07-01 00:00:00",
+    "avg_meter_price": 13831.67559296098
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2019-08-01 00:00:00",
+    "avg_meter_price": 6293.560803079164
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 11033.404042583965
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 6356.377390208027
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 4718.195075920048
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 5169.153183441899
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 4947.438743784585
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 3061.659193035689
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 4832.948098339987
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 5286.016949152542
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 7055.240679549765
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2021-05-01 00:00:00",
+    "avg_meter_price": 4257.907542579075
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 3355.216802925749
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 3397.804495556717
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 8324.607329842933
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 8676.789587852494
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 5673.460811094767
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 6081.121910429921
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 5938.993423486393
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 5462.144333424195
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 5672.182608662409
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 4555.567327047356
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 5288.606829857963
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 4804.79281143129
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 6381.151147733259
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 7523.383360949791
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 6390.693458226318
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 9017.223856826804
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 9081.216288200432
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 5113.95999730547
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 7748.7271557410995
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 4699.865827958631
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 7678.601600871815
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 7056.889799742366
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 5296.873905774994
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 5216.993600284629
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 3603.042375950742
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 4727.884009245639
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 6303.845345660852
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 6586.340836740473
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 6042.819463709209
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 6100.815984137878
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 7905.472836542742
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 7647.21164816049
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 7516.570328792606
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 10439.211037247129
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 8006.384026100975
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 7107.410369668278
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 7281.078283688001
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 12156.42689803718
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 19116.479805460724
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 6303.845345660852
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 9502.273274484463
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 7401.602006261375
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 11837.77228981303
+  },
+  {
+    "area_id": 522,
+    "name_en": "Hessyan First",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 17359.284587059443
+  }
+]

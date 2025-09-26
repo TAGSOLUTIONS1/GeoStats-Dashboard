@@ -1,0 +1,572 @@
+[
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 8232.781908461757
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 8878.474466709762
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2015-04-01 00:00:00",
+    "avg_meter_price": 7901.572112098428
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 8001.020297305439
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2015-09-01 00:00:00",
+    "avg_meter_price": 8926.282051282053
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 7180.971417221027
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 8683.01216908076
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 5957.92439764071
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 6564.836530559063
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 6044.905008635578
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 11984.152848380169
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 11359.384994598284
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 12224.991268341948
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 12212.844425108648
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 12257.661038148844
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 13528.29627011212
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 11544.33604788805
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 11353.102962437382
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2018-05-01 00:00:00",
+    "avg_meter_price": 12334.113973458236
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2018-08-01 00:00:00",
+    "avg_meter_price": 11012.624227773302
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2018-11-01 00:00:00",
+    "avg_meter_price": 7345.399154151939
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 7167.480118775385
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2019-08-01 00:00:00",
+    "avg_meter_price": 7487.131492746842
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2019-09-01 00:00:00",
+    "avg_meter_price": 8599.365139179925
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2019-10-01 00:00:00",
+    "avg_meter_price": 7482.254856807309
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 9736.645538650966
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 7368.941152466451
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 8743.476339934105
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 8017.820758895308
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 7527.58072087514
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2020-04-01 00:00:00",
+    "avg_meter_price": 9765.574958722784
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2020-05-01 00:00:00",
+    "avg_meter_price": 9033.514504978526
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 6614.46443809772
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 6665.216217707455
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2020-08-01 00:00:00",
+    "avg_meter_price": 7077.935642027571
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 7441.247225850925
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 6329.713437988266
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 7118.363606419853
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 7259.666142839258
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 7794.152531158403
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 7574.84187009393
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 7803.965743700287
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 8581.170569042082
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2021-05-01 00:00:00",
+    "avg_meter_price": 7943.061896126505
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 8140.970052501388
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 8233.630393868643
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 9660.48459477915
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 9177.271228491329
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 9426.747220692692
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 9197.663526226146
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 9463.888678595647
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 8784.717043260207
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 8732.468795273722
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 8989.039334954274
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 10172.351557836157
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 8708.385715628485
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 8956.455013264342
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 9050.176460513516
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 8802.977844653744
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 10693.375578077364
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 11117.80261280276
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 11412.007256107134
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 11138.385539499268
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 11028.534910113009
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 10655.067496957856
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 9911.421355136785
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 10240.201056731974
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 10990.207260571104
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 12719.66617599527
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 12495.947522964956
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 12212.627176501392
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 13130.722075864502
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 11724.276678326954
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 12189.19931891656
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 13243.17877726632
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 12947.357422612346
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 14841.443995209009
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 14556.68913139431
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 13702.504935293226
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 12577.041387109242
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 12341.623764202452
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 12740.644263310824
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 12688.179954531062
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 13265.180331170666
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 13042.70560681316
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 12954.4800456938
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 14136.753829944646
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 14497.421409429677
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 13472.931211971858
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 13781.334469668273
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 14859.374547360352
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 14330.957581511526
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 14877.638511718898
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 14404.69709298868
+  },
+  {
+    "area_id": 531,
+    "name_en": "Al Hebiah Sixth",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 15593.028348630254
+  }
+]

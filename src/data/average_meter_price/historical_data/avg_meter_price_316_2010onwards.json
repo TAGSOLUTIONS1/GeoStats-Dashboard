@@ -1,0 +1,872 @@
+[
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2010-01-01 00:00:00",
+    "avg_meter_price": 2064.502451429172
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2010-03-01 00:00:00",
+    "avg_meter_price": 2870.3710092582733
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2010-04-01 00:00:00",
+    "avg_meter_price": 2152.7890063039613
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2010-06-01 00:00:00",
+    "avg_meter_price": 2253.2381328262354
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2010-07-01 00:00:00",
+    "avg_meter_price": 3480.3200459258733
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2010-08-01 00:00:00",
+    "avg_meter_price": 2138.423450898784
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2010-09-01 00:00:00",
+    "avg_meter_price": 3336.8016935165588
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2010-10-01 00:00:00",
+    "avg_meter_price": 3157.4037530049154
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2010-11-01 00:00:00",
+    "avg_meter_price": 2259.2962705511745
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2011-01-01 00:00:00",
+    "avg_meter_price": 1871.9799698143229
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2011-02-01 00:00:00",
+    "avg_meter_price": 2690.969107674644
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2011-04-01 00:00:00",
+    "avg_meter_price": 2306.551705200725
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2011-05-01 00:00:00",
+    "avg_meter_price": 3004.917012180639
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2011-07-01 00:00:00",
+    "avg_meter_price": 1951.126640954753
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2011-08-01 00:00:00",
+    "avg_meter_price": 1776.039611065265
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2011-09-01 00:00:00",
+    "avg_meter_price": 2511.571167163001
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2011-10-01 00:00:00",
+    "avg_meter_price": 2403.9324028560154
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2011-11-01 00:00:00",
+    "avg_meter_price": 2486.6549517588937
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2011-12-01 00:00:00",
+    "avg_meter_price": 2098.9559039862224
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2012-01-01 00:00:00",
+    "avg_meter_price": 3336.8016935165588
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2012-02-01 00:00:00",
+    "avg_meter_price": 2744.796390476376
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2012-04-01 00:00:00",
+    "avg_meter_price": 2606.8821689259644
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 1469.4025980356782
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2012-06-01 00:00:00",
+    "avg_meter_price": 3317.88443393781
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2012-07-01 00:00:00",
+    "avg_meter_price": 2284.7475555620827
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2012-09-01 00:00:00",
+    "avg_meter_price": 2475.6977788278023
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2012-10-01 00:00:00",
+    "avg_meter_price": 3395.545692580245
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2012-11-01 00:00:00",
+    "avg_meter_price": 2204.0897903046057
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2012-12-01 00:00:00",
+    "avg_meter_price": 2188.5845947062885
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2013-01-01 00:00:00",
+    "avg_meter_price": 2098.9559039862224
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2013-02-01 00:00:00",
+    "avg_meter_price": 2341.1473719301625
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2013-03-01 00:00:00",
+    "avg_meter_price": 2610.7932331021966
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2013-04-01 00:00:00",
+    "avg_meter_price": 2556.4244720756005
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2013-05-01 00:00:00",
+    "avg_meter_price": 4832.629917200941
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2013-06-01 00:00:00",
+    "avg_meter_price": 2927.733367594756
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2013-07-01 00:00:00",
+    "avg_meter_price": 2930.4852504800137
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2013-09-01 00:00:00",
+    "avg_meter_price": 2690.971206608089
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 3595.139001853536
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2013-12-01 00:00:00",
+    "avg_meter_price": 3716.458913790909
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2014-01-01 00:00:00",
+    "avg_meter_price": 3803.207831044549
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 3521.322333840297
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2014-04-01 00:00:00",
+    "avg_meter_price": 2891.8948010476843
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2014-05-01 00:00:00",
+    "avg_meter_price": 4042.437420018418
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 10023.8787837208
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2014-08-01 00:00:00",
+    "avg_meter_price": 3509.962443401856
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 3982.634279358473
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2014-10-01 00:00:00",
+    "avg_meter_price": 5017.505380918667
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2014-11-01 00:00:00",
+    "avg_meter_price": 3157.4037530049154
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 4544.747826294954
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 2690.977885054472
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 5957.038087591617
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2015-05-01 00:00:00",
+    "avg_meter_price": 3942.063745293565
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 5381.957525591208
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 4664.346453302716
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 4484.954305863649
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 3469.7194748749416
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 3175.3549400988127
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2015-12-01 00:00:00",
+    "avg_meter_price": 5168.868912698983
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 2749.3015063272424
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2016-02-01 00:00:00",
+    "avg_meter_price": 5668.974920167917
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2016-03-01 00:00:00",
+    "avg_meter_price": 2813.4139329506456
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 4024.125900679826
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 3821.1898431697578
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 3083.5445637282965
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 6924.760503749417
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 3175.101232317212
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 2798.6078719816296
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 2327.823308943749
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 3113.5737317037506
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 3157.406982167845
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 3912.329597127685
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 3121.524164902587
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 2744.792137310037
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 3157.4037530049154
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 4628.483472008439
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 4091.110499778984
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 2152.7598381124603
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 2152.787944025834
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2018-01-01 00:00:00",
+    "avg_meter_price": 2747.228301819095
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 2583.3303433676583
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 2690.978762795604
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2018-05-01 00:00:00",
+    "avg_meter_price": 2475.6915790606727
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2018-06-01 00:00:00",
+    "avg_meter_price": 2798.6078719816296
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2018-07-01 00:00:00",
+    "avg_meter_price": 2511.571167163001
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2018-08-01 00:00:00",
+    "avg_meter_price": 2798.6078719816296
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2018-09-01 00:00:00",
+    "avg_meter_price": 3213.746699869293
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 3372.681281618887
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2019-01-01 00:00:00",
+    "avg_meter_price": 2762.5347870389214
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 3049.7649886979298
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 2551.136737610429
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2019-07-01 00:00:00",
+    "avg_meter_price": 2583.3303433676583
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2019-08-01 00:00:00",
+    "avg_meter_price": 2081.016109935058
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2019-09-01 00:00:00",
+    "avg_meter_price": 2310.6454737899608
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2019-10-01 00:00:00",
+    "avg_meter_price": 3085.6445768002586
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 3803.23633884683
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 3406.9691636492125
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 2562.833610237195
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 2331.9137885185387
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 3444.4404578235444
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 2942.126224390944
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 2349.2611537429807
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 7459.964855276681
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 3229.1629292095727
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 3229.1629292095727
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 3139.4780393511146
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 2655.089519572316
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 2511.571167163001
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 2936.1964511172228
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 2834.4874600839585
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 3295.073864572464
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 5567.2001601551
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 4505.316273202378
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 2870.367048186287
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 2637.158277020962
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 2368.052814753687
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 5597.235826614857
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 3229.8866151691736
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 3665.2032073064393
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 3535.272376667202
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 3408.5670489986305
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 4305.550572279431
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 3049.7649886979298
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 2940.909154503277
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 4077.376156759226
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 2152.775286139716
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 3875.00941842567
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 3013.894504686639
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 3835.334767490602
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 4045.432924004879
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 4111.981909143845
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 3767.3702679138455
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 3333.1761880975187
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 3229.1629292095727
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 3470.618622386382
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 3489.2967980873364
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 3265.901260163647
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 2627.2110796168063
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 4621.298517194755
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 4496.030327493487
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 3278.1105527310383
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 3243.909559801473
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 3673.01174074981
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 2704.7926918057647
+  },
+  {
+    "area_id": 316,
+    "name_en": "Al Mizhar First",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 2991.822352237218
+  }
+]
