@@ -1,0 +1,878 @@
+[
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2013-05-01 00:00:00",
+    "avg_meter_price": 1324.217938393994
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2013-08-01 00:00:00",
+    "avg_meter_price": 8910.330270010598
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2013-09-01 00:00:00",
+    "avg_meter_price": 9924.567824937336
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2013-10-01 00:00:00",
+    "avg_meter_price": 9946.351622249136
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 8006.905187696267
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2013-12-01 00:00:00",
+    "avg_meter_price": 11253.442750196617
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2014-01-01 00:00:00",
+    "avg_meter_price": 7782.709563149943
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2014-02-01 00:00:00",
+    "avg_meter_price": 8501.239446016796
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 10669.4839942963
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2014-04-01 00:00:00",
+    "avg_meter_price": 10896.28917142137
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2014-05-01 00:00:00",
+    "avg_meter_price": 12776.628701763751
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 11556.577118376272
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2014-07-01 00:00:00",
+    "avg_meter_price": 14055.619344280887
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2014-08-01 00:00:00",
+    "avg_meter_price": 13815.616990213794
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 15115.41406167526
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2014-10-01 00:00:00",
+    "avg_meter_price": 12803.444566361562
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2014-11-01 00:00:00",
+    "avg_meter_price": 12327.69802628967
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 13004.895525169515
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2015-01-01 00:00:00",
+    "avg_meter_price": 10457.10679880579
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 11349.202917394588
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 14460.970853532715
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2015-04-01 00:00:00",
+    "avg_meter_price": 12471.572653642705
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2015-05-01 00:00:00",
+    "avg_meter_price": 12780.197879244806
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 13686.28866785572
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 13100.49369746398
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 11295.387115581903
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2015-09-01 00:00:00",
+    "avg_meter_price": 14277.870162631993
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 13582.321612221616
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 13786.55554348946
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2015-12-01 00:00:00",
+    "avg_meter_price": 13125.74153714126
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 14558.394859477305
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2016-02-01 00:00:00",
+    "avg_meter_price": 13567.471658428389
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2016-03-01 00:00:00",
+    "avg_meter_price": 10212.009894045825
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 11592.729151589529
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 11121.463445508372
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 12763.896936487206
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 10998.416118102665
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 12976.20797847453
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2016-09-01 00:00:00",
+    "avg_meter_price": 12762.755442888178
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 10735.408329188574
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 9945.424113414414
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 11358.443366502484
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 9479.187828147597
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2017-02-01 00:00:00",
+    "avg_meter_price": 11126.953692916146
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 9487.782128322193
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 10656.84817774126
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 9515.50998192119
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 9791.535924257254
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 9949.062465241428
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 9849.126209381182
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2017-09-01 00:00:00",
+    "avg_meter_price": 8791.363257219671
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 11402.818587732889
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 13223.83199401593
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 12859.618291959923
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2018-01-01 00:00:00",
+    "avg_meter_price": 12594.531249083951
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 11566.658614351263
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2018-03-01 00:00:00",
+    "avg_meter_price": 10174.62426619814
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 12560.91485692847
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2018-05-01 00:00:00",
+    "avg_meter_price": 13396.133628145975
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2018-06-01 00:00:00",
+    "avg_meter_price": 12593.8300328
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2018-07-01 00:00:00",
+    "avg_meter_price": 12664.152206849354
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2018-08-01 00:00:00",
+    "avg_meter_price": 12629.207289069229
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2018-09-01 00:00:00",
+    "avg_meter_price": 11165.570572950675
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 11652.520197359852
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2018-11-01 00:00:00",
+    "avg_meter_price": 12966.783024296632
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2018-12-01 00:00:00",
+    "avg_meter_price": 11708.804234602818
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2019-01-01 00:00:00",
+    "avg_meter_price": 10436.52564021458
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2019-02-01 00:00:00",
+    "avg_meter_price": 11795.79674094224
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 13248.914601896648
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 11741.93282361286
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2019-05-01 00:00:00",
+    "avg_meter_price": 10645.782584379003
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2019-06-01 00:00:00",
+    "avg_meter_price": 9634.96955911964
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2019-07-01 00:00:00",
+    "avg_meter_price": 10171.615583138464
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2019-08-01 00:00:00",
+    "avg_meter_price": 9961.175318138565
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2019-09-01 00:00:00",
+    "avg_meter_price": 11342.755308162596
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2019-10-01 00:00:00",
+    "avg_meter_price": 10951.37686266645
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 11166.438256425576
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 11565.914653458492
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 9695.798172181863
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 10749.642318875987
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 10968.264770443177
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2020-04-01 00:00:00",
+    "avg_meter_price": 11169.133848795933
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2020-05-01 00:00:00",
+    "avg_meter_price": 9506.560182018024
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 9793.854657302229
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 9613.684548376965
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2020-08-01 00:00:00",
+    "avg_meter_price": 8821.8213592922
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 8071.249804986796
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 8575.314857551994
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 8872.940263407567
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 8974.69554205818
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 9043.164796727817
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 9075.692005645293
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 9455.60862515274
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 10636.512823667685
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2021-05-01 00:00:00",
+    "avg_meter_price": 11110.101955967497
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 10215.413969799927
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 10226.623188646385
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 10649.297186328517
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 11404.67361621861
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 11600.255163730422
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 11126.754523536983
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 10412.593844318924
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 10667.348375040428
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 10424.928286894365
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 11009.68580863605
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 10179.873703035308
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 10552.909238204067
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 10704.93534081972
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 11427.324154135416
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 11795.313613092709
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 11724.292427674263
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 10597.025956582762
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 11896.5745273476
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 11541.878632850166
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 12170.46125996201
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 12421.623620093944
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 12449.813740029958
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 12489.534851909968
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 11415.14931735098
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 11243.248378881455
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 12096.894255616136
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 12712.998523406564
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 12865.888409678051
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 13695.834902341248
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 14970.892340461802
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 15770.281433886605
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 15638.720092172704
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 15631.560049329044
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 16223.66613723846
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 16203.965132271029
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 15060.897731474275
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 14012.90217410364
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 13525.475684490915
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 14540.77441613636
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 14793.535265885035
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 14762.113421569526
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 14405.437897702432
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 14170.2450290355
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 14816.361737352325
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 15140.266096435284
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 14377.665481958697
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 13542.977856829988
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 13348.490199700049
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 16248.274280846046
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 15505.808029247277
+  },
+  {
+    "area_id": 523,
+    "name_en": "Al Hebiah Third",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 14730.281705828564
+  }
+]

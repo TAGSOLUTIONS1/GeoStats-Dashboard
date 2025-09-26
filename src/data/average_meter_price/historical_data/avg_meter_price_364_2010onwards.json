@@ -1,0 +1,776 @@
+[
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2010-04-01 00:00:00",
+    "avg_meter_price": 3229.174515354725
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2010-06-01 00:00:00",
+    "avg_meter_price": 6673.627331733098
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2010-07-01 00:00:00",
+    "avg_meter_price": 2553.0019500589365
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2010-08-01 00:00:00",
+    "avg_meter_price": 5704.87497712668
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2010-12-01 00:00:00",
+    "avg_meter_price": 2726.8486957769724
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2011-03-01 00:00:00",
+    "avg_meter_price": 3256.084302982681
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2011-10-01 00:00:00",
+    "avg_meter_price": 5003.468775456236
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 2475.700461771956
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2012-09-01 00:00:00",
+    "avg_meter_price": 4144.107294705231
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2013-08-01 00:00:00",
+    "avg_meter_price": 4574.650862362614
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2013-10-01 00:00:00",
+    "avg_meter_price": 5166.67922456756
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 4843.761773032087
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2014-04-01 00:00:00",
+    "avg_meter_price": 5704.844273897109
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2014-05-01 00:00:00",
+    "avg_meter_price": 7952.841828005079
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 7442.232944998801
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2014-07-01 00:00:00",
+    "avg_meter_price": 7053.723442983675
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 6401.980345920338
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2016-02-01 00:00:00",
+    "avg_meter_price": 6978.304436818504
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 5884.252448781888
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 6458.325858419146
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 16781.62591832152
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 14935.796325819188
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 15264.57073355943
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 16218.244045759511
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 15531.998758451118
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 17394.069995458085
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 16774.95123293964
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2017-02-01 00:00:00",
+    "avg_meter_price": 18294.68318614506
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 14475.738686470871
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 10094.954448761702
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 18187.85221289446
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 18182.54847938845
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 19077.1333973684
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 17970.34253499385
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2017-09-01 00:00:00",
+    "avg_meter_price": 15788.132890767558
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 18246.426856756792
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 16534.477345810243
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 16174.897028161758
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2018-01-01 00:00:00",
+    "avg_meter_price": 18140.579767061685
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 15865.013031135077
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2018-03-01 00:00:00",
+    "avg_meter_price": 17561.00793743283
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 18673.081249384068
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2018-05-01 00:00:00",
+    "avg_meter_price": 15286.052858539091
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2018-06-01 00:00:00",
+    "avg_meter_price": 17551.810710320744
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2018-07-01 00:00:00",
+    "avg_meter_price": 19747.75740372633
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2018-08-01 00:00:00",
+    "avg_meter_price": 18666.403432953703
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 16436.979480894362
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2018-11-01 00:00:00",
+    "avg_meter_price": 16586.965142070905
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2018-12-01 00:00:00",
+    "avg_meter_price": 17942.435097602607
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2019-01-01 00:00:00",
+    "avg_meter_price": 19855.65089555248
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2019-02-01 00:00:00",
+    "avg_meter_price": 13601.364747106829
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 15625.636034604348
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 16671.062624740014
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2019-05-01 00:00:00",
+    "avg_meter_price": 17798.11081182814
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2019-06-01 00:00:00",
+    "avg_meter_price": 15029.76225364262
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2019-07-01 00:00:00",
+    "avg_meter_price": 17747.17318908983
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2019-08-01 00:00:00",
+    "avg_meter_price": 17446.089878476218
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2019-09-01 00:00:00",
+    "avg_meter_price": 16851.456451369075
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2019-10-01 00:00:00",
+    "avg_meter_price": 17209.91594428446
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 16904.36108210206
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 17772.611393841664
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 15871.426502163047
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 14317.41356785729
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 13500.200600406288
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2020-04-01 00:00:00",
+    "avg_meter_price": 17237.17471482325
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2020-05-01 00:00:00",
+    "avg_meter_price": 4219.453044375645
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 12011.47982404288
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 8205.013268376688
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2020-08-01 00:00:00",
+    "avg_meter_price": 9641.83685181056
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 13015.30071192557
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 11742.181541143991
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 15951.687867776483
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 23929.222537306447
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 15834.448345576666
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 12638.718271840127
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 16577.197622340118
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 14145.972644449945
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2021-05-01 00:00:00",
+    "avg_meter_price": 16521.148209586612
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 16424.994666679966
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 15383.40445897035
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 15671.967132580172
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 16274.09841357807
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 15495.79460712428
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 14332.760651148235
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 18087.55757618418
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 14244.63177390514
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 16000.929426922934
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 19102.39475073428
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 18533.723704842538
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 21978.00758564334
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 21867.21466732274
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 22616.40354244188
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 24103.261782609006
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 21881.52232334233
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 22699.6232184366
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 22494.262569693947
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 23324.08787744332
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 25200.67597437001
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 26081.614540148523
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 24761.281876661444
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 24834.54219687891
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 26660.164242685296
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 21699.317687263
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 26009.795838576865
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 27394.69483722264
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 28815.25387293659
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 25272.03658004523
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 26318.53057978909
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 24652.010498914777
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 33273.69614974571
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 30592.24915228352
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 26470.522396467044
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 28135.80240919376
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 28351.846010566496
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 30430.481175323814
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 26487.022195320867
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 31638.485401034137
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 30482.618288052567
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 25890.24776524815
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 27719.063292158386
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 27282.57285206256
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 28338.270893415563
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 31935.10874947391
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 30965.81847872272
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 33455.02086602528
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 35057.95171636161
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 33449.50343526663
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 33684.61403367529
+  },
+  {
+    "area_id": 364,
+    "name_en": "Al Wasl",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 34253.66152922652
+  }
+]

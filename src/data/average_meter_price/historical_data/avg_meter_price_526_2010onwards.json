@@ -1,0 +1,1130 @@
+[
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2010-01-01 00:00:00",
+    "avg_meter_price": 15892.110019918522
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2010-02-01 00:00:00",
+    "avg_meter_price": 12670.859419952936
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2010-03-01 00:00:00",
+    "avg_meter_price": 14266.490241302576
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2010-04-01 00:00:00",
+    "avg_meter_price": 15484.283773207688
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2010-05-01 00:00:00",
+    "avg_meter_price": 15552.240915484295
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2010-06-01 00:00:00",
+    "avg_meter_price": 14892.006418274112
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2010-07-01 00:00:00",
+    "avg_meter_price": 15271.154210692395
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2010-08-01 00:00:00",
+    "avg_meter_price": 15785.753105640206
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2010-09-01 00:00:00",
+    "avg_meter_price": 16132.143705317734
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2010-10-01 00:00:00",
+    "avg_meter_price": 15677.106975476298
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2010-11-01 00:00:00",
+    "avg_meter_price": 16789.247761725503
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2010-12-01 00:00:00",
+    "avg_meter_price": 15715.191178411462
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2011-01-01 00:00:00",
+    "avg_meter_price": 14862.293972509702
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2011-02-01 00:00:00",
+    "avg_meter_price": 17497.79331132071
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2011-03-01 00:00:00",
+    "avg_meter_price": 12676.084915394636
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2011-04-01 00:00:00",
+    "avg_meter_price": 14598.87751636157
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2011-05-01 00:00:00",
+    "avg_meter_price": 14100.062698371505
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2011-06-01 00:00:00",
+    "avg_meter_price": 13120.651593332936
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2011-07-01 00:00:00",
+    "avg_meter_price": 14992.164916360673
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2011-08-01 00:00:00",
+    "avg_meter_price": 12931.369521791092
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2011-09-01 00:00:00",
+    "avg_meter_price": 13903.742012875176
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2011-10-01 00:00:00",
+    "avg_meter_price": 13731.330358009938
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2011-11-01 00:00:00",
+    "avg_meter_price": 13899.98444831689
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2011-12-01 00:00:00",
+    "avg_meter_price": 13504.373688273132
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2012-01-01 00:00:00",
+    "avg_meter_price": 13718.76337482373
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2012-02-01 00:00:00",
+    "avg_meter_price": 14335.738162769456
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2012-03-01 00:00:00",
+    "avg_meter_price": 14084.907061246398
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2012-04-01 00:00:00",
+    "avg_meter_price": 13312.047241689124
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 12912.592694833906
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2012-06-01 00:00:00",
+    "avg_meter_price": 13708.519828058455
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2012-07-01 00:00:00",
+    "avg_meter_price": 12300.667486269997
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2012-08-01 00:00:00",
+    "avg_meter_price": 13176.16888049216
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2012-09-01 00:00:00",
+    "avg_meter_price": 14124.900931501475
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2012-10-01 00:00:00",
+    "avg_meter_price": 15852.978510370824
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2012-11-01 00:00:00",
+    "avg_meter_price": 17587.798245010694
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2012-12-01 00:00:00",
+    "avg_meter_price": 17939.571156389007
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2013-01-01 00:00:00",
+    "avg_meter_price": 17934.763633277456
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2013-02-01 00:00:00",
+    "avg_meter_price": 19097.62730193464
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2013-03-01 00:00:00",
+    "avg_meter_price": 17660.432184241025
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2013-04-01 00:00:00",
+    "avg_meter_price": 18533.500853383768
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2013-05-01 00:00:00",
+    "avg_meter_price": 19099.657045567423
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2013-06-01 00:00:00",
+    "avg_meter_price": 18187.90097858884
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2013-07-01 00:00:00",
+    "avg_meter_price": 17377.07030939453
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2013-08-01 00:00:00",
+    "avg_meter_price": 18499.53244820808
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2013-09-01 00:00:00",
+    "avg_meter_price": 18132.746195080465
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2013-10-01 00:00:00",
+    "avg_meter_price": 17285.673205952142
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 18941.378802115323
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2013-12-01 00:00:00",
+    "avg_meter_price": 20164.46513895397
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2014-01-01 00:00:00",
+    "avg_meter_price": 14966.519798563204
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2014-02-01 00:00:00",
+    "avg_meter_price": 15606.376054245797
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 20077.61524551985
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2014-04-01 00:00:00",
+    "avg_meter_price": 21397.36116811236
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2014-05-01 00:00:00",
+    "avg_meter_price": 21455.46549479044
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 20594.14772054029
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2014-07-01 00:00:00",
+    "avg_meter_price": 21424.26673421666
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2014-08-01 00:00:00",
+    "avg_meter_price": 17947.263912262682
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 17347.036970308694
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2014-10-01 00:00:00",
+    "avg_meter_price": 17380.48304975871
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2014-11-01 00:00:00",
+    "avg_meter_price": 19924.23562932985
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 20162.70377761892
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2015-01-01 00:00:00",
+    "avg_meter_price": 17418.188733140247
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 19933.428962903065
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 19499.72999973833
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2015-04-01 00:00:00",
+    "avg_meter_price": 17907.114613036847
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2015-05-01 00:00:00",
+    "avg_meter_price": 18351.976148709982
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 15235.573899177356
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 15922.34343550295
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 18340.52781816943
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2015-09-01 00:00:00",
+    "avg_meter_price": 18321.877598524035
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 16610.150804117915
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 18065.18127598545
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2015-12-01 00:00:00",
+    "avg_meter_price": 18304.99629955438
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 18804.28819885519
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2016-02-01 00:00:00",
+    "avg_meter_price": 21039.01981735575
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2016-03-01 00:00:00",
+    "avg_meter_price": 17295.462859264862
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 18877.87259912198
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 16591.15786984435
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 17311.126814940242
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 19658.17578785292
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 19465.302156577043
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2016-09-01 00:00:00",
+    "avg_meter_price": 18777.286305895377
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 18140.92378935868
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 18924.247057734618
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 18963.69651035214
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 18458.699007123607
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2017-02-01 00:00:00",
+    "avg_meter_price": 18742.63167353636
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 18337.65718133487
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 18131.242094798505
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 17004.68419855937
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 15718.229709677018
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 17807.05851791137
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 19064.027464740408
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2017-09-01 00:00:00",
+    "avg_meter_price": 16648.27339667844
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 17180.412688679695
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 17533.40147183597
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 16972.44551002444
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2018-01-01 00:00:00",
+    "avg_meter_price": 17332.254805734217
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 16314.97551803628
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2018-03-01 00:00:00",
+    "avg_meter_price": 16161.653976131644
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 16002.057453275384
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2018-05-01 00:00:00",
+    "avg_meter_price": 15589.612128380337
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2018-06-01 00:00:00",
+    "avg_meter_price": 17018.026028976143
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2018-07-01 00:00:00",
+    "avg_meter_price": 16682.94024799595
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2018-08-01 00:00:00",
+    "avg_meter_price": 16277.201017625825
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2018-09-01 00:00:00",
+    "avg_meter_price": 16645.634416767432
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 16846.98138494995
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2018-11-01 00:00:00",
+    "avg_meter_price": 18638.888218906453
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2018-12-01 00:00:00",
+    "avg_meter_price": 17627.242977299735
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2019-01-01 00:00:00",
+    "avg_meter_price": 18056.259063670845
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2019-02-01 00:00:00",
+    "avg_meter_price": 16497.91129797969
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 18535.281832395227
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 17016.98949120984
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2019-05-01 00:00:00",
+    "avg_meter_price": 17057.953014724768
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2019-06-01 00:00:00",
+    "avg_meter_price": 17221.833500508186
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2019-07-01 00:00:00",
+    "avg_meter_price": 14632.756129565085
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2019-08-01 00:00:00",
+    "avg_meter_price": 14963.62803585054
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2019-09-01 00:00:00",
+    "avg_meter_price": 16157.695051937688
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2019-10-01 00:00:00",
+    "avg_meter_price": 16901.15878497593
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 17092.10448018719
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 17204.264938390224
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 16088.3474562436
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 16179.766159049048
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 16012.066585291226
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2020-04-01 00:00:00",
+    "avg_meter_price": 16986.677629617127
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2020-05-01 00:00:00",
+    "avg_meter_price": 16124.984187060323
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 16005.208311947385
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 13224.671486873522
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2020-08-01 00:00:00",
+    "avg_meter_price": 13902.292368031916
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 14894.002699052073
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 14012.71439848127
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 13286.495266055104
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 16730.36603038058
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 14267.203171762683
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 13780.125528862302
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 13840.933526634346
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 14427.404610144846
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2021-05-01 00:00:00",
+    "avg_meter_price": 14314.377494700744
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 15041.007639689038
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 16421.17559811805
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 16947.36745676809
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 17545.908826414256
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 16042.584524451948
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 15853.317059895213
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 15985.061499916346
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 16970.722866798962
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 17210.721087064147
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 17546.693135746576
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 17414.399968656395
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 18149.70601224661
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 17789.667691277773
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 17587.610753611367
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 18782.17228168176
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 20456.58451655606
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 22230.9382779304
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 20106.69594296368
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 20665.568465563912
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 22135.053864992995
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 21686.73146016212
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 21531.3139004302
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 21255.946256130323
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 19333.054184285167
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 19692.129944192853
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 21627.4363589085
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 25954.30484844146
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 25702.548010423623
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 22634.086568941344
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 22931.02740290353
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 23449.721587652737
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 24252.467847810825
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 23953.170919058743
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 24933.64194353699
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 24685.848143351024
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 26467.250998783296
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 27197.94559340449
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 26588.207665080536
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 26647.89178594765
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 25459.03342743674
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 25717.49516131836
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 25297.24057997448
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 24881.5571197428
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 25582.37167739529
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 24424.394406529875
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 26530.92253935064
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 24680.442229776887
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 25064.94168897089
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 26055.671473129783
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 26702.21064758904
+  },
+  {
+    "area_id": 526,
+    "name_en": "Business Bay",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 28610.97057423221
+  }
+]

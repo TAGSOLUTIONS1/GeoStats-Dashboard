@@ -1,0 +1,692 @@
+[
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2010-01-01 00:00:00",
+    "avg_meter_price": 1722.2264081891867
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2010-02-01 00:00:00",
+    "avg_meter_price": 2522.8740581270185
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2010-03-01 00:00:00",
+    "avg_meter_price": 3013.863773357444
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2010-04-01 00:00:00",
+    "avg_meter_price": 2098.963434980571
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2010-08-01 00:00:00",
+    "avg_meter_price": 2421.880886516044
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2010-09-01 00:00:00",
+    "avg_meter_price": 1994.205584511964
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2010-10-01 00:00:00",
+    "avg_meter_price": 1809.073197884776
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2011-02-01 00:00:00",
+    "avg_meter_price": 4305.566020472967
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2011-03-01 00:00:00",
+    "avg_meter_price": 3438.481088354014
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2011-05-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2011-07-01 00:00:00",
+    "avg_meter_price": 2451.784584138428
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2011-09-01 00:00:00",
+    "avg_meter_price": 4560.446697739502
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2011-10-01 00:00:00",
+    "avg_meter_price": 1682.3417258696954
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2011-11-01 00:00:00",
+    "avg_meter_price": 2798.8341240866366
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2012-01-01 00:00:00",
+    "avg_meter_price": 1719.768283852281
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2012-02-01 00:00:00",
+    "avg_meter_price": 1671.6092981575855
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2012-03-01 00:00:00",
+    "avg_meter_price": 3983.7514632258753
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2012-04-01 00:00:00",
+    "avg_meter_price": 1931.330472103004
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 2707.959316384471
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2012-06-01 00:00:00",
+    "avg_meter_price": 1878.0764012692432
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2012-07-01 00:00:00",
+    "avg_meter_price": 1809.070680391483
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2012-09-01 00:00:00",
+    "avg_meter_price": 2080.4312824502053
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2012-10-01 00:00:00",
+    "avg_meter_price": 1614.5872576773625
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2012-11-01 00:00:00",
+    "avg_meter_price": 2798.6179133074284
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2012-12-01 00:00:00",
+    "avg_meter_price": 3336.813665866549
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2013-01-01 00:00:00",
+    "avg_meter_price": 2368.061311260132
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2013-02-01 00:00:00",
+    "avg_meter_price": 2989.983555090447
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2013-04-01 00:00:00",
+    "avg_meter_price": 3115.316911028355
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2013-05-01 00:00:00",
+    "avg_meter_price": 5193.584486347416
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2013-07-01 00:00:00",
+    "avg_meter_price": 7319.383449582365
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2013-08-01 00:00:00",
+    "avg_meter_price": 4520.844321496615
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2013-09-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2013-10-01 00:00:00",
+    "avg_meter_price": 2230.2831986049964
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2013-12-01 00:00:00",
+    "avg_meter_price": 6045.358228547839
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2014-01-01 00:00:00",
+    "avg_meter_price": 5979.967110180894
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2014-02-01 00:00:00",
+    "avg_meter_price": 3238.2577210491586
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2014-07-01 00:00:00",
+    "avg_meter_price": 2233.512373120351
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 4091.942557842855
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 4347.296850818161
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2015-04-01 00:00:00",
+    "avg_meter_price": 3004.915503570019
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 9045.353401957414
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 3247.0763158838936
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2015-09-01 00:00:00",
+    "avg_meter_price": 3885.7849412312335
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 3981.996555541887
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 3513.212976260862
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2015-12-01 00:00:00",
+    "avg_meter_price": 2522.7891957348043
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2016-03-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 3295.073864572464
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 3013.8962143310764
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 2690.978762795604
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 5598.091058051785
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 2690.9744572295835
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 5213.764337851929
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 5270.637815978333
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 4522.676700978707
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 2690.978762795604
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 3767.422006940965
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 2847.901545354621
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2018-03-01 00:00:00",
+    "avg_meter_price": 2690.978762795604
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2018-05-01 00:00:00",
+    "avg_meter_price": 3589.860981875589
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 4522.158577027435
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2019-05-01 00:00:00",
+    "avg_meter_price": 5485.29111008256
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2019-09-01 00:00:00",
+    "avg_meter_price": 4360.338362256911
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2019-10-01 00:00:00",
+    "avg_meter_price": 1937.504709212835
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 5979.967110180894
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 3238.2371037207345
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 3013.9935414424112
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 5381.957525591208
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 5324.531331883624
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2021-05-01 00:00:00",
+    "avg_meter_price": 2475.700461771956
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 2798.6179133074284
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 3363.718927646405
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 3175.3549400988127
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 2475.700461771956
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 3886.978621617581
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 2972.651605231867
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 2300.799224993945
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 3716.546211848811
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 3035.9902848310885
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 2636.059091657972
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 3279.6259544552454
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 4843.761773032087
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 5219.180684240519
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 4484.97533263567
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 5082.97204365376
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 4185.976977126626
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 4484.97533263567
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 3493.9266936859863
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 3633.134973606779
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 3208.99325028989
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 5959.033878166647
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 5812.514127638505
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 3191.935969214273
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 3263.21404649274
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 4000.469365360352
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 4157.80612076602
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 3496.858781955359
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 3228.7132757002114
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 4865.6975880743
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 5034.722222222223
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 4517.861675877334
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 4951.332149200711
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 7252.812314979277
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 3567.453293247247
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 5804.7102021041455
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 3486.609220738121
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 4198.923183499692
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 3081.46686389597
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 4628.483472008439
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 4138.146506213664
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 5097.0810828766125
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 4484.97533263567
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 7611.243747235705
+  },
+  {
+    "area_id": 338,
+    "name_en": "Al Goze First",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 4613.078076346443
+  }
+]

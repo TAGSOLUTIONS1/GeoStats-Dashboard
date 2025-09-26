@@ -1,0 +1,704 @@
+[
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2010-01-01 00:00:00",
+    "avg_meter_price": 3234.932739842684
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2010-05-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2010-07-01 00:00:00",
+    "avg_meter_price": 1937.5074254484969
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2010-08-01 00:00:00",
+    "avg_meter_price": 1331.898145127971
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2010-10-01 00:00:00",
+    "avg_meter_price": 1937.5
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2010-12-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2011-01-01 00:00:00",
+    "avg_meter_price": 2283.7410738494264
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2011-03-01 00:00:00",
+    "avg_meter_price": 2038.7517027570464
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2011-11-01 00:00:00",
+    "avg_meter_price": 2097.5258314865987
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2012-02-01 00:00:00",
+    "avg_meter_price": 1345.489381397802
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2012-03-01 00:00:00",
+    "avg_meter_price": 1673.587433261668
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2012-04-01 00:00:00",
+    "avg_meter_price": 1800.8011028038636
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 2730.356893558767
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2012-06-01 00:00:00",
+    "avg_meter_price": 1883.8600291998305
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2012-07-01 00:00:00",
+    "avg_meter_price": 1618.0421635565435
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2012-08-01 00:00:00",
+    "avg_meter_price": 1661.287260299981
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2012-10-01 00:00:00",
+    "avg_meter_price": 1728.539517072652
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2012-11-01 00:00:00",
+    "avg_meter_price": 2354.825036499788
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2013-03-01 00:00:00",
+    "avg_meter_price": 3634.592598515632
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2013-04-01 00:00:00",
+    "avg_meter_price": 2152.775286139716
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2013-05-01 00:00:00",
+    "avg_meter_price": 2529.510961214165
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2013-07-01 00:00:00",
+    "avg_meter_price": 3346.106547475413
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2013-09-01 00:00:00",
+    "avg_meter_price": 2798.6078719816296
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2013-10-01 00:00:00",
+    "avg_meter_price": 2065.8012046882814
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 2095.519748334674
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2013-12-01 00:00:00",
+    "avg_meter_price": 2156.8194783806766
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2014-01-01 00:00:00",
+    "avg_meter_price": 2906.2570638192524
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2014-02-01 00:00:00",
+    "avg_meter_price": 2580.979696032086
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 4012.2922042986233
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 2152.7823080435774
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2014-07-01 00:00:00",
+    "avg_meter_price": 2152.8525296017224
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2014-11-01 00:00:00",
+    "avg_meter_price": 2798.6170004566507
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 2906.2570638192524
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 2690.9774395008167
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 2960.0498648522694
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 3121.524164902587
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 2690.978762795604
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 2664.3362605507714
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2016-03-01 00:00:00",
+    "avg_meter_price": 2690.978762795604
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 2611.8575129633546
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 7032.399268056403
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2016-09-01 00:00:00",
+    "avg_meter_price": 2905.998851894374
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 2744.7963034319964
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 3587.241218470812
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 2174.5275838824014
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 1957.074825494161
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 2199.154542373989
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2018-12-01 00:00:00",
+    "avg_meter_price": 2792.0092694707746
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2019-05-01 00:00:00",
+    "avg_meter_price": 2314.232038930305
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2019-06-01 00:00:00",
+    "avg_meter_price": 2152.783010236484
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2019-07-01 00:00:00",
+    "avg_meter_price": 2612.603197826314
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 2152.751148694558
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 7802.473532453405
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 9327.17548300924
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2020-04-01 00:00:00",
+    "avg_meter_price": 11551.18119710697
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2020-05-01 00:00:00",
+    "avg_meter_price": 9801.649769502372
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 8750.212655823878
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 9980.134639956212
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2020-08-01 00:00:00",
+    "avg_meter_price": 5452.942636749301
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 11237.010548323624
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 11311.554841301728
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 9863.334064390714
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 9004.936536287401
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 10136.332245980591
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 5541.628518129582
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 9861.382598179389
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 10271.882839514545
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 10221.998632411838
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 10942.92653317048
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 11700.52573805183
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 11670.854064672094
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 11884.215316288772
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 11789.036639105205
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 12064.83337376776
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 12166.38286537086
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 11996.13299015359
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 12178.642240424804
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 11844.83372676959
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 11612.613487723307
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 12590.496215896415
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 12133.4205193515
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 11624.094383452826
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 12487.697058744534
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 12870.117068662508
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 13169.001406526466
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 12817.288740924
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 12310.2918826119
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 13735.279033262992
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 10830.822454511244
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 13640.885587598535
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 13224.73734779303
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 12307.446811694394
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 13993.366993829948
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 14529.184854262676
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 11510.809900342892
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 12111.037362529456
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 13912.327734395329
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 10036.951000546656
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 9703.922565901416
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 10809.59778999046
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 12590.258879786026
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 13811.570106478976
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 11357.882936358816
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 13034.778705449322
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 14234.74669819285
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 14340.979988439442
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 13249.393198140426
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 9933.508853754813
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 10903.016958152502
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 7364.13259697892
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 10184.139519368322
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 10855.031045624575
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 13143.729267232538
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 14323.488469364778
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 14911.640561588649
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 13314.259381550735
+  },
+  {
+    "area_id": 312,
+    "name_en": "Muhaisanah First",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 12099.950088429498
+  }
+]

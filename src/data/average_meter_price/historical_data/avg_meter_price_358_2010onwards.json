@@ -1,0 +1,554 @@
+[
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2010-01-01 00:00:00",
+    "avg_meter_price": 1528.95847348786
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2010-02-01 00:00:00",
+    "avg_meter_price": 2569.7995650385
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2010-05-01 00:00:00",
+    "avg_meter_price": 1660.6698034874064
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2010-06-01 00:00:00",
+    "avg_meter_price": 1647.1825197989317
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2010-10-01 00:00:00",
+    "avg_meter_price": 2690.978762795604
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2011-01-01 00:00:00",
+    "avg_meter_price": 2522.7891957348043
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2011-03-01 00:00:00",
+    "avg_meter_price": 1829.8655587010107
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2011-04-01 00:00:00",
+    "avg_meter_price": 1749.1382410197275
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2011-07-01 00:00:00",
+    "avg_meter_price": 1399.3089566537142
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2011-08-01 00:00:00",
+    "avg_meter_price": 1877.2704055967424
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2011-10-01 00:00:00",
+    "avg_meter_price": 1345.4875710585625
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2011-12-01 00:00:00",
+    "avg_meter_price": 2290.189971258116
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2012-01-01 00:00:00",
+    "avg_meter_price": 1776.0459834450987
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2012-03-01 00:00:00",
+    "avg_meter_price": 2368.061311260132
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2012-04-01 00:00:00",
+    "avg_meter_price": 1614.5872576773625
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2012-06-01 00:00:00",
+    "avg_meter_price": 2368.061311260132
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2012-08-01 00:00:00",
+    "avg_meter_price": 2018.244934205215
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2012-09-01 00:00:00",
+    "avg_meter_price": 1813.719686124237
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2012-10-01 00:00:00",
+    "avg_meter_price": 2152.783010236484
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2012-11-01 00:00:00",
+    "avg_meter_price": 2093.9231790303106
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2013-02-01 00:00:00",
+    "avg_meter_price": 2677.523868981626
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2013-05-01 00:00:00",
+    "avg_meter_price": 2097.292493290141
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2013-06-01 00:00:00",
+    "avg_meter_price": 3038.1944444444443
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 2636.059091657972
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2013-12-01 00:00:00",
+    "avg_meter_price": 1913.5780321241912
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2014-02-01 00:00:00",
+    "avg_meter_price": 3380.299002811794
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2014-04-01 00:00:00",
+    "avg_meter_price": 3449.988960035328
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 3923.298358891579
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2014-08-01 00:00:00",
+    "avg_meter_price": 3229.174515354725
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 2111.381588752546
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2014-10-01 00:00:00",
+    "avg_meter_price": 2522.7770730019606
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2015-01-01 00:00:00",
+    "avg_meter_price": 2989.9835550904468
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 2522.803417653391
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 2786.2604996179025
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 2773.692933303014
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2015-09-01 00:00:00",
+    "avg_meter_price": 2690.978762795604
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 2855.003953958352
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 2759.9911680282626
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 3552.091966890197
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2016-02-01 00:00:00",
+    "avg_meter_price": 3262.360853446455
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 3805.811554957527
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 2569.659705155592
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2016-09-01 00:00:00",
+    "avg_meter_price": 2736.360772391701
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 2937.645047404704
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 5059.095801937568
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 3200.0
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 1969.7861214320376
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 2497.795263475679
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 5014.624944868658
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 2416.3875006864737
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 7025.3968094662205
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 2690.978762795604
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 3121.535364842901
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2019-01-01 00:00:00",
+    "avg_meter_price": 3994.4162265801065
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 3146.385225146043
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 3306.878306878308
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 2207.99293442261
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 2232.935221976663
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 2018.2313565878435
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 2152.775286139716
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 2128.3408483974854
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 2259.998031883488
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2021-05-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 2196.715909714976
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 2222.2406846544686
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 2468.850086150616
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 2152.783010236484
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 1430.262453133369
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 1829.3732782369148
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 2892.802170005274
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 2100.238371794957
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 2587.551660351891
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 2260.422160748308
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 2361.7651689735626
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 2690.978762795604
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 3013.8962143310764
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 2008.5698982324584
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 2421.880886516044
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 2750.712392566592
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 3237.5794678596653
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 3125.0
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 2152.783010236484
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 2919.7119576332307
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 3052.056914413446
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 3077.802818796461
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 3146.3790765791405
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 2005.5481634798327
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 2152.783010236484
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 3075.4022736009665
+  },
+  {
+    "area_id": 358,
+    "name_en": "Al Twar First",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 3035.9902848310885
+  }
+]

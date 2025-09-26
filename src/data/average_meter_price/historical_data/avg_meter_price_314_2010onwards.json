@@ -1,0 +1,398 @@
+[
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2010-02-01 00:00:00",
+    "avg_meter_price": 4305.550572279431
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2010-07-01 00:00:00",
+    "avg_meter_price": 5501.760563380282
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2010-09-01 00:00:00",
+    "avg_meter_price": 5500.550055005501
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2010-11-01 00:00:00",
+    "avg_meter_price": 4215.885130068974
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2011-02-01 00:00:00",
+    "avg_meter_price": 13070.596908019596
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2011-09-01 00:00:00",
+    "avg_meter_price": 3767.3702679138455
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2011-10-01 00:00:00",
+    "avg_meter_price": 3438.9551078800214
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2011-11-01 00:00:00",
+    "avg_meter_price": 7319.534268490973
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2012-04-01 00:00:00",
+    "avg_meter_price": 4305.566020472967
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 3981.176931156717
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2012-08-01 00:00:00",
+    "avg_meter_price": 4861.501231580312
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2013-01-01 00:00:00",
+    "avg_meter_price": 6942.725208012658
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2013-02-01 00:00:00",
+    "avg_meter_price": 5381.965123101424
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2013-03-01 00:00:00",
+    "avg_meter_price": 5381.938215349288
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2013-04-01 00:00:00",
+    "avg_meter_price": 7117.649782451225
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2014-01-01 00:00:00",
+    "avg_meter_price": 9942.72987591473
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 9149.327793505054
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2014-08-01 00:00:00",
+    "avg_meter_price": 8099.846076014768
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2014-10-01 00:00:00",
+    "avg_meter_price": 8969.897025582148
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 9005.772822009987
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2015-01-01 00:00:00",
+    "avg_meter_price": 5417.817803451617
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 7817.857632697846
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 5381.953978801691
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 10094.091351526731
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2016-03-01 00:00:00",
+    "avg_meter_price": 7965.2669811530195
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 17935.239987307366
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 7893.499168576694
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 6762.728798163805
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 8969.897025582146
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 8764.136454837411
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 7654.327413757909
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2018-01-01 00:00:00",
+    "avg_meter_price": 4305.550572279431
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 16730.364042265082
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2019-01-01 00:00:00",
+    "avg_meter_price": 5385.272054377654
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2019-02-01 00:00:00",
+    "avg_meter_price": 7175.917620465718
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 6234.5637485044645
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 5761.2124537100535
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 4843.761773032087
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2020-08-01 00:00:00",
+    "avg_meter_price": 7973.262991435386
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 7104.107465771119
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 10382.90721561243
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 6996.54478326857
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 6243.070729685802
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 4783.969601290305
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 6489.643049247596
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 5023.142334326002
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 5668.974920167917
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 7295.853314679584
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 9643.528607414655
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 6996.5196799540745
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 9687.488787628718
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 11926.76963444451
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 8611.121742125606
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 12916.651716838292
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 10094.091351526731
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 13275.447597861576
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 7182.172126793196
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 8790.514533264039
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 10440.318470888004
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 13070.596908019596
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 7188.297451748553
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 10172.068570449606
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 9153.01646810723
+  },
+  {
+    "area_id": 314,
+    "name_en": "Al Saffa Second",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 16145.698785843451
+  }
+]

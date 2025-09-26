@@ -1,0 +1,416 @@
+[
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2010-05-01 00:00:00",
+    "avg_meter_price": 15604.911581964494
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2011-02-01 00:00:00",
+    "avg_meter_price": 6476.683937823834
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2011-05-01 00:00:00",
+    "avg_meter_price": 12165.90390572245
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2011-06-01 00:00:00",
+    "avg_meter_price": 18331.00766499835
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2011-09-01 00:00:00",
+    "avg_meter_price": 18657.385813210865
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2011-11-01 00:00:00",
+    "avg_meter_price": 10238.444685156954
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2012-01-01 00:00:00",
+    "avg_meter_price": 17164.13588693209
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2012-02-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2012-06-01 00:00:00",
+    "avg_meter_price": 15559.089966115758
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2012-07-01 00:00:00",
+    "avg_meter_price": 13347.082713648324
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2012-10-01 00:00:00",
+    "avg_meter_price": 14223.787591438637
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2012-11-01 00:00:00",
+    "avg_meter_price": 8680.555555555555
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2012-12-01 00:00:00",
+    "avg_meter_price": 14242.15678408088
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2013-02-01 00:00:00",
+    "avg_meter_price": 12429.565793834934
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2013-04-01 00:00:00",
+    "avg_meter_price": 16572.754391779912
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2013-09-01 00:00:00",
+    "avg_meter_price": 16572.754391779912
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2013-10-01 00:00:00",
+    "avg_meter_price": 13060.410334346505
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 20020.89552238806
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2013-12-01 00:00:00",
+    "avg_meter_price": 16920.47377326565
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 11840.370280670595
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2014-05-01 00:00:00",
+    "avg_meter_price": 29685.0417074836
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2014-10-01 00:00:00",
+    "avg_meter_price": 17330.928099352815
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 25779.10174152154
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 41357.824173877096
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 34722.22222222222
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 20690.917840266706
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 35445.398153495895
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 21528.23647934809
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 18073.56799512714
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 17543.517670220856
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 34701.02496545963
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 43634.639325759
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2016-09-01 00:00:00",
+    "avg_meter_price": 21552.387696665537
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 17299.482408298652
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 18298.26166514181
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 35109.5130349328
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 30151.359826328164
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 29277.53379832946
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 17341.38611493153
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 19733.301441128984
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 22443.66639734267
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2018-01-01 00:00:00",
+    "avg_meter_price": 23835.380933044777
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2018-03-01 00:00:00",
+    "avg_meter_price": 12476.337979693684
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2018-06-01 00:00:00",
+    "avg_meter_price": 1944.5854209516103
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2018-08-01 00:00:00",
+    "avg_meter_price": 3586.478702440503
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 25220.2569103504
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 12411.842872300826
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 19965.57210297071
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 20264.856967811866
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 13668.67140513942
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 11150.447411702396
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 24961.001158113377
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 20531.025362931752
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 13938.059264627993
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 13077.385772640248
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 20521.19297705675
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 19571.667192783672
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 9483.61705154346
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 18420.23907666941
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 12916.680019641795
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 8635.254364557912
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 16721.5058397621
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 14941.935032203864
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 28702.98391436944
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 16255.853877890582
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 18579.80946447577
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 24516.835763282124
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 19036.70572579751
+  },
+  {
+    "area_id": 269,
+    "name_en": "Al Hamriya",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 22933.451341255484
+  }
+]

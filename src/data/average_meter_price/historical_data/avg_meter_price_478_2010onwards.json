@@ -1,0 +1,926 @@
+[
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2010-02-01 00:00:00",
+    "avg_meter_price": 12192.285434472937
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2010-08-01 00:00:00",
+    "avg_meter_price": 15163.471207812128
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2011-09-01 00:00:00",
+    "avg_meter_price": 10975.766788875972
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2011-10-01 00:00:00",
+    "avg_meter_price": 6802.768464760888
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2011-12-01 00:00:00",
+    "avg_meter_price": 6793.831564954192
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2012-01-01 00:00:00",
+    "avg_meter_price": 6408.726203724708
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2012-02-01 00:00:00",
+    "avg_meter_price": 6663.034472680803
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2012-03-01 00:00:00",
+    "avg_meter_price": 6950.216682799108
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2012-04-01 00:00:00",
+    "avg_meter_price": 6681.750816351664
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 6862.03466894004
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2012-07-01 00:00:00",
+    "avg_meter_price": 7092.501485942046
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2012-09-01 00:00:00",
+    "avg_meter_price": 7423.495796927409
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2012-10-01 00:00:00",
+    "avg_meter_price": 16617.415065951183
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2012-12-01 00:00:00",
+    "avg_meter_price": 7551.404575731248
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2013-02-01 00:00:00",
+    "avg_meter_price": 14854.968947859035
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2013-03-01 00:00:00",
+    "avg_meter_price": 12567.991060202388
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2013-04-01 00:00:00",
+    "avg_meter_price": 13014.852243148063
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2013-06-01 00:00:00",
+    "avg_meter_price": 9737.98970692435
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2013-09-01 00:00:00",
+    "avg_meter_price": 10763.636363636364
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2013-10-01 00:00:00",
+    "avg_meter_price": 10253.369922468106
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 10269.76924150768
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2013-12-01 00:00:00",
+    "avg_meter_price": 8303.425274121955
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2014-01-01 00:00:00",
+    "avg_meter_price": 12986.858205139586
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2014-02-01 00:00:00",
+    "avg_meter_price": 11185.348482279123
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 11528.063820412406
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2014-04-01 00:00:00",
+    "avg_meter_price": 12588.198777005728
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2014-05-01 00:00:00",
+    "avg_meter_price": 12829.532273438926
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 13046.36052081624
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2014-08-01 00:00:00",
+    "avg_meter_price": 12572.665345774154
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 10358.648882069114
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2014-10-01 00:00:00",
+    "avg_meter_price": 11848.515996955332
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2014-11-01 00:00:00",
+    "avg_meter_price": 11114.083302573305
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 11192.009119535453
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2015-01-01 00:00:00",
+    "avg_meter_price": 6486.728303012228
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 12644.22295586545
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 15908.313924269183
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2015-04-01 00:00:00",
+    "avg_meter_price": 11840.40316774658
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2015-05-01 00:00:00",
+    "avg_meter_price": 8947.211452430658
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 12747.091616801496
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 11840.397247419456
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 10979.295444077954
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2015-09-01 00:00:00",
+    "avg_meter_price": 12199.1926406291
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 10764.462809917355
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2015-12-01 00:00:00",
+    "avg_meter_price": 11302.177419354835
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 10764.04077849861
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2016-02-01 00:00:00",
+    "avg_meter_price": 10267.033678241494
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2016-03-01 00:00:00",
+    "avg_meter_price": 9706.64024876854
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 10535.41073609318
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 9681.127139917471
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 9152.419190223154
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 10118.12669322249
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 6603.854849403547
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2016-09-01 00:00:00",
+    "avg_meter_price": 8180.818347677789
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 8398.774534598946
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 10944.579306531306
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 10708.44396417478
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 9447.15964815118
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 6851.480973964372
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 8483.20325755005
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 11895.178867827428
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 11975.19146654976
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 11453.467087535277
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 13461.386923846889
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2017-09-01 00:00:00",
+    "avg_meter_price": 13582.030316892562
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 13694.511842025666
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 12293.81186632838
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 13514.161682890115
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2018-01-01 00:00:00",
+    "avg_meter_price": 13395.254207054862
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 13911.23844596836
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2018-03-01 00:00:00",
+    "avg_meter_price": 14035.239311912428
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 12730.084381734983
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2018-05-01 00:00:00",
+    "avg_meter_price": 12897.116003886364
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2018-06-01 00:00:00",
+    "avg_meter_price": 11355.822686169577
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2018-07-01 00:00:00",
+    "avg_meter_price": 10047.837224928824
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2018-08-01 00:00:00",
+    "avg_meter_price": 11379.13220293582
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2018-09-01 00:00:00",
+    "avg_meter_price": 10774.37334427298
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 9357.695454327511
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2018-11-01 00:00:00",
+    "avg_meter_price": 13453.38137472284
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2018-12-01 00:00:00",
+    "avg_meter_price": 12844.418157622358
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2019-01-01 00:00:00",
+    "avg_meter_price": 14113.86430678466
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2019-02-01 00:00:00",
+    "avg_meter_price": 9498.785889287052
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 11909.095892942983
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2019-06-01 00:00:00",
+    "avg_meter_price": 10860.319961859344
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2019-07-01 00:00:00",
+    "avg_meter_price": 12715.614312886371
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2019-08-01 00:00:00",
+    "avg_meter_price": 14516.209979809631
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 10168.181873773296
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 10787.522279721876
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 11696.41693394016
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 4932.377839760355
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 11995.667478396155
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2020-05-01 00:00:00",
+    "avg_meter_price": 10935.85123252126
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 3591.183026500454
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 3836.203051119636
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2020-08-01 00:00:00",
+    "avg_meter_price": 4788.244035333939
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 8467.041972309164
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 12596.052719600071
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 12056.66281589195
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 9321.581255011191
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 10978.0050541891
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 7665.157643996067
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 6944.637517554615
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 11642.250796819191
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2021-05-01 00:00:00",
+    "avg_meter_price": 9050.85103809441
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 9684.30128615026
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 9900.83403413481
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 10731.087435784511
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 9191.460248175154
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 10374.076681379858
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 11127.59767353616
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 11037.429039411712
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 10379.919469842576
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 12007.955486626051
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 10897.422164798518
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 13626.12787383556
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 11000.679927339062
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 11393.57919275266
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 10077.673784765644
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 12663.296372083703
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 10333.759879789475
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 10746.832404224058
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 11096.148679646269
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 12340.781662977028
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 11061.10948046619
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 12048.7641073219
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 8724.146840567264
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 11341.938107314772
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 9814.586027273155
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 11899.706600907872
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 10814.014614405309
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 10741.449270825942
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 11602.742673287034
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 11771.113650928704
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 10761.656115748974
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 11190.533599403368
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 8743.117189526014
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 9684.8111912575
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 9275.844454912709
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 10012.83641218428
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 11383.44519535521
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 12519.163473279134
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 13925.054953299235
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 14770.4741981365
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 13735.402327242378
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 13649.047345994935
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 13850.17607572262
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 14840.696383921915
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 13164.992691323105
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 13420.57572330437
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 13503.483605510391
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 14107.836171243764
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 13827.28896608195
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 13484.514233117065
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 14528.981570418577
+  },
+  {
+    "area_id": 478,
+    "name_en": "Jabal Ali Industrial Second",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 14382.35547920334
+  }
+]

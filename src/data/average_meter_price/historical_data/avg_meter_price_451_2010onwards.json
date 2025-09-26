@@ -1,0 +1,1028 @@
+[
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2010-03-01 00:00:00",
+    "avg_meter_price": 9506.049549840604
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2011-04-01 00:00:00",
+    "avg_meter_price": 10189.68620670207
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2011-07-01 00:00:00",
+    "avg_meter_price": 8656.377791956715
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2011-08-01 00:00:00",
+    "avg_meter_price": 10632.35004401218
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2011-09-01 00:00:00",
+    "avg_meter_price": 8642.467422997845
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2011-10-01 00:00:00",
+    "avg_meter_price": 2605.860128150303
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2011-11-01 00:00:00",
+    "avg_meter_price": 9043.108377766588
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2011-12-01 00:00:00",
+    "avg_meter_price": 9703.903446291308
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2012-01-01 00:00:00",
+    "avg_meter_price": 7405.926946933149
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2012-02-01 00:00:00",
+    "avg_meter_price": 7405.926946933149
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2012-03-01 00:00:00",
+    "avg_meter_price": 6675.0
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 11929.350637864689
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2012-06-01 00:00:00",
+    "avg_meter_price": 8454.960339976624
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2012-07-01 00:00:00",
+    "avg_meter_price": 10552.867886953496
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2012-08-01 00:00:00",
+    "avg_meter_price": 9490.613438850156
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2012-09-01 00:00:00",
+    "avg_meter_price": 10652.255083278727
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2012-10-01 00:00:00",
+    "avg_meter_price": 9456.452933246856
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2012-11-01 00:00:00",
+    "avg_meter_price": 9759.321070411745
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2012-12-01 00:00:00",
+    "avg_meter_price": 8630.733678761619
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2013-01-01 00:00:00",
+    "avg_meter_price": 8695.81769490491
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2013-02-01 00:00:00",
+    "avg_meter_price": 8752.53370812204
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2013-03-01 00:00:00",
+    "avg_meter_price": 8682.41258083783
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2013-04-01 00:00:00",
+    "avg_meter_price": 9094.979430557898
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2013-05-01 00:00:00",
+    "avg_meter_price": 9433.389524059812
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2013-06-01 00:00:00",
+    "avg_meter_price": 9133.598871431384
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2013-07-01 00:00:00",
+    "avg_meter_price": 8612.517833026219
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2013-08-01 00:00:00",
+    "avg_meter_price": 8417.174288148826
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2013-09-01 00:00:00",
+    "avg_meter_price": 8766.980471792962
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2013-10-01 00:00:00",
+    "avg_meter_price": 9532.351731631736
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 8577.361571069354
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2013-12-01 00:00:00",
+    "avg_meter_price": 9082.31020701675
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2014-01-01 00:00:00",
+    "avg_meter_price": 9351.678295513912
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2014-02-01 00:00:00",
+    "avg_meter_price": 9585.9624819638
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 9411.851580989587
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2014-04-01 00:00:00",
+    "avg_meter_price": 9707.886362743504
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2014-05-01 00:00:00",
+    "avg_meter_price": 9033.348346433508
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 9609.985792142936
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2014-07-01 00:00:00",
+    "avg_meter_price": 9789.95194021788
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2014-08-01 00:00:00",
+    "avg_meter_price": 10011.337272954468
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 5623.090349405716
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2014-10-01 00:00:00",
+    "avg_meter_price": 9932.158359281852
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2014-11-01 00:00:00",
+    "avg_meter_price": 10113.867280300768
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 10282.249285586671
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2015-01-01 00:00:00",
+    "avg_meter_price": 9486.27792418779
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 10275.7213163355
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 9825.119848925351
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2015-04-01 00:00:00",
+    "avg_meter_price": 9222.962350553717
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2015-05-01 00:00:00",
+    "avg_meter_price": 9919.277386529338
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 9828.311050780185
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 9562.578766448096
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 9630.246961128652
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2015-09-01 00:00:00",
+    "avg_meter_price": 8555.132922203282
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 10378.021544854464
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 9909.766673846192
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2015-12-01 00:00:00",
+    "avg_meter_price": 9433.860026193115
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 9388.442051225038
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2016-02-01 00:00:00",
+    "avg_meter_price": 9572.337565972755
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2016-03-01 00:00:00",
+    "avg_meter_price": 9477.651222917624
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 9583.535122375642
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 9206.813868923358
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 8731.83470448843
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 8604.490685852388
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 9082.1363963833
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2016-09-01 00:00:00",
+    "avg_meter_price": 9444.062604736142
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 9334.472241733802
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 9168.21140290124
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 9328.203583708746
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 9294.87375233558
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2017-02-01 00:00:00",
+    "avg_meter_price": 9250.213882839556
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 8807.61032310438
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 9276.30747068502
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 9101.558130789328
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 8917.922410739277
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 8136.7540133667235
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 8984.31616200257
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2017-09-01 00:00:00",
+    "avg_meter_price": 9102.29868747178
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 8618.894813380097
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 8502.55842682063
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 8463.688900729536
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2018-01-01 00:00:00",
+    "avg_meter_price": 7439.72000582547
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 11167.459334698511
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2018-03-01 00:00:00",
+    "avg_meter_price": 10594.595761184148
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 9658.957541675072
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2018-05-01 00:00:00",
+    "avg_meter_price": 10754.4994797424
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2018-06-01 00:00:00",
+    "avg_meter_price": 10165.884810064512
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2018-07-01 00:00:00",
+    "avg_meter_price": 10810.787574571536
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2018-08-01 00:00:00",
+    "avg_meter_price": 9775.437918420224
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2018-09-01 00:00:00",
+    "avg_meter_price": 10673.334422070264
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 9439.42532875282
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2018-11-01 00:00:00",
+    "avg_meter_price": 10651.001492155749
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2018-12-01 00:00:00",
+    "avg_meter_price": 9963.55160327324
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2019-01-01 00:00:00",
+    "avg_meter_price": 6646.753944940711
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2019-02-01 00:00:00",
+    "avg_meter_price": 7162.642087457973
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 7262.101314827996
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 6329.878441602527
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2019-05-01 00:00:00",
+    "avg_meter_price": 7465.024834488075
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2019-06-01 00:00:00",
+    "avg_meter_price": 9120.302627160036
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2019-07-01 00:00:00",
+    "avg_meter_price": 8093.884297057477
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2019-08-01 00:00:00",
+    "avg_meter_price": 6882.60266726038
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2019-09-01 00:00:00",
+    "avg_meter_price": 9729.913342603164
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2019-10-01 00:00:00",
+    "avg_meter_price": 6900.826786826164
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 9664.16326289708
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 8706.507231126523
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 9769.979796240055
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 8077.401360147344
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 8011.562772714335
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2020-04-01 00:00:00",
+    "avg_meter_price": 8706.947899318428
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2020-05-01 00:00:00",
+    "avg_meter_price": 5753.450478027211
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 5891.699665445105
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 5132.387789057857
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2020-08-01 00:00:00",
+    "avg_meter_price": 7413.808938673115
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 5576.271222753566
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 5613.921468094532
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 5240.361927064449
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 6231.069092832264
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 6919.572841512279
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 4962.186444258384
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 6672.823746858517
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 6707.012070595037
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2021-05-01 00:00:00",
+    "avg_meter_price": 5095.798352655816
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 4825.008462860919
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 5285.421316034312
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 6694.721658064277
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 6690.642938672804
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 5909.345053271943
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 6626.906534118956
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 4515.272456270755
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 5836.786498633458
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 6735.229399046938
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 8593.53031350924
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 9638.105033106254
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 8346.706044087332
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 9263.46315721346
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 9433.357640368817
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 9342.873644989028
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 8742.854844682992
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 9129.538038129927
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 6947.726762288294
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 7376.53405904313
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 7085.146462961897
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 6977.529724789782
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 7222.817276330606
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 7227.187692145325
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 6808.361614757975
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 7129.035723926267
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 7585.877903774316
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 8373.62040796499
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 9128.087520183575
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 8589.215542139884
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 8708.612889460768
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 8274.30759215669
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 9104.004403495494
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 8861.076876550705
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 16028.48335519346
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 17190.58415092109
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 16749.77306256818
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 14859.695749487324
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 7587.493282625352
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 12439.224957431165
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 16571.533222594084
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 16449.68439891398
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 13612.217253872408
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 14865.374774124624
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 15259.53494477888
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 16070.6079007326
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 12732.489792136554
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 11933.253629236784
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 14393.290722078296
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 16322.393907490632
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 14807.353569927429
+  },
+  {
+    "area_id": 451,
+    "name_en": "Al Hebiah Fifth",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 11717.188746928972
+  }
+]

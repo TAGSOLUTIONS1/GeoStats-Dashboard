@@ -1,0 +1,392 @@
+[
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2010-01-01 00:00:00",
+    "avg_meter_price": 16818.59463823203
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2010-06-01 00:00:00",
+    "avg_meter_price": 14168.988806498844
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2011-12-01 00:00:00",
+    "avg_meter_price": 14370.136826442154
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2012-01-01 00:00:00",
+    "avg_meter_price": 17613.73088176294
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2012-06-01 00:00:00",
+    "avg_meter_price": 12656.730541755383
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2012-09-01 00:00:00",
+    "avg_meter_price": 12538.443340430566
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2012-11-01 00:00:00",
+    "avg_meter_price": 20464.63677409949
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2013-07-01 00:00:00",
+    "avg_meter_price": 18688.93567694164
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2013-09-01 00:00:00",
+    "avg_meter_price": 17033.3569907736
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2014-01-01 00:00:00",
+    "avg_meter_price": 22474.03657353741
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2014-05-01 00:00:00",
+    "avg_meter_price": 15361.686020371066
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2014-07-01 00:00:00",
+    "avg_meter_price": 23657.44026496333
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2014-10-01 00:00:00",
+    "avg_meter_price": 8516.6784953868
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 26242.38702555014
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 23528.458058352124
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 38192.7204674789
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 21527.60268664428
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 12301.286903860711
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2017-09-01 00:00:00",
+    "avg_meter_price": 14194.464158978
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2019-01-01 00:00:00",
+    "avg_meter_price": 19176.72107877928
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2019-02-01 00:00:00",
+    "avg_meter_price": 15850.484977525432
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 17979.65460137213
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 14194.464158978
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 14194.464158978
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 16560.208185474334
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 16323.6337828247
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 17658.079015850486
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 23065.79934699436
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 30163.23633782825
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 23850.13961280524
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 15613.9105748758
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 8611.36346430464
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 28388.928317956
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 18186.325999526853
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 15513.957889756328
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 43634.639325759
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 21291.696238467
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 22474.568251715165
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 21291.696238467
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 22113.42304504164
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 20196.181284481285
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 21528.27064111663
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 29843.357813262617
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 28888.31443281188
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 14194.464158978
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 23946.06103619588
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 28152.353915306365
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 23657.44026496333
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 27206.056304707832
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 13883.465660115406
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 22627.481814670697
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 43634.639325759
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 20677.482882263488
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 32153.04118937682
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 29756.32836527088
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 29571.80033120417
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 29571.80033120417
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 33646.03979536116
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 34566.10009640308
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 41802.1592725703
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 43634.639325759
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 36629.12052315298
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 4804.963330967589
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 43634.639325759
+  },
+  {
+    "area_id": 271,
+    "name_en": "Al Karama",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 32870.41994176697
+  }
+]

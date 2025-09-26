@@ -1,0 +1,26 @@
+[
+  {
+    "area_id": 504,
+    "name_en": "Madinat Hind 3",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 504,
+    "name_en": "Madinat Hind 3",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 1614.2629096192134
+  },
+  {
+    "area_id": 504,
+    "name_en": "Madinat Hind 3",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 504,
+    "name_en": "Madinat Hind 3",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 1972.9880006457047
+  }
+]

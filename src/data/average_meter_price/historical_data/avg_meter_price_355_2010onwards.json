@@ -1,0 +1,26 @@
+[
+  {
+    "area_id": 355,
+    "name_en": "Al Nahda First",
+    "instance_date": "2011-05-01 00:00:00",
+    "avg_meter_price": 3659.723238812011
+  },
+  {
+    "area_id": 355,
+    "name_en": "Al Nahda First",
+    "instance_date": "2012-02-01 00:00:00",
+    "avg_meter_price": 3875.001076389188
+  },
+  {
+    "area_id": 355,
+    "name_en": "Al Nahda First",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 7534.747015160824
+  },
+  {
+    "area_id": 355,
+    "name_en": "Al Nahda First",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 7116.644170163706
+  }
+]

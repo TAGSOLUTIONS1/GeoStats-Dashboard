@@ -1,0 +1,1082 @@
+[
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2010-01-01 00:00:00",
+    "avg_meter_price": 3699.8507230363375
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2010-02-01 00:00:00",
+    "avg_meter_price": 1780.7800718228443
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2010-03-01 00:00:00",
+    "avg_meter_price": 3268.982931145116
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2010-04-01 00:00:00",
+    "avg_meter_price": 3153.538403617731
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2010-05-01 00:00:00",
+    "avg_meter_price": 2951.3888888888887
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2010-06-01 00:00:00",
+    "avg_meter_price": 2456.0991022512653
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2010-08-01 00:00:00",
+    "avg_meter_price": 2354.603249352484
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2010-09-01 00:00:00",
+    "avg_meter_price": 2777.447847435965
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2010-10-01 00:00:00",
+    "avg_meter_price": 1790.4663214041775
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2010-11-01 00:00:00",
+    "avg_meter_price": 1614.5872576773625
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2010-12-01 00:00:00",
+    "avg_meter_price": 2536.9792619548684
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2011-01-01 00:00:00",
+    "avg_meter_price": 2153.037609839993
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2011-02-01 00:00:00",
+    "avg_meter_price": 2092.988488563313
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2011-03-01 00:00:00",
+    "avg_meter_price": 2218.8638025500986
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2011-05-01 00:00:00",
+    "avg_meter_price": 2003.3379505469743
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2011-06-01 00:00:00",
+    "avg_meter_price": 1581.001076426265
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2011-07-01 00:00:00",
+    "avg_meter_price": 2044.024561901248
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2011-08-01 00:00:00",
+    "avg_meter_price": 1968.1970565607023
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2011-09-01 00:00:00",
+    "avg_meter_price": 1846.7820719094616
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2011-10-01 00:00:00",
+    "avg_meter_price": 3519.629873896188
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2011-11-01 00:00:00",
+    "avg_meter_price": 2775.0681153082846
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2012-01-01 00:00:00",
+    "avg_meter_price": 1948.850697135421
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2012-02-01 00:00:00",
+    "avg_meter_price": 2143.808768406469
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2012-03-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2012-04-01 00:00:00",
+    "avg_meter_price": 2064.0260892897686
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 2391.867649990034
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2012-06-01 00:00:00",
+    "avg_meter_price": 3425.897372207799
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2012-07-01 00:00:00",
+    "avg_meter_price": 2011.1483756303803
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2012-08-01 00:00:00",
+    "avg_meter_price": 2299.138772908713
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2012-09-01 00:00:00",
+    "avg_meter_price": 3456.465267990409
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2012-10-01 00:00:00",
+    "avg_meter_price": 2542.767747547021
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2012-11-01 00:00:00",
+    "avg_meter_price": 3030.160108997317
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2012-12-01 00:00:00",
+    "avg_meter_price": 3093.8853574843897
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2013-01-01 00:00:00",
+    "avg_meter_price": 4171.135740674533
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2013-02-01 00:00:00",
+    "avg_meter_price": 1810.8053406814336
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2013-03-01 00:00:00",
+    "avg_meter_price": 2719.7271897150567
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2013-04-01 00:00:00",
+    "avg_meter_price": 2860.706770281088
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2013-05-01 00:00:00",
+    "avg_meter_price": 2452.7790742526304
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2013-06-01 00:00:00",
+    "avg_meter_price": 3545.4638883164234
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2013-07-01 00:00:00",
+    "avg_meter_price": 2951.408662207744
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2013-08-01 00:00:00",
+    "avg_meter_price": 3296.744935721091
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2013-09-01 00:00:00",
+    "avg_meter_price": 4123.813145073555
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2013-10-01 00:00:00",
+    "avg_meter_price": 2599.0780031982163
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 2996.1518144924626
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2013-12-01 00:00:00",
+    "avg_meter_price": 3761.52689170734
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2014-01-01 00:00:00",
+    "avg_meter_price": 3779.106693594312
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2014-02-01 00:00:00",
+    "avg_meter_price": 3393.984801442077
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 3022.1814782295755
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2014-04-01 00:00:00",
+    "avg_meter_price": 3110.2824943214227
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2014-05-01 00:00:00",
+    "avg_meter_price": 3462.532503641921
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 3893.268819064112
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2014-07-01 00:00:00",
+    "avg_meter_price": 2551.8442906574664
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2014-08-01 00:00:00",
+    "avg_meter_price": 5381.970399162805
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 3700.425947811322
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2014-10-01 00:00:00",
+    "avg_meter_price": 4116.799220527816
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2014-11-01 00:00:00",
+    "avg_meter_price": 4150.359718653012
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 3656.4720417103817
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2015-01-01 00:00:00",
+    "avg_meter_price": 3322.666230721567
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 7763.626072762044
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 3257.4484629835747
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2015-04-01 00:00:00",
+    "avg_meter_price": 4326.242799853414
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2015-05-01 00:00:00",
+    "avg_meter_price": 4389.292511744161
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 3446.4060266006018
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 4894.478697237484
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 3362.7034364011342
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2015-09-01 00:00:00",
+    "avg_meter_price": 2661.847153577633
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2015-10-01 00:00:00",
+    "avg_meter_price": 4474.247586894076
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 4859.69294772638
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2015-12-01 00:00:00",
+    "avg_meter_price": 3628.452496032709
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 3344.459205274061
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2016-02-01 00:00:00",
+    "avg_meter_price": 2933.267997109997
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 3143.076034213624
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 2510.191205905106
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 3221.021769844648
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 3625.7722826676463
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 3477.5316721241543
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2016-09-01 00:00:00",
+    "avg_meter_price": 3621.30163369418
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 3947.979190178198
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 3425.6402582473875
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 4515.249063244634
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 3060.0285638565247
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2017-02-01 00:00:00",
+    "avg_meter_price": 4238.890849617262
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 3104.6028451272905
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 3450.437417974329
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 4219.758310966726
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 4502.908578620641
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 4627.707973938976
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2017-09-01 00:00:00",
+    "avg_meter_price": 5492.517651051702
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 2958.605034556704
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 2803.1374691007386
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 3646.1064546142807
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2018-01-01 00:00:00",
+    "avg_meter_price": 3970.9511381620814
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 2391.7707933447523
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2018-03-01 00:00:00",
+    "avg_meter_price": 4004.492530901892
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 4669.917258187852
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2018-05-01 00:00:00",
+    "avg_meter_price": 3930.139701399314
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2018-06-01 00:00:00",
+    "avg_meter_price": 3191.738748758315
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2018-07-01 00:00:00",
+    "avg_meter_price": 3240.685766006212
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2018-08-01 00:00:00",
+    "avg_meter_price": 2757.587972951171
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2018-09-01 00:00:00",
+    "avg_meter_price": 3129.5160633594573
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 3391.759187048275
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2018-11-01 00:00:00",
+    "avg_meter_price": 2399.419675241337
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2018-12-01 00:00:00",
+    "avg_meter_price": 2801.983937424732
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2019-01-01 00:00:00",
+    "avg_meter_price": 3089.155441303528
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2019-02-01 00:00:00",
+    "avg_meter_price": 2421.893921046258
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 2690.978762795604
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 3159.949069696531
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2019-05-01 00:00:00",
+    "avg_meter_price": 4058.678718555755
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2019-06-01 00:00:00",
+    "avg_meter_price": 3941.6633819471817
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2019-07-01 00:00:00",
+    "avg_meter_price": 3369.741033765877
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2019-10-01 00:00:00",
+    "avg_meter_price": 3565.289292574415
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 4141.127223800269
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 2918.900750916648
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 3737.479443863059
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 2489.751603265746
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 2092.9251575509456
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2020-04-01 00:00:00",
+    "avg_meter_price": 3969.321851453176
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 2438.696222543644
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 3068.0358425206746
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2020-08-01 00:00:00",
+    "avg_meter_price": 1343.3709934717256
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 3232.336735264511
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 1580.52789631737
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 2807.6495723356584
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 3340.981233588885
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 2788.155444337601
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 3253.748398840404
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 2912.195633990036
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 3246.822629755797
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2021-05-01 00:00:00",
+    "avg_meter_price": 2353.4279074099964
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 5980.14591556034
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 3309.794430223156
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 5139.820151144799
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 3022.48360579206
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 2638.382493688483
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 2199.4251476394866
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 3904.918522948124
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 3391.0912901768384
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 4919.779393331662
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 2797.381168784876
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 3989.0900799404
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 3262.465336305802
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 3793.9143014113993
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 3650.249966955968
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 2961.849297196032
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 2563.0543971958946
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 3812.0783590030064
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 3027.2112733213867
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 3489.693175692091
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 3501.2679108251623
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 4021.6376364306334
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 2973.673251054896
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 3480.8195026519256
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 2765.161323845951
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 3043.8445042011226
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 2274.307210820884
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 2341.4936704713105
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 2902.784136780029
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 3747.886716844378
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 3005.9794183200934
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 3471.9162588103104
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 2427.7395534214565
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 2943.4573785320813
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 2940.1250451600527
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 2979.496897310326
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 3518.548566932783
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 2775.0681153082846
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 3180.8479680947403
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 3177.5478074222965
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 2973.9247569020035
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 3374.96182094233
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 3893.3588975445086
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 2796.241473217785
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 3143.185594791877
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 2670.492074183157
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 3094.384438890409
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 3536.574448959637
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 3254.7814460099653
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 3675.900971008753
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 3475.386238375328
+  },
+  {
+    "area_id": 300,
+    "name_en": "Al Rashidiya",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 4148.196217210247
+  }
+]
