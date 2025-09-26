@@ -36,7 +36,7 @@ const DataPointItem = ({
             type="radio"
             name="dataPoint"
             value={item.id}
-            checked={item.isSelected}
+            checked={item.isSelected && !item.isPremium}
             disabled={item.isPremium}
             onChange={() => onItemClick(item)}
             className=""
