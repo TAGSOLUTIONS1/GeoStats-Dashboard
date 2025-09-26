@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { X } from "lucide-react";
 import { motion } from "framer-motion";
+import dummyData from "../../data/average_meter_price/forecasts/lgbm/forecast_area_464_2010onwards.json";
 
 const GraphModal = ({ isOpen, onClose, series, placeName }) => {
   const [tooltip, setTooltip] = useState(null);
@@ -8,18 +9,19 @@ const GraphModal = ({ isOpen, onClose, series, placeName }) => {
   const [showTrend, setShowTrend] = useState(true);
   const [showLabels, setShowLabels] = useState(false);
 
-  // console.log("GraphModal render - placeName:", series);
-  // Transform series data
-  const dataPoints = useMemo(() => {
-    return series.map((item) => ({
-      x: new Date(item.ds),
-      y: parseFloat(item.yhat),
-      date: item.ds,
-      name: item.name_en,
-      areaId: item.area_id,
-    }));
-  }, [series]);
+  const activeSeries = series.length > 0 ? series : dummyData;
 
+  const dataPoints = useMemo(() => {
+      return activeSeries.map((item) => ({
+        x: new Date(item.ds),
+        y: parseFloat(item.yhat),
+        date: item.ds,
+        name: item.name_en,
+        areaId: item.area_id,
+      }));
+    }, [activeSeries]);
+  // console.log("GraphModal render - placeName:", series);
+    
   // Dimensions
   const width = 760;
   const height = 360;
@@ -104,6 +106,8 @@ const GraphModal = ({ isOpen, onClose, series, placeName }) => {
     };
   }, [dataPoints, xMin, xMax, xScale, yScale]);
 
+
+
   return isOpen ? (
     <motion.div
       initial={{ opacity: 0, y: "100%" }}
@@ -174,7 +178,7 @@ const GraphModal = ({ isOpen, onClose, series, placeName }) => {
           </div>
 
           {/* SVG Chart */}
-          {series.length === 0 ? (
+          {activeSeries.length === 0 ? (
           <div className="flex items-center justify-center h-60 text-gray-500 text-sm">
             No forecast data available
           </div>
