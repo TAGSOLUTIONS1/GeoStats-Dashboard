@@ -196,7 +196,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .slider-thumb::-webkit-slider-thumb {
           appearance: none;
           height: 20px;

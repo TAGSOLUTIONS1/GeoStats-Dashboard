@@ -147,6 +147,16 @@ const Layout = ({ children }) => {
     }
   };
 
+  const [series, setSeries] = useState([]);
+
+  useEffect(() => {
+  import("../../data/average_meter_price/forecasts/lgbm/forecast_area_230_2010onwards.json")
+    .then(module => {
+      setSeries(module.default); // JSON is under .default
+    })
+    .catch(err => console.error("Error loading forecast:", err));
+  }, []);
+
   return (
     <div className="flex h-screen bg-gray-50 relative">
       {/* Desktop Sidebar */}
@@ -378,6 +388,7 @@ const Layout = ({ children }) => {
         isOpen={isGraphOpen}
         onClose={() => setIsGraphOpen(false)}
         placeName={graphPlace}
+        series={series}
       />
     </div>
   );
