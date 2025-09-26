@@ -217,10 +217,14 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
             <table className="w-full border-collapse">
               <thead>
                 <tr className=" text-center">
-                  {tableHeaders.map((header) => (
+                  {tableHeaders.map((header, index) => (
                     <th 
                       key={header.key}
-                      className={`border-l border-gray-200 py-2 px-3 font-medium text-sm text-white bg-blue hover:bg-blue-dark ${header.width} relative font-inter`}
+                      className={`border-l border-gray-200 py-2 px-3 font-medium text-sm text-blue-light ${header.width} relative font-inter`}
+                      style={{
+                        background: `linear-gradient(135deg, rgba(168, 85, 247, 0.05) 0%, rgba(59, 130, 246, 0.05) 100%)`,
+                        borderBottom: `3px solid #2A7A8A`,
+                      }}
                     >
                       <div className="flex items-center justify-between w-full">
                         {/* Header Label - No dropdown for first 3 columns */}
@@ -235,7 +239,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                           <div className="flex-1">
                             <button
                               onClick={() => handleDropdownToggle(header.key)}
-                              className="w-full text-left px-2 py-1 hover:bg-blue-light rounded flex items-center justify-between"
+                              className="w-full text-left px-2 py-1 hover:bg-gray-200 rounded flex items-center justify-between"
                             >
                               <span className="text-sm font-medium truncate">
                                 {getColumnHeaderLabel(header.key)}
@@ -254,7 +258,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                           >
                             <button
                               onClick={() => handleSort(header.key)}
-                              className="p-1 hover:bg-blue-light rounded"
+                              className="p-1 hover:bg-gray-200 rounded"
                             >
                               {sortConfig.key === header.key ? (
                                 sortConfig.direction === 'asc' ? (
