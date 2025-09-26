@@ -12,7 +12,7 @@ import GraphModal from '../ui/GraphModal';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedFilter, setSelectedFilter] = useState('Emirate');
+  const [selectedFilter, setSelectedFilter] = useState('Area');
   const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
   const [isTableViewOpen, setIsTableViewOpen] = useState(false);
   const [isTooltipEnabled, setIsTooltipEnabled] = useState(true);
