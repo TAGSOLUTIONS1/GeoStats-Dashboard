@@ -59,12 +59,12 @@ const Map = ({selectedFilter}) => {
             'interpolate',
             ['linear'],
             ['get', 'Population 2019'],
-  0,     '#ffebee', // very light rose
-  1000,  '#ffcdd2', // soft pink
-  5000,  '#ef9a9a', // light red
-  10000, '#e57373', // medium red
-  20000, '#d32f2f', // Emirates red
-  50000, '#b71c1c'  // deep maroon red
+              0,     '#ffebee', // very light rose
+              1000,  '#ffcdd2', // soft pink
+              5000,  '#ef9a9a', // light red
+              10000, '#e57373', // medium red
+              20000, '#d32f2f', // Emirates red
+              50000, '#b71c1c'  // deep maroon red
           ],
           'fill-opacity': 0.7
         }
@@ -89,13 +89,13 @@ const Map = ({selectedFilter}) => {
           layout: {
             // Show Community Name and Population
             'text-field': [
-              'format',
-              ['get', 'CNAME_E'], { 'font-scale': 1.1 },
-              '\n', {},
-              '', {},
-              ['get', 'Population 2019'], { 'font-scale': 1.0 }
-            ],
-            'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+            'format',
+            ['get', 'CNAME_E'], { 'font-scale': 1.1, 'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'] },
+            '\n',
+            ['number-format', ['get', 'Population 2019'], { 'locale': 'en-US' }],
+            { 'font-scale': 1.2, 'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'] }
+          ],
+          'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
             'text-size': 10,
             'text-justify': 'center',
             'text-anchor': 'center',
@@ -123,7 +123,8 @@ const Map = ({selectedFilter}) => {
         let valueLabel = '';
         if (selected === 'population') {
           const val = props['Population 2019'] || props['Population 2018'] || props['Population'] || null;
-          valueLabel = val != null ? `<br/>Population: ${val}` : '';
+          const formatted = new Intl.NumberFormat('en-US').format(val);
+          valueLabel = val != null ? `<br/>Population: ${formatted}` : '';
         }
 
         tooltip.setLngLat(e.lngLat)
