@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "2542.3631054807124",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "2548.543178598553",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "2524.70616278034",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "2537.2592580926125",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "2538.7506541419625",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "2531.677536224689",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "2538.981679911478",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "2547.8081506150465",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "2535.0126454623837",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "2559.4711936756953",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "2547.7554341917294",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "2562.434445935924",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "2558.0742345240637",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "2554.2588506949164",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "2550.9175215812334",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "2548.141169902997",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "2542.287992376884",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "2542.79785996371",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "2545.278422305715",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "2549.55875433424",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "2555.143078612861",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "2559.416857404216",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "2561.4287298503878",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "2560.562738530029",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "2557.811224380167",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "2554.2625858449237",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "2550.8178513511757",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "2547.951678237232",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "2542.2426010520953",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "2542.6771394185316",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "2545.094838345275",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "2549.5374214097815",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "2554.958399132717",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "2559.4279222223136",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "2561.3755882027035",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "2560.5680791827153",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "2557.8130302174795",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "2554.264432410176",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "2550.818698103696",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "2547.9542469120174",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "2542.2442551074096",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "2542.6781092610213",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "2545.0969150532696",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "2549.5375044576285",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "2554.959515888242",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "2559.4278725226436",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "2561.375787350567",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "2560.5680471046676",
+    "area_id": "306",
+    "name_en": "Al Twar Fourth"
+  }
+]

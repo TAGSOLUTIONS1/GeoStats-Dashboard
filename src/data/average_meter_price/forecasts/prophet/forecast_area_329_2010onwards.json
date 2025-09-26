@@ -1,0 +1,1506 @@
+[
+  {
+    "ds": "2010-01-01",
+    "yhat": "15531.719853091638",
+    "yhat_lower": "11112.920955412037",
+    "yhat_upper": "19971.34413697685",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2010-02-01",
+    "yhat": "16202.746110575366",
+    "yhat_lower": "11800.685797841003",
+    "yhat_upper": "20622.986540969756",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2010-04-01",
+    "yhat": "16582.173426241246",
+    "yhat_lower": "12062.458899007432",
+    "yhat_upper": "20844.237429648605",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "15073.920815699043",
+    "yhat_lower": "10685.079900080174",
+    "yhat_upper": "19426.340618379934",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2010-07-01",
+    "yhat": "15416.668725771675",
+    "yhat_lower": "10853.776425862641",
+    "yhat_upper": "19746.849252163916",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2010-10-01",
+    "yhat": "18130.747885142395",
+    "yhat_lower": "13879.420648294024",
+    "yhat_upper": "22561.57710416301",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2010-12-01",
+    "yhat": "16246.137913181848",
+    "yhat_lower": "11932.718489512295",
+    "yhat_upper": "20593.428369110912",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2011-01-01",
+    "yhat": "15387.58655893095",
+    "yhat_lower": "11107.540428991882",
+    "yhat_upper": "19886.09208350717",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2011-02-01",
+    "yhat": "15983.71729589448",
+    "yhat_lower": "11461.56993203451",
+    "yhat_upper": "20273.109962579783",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "15576.543532661726",
+    "yhat_lower": "10925.120321715047",
+    "yhat_upper": "20216.154795565963",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2011-04-01",
+    "yhat": "16097.333384190291",
+    "yhat_lower": "11557.609700570258",
+    "yhat_upper": "20641.162295202983",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "14751.962741745827",
+    "yhat_lower": "10445.696249939889",
+    "yhat_upper": "19137.805004367514",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2011-07-01",
+    "yhat": "15318.76539986609",
+    "yhat_lower": "10856.878106358843",
+    "yhat_upper": "19670.261903106966",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "16535.526786181126",
+    "yhat_lower": "12262.334647350996",
+    "yhat_upper": "21149.6913499344",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "15882.410155155681",
+    "yhat_lower": "11370.522204962408",
+    "yhat_upper": "20083.921440264832",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "17586.814516969953",
+    "yhat_lower": "13096.901652515537",
+    "yhat_upper": "21897.76924598825",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "15892.619466652788",
+    "yhat_lower": "11487.57012084874",
+    "yhat_upper": "20230.668341205874",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "15245.542463992193",
+    "yhat_lower": "11022.845439962997",
+    "yhat_upper": "19590.76779776665",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "15762.610863480835",
+    "yhat_lower": "11488.845399258289",
+    "yhat_upper": "20199.55568464884",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "15253.967989255909",
+    "yhat_lower": "10895.649694279535",
+    "yhat_upper": "19702.597545403132",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "16433.745281305863",
+    "yhat_lower": "12054.335213531023",
+    "yhat_upper": "20739.023714814062",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "16152.42543396999",
+    "yhat_lower": "11680.03227803121",
+    "yhat_upper": "20777.322161102125",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "14611.99965459992",
+    "yhat_lower": "10037.362286013386",
+    "yhat_upper": "18480.37690849593",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "16215.128461195964",
+    "yhat_lower": "11953.657628413392",
+    "yhat_upper": "20432.143173805045",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "14766.628421279795",
+    "yhat_lower": "10298.55951281055",
+    "yhat_upper": "19143.325142445905",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "15841.86850887986",
+    "yhat_lower": "11418.797757486593",
+    "yhat_upper": "20029.091898487404",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "14561.272289444545",
+    "yhat_lower": "10213.604855362852",
+    "yhat_upper": "18500.800618834197",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "15302.99015962653",
+    "yhat_lower": "10861.764243139873",
+    "yhat_upper": "19979.51989995275",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "14993.097155190804",
+    "yhat_lower": "10733.84340270338",
+    "yhat_upper": "19432.773865116156",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "15949.830623879176",
+    "yhat_lower": "11322.216561524427",
+    "yhat_upper": "20458.38744042352",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "15908.684941953057",
+    "yhat_lower": "11782.674287842414",
+    "yhat_upper": "20091.141839274005",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "14282.708531968754",
+    "yhat_lower": "10012.81452387353",
+    "yhat_upper": "18446.047668105606",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "14398.533507864933",
+    "yhat_lower": "10075.510319921497",
+    "yhat_upper": "18360.58562940209",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "15953.06535706334",
+    "yhat_lower": "11480.936078988512",
+    "yhat_upper": "20448.774716659544",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "15234.428208934169",
+    "yhat_lower": "10933.0871175473",
+    "yhat_upper": "19950.79269220513",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "17557.634937172068",
+    "yhat_lower": "13308.791574128392",
+    "yhat_upper": "21791.176227399836",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "14591.685409012067",
+    "yhat_lower": "10466.186039533664",
+    "yhat_upper": "19075.90959523891",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "15484.62538064251",
+    "yhat_lower": "10989.75209875974",
+    "yhat_upper": "19746.22384877977",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "14414.803112577647",
+    "yhat_lower": "10138.771827474977",
+    "yhat_upper": "18595.449410822726",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "15085.79343662994",
+    "yhat_lower": "10667.33306526786",
+    "yhat_upper": "19383.15698962639",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "14728.183183533258",
+    "yhat_lower": "10327.192117979863",
+    "yhat_upper": "18949.77745357202",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "15465.021971417977",
+    "yhat_lower": "11068.569412957535",
+    "yhat_upper": "20101.384584101932",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "15667.293072347087",
+    "yhat_lower": "11216.449103199051",
+    "yhat_upper": "20452.95674600531",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "13956.442076442096",
+    "yhat_lower": "9747.118154623222",
+    "yhat_upper": "18235.672650906465",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "14299.029026959579",
+    "yhat_lower": "9844.234621738276",
+    "yhat_upper": "18498.929859289452",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "15683.538373882493",
+    "yhat_lower": "11342.071414323045",
+    "yhat_upper": "19842.24148312331",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "14994.740792356777",
+    "yhat_lower": "10225.394492190584",
+    "yhat_upper": "19085.436854117037",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "17003.376630935163",
+    "yhat_lower": "12351.625710134802",
+    "yhat_upper": "21357.5657382179",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "14406.84357836302",
+    "yhat_lower": "10278.323631382824",
+    "yhat_upper": "18568.570815268606",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "14250.483749326499",
+    "yhat_lower": "9834.478975174843",
+    "yhat_upper": "18627.11554319569",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "14841.174206129477",
+    "yhat_lower": "10474.164728475345",
+    "yhat_upper": "19194.66287592997",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "14944.436212746925",
+    "yhat_lower": "10694.901565553899",
+    "yhat_upper": "19333.069846972598",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "15388.38219392361",
+    "yhat_lower": "10921.654728319989",
+    "yhat_upper": "19901.258968584025",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "14149.898373529039",
+    "yhat_lower": "9935.706253689597",
+    "yhat_upper": "18672.71462936169",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "15361.197640960349",
+    "yhat_lower": "11171.965076068205",
+    "yhat_upper": "20119.81345826226",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "14702.618893766874",
+    "yhat_lower": "10357.622030009636",
+    "yhat_upper": "19092.847482594683",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "16401.73733670748",
+    "yhat_lower": "11708.330249614723",
+    "yhat_upper": "20634.24465615734",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "14179.799357805132",
+    "yhat_lower": "9470.4596253888",
+    "yhat_upper": "18828.574479008676",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "14696.794251351183",
+    "yhat_lower": "10567.295250463796",
+    "yhat_upper": "18992.120531033972",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "14555.753138808257",
+    "yhat_lower": "10330.906470545444",
+    "yhat_upper": "19237.22904706308",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "14041.949896342618",
+    "yhat_lower": "9230.774444096905",
+    "yhat_upper": "18797.12993752948",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "15216.21093268694",
+    "yhat_lower": "10730.705232328479",
+    "yhat_upper": "19514.008666249607",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "14929.552773378946",
+    "yhat_lower": "10641.935789338886",
+    "yhat_upper": "19110.12224746477",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "13383.607285853253",
+    "yhat_lower": "8922.368623673821",
+    "yhat_upper": "17993.427037206882",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "13264.539693024606",
+    "yhat_lower": "8719.800825050868",
+    "yhat_upper": "17880.434438287535",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "13510.993628065096",
+    "yhat_lower": "9248.48514218112",
+    "yhat_upper": "17828.88014568343",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "14580.892063811112",
+    "yhat_lower": "9912.936721225624",
+    "yhat_upper": "18717.66413590441",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "13294.7761374565",
+    "yhat_lower": "8687.332387744018",
+    "yhat_upper": "17857.513615214062",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "14030.970049692447",
+    "yhat_lower": "9525.757814343817",
+    "yhat_upper": "18453.32532415369",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "13716.088486455392",
+    "yhat_lower": "9539.575170250784",
+    "yhat_upper": "17943.829128954192",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "14667.29890789683",
+    "yhat_lower": "10387.542983284013",
+    "yhat_upper": "19002.764630620164",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "14620.808341541964",
+    "yhat_lower": "10450.52787749673",
+    "yhat_upper": "19105.237277375796",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "12989.308869839298",
+    "yhat_lower": "8554.404350877661",
+    "yhat_upper": "17328.285254444156",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "13099.789583459611",
+    "yhat_lower": "8831.75288829499",
+    "yhat_upper": "17353.977887889378",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "14648.799028302785",
+    "yhat_lower": "10397.16081299468",
+    "yhat_upper": "19100.928548406435",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "16242.501941777018",
+    "yhat_lower": "11714.34539114886",
+    "yhat_upper": "20371.456660426873",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "13271.03000867633",
+    "yhat_lower": "8635.284740235635",
+    "yhat_upper": "17460.556206386962",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "14158.658970192128",
+    "yhat_lower": "9896.608786265759",
+    "yhat_upper": "18590.778670627315",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "13083.348658341496",
+    "yhat_lower": "8645.513998627865",
+    "yhat_upper": "17439.73356763813",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "13748.850938609943",
+    "yhat_lower": "9086.681547979902",
+    "yhat_upper": "17988.747540015644",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "14117.764878284961",
+    "yhat_lower": "9820.972405840868",
+    "yhat_upper": "18629.619437258687",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "14314.851154898517",
+    "yhat_lower": "9791.321569356043",
+    "yhat_upper": "18596.1549007761",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "12598.642507200546",
+    "yhat_lower": "8171.678244406538",
+    "yhat_upper": "16875.81108748245",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "12936.044633401769",
+    "yhat_lower": "8522.906154777611",
+    "yhat_upper": "17400.158565039343",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "13034.952142731185",
+    "yhat_lower": "8691.695925240972",
+    "yhat_upper": "17450.268943259278",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "13738.25032937837",
+    "yhat_lower": "9585.019301590262",
+    "yhat_upper": "18091.924862016727",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "13464.78176075615",
+    "yhat_lower": "9181.370160374674",
+    "yhat_upper": "17932.777441501185",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "13052.618600146492",
+    "yhat_lower": "8719.1751156259",
+    "yhat_upper": "17711.58344649203",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "13567.884475929539",
+    "yhat_lower": "9192.279737056597",
+    "yhat_upper": "18007.275001260576",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "14011.749461454714",
+    "yhat_lower": "9412.850366272321",
+    "yhat_upper": "18276.93705346633",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "15024.756341011678",
+    "yhat_lower": "10321.369406994294",
+    "yhat_upper": "19491.87241375802",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "12802.756505882502",
+    "yhat_lower": "8401.636923708298",
+    "yhat_upper": "17586.88213796244",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "12667.090563508997",
+    "yhat_lower": "8469.506600259785",
+    "yhat_upper": "17304.4739573712",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "13178.634990602864",
+    "yhat_lower": "8870.247970366605",
+    "yhat_upper": "17676.303576539165",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "13552.41221997863",
+    "yhat_lower": "9344.990918025771",
+    "yhat_upper": "17911.923270402054",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "12006.462467558877",
+    "yhat_lower": "7562.713948999431",
+    "yhat_upper": "16287.09238660277",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "11887.390747415502",
+    "yhat_lower": "7343.74202007145",
+    "yhat_upper": "16081.927566423567",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "12840.644960447635",
+    "yhat_lower": "8805.126788477797",
+    "yhat_upper": "17124.019623400447",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "11917.601877640685",
+    "yhat_lower": "7264.460737660716",
+    "yhat_upper": "16089.439607167484",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "12653.795808645786",
+    "yhat_lower": "8163.907238998619",
+    "yhat_upper": "17019.919562022347",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "12338.914262361548",
+    "yhat_lower": "7914.179287789904",
+    "yhat_upper": "16876.797514435515",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "13290.124702573601",
+    "yhat_lower": "8626.82236246274",
+    "yhat_upper": "17430.164130996214",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "13243.634154379388",
+    "yhat_lower": "9117.326537662666",
+    "yhat_upper": "17368.801812759324",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "11612.134717647861",
+    "yhat_lower": "7226.166408654652",
+    "yhat_upper": "16053.953996551543",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "11722.615465109368",
+    "yhat_lower": "7388.9392471661695",
+    "yhat_upper": "16225.018737510445",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "13271.624944925317",
+    "yhat_lower": "8726.496113889116",
+    "yhat_upper": "17746.398597293108",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "12547.465427409974",
+    "yhat_lower": "8278.457018944535",
+    "yhat_upper": "16946.85890273271",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "14865.327927211722",
+    "yhat_lower": "10403.029523266387",
+    "yhat_upper": "19703.925531041165",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "11893.856031405518",
+    "yhat_lower": "7343.7396632580385",
+    "yhat_upper": "16272.602529368702",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "12781.485029013711",
+    "yhat_lower": "8414.12941371865",
+    "yhat_upper": "17205.46356571906",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "11706.174754458512",
+    "yhat_lower": "7216.107206780821",
+    "yhat_upper": "16385.55840377444",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "12371.677072019673",
+    "yhat_lower": "7955.786943968495",
+    "yhat_upper": "16590.454375706",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "12009.109910542447",
+    "yhat_lower": "7672.357321812114",
+    "yhat_upper": "16460.42495481037",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "12937.677397097237",
+    "yhat_lower": "8745.532618186438",
+    "yhat_upper": "17212.84184399742",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "11221.468786929378",
+    "yhat_lower": "6985.524278096549",
+    "yhat_upper": "15631.271140416236",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "11558.870949449334",
+    "yhat_lower": "6677.582939041755",
+    "yhat_upper": "15896.641897492196",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "12941.135469637886",
+    "yhat_lower": "8497.284768229852",
+    "yhat_upper": "17428.823078914706",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "12250.093061380978",
+    "yhat_lower": "7747.8362299447745",
+    "yhat_upper": "16361.700134129083",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "14256.556486991052",
+    "yhat_lower": "10111.139060091531",
+    "yhat_upper": "18700.126604467678",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "11657.778607688477",
+    "yhat_lower": "7352.96270198208",
+    "yhat_upper": "16067.428198301013",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "12361.076830991491",
+    "yhat_lower": "7773.104402219601",
+    "yhat_upper": "16870.23111022177",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "11497.0015389509",
+    "yhat_lower": "6904.777317558366",
+    "yhat_upper": "15955.816389491714",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "12087.608338124459",
+    "yhat_lower": "8132.474735121128",
+    "yhat_upper": "16303.320524464989",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "11675.445211727138",
+    "yhat_lower": "7303.0007093430595",
+    "yhat_upper": "16028.016040888075",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "12190.71112538721",
+    "yhat_lower": "8184.540291066994",
+    "yhat_upper": "16692.757392054915",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "12634.576147569633",
+    "yhat_lower": "8176.028050308048",
+    "yhat_upper": "16918.367983969023",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "10834.47079875467",
+    "yhat_lower": "6409.239083910938",
+    "yhat_upper": "15203.057641309626",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "11395.927710552178",
+    "yhat_lower": "7122.251996998831",
+    "yhat_upper": "15753.468561217922",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "12607.16515900032",
+    "yhat_lower": "8198.109445969296",
+    "yhat_upper": "16845.882854424064",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "11948.524592823976",
+    "yhat_lower": "7585.097513333972",
+    "yhat_upper": "16515.633406530174",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "13647.583210943352",
+    "yhat_lower": "9198.303870645308",
+    "yhat_upper": "18369.21925622237",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "11425.583413057617",
+    "yhat_lower": "6962.383695507106",
+    "yhat_upper": "15878.93999256331",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "11942.51848178099",
+    "yhat_lower": "7552.593585335197",
+    "yhat_upper": "16387.92220901163",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "11289.917543967107",
+    "yhat_lower": "7099.895803668365",
+    "yhat_upper": "15303.781593574698",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "11801.462008307126",
+    "yhat_lower": "7139.887019519591",
+    "yhat_upper": "16202.604310530836",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "11287.651580890017",
+    "yhat_lower": "6872.934276782408",
+    "yhat_upper": "15673.652376645186",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "12461.904936770836",
+    "yhat_lower": "8083.62880496923",
+    "yhat_upper": "16951.062197298055",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "12175.239344753894",
+    "yhat_lower": "7542.205856860351",
+    "yhat_upper": "16760.13731569804",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "10629.289629214547",
+    "yhat_lower": "6234.957681872115",
+    "yhat_upper": "14624.278071939943",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "12221.54875739645",
+    "yhat_lower": "7798.490923350037",
+    "yhat_upper": "16488.68860289017",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "11463.472231550995",
+    "yhat_lower": "7323.678564116236",
+    "yhat_upper": "15658.696322052616",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "14096.438943440311",
+    "yhat_lower": "9685.602678641002",
+    "yhat_upper": "18516.037035026784",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "10756.65510413375",
+    "yhat_lower": "6341.451892325135",
+    "yhat_upper": "14928.013926335214",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "11826.549448251697",
+    "yhat_lower": "7638.67932308595",
+    "yhat_upper": "16281.857541054758",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "10540.429293884199",
+    "yhat_lower": "5991.21965840158",
+    "yhat_upper": "14536.848576524619",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "11276.623229135128",
+    "yhat_lower": "6715.300003289997",
+    "yhat_upper": "15807.329391735939",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "10961.741686684061",
+    "yhat_lower": "6313.601616754589",
+    "yhat_upper": "14965.020255091073",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "11912.952131140655",
+    "yhat_lower": "7700.344896713107",
+    "yhat_upper": "16340.47496566896",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "11866.461587055333",
+    "yhat_lower": "7538.202165820938",
+    "yhat_upper": "16211.2213645536",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "10234.962152840926",
+    "yhat_lower": "5768.153408030414",
+    "yhat_upper": "14636.75975392974",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "10345.442902739496",
+    "yhat_lower": "5915.104241180415",
+    "yhat_upper": "14619.965594027452",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "11894.45238507066",
+    "yhat_lower": "7343.539696496258",
+    "yhat_upper": "16229.959817392588",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "11170.292870074521",
+    "yhat_lower": "6558.898309993655",
+    "yhat_upper": "15497.933532547064",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "13488.15537231224",
+    "yhat_lower": "9232.640128777619",
+    "yhat_upper": "18055.17839399845",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "10516.683477287239",
+    "yhat_lower": "6212.705708616095",
+    "yhat_upper": "14908.113034045598",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "11404.312475651375",
+    "yhat_lower": "6850.8143757555545",
+    "yhat_upper": "15677.716923402859",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "10329.002201877407",
+    "yhat_lower": "5966.69045470913",
+    "yhat_upper": "14595.447580718248",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "10994.504520223156",
+    "yhat_lower": "6854.963864473284",
+    "yhat_upper": "15187.735578897316",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "10631.937358745567",
+    "yhat_lower": "6045.462865577749",
+    "yhat_upper": "15100.251630762374",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "11363.418532367124",
+    "yhat_lower": "6806.5980148286635",
+    "yhat_upper": "15848.715273492193",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "11560.504845299376",
+    "yhat_lower": "6902.3358333950955",
+    "yhat_upper": "15678.419436433192",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "9844.296235130549",
+    "yhat_lower": "5205.019762438805",
+    "yhat_upper": "14016.654194128008",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "10181.698397652654",
+    "yhat_lower": "5793.9075122801005",
+    "yhat_upper": "14436.313624752596",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "11563.962917842298",
+    "yhat_lower": "7386.700847625198",
+    "yhat_upper": "15912.044723091867",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "10872.920509583384",
+    "yhat_lower": "6635.421200357575",
+    "yhat_upper": "15296.538029441865",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "12879.383935193815",
+    "yhat_lower": "8282.022314595479",
+    "yhat_upper": "17585.629955928838",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "10280.606055889639",
+    "yhat_lower": "6109.407769522929",
+    "yhat_upper": "14577.7939466662",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "10983.904279193555",
+    "yhat_lower": "6708.150701580255",
+    "yhat_upper": "15470.617269519393",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "10119.828987152581",
+    "yhat_lower": "5741.774201700752",
+    "yhat_upper": "14581.100125849978",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "10710.435786326734",
+    "yhat_lower": "6251.232623982977",
+    "yhat_upper": "15378.530527276765",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "10298.272659930662",
+    "yhat_lower": "5852.7520532019225",
+    "yhat_upper": "14534.011337474782",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "10813.538573589645",
+    "yhat_lower": "6669.534092992811",
+    "yhat_upper": "15122.675047565352",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "11257.40359577111",
+    "yhat_lower": "7098.1963383505135",
+    "yhat_upper": "15721.501717522702",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "9457.29824695689",
+    "yhat_lower": "4903.341346125374",
+    "yhat_upper": "13841.46842551496",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "10018.755158755104",
+    "yhat_lower": "5601.948619927225",
+    "yhat_upper": "14307.244758568448",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "11229.992607204707",
+    "yhat_lower": "6829.825116095711",
+    "yhat_upper": "15684.575459898033",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "10571.352041028224",
+    "yhat_lower": "6178.012578698135",
+    "yhat_upper": "15230.098780941526",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "12270.410659146773",
+    "yhat_lower": "7921.005885036999",
+    "yhat_upper": "16521.62981775815",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "10048.41086125839",
+    "yhat_lower": "5637.177984496439",
+    "yhat_upper": "14511.970165459074",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "10565.345929983941",
+    "yhat_lower": "6195.6625608116",
+    "yhat_upper": "14714.501512320943",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "9912.7449921718",
+    "yhat_lower": "5381.05149169179",
+    "yhat_upper": "14307.050445559162",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "10424.289456510041",
+    "yhat_lower": "5886.944299358066",
+    "yhat_upper": "14930.029075171602",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "9910.47902909347",
+    "yhat_lower": "5945.084133777666",
+    "yhat_upper": "14362.771488720266",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "11084.732384971749",
+    "yhat_lower": "6620.5536781677465",
+    "yhat_upper": "15451.56574217049",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "10798.066792955024",
+    "yhat_lower": "6103.199494214881",
+    "yhat_upper": "15047.906824521293",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "9252.11707741738",
+    "yhat_lower": "4919.471420676704",
+    "yhat_upper": "13541.879114530462",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "9133.04539296153",
+    "yhat_lower": "4879.894827766102",
+    "yhat_upper": "13452.23681424241",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "10844.376205599483",
+    "yhat_lower": "6593.002272157861",
+    "yhat_upper": "15237.630449555229",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  }
+]

@@ -1,0 +1,1530 @@
+[
+  {
+    "ds": "2010-11-01",
+    "yhat": "8172.049616625974",
+    "yhat_lower": "3069.625959976756",
+    "yhat_upper": "13114.68468431951",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2011-01-01",
+    "yhat": "8368.02746135438",
+    "yhat_lower": "3214.0267007583143",
+    "yhat_upper": "13273.932063173603",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "8709.54447977576",
+    "yhat_lower": "3808.218975864546",
+    "yhat_upper": "13667.214086265196",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "8883.594651329166",
+    "yhat_lower": "3707.0027613801526",
+    "yhat_upper": "13953.43771365321",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "7395.670088121582",
+    "yhat_lower": "2421.455147423909",
+    "yhat_upper": "12681.344429635492",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "8289.94079188297",
+    "yhat_lower": "3401.241064654047",
+    "yhat_upper": "13416.020976098092",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "8881.366083577073",
+    "yhat_lower": "3694.0820317017515",
+    "yhat_upper": "13692.62730896902",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "7217.993652810829",
+    "yhat_lower": "2419.1281629975233",
+    "yhat_upper": "12229.674979245121",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "9351.89190857022",
+    "yhat_lower": "4134.235707006807",
+    "yhat_upper": "14678.771726726336",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "8325.40002665649",
+    "yhat_lower": "3040.3045071907027",
+    "yhat_upper": "13134.58504104354",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "8494.362906380973",
+    "yhat_lower": "3362.321958748787",
+    "yhat_upper": "13565.64030038852",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "8954.053600670013",
+    "yhat_lower": "3995.1562389910414",
+    "yhat_upper": "14240.333831327831",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "7553.534202666433",
+    "yhat_lower": "2841.715175524562",
+    "yhat_upper": "12597.830441274114",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "7398.2442294921075",
+    "yhat_lower": "1985.3473790654684",
+    "yhat_upper": "12458.256790494439",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "7797.4573777913765",
+    "yhat_lower": "2463.131046003872",
+    "yhat_upper": "12652.13024266294",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "7547.150412086934",
+    "yhat_lower": "2531.9461816247904",
+    "yhat_upper": "12790.865209974021",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "7577.249604404444",
+    "yhat_lower": "2604.6634530419833",
+    "yhat_upper": "12416.767488069974",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "10108.84506320397",
+    "yhat_lower": "4859.847556989103",
+    "yhat_upper": "15207.261732763587",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "8500.898522325819",
+    "yhat_lower": "3722.313647345039",
+    "yhat_upper": "13636.986842293096",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "9026.706131654284",
+    "yhat_lower": "4179.4570692737825",
+    "yhat_upper": "13955.416593451564",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "7663.481284523323",
+    "yhat_lower": "2689.012910882017",
+    "yhat_upper": "12426.527637268422",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "7577.183707719934",
+    "yhat_lower": "2705.275338959549",
+    "yhat_upper": "12563.410084380603",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "9300.85938614747",
+    "yhat_lower": "4729.083406523176",
+    "yhat_upper": "14195.90805982605",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "7935.259963655391",
+    "yhat_lower": "2877.7381738860363",
+    "yhat_upper": "12997.307725902328",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "7666.2593510104325",
+    "yhat_lower": "2496.6820895565347",
+    "yhat_upper": "12977.3272388248",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "8167.930996157156",
+    "yhat_lower": "3131.0694430175827",
+    "yhat_upper": "13187.750128343376",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "7655.684768252887",
+    "yhat_lower": "2544.595696856505",
+    "yhat_upper": "12451.167197252329",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "8561.856795196012",
+    "yhat_lower": "3608.278062561079",
+    "yhat_upper": "13171.489526464975",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "10157.440993338912",
+    "yhat_lower": "5322.899920356341",
+    "yhat_upper": "15271.749487330375",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "8757.834637910675",
+    "yhat_lower": "3649.572655237347",
+    "yhat_upper": "13779.107201518904",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "8601.088447214132",
+    "yhat_lower": "3523.6186825833624",
+    "yhat_upper": "13761.080465633228",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "9099.351654385911",
+    "yhat_lower": "3847.8738138182066",
+    "yhat_upper": "14390.168601149093",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "7774.709873365482",
+    "yhat_lower": "2788.930911356228",
+    "yhat_upper": "12460.771989286082",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "7754.737938616683",
+    "yhat_lower": "2653.70590705957",
+    "yhat_upper": "12888.267799128977",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "9273.401823208267",
+    "yhat_lower": "4481.600201237059",
+    "yhat_upper": "14268.42684296685",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "8074.92452787368",
+    "yhat_lower": "3185.0652498502177",
+    "yhat_upper": "12610.332883424311",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "7785.477258295387",
+    "yhat_lower": "2850.0483463231226",
+    "yhat_upper": "12858.028381693246",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "8269.44825855769",
+    "yhat_lower": "3396.885097362209",
+    "yhat_upper": "13194.55084966607",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "8679.747953070766",
+    "yhat_lower": "3416.0071323365487",
+    "yhat_upper": "13531.324343416942",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "10205.642755214249",
+    "yhat_lower": "4925.218117218429",
+    "yhat_upper": "14889.203152270413",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "8890.70478252416",
+    "yhat_lower": "4078.940886028525",
+    "yhat_upper": "13983.339475517436",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "8700.928487663274",
+    "yhat_lower": "3707.0103288954533",
+    "yhat_upper": "13741.284435196563",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "7834.695465480547",
+    "yhat_lower": "3141.5165416407217",
+    "yhat_upper": "12817.572415433733",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "7607.800792106613",
+    "yhat_lower": "2725.6890804311543",
+    "yhat_upper": "12403.493392712342",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "9741.699043337441",
+    "yhat_lower": "4779.156064594826",
+    "yhat_upper": "14838.320052602896",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "8051.33444353092",
+    "yhat_lower": "3165.659993792565",
+    "yhat_upper": "12918.692422682578",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "7817.9933534018855",
+    "yhat_lower": "2917.8116680306566",
+    "yhat_upper": "12518.787477039261",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "8352.777660189882",
+    "yhat_lower": "3283.7384953586165",
+    "yhat_upper": "13266.256735238969",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "7888.900890262103",
+    "yhat_lower": "2767.896277059797",
+    "yhat_upper": "12709.056983925066",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "8715.207137566145",
+    "yhat_lower": "3822.6320308871873",
+    "yhat_upper": "13508.079881783777",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "10449.62079406057",
+    "yhat_lower": "5501.783587031175",
+    "yhat_upper": "15491.082553674114",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "8884.170007383835",
+    "yhat_lower": "4080.896261643955",
+    "yhat_upper": "13596.870705263365",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "8790.173522493518",
+    "yhat_lower": "4176.572602496688",
+    "yhat_upper": "13706.531127503986",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "9343.860691203732",
+    "yhat_lower": "4218.188329737112",
+    "yhat_upper": "13968.865189216032",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "7943.34128769969",
+    "yhat_lower": "3394.885127483917",
+    "yhat_upper": "12957.001669927002",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "7788.051308416378",
+    "yhat_lower": "2560.3970528623618",
+    "yhat_upper": "12834.04761939837",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "9716.866588076968",
+    "yhat_lower": "4554.894779588001",
+    "yhat_upper": "14439.795558754065",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "8187.264444292774",
+    "yhat_lower": "3682.436947038823",
+    "yhat_upper": "12998.315255381787",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "7936.957471743808",
+    "yhat_lower": "3243.8656631465046",
+    "yhat_upper": "13288.250229787558",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "8455.575702436907",
+    "yhat_lower": "3449.732151281518",
+    "yhat_upper": "13438.346302344624",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "7967.056650012033",
+    "yhat_lower": "3122.710007289611",
+    "yhat_upper": "12923.222662645137",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "8833.540326955854",
+    "yhat_lower": "3786.5851527112677",
+    "yhat_upper": "13729.569208954616",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "10498.652094162444",
+    "yhat_lower": "5560.315419148129",
+    "yhat_upper": "15627.996679379672",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "9015.52196156549",
+    "yhat_lower": "3776.936416089193",
+    "yhat_upper": "13819.641436606358",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "8890.705538354767",
+    "yhat_lower": "3966.089174118745",
+    "yhat_upper": "13822.684045020122",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "9416.513142854385",
+    "yhat_lower": "4237.822138886684",
+    "yhat_upper": "14229.331121364248",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "8053.288290377484",
+    "yhat_lower": "3119.9778467288475",
+    "yhat_upper": "13090.758514177287",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "7966.990708400998",
+    "yhat_lower": "2847.830101755196",
+    "yhat_upper": "13040.428628236325",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "9690.666381481413",
+    "yhat_lower": "5049.995631227717",
+    "yhat_upper": "14627.25927743375",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "8325.066953135223",
+    "yhat_lower": "3303.8328134093776",
+    "yhat_upper": "13298.968248721938",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "8056.066334396855",
+    "yhat_lower": "3495.567971433086",
+    "yhat_upper": "12863.790316591036",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "8557.737973450856",
+    "yhat_lower": "3346.6649983532743",
+    "yhat_upper": "13307.883164995876",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "8045.49173964995",
+    "yhat_lower": "3154.0543823557323",
+    "yhat_upper": "13389.02588522923",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "8951.663760376503",
+    "yhat_lower": "4215.9786162352875",
+    "yhat_upper": "14208.255565563166",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "10547.247951556554",
+    "yhat_lower": "5590.619716880663",
+    "yhat_upper": "15769.910730490345",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "9147.641588934377",
+    "yhat_lower": "4270.205998596935",
+    "yhat_upper": "14078.936332210287",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "8990.895391043603",
+    "yhat_lower": "4229.869093914111",
+    "yhat_upper": "13731.981318896422",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "9489.158591717056",
+    "yhat_lower": "4637.104452589279",
+    "yhat_upper": "14507.337340958607",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "8164.516805847535",
+    "yhat_lower": "3098.807178110931",
+    "yhat_upper": "13079.98392040801",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "8144.544866254864",
+    "yhat_lower": "3241.5557501825188",
+    "yhat_upper": "13094.610807188972",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "9663.208745841575",
+    "yhat_lower": "4491.265348554527",
+    "yhat_upper": "14547.101428786851",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "8464.731445662568",
+    "yhat_lower": "3578.1320493716134",
+    "yhat_upper": "13476.68612518143",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "8175.284171049789",
+    "yhat_lower": "3421.895661310656",
+    "yhat_upper": "13382.1204003334",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "8659.255168437767",
+    "yhat_lower": "3539.2833402391216",
+    "yhat_upper": "13694.001695244595",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "8124.218161850496",
+    "yhat_lower": "2737.8434295781217",
+    "yhat_upper": "12926.278302268383",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "9069.55485729529",
+    "yhat_lower": "4070.9313071931842",
+    "yhat_upper": "13981.950180699107",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "10595.449656657249",
+    "yhat_lower": "5492.226866327281",
+    "yhat_upper": "15654.500468916116",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "9280.513188153536",
+    "yhat_lower": "4432.358303195097",
+    "yhat_upper": "14075.912026213678",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "9090.738397478552",
+    "yhat_lower": "4251.556261029652",
+    "yhat_upper": "14058.782360897381",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "9660.984550220905",
+    "yhat_lower": "4692.701173486177",
+    "yhat_upper": "14892.060897742027",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "8224.508289685324",
+    "yhat_lower": "3139.565588052974",
+    "yhat_upper": "13249.241300887883",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "7997.615105994332",
+    "yhat_lower": "2905.618830399143",
+    "yhat_upper": "12916.233290746884",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "10131.514896562794",
+    "yhat_lower": "5511.248848249924",
+    "yhat_upper": "15168.676800271003",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "8441.151786440161",
+    "yhat_lower": "3220.7354586405295",
+    "yhat_upper": "13425.722015491614",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "8207.81223602966",
+    "yhat_lower": "3183.4855978391133",
+    "yhat_upper": "13456.496636071464",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "8742.59808253696",
+    "yhat_lower": "3156.755860841079",
+    "yhat_upper": "13453.45362286649",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "8278.722814373705",
+    "yhat_lower": "3453.2803712895634",
+    "yhat_upper": "13391.633343629992",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "9105.030613500945",
+    "yhat_lower": "4039.2716272070425",
+    "yhat_upper": "14445.77273960457",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "10839.445771758954",
+    "yhat_lower": "6315.46029577067",
+    "yhat_upper": "15783.12883224529",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "9273.99653785232",
+    "yhat_lower": "4201.867851253028",
+    "yhat_upper": "14481.22497796736",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "9180.001680120658",
+    "yhat_lower": "4428.121077778056",
+    "yhat_upper": "14321.634275474678",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "9733.690318522276",
+    "yhat_lower": "5060.398795824995",
+    "yhat_upper": "14661.423374666128",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "8333.172542176124",
+    "yhat_lower": "3714.868869477561",
+    "yhat_upper": "13162.389853881248",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "8177.884138347818",
+    "yhat_lower": "3214.795401884064",
+    "yhat_upper": "12877.012463080302",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "10106.701045978654",
+    "yhat_lower": "5204.326529398055",
+    "yhat_upper": "15343.312066543991",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "8577.103184123742",
+    "yhat_lower": "3724.6310270717495",
+    "yhat_upper": "13991.552268105612",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "8326.800636234017",
+    "yhat_lower": "3928.5839904498266",
+    "yhat_upper": "13140.16703243372",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "8845.423291585506",
+    "yhat_lower": "3659.138923483871",
+    "yhat_upper": "14066.809311590361",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "8356.908521669198",
+    "yhat_lower": "3500.314561619038",
+    "yhat_upper": "13439.648388085709",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "9223.396623539807",
+    "yhat_lower": "3930.7513018331156",
+    "yhat_upper": "14220.280893656018",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "10888.512672933779",
+    "yhat_lower": "5703.841497749927",
+    "yhat_upper": "15644.274540727152",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "9405.3869652631",
+    "yhat_lower": "4600.456043655544",
+    "yhat_upper": "14225.759333941303",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "9280.574967019404",
+    "yhat_lower": "4435.618128955053",
+    "yhat_upper": "14581.509366345983",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "9806.386568263866",
+    "yhat_lower": "4848.873999809004",
+    "yhat_upper": "15143.342274474508",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "8443.166160652409",
+    "yhat_lower": "3719.4373506154093",
+    "yhat_upper": "13420.745335279496",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "8356.872880158993",
+    "yhat_lower": "3515.4098427987874",
+    "yhat_upper": "13594.053486177212",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "10080.552998106752",
+    "yhat_lower": "4737.063776317726",
+    "yhat_upper": "15304.614225496693",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "8714.957871923838",
+    "yhat_lower": "3411.4874382806483",
+    "yhat_upper": "13988.12665044793",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "8445.961698755491",
+    "yhat_lower": "3455.0642976342897",
+    "yhat_upper": "13667.131458173915",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "8947.637783379367",
+    "yhat_lower": "4143.194948754287",
+    "yhat_upper": "14337.860639468394",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "8435.395851743235",
+    "yhat_lower": "3605.124835547343",
+    "yhat_upper": "13981.581170799387",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "9341.572318163826",
+    "yhat_lower": "4212.437357860249",
+    "yhat_upper": "14358.513241034805",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "10937.160811628486",
+    "yhat_lower": "6169.015508779323",
+    "yhat_upper": "16020.09850958016",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "9537.558894700109",
+    "yhat_lower": "4690.885116203312",
+    "yhat_upper": "14488.894045359884",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "9380.81714250245",
+    "yhat_lower": "4304.510704944271",
+    "yhat_upper": "14196.59991400165",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "9879.084358641478",
+    "yhat_lower": "4743.036022230766",
+    "yhat_upper": "14563.173321281683",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "8554.44701612102",
+    "yhat_lower": "3780.713904877894",
+    "yhat_upper": "13568.335206210037",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "8534.479376543319",
+    "yhat_lower": "3829.4112300552592",
+    "yhat_upper": "13707.33842799672",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "10053.14769947922",
+    "yhat_lower": "5261.080785376157",
+    "yhat_upper": "14937.533524674769",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "8854.674699314535",
+    "yhat_lower": "3452.058312223819",
+    "yhat_upper": "13608.658875329187",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "8565.231868079876",
+    "yhat_lower": "3546.281728254315",
+    "yhat_upper": "13413.321732327573",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "9049.207308846193",
+    "yhat_lower": "3869.866578608823",
+    "yhat_upper": "14643.744498092672",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "8514.174602302406",
+    "yhat_lower": "3709.349034297671",
+    "yhat_upper": "13481.794289977695",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "9459.515741126042",
+    "yhat_lower": "4361.465602375975",
+    "yhat_upper": "14474.514438030048",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "10985.41484053147",
+    "yhat_lower": "5930.450743642739",
+    "yhat_upper": "16006.301402258605",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "9670.48130834543",
+    "yhat_lower": "4940.448543346721",
+    "yhat_upper": "14659.89630165021",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "9480.709453989133",
+    "yhat_lower": "4887.979876206294",
+    "yhat_upper": "14377.567169279542",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "10050.958353610153",
+    "yhat_lower": "5185.383099488183",
+    "yhat_upper": "15139.357319631265",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "8614.48502939279",
+    "yhat_lower": "3791.55582992098",
+    "yhat_upper": "13241.374649959944",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "8387.594654811739",
+    "yhat_lower": "3395.96597401895",
+    "yhat_upper": "13345.456711749895",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "10521.497348128532",
+    "yhat_lower": "5975.300296245187",
+    "yhat_upper": "15491.266197659574",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "8831.137047115046",
+    "yhat_lower": "4187.6031214179875",
+    "yhat_upper": "13978.555611371774",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "8597.800399451447",
+    "yhat_lower": "3651.1666546314236",
+    "yhat_upper": "13750.660144921058",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "9132.589148705812",
+    "yhat_lower": "4140.301583376167",
+    "yhat_upper": "13963.918053809914",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "8668.716677939825",
+    "yhat_lower": "3707.235029992196",
+    "yhat_upper": "13648.73473506837",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "9495.027367709476",
+    "yhat_lower": "4331.7041612417615",
+    "yhat_upper": "14932.927305058178",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "11229.44532336403",
+    "yhat_lower": "6339.397798169507",
+    "yhat_upper": "16291.968407498096",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "9663.998980100492",
+    "yhat_lower": "4791.149931496536",
+    "yhat_upper": "14570.860129324461",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "9570.00693862328",
+    "yhat_lower": "4548.765345618721",
+    "yhat_upper": "14550.726416811422",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "10123.698120738332",
+    "yhat_lower": "5396.2044048375765",
+    "yhat_upper": "14789.160974503477",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "8723.183160647204",
+    "yhat_lower": "3456.308709003277",
+    "yhat_upper": "13554.936032154908",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "8567.897482226657",
+    "yhat_lower": "3696.0918017676286",
+    "yhat_upper": "13596.905056493471",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "10496.71720611267",
+    "yhat_lower": "5956.806558926038",
+    "yhat_upper": "15589.279570786102",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "8967.119363192032",
+    "yhat_lower": "4208.9376027898425",
+    "yhat_upper": "13963.516603269774",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "8716.816834868527",
+    "yhat_lower": "3929.5713762145897",
+    "yhat_upper": "13732.155147587517",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "9235.43950978689",
+    "yhat_lower": "4595.9435374031655",
+    "yhat_upper": "14397.642722009252",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "8746.92475880594",
+    "yhat_lower": "3847.0933603242065",
+    "yhat_upper": "13704.429374678131",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "9613.412880574757",
+    "yhat_lower": "4542.556679143818",
+    "yhat_upper": "14483.263718756587",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "11278.528949225642",
+    "yhat_lower": "6297.76828718774",
+    "yhat_upper": "15939.496122088649",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "9795.403261452797",
+    "yhat_lower": "5032.435517959143",
+    "yhat_upper": "14712.25234856595",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "9670.591283108255",
+    "yhat_lower": "5301.625044080171",
+    "yhat_upper": "14820.56773300507",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "10196.402902325295",
+    "yhat_lower": "5027.268532107791",
+    "yhat_upper": "15037.666741668283",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "8833.182494714485",
+    "yhat_lower": "3636.308773277075",
+    "yhat_upper": "13790.19051037015",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "8746.8892142208",
+    "yhat_lower": "4118.742099761351",
+    "yhat_upper": "13851.862165259918",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "10470.569332167346",
+    "yhat_lower": "5240.912258839525",
+    "yhat_upper": "14925.495161282268",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "9104.974205985356",
+    "yhat_lower": "4189.101079808167",
+    "yhat_upper": "14028.710486236812",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "8835.978032817513",
+    "yhat_lower": "4007.1643494242007",
+    "yhat_upper": "13675.284266114259",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "9337.654117441429",
+    "yhat_lower": "4688.528487609914",
+    "yhat_upper": "14713.124307881808",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "8825.412185804691",
+    "yhat_lower": "3553.437662032733",
+    "yhat_upper": "13903.121300165982",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "9731.588652225233",
+    "yhat_lower": "4834.75717302031",
+    "yhat_upper": "14416.749727839424",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "11327.177145689675",
+    "yhat_lower": "6503.163309075159",
+    "yhat_upper": "16347.880283981776",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "9927.575228761541",
+    "yhat_lower": "4952.575570189067",
+    "yhat_upper": "15192.288232745685",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "9770.833476564392",
+    "yhat_lower": "5027.479967284964",
+    "yhat_upper": "14476.080535042303",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "10269.10069270307",
+    "yhat_lower": "5779.580324768528",
+    "yhat_upper": "15653.940065078286",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "8944.463350182357",
+    "yhat_lower": "3954.261717466397",
+    "yhat_upper": "13997.361319002961",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "8924.495710604439",
+    "yhat_lower": "3878.0746549241044",
+    "yhat_upper": "13846.430239782363",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "10443.164033540901",
+    "yhat_lower": "5536.830275136718",
+    "yhat_upper": "15269.279909293702",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "9244.691033376577",
+    "yhat_lower": "3808.3807747227465",
+    "yhat_upper": "14323.01269804339",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "8955.248202141898",
+    "yhat_lower": "4194.347567698089",
+    "yhat_upper": "14077.851884093036",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "9439.223642908528",
+    "yhat_lower": "4403.613171862412",
+    "yhat_upper": "14362.715465434476",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "8904.190936363979",
+    "yhat_lower": "4052.477718360077",
+    "yhat_upper": "14411.288870862949",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "9849.532075187242",
+    "yhat_lower": "4952.744663634577",
+    "yhat_upper": "14495.296163730489",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "11375.431174592983",
+    "yhat_lower": "6255.945500088759",
+    "yhat_upper": "16434.057486198177",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "10060.497642407416",
+    "yhat_lower": "4876.22678788201",
+    "yhat_upper": "14897.717412203303",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "9870.725788050868",
+    "yhat_lower": "4479.988743868226",
+    "yhat_upper": "15086.609245726899",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "10440.974687671851",
+    "yhat_lower": "5765.5955672143",
+    "yhat_upper": "15231.614908859858",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "9004.501363454214",
+    "yhat_lower": "3602.871971383305",
+    "yhat_upper": "13950.137313763022",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "8777.610988872628",
+    "yhat_lower": "4023.463604515521",
+    "yhat_upper": "13774.555227075336",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "10911.513682190704",
+    "yhat_lower": "5860.93691855581",
+    "yhat_upper": "15768.537989775565",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "9221.153381176937",
+    "yhat_lower": "4159.714063769161",
+    "yhat_upper": "14094.992374520612",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "8987.81673351351",
+    "yhat_lower": "3864.695401741741",
+    "yhat_upper": "14091.289816637183",
+    "area_id": "462",
+    "name_en": "Madinat Al Mataar"
+  }
+]

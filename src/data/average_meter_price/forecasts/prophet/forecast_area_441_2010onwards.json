@@ -1,0 +1,1794 @@
+[
+  {
+    "ds": "2010-01-01",
+    "yhat": "8034.487541585708",
+    "yhat_lower": "6924.5993892567285",
+    "yhat_upper": "9087.40633518116",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2010-02-01",
+    "yhat": "7588.274220300408",
+    "yhat_lower": "6468.361438070789",
+    "yhat_upper": "8810.151384240547",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2010-03-01",
+    "yhat": "7755.293504901942",
+    "yhat_lower": "6752.167890140615",
+    "yhat_upper": "8889.665079005",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2010-04-01",
+    "yhat": "7891.552007839568",
+    "yhat_lower": "6692.2407129455405",
+    "yhat_upper": "9057.302116936737",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2010-05-01",
+    "yhat": "7892.325534195877",
+    "yhat_lower": "6874.232066403444",
+    "yhat_upper": "9085.709160816305",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "8192.328904227761",
+    "yhat_lower": "7085.936927837654",
+    "yhat_upper": "9337.84254946249",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2010-07-01",
+    "yhat": "8082.190660242079",
+    "yhat_lower": "7006.531258489345",
+    "yhat_upper": "9305.878982641638",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2010-08-01",
+    "yhat": "7939.242197330973",
+    "yhat_lower": "6894.283559795985",
+    "yhat_upper": "9063.202160268309",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2010-09-01",
+    "yhat": "7722.0652809892845",
+    "yhat_lower": "6611.195413179706",
+    "yhat_upper": "8828.043607241367",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2010-10-01",
+    "yhat": "8127.246559186801",
+    "yhat_lower": "6945.03620383051",
+    "yhat_upper": "9277.253204614815",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "7727.935001557594",
+    "yhat_lower": "6589.675119074298",
+    "yhat_upper": "8893.838561411741",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2010-12-01",
+    "yhat": "7961.081129334658",
+    "yhat_lower": "6893.315262609677",
+    "yhat_upper": "9034.613563735813",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2011-01-01",
+    "yhat": "8181.4658996969765",
+    "yhat_lower": "7029.465093135515",
+    "yhat_upper": "9275.791795969228",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2011-02-01",
+    "yhat": "7941.681451842064",
+    "yhat_lower": "6741.019186937691",
+    "yhat_upper": "9049.36301170419",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "7871.089908344175",
+    "yhat_lower": "6807.818499582719",
+    "yhat_upper": "8996.858064000195",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2011-04-01",
+    "yhat": "7903.702451770715",
+    "yhat_lower": "6718.7056826501685",
+    "yhat_upper": "9018.857510224632",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "8236.64257270861",
+    "yhat_lower": "7119.910139149162",
+    "yhat_upper": "9313.470977210616",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "8674.722522869488",
+    "yhat_lower": "7574.997718163506",
+    "yhat_upper": "9809.83270175828",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2011-07-01",
+    "yhat": "8206.805073265848",
+    "yhat_lower": "7028.516703057811",
+    "yhat_upper": "9420.305338563496",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "7962.2171017911105",
+    "yhat_lower": "6771.979892850442",
+    "yhat_upper": "9056.35081509609",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "7831.378577221707",
+    "yhat_lower": "6736.661609563386",
+    "yhat_upper": "8974.82807407547",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "8546.419404187232",
+    "yhat_lower": "7400.394815783974",
+    "yhat_upper": "9765.477855794981",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "7926.593519746669",
+    "yhat_lower": "6830.255054173714",
+    "yhat_upper": "9151.784302208747",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "8181.140750885399",
+    "yhat_lower": "7060.9315493967115",
+    "yhat_upper": "9299.922848308614",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "8329.258259156435",
+    "yhat_lower": "7143.447265664514",
+    "yhat_upper": "9433.18756619852",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "8294.276610004912",
+    "yhat_lower": "7084.764124623655",
+    "yhat_upper": "9407.002303587475",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "8368.148791155145",
+    "yhat_lower": "7235.829804484927",
+    "yhat_upper": "9436.858949629632",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "8732.120058950388",
+    "yhat_lower": "7572.88755810771",
+    "yhat_upper": "9803.246958340495",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "8076.8036844050375",
+    "yhat_lower": "6926.327608127424",
+    "yhat_upper": "9133.985666217191",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "8073.534774905125",
+    "yhat_lower": "6900.878728658311",
+    "yhat_upper": "9158.427978199878",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "8665.522861072819",
+    "yhat_lower": "7597.8933203384895",
+    "yhat_upper": "9655.200228220518",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "8744.303235809819",
+    "yhat_lower": "7604.3508568331445",
+    "yhat_upper": "9802.135670699516",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2012-09-01",
+    "yhat": "8373.80169012658",
+    "yhat_lower": "7229.874219072299",
+    "yhat_upper": "9465.905967573948",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "8149.161258049456",
+    "yhat_lower": "7016.043195392051",
+    "yhat_upper": "9245.352919988964",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "8178.987832100174",
+    "yhat_lower": "7046.385290165593",
+    "yhat_upper": "9268.413246840213",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "8371.820827600823",
+    "yhat_lower": "7274.9540653676195",
+    "yhat_upper": "9504.341499014727",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "8742.273648210376",
+    "yhat_lower": "7584.542780119234",
+    "yhat_upper": "9884.596042893989",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "8088.1657987642875",
+    "yhat_lower": "7011.978413828253",
+    "yhat_upper": "9152.640522309459",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "8490.35257341144",
+    "yhat_lower": "7422.6415768449515",
+    "yhat_upper": "9656.645669155896",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "8737.093215512894",
+    "yhat_lower": "7606.888319065512",
+    "yhat_upper": "9910.118427965332",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "8408.310428656448",
+    "yhat_lower": "7227.328128390205",
+    "yhat_upper": "9503.63324098237",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "8561.14312337241",
+    "yhat_lower": "7426.5016706491415",
+    "yhat_upper": "9729.853494328878",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "8804.447963212187",
+    "yhat_lower": "7724.094133064464",
+    "yhat_upper": "9965.531721836716",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "8769.353802921105",
+    "yhat_lower": "7516.9033617869745",
+    "yhat_upper": "9827.305634303519",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "8472.244313984598",
+    "yhat_lower": "7338.740734873881",
+    "yhat_upper": "9547.969734873517",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "8564.081970496454",
+    "yhat_lower": "7417.940430714305",
+    "yhat_upper": "9697.54887321167",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "8381.374270540853",
+    "yhat_lower": "7280.790692946843",
+    "yhat_upper": "9488.458972157407",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "8593.96489074766",
+    "yhat_lower": "7425.33827569214",
+    "yhat_upper": "9707.213332138974",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "8888.473583290779",
+    "yhat_lower": "7727.682726794921",
+    "yhat_upper": "9970.353338474653",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "8442.260282977617",
+    "yhat_lower": "7323.214591238956",
+    "yhat_upper": "9573.674870156801",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "8609.279586519235",
+    "yhat_lower": "7559.692951644801",
+    "yhat_upper": "9761.432394768719",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "8745.53811038488",
+    "yhat_lower": "7568.117129421797",
+    "yhat_upper": "9892.019097006318",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "8746.311656994758",
+    "yhat_lower": "7621.316987505962",
+    "yhat_upper": "9865.488485338034",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "9046.315047952612",
+    "yhat_lower": "7949.575039379046",
+    "yhat_upper": "10087.068848148194",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "8936.176824219941",
+    "yhat_lower": "7792.185869319052",
+    "yhat_upper": "10121.794518483748",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "8793.228383487743",
+    "yhat_lower": "7655.771932487195",
+    "yhat_upper": "9893.824719597771",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "8576.051489322976",
+    "yhat_lower": "7448.578789123743",
+    "yhat_upper": "9771.445110393935",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "8981.232791953473",
+    "yhat_lower": "7827.604162433666",
+    "yhat_upper": "10069.75841414795",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "8581.921259573683",
+    "yhat_lower": "7501.933260779385",
+    "yhat_upper": "9674.43370505635",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "8815.067411785736",
+    "yhat_lower": "7694.080717565037",
+    "yhat_upper": "9928.299220229217",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "9035.452207428072",
+    "yhat_lower": "7882.719900930245",
+    "yhat_upper": "10046.24778865468",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "8795.667784853486",
+    "yhat_lower": "7722.75029201695",
+    "yhat_upper": "9879.985168743773",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "8724.932014254384",
+    "yhat_lower": "7597.055712842724",
+    "yhat_upper": "9888.657933490833",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "8757.384877678121",
+    "yhat_lower": "7651.016365829194",
+    "yhat_upper": "9902.218528458847",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "9090.17046958045",
+    "yhat_lower": "7969.858834308089",
+    "yhat_upper": "10215.779600055535",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "9528.090739739271",
+    "yhat_lower": "8434.738997411932",
+    "yhat_upper": "10616.77496332191",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "9060.018743893053",
+    "yhat_lower": "7945.629682004717",
+    "yhat_upper": "10181.04412484992",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "8815.271074634942",
+    "yhat_lower": "7664.773125748216",
+    "yhat_upper": "9956.74667541458",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "8684.195338008962",
+    "yhat_lower": "7579.5853524370605",
+    "yhat_upper": "9839.029758415918",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "9399.006604916933",
+    "yhat_lower": "8271.607388275497",
+    "yhat_upper": "10519.989042943034",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "8778.943508417386",
+    "yhat_lower": "7682.68153320272",
+    "yhat_upper": "9905.660200298937",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "9033.261176881251",
+    "yhat_lower": "7941.668469953306",
+    "yhat_upper": "10164.3518375865",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "9181.141470387694",
+    "yhat_lower": "8170.5592916091355",
+    "yhat_upper": "10413.964313081664",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "9145.654941338664",
+    "yhat_lower": "8007.772065422689",
+    "yhat_upper": "10205.62263639484",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "9219.054815489704",
+    "yhat_lower": "8075.377718056825",
+    "yhat_upper": "10386.848883671837",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "9582.52120338738",
+    "yhat_lower": "8496.625396012372",
+    "yhat_upper": "10688.097973949973",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "8926.716235395446",
+    "yhat_lower": "7765.303338968114",
+    "yhat_upper": "10065.53559560589",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "8922.942443705737",
+    "yhat_lower": "7935.4515707093105",
+    "yhat_upper": "9949.162440648883",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "9514.441934205563",
+    "yhat_lower": "8491.39738458723",
+    "yhat_upper": "10600.193281125588",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "9587.221261905985",
+    "yhat_lower": "8408.401429892114",
+    "yhat_upper": "10696.880412273755",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "9210.71866918896",
+    "yhat_lower": "8076.806454992118",
+    "yhat_upper": "10340.976484846567",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "8980.270772238191",
+    "yhat_lower": "7882.897823942938",
+    "yhat_upper": "10132.081045013167",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "9004.096298854256",
+    "yhat_lower": "7837.068512396642",
+    "yhat_upper": "10082.226678313864",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "9191.12182909478",
+    "yhat_lower": "8042.660646146763",
+    "yhat_upper": "10214.475859951193",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "9545.506384407247",
+    "yhat_lower": "8466.754463596359",
+    "yhat_upper": "10669.299839539466",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "8875.330269663884",
+    "yhat_lower": "7782.2108560662",
+    "yhat_upper": "10017.601672288582",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "9263.00377243057",
+    "yhat_lower": "8172.455768524816",
+    "yhat_upper": "10388.45921058763",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "9493.676149234681",
+    "yhat_lower": "8334.4902835319",
+    "yhat_upper": "10599.613785993677",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "9149.343427653708",
+    "yhat_lower": "8053.266414397279",
+    "yhat_upper": "10280.716081996421",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "9286.107856487666",
+    "yhat_lower": "8168.14304503593",
+    "yhat_upper": "10351.180627276008",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "9508.889250250913",
+    "yhat_lower": "8411.968048344097",
+    "yhat_upper": "10575.020188335797",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "9452.587529017484",
+    "yhat_lower": "8316.193705751632",
+    "yhat_upper": "10614.579552917547",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "9134.270479136614",
+    "yhat_lower": "8019.800419245532",
+    "yhat_upper": "10289.936412352734",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "9205.584691036807",
+    "yhat_lower": "8118.431724158905",
+    "yhat_upper": "10305.430025971456",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "9001.669431645034",
+    "yhat_lower": "7896.489143337073",
+    "yhat_upper": "10112.346066618506",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "9193.736607237735",
+    "yhat_lower": "8155.837182543174",
+    "yhat_upper": "10347.354537885427",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "9463.250105380675",
+    "yhat_lower": "8358.72338271817",
+    "yhat_upper": "10605.376587873267",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "8992.041610664122",
+    "yhat_lower": "7823.7870805755665",
+    "yhat_upper": "10080.400641213706",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "9136.484609586352",
+    "yhat_lower": "7949.405970969989",
+    "yhat_upper": "10221.551915523674",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "9247.747939094528",
+    "yhat_lower": "8076.579938290748",
+    "yhat_upper": "10441.617165673866",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "9224.33258793904",
+    "yhat_lower": "8146.286644325138",
+    "yhat_upper": "10413.548598280751",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "9499.340155557216",
+    "yhat_lower": "8437.14148755474",
+    "yhat_upper": "10629.79038069262",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "9365.0124253638",
+    "yhat_lower": "8136.150508086949",
+    "yhat_upper": "10432.629035541477",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "9197.068161291572",
+    "yhat_lower": "8064.356758551517",
+    "yhat_upper": "10350.394240982865",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "8954.895443785383",
+    "yhat_lower": "7772.144417601544",
+    "yhat_upper": "10065.134139707321",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "9335.887236985984",
+    "yhat_lower": "8251.781004562225",
+    "yhat_upper": "10370.35741982594",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "8911.579878193956",
+    "yhat_lower": "7793.327473108297",
+    "yhat_upper": "10078.647887307012",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "9120.536520468975",
+    "yhat_lower": "7964.602228032509",
+    "yhat_upper": "10295.736166258941",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "9315.925489177056",
+    "yhat_lower": "8192.694731358568",
+    "yhat_upper": "10480.511660816652",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "9051.145239666614",
+    "yhat_lower": "7960.523520071308",
+    "yhat_upper": "10179.645665176915",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "8957.97684306314",
+    "yhat_lower": "7873.626909412803",
+    "yhat_upper": "10029.158528461501",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "8965.593584834769",
+    "yhat_lower": "7801.743869372564",
+    "yhat_upper": "10107.322106062024",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "9274.344215956902",
+    "yhat_lower": "8144.124119723049",
+    "yhat_upper": "10368.589378483546",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "9687.428359975122",
+    "yhat_lower": "8556.261226463437",
+    "yhat_upper": "10691.152123410822",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "9195.321403349713",
+    "yhat_lower": "7975.883405808507",
+    "yhat_upper": "10303.069817355961",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "8925.737607949006",
+    "yhat_lower": "7836.669766163134",
+    "yhat_upper": "10105.697345085486",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "8769.903259461551",
+    "yhat_lower": "7615.554088625536",
+    "yhat_upper": "9857.052838454285",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "9460.754579406128",
+    "yhat_lower": "8391.546533132687",
+    "yhat_upper": "10548.433720272953",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "8815.93286707293",
+    "yhat_lower": "7693.295807218341",
+    "yhat_upper": "9953.976047129134",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "9046.290584732555",
+    "yhat_lower": "7968.338693786346",
+    "yhat_upper": "10142.93715717492",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "9169.412262404923",
+    "yhat_lower": "8080.50520319817",
+    "yhat_upper": "10237.216224526492",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "9109.434782657272",
+    "yhat_lower": "7987.199769420444",
+    "yhat_upper": "10378.219194920079",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "9159.923767441278",
+    "yhat_lower": "7972.679301478173",
+    "yhat_upper": "10312.751039505394",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "9498.899201688799",
+    "yhat_lower": "8369.657516676827",
+    "yhat_upper": "10629.054084558229",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "8819.393310812025",
+    "yhat_lower": "7747.920422167733",
+    "yhat_upper": "9978.495015846658",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "8791.128565474357",
+    "yhat_lower": "7664.934467644042",
+    "yhat_upper": "9892.137910608251",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "9358.927133084348",
+    "yhat_lower": "8197.214353324009",
+    "yhat_upper": "10491.361132261982",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "9412.711671982852",
+    "yhat_lower": "8321.925502109749",
+    "yhat_upper": "10443.734971430305",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "9017.214290460783",
+    "yhat_lower": "7968.2696146369835",
+    "yhat_upper": "10050.024407344952",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "8791.100177801016",
+    "yhat_lower": "7675.378048075595",
+    "yhat_upper": "9844.238897295723",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "8819.40394818367",
+    "yhat_lower": "7625.771376896605",
+    "yhat_upper": "9909.897256998527",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "9010.763262713011",
+    "yhat_lower": "7818.846477271965",
+    "yhat_upper": "10196.501892966971",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "9379.693279654723",
+    "yhat_lower": "8183.22192512275",
+    "yhat_upper": "10491.907569208444",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "8724.062626539973",
+    "yhat_lower": "7576.126805681411",
+    "yhat_upper": "9816.158080163452",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "9161.670143468442",
+    "yhat_lower": "8114.603999408097",
+    "yhat_upper": "10301.463357797773",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "9447.626607382845",
+    "yhat_lower": "8269.60173406627",
+    "yhat_upper": "10651.607736376694",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "9156.794615261399",
+    "yhat_lower": "8001.207746512898",
+    "yhat_upper": "10272.002567900223",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "9348.843131208108",
+    "yhat_lower": "8286.270898281675",
+    "yhat_upper": "10388.59377941401",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "9630.098765777082",
+    "yhat_lower": "8537.155059418435",
+    "yhat_upper": "10744.815025191241",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "9634.220426710215",
+    "yhat_lower": "8518.907103288335",
+    "yhat_upper": "10790.939623438268",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "9425.101692243356",
+    "yhat_lower": "8277.505091214174",
+    "yhat_upper": "10564.922311190365",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "9602.091693253413",
+    "yhat_lower": "8481.007834192043",
+    "yhat_upper": "10776.710887218444",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "9507.374749275114",
+    "yhat_lower": "8336.785922303892",
+    "yhat_upper": "10520.798419073788",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "9805.117713976091",
+    "yhat_lower": "8737.593803564088",
+    "yhat_upper": "10971.007769836113",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "10187.617162499064",
+    "yhat_lower": "9053.276480708368",
+    "yhat_upper": "11333.353861691374",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "9829.394618164886",
+    "yhat_lower": "8674.598443141578",
+    "yhat_upper": "11024.871441058182",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "10075.889443236149",
+    "yhat_lower": "9025.014342932593",
+    "yhat_upper": "11191.338888663986",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "10300.138723123007",
+    "yhat_lower": "9229.59491224972",
+    "yhat_upper": "11390.704564079242",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "10386.064614270475",
+    "yhat_lower": "9251.897205827547",
+    "yhat_upper": "11484.24204394668",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "10774.058761248922",
+    "yhat_lower": "9577.456929431708",
+    "yhat_upper": "11851.437912778889",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "10749.072882055714",
+    "yhat_lower": "9653.64485833861",
+    "yhat_upper": "11868.144332658325",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "10694.11519734714",
+    "yhat_lower": "9530.462502928804",
+    "yhat_upper": "11819.639528917274",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "10564.929059202814",
+    "yhat_lower": "9435.993224802934",
+    "yhat_upper": "11699.546434855056",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "11055.262703399256",
+    "yhat_lower": "9893.311754913271",
+    "yhat_upper": "12170.7335136376",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "10743.941923969993",
+    "yhat_lower": "9613.01724356414",
+    "yhat_upper": "11954.988524485701",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "11062.240417747766",
+    "yhat_lower": "9972.88196371726",
+    "yhat_upper": "12225.36416396925",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "11370.615966341215",
+    "yhat_lower": "10211.431259204019",
+    "yhat_upper": "12458.225346334673",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "11218.822296719882",
+    "yhat_lower": "9959.910788817251",
+    "yhat_upper": "12317.349158643683",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "11227.706294849699",
+    "yhat_lower": "10109.264957462048",
+    "yhat_upper": "12298.25108942103",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "11348.309616508051",
+    "yhat_lower": "10267.829795539506",
+    "yhat_upper": "12392.851777700418",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "11766.402103477476",
+    "yhat_lower": "10670.990798581948",
+    "yhat_upper": "12859.493705897105",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "12292.472831872348",
+    "yhat_lower": "11172.797348451237",
+    "yhat_upper": "13476.73496677759",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "11909.707731093175",
+    "yhat_lower": "10806.590550651445",
+    "yhat_upper": "13092.299287491383",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "11753.11052007052",
+    "yhat_lower": "10579.102790354133",
+    "yhat_upper": "12867.333490001094",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "11710.262755958187",
+    "yhat_lower": "10600.524070739879",
+    "yhat_upper": "12764.414972050523",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "12510.455931748598",
+    "yhat_lower": "11390.919151824392",
+    "yhat_upper": "13582.46202327712",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "11978.620807762087",
+    "yhat_lower": "10936.19655643194",
+    "yhat_upper": "13090.812251801424",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "12318.320385110432",
+    "yhat_lower": "11221.926100772049",
+    "yhat_upper": "13460.815193353603",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "12554.428651129962",
+    "yhat_lower": "11510.134940451717",
+    "yhat_upper": "13737.423737025985",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "12607.437759726943",
+    "yhat_lower": "11534.61957699164",
+    "yhat_upper": "13826.837765974562",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "12763.623875545014",
+    "yhat_lower": "11639.213842839363",
+    "yhat_upper": "13900.360448004529",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "13215.58590108708",
+    "yhat_lower": "12054.038387676017",
+    "yhat_upper": "14316.714885058032",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "12645.421872752064",
+    "yhat_lower": "11486.812735130867",
+    "yhat_upper": "13770.738329270265",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "12730.143718708736",
+    "yhat_lower": "11624.389657906335",
+    "yhat_upper": "13853.810777326164",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "13407.284148864595",
+    "yhat_lower": "12181.810818714615",
+    "yhat_upper": "14494.958013859532",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "13574.055279057251",
+    "yhat_lower": "12429.546479517372",
+    "yhat_upper": "14649.651607193153",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "13291.544488831765",
+    "yhat_lower": "12058.598576762945",
+    "yhat_upper": "14394.14958720142",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "13152.056400739633",
+    "yhat_lower": "11980.845367365431",
+    "yhat_upper": "14247.642050649356",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "13269.873729849225",
+    "yhat_lower": "12147.885897311231",
+    "yhat_upper": "14427.293250054414",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "13547.859068953449",
+    "yhat_lower": "12493.765082994001",
+    "yhat_upper": "14635.839154470885",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "14006.302644618165",
+    "yhat_lower": "12824.874938066638",
+    "yhat_upper": "15128.571359097765",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "13440.185550228243",
+    "yhat_lower": "12237.296307496219",
+    "yhat_upper": "14491.122488490406",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "13921.847845570566",
+    "yhat_lower": "12805.813649326372",
+    "yhat_upper": "14982.558166183055",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "14256.579242729491",
+    "yhat_lower": "13169.92477822355",
+    "yhat_upper": "15404.893980931578",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "14012.948798908408",
+    "yhat_lower": "12951.45509690444",
+    "yhat_upper": "15130.443216236908",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "14253.77224809597",
+    "yhat_lower": "13185.891480208022",
+    "yhat_upper": "15286.500638478625",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "14582.229430968024",
+    "yhat_lower": "13519.315686445823",
+    "yhat_upper": "15711.294609502147",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "14635.126025146761",
+    "yhat_lower": "13497.405911804723",
+    "yhat_upper": "15778.655255815826",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "14426.007290679489",
+    "yhat_lower": "13288.623348568302",
+    "yhat_upper": "15558.581697748272",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "14602.99729168747",
+    "yhat_lower": "13505.369832273216",
+    "yhat_upper": "15655.527195968967",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "14508.280347710166",
+    "yhat_lower": "13437.387284338149",
+    "yhat_upper": "15591.145748467115",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "14806.023312410834",
+    "yhat_lower": "13625.77773791537",
+    "yhat_upper": "15899.996630616211",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "15188.52276093511",
+    "yhat_lower": "14018.905981366246",
+    "yhat_upper": "16339.563070668386",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "14830.300216599171",
+    "yhat_lower": "13733.735213534796",
+    "yhat_upper": "15963.85814418576",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "15076.795041671421",
+    "yhat_lower": "13907.748349217982",
+    "yhat_upper": "16253.74557211552",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "15301.04432155873",
+    "yhat_lower": "14187.665781167365",
+    "yhat_upper": "16407.864059071442",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "15386.970212707112",
+    "yhat_lower": "14287.676505383022",
+    "yhat_upper": "16637.168433853993",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "15774.964359687057",
+    "yhat_lower": "14654.456134867047",
+    "yhat_upper": "16852.941789198685",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "15749.978480490916",
+    "yhat_lower": "14608.106149830768",
+    "yhat_upper": "16867.579131809933",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "15695.020795782473",
+    "yhat_lower": "14575.084051142852",
+    "yhat_upper": "16922.111049622683",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "15565.834657637599",
+    "yhat_lower": "14443.945717280732",
+    "yhat_upper": "16753.410956164676",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "16056.168301834885",
+    "yhat_lower": "14833.561380501757",
+    "yhat_upper": "17226.424523207133",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "15744.847522406182",
+    "yhat_lower": "14624.831578317668",
+    "yhat_upper": "16928.650787433682",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "16063.146016184737",
+    "yhat_lower": "14879.30674993673",
+    "yhat_upper": "17256.151605007773",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "16371.52156477744",
+    "yhat_lower": "15150.46691000518",
+    "yhat_upper": "17535.73161556383",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "16219.72789515211",
+    "yhat_lower": "15080.7319992479",
+    "yhat_upper": "17270.599695877285",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "16228.611893283667",
+    "yhat_lower": "15022.858794113385",
+    "yhat_upper": "17444.010388221704",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "16349.215214944017",
+    "yhat_lower": "15256.668707506697",
+    "yhat_upper": "17474.195802875864",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "16767.307701913254",
+    "yhat_lower": "15577.30251227563",
+    "yhat_upper": "17873.44052853576",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "17293.378430305653",
+    "yhat_lower": "16042.304623843936",
+    "yhat_upper": "18433.861489502095",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "16910.613329528478",
+    "yhat_lower": "15721.533372131138",
+    "yhat_upper": "18061.76077983878",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "16754.01611850585",
+    "yhat_lower": "15619.705639649848",
+    "yhat_upper": "17804.66370830443",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "16711.16835439316",
+    "yhat_lower": "15475.290534031777",
+    "yhat_upper": "17978.54907065272",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "17511.361530183767",
+    "yhat_lower": "16300.030046153843",
+    "yhat_upper": "18760.55698718782",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "16979.526406198594",
+    "yhat_lower": "15720.574234129741",
+    "yhat_upper": "18192.30203928625",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "17319.225983545926",
+    "yhat_lower": "16054.613431427495",
+    "yhat_upper": "18517.669731505426",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "17555.334249564796",
+    "yhat_lower": "16317.269083589987",
+    "yhat_upper": "18774.590098330442",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "17608.34335816162",
+    "yhat_lower": "16360.363543161297",
+    "yhat_upper": "18866.63896760513",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "17764.529473979477",
+    "yhat_lower": "16396.278650270906",
+    "yhat_upper": "18970.722897121203",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "18216.4914995226",
+    "yhat_lower": "16907.16598521376",
+    "yhat_upper": "19492.6329006774",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "17646.327471187953",
+    "yhat_lower": "16379.017810091671",
+    "yhat_upper": "18965.453845801458",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "17731.04931714204",
+    "yhat_lower": "16405.02207646737",
+    "yhat_upper": "19069.302935456853",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "18408.18974729961",
+    "yhat_lower": "17012.26219254617",
+    "yhat_upper": "19742.571250733647",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "18574.960877491678",
+    "yhat_lower": "17377.20323346766",
+    "yhat_upper": "19895.498142003486",
+    "area_id": "441",
+    "name_en": "Al Barsha South Fourth"
+  }
+]

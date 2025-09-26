@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "11786.640625",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "11086.80078125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "11160.3095703125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "11830.970703125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "11384.7236328125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "11353.966796875",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "11937.20703125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "11931.2998046875",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "11662.7705078125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "11883.7998046875",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "12542.431640625",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "13223.7451171875",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "13527.9375",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "13465.3017578125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "13209.9775390625",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "12738.4462890625",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "12317.5986328125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "12212.0703125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "11677.380859375",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "11699.38671875",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "12340.8701171875",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "12836.12890625",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "13517.3896484375",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "13737.041015625",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "13525.90234375",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "13008.5634765625",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "12841.8623046875",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "12919.10546875",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "12089.287109375",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "12148.705078125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "11905.8896484375",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "11962.69140625",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "13039.150390625",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "12913.99609375",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "13361.51953125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "13727.451171875",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "13029.8837890625",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "13019.681640625",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "12994.0615234375",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "12815.3984375",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "12213.30859375",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "12179.267578125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "12158.0888671875",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "12669.26953125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "12950.3544921875",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "12936.3056640625",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "13471.7939453125",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "13610.18359375",
+    "area_id": "485",
+    "name_en": "Me'Aisem First"
+  }
+]

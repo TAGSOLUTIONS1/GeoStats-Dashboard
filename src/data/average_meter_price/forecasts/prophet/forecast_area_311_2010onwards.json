@@ -1,0 +1,994 @@
+[
+  {
+    "ds": "2010-01-01",
+    "yhat": "2094.0797244452697",
+    "yhat_lower": "1056.873338554565",
+    "yhat_upper": "3178.1299641304295",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2010-03-01",
+    "yhat": "2711.1563344416236",
+    "yhat_lower": "1622.2874820270356",
+    "yhat_upper": "3756.417069148883",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2010-05-01",
+    "yhat": "2539.4941924522427",
+    "yhat_lower": "1499.06577564434",
+    "yhat_upper": "3572.359296271835",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "3032.4027632547895",
+    "yhat_lower": "2020.7721762712397",
+    "yhat_upper": "4084.560611265599",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2010-08-01",
+    "yhat": "2299.407540752084",
+    "yhat_lower": "1244.3313352244031",
+    "yhat_upper": "3402.561404093731",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "2209.0269166681283",
+    "yhat_lower": "1196.8048688916952",
+    "yhat_upper": "3241.3306089547805",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2010-12-01",
+    "yhat": "1680.8585868682812",
+    "yhat_lower": "585.7385716837027",
+    "yhat_upper": "2681.517252478809",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "3167.1625011428764",
+    "yhat_lower": "2118.60806422919",
+    "yhat_upper": "4230.9028377593795",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "2568.1083194010553",
+    "yhat_lower": "1541.204816252645",
+    "yhat_upper": "3654.6004205657377",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "2698.7333828887718",
+    "yhat_lower": "1696.012761600057",
+    "yhat_upper": "3812.280689975353",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "2398.6938702028247",
+    "yhat_lower": "1347.712806551383",
+    "yhat_upper": "3512.147748982794",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "1468.1382946657523",
+    "yhat_lower": "341.3616015921377",
+    "yhat_upper": "2528.932972439719",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "1981.4761972261665",
+    "yhat_lower": "920.3444990113131",
+    "yhat_upper": "3040.5485897026797",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "1849.37288258111",
+    "yhat_lower": "813.5416482838359",
+    "yhat_upper": "2928.1552200369615",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "1852.1439810130269",
+    "yhat_lower": "857.301727311916",
+    "yhat_upper": "2903.6837794883204",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "2480.201126088183",
+    "yhat_lower": "1441.4629506279557",
+    "yhat_upper": "3562.2952979813513",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "1708.3628044593768",
+    "yhat_lower": "698.3398589825496",
+    "yhat_upper": "2769.559713453801",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "1771.638486337834",
+    "yhat_lower": "729.1834863092726",
+    "yhat_upper": "2702.459849412802",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "1872.438681461386",
+    "yhat_lower": "796.6471820392455",
+    "yhat_upper": "2943.923396201204",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "2153.3181622100674",
+    "yhat_lower": "1038.209722135621",
+    "yhat_upper": "3180.460784740399",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "2211.74937477454",
+    "yhat_lower": "1209.1826919201321",
+    "yhat_upper": "3205.5922430535215",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "2356.18609483674",
+    "yhat_lower": "1311.6225976869898",
+    "yhat_upper": "3494.105234799237",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "2270.1681160068038",
+    "yhat_lower": "1231.162683944206",
+    "yhat_upper": "3274.140365331458",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "2570.128243312518",
+    "yhat_lower": "1502.0716992831888",
+    "yhat_upper": "3625.868191998673",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "3176.9149059900583",
+    "yhat_lower": "2127.6313825743478",
+    "yhat_upper": "4225.164916216082",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "1852.2829051522954",
+    "yhat_lower": "825.2115204292259",
+    "yhat_upper": "2868.220488059818",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "2072.828348451915",
+    "yhat_lower": "1072.4552388984062",
+    "yhat_upper": "3164.9239673216953",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "1948.620718834091",
+    "yhat_lower": "823.1944112775096",
+    "yhat_upper": "3027.101509054722",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "2153.008697030897",
+    "yhat_lower": "1129.0142468035542",
+    "yhat_upper": "3111.3540536532464",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "2770.085306985942",
+    "yhat_lower": "1675.6304270139906",
+    "yhat_upper": "3786.4479031204055",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "2054.107802271221",
+    "yhat_lower": "988.4013420474175",
+    "yhat_upper": "3116.705246676616",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "2598.423164947514",
+    "yhat_lower": "1621.5240890128282",
+    "yhat_upper": "3635.656747442564",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "2358.336513162639",
+    "yhat_lower": "1377.660034712636",
+    "yhat_upper": "3380.691705100263",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "2826.8969981340024",
+    "yhat_lower": "1811.9870185737584",
+    "yhat_upper": "3884.2103538870774",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "1739.7875591492575",
+    "yhat_lower": "655.9986543550793",
+    "yhat_upper": "2798.8774019700622",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "2141.860493746357",
+    "yhat_lower": "1102.1520400049524",
+    "yhat_upper": "3216.0233101307094",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "2457.622842074074",
+    "yhat_lower": "1403.6914355231265",
+    "yhat_upper": "3577.7238214072904",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "2040.4051690266565",
+    "yhat_lower": "1045.7985484399744",
+    "yhat_upper": "3053.410633969089",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "1911.0729527478763",
+    "yhat_lower": "807.231863421275",
+    "yhat_upper": "2946.583559365482",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "2539.130097787393",
+    "yhat_lower": "1461.9736096843835",
+    "yhat_upper": "3615.7767941144284",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "2601.0174204691943",
+    "yhat_lower": "1496.2680705239204",
+    "yhat_upper": "3690.8192360176163",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "2561.0573637215493",
+    "yhat_lower": "1552.3463657292807",
+    "yhat_upper": "3673.4734972501215",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "3033.91791066871",
+    "yhat_lower": "1976.8527708575389",
+    "yhat_upper": "4087.6730636392267",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "2370.8826670215108",
+    "yhat_lower": "1313.1677267226912",
+    "yhat_upper": "3456.647341688476",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "2329.096045122153",
+    "yhat_lower": "1240.7539304392633",
+    "yhat_upper": "3370.0425365328065",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "2629.0560371703054",
+    "yhat_lower": "1581.4668160730698",
+    "yhat_upper": "3705.2094167086775",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "1911.2104239761047",
+    "yhat_lower": "856.7473154742108",
+    "yhat_upper": "2949.448010997429",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "2958.2927463615138",
+    "yhat_lower": "1877.6395386151275",
+    "yhat_upper": "3946.2613276966454",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "1997.8692840969934",
+    "yhat_lower": "966.5203762083842",
+    "yhat_upper": "2997.061437735301",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "2007.5475478262424",
+    "yhat_lower": "988.139229520209",
+    "yhat_upper": "3203.776506062168",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "2211.9353862535754",
+    "yhat_lower": "1137.6774291278336",
+    "yhat_upper": "3216.169601520611",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "3150.193929351733",
+    "yhat_lower": "2119.245265980986",
+    "yhat_upper": "4255.4265205398515",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "2055.6616775767943",
+    "yhat_lower": "1050.6130891359442",
+    "yhat_upper": "3155.538378664781",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "2167.894841584811",
+    "yhat_lower": "1075.8931829396927",
+    "yhat_upper": "3246.0390721644835",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "1798.5715892740336",
+    "yhat_lower": "793.2167435478607",
+    "yhat_upper": "2869.0223367729923",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "2816.3293532892403",
+    "yhat_lower": "1706.2015950301945",
+    "yhat_upper": "3752.9550619572824",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "2099.0200584922372",
+    "yhat_lower": "1094.75755204978",
+    "yhat_upper": "3237.050090563479",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "1969.662214844652",
+    "yhat_lower": "909.9995908333972",
+    "yhat_upper": "2929.91421556728",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "1825.8289291818005",
+    "yhat_lower": "740.78653380875",
+    "yhat_upper": "2918.2622979891403",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "2619.5813407882874",
+    "yhat_lower": "1595.422056562285",
+    "yhat_upper": "3651.066340457536",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "1989.85226995443",
+    "yhat_lower": "878.3498338674169",
+    "yhat_upper": "3064.425399194571",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "2687.4645224494325",
+    "yhat_lower": "1694.5031629436905",
+    "yhat_upper": "3713.945355216063",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "3294.2379442977062",
+    "yhat_lower": "2318.8466491427816",
+    "yhat_upper": "4280.702010461584",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "3016.6492500448653",
+    "yhat_lower": "2057.779710650643",
+    "yhat_upper": "4154.415578008072",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "2190.086036903181",
+    "yhat_lower": "1165.0904867716608",
+    "yhat_upper": "3207.359232731227",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "2270.2403309604188",
+    "yhat_lower": "1222.1999918427734",
+    "yhat_upper": "3386.892374703992",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "2171.3009951287627",
+    "yhat_lower": "1094.9715628379504",
+    "yhat_upper": "3257.8833444200213",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "3208.498874076541",
+    "yhat_lower": "2176.498710861375",
+    "yhat_upper": "4292.933419612041",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "2113.966622303609",
+    "yhat_lower": "1099.040405313239",
+    "yhat_upper": "3142.839138257786",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "2385.0576775205805",
+    "yhat_lower": "1387.8067906576728",
+    "yhat_upper": "3395.2008086036044",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "3343.142007106353",
+    "yhat_lower": "2289.443675103878",
+    "yhat_upper": "4453.084193224407",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "1949.1935039734108",
+    "yhat_lower": "965.7924931114353",
+    "yhat_upper": "2994.0333268777486",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "2401.281879530746",
+    "yhat_lower": "1256.5706086822627",
+    "yhat_upper": "3394.4164323208406",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "2398.8151553476146",
+    "yhat_lower": "1324.531782700681",
+    "yhat_upper": "3455.008279791135",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "1644.000341483726",
+    "yhat_lower": "530.7512491454961",
+    "yhat_upper": "2726.6703273038393",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "2025.208447706713",
+    "yhat_lower": "983.7156766635765",
+    "yhat_upper": "3081.6892892108735",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "2027.9671595425584",
+    "yhat_lower": "987.0262031070699",
+    "yhat_upper": "3034.788869441976",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "2656.011063777664",
+    "yhat_lower": "1584.2832668426845",
+    "yhat_upper": "3699.889366642008",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "2717.8855727747145",
+    "yhat_lower": "1640.7606739944417",
+    "yhat_upper": "3765.701417911459",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "3439.3752955908217",
+    "yhat_lower": "2322.3899481089825",
+    "yhat_upper": "4490.346957275584",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "1884.133873881476",
+    "yhat_lower": "905.0055758160105",
+    "yhat_upper": "3025.7219913630097",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "2677.886285488963",
+    "yhat_lower": "1585.5620207752022",
+    "yhat_upper": "3744.218963358577",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "3150.733613451195",
+    "yhat_lower": "2126.4665938004578",
+    "yhat_upper": "4176.919434021989",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "1947.3702603650454",
+    "yhat_lower": "859.5822490917984",
+    "yhat_upper": "3024.764950812029",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "2048.1572146581602",
+    "yhat_lower": "1036.2520346225617",
+    "yhat_upper": "3098.520292306122",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "2329.0238817002005",
+    "yhat_lower": "1311.5868106971147",
+    "yhat_upper": "3427.5815732314836",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "2387.4418534356546",
+    "yhat_lower": "1348.4032997363456",
+    "yhat_upper": "3470.352790435878",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "2531.8653326650406",
+    "yhat_lower": "1454.6992933469473",
+    "yhat_upper": "3575.2713607288815",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "2487.6218765106137",
+    "yhat_lower": "1419.4873957968343",
+    "yhat_upper": "3529.112872279552",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "2445.8221535503717",
+    "yhat_lower": "1364.0180282646413",
+    "yhat_upper": "3552.823025519643",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "2745.769467149459",
+    "yhat_lower": "1673.0095750814132",
+    "yhat_upper": "3804.5346335804306",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "3352.5428889993527",
+    "yhat_lower": "2299.287704459116",
+    "yhat_upper": "4334.040400971296",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "2027.8980744650555",
+    "yhat_lower": "1007.2080164565662",
+    "yhat_upper": "3051.192118748804",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "2606.5769690973293",
+    "yhat_lower": "1558.552299145822",
+    "yhat_upper": "3635.3765670380394",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "3074.9541947458392",
+    "yhat_lower": "1965.2429786082898",
+    "yhat_upper": "4080.8703467840305",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "2114.51805404522",
+    "yhat_lower": "974.6010251973959",
+    "yhat_upper": "3141.532546742997",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "2248.3909816018136",
+    "yhat_lower": "1165.6986764781245",
+    "yhat_upper": "3262.2724028810626",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "2124.170538285681",
+    "yhat_lower": "1057.4003424033663",
+    "yhat_upper": "3115.439647240654",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "2328.5452756631553",
+    "yhat_lower": "1194.4702806371483",
+    "yhat_upper": "3416.752710354643",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "2375.519923468523",
+    "yhat_lower": "1251.4984736002627",
+    "yhat_upper": "3461.474975711886",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "2945.5966853596224",
+    "yhat_lower": "1940.6047432609432",
+    "yhat_upper": "3963.6348241105397",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "2229.605939831754",
+    "yhat_lower": "1167.0908063188688",
+    "yhat_upper": "3302.4796680010304",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "2773.908488817505",
+    "yhat_lower": "1773.7830814929403",
+    "yhat_upper": "3827.7656962898836",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "3266.8038187765765",
+    "yhat_lower": "2229.5750863335425",
+    "yhat_upper": "4390.914012747109",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "2172.271567006315",
+    "yhat_lower": "1127.3364361724289",
+    "yhat_upper": "3167.058074497417",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "2533.7825417137465",
+    "yhat_lower": "1572.683634619891",
+    "yhat_upper": "3561.7575532700653",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "3002.329785868843",
+    "yhat_lower": "1870.6760893533078",
+    "yhat_upper": "4014.3636704615983",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "2284.504731008505",
+    "yhat_lower": "1226.4815488639554",
+    "yhat_upper": "3326.1612786824408",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "2443.362622219676",
+    "yhat_lower": "1383.0097950102765",
+    "yhat_upper": "3492.088253237206",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "1915.1814786976106",
+    "yhat_lower": "875.7505882274162",
+    "yhat_upper": "2992.7690275654127",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "2271.2112974844604",
+    "yhat_lower": "1164.465736424815",
+    "yhat_upper": "3328.243050374711",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "2226.028237755936",
+    "yhat_lower": "1168.0203612684584",
+    "yhat_upper": "3353.043135578285",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "3401.446951812512",
+    "yhat_lower": "2345.2656265925616",
+    "yhat_upper": "4418.932957681674",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "2007.4984486729645",
+    "yhat_lower": "948.1274948534929",
+    "yhat_upper": "3132.854268346257",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "2802.3667154869436",
+    "yhat_lower": "1696.3385562097417",
+    "yhat_upper": "3796.874645757149",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "3182.2557498958827",
+    "yhat_lower": "2145.7965167796688",
+    "yhat_upper": "4154.090983182693",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "2317.1638632365016",
+    "yhat_lower": "1277.8962882021215",
+    "yhat_upper": "3301.543793590297",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "2459.5868242335036",
+    "yhat_lower": "1419.0959948660536",
+    "yhat_upper": "3527.073969170008",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "2932.939242702285",
+    "yhat_lower": "1902.8942636524916",
+    "yhat_upper": "4040.0610208078033",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "2457.1201000474434",
+    "yhat_lower": "1334.9236013776933",
+    "yhat_upper": "3605.0372431036417",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "2632.8736754433125",
+    "yhat_lower": "1537.339202199255",
+    "yhat_upper": "3754.416676839462",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "1702.305286183553",
+    "yhat_lower": "663.1114306637826",
+    "yhat_upper": "2752.620400436723",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "2215.6299478990245",
+    "yhat_lower": "1204.1993125222168",
+    "yhat_upper": "3326.594479867345",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "2083.513392408941",
+    "yhat_lower": "1026.7589088744226",
+    "yhat_upper": "3151.433034021824",
+    "area_id": "311",
+    "name_en": "Muhaisanah Third"
+  }
+]

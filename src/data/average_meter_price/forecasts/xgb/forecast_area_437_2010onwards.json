@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "15646.099609375",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "15232.9580078125",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "13919.73828125",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "13962.8974609375",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "15495.0888671875",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "15078.53125",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "13777.068359375",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "13414.4287109375",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "13987.40625",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "13562.3515625",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "14106.0361328125",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "13938.2236328125",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "14068.1201171875",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "14219.7021484375",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "14693.9609375",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "14598.4052734375",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "15289.4912109375",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "16309.5888671875",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "14983.2861328125",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "15398.962890625",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "15132.123046875",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "15060.0576171875",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "15130.2666015625",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "15521.4755859375",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "14967.126953125",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "15367.728515625",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "14969.38671875",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "14865.1279296875",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "14573.41015625",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "15211.3759765625",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "14396.6259765625",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "14668.015625",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "15022.63671875",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "15307.4111328125",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "14711.4736328125",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "15202.333984375",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "15577.78515625",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "15210.8701171875",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "15559.98046875",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "15543.60546875",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "15219.693359375",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "15013.466796875",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "14326.73828125",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "14480.40625",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "14967.998046875",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "15240.4501953125",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "14935.6181640625",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "14696.69140625",
+    "area_id": "437",
+    "name_en": "Al Kheeran"
+  }
+]

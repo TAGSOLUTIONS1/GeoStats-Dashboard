@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "16755.437431181643",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "16726.03716090222",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "16699.01984240937",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "16677.76590074676",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "16670.46822712976",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "16663.790764770387",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "16658.245918563753",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "16656.051923719053",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "16652.310384788867",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "16643.90705133298",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "16631.914329341154",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "16611.872401338154",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "16573.62371488472",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "16572.46697085556",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "16575.75417478551",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "16582.545855653603",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "16581.674805863593",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "16586.778376651357",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "16592.302689114626",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "16595.210227799496",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "16593.835946187894",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "16588.626439391188",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "16581.439666843366",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "16574.500757905356",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "16570.000305898695",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "16569.57754475084",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "16573.518867768344",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "16580.863551934784",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "16580.264617385732",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "16585.639499451237",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "16591.40405880372",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "16594.516848608786",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "16593.315941485303",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "16588.261539834002",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "16581.200458509622",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "16574.371691674816",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "16569.955694813645",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "16569.5441455888",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "16573.49448344157",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "16580.846194863672",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "16580.25094850064",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "16585.62915916742",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "16591.39653980165",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "16594.511627784737",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "16593.31248310761",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "16588.259369735802",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "16581.199152663587",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "16574.370944979564",
+    "area_id": "330",
+    "name_en": "Marsa Dubai"
+  }
+]

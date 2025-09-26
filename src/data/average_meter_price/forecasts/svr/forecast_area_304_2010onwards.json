@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-08-01",
+    "yhat": "7951.469036457887",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "7952.617625572375",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "7953.918623744881",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "7953.922762122911",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "7968.2853497953865",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "7968.248474305575",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "7971.543103672642",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "7970.882800905567",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "7966.481389042652",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "7970.219414872233",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "7966.911039510414",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "7965.835322059419",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "7947.5578337815205",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "7945.918055240022",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "7946.6309943767565",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "7949.408053023514",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "7952.765558594652",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "7967.348125367289",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "7967.732107009037",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "7965.613120518081",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "7961.93036618773",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "7957.8792429083705",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "7954.016530804919",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "7950.412022239309",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "7947.34294131247",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "7945.756402487942",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "7946.466150787357",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "7949.276104550992",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "7952.657052774466",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "7967.255178670204",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "7967.640822986886",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "7965.5300136520755",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "7961.868990242227",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "7957.811023819318",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "7953.963849744265",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "7950.378150918036",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "7947.340576346341",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "7945.754511966586",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "7946.464562360115",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "7949.274920494998",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "7952.656192070515",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "7967.254416455488",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "7967.640187538909",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "7965.529523167926",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "7961.868640859639",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "7957.810737428077",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "7953.963667743503",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "7950.378061543569",
+    "area_id": "304",
+    "name_en": "Um Suqaim Second"
+  }
+]

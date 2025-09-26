@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "13874.815009721218",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "13874.109224517184",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "13870.672851063346",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "13872.986716747977",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "13876.52133502939",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "13873.469733772603",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "13876.779620478912",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "13875.326024982094",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "13875.066484571225",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "13875.256734764902",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "13873.600590117661",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "13871.787934538039",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "13979.306016475359",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "13969.101634054508",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "13959.876302880612",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "13953.030379797054",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "13960.26535037476",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "13971.974609354755",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "13985.023636883296",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "13996.77180399166",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "14004.876558959613",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "14007.572713795134",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "14004.56509768684",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "13996.942420740987",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "13986.55385695982",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "13975.154297388613",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "13964.945501894745",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "13957.309983527517",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "13964.729327020723",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "13976.126637201027",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "13988.696586737653",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "13999.94983469311",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "14007.431104518697",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "14009.47010663494",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "14005.803466399935",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "13997.58463240401",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "13986.750348561529",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "13975.308314183061",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "13965.067075648201",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "13957.406171800061",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "13964.824781132354",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "13976.206431895",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "13988.759550480869",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "13999.996680477288",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "14007.463270296726",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "14009.490420453842",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "14005.815207589261",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "13997.59105248668",
+    "area_id": "329",
+    "name_en": "Trade Center Second"
+  }
+]

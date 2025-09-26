@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-08-01",
+    "yhat": "3522.529296875",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "3849.16259765625",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "3634.234619140625",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "3892.6884765625",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "3853.37109375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "3850.697509765625",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "3812.512939453125",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "3663.822509765625",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "3853.63427734375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "3928.733154296875",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "3997.216796875",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "3885.559326171875",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "4007.23681640625",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "3897.923828125",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "3940.2294921875",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "3864.0986328125",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "3885.9443359375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "3835.152099609375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "3822.7958984375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "3702.211669921875",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "3865.9677734375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "3843.773681640625",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "4055.78515625",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "3880.450927734375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "4005.9794921875",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "3918.06005859375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "3938.7138671875",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "3864.0986328125",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "3885.9443359375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "3835.152099609375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "3822.7958984375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "3702.211669921875",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "3865.9677734375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "3843.773681640625",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "4055.78515625",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "3880.450927734375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "4005.9794921875",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "3918.06005859375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "3938.7138671875",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "3864.0986328125",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "3885.9443359375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "3835.152099609375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "3822.7958984375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "3702.211669921875",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "3865.9677734375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "3843.773681640625",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "4055.78515625",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "3880.450927734375",
+    "area_id": "415",
+    "name_en": "Al Barshaa South First"
+  }
+]

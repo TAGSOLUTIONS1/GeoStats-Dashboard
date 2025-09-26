@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "7934.442925717157",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "10125.751005032578",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "7284.314110662258",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "9820.38000721767",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "8640.945300450623",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "9381.508333394086",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "9852.36091590145",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "13512.657358758512",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "8950.500049834518",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "9502.84204519161",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "8207.99580196903",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "7876.752330716067",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "10269.868249756471",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "7366.907420338558",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "8367.848521473568",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "8831.445391618294",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "8426.021162654217",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "7775.579023344172",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "8828.666442099604",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "9512.35356886181",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "10952.04104749277",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "9463.069685538328",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "8254.392031849815",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "11384.845297625738",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "9510.58628475451",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "8778.685638381929",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "9849.187240280711",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "8488.700432373951",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "8496.809881617613",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "11693.701271118789",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "9198.539016647932",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "9804.420061004357",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "10721.263528781361",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "10556.161959696667",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "9456.393237159838",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "9134.365170479805",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "10605.505797183818",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "7691.066300188194",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "10009.51375499042",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "11861.177072513194",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "9696.844510050272",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "7843.411009896356",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "10320.895677713652",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "10210.885286443236",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "11716.234882375731",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "6732.955337851451",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "11266.551416121081",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "9924.780354324796",
+    "area_id": "303",
+    "name_en": "Um Suqaim First"
+  }
+]

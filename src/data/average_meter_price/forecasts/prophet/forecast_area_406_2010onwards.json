@@ -1,0 +1,634 @@
+[
+  {
+    "ds": "2010-03-01",
+    "yhat": "1936.7458487412582",
+    "yhat_lower": "1248.8498224532311",
+    "yhat_upper": "2600.8900926760157",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "1606.088919647771",
+    "yhat_lower": "924.2560008621247",
+    "yhat_upper": "2250.9585758546423",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "1308.5739063170456",
+    "yhat_lower": "593.820361344859",
+    "yhat_upper": "2020.5576038107674",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "1906.8004693538635",
+    "yhat_lower": "1182.9924989349465",
+    "yhat_upper": "2598.372357930273",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "1938.428314061503",
+    "yhat_lower": "1180.7438727431188",
+    "yhat_upper": "2632.0553314520107",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "2239.181880760475",
+    "yhat_lower": "1536.2506969098047",
+    "yhat_upper": "2902.519201723627",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "2916.861275922548",
+    "yhat_lower": "2215.5123660597524",
+    "yhat_upper": "3616.2278884287607",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "4304.625319902905",
+    "yhat_lower": "3599.677400371752",
+    "yhat_upper": "4953.450956238466",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "2626.8286610212285",
+    "yhat_lower": "1938.5551409207012",
+    "yhat_upper": "3260.9685649323833",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "3812.9170961189375",
+    "yhat_lower": "3124.645147234439",
+    "yhat_upper": "4498.868095044398",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "4423.594499504134",
+    "yhat_lower": "3747.751666311979",
+    "yhat_upper": "5092.440725444204",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "3265.341498252313",
+    "yhat_lower": "2611.7867751067192",
+    "yhat_upper": "4031.22164690814",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "2920.585069355623",
+    "yhat_lower": "2239.5507875011244",
+    "yhat_upper": "3627.2949602732083",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "3346.004411436777",
+    "yhat_lower": "2659.4825407030653",
+    "yhat_upper": "4047.3419658604635",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "3766.93374107365",
+    "yhat_lower": "3142.298299466379",
+    "yhat_upper": "4482.273839098968",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "2393.427679412257",
+    "yhat_lower": "1709.6410695220563",
+    "yhat_upper": "3094.9770997149053",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "2802.555638308873",
+    "yhat_lower": "2093.1458096953743",
+    "yhat_upper": "3502.992885729246",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "2967.07502330618",
+    "yhat_lower": "2255.911298428982",
+    "yhat_upper": "3665.7960652005668",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "2939.3652986370817",
+    "yhat_lower": "2247.5234492848085",
+    "yhat_upper": "3656.133913442894",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "3581.7570212201913",
+    "yhat_lower": "2868.066073366701",
+    "yhat_upper": "4252.082165428639",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "3256.8679877293016",
+    "yhat_lower": "2593.2795151995642",
+    "yhat_upper": "3981.065825220217",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "3494.4034055405527",
+    "yhat_lower": "2761.072946686488",
+    "yhat_upper": "4206.318266226672",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "3837.0693163826663",
+    "yhat_lower": "3142.834326712958",
+    "yhat_upper": "4516.938428910296",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "4479.9296353330765",
+    "yhat_lower": "3779.761037461345",
+    "yhat_upper": "5170.670202031471",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "2827.598129916664",
+    "yhat_lower": "2145.0489143243976",
+    "yhat_upper": "3515.910601093217",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "4404.181540456915",
+    "yhat_lower": "3698.6897370152396",
+    "yhat_upper": "5091.078140690501",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "3539.5543034252123",
+    "yhat_lower": "2871.1489474710124",
+    "yhat_upper": "4234.073641537169",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "4137.780866488619",
+    "yhat_lower": "3449.235735211202",
+    "yhat_upper": "4876.130138202258",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "4089.6645440071525",
+    "yhat_lower": "3398.3517864866135",
+    "yhat_upper": "4747.970562772733",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "4510.593873896349",
+    "yhat_lower": "3831.353370731735",
+    "yhat_upper": "5186.579737700065",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "3962.9362223783814",
+    "yhat_lower": "3304.1367371883775",
+    "yhat_upper": "4649.587740246088",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "2040.0758115641852",
+    "yhat_lower": "1351.3711275770775",
+    "yhat_upper": "2726.7609018470107",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "-2730.950046829608",
+    "yhat_lower": "-3396.7343710488994",
+    "yhat_upper": "-2043.3851872224868",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "4169.40871143963",
+    "yhat_lower": "3479.0829108402313",
+    "yhat_upper": "4857.160899940142",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "16765.239775125396",
+    "yhat_lower": "16070.104235970917",
+    "yhat_upper": "17488.977665174723",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "4114.148926031273",
+    "yhat_lower": "3466.510397458083",
+    "yhat_upper": "4834.193607474206",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "5300.237361174732",
+    "yhat_lower": "4583.092783546104",
+    "yhat_upper": "6025.150762697828",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "3137.087812603235",
+    "yhat_lower": "2443.7925711783532",
+    "yhat_upper": "3786.046324467469",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "3546.215771537005",
+    "yhat_lower": "2843.7867043506653",
+    "yhat_upper": "4209.380404885085",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "4417.824242687005",
+    "yhat_lower": "3714.1576180921215",
+    "yhat_upper": "5098.034008827595",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "4470.162278294859",
+    "yhat_lower": "3734.9488212546426",
+    "yhat_upper": "5137.629582529482",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "3710.7351566199295",
+    "yhat_lower": "3031.737831486965",
+    "yhat_upper": "4445.0734340512245",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "3683.025431997245",
+    "yhat_lower": "2981.9138091100094",
+    "yhat_upper": "4405.694046810834",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "14171.18282143752",
+    "yhat_lower": "13485.082653394364",
+    "yhat_upper": "14857.595159869836",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "1055.117017502932",
+    "yhat_lower": "357.2146351043962",
+    "yhat_upper": "1815.7406192114013",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "7488.9003563875285",
+    "yhat_lower": "6799.934461067061",
+    "yhat_upper": "8206.709417788727",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "12658.806786462925",
+    "yhat_lower": "11979.147037067252",
+    "yhat_upper": "13356.770160251397",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "4325.41715470906",
+    "yhat_lower": "3631.9572027604486",
+    "yhat_upper": "5015.144703459338",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "5109.661002980866",
+    "yhat_lower": "4484.517728613606",
+    "yhat_upper": "5838.148641533184",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "4513.999601098607",
+    "yhat_lower": "3825.8542322172366",
+    "yhat_upper": "5210.065021321204",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "4394.592763460875",
+    "yhat_lower": "3667.698436404998",
+    "yhat_upper": "5036.7754193653445",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "4000.528121281357",
+    "yhat_lower": "3272.7994386602295",
+    "yhat_upper": "4657.5810719496385",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "4807.76369731551",
+    "yhat_lower": "4113.041511814027",
+    "yhat_upper": "5500.894174422965",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "4238.063539114206",
+    "yhat_lower": "3543.7498923758194",
+    "yhat_upper": "4925.450658249541",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "4067.0077712345415",
+    "yhat_lower": "3345.9481576689",
+    "yhat_upper": "4743.567782051497",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "10332.748384801407",
+    "yhat_lower": "9620.81477985743",
+    "yhat_upper": "11000.361043932782",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "4911.386378994205",
+    "yhat_lower": "4177.104805961092",
+    "yhat_upper": "5582.242371458273",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "10712.418979433027",
+    "yhat_lower": "9996.489187506699",
+    "yhat_upper": "11403.009615485287",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "8496.674154147007",
+    "yhat_lower": "7844.094249997387",
+    "yhat_upper": "9185.775488415682",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "4580.7294499532745",
+    "yhat_lower": "3907.128203080885",
+    "yhat_upper": "5226.988098489127",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "4953.985470877316",
+    "yhat_lower": "4249.683887705194",
+    "yhat_upper": "5685.338230354461",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "5910.9147652065385",
+    "yhat_lower": "5209.891045638871",
+    "yhat_upper": "6585.024543422526",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "5223.589768918054",
+    "yhat_lower": "4548.738864690543",
+    "yhat_upper": "5881.416550924825",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "3571.258263507219",
+    "yhat_lower": "2870.8597806886905",
+    "yhat_upper": "4262.239621404307",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "5147.841674046869",
+    "yhat_lower": "4518.64751243742",
+    "yhat_upper": "5843.44098378433",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "4752.6617640872355",
+    "yhat_lower": "4032.9978613960516",
+    "yhat_upper": "5448.216868693417",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "4407.905335246625",
+    "yhat_lower": "3719.9104409562115",
+    "yhat_upper": "5095.512058753809",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "6535.605718135999",
+    "yhat_lower": "5841.672438151892",
+    "yhat_upper": "7231.773888592062",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "8833.38032502013",
+    "yhat_lower": "8110.4826431368865",
+    "yhat_upper": "9506.050130588046",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "13836.37991216557",
+    "yhat_lower": "13155.959879781101",
+    "yhat_upper": "14514.773076370097",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "4283.214437029434",
+    "yhat_lower": "3588.43476328234",
+    "yhat_upper": "4965.548924629567",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "4881.441000109988",
+    "yhat_lower": "4186.379895982813",
+    "yhat_upper": "5521.323038166523",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "4833.324677595118",
+    "yhat_lower": "4121.390037883981",
+    "yhat_upper": "5562.4115449062365",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "7326.298271909218",
+    "yhat_lower": "6639.404077876548",
+    "yhat_upper": "7977.369262068407",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "6032.18850099242",
+    "yhat_lower": "5276.3826158766915",
+    "yhat_upper": "6705.941496997011",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "3130.4531000149377",
+    "yhat_lower": "2415.3155799879337",
+    "yhat_upper": "3809.9576486868586",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "5490.275272490608",
+    "yhat_lower": "4802.960482750279",
+    "yhat_upper": "6157.029005037083",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "5254.254007487569",
+    "yhat_lower": "4545.124597860753",
+    "yhat_upper": "5952.338777064911",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "4706.596355975676",
+    "yhat_lower": "4039.9905240480903",
+    "yhat_upper": "5402.075189053133",
+    "area_id": "406",
+    "name_en": "Nad Al Shiba Fourth"
+  }
+]

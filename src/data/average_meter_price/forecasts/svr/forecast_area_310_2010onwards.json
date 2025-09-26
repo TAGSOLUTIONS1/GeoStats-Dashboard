@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "2832.0002447357347",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "2821.6308075382663",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "2823.5500558633107",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "2819.966064644478",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "2819.3112923980175",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "2812.774015055021",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "2816.9358661662122",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "2822.520078525659",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "2823.1967410366965",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "2829.1201428717177",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "2825.2037371212696",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "2827.7014794194606",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "2828.6430692872264",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "2825.2035093469026",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "2821.5792998898323",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "2818.8276629925595",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "2815.3459539241435",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "2815.295265980328",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "2816.9046308405946",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "2820.0553203681507",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "2824.014228949164",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "2827.8083556173633",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "2830.282882553274",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "2830.5824193182902",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "2828.648923491651",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "2825.2316331595785",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "2821.5752579074447",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "2818.8632022177867",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "2815.3440450103944",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "2815.2920252114563",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "2816.9269079717233",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "2820.051155722013",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "2824.0148558320006",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "2827.789865853905",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "2830.2630080672816",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "2830.577792068863",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "2828.6485628162995",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "2825.2316330986687",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "2821.5750735661436",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "2818.8631448504325",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "2815.344052443455",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "2815.291895117687",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "2816.9268888900615",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "2820.051179805049",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "2824.0149359737675",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "2827.7899759121046",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "2830.2630595596947",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "2830.577800857134",
+    "area_id": "310",
+    "name_en": "Al Twar Second"
+  }
+]

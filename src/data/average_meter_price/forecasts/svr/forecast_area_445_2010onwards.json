@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "8950.581018838027",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "8951.850013917643",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "8953.412677775965",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "8953.085436965413",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "8967.150732686148",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "8969.258547451924",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "8970.00720919152",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "8971.559819456523",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "8969.7436488834",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "8967.576283991442",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "8964.48226188862",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "8962.65676963701",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "8935.348179972201",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "8941.628889889756",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "8947.42216724201",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "8950.684215715946",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "8962.957852010402",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "8959.645196352418",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "8952.27597982274",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "8942.767095418843",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "8933.281506066907",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "8926.167174297003",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "8923.088856868448",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "8924.55624707452",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "8929.790896611756",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "8937.059125026257",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "8943.846978462056",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "8948.079431337219",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "8960.847030375699",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "8957.707320306847",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "8950.546428763162",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "8941.210338028832",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "8931.977458180669",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "8925.14138463302",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "8922.353913868945",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "8924.066564747698",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "8929.528934398544",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "8936.862613076133",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "8943.703263634607",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "8947.975725795126",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "8960.765270963117",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "8957.639566535505",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "8950.491650794585",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "8941.166952582356",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "8931.944279440626",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "8925.116838240223",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "8922.336315453891",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "8924.054098284374",
+    "area_id": "445",
+    "name_en": "Jabal Ali First"
+  }
+]

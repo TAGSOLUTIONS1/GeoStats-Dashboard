@@ -1,0 +1,1522 @@
+[
+  {
+    "ds": "2010-02-01",
+    "yhat": "10360.948573792451",
+    "yhat_lower": "7478.634686147676",
+    "yhat_upper": "13068.204178241083",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2010-08-01",
+    "yhat": "11229.923072550015",
+    "yhat_lower": "8415.002799259431",
+    "yhat_upper": "13940.081932387344",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "10158.26100116299",
+    "yhat_lower": "7356.100184704364",
+    "yhat_upper": "13035.511070217603",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "10851.424768188346",
+    "yhat_lower": "7864.3211049161855",
+    "yhat_upper": "13793.937958366201",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "10358.04488066135",
+    "yhat_lower": "7650.1783458762975",
+    "yhat_upper": "13093.832914994893",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "10329.643921617704",
+    "yhat_lower": "7373.491647638872",
+    "yhat_upper": "13119.647962538449",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "10331.519218991421",
+    "yhat_lower": "7718.314301416088",
+    "yhat_upper": "13182.692334817808",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "10282.366903021524",
+    "yhat_lower": "7680.507492892926",
+    "yhat_upper": "13090.450813211955",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "10943.922069162674",
+    "yhat_lower": "8016.033867020175",
+    "yhat_upper": "13607.419087470966",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "10323.537872374822",
+    "yhat_lower": "7438.712446685887",
+    "yhat_upper": "13240.558919075533",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "9921.07929574934",
+    "yhat_lower": "7072.765436471621",
+    "yhat_upper": "12617.292995683072",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2012-09-01",
+    "yhat": "10118.35401292636",
+    "yhat_lower": "7066.176205761733",
+    "yhat_upper": "12924.303007879995",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "10999.090471053469",
+    "yhat_lower": "8059.21264067925",
+    "yhat_upper": "13944.795070394888",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "10311.58716922282",
+    "yhat_lower": "7272.120735509458",
+    "yhat_upper": "13275.76540508401",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "10509.68678093252",
+    "yhat_lower": "7773.770424873363",
+    "yhat_upper": "13237.385467790144",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "10368.557037448782",
+    "yhat_lower": "7575.484449029704",
+    "yhat_upper": "13190.9080249232",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "10992.323897416576",
+    "yhat_lower": "7810.578276940557",
+    "yhat_upper": "13875.802418817531",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "10466.271909700477",
+    "yhat_lower": "7759.264587386601",
+    "yhat_upper": "13398.595123138433",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "10176.432261294138",
+    "yhat_lower": "7544.070330153792",
+    "yhat_upper": "13270.447080636395",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "10994.743252678452",
+    "yhat_lower": "8203.067418521752",
+    "yhat_upper": "13838.109041138094",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "11075.595207231998",
+    "yhat_lower": "8131.30156525532",
+    "yhat_upper": "14002.793496107066",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "10371.364613186424",
+    "yhat_lower": "7460.338409925123",
+    "yhat_upper": "13382.896271122534",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "10402.481689432827",
+    "yhat_lower": "7662.276215177918",
+    "yhat_upper": "13252.195639148627",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "10494.106425052658",
+    "yhat_lower": "8079.397278768293",
+    "yhat_upper": "13419.656162953961",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "10455.358951185735",
+    "yhat_lower": "7520.011165225731",
+    "yhat_upper": "13283.980574880916",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "11039.316639701165",
+    "yhat_lower": "8231.066480839354",
+    "yhat_upper": "13918.890015050445",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "10312.698231777393",
+    "yhat_lower": "7372.761445067206",
+    "yhat_upper": "13096.551749432248",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "10495.81870697983",
+    "yhat_lower": "7612.836154383988",
+    "yhat_upper": "13041.641477077439",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "11363.080926065531",
+    "yhat_lower": "8604.657004660537",
+    "yhat_upper": "14058.492544846282",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "10234.128349947827",
+    "yhat_lower": "7382.844447007363",
+    "yhat_upper": "13027.27769565397",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "10989.896199045914",
+    "yhat_lower": "8180.431706655763",
+    "yhat_upper": "13620.079102722735",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "11106.927012135182",
+    "yhat_lower": "8137.377905895217",
+    "yhat_upper": "14062.019708246868",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "10431.244159492195",
+    "yhat_lower": "7769.874049115089",
+    "yhat_upper": "13384.612970479948",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "10432.994112662482",
+    "yhat_lower": "7802.098452019297",
+    "yhat_upper": "13307.40481355425",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "10479.087920464379",
+    "yhat_lower": "7696.271709014814",
+    "yhat_upper": "13410.104921357624",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "10542.711197474655",
+    "yhat_lower": "7552.792012690075",
+    "yhat_upper": "13307.547736068713",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "11084.879901439037",
+    "yhat_lower": "8101.055354947413",
+    "yhat_upper": "14063.93519149913",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "10306.928679423872",
+    "yhat_lower": "7497.571561562467",
+    "yhat_upper": "13015.038183789966",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "10525.816940442912",
+    "yhat_lower": "7463.0063976314295",
+    "yhat_upper": "13458.815375978062",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "10013.920085779999",
+    "yhat_lower": "7349.068022420565",
+    "yhat_upper": "12967.012911409549",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "11414.083768584718",
+    "yhat_lower": "8556.311682799596",
+    "yhat_upper": "14139.232731336157",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "10291.41887605401",
+    "yhat_lower": "7332.823105259596",
+    "yhat_upper": "13173.847047348203",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "11138.75280514995",
+    "yhat_lower": "8343.362875505034",
+    "yhat_upper": "13927.94431474775",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "10491.20276173639",
+    "yhat_lower": "7597.69852706249",
+    "yhat_upper": "12913.610589679094",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "10462.801804790579",
+    "yhat_lower": "7672.066067598927",
+    "yhat_upper": "13524.561945197942",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "10464.677104262719",
+    "yhat_lower": "7679.958058344253",
+    "yhat_upper": "13569.272595090772",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "10415.5247903506",
+    "yhat_lower": "7431.201429422273",
+    "yhat_upper": "13448.815471853648",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "11077.079958692157",
+    "yhat_lower": "8282.509275170853",
+    "yhat_upper": "13927.595244164997",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "10456.695764033479",
+    "yhat_lower": "7585.614052354997",
+    "yhat_upper": "13240.755240734808",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "10570.314772045866",
+    "yhat_lower": "7778.838541115613",
+    "yhat_upper": "13458.284864128142",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "10054.237191230983",
+    "yhat_lower": "7264.934551694903",
+    "yhat_upper": "12760.574091447332",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "11393.812230189007",
+    "yhat_lower": "8431.737840329075",
+    "yhat_upper": "14167.41490275402",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "10251.51191212176",
+    "yhat_lower": "7333.619564836506",
+    "yhat_upper": "13160.05288279568",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "11132.248372046051",
+    "yhat_lower": "8409.63205294632",
+    "yhat_upper": "14081.657042080615",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "11177.905233577609",
+    "yhat_lower": "8240.179890994028",
+    "yhat_upper": "14181.738520947898",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "10444.745073578042",
+    "yhat_lower": "7723.549607935184",
+    "yhat_upper": "13326.397594066924",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "10504.413558336022",
+    "yhat_lower": "7797.659897113627",
+    "yhat_upper": "13545.582246055696",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "10501.714946356557",
+    "yhat_lower": "7505.271206888751",
+    "yhat_upper": "13426.512488309572",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "11125.481807892043",
+    "yhat_lower": "8240.680923785772",
+    "yhat_upper": "13894.46163126623",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "10451.40843328555",
+    "yhat_lower": "7534.425049921582",
+    "yhat_upper": "13274.504084744047",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "10599.429739815097",
+    "yhat_lower": "7731.237886671656",
+    "yhat_upper": "13520.561598104112",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "10084.313440433769",
+    "yhat_lower": "7248.370281256561",
+    "yhat_upper": "12856.13362618424",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "11445.085817911411",
+    "yhat_lower": "8412.389740765148",
+    "yhat_upper": "14206.098592388902",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "10309.589970209132",
+    "yhat_lower": "7453.142617145311",
+    "yhat_upper": "12975.16322675391",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "11127.900921835118",
+    "yhat_lower": "8216.15150904982",
+    "yhat_upper": "14046.281155722765",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "11208.752835305762",
+    "yhat_lower": "8423.700359013961",
+    "yhat_upper": "14075.524944589291",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "10504.522201502668",
+    "yhat_lower": "7544.926351978682",
+    "yhat_upper": "13448.332090602576",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "10535.639236665582",
+    "yhat_lower": "7704.742078599236",
+    "yhat_upper": "13264.442311281453",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "10627.263931073396",
+    "yhat_lower": "7683.8362528805255",
+    "yhat_upper": "13407.643564288366",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "10588.51641998216",
+    "yhat_lower": "7584.574429465011",
+    "yhat_upper": "13304.860788022987",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "11172.474067284915",
+    "yhat_lower": "8166.930655898102",
+    "yhat_upper": "14037.688341322002",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "10445.85561947789",
+    "yhat_lower": "7422.646791871051",
+    "yhat_upper": "13340.750305911763",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "10628.97605346806",
+    "yhat_lower": "7707.9200800474655",
+    "yhat_upper": "13483.946892332759",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "10115.26218704602",
+    "yhat_lower": "7552.1679849613765",
+    "yhat_upper": "12716.101230404667",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "11496.238191220555",
+    "yhat_lower": "8814.322410436102",
+    "yhat_upper": "14302.322485256203",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "10367.285573769515",
+    "yhat_lower": "7623.930634400211",
+    "yhat_upper": "13171.710979889582",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "11123.053382867743",
+    "yhat_lower": "8341.562020201127",
+    "yhat_upper": "13897.517061617113",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "11240.0841546418",
+    "yhat_lower": "8377.229805681422",
+    "yhat_upper": "13913.537955856002",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "10564.401260875207",
+    "yhat_lower": "7691.623219056965",
+    "yhat_upper": "13632.846668696495",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "10566.15117155029",
+    "yhat_lower": "7506.154426719046",
+    "yhat_upper": "13254.849984032964",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "10612.244936857644",
+    "yhat_lower": "7752.280023909016",
+    "yhat_upper": "13465.266433129933",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "10675.868175484966",
+    "yhat_lower": "7600.424324579432",
+    "yhat_upper": "13701.693811368503",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "10658.973790005291",
+    "yhat_lower": "7799.424525689859",
+    "yhat_upper": "13349.480916991886",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "10147.076893216432",
+    "yhat_lower": "7287.122915506564",
+    "yhat_upper": "13142.308925829575",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "11547.24053249116",
+    "yhat_lower": "8596.158210670757",
+    "yhat_upper": "14440.272471290431",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "11271.909440815787",
+    "yhat_lower": "8334.28831481909",
+    "yhat_upper": "13760.603555196725",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "10624.359356007802",
+    "yhat_lower": "7738.500076958615",
+    "yhat_upper": "13383.78336416348",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "10595.958356288027",
+    "yhat_lower": "7721.23788498413",
+    "yhat_upper": "13350.25874478071",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "10597.833612985725",
+    "yhat_lower": "7703.561153705839",
+    "yhat_upper": "13694.248523462751",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "10548.681258964418",
+    "yhat_lower": "7693.571319797555",
+    "yhat_upper": "13191.159417349647",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "10589.852148277347",
+    "yhat_lower": "7817.648012957389",
+    "yhat_upper": "13397.241221511771",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "10703.471113793028",
+    "yhat_lower": "7711.764118588282",
+    "yhat_upper": "13462.128783985589",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "10187.393492015957",
+    "yhat_lower": "7222.744526385539",
+    "yhat_upper": "13022.226097551391",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "11526.968488646227",
+    "yhat_lower": "8651.655277520007",
+    "yhat_upper": "14217.856723532417",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "10384.66812825122",
+    "yhat_lower": "7422.044981423915",
+    "yhat_upper": "13248.988844953286",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "11265.404547312177",
+    "yhat_lower": "8293.13454467762",
+    "yhat_upper": "14413.33860761082",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "11311.061366618544",
+    "yhat_lower": "8553.635132588633",
+    "yhat_upper": "14011.14492023707",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "10577.901166047388",
+    "yhat_lower": "7598.232714442971",
+    "yhat_upper": "13407.979419918642",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "10637.569608880645",
+    "yhat_lower": "7560.300909298686",
+    "yhat_upper": "13499.534155660378",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "10776.000697043828",
+    "yhat_lower": "7828.49381770439",
+    "yhat_upper": "13536.064561185472",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "10634.870917485076",
+    "yhat_lower": "7931.357167383767",
+    "yhat_upper": "13559.3126947147",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "11258.637737512225",
+    "yhat_lower": "8486.940328809693",
+    "yhat_upper": "14152.110225366505",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "10584.564363775778",
+    "yhat_lower": "7769.763195162103",
+    "yhat_upper": "13380.431724234739",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "10732.585671203535",
+    "yhat_lower": "7846.8176704690495",
+    "yhat_upper": "13601.812228229843",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "10217.469372436699",
+    "yhat_lower": "7344.266399442787",
+    "yhat_upper": "13180.223826161931",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "11578.241750549441",
+    "yhat_lower": "8879.728484569563",
+    "yhat_upper": "14640.229276111202",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "10442.745903481993",
+    "yhat_lower": "7708.035582954595",
+    "yhat_upper": "13499.754665111146",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "11261.056855749426",
+    "yhat_lower": "8404.62388720236",
+    "yhat_upper": "13952.046788291427",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "11341.908769882795",
+    "yhat_lower": "8591.992907878936",
+    "yhat_upper": "14367.070481831497",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "10637.678136859584",
+    "yhat_lower": "7834.350813964732",
+    "yhat_upper": "13514.932142600741",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "10668.795172828663",
+    "yhat_lower": "7791.071758560985",
+    "yhat_upper": "13357.039173806623",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "10760.419868233867",
+    "yhat_lower": "7890.338621734703",
+    "yhat_upper": "13568.463434613786",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "10721.672358044005",
+    "yhat_lower": "7770.46926710804",
+    "yhat_upper": "13482.203233718186",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "11305.63000589287",
+    "yhat_lower": "8427.185604192395",
+    "yhat_upper": "14306.439043978507",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "10579.011558613915",
+    "yhat_lower": "7711.8510135213755",
+    "yhat_upper": "13349.993375935546",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "10762.13199314979",
+    "yhat_lower": "7950.26262656359",
+    "yhat_upper": "13607.280879465377",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "10248.418127195164",
+    "yhat_lower": "7298.199301319265",
+    "yhat_upper": "13151.122177764337",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "11629.394131852823",
+    "yhat_lower": "8739.249795581272",
+    "yhat_upper": "14516.23769315755",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "10500.441514885415",
+    "yhat_lower": "7661.415652441618",
+    "yhat_upper": "13436.210361178255",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "11256.209324451118",
+    "yhat_lower": "8459.346704778558",
+    "yhat_upper": "14024.696014502699",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "11373.240096690435",
+    "yhat_lower": "8562.006078161805",
+    "yhat_upper": "14129.817582868282",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "10697.557203373979",
+    "yhat_lower": "8083.993643501007",
+    "yhat_upper": "13447.651661976302",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "10699.307114514688",
+    "yhat_lower": "7846.520727836064",
+    "yhat_upper": "13371.358596147578",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "10745.40088028691",
+    "yhat_lower": "7818.167113999643",
+    "yhat_upper": "13563.345394825777",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "10809.024119335127",
+    "yhat_lower": "8037.282917965469",
+    "yhat_upper": "13633.245771541591",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "11351.192781270312",
+    "yhat_lower": "8506.367132709478",
+    "yhat_upper": "14347.222016629381",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "10573.241517867255",
+    "yhat_lower": "7764.698482177025",
+    "yhat_upper": "13431.128446865328",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "10792.129736118295",
+    "yhat_lower": "8010.810198371049",
+    "yhat_upper": "13844.344678293688",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "10280.232840067816",
+    "yhat_lower": "7541.763656183034",
+    "yhat_upper": "13141.277131794748",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "11680.396480104993",
+    "yhat_lower": "8974.376279906628",
+    "yhat_upper": "14556.954966259404",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "10557.731545125444",
+    "yhat_lower": "7810.313194150225",
+    "yhat_upper": "13481.462449292412",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "11250.895273110202",
+    "yhat_lower": "8393.477125425505",
+    "yhat_upper": "14189.161889210367",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "11405.065390692962",
+    "yhat_lower": "8665.345099287239",
+    "yhat_upper": "14452.493688739061",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "10757.515306199855",
+    "yhat_lower": "7766.698421022371",
+    "yhat_upper": "13551.844600103239",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "10729.114306805226",
+    "yhat_lower": "7892.022556345941",
+    "yhat_upper": "13673.066139582515",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "10730.989563828023",
+    "yhat_lower": "7793.889138751864",
+    "yhat_upper": "13530.83593893301",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "10681.83721011058",
+    "yhat_lower": "7600.624251899884",
+    "yhat_upper": "13483.757220681595",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "11343.392335901235",
+    "yhat_lower": "8346.716211388155",
+    "yhat_upper": "14357.460821020153",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "10723.008100064179",
+    "yhat_lower": "7771.892202503985",
+    "yhat_upper": "13542.588296242458",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "10836.62706552533",
+    "yhat_lower": "8146.674572111333",
+    "yhat_upper": "13638.36541558822",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "10320.549443695601",
+    "yhat_lower": "7529.56988447293",
+    "yhat_upper": "13204.207710490586",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "11660.124440271797",
+    "yhat_lower": "8827.84594193422",
+    "yhat_upper": "14662.03356855403",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "10517.824079822305",
+    "yhat_lower": "7583.720041272741",
+    "yhat_upper": "13462.06505091663",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "11398.560498732148",
+    "yhat_lower": "8704.503729176695",
+    "yhat_upper": "14323.45956863345",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "11444.21731788141",
+    "yhat_lower": "8847.64819995246",
+    "yhat_upper": "14537.763999834679",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "10711.057117157841",
+    "yhat_lower": "7872.88738817565",
+    "yhat_upper": "13550.095870913883",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "10770.725559834573",
+    "yhat_lower": "7978.98931102216",
+    "yhat_upper": "13356.406682917139",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "10909.1566478409",
+    "yhat_lower": "7981.1582748776655",
+    "yhat_upper": "13651.996266579255",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "10768.02686776495",
+    "yhat_lower": "7744.500822960582",
+    "yhat_upper": "13477.4479569092",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "11391.793687218847",
+    "yhat_lower": "8538.87482538612",
+    "yhat_upper": "14272.463538194386",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "10717.72031292789",
+    "yhat_lower": "8064.439626558599",
+    "yhat_upper": "13610.83423550074",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "10865.741619782924",
+    "yhat_lower": "7942.60951327634",
+    "yhat_upper": "13696.66521980571",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "10350.625320716845",
+    "yhat_lower": "7469.938948536532",
+    "yhat_upper": "13226.42800246765",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "11711.397698520319",
+    "yhat_lower": "9005.247591188847",
+    "yhat_upper": "14489.439798936774",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "10575.901851143624",
+    "yhat_lower": "7952.435073176813",
+    "yhat_upper": "13425.517184657825",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "11394.212803112257",
+    "yhat_lower": "8516.68021339178",
+    "yhat_upper": "14135.681487121956",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "11475.064716936435",
+    "yhat_lower": "8523.478373933638",
+    "yhat_upper": "14249.940270669562",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "10770.834083475575",
+    "yhat_lower": "8093.718510780024",
+    "yhat_upper": "13778.742450366375",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "10801.951118992594",
+    "yhat_lower": "7931.806168308622",
+    "yhat_upper": "13515.412963450259",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "10893.57581394589",
+    "yhat_lower": "7876.074755037966",
+    "yhat_upper": "13545.968349106948",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "10854.828303347449",
+    "yhat_lower": "8163.672039036742",
+    "yhat_upper": "13624.884157510734",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "11438.78595119595",
+    "yhat_lower": "8423.73291897477",
+    "yhat_upper": "14510.640536719757",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "10712.167503916819",
+    "yhat_lower": "8137.595168757301",
+    "yhat_upper": "13691.567419574327",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "10895.287938452744",
+    "yhat_lower": "7889.677191523333",
+    "yhat_upper": "13847.017386292024",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "10381.574072498537",
+    "yhat_lower": "7633.037440383163",
+    "yhat_upper": "13290.529804810936",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "11762.550077155884",
+    "yhat_lower": "9016.514136609389",
+    "yhat_upper": "14651.478855941043",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "10633.597460188388",
+    "yhat_lower": "7716.753487338622",
+    "yhat_upper": "13677.971032187665",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "11389.36526975419",
+    "yhat_lower": "8601.385201692696",
+    "yhat_upper": "14148.279535903313",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "11506.396041993548",
+    "yhat_lower": "8702.145250711645",
+    "yhat_upper": "14475.225186002684",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "10830.713148677089",
+    "yhat_lower": "8082.1421350653345",
+    "yhat_upper": "13633.147005608891",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "10832.463059817688",
+    "yhat_lower": "7733.812050158053",
+    "yhat_upper": "13524.261853731246",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "10878.556825590755",
+    "yhat_lower": "8003.4076684619795",
+    "yhat_upper": "13947.784223842113",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "10942.180064638836",
+    "yhat_lower": "8084.149963797029",
+    "yhat_upper": "13894.569069862207",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "11484.348726573453",
+    "yhat_lower": "8613.697495527964",
+    "yhat_upper": "14453.854545805243",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "10706.397463170339",
+    "yhat_lower": "7664.30688342766",
+    "yhat_upper": "13721.99092680843",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "10925.285681421878",
+    "yhat_lower": "8187.9870584886585",
+    "yhat_upper": "13833.094043533452",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "10413.38878537083",
+    "yhat_lower": "7518.215815733177",
+    "yhat_upper": "13327.496406541693",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "11813.552425408061",
+    "yhat_lower": "9213.431649704708",
+    "yhat_upper": "14490.17993604514",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "10690.887490428464",
+    "yhat_lower": "7749.6979174079925",
+    "yhat_upper": "13494.232621105322",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "11384.051218413408",
+    "yhat_lower": "8470.749064323514",
+    "yhat_upper": "14102.20490387758",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "11538.221335996168",
+    "yhat_lower": "8612.696396640345",
+    "yhat_upper": "14428.52088977262",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "10890.67125150316",
+    "yhat_lower": "8126.624091915529",
+    "yhat_upper": "13678.614902898931",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "10862.270252108436",
+    "yhat_lower": "8048.267960506918",
+    "yhat_upper": "13769.507487538282",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "10864.145509131453",
+    "yhat_lower": "7983.058031160708",
+    "yhat_upper": "13828.870749754577",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "10814.993155414122",
+    "yhat_lower": "7869.2052921639615",
+    "yhat_upper": "13684.394276258137",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "11476.548281204276",
+    "yhat_lower": "8809.899935906928",
+    "yhat_upper": "14470.795955710317",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "10856.164045367288",
+    "yhat_lower": "8267.727393597459",
+    "yhat_upper": "13570.30386229776",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "10969.78301082859",
+    "yhat_lower": "8196.836401168808",
+    "yhat_upper": "13831.313372601879",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "10453.705388998755",
+    "yhat_lower": "7359.58768896475",
+    "yhat_upper": "13304.471695474082",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "11793.280385574995",
+    "yhat_lower": "8928.911598174838",
+    "yhat_upper": "14768.657048905083",
+    "area_id": "478",
+    "name_en": "Jabal Ali Industrial Second"
+  }
+]

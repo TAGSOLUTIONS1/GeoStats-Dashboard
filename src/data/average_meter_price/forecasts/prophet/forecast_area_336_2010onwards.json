@@ -1,0 +1,578 @@
+[
+  {
+    "ds": "2012-01-01",
+    "yhat": "1344.3821814329403",
+    "yhat_lower": "898.841743797454",
+    "yhat_upper": "1802.6057881056452",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "2198.5863853596516",
+    "yhat_lower": "1754.4795787733249",
+    "yhat_upper": "2625.3120306224378",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "2341.54969737266",
+    "yhat_lower": "1923.8941442119647",
+    "yhat_upper": "2761.358174895017",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "2906.132692243019",
+    "yhat_lower": "2472.157949928148",
+    "yhat_upper": "3348.820412040762",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "2294.2005064249133",
+    "yhat_lower": "1878.5693688478525",
+    "yhat_upper": "2762.252428080483",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "2029.0857643933655",
+    "yhat_lower": "1574.8379243178913",
+    "yhat_upper": "2440.460142096257",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "2961.4835558265695",
+    "yhat_lower": "2499.774966288817",
+    "yhat_upper": "3406.5706626178116",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "3228.2702861417456",
+    "yhat_lower": "2775.619415835638",
+    "yhat_upper": "3699.411838015496",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "2828.069387548646",
+    "yhat_lower": "2406.2579831767853",
+    "yhat_upper": "3246.120788264128",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "1956.2240016954327",
+    "yhat_lower": "1542.521355251954",
+    "yhat_upper": "2338.930385125364",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "3347.993364420322",
+    "yhat_lower": "2890.3584348118975",
+    "yhat_upper": "3786.439126511912",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "2566.8581880993024",
+    "yhat_lower": "2161.452838731279",
+    "yhat_upper": "3009.7314592711796",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "2965.902113373061",
+    "yhat_lower": "2521.119623166318",
+    "yhat_upper": "3406.319576184605",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "2207.427765652497",
+    "yhat_lower": "1751.567467193437",
+    "yhat_upper": "2613.2279884841755",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "2832.493764058978",
+    "yhat_lower": "2418.2724225596526",
+    "yhat_upper": "3232.0380979217557",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "2682.198290987859",
+    "yhat_lower": "2238.759654246904",
+    "yhat_upper": "3128.7622268631226",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "2350.396896661446",
+    "yhat_lower": "1916.3990627762264",
+    "yhat_upper": "2835.464975367566",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "2637.0184891302697",
+    "yhat_lower": "2173.820140399698",
+    "yhat_upper": "3052.515468867739",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "2707.802927421478",
+    "yhat_lower": "2273.349703255162",
+    "yhat_upper": "3151.506359316216",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "3013.2700340519345",
+    "yhat_lower": "2551.119613990866",
+    "yhat_upper": "3447.5743154716365",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "2935.6256714736396",
+    "yhat_lower": "2518.6406381983934",
+    "yhat_upper": "3357.9364098308065",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "4532.119070106965",
+    "yhat_lower": "4091.8223424859857",
+    "yhat_upper": "4982.5594273509505",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "3678.2558559453755",
+    "yhat_lower": "3229.6859734646546",
+    "yhat_upper": "4110.274617036038",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "3166.3909335260064",
+    "yhat_lower": "2724.569245579752",
+    "yhat_upper": "3593.1031237266857",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "1739.861582720585",
+    "yhat_lower": "1292.8419692717866",
+    "yhat_upper": "2172.80328860025",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "3127.2576085176697",
+    "yhat_lower": "2682.30196616719",
+    "yhat_upper": "3535.691720940543",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "-6552.970418322373",
+    "yhat_lower": "-6996.328854163026",
+    "yhat_upper": "-6097.170335349916",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "3237.1279522909135",
+    "yhat_lower": "2820.408487295834",
+    "yhat_upper": "3662.3831311354043",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "3047.8071740314444",
+    "yhat_lower": "2586.69169040031",
+    "yhat_upper": "3483.813930355257",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "2485.3468644554173",
+    "yhat_lower": "2033.150863576765",
+    "yhat_upper": "2914.42620474917",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "3594.850654799059",
+    "yhat_lower": "3159.117335751378",
+    "yhat_upper": "4015.4650737330476",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "1357.6599581947441",
+    "yhat_lower": "940.5852778742556",
+    "yhat_upper": "1793.446676216504",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "4582.691655870144",
+    "yhat_lower": "4146.001203855932",
+    "yhat_upper": "5026.745984016548",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "2211.8649261277524",
+    "yhat_lower": "1756.7900650552865",
+    "yhat_upper": "2647.579983118892",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "5242.491003370511",
+    "yhat_lower": "4792.541019418066",
+    "yhat_upper": "5692.617700431444",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "4866.612496256626",
+    "yhat_lower": "4409.818901197959",
+    "yhat_upper": "5297.9219270498725",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "2681.0737881046384",
+    "yhat_lower": "2220.1138145886102",
+    "yhat_upper": "3086.229297126276",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "2836.930924578238",
+    "yhat_lower": "2388.74333903652",
+    "yhat_upper": "3255.9836161412645",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "-7735.034204270872",
+    "yhat_lower": "-8191.618845137866",
+    "yhat_upper": "-7276.233024015052",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "1831.286689642824",
+    "yhat_lower": "1383.929518653833",
+    "yhat_upper": "2303.048050901294",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "2665.438452143146",
+    "yhat_lower": "2236.1242812300084",
+    "yhat_upper": "3065.6514318617224",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "2686.635451533846",
+    "yhat_lower": "2228.8052813355175",
+    "yhat_upper": "3147.565678698165",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "6402.332463532726",
+    "yhat_lower": "5953.173822004936",
+    "yhat_upper": "6799.530739243012",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "3437.903768966654",
+    "yhat_lower": "3033.3855780622403",
+    "yhat_upper": "3885.9174435515138",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "1965.0882763349002",
+    "yhat_lower": "1537.918359777446",
+    "yhat_upper": "2409.8575324833355",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "3356.857995588915",
+    "yhat_lower": "2923.7346689720443",
+    "yhat_upper": "3762.970969828949",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "4518.456341655451",
+    "yhat_lower": "4072.5518123894244",
+    "yhat_upper": "4968.362593141553",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "4300.767130941554",
+    "yhat_lower": "3884.8481180392428",
+    "yhat_upper": "4712.644303431873",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "2354.834057258375",
+    "yhat_lower": "1913.588062915122",
+    "yhat_upper": "2806.159572341735",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "2919.4174341325775",
+    "yhat_lower": "2502.832658670673",
+    "yhat_upper": "3379.026621394388",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "-7353.103772806243",
+    "yhat_lower": "-7786.071785949333",
+    "yhat_upper": "-6899.771243774261",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "2307.4860377833693",
+    "yhat_lower": "1912.520190377611",
+    "yhat_upper": "2777.2413989335723",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "2811.0437292573906",
+    "yhat_lower": "2371.2320672564565",
+    "yhat_upper": "3260.837687116968",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "2641.4556497359276",
+    "yhat_lower": "2228.708488760098",
+    "yhat_upper": "3065.485230494713",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "5471.362782627117",
+    "yhat_lower": "5053.837110226133",
+    "yhat_upper": "5894.967985990095",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "2712.240088040054",
+    "yhat_lower": "2247.5685211798477",
+    "yhat_upper": "3150.0116958553776",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "2808.2980263405016",
+    "yhat_lower": "2386.165353514803",
+    "yhat_upper": "3225.1339892868264",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "4475.433211747023",
+    "yhat_lower": "4019.30510042385",
+    "yhat_upper": "4894.793986084037",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "3762.3192273975437",
+    "yhat_lower": "3303.8418019308956",
+    "yhat_upper": "4226.603465264686",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "3735.1604985818467",
+    "yhat_lower": "3287.4863800868516",
+    "yhat_upper": "4160.553631635606",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "2042.3747719798944",
+    "yhat_lower": "1578.6734188225432",
+    "yhat_upper": "2500.373635592371",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "3017.7071946663254",
+    "yhat_lower": "2556.789301559622",
+    "yhat_upper": "3459.2288274200478",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "-6957.379480362017",
+    "yhat_lower": "-7397.246224443646",
+    "yhat_upper": "-6499.28254518807",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "2777.8579212447594",
+    "yhat_lower": "2359.2367663834075",
+    "yhat_upper": "3248.4164512231955",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "2940.062832080135",
+    "yhat_lower": "2501.501283505054",
+    "yhat_upper": "3407.5868051432794",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "2575.730586439058",
+    "yhat_lower": "2153.048795283371",
+    "yhat_upper": "3033.578477314314",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "4536.556230711711",
+    "yhat_lower": "4119.541723682333",
+    "yhat_upper": "4994.389187451614",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "2020.0268195013673",
+    "yhat_lower": "1598.2730183106614",
+    "yhat_upper": "2436.925225453026",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "3682.6930165439317",
+    "yhat_lower": "3235.5887887289955",
+    "yhat_upper": "4127.297877610113",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "5566.198905194917",
+    "yhat_lower": "5114.387147384469",
+    "yhat_upper": "5983.021555687691",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "2974.7764343885674",
+    "yhat_lower": "2561.0975969210103",
+    "yhat_upper": "3372.1522738031126",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "3170.828094135508",
+    "yhat_lower": "2749.2275297790898",
+    "yhat_upper": "3586.9126102315204",
+    "area_id": "336",
+    "name_en": "Nad Al Shiba Second"
+  }
+]

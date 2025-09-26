@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "3779.7060546875",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "4299.54833984375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "3961.093994140625",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "3895.3974609375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "3497.927490234375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "4201.54833984375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "3937.69189453125",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "4323.8720703125",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "4605.42431640625",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "6371.5986328125",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "5306.927734375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "3671.955810546875",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "3700.777099609375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "3851.083984375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "4032.027099609375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "3636.715087890625",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "3902.316162109375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "4448.45751953125",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "4092.74365234375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "4291.66748046875",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "4810.8310546875",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "5254.7333984375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "5347.69970703125",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "3990.643798828125",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "3890.11962890625",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "3677.3271484375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "3886.0654296875",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "3945.704345703125",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "3723.937255859375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "4208.181640625",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "4058.971435546875",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "4386.25537109375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "4323.36328125",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "4909.2138671875",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "5588.11767578125",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "4068.454833984375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "3741.828369140625",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "3918.17919921875",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "4050.599365234375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "3808.299072265625",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "3680.498291015625",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "4132.50927734375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "4130.9462890625",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "4471.38330078125",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "4446.18505859375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "4860.0107421875",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "5483.708984375",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "4079.904296875",
+    "area_id": "338",
+    "name_en": "Al Goze First"
+  }
+]

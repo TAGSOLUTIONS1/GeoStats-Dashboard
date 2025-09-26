@@ -9,10 +9,11 @@ import FeedbackModal from '../ui/FeedbackModal';
 import ShareModal from '../ui/ShareModal';
 import Map from '../ui/Map';
 import GraphModal from '../ui/GraphModal';
+import AreasMap from "../../data/average_meter_price/forecasts/Areas_id.json";
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedFilter, setSelectedFilter] = useState('Emirate');
+  const [selectedFilter, setSelectedFilter] = useState('Area');
   const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
   const [isTableViewOpen, setIsTableViewOpen] = useState(false);
   const [isTooltipEnabled, setIsTooltipEnabled] = useState(true);
@@ -146,6 +147,40 @@ const Layout = ({ children }) => {
       window.highlightSearchResult(coordinates);
     }
   };
+
+  const [series, setSeries] = useState([]);
+
+  console.log("graph place is " , graphPlace);
+  useEffect(() => {
+    if (!graphPlace) return;
+
+    // extract municipality_number 915 from "AL YUFRAH 1 - 915"
+    const municipalityNumber = graphPlace.split("-").pop().trim();
+
+    // lookup area_id from Areas_id.json
+    const areaEntry = AreasMap.find(
+      (area) => String(area.municipality_number) === municipalityNumber
+    );
+
+    if (!areaEntry) {
+      console.error("No matching area found for", municipalityNumber);
+      return;
+    }
+
+    const areaId = areaEntry.area_id;
+
+    // dynamic import forecast JSON using the area_id
+    import(
+      `../../data/average_meter_price/forecasts/xgb/forecast_area_${areaId}_2010onwards.json`
+    )
+      .then((module) => {
+        setSeries(module.default);
+      })
+      .catch((err) =>
+        console.error("Error loading forecast for area:", areaId, err),
+        setSeries([]),
+      );
+  }, [graphPlace]);
 
   return (
     <div className="flex h-screen bg-gray-50 relative">
@@ -308,30 +343,30 @@ const Layout = ({ children }) => {
         )}
 
         {/* Bottom Control Bar */}
-        <div className="px-2 sm:px-4 lg:px-6 py-4 flex items-center justify-between pointer-events-auto">
-          <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-6">
+        <div className="px-2 sm:px-4 lg:px-6 py-4 flex items-center space-x-4 lg:space-x-6 pointer-events-auto">
+          <div className="flex items-center">
             <button 
               onClick={handleTableView}
-              className="flex bg-white px-3 sm:px-4 py-2 rounded-3xl hover:bg-gray-50 items-center space-x-2 transition-colors"
+              className="flex bg-white px-2 lg:px-6 justify-between sm:px-4 py-2 rounded-3xl hover:bg-gray-50 items-center space-x-2 transition-colors"
             >
               <Table className="w-4 h-4 text-gray-600" />
-              <span className="text-sm text-gray-700 hidden sm:block">Table View</span>
+              <span className="text-sm text-gray-700 ">Table View</span>
             </button>
-            <div className="hidden sm:block">
+          </div>
+          <div className="">
               <DatePicker 
                 selectedDate={selectedDate}
                 onDateChange={handleDateChange}
               />
             </div>
-          </div>
           
           {/* Mobile Date Picker */}
-          <div className="sm:hidden">
+          {/* <div className="sm:hidden">
             <DatePicker 
               selectedDate={selectedDate}
               onDateChange={handleDateChange}
             />
-          </div>
+          </div> */}
         </div>
       </main>
       
@@ -378,6 +413,7 @@ const Layout = ({ children }) => {
         isOpen={isGraphOpen}
         onClose={() => setIsGraphOpen(false)}
         placeName={graphPlace}
+        series={series}
       />
     </div>
   );

@@ -1,0 +1,610 @@
+[
+  {
+    "ds": "2011-06-01",
+    "yhat": "31980.380255784537",
+    "yhat_lower": "28308.150876476175",
+    "yhat_upper": "35732.378856098374",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "29224.26002045982",
+    "yhat_lower": "25559.09216755139",
+    "yhat_upper": "32870.60193199152",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "27970.46355950504",
+    "yhat_lower": "24378.829982997395",
+    "yhat_upper": "31705.027047527168",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "26975.628479954088",
+    "yhat_lower": "23346.300045290896",
+    "yhat_upper": "30839.109183456385",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "26646.155179369955",
+    "yhat_lower": "22911.061703065072",
+    "yhat_upper": "30356.859877647315",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "27397.830258285052",
+    "yhat_lower": "23682.935977827496",
+    "yhat_upper": "31350.875673960327",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "29501.746518694614",
+    "yhat_lower": "25614.866852673418",
+    "yhat_upper": "33273.9098156231",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "27201.4793424499",
+    "yhat_lower": "23835.92366379557",
+    "yhat_upper": "30962.015511957594",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "28115.830772878442",
+    "yhat_lower": "24538.66578952363",
+    "yhat_upper": "31685.049534543716",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "26634.40458767106",
+    "yhat_lower": "23094.74730891823",
+    "yhat_upper": "30275.417082238222",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "19803.103717419872",
+    "yhat_lower": "16079.895550608697",
+    "yhat_upper": "23535.047621403377",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "25113.951592222023",
+    "yhat_lower": "21491.49313474402",
+    "yhat_upper": "28976.702797822058",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "28754.21617476682",
+    "yhat_lower": "24792.377947697627",
+    "yhat_upper": "32087.012225525952",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "23738.70942317533",
+    "yhat_lower": "20171.681284269867",
+    "yhat_upper": "27428.91736674527",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "26806.688130619837",
+    "yhat_lower": "23399.96686852257",
+    "yhat_upper": "30403.222896833613",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "14440.726286267092",
+    "yhat_lower": "10598.730873843942",
+    "yhat_upper": "17771.192195301795",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "14798.351849148221",
+    "yhat_lower": "11183.506225675541",
+    "yhat_upper": "18715.926409416683",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "17507.896312233082",
+    "yhat_lower": "13727.781528219508",
+    "yhat_upper": "21138.079544921635",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "12528.677044464168",
+    "yhat_lower": "8799.018901049516",
+    "yhat_upper": "16277.203770451895",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "20502.948443217203",
+    "yhat_lower": "16861.043265289863",
+    "yhat_upper": "24363.721949509993",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "17260.512617405897",
+    "yhat_lower": "13796.990444506951",
+    "yhat_upper": "21092.183573858765",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "12282.923911255006",
+    "yhat_lower": "8538.606509116675",
+    "yhat_upper": "15865.776373616623",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "18606.50877294138",
+    "yhat_lower": "14962.478564952546",
+    "yhat_upper": "22408.20194667418",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "19214.756912426197",
+    "yhat_lower": "15237.491490056205",
+    "yhat_upper": "22856.495832318058",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "16636.65219349756",
+    "yhat_lower": "12941.974195584247",
+    "yhat_upper": "20198.610242735216",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "14468.509497442477",
+    "yhat_lower": "11007.513930698402",
+    "yhat_upper": "18231.48231708252",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "17191.97657300868",
+    "yhat_lower": "13320.313711043344",
+    "yhat_upper": "20920.348147253353",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "16624.901880699068",
+    "yhat_lower": "13283.456806164055",
+    "yhat_upper": "20602.553178628237",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "12703.063694336593",
+    "yhat_lower": "9049.391111161225",
+    "yhat_upper": "16422.738096752095",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "-29763.77689190558",
+    "yhat_lower": "-33426.6318284809",
+    "yhat_upper": "-26043.66670065036",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "5642.796933390267",
+    "yhat_lower": "2142.550664724763",
+    "yhat_upper": "9212.657640001156",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "-3309.462181884321",
+    "yhat_lower": "-6869.371607445164",
+    "yhat_upper": "576.2390946542222",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "31697.062012756043",
+    "yhat_lower": "27829.682810578808",
+    "yhat_upper": "35337.19225687203",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "9793.601198254726",
+    "yhat_lower": "6258.043403373366",
+    "yhat_upper": "13421.400870774067",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "15104.44910407277",
+    "yhat_lower": "11099.46106727237",
+    "yhat_upper": "18683.61546343339",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "-129105.88068041917",
+    "yhat_lower": "-132939.87304755405",
+    "yhat_upper": "-125625.937781402",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "18744.713750253526",
+    "yhat_lower": "15383.650575979917",
+    "yhat_upper": "22575.123059909554",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "13729.207027253216",
+    "yhat_lower": "10210.95360707447",
+    "yhat_upper": "17501.65837874305",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "16797.18576707275",
+    "yhat_lower": "12964.53591818392",
+    "yhat_upper": "20498.387793624835",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "15399.742856854964",
+    "yhat_lower": "11571.164368323343",
+    "yhat_upper": "19102.515532111775",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "12503.145884526919",
+    "yhat_lower": "8858.833401717497",
+    "yhat_upper": "16241.526919589114",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "-35691.03533510496",
+    "yhat_lower": "-39418.78778652072",
+    "yhat_upper": "-32115.06247261491",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "7523.926631497929",
+    "yhat_lower": "4278.460209923725",
+    "yhat_upper": "11268.733187278593",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "2044.9443036191162",
+    "yhat_lower": "-1654.818750615529",
+    "yhat_upper": "6112.044093224326",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "22692.76842416748",
+    "yhat_lower": "19251.419622507536",
+    "yhat_upper": "26421.14161955657",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "9599.183519986627",
+    "yhat_lower": "5799.878263034454",
+    "yhat_upper": "13353.579398140515",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "14922.241831319394",
+    "yhat_lower": "11439.776856194403",
+    "yhat_upper": "18904.65354576665",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "-132488.16074257265",
+    "yhat_lower": "-135992.20263326837",
+    "yhat_upper": "-128965.01984017395",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "21315.333401346736",
+    "yhat_lower": "17978.416226013993",
+    "yhat_upper": "25158.3455293995",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "10218.53351901555",
+    "yhat_lower": "6621.105522803861",
+    "yhat_upper": "13676.843460035125",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "15498.198083201176",
+    "yhat_lower": "11924.402763869937",
+    "yhat_upper": "19159.035079380785",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "14176.839339976568",
+    "yhat_lower": "10460.77437749138",
+    "yhat_upper": "17891.694422081488",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "12255.762269318404",
+    "yhat_lower": "8495.06874709582",
+    "yhat_upper": "15843.228627369706",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "-41540.64585211195",
+    "yhat_lower": "-45200.00271318885",
+    "yhat_upper": "-37879.014727010916",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "9521.826009600363",
+    "yhat_lower": "5918.398595753709",
+    "yhat_upper": "13283.175228030479",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "7278.173581670679",
+    "yhat_lower": "3548.396198143458",
+    "yhat_upper": "10946.051600541658",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "13601.75844331442",
+    "yhat_lower": "10086.492894218836",
+    "yhat_upper": "17388.341564725633",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "9488.976051453406",
+    "yhat_lower": "5989.728635560066",
+    "yhat_upper": "13220.700187745175",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "14716.586652818298",
+    "yhat_lower": "10882.563635793449",
+    "yhat_upper": "18416.393139418135",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "-135769.4496535411",
+    "yhat_lower": "-139568.10929976328",
+    "yhat_upper": "-132148.1642903528",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "23868.116531605632",
+    "yhat_lower": "20283.136475145966",
+    "yhat_upper": "27530.572270871093",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "6661.830790050666",
+    "yhat_lower": "3114.0065303539654",
+    "yhat_upper": "10195.436554419939",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "14210.006582855176",
+    "yhat_lower": "10695.27263048299",
+    "yhat_upper": "18168.84613196428",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "12956.210152001791",
+    "yhat_lower": "9297.380769336343",
+    "yhat_upper": "16779.76348363425",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "11961.375103026792",
+    "yhat_lower": "8326.594982622408",
+    "yhat_upper": "15750.133679149132",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "-47308.568392058725",
+    "yhat_lower": "-51241.62827045373",
+    "yhat_upper": "-43691.774246705005",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "11631.901863900566",
+    "yhat_lower": "7791.643721111087",
+    "yhat_upper": "15182.082177205524",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "12383.576974504998",
+    "yhat_lower": "8777.122608409758",
+    "yhat_upper": "16095.787565788816",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "4431.224886412279",
+    "yhat_lower": "444.6734444165497",
+    "yhat_upper": "8058.393745305364",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "9463.759167798138",
+    "yhat_lower": "5600.776764807809",
+    "yhat_upper": "13106.933859837542",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "14487.493327279952",
+    "yhat_lower": "10989.035807663277",
+    "yhat_upper": "18109.666557612094",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "-138948.87490128572",
+    "yhat_lower": "-142700.43624208015",
+    "yhat_upper": "-135268.3376011329",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "26398.51926830262",
+    "yhat_lower": "22589.03809466854",
+    "yhat_upper": "29948.18678155598",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "12187.226243385157",
+    "yhat_lower": "8475.905438983993",
+    "yhat_upper": "15956.088387353388",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "13101.577705802181",
+    "yhat_lower": "9062.341147036122",
+    "yhat_upper": "16849.465155459955",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "11620.15155109482",
+    "yhat_lower": "8026.291983936432",
+    "yhat_upper": "15381.702850597765",
+    "area_id": "326",
+    "name_en": "Um Hurair Second"
+  }
+]

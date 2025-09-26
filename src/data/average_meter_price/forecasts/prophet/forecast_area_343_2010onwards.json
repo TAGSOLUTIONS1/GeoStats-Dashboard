@@ -1,0 +1,1794 @@
+[
+  {
+    "ds": "2010-01-01",
+    "yhat": "5148.853052411178",
+    "yhat_lower": "3834.348585426149",
+    "yhat_upper": "6390.604779247772",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2010-02-01",
+    "yhat": "5205.625951447503",
+    "yhat_lower": "3884.604547546769",
+    "yhat_upper": "6422.011726993445",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2010-03-01",
+    "yhat": "5133.497374539113",
+    "yhat_lower": "3902.0622856613345",
+    "yhat_upper": "6403.529306624976",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2010-04-01",
+    "yhat": "5393.931361868603",
+    "yhat_lower": "4026.9697361139038",
+    "yhat_upper": "6646.266396727032",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2010-05-01",
+    "yhat": "5072.3207898957135",
+    "yhat_lower": "3723.283044347964",
+    "yhat_upper": "6305.162160329646",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2010-06-01",
+    "yhat": "5139.483749805614",
+    "yhat_lower": "3890.9057575242628",
+    "yhat_upper": "6398.273362950925",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2010-07-01",
+    "yhat": "5281.08704299647",
+    "yhat_lower": "3995.3641678889326",
+    "yhat_upper": "6510.020222654246",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2010-08-01",
+    "yhat": "4983.884793795182",
+    "yhat_lower": "3668.759458703017",
+    "yhat_upper": "6271.758659219767",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2010-09-01",
+    "yhat": "5372.35493679247",
+    "yhat_lower": "4160.592392443433",
+    "yhat_upper": "6591.6342458238005",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2010-10-01",
+    "yhat": "5403.447015411574",
+    "yhat_lower": "4199.238401173411",
+    "yhat_upper": "6736.127711260297",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2010-11-01",
+    "yhat": "5119.012109047993",
+    "yhat_lower": "3824.5675231873843",
+    "yhat_upper": "6425.696791674105",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2010-12-01",
+    "yhat": "5363.00623970685",
+    "yhat_lower": "4085.0067577908253",
+    "yhat_upper": "6660.551724986318",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2011-01-01",
+    "yhat": "5545.553483002521",
+    "yhat_lower": "4289.14835581175",
+    "yhat_upper": "6826.253525659291",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2011-02-01",
+    "yhat": "5576.768778386473",
+    "yhat_lower": "4257.181642950921",
+    "yhat_upper": "6831.407350177891",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2011-03-01",
+    "yhat": "5703.936167092728",
+    "yhat_lower": "4405.575009759979",
+    "yhat_upper": "6957.008990520658",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2011-04-01",
+    "yhat": "5839.340409694062",
+    "yhat_lower": "4508.358400097106",
+    "yhat_upper": "7051.266134814717",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2011-05-01",
+    "yhat": "5498.754874037873",
+    "yhat_lower": "4290.461570881452",
+    "yhat_upper": "6777.287704938146",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2011-06-01",
+    "yhat": "5600.27603647149",
+    "yhat_lower": "4218.673185368498",
+    "yhat_upper": "6830.158622704216",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2011-07-01",
+    "yhat": "5696.1591030769405",
+    "yhat_lower": "4350.095617901231",
+    "yhat_upper": "6981.5978052529235",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2011-08-01",
+    "yhat": "5433.342906369965",
+    "yhat_lower": "4134.64685806234",
+    "yhat_upper": "6733.849185517404",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2011-09-01",
+    "yhat": "5834.113382619809",
+    "yhat_lower": "4502.750999709085",
+    "yhat_upper": "7160.799352157179",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2011-10-01",
+    "yhat": "5847.01879670987",
+    "yhat_lower": "4567.785632023599",
+    "yhat_upper": "7145.893663717786",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2011-11-01",
+    "yhat": "5635.361114283912",
+    "yhat_lower": "4309.92254188663",
+    "yhat_upper": "6878.003512308904",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2011-12-01",
+    "yhat": "5803.258677960668",
+    "yhat_lower": "4507.61613176476",
+    "yhat_upper": "6999.204721514265",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2012-01-01",
+    "yhat": "5941.398446476527",
+    "yhat_lower": "4695.684906689286",
+    "yhat_upper": "7248.175631455671",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2012-02-01",
+    "yhat": "5950.02912775908",
+    "yhat_lower": "4687.4458705628285",
+    "yhat_upper": "7217.77835069257",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2012-03-01",
+    "yhat": "5799.022442359424",
+    "yhat_lower": "4494.632299768909",
+    "yhat_upper": "7042.2111044063195",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2012-04-01",
+    "yhat": "6301.4394704964025",
+    "yhat_lower": "5069.029610933066",
+    "yhat_upper": "7525.02523794794",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2012-05-01",
+    "yhat": "6022.056044078771",
+    "yhat_lower": "4805.491192298038",
+    "yhat_upper": "7249.12606180468",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2012-06-01",
+    "yhat": "6020.690594769981",
+    "yhat_lower": "4815.092953079292",
+    "yhat_upper": "7268.743810656877",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2012-07-01",
+    "yhat": "6254.58259761043",
+    "yhat_lower": "4981.545102772046",
+    "yhat_upper": "7606.807883672147",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2012-08-01",
+    "yhat": "5891.518004021412",
+    "yhat_lower": "4725.8456151794535",
+    "yhat_upper": "7122.507601206051",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2012-09-01",
+    "yhat": "6253.711796207811",
+    "yhat_lower": "5031.406623911738",
+    "yhat_upper": "7509.214050433136",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2012-10-01",
+    "yhat": "6321.961892532112",
+    "yhat_lower": "4947.734480831424",
+    "yhat_upper": "7556.665858322338",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2012-11-01",
+    "yhat": "5889.356899230418",
+    "yhat_lower": "4581.221326073827",
+    "yhat_upper": "7103.418788258866",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2012-12-01",
+    "yhat": "6280.417170335351",
+    "yhat_lower": "5003.031672685047",
+    "yhat_upper": "7575.8249561891",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2013-01-01",
+    "yhat": "6554.9766483177",
+    "yhat_lower": "5189.371420975357",
+    "yhat_upper": "7753.708523203985",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2013-02-01",
+    "yhat": "6640.2781458575855",
+    "yhat_lower": "5418.242700210295",
+    "yhat_upper": "7911.576258336786",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2013-03-01",
+    "yhat": "6367.660844399498",
+    "yhat_lower": "5034.665217786189",
+    "yhat_upper": "7696.399238319115",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2013-04-01",
+    "yhat": "6750.466623898155",
+    "yhat_lower": "5465.0022019092685",
+    "yhat_upper": "8066.744256362066",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2013-05-01",
+    "yhat": "6449.274635319429",
+    "yhat_lower": "5234.988994495959",
+    "yhat_upper": "7780.802338000396",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2013-06-01",
+    "yhat": "6482.134866098025",
+    "yhat_lower": "5309.980658855752",
+    "yhat_upper": "7717.683111387164",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2013-07-01",
+    "yhat": "6669.753982619317",
+    "yhat_lower": "5426.756030412589",
+    "yhat_upper": "7953.485981904294",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2013-08-01",
+    "yhat": "6339.124525930552",
+    "yhat_lower": "5150.749686438911",
+    "yhat_upper": "7625.2030249186455",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2013-09-01",
+    "yhat": "6714.727842224411",
+    "yhat_lower": "5392.442926878263",
+    "yhat_upper": "7959.119859457777",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2013-10-01",
+    "yhat": "6764.267709825286",
+    "yhat_lower": "5517.565615780573",
+    "yhat_upper": "8062.787167040764",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2013-11-01",
+    "yhat": "6406.163347187543",
+    "yhat_lower": "5167.50037461918",
+    "yhat_upper": "7756.779349856876",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2013-12-01",
+    "yhat": "6724.573329389983",
+    "yhat_lower": "5363.990189675561",
+    "yhat_upper": "8068.187938961456",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2014-01-01",
+    "yhat": "6952.619648584587",
+    "yhat_lower": "5646.660900776248",
+    "yhat_upper": "8216.333957135988",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2014-02-01",
+    "yhat": "7009.392540128056",
+    "yhat_lower": "5685.520361987021",
+    "yhat_upper": "8246.623702621886",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2014-03-01",
+    "yhat": "6937.263956452673",
+    "yhat_lower": "5695.154646839221",
+    "yhat_upper": "8230.621627215056",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2014-04-01",
+    "yhat": "7197.129572979641",
+    "yhat_lower": "5907.895261841118",
+    "yhat_upper": "8547.769662436061",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2014-05-01",
+    "yhat": "6874.968964747286",
+    "yhat_lower": "5574.953945962742",
+    "yhat_upper": "8058.60412298702",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2014-06-01",
+    "yhat": "6941.563553855216",
+    "yhat_lower": "5628.255253761582",
+    "yhat_upper": "8250.81751675441",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2014-07-01",
+    "yhat": "7082.616810786748",
+    "yhat_lower": "5836.062703207458",
+    "yhat_upper": "8299.243995335133",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2014-08-01",
+    "yhat": "6784.846190714823",
+    "yhat_lower": "5520.108130415059",
+    "yhat_upper": "8167.149415836537",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2014-09-01",
+    "yhat": "7172.747962841328",
+    "yhat_lower": "5875.775453783551",
+    "yhat_upper": "8435.699532257422",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2014-10-01",
+    "yhat": "7199.637271121924",
+    "yhat_lower": "5927.110629676923",
+    "yhat_upper": "8577.6640997778",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2014-11-01",
+    "yhat": "6910.859502074652",
+    "yhat_lower": "5706.189293803358",
+    "yhat_upper": "8111.469420774102",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2014-12-01",
+    "yhat": "7150.650862394937",
+    "yhat_lower": "5825.893363946473",
+    "yhat_upper": "8429.220362225144",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2015-01-01",
+    "yhat": "7328.8552426858505",
+    "yhat_lower": "6038.110666946224",
+    "yhat_upper": "8549.49930492362",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2015-02-01",
+    "yhat": "7355.727675064244",
+    "yhat_lower": "6026.309411986554",
+    "yhat_upper": "8609.909582572087",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2015-03-01",
+    "yhat": "7469.519159264622",
+    "yhat_lower": "6231.452951629515",
+    "yhat_upper": "8761.682270094758",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2015-04-01",
+    "yhat": "7590.11436473314",
+    "yhat_lower": "6367.544445806481",
+    "yhat_upper": "8806.221074587478",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2015-05-01",
+    "yhat": "7235.197502819631",
+    "yhat_lower": "5924.533603991478",
+    "yhat_upper": "8388.26054343878",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2015-06-01",
+    "yhat": "7321.90962812133",
+    "yhat_lower": "6046.170988653608",
+    "yhat_upper": "8587.038600517992",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2015-07-01",
+    "yhat": "7403.4613684327815",
+    "yhat_lower": "6214.370047255809",
+    "yhat_upper": "8635.967458962725",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2015-08-01",
+    "yhat": "7125.836134557028",
+    "yhat_lower": "5851.007226700675",
+    "yhat_upper": "8438.371197315659",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2015-09-01",
+    "yhat": "7498.056930512409",
+    "yhat_lower": "6173.050450503735",
+    "yhat_upper": "8697.503793463078",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2015-10-01",
+    "yhat": "7483.333621737769",
+    "yhat_lower": "6140.338967763647",
+    "yhat_upper": "8672.294615933419",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2015-11-01",
+    "yhat": "7243.126259016734",
+    "yhat_lower": "5906.093850051524",
+    "yhat_upper": "8501.253296395356",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2015-12-01",
+    "yhat": "7383.395100553996",
+    "yhat_lower": "6031.823868280049",
+    "yhat_upper": "8641.910326853835",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2016-01-01",
+    "yhat": "7492.985189525386",
+    "yhat_lower": "6190.290193331701",
+    "yhat_upper": "8741.752076720142",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2016-02-01",
+    "yhat": "7459.534126775014",
+    "yhat_lower": "6252.777070861303",
+    "yhat_upper": "8821.789373513277",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2016-03-01",
+    "yhat": "7269.160648569913",
+    "yhat_lower": "5941.9704370996815",
+    "yhat_upper": "8525.112668419048",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2016-04-01",
+    "yhat": "7729.49593267337",
+    "yhat_lower": "6537.0999512087465",
+    "yhat_upper": "8986.52799237692",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2016-05-01",
+    "yhat": "7409.388237836509",
+    "yhat_lower": "6190.675903996313",
+    "yhat_upper": "8696.122677903038",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2016-06-01",
+    "yhat": "7365.941044414088",
+    "yhat_lower": "6139.959231045306",
+    "yhat_upper": "8610.678494708409",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2016-07-01",
+    "yhat": "7559.108778756839",
+    "yhat_lower": "6353.197400717861",
+    "yhat_upper": "8819.227561955966",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2016-08-01",
+    "yhat": "7143.40453544356",
+    "yhat_lower": "5861.2102452376275",
+    "yhat_upper": "8453.479384204647",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2016-09-01",
+    "yhat": "7452.958677906328",
+    "yhat_lower": "6189.130355681365",
+    "yhat_upper": "8684.270438938722",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2016-10-01",
+    "yhat": "7470.267177723566",
+    "yhat_lower": "6249.517878199573",
+    "yhat_upper": "8798.380375256165",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2016-11-01",
+    "yhat": "6985.022534795062",
+    "yhat_lower": "5715.828214086488",
+    "yhat_upper": "8246.966014243617",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2016-12-01",
+    "yhat": "7325.141209487519",
+    "yhat_lower": "6034.470571659006",
+    "yhat_upper": "8657.63073859407",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2017-01-01",
+    "yhat": "7540.740781800544",
+    "yhat_lower": "6245.258899113096",
+    "yhat_upper": "8799.599097944503",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2017-02-01",
+    "yhat": "7567.08237367058",
+    "yhat_lower": "6343.8719683289255",
+    "yhat_upper": "8795.662370114727",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2017-03-01",
+    "yhat": "7241.210963865112",
+    "yhat_lower": "5993.529952160729",
+    "yhat_upper": "8520.331119036986",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2017-04-01",
+    "yhat": "7565.056837693444",
+    "yhat_lower": "6347.854261557244",
+    "yhat_upper": "8866.574410089788",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2017-05-01",
+    "yhat": "7206.806875714927",
+    "yhat_lower": "5975.896119730541",
+    "yhat_upper": "8529.863674077631",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2017-06-01",
+    "yhat": "7180.707200647205",
+    "yhat_lower": "5920.552315453141",
+    "yhat_upper": "8473.569973275371",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2017-07-01",
+    "yhat": "7311.268305757709",
+    "yhat_lower": "6000.618131392182",
+    "yhat_upper": "8593.56556210881",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2017-08-01",
+    "yhat": "6921.6789039439345",
+    "yhat_lower": "5648.77038450934",
+    "yhat_upper": "8135.6199236593275",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2017-09-01",
+    "yhat": "7238.322275113004",
+    "yhat_lower": "5917.541989091874",
+    "yhat_upper": "8476.839089125178",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2017-10-01",
+    "yhat": "7230.804138397738",
+    "yhat_lower": "6009.6546381905655",
+    "yhat_upper": "8457.982466688",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2017-11-01",
+    "yhat": "6813.739837966058",
+    "yhat_lower": "5614.776855737759",
+    "yhat_upper": "8059.721724396611",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2017-12-01",
+    "yhat": "7075.091815853199",
+    "yhat_lower": "5839.100113098483",
+    "yhat_upper": "8353.53959935849",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2018-01-01",
+    "yhat": "7244.178197252928",
+    "yhat_lower": "6034.6299257354585",
+    "yhat_upper": "8532.033956627043",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2018-02-01",
+    "yhat": "7241.991151001373",
+    "yhat_lower": "6022.481992356125",
+    "yhat_upper": "8615.10890660128",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2018-03-01",
+    "yhat": "7116.608429962804",
+    "yhat_lower": "5781.95649927809",
+    "yhat_upper": "8391.003454410065",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2018-04-01",
+    "yhat": "7318.082472003224",
+    "yhat_lower": "6124.450630847865",
+    "yhat_upper": "8754.546825977653",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2018-05-01",
+    "yhat": "6939.413888461235",
+    "yhat_lower": "5689.461039948854",
+    "yhat_upper": "8219.846573148176",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2018-06-01",
+    "yhat": "6947.616902965827",
+    "yhat_lower": "5715.887108120425",
+    "yhat_upper": "8223.404883646403",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2018-07-01",
+    "yhat": "7032.162184474455",
+    "yhat_lower": "5706.34011859199",
+    "yhat_upper": "8396.18833409095",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2018-08-01",
+    "yhat": "6675.999989799509",
+    "yhat_lower": "5367.286921530157",
+    "yhat_upper": "7984.157422687358",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2018-09-01",
+    "yhat": "7005.510187322514",
+    "yhat_lower": "5737.75640023573",
+    "yhat_upper": "8287.524980879925",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2018-10-01",
+    "yhat": "6979.544254192737",
+    "yhat_lower": "5728.28669908387",
+    "yhat_upper": "8202.02903714809",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2018-11-01",
+    "yhat": "6636.149402354916",
+    "yhat_lower": "5330.314710665484",
+    "yhat_upper": "7887.776763706187",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2018-12-01",
+    "yhat": "6823.085521142289",
+    "yhat_lower": "5575.720898619868",
+    "yhat_upper": "8104.5116462523365",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2019-01-01",
+    "yhat": "6946.672818515043",
+    "yhat_lower": "5644.03375553301",
+    "yhat_upper": "8174.408020263917",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2019-02-01",
+    "yhat": "6918.928167977192",
+    "yhat_lower": "5682.48905017633",
+    "yhat_upper": "8219.19938544298",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2019-03-01",
+    "yhat": "6992.841411978535",
+    "yhat_lower": "5719.173118483169",
+    "yhat_upper": "8280.797742205676",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2019-04-01",
+    "yhat": "7069.285708658122",
+    "yhat_lower": "5828.609161382869",
+    "yhat_upper": "8402.13628265848",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2019-05-01",
+    "yhat": "6671.6421606141885",
+    "yhat_lower": "5272.212965487947",
+    "yhat_upper": "7883.115318094247",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2019-06-01",
+    "yhat": "6714.203376914437",
+    "yhat_lower": "5437.898694272365",
+    "yhat_upper": "8070.014863192848",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2019-07-01",
+    "yhat": "6753.028431095601",
+    "yhat_lower": "5490.962224251411",
+    "yhat_upper": "8022.8674927063375",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2019-08-01",
+    "yhat": "6431.252288218479",
+    "yhat_lower": "5206.494827786099",
+    "yhat_upper": "7788.477184677363",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2019-09-01",
+    "yhat": "6773.06281829746",
+    "yhat_lower": "5489.014760577828",
+    "yhat_upper": "8042.367212843394",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2019-10-01",
+    "yhat": "6728.910219964126",
+    "yhat_lower": "5470.70230058656",
+    "yhat_upper": "8086.259106181193",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2019-11-01",
+    "yhat": "6458.295893614226",
+    "yhat_lower": "5192.79922589764",
+    "yhat_upper": "7793.055525872373",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2019-12-01",
+    "yhat": "6569.138641315773",
+    "yhat_lower": "5276.144413976422",
+    "yhat_upper": "7878.8838263851385",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2020-01-01",
+    "yhat": "6648.321766657764",
+    "yhat_lower": "5375.781280024476",
+    "yhat_upper": "7871.338034233476",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2020-02-01",
+    "yhat": "6597.995804766372",
+    "yhat_lower": "5374.437930040083",
+    "yhat_upper": "7906.852466738242",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2020-03-01",
+    "yhat": "6391.836130591715",
+    "yhat_lower": "5112.093706161624",
+    "yhat_upper": "7606.938957312101",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2020-04-01",
+    "yhat": "6835.296516034292",
+    "yhat_lower": "5492.199075577213",
+    "yhat_upper": "8050.556858826635",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2020-05-01",
+    "yhat": "6498.858274107469",
+    "yhat_lower": "5150.978441192813",
+    "yhat_upper": "7736.085975733971",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2020-06-01",
+    "yhat": "6438.536182024977",
+    "yhat_lower": "5154.986045989922",
+    "yhat_upper": "7703.453472002801",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2020-07-01",
+    "yhat": "6615.3733692774285",
+    "yhat_lower": "5490.2802768628235",
+    "yhat_upper": "7961.594143555548",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2020-08-01",
+    "yhat": "6193.352132914552",
+    "yhat_lower": "4916.41595360148",
+    "yhat_upper": "7430.124877062204",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2020-09-01",
+    "yhat": "6496.589282326941",
+    "yhat_lower": "5252.069563804189",
+    "yhat_upper": "7838.482813672879",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2020-10-01",
+    "yhat": "6512.818245161191",
+    "yhat_lower": "5277.570207195482",
+    "yhat_upper": "7742.601917600021",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2020-11-01",
+    "yhat": "6026.458080683233",
+    "yhat_lower": "4715.719892721902",
+    "yhat_upper": "7305.971807751918",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2020-12-01",
+    "yhat": "6365.497218392631",
+    "yhat_lower": "5159.682388781899",
+    "yhat_upper": "7664.019035106652",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2021-01-01",
+    "yhat": "6586.301525200041",
+    "yhat_lower": "5280.156664552297",
+    "yhat_upper": "7899.754811080393",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2021-02-01",
+    "yhat": "6617.847851563663",
+    "yhat_lower": "5334.614664048886",
+    "yhat_upper": "7855.0779365832",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2021-03-01",
+    "yhat": "6296.682755510009",
+    "yhat_lower": "5013.100295132024",
+    "yhat_upper": "7565.090931186458",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2021-04-01",
+    "yhat": "6625.739190991511",
+    "yhat_lower": "5386.170773509196",
+    "yhat_upper": "7926.392957093058",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2021-05-01",
+    "yhat": "6272.531708032705",
+    "yhat_lower": "4958.961527109822",
+    "yhat_upper": "7584.224127766615",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2021-06-01",
+    "yhat": "6251.642594617941",
+    "yhat_lower": "4958.4123574478335",
+    "yhat_upper": "7480.313777867142",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2021-07-01",
+    "yhat": "6387.246216759082",
+    "yhat_lower": "5066.562464235447",
+    "yhat_upper": "7618.659315133965",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2021-08-01",
+    "yhat": "6002.867415877016",
+    "yhat_lower": "4741.190491964777",
+    "yhat_upper": "7306.335401770114",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2021-09-01",
+    "yhat": "6324.748134873222",
+    "yhat_lower": "5054.056239455798",
+    "yhat_upper": "7598.843199812785",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2021-10-01",
+    "yhat": "6322.2983992810705",
+    "yhat_lower": "5034.833031337922",
+    "yhat_upper": "7634.0060344490785",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2021-11-01",
+    "yhat": "5910.47144667675",
+    "yhat_lower": "4674.618529686365",
+    "yhat_upper": "7066.29042074336",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2021-12-01",
+    "yhat": "6176.891825686305",
+    "yhat_lower": "4918.962618300972",
+    "yhat_upper": "7390.852677177629",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2022-01-01",
+    "yhat": "6351.21555491469",
+    "yhat_lower": "5161.555270081201",
+    "yhat_upper": "7677.697350743734",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2022-02-01",
+    "yhat": "6354.265856492253",
+    "yhat_lower": "5061.054277760613",
+    "yhat_upper": "7584.872211665655",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2022-03-01",
+    "yhat": "6233.61364316945",
+    "yhat_lower": "4978.812932456315",
+    "yhat_upper": "7428.587681338247",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2022-04-01",
+    "yhat": "6440.325033039264",
+    "yhat_lower": "5190.52748040394",
+    "yhat_upper": "7703.2186101966145",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2022-05-01",
+    "yhat": "6066.724850621865",
+    "yhat_lower": "4840.939471426146",
+    "yhat_upper": "7346.26624328934",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2022-06-01",
+    "yhat": "6080.165213072488",
+    "yhat_lower": "4906.743493732844",
+    "yhat_upper": "7339.237395091715",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2022-07-01",
+    "yhat": "6169.778895818872",
+    "yhat_lower": "4952.58304924598",
+    "yhat_upper": "7378.925170398696",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2022-08-01",
+    "yhat": "5818.85404908947",
+    "yhat_lower": "4602.305225379832",
+    "yhat_upper": "6977.195747056219",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2022-09-01",
+    "yhat": "6153.601594558591",
+    "yhat_lower": "4882.937656456763",
+    "yhat_upper": "7499.903708842267",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2022-10-01",
+    "yhat": "6132.704062666546",
+    "yhat_lower": "4750.574226862238",
+    "yhat_upper": "7424.518275564455",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2022-11-01",
+    "yhat": "5794.546558774263",
+    "yhat_lower": "4591.007062177488",
+    "yhat_upper": "7046.274706877264",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2022-12-01",
+    "yhat": "5986.5510789215605",
+    "yhat_lower": "4800.160834972934",
+    "yhat_upper": "7348.946562084684",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2023-01-01",
+    "yhat": "6115.375724366753",
+    "yhat_lower": "4924.636754189575",
+    "yhat_upper": "7452.2457577334335",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2023-02-01",
+    "yhat": "6092.868421900275",
+    "yhat_lower": "4923.2392986438535",
+    "yhat_upper": "7361.986661054695",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2023-03-01",
+    "yhat": "6171.512173838821",
+    "yhat_lower": "4871.780404833868",
+    "yhat_upper": "7449.841665427131",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2023-04-01",
+    "yhat": "6253.193818589861",
+    "yhat_lower": "4983.8484737222225",
+    "yhat_upper": "7538.768262335986",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2023-05-01",
+    "yhat": "5860.618672110634",
+    "yhat_lower": "4604.643333289972",
+    "yhat_upper": "7105.974976969807",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2023-06-01",
+    "yhat": "5908.417236693664",
+    "yhat_lower": "4632.913374489615",
+    "yhat_upper": "7113.641287273178",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2023-07-01",
+    "yhat": "5952.310692439907",
+    "yhat_lower": "4667.69959492611",
+    "yhat_upper": "7234.343446962257",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2023-08-01",
+    "yhat": "5635.771897845902",
+    "yhat_lower": "4302.29420960195",
+    "yhat_upper": "6855.157044082634",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2023-09-01",
+    "yhat": "5982.819776208003",
+    "yhat_lower": "4729.217082829707",
+    "yhat_upper": "7266.219563230665",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2023-10-01",
+    "yhat": "5943.735579439017",
+    "yhat_lower": "4702.308721712316",
+    "yhat_upper": "7190.838581084251",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2023-11-01",
+    "yhat": "5678.355299124882",
+    "yhat_lower": "4418.586571924605",
+    "yhat_upper": "6878.288574662342",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2023-12-01",
+    "yhat": "5794.263252668627",
+    "yhat_lower": "4599.883507227042",
+    "yhat_upper": "7125.919440041196",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2024-01-01",
+    "yhat": "5878.680424046753",
+    "yhat_lower": "4588.298285095954",
+    "yhat_upper": "7204.869778959993",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2024-02-01",
+    "yhat": "5833.588508190687",
+    "yhat_lower": "4451.323209389341",
+    "yhat_upper": "7043.875678942643",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2024-03-01",
+    "yhat": "5632.325199662074",
+    "yhat_lower": "4345.364030773959",
+    "yhat_upper": "6858.956899951779",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2024-04-01",
+    "yhat": "6081.01963066119",
+    "yhat_lower": "4862.234230315366",
+    "yhat_upper": "7220.883082183838",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2024-05-01",
+    "yhat": "5749.646594110055",
+    "yhat_lower": "4490.656037586464",
+    "yhat_upper": "7071.612170231851",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2024-06-01",
+    "yhat": "5694.5585475826365",
+    "yhat_lower": "4422.317462225948",
+    "yhat_upper": "6883.084321708122",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2024-07-01",
+    "yhat": "5876.460940211096",
+    "yhat_lower": "4624.291066372903",
+    "yhat_upper": "7129.336838783752",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2024-08-01",
+    "yhat": "5459.673749403165",
+    "yhat_lower": "4168.3427811891",
+    "yhat_upper": "6729.541665304342",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2024-09-01",
+    "yhat": "5768.144944370995",
+    "yhat_lower": "4484.243354133514",
+    "yhat_upper": "7020.7120291806095",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2024-10-01",
+    "yhat": "5784.405430483579",
+    "yhat_lower": "4620.380314253439",
+    "yhat_upper": "7121.233524862428",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2024-11-01",
+    "yhat": "5298.077840060189",
+    "yhat_lower": "4000.748918415354",
+    "yhat_upper": "6574.247044948565",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2024-12-01",
+    "yhat": "5637.14850104754",
+    "yhat_lower": "4306.377925350825",
+    "yhat_upper": "6793.894551487276",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2025-01-01",
+    "yhat": "5857.985381909357",
+    "yhat_lower": "4621.3959889750295",
+    "yhat_upper": "7064.9576193529965",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2025-02-01",
+    "yhat": "5889.564282327218",
+    "yhat_lower": "4544.513922103732",
+    "yhat_upper": "7160.102654765373",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2025-03-01",
+    "yhat": "5568.423344760343",
+    "yhat_lower": "4237.149711644169",
+    "yhat_upper": "6905.75041872974",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2025-04-01",
+    "yhat": "5897.506527136961",
+    "yhat_lower": "4686.405319994559",
+    "yhat_upper": "7283.881585813549",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2025-05-01",
+    "yhat": "5544.324928269811",
+    "yhat_lower": "4228.355773410106",
+    "yhat_upper": "6905.538072850506",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2025-06-01",
+    "yhat": "5523.462561750984",
+    "yhat_lower": "4216.575570718732",
+    "yhat_upper": "6812.337661568489",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2025-07-01",
+    "yhat": "5659.092067984341",
+    "yhat_lower": "4351.51997539991",
+    "yhat_upper": "7004.905819980867",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2025-08-01",
+    "yhat": "5274.7400139977335",
+    "yhat_lower": "4060.6206219557216",
+    "yhat_upper": "6566.390991856443",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2025-09-01",
+    "yhat": "5596.620732993811",
+    "yhat_lower": "4291.459261191634",
+    "yhat_upper": "6881.3165141388745",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "5594.170997401826",
+    "yhat_lower": "4349.187250778079",
+    "yhat_upper": "6913.5857930609345",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "5182.344044796914",
+    "yhat_lower": "3942.1809613979112",
+    "yhat_upper": "6397.466714854039",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "5448.764423806953",
+    "yhat_lower": "4212.968470553625",
+    "yhat_upper": "6804.401690801371",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "5623.0881530363185",
+    "yhat_lower": "4340.74979734203",
+    "yhat_upper": "6863.320682322322",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "5626.138454613346",
+    "yhat_lower": "4367.61112303628",
+    "yhat_upper": "6857.995793154459",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "5505.486241290797",
+    "yhat_lower": "4305.269935244081",
+    "yhat_upper": "6743.922785491269",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "5712.19763116026",
+    "yhat_lower": "4451.000014875738",
+    "yhat_upper": "6990.366513013711",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "5338.5974487427675",
+    "yhat_lower": "4042.9386057970073",
+    "yhat_upper": "6568.021710910672",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "5352.037811193238",
+    "yhat_lower": "4161.397401999654",
+    "yhat_upper": "6644.606909376157",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "5441.651493940367",
+    "yhat_lower": "4223.055863624379",
+    "yhat_upper": "6642.672603082475",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "5090.726647210329",
+    "yhat_lower": "3807.0472560802914",
+    "yhat_upper": "6451.886037880442",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "5425.474192678963",
+    "yhat_lower": "4116.106290247288",
+    "yhat_upper": "6769.893232726767",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "5404.576660786727",
+    "yhat_lower": "4122.2561867382765",
+    "yhat_upper": "6757.126989866977",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "5066.419156894607",
+    "yhat_lower": "3687.127353393649",
+    "yhat_upper": "6501.196629179557",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "5258.423677042153",
+    "yhat_lower": "3981.2059093929684",
+    "yhat_upper": "6515.740229748386",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "5387.248322487333",
+    "yhat_lower": "4096.1603039938445",
+    "yhat_upper": "6711.121370670738",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "5364.741020022032",
+    "yhat_lower": "4195.881864125322",
+    "yhat_upper": "6637.442755143992",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "5443.38477196097",
+    "yhat_lower": "4165.932254145662",
+    "yhat_upper": "6713.822054738096",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "5525.066416710634",
+    "yhat_lower": "4159.948735932556",
+    "yhat_upper": "6859.661620213709",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "5132.491270231203",
+    "yhat_lower": "3940.1889695568043",
+    "yhat_upper": "6453.536308906461",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "5180.289834814907",
+    "yhat_lower": "3873.155450325017",
+    "yhat_upper": "6574.107503966702",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "5224.183290560428",
+    "yhat_lower": "3955.087360522042",
+    "yhat_upper": "6624.6101669638365",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "4907.64449596678",
+    "yhat_lower": "3590.4024473936765",
+    "yhat_upper": "6282.729994321027",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "5254.692374328687",
+    "yhat_lower": "3914.746098205734",
+    "yhat_upper": "6548.528438648033",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "5215.6081775598905",
+    "yhat_lower": "3946.029916142989",
+    "yhat_upper": "6557.139912018985",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "4950.2278972457",
+    "yhat_lower": "3546.292326741087",
+    "yhat_upper": "6245.1738305989775",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "5066.135850789386",
+    "yhat_lower": "3719.259484509967",
+    "yhat_upper": "6324.801309493354",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "5150.553022167403",
+    "yhat_lower": "3799.4498595722957",
+    "yhat_upper": "6400.09864290069",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "5105.461106311871",
+    "yhat_lower": "3824.870439673567",
+    "yhat_upper": "6415.8109314027815",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "4904.197797783878",
+    "yhat_lower": "3580.556423897462",
+    "yhat_upper": "6202.731747026242",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "5352.892228781577",
+    "yhat_lower": "3981.485391810887",
+    "yhat_upper": "6710.446501731089",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "5021.519192231147",
+    "yhat_lower": "3728.686203835626",
+    "yhat_upper": "6276.7357106562795",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "4966.431145703424",
+    "yhat_lower": "3686.9043224029933",
+    "yhat_upper": "6270.609464883505",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "5148.333538331947",
+    "yhat_lower": "3857.9593819873435",
+    "yhat_upper": "6412.319517123258",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "4731.54634752403",
+    "yhat_lower": "3393.9621490893182",
+    "yhat_upper": "5982.672096418469",
+    "area_id": "343",
+    "name_en": "Al Warsan First"
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "ds": "2025-09-01",
+    "yhat": "3129.246376471118",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2025-10-01",
+    "yhat": "3129.215394533114",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2025-11-01",
+    "yhat": "3129.186152689283",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2025-12-01",
+    "yhat": "3129.199774253736",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2026-01-01",
+    "yhat": "3129.000893927199",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2026-02-01",
+    "yhat": "3129.1430883160892",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2026-03-01",
+    "yhat": "3129.1955783673816",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2026-04-01",
+    "yhat": "3129.5855546999637",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2026-05-01",
+    "yhat": "3130.9084697418543",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2026-06-01",
+    "yhat": "3131.1750629222965",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2026-07-01",
+    "yhat": "3136.2024031560063",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2026-08-01",
+    "yhat": "3130.210786551163",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2026-09-01",
+    "yhat": "3089.067812412871",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2026-10-01",
+    "yhat": "3085.9840498312788",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2026-11-01",
+    "yhat": "3086.3699197514948",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2026-12-01",
+    "yhat": "3089.8773172635433",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2027-01-01",
+    "yhat": "3108.225952339545",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2027-02-01",
+    "yhat": "3112.934973840946",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2027-03-01",
+    "yhat": "3118.0822059941356",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2027-04-01",
+    "yhat": "3120.6226620493767",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2027-05-01",
+    "yhat": "3118.7528720606033",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2027-06-01",
+    "yhat": "3112.2212936469064",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2027-07-01",
+    "yhat": "3103.047685044897",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2027-08-01",
+    "yhat": "3093.9196360466603",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2027-09-01",
+    "yhat": "3087.083090963201",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2027-10-01",
+    "yhat": "3084.254464877338",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2027-11-01",
+    "yhat": "3085.000111744721",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2027-12-01",
+    "yhat": "3088.8774600335737",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2028-01-01",
+    "yhat": "3107.550273875371",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2028-02-01",
+    "yhat": "3112.332078497005",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2028-03-01",
+    "yhat": "3117.361574025271",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2028-04-01",
+    "yhat": "3120.001269184423",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2028-05-01",
+    "yhat": "3118.1965045269058",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2028-06-01",
+    "yhat": "3111.804613098897",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2028-07-01",
+    "yhat": "3102.586113806697",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2028-08-01",
+    "yhat": "3093.56620828772",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2028-09-01",
+    "yhat": "3087.0242611403587",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2028-10-01",
+    "yhat": "3084.207024168497",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2028-11-01",
+    "yhat": "3084.9644760001925",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2028-12-01",
+    "yhat": "3088.8507021236937",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2029-01-01",
+    "yhat": "3107.5311045016538",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2029-02-01",
+    "yhat": "3112.3143883779103",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2029-03-01",
+    "yhat": "3117.3444079053124",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2029-04-01",
+    "yhat": "3119.9872270341807",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2029-05-01",
+    "yhat": "3118.185632088422",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2029-06-01",
+    "yhat": "3111.797191041247",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2029-07-01",
+    "yhat": "3102.5796514986832",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  },
+  {
+    "ds": "2029-08-01",
+    "yhat": "3093.56201604679",
+    "area_id": "264",
+    "name_en": "Nad Al Hamar"
+  }
+]
