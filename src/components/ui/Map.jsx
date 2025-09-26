@@ -235,7 +235,32 @@ useEffect(() => {
   if (map.current.getSource('dubai-communities')) {
     map.current.getSource('dubai-communities').setData(newData);
   }
+
+  // ✅ Update fill color dynamically when filter changes
+  if (map.current.getLayer('dubai-communities-fill')) {
+    if (selectedFilter === 'Area') {
+      map.current.setPaintProperty('dubai-communities-fill', 'fill-color', [
+        'interpolate',
+        ['linear'],
+        ['get', 'Population 2019'],
+        0, '#ffebee',
+        1000, '#ffcdd2',
+        5000, '#ef9a9a',
+        10000, '#e57373',
+        20000, '#d32f2f',
+        50000, '#b71c1c'
+      ]);
+    } else if (selectedFilter === 'Emirate') {
+      map.current.setPaintProperty('dubai-communities-fill', 'fill-color', [
+        'interpolate',
+        ['linear'],
+        ['get', 'Population 2019'],
+        0, '#ef9a9a',
+  ]);
+    }
+  }
 }, [selectedFilter]);
+
 
   const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
   const hasValidToken = token && token !== 'your_mapbox_access_token_here';
