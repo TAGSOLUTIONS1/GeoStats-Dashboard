@@ -3,6 +3,7 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { dubaiGeoData, geojsonData } from '../../data/geoData';
 import { dubaiWEBDATA } from '../../data/DubaiData';
+import { EmiratesData } from '../../data/Emirates';
 
 const Map = ({selectedFilter}) => {
   const mapContainer = useRef(null);
@@ -45,7 +46,7 @@ const Map = ({selectedFilter}) => {
       // Add GeoJSON source
       map.current.addSource('dubai-communities', {
         type: 'geojson',
-        data: selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA
+        data: selectedFilter === 'Area' ? geojsonData : EmiratesData
       });
 
       // Add outline layer
@@ -228,7 +229,7 @@ const Map = ({selectedFilter}) => {
 useEffect(() => {
   if (!map.current) return;
 
-  const newData = selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA;
+  const newData = selectedFilter === 'Area' ? geojsonData : EmiratesData;
 
   if (map.current.getSource('dubai-communities')) {
     map.current.getSource('dubai-communities').setData(newData);
