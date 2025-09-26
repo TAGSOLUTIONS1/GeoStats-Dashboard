@@ -9,6 +9,7 @@ import FeedbackModal from '../ui/FeedbackModal';
 import ShareModal from '../ui/ShareModal';
 import Map from '../ui/Map';
 import GraphModal from '../ui/GraphModal';
+import AreasMap from "../../data/average_meter_price/forecasts/Areas_id.json";
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -149,13 +150,37 @@ const Layout = ({ children }) => {
 
   const [series, setSeries] = useState([]);
 
+  console.log("graph place is " , graphPlace);
   useEffect(() => {
-  import("../../data/average_meter_price/forecasts/lgbm/forecast_area_230_2010onwards.json")
-    .then(module => {
-      setSeries(module.default); // JSON is under .default
-    })
-    .catch(err => console.error("Error loading forecast:", err));
-  }, []);
+    if (!graphPlace) return;
+
+    // extract municipality_number 915 from "AL YUFRAH 1 - 915"
+    const municipalityNumber = graphPlace.split("-").pop().trim();
+
+    // lookup area_id from Areas_id.json
+    const areaEntry = AreasMap.find(
+      (area) => String(area.municipality_number) === municipalityNumber
+    );
+
+    if (!areaEntry) {
+      console.error("No matching area found for", municipalityNumber);
+      return;
+    }
+
+    const areaId = areaEntry.area_id;
+
+    // dynamic import forecast JSON using the area_id
+    import(
+      `../../data/average_meter_price/forecasts/lgbm/forecast_area_${areaId}_2010onwards.json`
+    )
+      .then((module) => {
+        setSeries(module.default);
+      })
+      .catch((err) =>
+        console.error("Error loading forecast for area:", areaId, err),
+        setSeries([]),
+      );
+  }, [graphPlace]);
 
   return (
     <div className="flex h-screen bg-gray-50 relative">

@@ -1,0 +1,1808 @@
+[
+ {
+   "area_id": 451,
+   "name_en": "Al Hebiah Fifth",
+   "name_ar": "الحبيه الخامسة",
+   "municipality_number": 683
+ },
+ {
+   "area_id": 452,
+   "name_en": "Al Hebiah Second",
+   "name_ar": "الحبيه الثانية",
+   "municipality_number": 675
+ },
+ {
+   "area_id": 453,
+   "name_en": "Saih Shuaib 2",
+   "name_ar": "سيح شعيب 2",
+   "municipality_number": 531
+ },
+ {
+   "area_id": 454,
+   "name_en": "Saih Shuaib 3",
+   "name_ar": "سيح شعيب 3",
+   "municipality_number": 532
+ },
+ {
+   "area_id": 455,
+   "name_en": "Saih Shuaib 4",
+   "name_ar": "سيح شعيب 4",
+   "municipality_number": 533
+ },
+ {
+   "area_id": 456,
+   "name_en": "Jumeira Island First",
+   "name_ar": "جزيرة جميرا الأولى",
+   "municipality_number": 301
+ },
+ {
+   "area_id": 231,
+   "name_en": "Al Mamzer",
+   "name_ar": "الممزر",
+   "municipality_number": 134
+ },
+ {
+   "area_id": 232,
+   "name_en": "Mirdif",
+   "name_ar": "مردف",
+   "municipality_number": 251
+ },
+ {
+   "area_id": 233,
+   "name_en": "Hor Al Anz",
+   "name_ar": "هور العنز",
+   "municipality_number": 127
+ },
+ {
+   "area_id": 234,
+   "name_en": "Hor Al Anz East",
+   "name_ar": "هور العنز شرق",
+   "municipality_number": 133
+ },
+ {
+   "area_id": 235,
+   "name_en": "Eyal Nasser",
+   "name_ar": "عيال ناصر",
+   "municipality_number": 116
+ },
+ {
+   "area_id": 236,
+   "name_en": "Burj Nahar",
+   "name_ar": "برج نهار",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 237,
+   "name_en": "Al Sabkha",
+   "name_ar": "السبخه",
+   "municipality_number": 115
+ },
+ {
+   "area_id": 238,
+   "name_en": "Al Dhagaya",
+   "name_ar": "الضغايه",
+   "municipality_number": 113
+ },
+ {
+   "area_id": 239,
+   "name_en": "Al Baraha",
+   "name_ar": "البراحه",
+   "municipality_number": 122
+ },
+ {
+   "area_id": 240,
+   "name_en": "Port Saeed",
+   "name_ar": "بور سعيد",
+   "municipality_number": 129
+ },
+ {
+   "area_id": 241,
+   "name_en": "Al Qusais",
+   "name_ar": "القصيص",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 242,
+   "name_en": "Al Ras",
+   "name_ar": "الراس",
+   "municipality_number": 112
+ },
+ {
+   "area_id": 243,
+   "name_en": "Al-Safiyyah",
+   "name_ar": "الصفيه",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 244,
+   "name_en": "Al Murqabat",
+   "name_ar": "المرقبات",
+   "municipality_number": 124
+ },
+ {
+   "area_id": 245,
+   "name_en": "Al-Murar Qadeem",
+   "name_ar": "المرر القديم",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 246,
+   "name_en": "Al-Murar Jadeed",
+   "name_ar": "المرر الجديد",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 247,
+   "name_en": "Al Khabeesi",
+   "name_ar": "الخبيصى",
+   "municipality_number": 128
+ },
+ {
+   "area_id": 248,
+   "name_en": "Um Ramool",
+   "name_ar": "ام رمول",
+   "municipality_number": 215
+ },
+ {
+   "area_id": 249,
+   "name_en": "Al Muteena",
+   "name_ar": "المطينه",
+   "municipality_number": 123
+ },
+ {
+   "area_id": 250,
+   "name_en": "Al-Souq Al Kabeer (Deira)",
+   "name_ar": "السوق الكبير - ديرة",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 251,
+   "name_en": "Naif South",
+   "name_ar": "نايف جنوب",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 252,
+   "name_en": "Al-Riqqa East",
+   "name_ar": "الرقه شرق",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 253,
+   "name_en": "Al-Riqqa West",
+   "name_ar": "الرقه غرب",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 254,
+   "name_en": "Al Buteen",
+   "name_ar": "البطين",
+   "municipality_number": 114
+ },
+ {
+   "area_id": 255,
+   "name_en": "Rega Al Buteen",
+   "name_ar": "رقه البطين",
+   "municipality_number": 125
+ },
+ {
+   "area_id": 256,
+   "name_en": "Al-Tawar",
+   "name_ar": "الطوار",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 257,
+   "name_en": "Al Khawaneej",
+   "name_ar": "الخوانيج",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 258,
+   "name_en": "Muhaisna",
+   "name_ar": "محيصنه",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 259,
+   "name_en": "Al-Musalla (Deira)",
+   "name_ar": "المصلى - ديرة",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 260,
+   "name_en": "Al-Souq Al-Muqayatah",
+   "name_ar": "سوق المخايطه",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 261,
+   "name_en": "Souq Al-Tamar",
+   "name_ar": "سوق التمر",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 262,
+   "name_en": "Al-Zarouniyyah",
+   "name_ar": "الزرعونيه",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 263,
+   "name_en": "Al-Nahdah",
+   "name_ar": "النهده",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 264,
+   "name_en": "Nad Al Hamar",
+   "name_ar": "ند الحمر",
+   "municipality_number": 416
+ },
+ {
+   "area_id": 265,
+   "name_en": "Al-Muhaisnah North",
+   "name_ar": "محيصنه شمال",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 266,
+   "name_en": "Al Satwa",
+   "name_ar": "السطوه",
+   "municipality_number": 334
+ },
+ {
+   "area_id": 267,
+   "name_en": "Al Raffa",
+   "name_ar": "الرفاعه",
+   "municipality_number": 316
+ },
+ {
+   "area_id": 464,
+   "name_en": "Wadi Al Safa 2",
+   "name_ar": "وادي الصفا 2",
+   "municipality_number": 643
+ },
+ {
+   "area_id": 465,
+   "name_en": "Wadi Al Safa 3",
+   "name_ar": "وادي الصفا 3",
+   "municipality_number": 645
+ },
+ {
+   "area_id": 466,
+   "name_en": "Wadi Al Safa 4",
+   "name_ar": "وادي الصفا 4",
+   "municipality_number": 646
+ },
+ {
+   "area_id": 268,
+   "name_en": "Al Musalla (Dubai)",
+   "name_ar": "المصلى - دبي",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 269,
+   "name_en": "Al Hamriya",
+   "name_ar": "الحمريه",
+   "municipality_number": 313
+ },
+ {
+   "area_id": 270,
+   "name_en": "Al Safaa",
+   "name_ar": "الصفا",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 271,
+   "name_en": "Al Karama",
+   "name_ar": "الكرامه",
+   "municipality_number": 318
+ },
+ {
+   "area_id": 272,
+   "name_en": "Al Baharna",
+   "name_ar": "البحارنه",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 273,
+   "name_en": "Al-Baloosh",
+   "name_ar": "البلوش",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 274,
+   "name_en": "Shandagha East",
+   "name_ar": "الشندغه شرق",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 275,
+   "name_en": "Shandagha West",
+   "name_ar": "الشندغه غرب",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 276,
+   "name_en": "Al Bada",
+   "name_ar": "البدع",
+   "municipality_number": 333
+ },
+ {
+   "area_id": 277,
+   "name_en": "Al Qoaz",
+   "name_ar": "القوز",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 278,
+   "name_en": "Mankhool",
+   "name_ar": "منخول",
+   "municipality_number": 317
+ },
+ {
+   "area_id": 279,
+   "name_en": "Tawaa Al Sayegh",
+   "name_ar": "طوى الصايغ",
+   "municipality_number": 451
+ },
+ {
+   "area_id": 280,
+   "name_en": "Zareeba Duviya",
+   "name_ar": "زريبه دوييه",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 281,
+   "name_en": "Al Asbaq",
+   "name_ar": "العسبق",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 282,
+   "name_en": "Ras Al Khor",
+   "name_ar": "راس الخور",
+   "municipality_number": 413
+ },
+ {
+   "area_id": 283,
+   "name_en": "Al Fahidi",
+   "name_ar": "الفهيدى",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 284,
+   "name_en": "Jabal Ali",
+   "name_ar": "جبل على",
+   "municipality_number": 500
+ },
+ {
+   "area_id": 285,
+   "name_en": "Nad Al Shiba",
+   "name_ar": "ند الشبا",
+   "municipality_number": 600
+ },
+ {
+   "area_id": 286,
+   "name_en": "Zabeel East",
+   "name_ar": "زعبيل شرق",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 287,
+   "name_en": "Al Sanaiyya",
+   "name_ar": "الصناعيه",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 288,
+   "name_en": "Al Marmoom",
+   "name_ar": "المرموم",
+   "municipality_number": 917
+ },
+ {
+   "area_id": 289,
+   "name_en": "Al Baagh",
+   "name_ar": "الباغ",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 290,
+   "name_en": "Al-Nabgha",
+   "name_ar": "النبغا",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 291,
+   "name_en": "Tareeq Al Aweer",
+   "name_ar": "طريق العوير",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 292,
+   "name_en": "Al Barsha",
+   "name_ar": "البرشاء",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 293,
+   "name_en": "Umm Hurair",
+   "name_ar": "ام هرير",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 294,
+   "name_en": "Lehbab",
+   "name_ar": "لهباب",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 295,
+   "name_en": "Margham",
+   "name_ar": "مرغم",
+   "municipality_number": 841
+ },
+ {
+   "area_id": 296,
+   "name_en": "Al Ruwayyah",
+   "name_ar": "الرويه",
+   "municipality_number": 900
+ },
+ {
+   "area_id": 297,
+   "name_en": "Al Warqa First",
+   "name_ar": "الورقاء الاولى",
+   "municipality_number": 421
+ },
+ {
+   "area_id": 298,
+   "name_en": "Al Warqa Third",
+   "name_ar": "الورقاء الثالثه",
+   "municipality_number": 423
+ },
+ {
+   "area_id": 299,
+   "name_en": "Al Warqa Fourth",
+   "name_ar": "الورقاء الرابعه",
+   "municipality_number": 424
+ },
+ {
+   "area_id": 300,
+   "name_en": "Al Rashidiya",
+   "name_ar": "الراشديه",
+   "municipality_number": 216
+ },
+ {
+   "area_id": 301,
+   "name_en": "Al Nahda Second",
+   "name_ar": "النهده الثانيه",
+   "municipality_number": 241
+ },
+ {
+   "area_id": 302,
+   "name_en": "Tawi Al Muraqqab",
+   "name_ar": "طوى مرقب",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 303,
+   "name_en": "Um Suqaim First",
+   "name_ar": "ام سقيم الاولى",
+   "municipality_number": 356
+ },
+ {
+   "area_id": 304,
+   "name_en": "Um Suqaim Second",
+   "name_ar": "ام سقيم الثانيه",
+   "municipality_number": 362
+ },
+ {
+   "area_id": 305,
+   "name_en": "AL QUSAIS",
+   "name_ar": "القصيص",
+   "municipality_number": 232
+ },
+ {
+   "area_id": 306,
+   "name_en": "Al Twar Fourth",
+   "name_ar": "الطوار الرابعة",
+   "municipality_number": 234
+ },
+ {
+   "area_id": 307,
+   "name_en": "Al Safouh First",
+   "name_ar": "الصفوح الاولى",
+   "municipality_number": 372
+ },
+ {
+   "area_id": 308,
+   "name_en": "Al Goze Industrial First",
+   "name_ar": "القوز الصناعيه الاولى",
+   "municipality_number": 364
+ },
+ {
+   "area_id": 309,
+   "name_en": "Al Goze Industrial Third",
+   "name_ar": "القوز الصناعيه الثالثه",
+   "municipality_number": 368
+ },
+ {
+   "area_id": 310,
+   "name_en": "Al Twar Second",
+   "name_ar": "الطوار الثانيه",
+   "municipality_number": 227
+ },
+ {
+   "area_id": 311,
+   "name_en": "Muhaisanah Third",
+   "name_ar": "محيصنه الثالثه",
+   "municipality_number": 244
+ },
+ {
+   "area_id": 312,
+   "name_en": "Muhaisanah First",
+   "name_ar": "محيصنه الاولى",
+   "municipality_number": 261
+ },
+ {
+   "area_id": 313,
+   "name_en": "Al Saffa First",
+   "name_ar": "الصفا الاولى",
+   "municipality_number": 353
+ },
+ {
+   "area_id": 314,
+   "name_en": "Al Saffa Second",
+   "name_ar": "الصفا الثانيه",
+   "municipality_number": 357
+ },
+ {
+   "area_id": 315,
+   "name_en": "Al Manara",
+   "name_ar": "المناره",
+   "municipality_number": 363
+ },
+ {
+   "area_id": 316,
+   "name_en": "Al Mizhar First",
+   "name_ar": "المزهر الاولى",
+   "municipality_number": 262
+ },
+ {
+   "area_id": 317,
+   "name_en": "Jumeirah First",
+   "name_ar": "جميرا الاولى",
+   "municipality_number": 332
+ },
+ {
+   "area_id": 318,
+   "name_en": "Jumeirah Third",
+   "name_ar": "جميرا الثالثه",
+   "municipality_number": 352
+ },
+ {
+   "area_id": 319,
+   "name_en": "Ras Al Khor Industrial Second",
+   "name_ar": "راس الخور الصناعيه الثانيه",
+   "municipality_number": 613
+ },
+ {
+   "area_id": 320,
+   "name_en": "Al Qusais Industrial Second",
+   "name_ar": "القصيص الصناعيه الثانيه",
+   "municipality_number": 243
+ },
+ {
+   "area_id": 321,
+   "name_en": "Al Qusais Industrial Third",
+   "name_ar": "القصيص الصناعيه الثالثه",
+   "municipality_number": 246
+ },
+ {
+   "area_id": 322,
+   "name_en": "Al Qusais Industrial Fourth",
+   "name_ar": "القصيص الصناعيه الرابعه",
+   "municipality_number": 247
+ },
+ {
+   "area_id": 323,
+   "name_en": "Al Qusais Industrial Fifth",
+   "name_ar": "القصيص الصناعيه الخامسه",
+   "municipality_number": 248
+ },
+ {
+   "area_id": 324,
+   "name_en": "Shandagha",
+   "name_ar": "الشندغه",
+   "municipality_number": 311
+ },
+ {
+   "area_id": 325,
+   "name_en": "Um Hurair First",
+   "name_ar": "ام هرير الاولى",
+   "municipality_number": 314
+ },
+ {
+   "area_id": 326,
+   "name_en": "Um Hurair Second",
+   "name_ar": "ام هرير الثانيه",
+   "municipality_number": 315
+ },
+ {
+   "area_id": 327,
+   "name_en": "Nad Shamma",
+   "name_ar": "ند شما",
+   "municipality_number": 213
+ },
+ {
+   "area_id": 328,
+   "name_en": "Al Jafliya",
+   "name_ar": "الجافليه",
+   "municipality_number": 323
+ },
+ {
+   "area_id": 329,
+   "name_en": "Trade Center Second",
+   "name_ar": "المركز التجارى الثانيه",
+   "municipality_number": 336
+ },
+ {
+   "area_id": 330,
+   "name_en": "Marsa Dubai",
+   "name_ar": "مرسى دبي",
+   "municipality_number": 392
+ },
+ {
+   "area_id": 229,
+   "name_en": "Um Suqaim",
+   "name_ar": "ام سقيم",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 230,
+   "name_en": "Abu Hail",
+   "name_ar": "ابو هيل",
+   "municipality_number": 126
+ },
+ {
+   "area_id": 331,
+   "name_en": "Zaabeel First",
+   "name_ar": "زعبيل الاولى",
+   "municipality_number": 325
+ },
+ {
+   "area_id": 332,
+   "name_en": "Zaabeel Second",
+   "name_ar": "زعبيل الثانيه",
+   "municipality_number": 337
+ },
+ {
+   "area_id": 526,
+   "name_en": "Business Bay",
+   "name_ar": "الخليج التجارى",
+   "municipality_number": 346
+ },
+ {
+   "area_id": 527,
+   "name_en": "Island 2",
+   "name_ar": "جزيرة 2",
+   "municipality_number": 302
+ },
+ {
+   "area_id": 333,
+   "name_en": "Madinat Dubai Almelaheyah",
+   "name_ar": "مدينة دبي الملاحية",
+   "municipality_number": 321
+ },
+ {
+   "area_id": 334,
+   "name_en": "Al Jadaf",
+   "name_ar": "الجداف",
+   "municipality_number": 326
+ },
+ {
+   "area_id": 335,
+   "name_en": "Nad Al Shiba First",
+   "name_ar": "ند الشبا الاولى",
+   "municipality_number": 618
+ },
+ {
+   "area_id": 338,
+   "name_en": "Al Goze First",
+   "name_ar": "القوز الاولى",
+   "municipality_number": 354
+ },
+ {
+   "area_id": 339,
+   "name_en": "Al Mararr",
+   "name_ar": "المرر",
+   "municipality_number": 117
+ },
+ {
+   "area_id": 340,
+   "name_en": "Ghadeer Al tair",
+   "name_ar": "غدير الطير",
+   "municipality_number": 355
+ },
+ {
+   "area_id": 341,
+   "name_en": "Trade Center First",
+   "name_ar": "المركز التجارى الاولى",
+   "municipality_number": 335
+ },
+ {
+   "area_id": 342,
+   "name_en": "Ras Al Khor Industrial Third",
+   "name_ar": "راس الخور الصناعيه الثالثه",
+   "municipality_number": 614
+ },
+ {
+   "area_id": 343,
+   "name_en": "Al Warsan First",
+   "name_ar": "ورسان الاولى",
+   "municipality_number": 621
+ },
+ {
+   "area_id": 344,
+   "name_en": "Al Warsan Second",
+   "name_ar": "ورسان الثانيه",
+   "municipality_number": 622
+ },
+ {
+   "area_id": 345,
+   "name_en": "Al Warsan Third",
+   "name_ar": "ورسان الثالثه",
+   "municipality_number": 811
+ },
+ {
+   "area_id": 346,
+   "name_en": "Al Hamriya Port",
+   "name_ar": "ميناء الحمريه",
+   "municipality_number": 131
+ },
+ {
+   "area_id": 347,
+   "name_en": "Al Goze Third",
+   "name_ar": "القوز الثالثه",
+   "municipality_number": 358
+ },
+ {
+   "area_id": 348,
+   "name_en": "Al Goze Fourth",
+   "name_ar": "القوز الرابعه",
+   "municipality_number": 359
+ },
+ {
+   "area_id": 349,
+   "name_en": "Grayteesah",
+   "name_ar": "قريطيسه",
+   "municipality_number": 941
+ },
+ {
+   "area_id": 350,
+   "name_en": "Al Thanyah Fifth",
+   "name_ar": "الثنيه الخامسة",
+   "municipality_number": 393
+ },
+ {
+   "area_id": 351,
+   "name_en": "Al Thanyah Third",
+   "name_ar": "الثنيه الثالثة",
+   "municipality_number": 388
+ },
+ {
+   "area_id": 352,
+   "name_en": "Al Thanayah Fourth",
+   "name_ar": "الثنيه الرابعة",
+   "municipality_number": 394
+ },
+ {
+   "area_id": 336,
+   "name_en": "Nad Al Shiba Second",
+   "name_ar": "ند الشبا الثانيه",
+   "municipality_number": 615
+ },
+ {
+   "area_id": 337,
+   "name_en": "Nad Al Shiba Third",
+   "name_ar": "ند الشبا الثالثه",
+   "municipality_number": 616
+ },
+ {
+   "area_id": 353,
+   "name_en": "Emirates Hills Fourth",
+   "name_ar": "تلال الامارات الرابعه",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 354,
+   "name_en": "Al Warqa Second",
+   "name_ar": "الورقاء الثانيه",
+   "municipality_number": 422
+ },
+ {
+   "area_id": 355,
+   "name_en": "Al Nahda First",
+   "name_ar": "النهده الاولى",
+   "municipality_number": 231
+ },
+ {
+   "area_id": 356,
+   "name_en": "Al Rega",
+   "name_ar": "الرقه",
+   "municipality_number": 119
+ },
+ {
+   "area_id": 357,
+   "name_en": "AL TWAR FIFTH",
+   "name_ar": "الطوار الخامسة",
+   "municipality_number": 233
+ },
+ {
+   "area_id": 358,
+   "name_en": "Al Twar First",
+   "name_ar": "الطوار الاولى",
+   "municipality_number": 226
+ },
+ {
+   "area_id": 359,
+   "name_en": "Al Twar Third",
+   "name_ar": "الطوار الثالثه",
+   "municipality_number": 228
+ },
+ {
+   "area_id": 360,
+   "name_en": "Muhaisanah Second",
+   "name_ar": "محيصنه الثانيه",
+   "municipality_number": 264
+ },
+ {
+   "area_id": 361,
+   "name_en": "Muhaisanah Fourth",
+   "name_ar": "محيصنه الرابعه",
+   "municipality_number": 245
+ },
+ {
+   "area_id": 362,
+   "name_en": "Naif",
+   "name_ar": "نايف",
+   "municipality_number": 118
+ },
+ {
+   "area_id": 363,
+   "name_en": "Al Qusais Industrial First",
+   "name_ar": "القصيص الصناعيه الاولى",
+   "municipality_number": 242
+ },
+ {
+   "area_id": 364,
+   "name_en": "Al Wasl",
+   "name_ar": "الوصل",
+   "municipality_number": 343
+ },
+ {
+   "area_id": 365,
+   "name_en": "Al Hudaiba",
+   "name_ar": "الحضيبه",
+   "municipality_number": 322
+ },
+ {
+   "area_id": 366,
+   "name_en": "Al Kifaf",
+   "name_ar": "الكفاف",
+   "municipality_number": 324
+ },
+ {
+   "area_id": 367,
+   "name_en": "Al Suq Al Kabeer",
+   "name_ar": "السوق الكبير",
+   "municipality_number": 312
+ },
+ {
+   "area_id": 368,
+   "name_en": "Al Barsha First",
+   "name_ar": "البرشاء الاولى",
+   "municipality_number": 373
+ },
+ {
+   "area_id": 369,
+   "name_en": "Al Barsha Third",
+   "name_ar": "البرشاء الثالثه",
+   "municipality_number": 375
+ },
+ {
+   "area_id": 370,
+   "name_en": "Um Suqaim Third",
+   "name_ar": "ام سقيم الثالثه",
+   "municipality_number": 366
+ },
+ {
+   "area_id": 371,
+   "name_en": "Al Safouh Second",
+   "name_ar": "الصفوح الثانيه",
+   "municipality_number": 382
+ },
+ {
+   "area_id": 372,
+   "name_en": "Al Goze Industrial Second",
+   "name_ar": "القوز الصناعيه الثانيه",
+   "municipality_number": 365
+ },
+ {
+   "area_id": 373,
+   "name_en": "Al Goze Industrial Fourth",
+   "name_ar": "القوز الصناعيه الرابعه",
+   "municipality_number": 369
+ },
+ {
+   "area_id": 374,
+   "name_en": "Um Al Sheif",
+   "name_ar": "ام الشيف",
+   "municipality_number": 367
+ },
+ {
+   "area_id": 375,
+   "name_en": "Jumeirah Second",
+   "name_ar": "جميرا الثانيه",
+   "municipality_number": 342
+ },
+ {
+   "area_id": 376,
+   "name_en": "Ras Al Khor Industrial First",
+   "name_ar": "راس الخور الصناعيه الاولى",
+   "municipality_number": 612
+ },
+ {
+   "area_id": 377,
+   "name_en": "Al-Nakhal",
+   "name_ar": "النخل",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 378,
+   "name_en": "Al Garhoud",
+   "name_ar": "القرهود",
+   "municipality_number": 214
+ },
+ {
+   "area_id": 379,
+   "name_en": "Al-Shumaal",
+   "name_ar": "الشمال",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 380,
+   "name_en": "Al Mizhar",
+   "name_ar": "المزهر",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 381,
+   "name_en": "Oud Al Muteena",
+   "name_ar": "عود المطينه",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 382,
+   "name_en": "Al Waheda",
+   "name_ar": "الوحيده",
+   "municipality_number": 132
+ },
+ {
+   "area_id": 383,
+   "name_en": "Jumeirah",
+   "name_ar": "جميرا",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 384,
+   "name_en": "Bur Dubai",
+   "name_ar": "بر دبى",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 385,
+   "name_en": "Muashrah Al Bahraana",
+   "name_ar": "معشره البحارنه",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 386,
+   "name_en": "Al-Raulah",
+   "name_ar": "الروله",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 387,
+   "name_en": "Al-Bastakiyah",
+   "name_ar": "البستكيه",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 388,
+   "name_en": "Oud Metha",
+   "name_ar": "عود ميثا",
+   "municipality_number": 319
+ },
+ {
+   "area_id": 389,
+   "name_en": "Tareeq Abu Dhabi",
+   "name_ar": "طريق ابوظبى",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 390,
+   "name_en": "Burj Khalifa",
+   "name_ar": "برج خليفة",
+   "municipality_number": 345
+ },
+ {
+   "area_id": 391,
+   "name_en": "Al Lusaily",
+   "name_ar": "اللسيلى",
+   "municipality_number": 931
+ },
+ {
+   "area_id": 392,
+   "name_en": "Nazwah",
+   "name_ar": "نزوه",
+   "municipality_number": 736
+ },
+ {
+   "area_id": 393,
+   "name_en": "Al Barsha Second",
+   "name_ar": "البرشاء الثانيه",
+   "municipality_number": 376
+ },
+ {
+   "area_id": 394,
+   "name_en": "Al Mizhar Second",
+   "name_ar": "المزهر الثانيه",
+   "municipality_number": 263
+ },
+ {
+   "area_id": 395,
+   "name_en": "Jabal Ali Industrial First",
+   "name_ar": "جبل على الصناعية الأولى",
+   "municipality_number": 599
+ },
+ {
+   "area_id": 396,
+   "name_en": "Al Khawaneej First",
+   "name_ar": "الخوانيج الأولى",
+   "municipality_number": 281
+ },
+ {
+   "area_id": 397,
+   "name_en": "Al Khawaneej Second",
+   "name_ar": "الخوانيج الثانية",
+   "municipality_number": 282
+ },
+ {
+   "area_id": 398,
+   "name_en": "Al Aweer First",
+   "name_ar": "العوير الأولى",
+   "municipality_number": 711
+ },
+ {
+   "area_id": 399,
+   "name_en": "Al Aweer Second",
+   "name_ar": "العوير الثانية",
+   "municipality_number": 721
+ },
+ {
+   "area_id": 458,
+   "name_en": "Dubai Investment Park First",
+   "name_ar": "مجمع دبي للاستثمار الاول",
+   "municipality_number": 598
+ },
+ {
+   "area_id": 459,
+   "name_en": "Dubai Investment Park Second",
+   "name_ar": "مجمع دبي للاستثمار الثاني",
+   "municipality_number": 597
+ },
+ {
+   "area_id": 460,
+   "name_en": "Almarmum First",
+   "name_ar": "المرموم الاولى",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 461,
+   "name_en": "Almarmum Third",
+   "name_ar": "المرموم الثالثة",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 462,
+   "name_en": "Madinat Al Mataar",
+   "name_ar": "مدينة المطار",
+   "municipality_number": 521
+ },
+ {
+   "area_id": 400,
+   "name_en": "Al Eyas",
+   "name_ar": "العياص",
+   "municipality_number": 283
+ },
+ {
+   "area_id": 401,
+   "name_en": "Wadi Al Amardi",
+   "name_ar": "وادي العمردي",
+   "municipality_number": 271
+ },
+ {
+   "area_id": 402,
+   "name_en": "AL MIZHAR FOURTH",
+   "name_ar": "المزهر الرابعة",
+   "municipality_number": 265
+ },
+ {
+   "area_id": 403,
+   "name_en": "Al Mizhar Third",
+   "name_ar": "المزهر الثالثة",
+   "municipality_number": 266
+ },
+ {
+   "area_id": 404,
+   "name_en": "Mushrif",
+   "name_ar": "مشرف",
+   "municipality_number": 252
+ },
+ {
+   "area_id": 405,
+   "name_en": "Bukadra",
+   "name_ar": "بوكدرة",
+   "municipality_number": 611
+ },
+ {
+   "area_id": 406,
+   "name_en": "Nad Al Shiba Fourth",
+   "name_ar": "ند الشبا الرابعه",
+   "municipality_number": 617
+ },
+ {
+   "area_id": 407,
+   "name_en": "Tawi Alfuqa",
+   "name_ar": "طوى الفقع",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 408,
+   "name_en": "Riqat Masali",
+   "name_ar": "رقعه مسالى",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 409,
+   "name_en": "Al Barshaa South Third",
+   "name_ar": "البرشاء جنوب الثالثة",
+   "municipality_number": 673
+ },
+ {
+   "area_id": 410,
+   "name_en": "Palm Jumeirah",
+   "name_ar": "نخلة جميرا",
+   "municipality_number": 381
+ },
+ {
+   "area_id": 411,
+   "name_en": "Palm Jabal Ali",
+   "name_ar": "نخلة جبل علي",
+   "municipality_number": 501
+ },
+ {
+   "area_id": 412,
+   "name_en": "Al Merkadh",
+   "name_ar": "المركاض",
+   "municipality_number": 347
+ },
+ {
+   "area_id": 413,
+   "name_en": "World Islands",
+   "name_ar": "جزر العالم",
+   "municipality_number": 303
+ },
+ {
+   "area_id": 414,
+   "name_en": "Al Barshaa South Second",
+   "name_ar": "البرشاء جنوب الثانية",
+   "municipality_number": 672
+ },
+ {
+   "area_id": 415,
+   "name_en": "Al Barshaa South First",
+   "name_ar": "البرشاء جنوب الاولى",
+   "municipality_number": 671
+ },
+ {
+   "area_id": 416,
+   "name_en": "Cornich Deira",
+   "name_ar": "كورنيش ديره",
+   "municipality_number": 121
+ },
+ {
+   "area_id": 417,
+   "name_en": "Sikkat Al Khail North",
+   "name_ar": "سكه الخيل شمال",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 418,
+   "name_en": "Naif North",
+   "name_ar": "نايف شمال",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 419,
+   "name_en": "Sikkat Al Khail South",
+   "name_ar": "سكه الخيل جنوب",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 420,
+   "name_en": "Mushrif",
+   "name_ar": "مشرف",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 421,
+   "name_en": "Al-Mustashfa West",
+   "name_ar": "المستشفى غرب",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 422,
+   "name_en": "Sikka Al Khail",
+   "name_ar": "سكه الخيل",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 423,
+   "name_en": "Al-Aweer",
+   "name_ar": "العوير",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 424,
+   "name_en": "Al-Qiyadah",
+   "name_ar": "القياده",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 425,
+   "name_en": "Al-Dzahiyyah Al-Jadeedah",
+   "name_ar": "الضاحيه الجديده",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 426,
+   "name_en": "Souq Sikkat Al Khail",
+   "name_ar": "سوق سكه الخيل",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 427,
+   "name_en": "Nad Rashid",
+   "name_ar": "ند راشد",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 428,
+   "name_en": "Souq Al-Lariyyah",
+   "name_ar": "سوق اللاريه",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 429,
+   "name_en": "Al Zaroob",
+   "name_ar": "الزروب",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 430,
+   "name_en": "Dubai International Airport",
+   "name_ar": "مطار دبي الدولي",
+   "municipality_number": 221
+ },
+ {
+   "area_id": 431,
+   "name_en": "Al-Cornich",
+   "name_ar": "الكورنيش",
+   "municipality_number": 111
+ },
+ {
+   "area_id": 432,
+   "name_en": "Palm Deira",
+   "name_ar": "نخلة ديرة",
+   "municipality_number": 101
+ },
+ {
+   "area_id": 433,
+   "name_en": "Al Thanyah Second",
+   "name_ar": "الثنيه الثانية",
+   "municipality_number": 384
+ },
+ {
+   "area_id": 434,
+   "name_en": "Wadi Al Safa 6",
+   "name_ar": "وادي الصفا 6",
+   "municipality_number": 664
+ },
+ {
+   "area_id": 435,
+   "name_en": "Al Hebiah Fourth",
+   "name_ar": "الحبيه الرابعة",
+   "municipality_number": 682
+ },
+ {
+   "area_id": 436,
+   "name_en": "Festival City First",
+   "name_ar": "مدينة المهرجان الأولى",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 437,
+   "name_en": "Al Kheeran",
+   "name_ar": "الخيران",
+   "municipality_number": 412
+ },
+ {
+   "area_id": 438,
+   "name_en": "Al Ttay",
+   "name_ar": "الطي",
+   "municipality_number": 284
+ },
+ {
+   "area_id": 439,
+   "name_en": "Universe Islands",
+   "name_ar": "جزر الكون",
+   "municipality_number": 888
+ },
+ {
+   "area_id": 440,
+   "name_en": "Almeydan",
+   "name_ar": "الميدان",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 441,
+   "name_en": "Al Barsha South Fourth",
+   "name_ar": "البرشاء جنوب الرابعة",
+   "municipality_number": 681
+ },
+ {
+   "area_id": 463,
+   "name_en": "Wadi Al Safa 7",
+   "name_ar": "وادي الصفا 7",
+   "municipality_number": 665
+ },
+ {
+   "area_id": 468,
+   "name_en": "Yaraah",
+   "name_ar": "يراح",
+   "municipality_number": 861
+ },
+ {
+   "area_id": 467,
+   "name_en": "Wadi Al Safa 5",
+   "name_ar": "وادي الصفا 5",
+   "municipality_number": 648
+ },
+ {
+   "area_id": 469,
+   "name_en": "Al Yufrah 1",
+   "name_ar": "اليفره 1",
+   "municipality_number": 915
+ },
+ {
+   "area_id": 470,
+   "name_en": "Al Faga'A",
+   "name_ar": "الفقع",
+   "municipality_number": 945
+ },
+ {
+   "area_id": 523,
+   "name_en": "Al Hebiah Third",
+   "name_ar": "الحبية الثالثة",
+   "municipality_number": 676
+ },
+ {
+   "area_id": 492,
+   "name_en": "Al Rowaiyah First",
+   "name_ar": "الروية الأولى",
+   "municipality_number": 812
+ },
+ {
+   "area_id": 498,
+   "name_en": "Um Almoameneen",
+   "name_ar": "ام المؤمنين",
+   "municipality_number": 835
+ },
+ {
+   "area_id": 501,
+   "name_en": "Remah",
+   "name_ar": "رماح",
+   "municipality_number": 851
+ },
+ {
+   "area_id": 510,
+   "name_en": "Al Yelayiss 5",
+   "name_ar": "اليلايس 5",
+   "municipality_number": 925
+ },
+ {
+   "area_id": 524,
+   "name_en": "Muragab",
+   "name_ar": "مرقب",
+   "municipality_number": 857
+ },
+ {
+   "area_id": 525,
+   "name_en": "Hatta",
+   "name_ar": "حتا",
+   "municipality_number": 891
+ },
+ {
+   "area_id": 473,
+   "name_en": "AL Athbah",
+   "name_ar": "العذبة",
+   "municipality_number": 431
+ },
+ {
+   "area_id": 475,
+   "name_en": "Muhaisanah Fifth",
+   "name_ar": "محيصنة الخامسة",
+   "municipality_number": 267
+ },
+ {
+   "area_id": 477,
+   "name_en": "Mena Jabal Ali",
+   "name_ar": "ميناء جبل علي",
+   "municipality_number": 594
+ },
+ {
+   "area_id": 478,
+   "name_en": "Jabal Ali Industrial Second",
+   "name_ar": "جبل علي الصناعية الثانية",
+   "municipality_number": 518
+ },
+ {
+   "area_id": 480,
+   "name_en": "Saih Shuaib 1",
+   "name_ar": "سيح شعيب 1",
+   "municipality_number": 513
+ },
+ {
+   "area_id": 481,
+   "name_en": "Hessyan Second",
+   "name_ar": "حصيان الثانية",
+   "municipality_number": 512
+ },
+ {
+   "area_id": 482,
+   "name_en": "Hadaeq Sheikh Mohammed Bin Rashid",
+   "name_ar": "حدائق الشيخ محمد بن راشد",
+   "municipality_number": 631
+ },
+ {
+   "area_id": 483,
+   "name_en": "Warsan Fourth",
+   "name_ar": "ورسان الرابعة",
+   "municipality_number": 624
+ },
+ {
+   "area_id": 485,
+   "name_en": "Me'Aisem First",
+   "name_ar": "معيصم الأول",
+   "municipality_number": 685
+ },
+ {
+   "area_id": 486,
+   "name_en": "Me'Aisem Second",
+   "name_ar": "معيصم الثانية",
+   "municipality_number": 686
+ },
+ {
+   "area_id": 487,
+   "name_en": "Anakhali",
+   "name_ar": "نخلي",
+   "municipality_number": 724
+ },
+ {
+   "area_id": 490,
+   "name_en": "Al Meryal",
+   "name_ar": "المريال",
+   "municipality_number": 735
+ },
+ {
+   "area_id": 493,
+   "name_en": "Al Rowaiyah Second",
+   "name_ar": "الروية الثانية",
+   "municipality_number": 813
+ },
+ {
+   "area_id": 494,
+   "name_en": "Umm Addamin",
+   "name_ar": "أم الدمن",
+   "municipality_number": 824
+ },
+ {
+   "area_id": 495,
+   "name_en": "Mereiyeel",
+   "name_ar": "مرييل",
+   "municipality_number": 821
+ },
+ {
+   "area_id": 496,
+   "name_en": "Le Hemaira",
+   "name_ar": "الحميرا",
+   "municipality_number": 826
+ },
+ {
+   "area_id": 499,
+   "name_en": "Al Maha",
+   "name_ar": "المها",
+   "municipality_number": 845
+ },
+ {
+   "area_id": 500,
+   "name_en": "Um Esalay",
+   "name_ar": "ام السلي",
+   "municipality_number": 847
+ },
+ {
+   "area_id": 503,
+   "name_en": "Madinat Hind 2",
+   "name_ar": "مدينة هند 2",
+   "municipality_number": 912
+ },
+ {
+   "area_id": 504,
+   "name_en": "Madinat Hind 3",
+   "name_ar": "مدينة هند 3",
+   "municipality_number": 913
+ },
+ {
+   "area_id": 506,
+   "name_en": "Al Yelayiss 1",
+   "name_ar": "اليلايس 1",
+   "municipality_number": 921
+ },
+ {
+   "area_id": 507,
+   "name_en": "Al Yelayiss 2",
+   "name_ar": "اليلايس 2",
+   "municipality_number": 922
+ },
+ {
+   "area_id": 508,
+   "name_en": "Al Yelayiss 3",
+   "name_ar": "اليلايس 3",
+   "municipality_number": 923
+ },
+ {
+   "area_id": 509,
+   "name_en": "Al Yelayiss 4",
+   "name_ar": "اليلايس 4",
+   "municipality_number": 924
+ },
+ {
+   "area_id": 514,
+   "name_en": "Ghadeer Barashy",
+   "name_ar": "غدير براشي",
+   "municipality_number": 967
+ },
+ {
+   "area_id": 517,
+   "name_en": "Saih Shuaelah",
+   "name_ar": "سيح شعيله",
+   "municipality_number": 978
+ },
+ {
+   "area_id": 520,
+   "name_en": "Al Layan 2",
+   "name_ar": "الليان 2",
+   "municipality_number": 988
+ },
+ {
+   "area_id": 521,
+   "name_en": "Hafair",
+   "name_ar": "حفير",
+   "municipality_number": 991
+ },
+ {
+   "area_id": 522,
+   "name_en": "Hessyan First",
+   "name_ar": "حصيان الاولى",
+   "municipality_number": 511
+ },
+ {
+   "area_id": 471,
+   "name_en": "Al Rowaiyah Third",
+   "name_ar": "الرويه الثالثه",
+   "municipality_number": 814
+ },
+ {
+   "area_id": 472,
+   "name_en": "Jabal Ali Second",
+   "name_ar": "جبل علي الثانية",
+   "municipality_number": 592
+ },
+ {
+   "area_id": 474,
+   "name_en": "OUD AL MUTEENA",
+   "name_ar": "عود المطينة",
+   "municipality_number": 268
+ },
+ {
+   "area_id": 476,
+   "name_en": "Jabal Ali Third",
+   "name_ar": "جبل علي الثالثة",
+   "municipality_number": 593
+ },
+ {
+   "area_id": 479,
+   "name_en": "Jabal Ali Industrial Third",
+   "name_ar": "جبل علي الصناعية الثالثة",
+   "municipality_number": 516
+ },
+ {
+   "area_id": 484,
+   "name_en": "Nadd Hessa",
+   "name_ar": "ند حصة",
+   "municipality_number": 626
+ },
+ {
+   "area_id": 488,
+   "name_en": "Al Wohoosh",
+   "name_ar": "الوحوش",
+   "municipality_number": 727
+ },
+ {
+   "area_id": 489,
+   "name_en": "Lehbab First",
+   "name_ar": "لهباب الاولى",
+   "municipality_number": 731
+ },
+ {
+   "area_id": 497,
+   "name_en": "Lehbab Second",
+   "name_ar": "لهباب الثانية",
+   "municipality_number": 831
+ },
+ {
+   "area_id": 502,
+   "name_en": "Madinat Hind 1",
+   "name_ar": "مدينة هند 1",
+   "municipality_number": 911
+ },
+ {
+   "area_id": 505,
+   "name_en": "Madinat Hind 4",
+   "name_ar": "مدينة هند 4",
+   "municipality_number": 914
+ },
+ {
+   "area_id": 511,
+   "name_en": "Saih Alsalam",
+   "name_ar": "سيح السلم",
+   "municipality_number": 951
+ },
+ {
+   "area_id": 512,
+   "name_en": "Al Hathmah",
+   "name_ar": "الحثمة",
+   "municipality_number": 956
+ },
+ {
+   "area_id": 513,
+   "name_en": "Madinat Latifa",
+   "name_ar": "مدينة لطيفة",
+   "municipality_number": 961
+ },
+ {
+   "area_id": 515,
+   "name_en": "Saih Aldahal",
+   "name_ar": "سيح الدحل",
+   "municipality_number": 971
+ },
+ {
+   "area_id": 516,
+   "name_en": "Al Oshoosh",
+   "name_ar": "العشوش",
+   "municipality_number": 975
+ },
+ {
+   "area_id": 518,
+   "name_en": "Mugatrah",
+   "name_ar": "مقطرة",
+   "municipality_number": 981
+ },
+ {
+   "area_id": 519,
+   "name_en": "Al Layan1",
+   "name_ar": "الليان1",
+   "municipality_number": 987
+ },
+ {
+   "area_id": 442,
+   "name_en": "Al Barsha South Fifth",
+   "name_ar": "البرشاء جنوب الخامسة",
+   "municipality_number": 684
+ },
+ {
+   "area_id": 443,
+   "name_en": "Al Thanyah First",
+   "name_ar": "الثنيه الأولى",
+   "municipality_number": 383
+ },
+ {
+   "area_id": 444,
+   "name_en": "Al Hebiah First",
+   "name_ar": "الحبيه الاولى",
+   "municipality_number": 674
+ },
+ {
+   "area_id": 445,
+   "name_en": "Jabal Ali First",
+   "name_ar": "جبل علي الأولى",
+   "municipality_number": 591
+ },
+ {
+   "area_id": 446,
+   "name_en": "Al Wajehah Al Bhariyah",
+   "name_ar": "الواجهة البحرية",
+   "municipality_number": 502
+ },
+ {
+   "area_id": 447,
+   "name_en": "Al Khairan First",
+   "name_ar": "الخيران الأولى",
+   "municipality_number": 415
+ },
+ {
+   "area_id": 448,
+   "name_en": "Al Khairan  Second",
+   "name_ar": "الخيران الثانية",
+   "municipality_number": 0
+ },
+ {
+   "area_id": 449,
+   "name_en": "Al Yufrah 2",
+   "name_ar": "اليفره 2",
+   "municipality_number": 916
+ },
+ {
+   "area_id": 450,
+   "name_en": "Al Warqa Fifth",
+   "name_ar": "الورقاء الخامسة",
+   "municipality_number": 425
+ },
+ {
+   "area_id": 529,
+   "name_en": "Al Yufrah 4",
+   "name_ar": "اليفره 4",
+   "municipality_number": 919
+ },
+ {
+   "area_id": 528,
+   "name_en": "Al Yufrah 3",
+   "name_ar": "اليفره 3",
+   "municipality_number": 918
+ },
+ {
+   "area_id": 530,
+   "name_en": "Jumeira Island 2",
+   "name_ar": "جزيرة جميرا الثانية",
+   "municipality_number": 304
+ },
+ {
+   "area_id": 531,
+   "name_en": "Al Hebiah Sixth",
+   "name_ar": "الحبيه السادسة",
+   "municipality_number": 677
+ }
+]

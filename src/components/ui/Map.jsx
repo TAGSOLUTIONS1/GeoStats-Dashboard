@@ -8,7 +8,7 @@ import { EmiratesData } from '../../data/Emirates';
 const Map = ({selectedFilter}) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  console.log('Map render - selectedFilter:', selectedFilter);
+  // console.log('Map render - selectedFilter:', selectedFilter);
 
   // Dubai coordinates
   const lng = 55.3;

@@ -8,6 +8,7 @@ const GraphModal = ({ isOpen, onClose, series, placeName }) => {
   const [showTrend, setShowTrend] = useState(true);
   const [showLabels, setShowLabels] = useState(false);
 
+  // console.log("GraphModal render - placeName:", series);
   // Transform series data
   const dataPoints = useMemo(() => {
     return series.map((item) => ({
@@ -173,6 +174,11 @@ const GraphModal = ({ isOpen, onClose, series, placeName }) => {
           </div>
 
           {/* SVG Chart */}
+          {series.length === 0 ? (
+          <div className="flex items-center justify-center h-60 text-gray-500 text-sm">
+            No forecast data available
+          </div>
+        ) : (
           <div className="relative">
             <svg width={width} height={height} className="w-full h-auto">
               {/* X-axis */}
@@ -306,7 +312,8 @@ const GraphModal = ({ isOpen, onClose, series, placeName }) => {
                 <div>Value: {tooltip.value.y.toFixed(2)}</div>
               </div>
             )}
-          </div>
+          </div>    
+          )}
         </div>
       </div>
     </motion.div>
