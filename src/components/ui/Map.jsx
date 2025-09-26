@@ -46,7 +46,7 @@ const Map = ({selectedFilter}) => {
       // Add GeoJSON source
       map.current.addSource('dubai-communities', {
         type: 'geojson',
-        data: selectedFilter === 'Area' ? geojsonData : EmiratesData
+        data: selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA
       });
 
       // Add outline layer
@@ -229,7 +229,7 @@ const Map = ({selectedFilter}) => {
 useEffect(() => {
   if (!map.current) return;
 
-  const newData = selectedFilter === 'Area' ? geojsonData : EmiratesData;
+  const newData = selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA;
 
   if (map.current.getSource('dubai-communities')) {
     map.current.getSource('dubai-communities').setData(newData);
