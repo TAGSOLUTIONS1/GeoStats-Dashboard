@@ -232,3 +232,54 @@ export const geojsonData = {
     ]
     };
     
+
+
+
+export const dubaiGeoData = {
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "CNAME_E": "Dubai",
+        "CNAME_A": "دبي",
+        "COMMUNITY_E": "Dubai Emirate",
+        "COMMUNITY_A": "إمارة دبي",
+        "COMM_NUM": "000",
+        "SHAPE_AREA": "4114000000",
+        "SHAPE_LEN": "350000",
+        "Sector": "All",
+        "Population 2019": 3331400,
+        "Area Sq Km": 4114,
+        "Latitude": 25.2048493,
+        "Longitude": 55.2707828
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [55.033, 24.600],
+          [55.150, 24.550],
+          [55.300, 24.650],
+          [55.450, 24.700],
+          [55.600, 24.900],
+          [55.700, 25.100],
+          [55.750, 25.250],
+          [55.700, 25.400],
+          [55.600, 25.500],
+          [55.400, 25.550],
+          [55.200, 25.450],
+          [55.050, 25.300],
+          [54.950, 25.000],
+          [55.000, 24.800],
+          [55.033, 24.600]
+        ]]
+      }
+    }
+  ]
+};
+
+

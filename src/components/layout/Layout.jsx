@@ -177,7 +177,7 @@ const Layout = ({ children }) => {
       
       {/* Background Map - Fixed behind main content only */}
       <div className="absolute left-0 right-0 top-0 bottom-0">
-        <Map />
+        <Map selectedFilter={selectedFilter}/>
       </div>
       
       <main className="flex-1 relative z-20 flex flex-col pointer-events-none">

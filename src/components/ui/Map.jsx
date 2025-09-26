@@ -1,12 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { geojsonData } from '../../data/geoData';
+import { dubaiGeoData, geojsonData } from '../../data/geoData';
 
-const Map = () => {
+const Map = ({selectedFilter}) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
+  console.log('Map render - selectedFilter:', selectedFilter);
 
+  // Dubai coordinates
   const lng = 55.3;
   const lat = 25.15;
   const zoom = 8.5;
@@ -38,15 +40,11 @@ const Map = () => {
 
     window.map = map.current; // Expose map instance globally
 
-  // const bounds = map.current.getBounds();
-  //   console.log('SW:', bounds.getSouthWest().lng, bounds.getSouthWest().lat);
-  // console.log('NE:', bounds.getNorthEast().lng, bounds.getNorthEast().lat);
-
     map.current.on('load', () => {
       // Add GeoJSON source
       map.current.addSource('dubai-communities', {
         type: 'geojson',
-        data: geojsonData
+        data: selectedFilter === 'Area' ? geojsonData : dubaiGeoData
       });
 
       // Add outline layer
@@ -56,7 +54,7 @@ const Map = () => {
         source: 'dubai-communities',
         paint: {
           'line-color': '#1976d2',
-          'line-width': 1
+          'line-width': 1.5
         }
       });
 
@@ -224,6 +222,17 @@ const Map = () => {
       // if (map.current) map.current.remove();
     };
   }, []);
+
+  // Effect 2: update data when filter changes
+useEffect(() => {
+  if (!map.current) return;
+
+  const newData = selectedFilter === 'Area' ? geojsonData : dubaiGeoData;
+
+  if (map.current.getSource('dubai-communities')) {
+    map.current.getSource('dubai-communities').setData(newData);
+  }
+}, [selectedFilter]);
 
   const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
   const hasValidToken = token && token !== 'your_mapbox_access_token_here';
