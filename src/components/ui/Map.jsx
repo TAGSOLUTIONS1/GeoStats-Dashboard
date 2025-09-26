@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { dubaiGeoData, geojsonData } from '../../data/geoData';
+import { dubaiWEBDATA } from '../../data/DubaiData';
 
 const Map = ({selectedFilter}) => {
   const mapContainer = useRef(null);
@@ -11,7 +12,7 @@ const Map = ({selectedFilter}) => {
   // Dubai coordinates
   const lng = 55.3;
   const lat = 25.15;
-  const zoom = 8.5;
+  const zoom = 7;
 
   useEffect(() => {
     const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
@@ -44,7 +45,7 @@ const Map = ({selectedFilter}) => {
       // Add GeoJSON source
       map.current.addSource('dubai-communities', {
         type: 'geojson',
-        data: selectedFilter === 'Area' ? geojsonData : dubaiGeoData
+        data: selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA
       });
 
       // Add outline layer
@@ -227,7 +228,7 @@ const Map = ({selectedFilter}) => {
 useEffect(() => {
   if (!map.current) return;
 
-  const newData = selectedFilter === 'Area' ? geojsonData : dubaiGeoData;
+  const newData = selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA;
 
   if (map.current.getSource('dubai-communities')) {
     map.current.getSource('dubai-communities').setData(newData);
