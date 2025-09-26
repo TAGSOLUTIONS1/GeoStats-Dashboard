@@ -343,30 +343,30 @@ const Layout = ({ children }) => {
         )}
 
         {/* Bottom Control Bar */}
-        <div className="px-2 sm:px-4 lg:px-6 py-4 flex items-center justify-between pointer-events-auto">
-          <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-6">
+        <div className="px-2 sm:px-4 lg:px-6 py-4 flex items-center space-x-4 lg:space-x-6 pointer-events-auto">
+          <div className="flex items-center">
             <button 
               onClick={handleTableView}
-              className="flex bg-white px-3 sm:px-4 py-2 rounded-3xl hover:bg-gray-50 items-center space-x-2 transition-colors"
+              className="flex bg-white px-2 lg:px-6 justify-between sm:px-4 py-2 rounded-3xl hover:bg-gray-50 items-center space-x-2 transition-colors"
             >
               <Table className="w-4 h-4 text-gray-600" />
-              <span className="text-sm text-gray-700 hidden sm:block">Table View</span>
+              <span className="text-sm text-gray-700 ">Table View</span>
             </button>
-            <div className="hidden sm:block">
+          </div>
+          <div className="">
               <DatePicker 
                 selectedDate={selectedDate}
                 onDateChange={handleDateChange}
               />
             </div>
-          </div>
           
           {/* Mobile Date Picker */}
-          <div className="sm:hidden">
+          {/* <div className="sm:hidden">
             <DatePicker 
               selectedDate={selectedDate}
               onDateChange={handleDateChange}
             />
-          </div>
+          </div> */}
         </div>
       </main>
       
