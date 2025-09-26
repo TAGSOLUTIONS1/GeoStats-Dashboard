@@ -171,7 +171,7 @@ const Layout = ({ children }) => {
 
     // dynamic import forecast JSON using the area_id
     import(
-      `../../data/average_meter_price/forecasts/lgbm/forecast_area_${areaId}_2010onwards.json`
+      `../../data/average_meter_price/forecasts/xgb/forecast_area_${areaId}_2010onwards.json`
     )
       .then((module) => {
         setSeries(module.default);

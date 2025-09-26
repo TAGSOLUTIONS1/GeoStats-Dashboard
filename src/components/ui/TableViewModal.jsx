@@ -161,14 +161,14 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
   };
 
   // Header configuration to reduce repetitive code
-  const tableHeaders = [
-    { key: 'rk', label: 'RK', sortable: true, format: 'number', width: 'w-16' },
-    // { key: 'zip', label: 'Community', sortable: true, format: 'text', width: 'w-24'},
-    { key: 'area', label: 'Area', sortable: true, format: 'text', width: 'w-32' },
-    { key: 'homeValue', label: 'Home Value', sortable: true, format: 'currency', width: 'w-32' },
-    { key: 'homeValueGrowth', label: 'Home Value Growth (YoY)', sortable: true, format: 'percentage', width: 'w-40' },
-    { key: 'population', label: 'Population', sortable: true, format: 'number', width: 'w-32' }
-  ];
+const tableHeaders = [
+  { key: 'rk', label: 'RK', sortable: true, format: 'number' },
+  { key: 'area', label: 'Area', sortable: true, format: 'text' },
+  { key: 'homeValue', label: 'Home Value', sortable: true, format: 'currency' },
+  { key: 'homeValueGrowth', label: 'Home Value Growth (YoY)', sortable: true, format: 'percentage' },
+  { key: 'population', label: 'Population', sortable: true, format: 'number' }
+];
+
 
   // Format cell value based on type
   const formatCellValue = (value, format) => {
@@ -189,16 +189,16 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
       initial={{ opacity: 0, y: "100%" }}
       animate={isOpen ? { opacity: 1, y: "0%" } : { opacity: 1, y: "100%" }}
       transition={{ duration: 0.5, ease: "easeInOut" }}
-      className="fixed w-[78%] h-[98%] bottom-0 right-5 flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
+      className="fixed w-[90%] lg:w-[78%] h-[98%] bottom-0 right-5 flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
     >
       <div className="w-full h-full flex flex-col overflow-y-auto ">
         {/* Header */}
         <div className="flex items-center justify-between p-3 border-b border-gray-200">
           <div className="flex items-center space-x-4">
-            <h2 className="text-lg font-bold text-gray-900 font-tomorrow">GeoStats Table View - Community</h2>
+            <h2 className="text-sm md:text-base lg:text-lg font-bold text-gray-900 font-tomorrow">GeoStats Table View - Community</h2>
           </div>
           <div className="flex items-center space-x-3">
-            <button className="px-3 py-1.5 bg-azure text-white text-xs font-medium rounded-lg hover:bg-azure-dark transition-colors flex items-center space-x-2">
+            <button className="px-2 sm:px-3 py-1.5 bg-azure text-white text-[8px] sm:text-xs font-medium rounded-lg hover:bg-azure-dark transition-colors flex items-center space-x-2">
               <Download className="w-3 h-3" />
               <span>Download Report</span>
             </button>
@@ -220,7 +220,8 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                   {tableHeaders.map((header, index) => (
                     <th 
                       key={header.key}
-                      className={`border-l border-gray-200 py-2 px-3 font-medium text-sm text-blue-light ${header.width} relative font-inter`}
+                      className="border-l border-gray-200 py-2 px-3 font-medium text-sm text-blue-light relative font-inter"
+
                       style={{
                         background: `linear-gradient(135deg, rgba(168, 85, 247, 0.05) 0%, rgba(59, 130, 246, 0.05) 100%)`,
                         borderBottom: `3px solid #2A7A8A`,
@@ -356,7 +357,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                     {tableHeaders.map((header) => (
                       <td 
                         key={header.key}
-                        className={`py-3 px-3 text-center text-sm text-blue ${header.width} ${header.className || ''} font-inter`}
+                        className={`px-1 py-1 md:px-2 md:py-2 lg:py-3 lg:px-3 text-center text-[10px] sm:text-xs md:text-sm text-blue ${header.className || ''} font-inter`}
                       >
                         {formatCellValue(row[header.key], header.format)}
                       </td>
@@ -372,18 +373,18 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
         <div className="p-6 border-t border-gray-200">
           <div className="flex items-center justify-between">
               <div className="flex items-center space-x-4">
-                <span className="text-sm text-blue font-inter">
+                <span className="text-[10px] sm:text-xs md:text-sm text-blue font-inter">
                   Showing {startIndex + 1} to {Math.min(endIndex, sortedData.length)} of {sortedData.length}
                 </span>
                 <div className="flex items-center space-x-2">
-                  <label className="text-sm text-blue font-inter">Rows per Page:</label>
+                  <label className="text-[10px] sm:text-xs md:text-sm text-blue font-inter">Rows per Page:</label>
                   <select
                     value={rowsPerPage}
                     onChange={(e) => {
                       setRowsPerPage(Number(e.target.value));
                       setCurrentPage(1);
                     }}
-                    className="px-2 py-1 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue text-blue font-inter"
+                    className="px-1 sm:px-2 py-1 border border-gray-300 rounded text-[10px] sm:text-xs md:text-sm focus:outline-none focus:ring-1 focus:ring-blue text-blue font-inter"
                   >
                     <option value={5}>5</option>
                     <option value={10}>10</option>
@@ -397,7 +398,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
               <button
                 onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                 disabled={currentPage === 1}
-                className="px-2 py-1 border border-gray-300 rounded text-sm hover:bg-blue hover:text-white disabled:opacity-50 disabled:cursor-not-allowed text-blue font-inter"
+                className="px-1 sm:px-2 py-1 border border-gray-300 rounded text-[10px] sm:text-xs md:text-sm hover:bg-blue hover:text-white disabled:opacity-50 disabled:cursor-not-allowed text-blue font-inter"
               >
                 &lt;
               </button>
@@ -408,7 +409,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
                   <button
                     key={pageNum}
                     onClick={() => setCurrentPage(pageNum)}
-                    className={`px-2 py-1 border rounded text-sm font-inter ${
+                    className={`px-1 sm:px-2 py-1 border rounded text-[10px] sm:text-xs md:text-sm font-inter ${
                       currentPage === pageNum
                         ? 'bg-blue text-white border-blue'
                         : 'border-gray-300 hover:bg-blue hover:text-white text-blue'
@@ -422,7 +423,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
               <button
                 onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
                 disabled={currentPage === totalPages}
-                className="px-2 py-1 border border-gray-300 rounded text-sm hover:bg-blue hover:text-white disabled:opacity-50 disabled:cursor-not-allowed text-blue font-inter"
+                className="px-1 sm:px-2 py-1 border border-gray-300 rounded text-[10px] sm:text-xs md:text-sm hover:bg-blue hover:text-white disabled:opacity-50 disabled:cursor-not-allowed text-blue font-inter"
               >
                 &gt;
               </button>
