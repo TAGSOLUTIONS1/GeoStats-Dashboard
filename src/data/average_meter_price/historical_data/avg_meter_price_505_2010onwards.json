@@ -1,0 +1,608 @@
+[
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2015-12-01 00:00:00",
+    "avg_meter_price": 12035.020366924971
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 11346.374978998778
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2016-02-01 00:00:00",
+    "avg_meter_price": 12032.014595319206
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 12309.516767118832
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 13001.988931150883
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 13196.595305648696
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 12918.460369713852
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 12398.857573130355
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2016-09-01 00:00:00",
+    "avg_meter_price": 12962.670713201822
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 12084.63687150838
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 12147.99104586392
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2017-02-01 00:00:00",
+    "avg_meter_price": 11175.479885676694
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 11282.800346187178
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 11676.625615343142
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 12011.677169103868
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2018-03-01 00:00:00",
+    "avg_meter_price": 11089.607859806456
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 13230.154767848227
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2018-05-01 00:00:00",
+    "avg_meter_price": 12458.017952704678
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2018-06-01 00:00:00",
+    "avg_meter_price": 11418.446285457709
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2018-07-01 00:00:00",
+    "avg_meter_price": 11568.46364237207
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2018-08-01 00:00:00",
+    "avg_meter_price": 12148.685403445148
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2018-09-01 00:00:00",
+    "avg_meter_price": 8464.766314570974
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 11131.29763441882
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2018-11-01 00:00:00",
+    "avg_meter_price": 9793.019371424049
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2019-02-01 00:00:00",
+    "avg_meter_price": 12275.767689819597
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 13507.858435795848
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 9464.866526374157
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2019-05-01 00:00:00",
+    "avg_meter_price": 6736.767925511275
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2019-06-01 00:00:00",
+    "avg_meter_price": 7066.441416742426
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2019-07-01 00:00:00",
+    "avg_meter_price": 8010.294230357025
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2019-08-01 00:00:00",
+    "avg_meter_price": 8874.773075771223
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2019-09-01 00:00:00",
+    "avg_meter_price": 9189.013317054349
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2019-10-01 00:00:00",
+    "avg_meter_price": 9275.016123698022
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 10723.690458227067
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 9975.229709278445
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 8550.773650709998
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 8557.573976911814
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 8654.979139428497
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2020-04-01 00:00:00",
+    "avg_meter_price": 8401.406529403137
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2020-05-01 00:00:00",
+    "avg_meter_price": 8245.62863511881
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 9307.122026260466
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 10168.625447112929
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2020-08-01 00:00:00",
+    "avg_meter_price": 9402.772964798813
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 9070.895574453389
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 8566.629339305711
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 10598.5928183278
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 9544.630685790657
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 9639.378147242334
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 10526.51916457308
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2021-05-01 00:00:00",
+    "avg_meter_price": 10125.287650217337
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 9952.191785623969
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 12110.091743119268
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 8814.723198644167
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 9502.848214249942
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 9706.36804803444
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 9243.676931853504
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 8971.169837546127
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 8869.582952891005
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 9116.46056604624
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 8279.720956894607
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 9598.136390681304
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 9190.839719917867
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 9742.291180789976
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 9662.523446797277
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 10308.696470069232
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 9329.593621016284
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 8520.940149428789
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 9953.301490747674
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 8965.966301343737
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 9150.039124611734
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 8300.190136391775
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 8515.60983552695
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 8845.662183218617
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 9524.383850261387
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 9719.31471282395
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 9290.05374362506
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 9699.243839676265
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 10939.088299733008
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 9832.561580190648
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 11797.44413114317
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 9842.57568644698
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 11196.126032661958
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 11018.16518090565
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 10919.763832197628
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 10099.70155374998
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 10360.673071536095
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 11558.98029278146
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 12621.056184206936
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 12414.897630435848
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 13062.620172523835
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 13211.060396868152
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 12916.19062547691
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 12910.06821344761
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 13032.392995942311
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 12933.624052631949
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 12309.384568235564
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 12156.157896892264
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 12169.800977028812
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 12141.327190399212
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 11634.340908059772
+  },
+  {
+    "area_id": 505,
+    "name_en": "Madinat Hind 4",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 12492.384799909563
+  }
+]

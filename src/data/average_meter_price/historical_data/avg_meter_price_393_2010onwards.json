@@ -1,0 +1,842 @@
+[
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2010-01-01 00:00:00",
+    "avg_meter_price": 2142.011409709017
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2010-02-01 00:00:00",
+    "avg_meter_price": 3668.822647459283
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2010-03-01 00:00:00",
+    "avg_meter_price": 1722.2202289117722
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2010-04-01 00:00:00",
+    "avg_meter_price": 2152.775286139716
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2010-06-01 00:00:00",
+    "avg_meter_price": 4384.942738166084
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2010-07-01 00:00:00",
+    "avg_meter_price": 2368.0528147536866
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2010-08-01 00:00:00",
+    "avg_meter_price": 6099.52997739586
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2010-10-01 00:00:00",
+    "avg_meter_price": 2403.941641737724
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2010-11-01 00:00:00",
+    "avg_meter_price": 2260.414050446701
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2010-12-01 00:00:00",
+    "avg_meter_price": 1749.1299199885184
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2011-02-01 00:00:00",
+    "avg_meter_price": 2224.43514621038
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2011-03-01 00:00:00",
+    "avg_meter_price": 4000.574073409637
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2011-04-01 00:00:00",
+    "avg_meter_price": 1921.790067544413
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2011-05-01 00:00:00",
+    "avg_meter_price": 1614.5814646047866
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2011-06-01 00:00:00",
+    "avg_meter_price": 3260.896072519216
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2011-08-01 00:00:00",
+    "avg_meter_price": 3013.8854005956014
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2011-09-01 00:00:00",
+    "avg_meter_price": 2057.630806276594
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2011-10-01 00:00:00",
+    "avg_meter_price": 3404.909660058213
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2011-11-01 00:00:00",
+    "avg_meter_price": 2128.8605385072733
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2011-12-01 00:00:00",
+    "avg_meter_price": 2830.899501273725
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2012-01-01 00:00:00",
+    "avg_meter_price": 2642.633920562592
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2012-02-01 00:00:00",
+    "avg_meter_price": 3272.220878481079
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2012-03-01 00:00:00",
+    "avg_meter_price": 4718.165835456209
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2012-04-01 00:00:00",
+    "avg_meter_price": 3803.23633884683
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 3198.361972466258
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2012-06-01 00:00:00",
+    "avg_meter_price": 3570.0190161816945
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2012-09-01 00:00:00",
+    "avg_meter_price": 4883.988994104785
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2012-10-01 00:00:00",
+    "avg_meter_price": 3175.381582005377
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2012-11-01 00:00:00",
+    "avg_meter_price": 3673.138969192066
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2012-12-01 00:00:00",
+    "avg_meter_price": 3605.865007392321
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2013-01-01 00:00:00",
+    "avg_meter_price": 3444.4347070714944
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2013-02-01 00:00:00",
+    "avg_meter_price": 3645.380039011277
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2013-03-01 00:00:00",
+    "avg_meter_price": 3139.4639589537514
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2013-04-01 00:00:00",
+    "avg_meter_price": 5381.938215349288
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2013-05-01 00:00:00",
+    "avg_meter_price": 3327.8342467448906
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2013-07-01 00:00:00",
+    "avg_meter_price": 5738.381006291372
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2013-08-01 00:00:00",
+    "avg_meter_price": 4664.346453302716
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2013-09-01 00:00:00",
+    "avg_meter_price": 3408.560869721216
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2013-10-01 00:00:00",
+    "avg_meter_price": 4540.751564942497
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 3413.052836797174
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2014-01-01 00:00:00",
+    "avg_meter_price": 3874.9474885364993
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 7660.292059847153
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2014-04-01 00:00:00",
+    "avg_meter_price": 6386.5666822144885
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2014-05-01 00:00:00",
+    "avg_meter_price": 4733.0060311450725
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 6704.761689737306
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2014-08-01 00:00:00",
+    "avg_meter_price": 6534.484351465463
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 4197.924670697256
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2014-10-01 00:00:00",
+    "avg_meter_price": 4949.6894940447
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2014-11-01 00:00:00",
+    "avg_meter_price": 6507.79182466257
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2015-01-01 00:00:00",
+    "avg_meter_price": 5651.0476777740005
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 4219.439560833842
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 4967.659541476428
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2015-04-01 00:00:00",
+    "avg_meter_price": 8611.101144558861
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2015-05-01 00:00:00",
+    "avg_meter_price": 4233.989018745626
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 10763.953671943396
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 5920.132036884217
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 4987.262746223673
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2015-09-01 00:00:00",
+    "avg_meter_price": 5094.901510530659
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2016-02-01 00:00:00",
+    "avg_meter_price": 4279.216638069442
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2016-03-01 00:00:00",
+    "avg_meter_price": 3587.9588102328585
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 5246.480898412906
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 4538.778618710249
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 7580.236806597838
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 3408.560869721216
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 6494.205446521474
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 10871.515195005562
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 5552.021186490729
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2017-02-01 00:00:00",
+    "avg_meter_price": 4661.570016781651
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 5014.17243730042
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 5777.5681687864135
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 3516.1996340282017
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 4538.767894944566
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 3408.560869721216
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 3085.6445768002586
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 4413.189336586416
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2018-01-01 00:00:00",
+    "avg_meter_price": 4965.303710830522
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 4305.550572279431
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 7893.509382512289
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2018-11-01 00:00:00",
+    "avg_meter_price": 5268.4512102005365
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 4154.866904190392
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2019-09-01 00:00:00",
+    "avg_meter_price": 3013.8854005956014
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 3473.5583622828744
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 2368.0528147536866
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 5476.5188962326665
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 3516.1996340282017
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 2414.7790489468434
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 2320.6923853987496
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 2368.0528147536866
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 3909.023393296732
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 6673.603387033117
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 3051.558968103046
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 3267.617906546128
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 3062.920837668784
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 5740.734096372574
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 4197.911807972444
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 3031.8329380778587
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 3566.431057371461
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 3184.313444081662
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 3085.6445768002586
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 3557.2551330079923
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 7068.278856158731
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 3372.681281618887
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 3417.121143778789
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 4520.828100893402
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 3827.155614659296
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 3193.2833411072443
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 5961.267023449304
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 4228.680908958579
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 3910.875103153816
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 3946.7546912561447
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 5973.95141903771
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 3587.9885184367413
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 3382.160880771691
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 4843.744393814359
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 3229.1629292095727
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 3770.948297513544
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 3803.23633884683
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 5220.480068888809
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 5068.7113058703335
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 4548.731901015134
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 4532.802951536128
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 4126.152631767787
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 3607.995317623855
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 3991.6041763840553
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 4547.364283135625
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 3573.606974991927
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 4445.019075981008
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 4269.670984177102
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 2152.775286139716
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 4075.9212084245273
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 5740.734096372574
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 4396.491485546358
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 13993.039359908147
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 4664.346453302716
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 5489.576979656274
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 4426.181101312067
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 6679.8823149510245
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 8106.341223479003
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 4592.587277098059
+  },
+  {
+    "area_id": 393,
+    "name_en": "Al Barsha Second",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 4986.14007358655
+  }
+]

@@ -1,0 +1,584 @@
+[
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2010-03-01 00:00:00",
+    "avg_meter_price": 3470.464767616192
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2011-01-01 00:00:00",
+    "avg_meter_price": 2259.806295399516
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2011-06-01 00:00:00",
+    "avg_meter_price": 5017.080879904766
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2011-09-01 00:00:00",
+    "avg_meter_price": 4204.648659558007
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2012-04-01 00:00:00",
+    "avg_meter_price": 4541.020552322648
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 5979.9671101808935
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2012-06-01 00:00:00",
+    "avg_meter_price": 9264.346959377435
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2013-01-01 00:00:00",
+    "avg_meter_price": 2865.8948762651817
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2013-03-01 00:00:00",
+    "avg_meter_price": 3188.8532235725115
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2013-04-01 00:00:00",
+    "avg_meter_price": 3069.9892337031806
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2013-05-01 00:00:00",
+    "avg_meter_price": 3659.7311174020215
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2013-06-01 00:00:00",
+    "avg_meter_price": 2690.978762795604
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 4110.215030878036
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 1848.2078898469792
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2014-04-01 00:00:00",
+    "avg_meter_price": 4413.221005496793
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 4613.10341040145
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2014-07-01 00:00:00",
+    "avg_meter_price": 6727.44690698901
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2014-08-01 00:00:00",
+    "avg_meter_price": 7803.838412107252
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 6996.541779893285
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 3824.45740510565
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2015-05-01 00:00:00",
+    "avg_meter_price": 14531.28531909626
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 3537.6230997227267
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2016-03-01 00:00:00",
+    "avg_meter_price": 5463.0916771691445
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 6008.227417927347
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 2960.0766390751646
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 3552.091966890197
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2017-02-01 00:00:00",
+    "avg_meter_price": 6391.03463762726
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 7265.838475287801
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 5683.340330657806
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 5920.197344700765
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 5561.760649297034
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 6639.52608468159
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2017-09-01 00:00:00",
+    "avg_meter_price": 4843.888108037616
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 6458.5792641691305
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 3336.8016935165583
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 4843.726227477233
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 5446.687911225243
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 4897.343249934266
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2018-12-01 00:00:00",
+    "avg_meter_price": 4427.39725942796
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2019-02-01 00:00:00",
+    "avg_meter_price": 4790.046630183733
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2019-05-01 00:00:00",
+    "avg_meter_price": 4413.466746377653
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2019-06-01 00:00:00",
+    "avg_meter_price": 7696.199261595428
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2019-09-01 00:00:00",
+    "avg_meter_price": 3679.5070819553166
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2019-10-01 00:00:00",
+    "avg_meter_price": 3512.144070455618
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 3983.0614107507554
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 3572.6623417144933
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 4000.726893927765
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 3545.7526971284024
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 3426.9744441100875
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2020-04-01 00:00:00",
+    "avg_meter_price": 3337.4696055717736
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 4305.746494363486
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 3229.174515354725
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2020-08-01 00:00:00",
+    "avg_meter_price": 3390.8097804334416
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 3404.294700489589
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 3170.1198087051966
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 3430.9272000857063
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 3749.713821647252
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 3552.309893587068
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 3789.3349442583335
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 2718.435938272283
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 3094.6255772149448
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 3337.418987879225
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 3592.534066113314
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 5731.784015177682
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 2474.630789411941
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 5031.65751184536
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 3914.6162143107113
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 4941.036488832028
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 4763.301466791083
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 5059.417268560438
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 3767.4615174955647
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 5032.069230059389
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 7803.838412107252
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 4819.7795491232655
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 7285.49676159669
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 5002.963637740352
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 5571.924945335132
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 5425.254951655161
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 5449.716353164735
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 4979.615883451635
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 9829.85416070918
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 3259.0625859615134
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 4770.375683556316
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 4429.914822270696
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 5947.061565858934
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 5718.339274687906
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 3982.640700168087
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 3261.7913758236023
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 3817.996799759245
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 7281.0786139144675
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 4393.431819429952
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 6297.140049860283
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 3767.3702679138455
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 5381.986491213906
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 6616.368410478111
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 6002.789151840949
+  },
+  {
+    "area_id": 231,
+    "name_en": "Al Mamzer",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 8793.823590508822
+  }
+]

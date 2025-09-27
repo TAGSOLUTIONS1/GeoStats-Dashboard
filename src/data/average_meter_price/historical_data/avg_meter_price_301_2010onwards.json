@@ -1,0 +1,362 @@
+[
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2010-05-01 00:00:00",
+    "avg_meter_price": 8611.132040945933
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2010-12-01 00:00:00",
+    "avg_meter_price": 3587.9588102328585
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2011-02-01 00:00:00",
+    "avg_meter_price": 3331.683919816885
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2011-03-01 00:00:00",
+    "avg_meter_price": 3198.425390576947
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2011-05-01 00:00:00",
+    "avg_meter_price": 3444.4404578235444
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2011-06-01 00:00:00",
+    "avg_meter_price": 15789.143722683188
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2011-08-01 00:00:00",
+    "avg_meter_price": 14026.28082090654
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2011-09-01 00:00:00",
+    "avg_meter_price": 11900.13407276255
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2011-10-01 00:00:00",
+    "avg_meter_price": 3767.3788029165335
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2011-12-01 00:00:00",
+    "avg_meter_price": 6998.934107282744
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2012-01-01 00:00:00",
+    "avg_meter_price": 4305.550572279431
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2012-03-01 00:00:00",
+    "avg_meter_price": 15251.741190037248
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2012-04-01 00:00:00",
+    "avg_meter_price": 15745.52541299421
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 25852.411455490765
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2012-08-01 00:00:00",
+    "avg_meter_price": 4305.550572279431
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2012-09-01 00:00:00",
+    "avg_meter_price": 6243.069376668315
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2012-12-01 00:00:00",
+    "avg_meter_price": 5920.14916538416
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2013-02-01 00:00:00",
+    "avg_meter_price": 17946.877243359657
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2013-05-01 00:00:00",
+    "avg_meter_price": 16768.755225198864
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2013-06-01 00:00:00",
+    "avg_meter_price": 15042.311576743012
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2013-07-01 00:00:00",
+    "avg_meter_price": 8072.978689586874
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2013-08-01 00:00:00",
+    "avg_meter_price": 8072.953556612364
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2013-09-01 00:00:00",
+    "avg_meter_price": 11013.882416653274
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2013-10-01 00:00:00",
+    "avg_meter_price": 9149.29496609379
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2013-11-01 00:00:00",
+    "avg_meter_price": 30157.542456010982
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2013-12-01 00:00:00",
+    "avg_meter_price": 31613.01076566712
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2014-01-01 00:00:00",
+    "avg_meter_price": 31969.476150116898
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 19544.771529151265
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2014-04-01 00:00:00",
+    "avg_meter_price": 10514.323692133752
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 11302.070252233503
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2014-10-01 00:00:00",
+    "avg_meter_price": 18478.085711609325
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 43024.014570799605
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 9956.687551221225
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2015-05-01 00:00:00",
+    "avg_meter_price": 35901.534959966404
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 31917.644397039337
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 9149.29496609379
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 13993.11330778174
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 14329.077264004129
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2015-12-01 00:00:00",
+    "avg_meter_price": 32270.32492631609
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 9687.488787628718
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 10027.877499448468
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 34802.4430334659
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 8611.162937554716
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 31664.428130996115
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2017-02-01 00:00:00",
+    "avg_meter_price": 12217.040199684709
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 25988.621108930667
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 9687.41927150607
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 35188.00448108465
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 7534.713501489003
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2019-09-01 00:00:00",
+    "avg_meter_price": 38032.3633884683
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 39467.688521002194
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 6458.325858419145
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 28894.68209428656
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 21995.85565890329
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 30139.07028144151
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 10046.284668652004
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 22639.3151964616
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 23804.294462675385
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 25666.76062123741
+  },
+  {
+    "area_id": 301,
+    "name_en": "Al Nahda Second",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 25505.85055890943
+  }
+]

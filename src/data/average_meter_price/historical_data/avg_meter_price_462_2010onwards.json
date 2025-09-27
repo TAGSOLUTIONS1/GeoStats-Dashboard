@@ -1,0 +1,932 @@
+[
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2010-11-01 00:00:00",
+    "avg_meter_price": 8175.258915858702
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2011-01-01 00:00:00",
+    "avg_meter_price": 5812.552626938972
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2011-03-01 00:00:00",
+    "avg_meter_price": 5796.78394070843
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2011-06-01 00:00:00",
+    "avg_meter_price": 3203.1490634467336
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2011-08-01 00:00:00",
+    "avg_meter_price": 2556.98330639584
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2011-11-01 00:00:00",
+    "avg_meter_price": 2556.98330639584
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2012-03-01 00:00:00",
+    "avg_meter_price": 8322.459649209077
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2012-05-01 00:00:00",
+    "avg_meter_price": 4799.230902677384
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2012-06-01 00:00:00",
+    "avg_meter_price": 28653.68520660288
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2012-11-01 00:00:00",
+    "avg_meter_price": 1550.0009137259915
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2013-01-01 00:00:00",
+    "avg_meter_price": 2153.9800165021384
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2013-03-01 00:00:00",
+    "avg_meter_price": 8702.69678476578
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2013-04-01 00:00:00",
+    "avg_meter_price": 2063.4411670083173
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2013-05-01 00:00:00",
+    "avg_meter_price": 2437.111028625465
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2013-07-01 00:00:00",
+    "avg_meter_price": 4340.004698369474
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2013-08-01 00:00:00",
+    "avg_meter_price": 2421.901395989905
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2013-10-01 00:00:00",
+    "avg_meter_price": 2228.1450851349723
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2013-12-01 00:00:00",
+    "avg_meter_price": 14334.425538795336
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2014-02-01 00:00:00",
+    "avg_meter_price": 3038.1425503106743
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2014-03-01 00:00:00",
+    "avg_meter_price": 12730.91840681019
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2014-04-01 00:00:00",
+    "avg_meter_price": 14703.718747834784
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2014-05-01 00:00:00",
+    "avg_meter_price": 15216.415545062471
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2014-06-01 00:00:00",
+    "avg_meter_price": 15201.55119856202
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2014-07-01 00:00:00",
+    "avg_meter_price": 14993.219432645434
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2014-08-01 00:00:00",
+    "avg_meter_price": 15924.909982370022
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2014-09-01 00:00:00",
+    "avg_meter_price": 16395.21796874764
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2014-10-01 00:00:00",
+    "avg_meter_price": 15231.948044052491
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2014-11-01 00:00:00",
+    "avg_meter_price": 14732.663115623616
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2014-12-01 00:00:00",
+    "avg_meter_price": 15395.731961848953
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2015-01-01 00:00:00",
+    "avg_meter_price": 15406.722039572896
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2015-02-01 00:00:00",
+    "avg_meter_price": 17021.886181946677
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2015-03-01 00:00:00",
+    "avg_meter_price": 15590.753833476116
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2015-04-01 00:00:00",
+    "avg_meter_price": 4917.248717491563
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2015-05-01 00:00:00",
+    "avg_meter_price": 3833.6265494746185
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2015-06-01 00:00:00",
+    "avg_meter_price": 1778.1465407797675
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2015-07-01 00:00:00",
+    "avg_meter_price": 1937.516632968704
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2015-08-01 00:00:00",
+    "avg_meter_price": 3325.558101037969
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2015-09-01 00:00:00",
+    "avg_meter_price": 2659.906570309801
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2015-11-01 00:00:00",
+    "avg_meter_price": 14534.077724186433
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2015-12-01 00:00:00",
+    "avg_meter_price": 15221.752465744768
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2016-01-01 00:00:00",
+    "avg_meter_price": 15643.231693231692
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2016-02-01 00:00:00",
+    "avg_meter_price": 10836.395663538247
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2016-04-01 00:00:00",
+    "avg_meter_price": 9125.36487597969
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2016-05-01 00:00:00",
+    "avg_meter_price": 9117.73703247829
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2016-06-01 00:00:00",
+    "avg_meter_price": 9182.477486942813
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2016-07-01 00:00:00",
+    "avg_meter_price": 9126.616792507535
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2016-08-01 00:00:00",
+    "avg_meter_price": 8288.547992026006
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2016-09-01 00:00:00",
+    "avg_meter_price": 8726.044879601228
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2016-10-01 00:00:00",
+    "avg_meter_price": 9017.061793497867
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2016-11-01 00:00:00",
+    "avg_meter_price": 8969.604890439301
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2016-12-01 00:00:00",
+    "avg_meter_price": 9326.050656978678
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2017-01-01 00:00:00",
+    "avg_meter_price": 7389.059390726475
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2017-02-01 00:00:00",
+    "avg_meter_price": 7508.055354336423
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2017-03-01 00:00:00",
+    "avg_meter_price": 7025.304160412371
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2017-04-01 00:00:00",
+    "avg_meter_price": 7466.735681838393
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2017-05-01 00:00:00",
+    "avg_meter_price": 7326.417808819814
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2017-06-01 00:00:00",
+    "avg_meter_price": 8004.072747599605
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2017-07-01 00:00:00",
+    "avg_meter_price": 8088.868670580175
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 8013.93035610523
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2017-09-01 00:00:00",
+    "avg_meter_price": 8580.52957048474
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2017-10-01 00:00:00",
+    "avg_meter_price": 7583.3481270511
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2017-11-01 00:00:00",
+    "avg_meter_price": 9107.793930365384
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2017-12-01 00:00:00",
+    "avg_meter_price": 8697.79195684663
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2018-01-01 00:00:00",
+    "avg_meter_price": 9365.301509328769
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2018-02-01 00:00:00",
+    "avg_meter_price": 10242.943589978157
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2018-03-01 00:00:00",
+    "avg_meter_price": 9984.314891582142
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2018-04-01 00:00:00",
+    "avg_meter_price": 9204.46876329736
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2018-05-01 00:00:00",
+    "avg_meter_price": 9886.055887316745
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2018-06-01 00:00:00",
+    "avg_meter_price": 9581.444220419751
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2018-07-01 00:00:00",
+    "avg_meter_price": 8977.791802755391
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2018-08-01 00:00:00",
+    "avg_meter_price": 9205.386107443564
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2018-09-01 00:00:00",
+    "avg_meter_price": 8334.546910634352
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2018-10-01 00:00:00",
+    "avg_meter_price": 8852.48399226127
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2018-11-01 00:00:00",
+    "avg_meter_price": 9221.485119030953
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2018-12-01 00:00:00",
+    "avg_meter_price": 9203.4992003619
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2019-01-01 00:00:00",
+    "avg_meter_price": 8754.520211726984
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2019-02-01 00:00:00",
+    "avg_meter_price": 8094.634926762293
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2019-03-01 00:00:00",
+    "avg_meter_price": 8140.6130258961475
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2019-04-01 00:00:00",
+    "avg_meter_price": 7849.26366050331
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2019-05-01 00:00:00",
+    "avg_meter_price": 8008.313186421377
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2019-06-01 00:00:00",
+    "avg_meter_price": 7628.892508774695
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2019-07-01 00:00:00",
+    "avg_meter_price": 7410.364153484817
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2019-08-01 00:00:00",
+    "avg_meter_price": 7807.916617001075
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2019-09-01 00:00:00",
+    "avg_meter_price": 8051.063946582924
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2019-10-01 00:00:00",
+    "avg_meter_price": 7028.706778895074
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2019-11-01 00:00:00",
+    "avg_meter_price": 7779.532874879615
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2019-12-01 00:00:00",
+    "avg_meter_price": 7362.204369455766
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2020-01-01 00:00:00",
+    "avg_meter_price": 6964.7361707226655
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2020-02-01 00:00:00",
+    "avg_meter_price": 7800.0818046577615
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2020-03-01 00:00:00",
+    "avg_meter_price": 8952.41247298891
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2020-04-01 00:00:00",
+    "avg_meter_price": 7020.587538745668
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2020-05-01 00:00:00",
+    "avg_meter_price": 6835.395583420327
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2020-06-01 00:00:00",
+    "avg_meter_price": 7195.720748151664
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2020-07-01 00:00:00",
+    "avg_meter_price": 7009.067433090907
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2020-08-01 00:00:00",
+    "avg_meter_price": 6930.166924717191
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 6969.311330725649
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2020-10-01 00:00:00",
+    "avg_meter_price": 6463.714434261513
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2020-11-01 00:00:00",
+    "avg_meter_price": 7381.753901554696
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2020-12-01 00:00:00",
+    "avg_meter_price": 7177.788151200155
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2021-01-01 00:00:00",
+    "avg_meter_price": 5795.4598001729
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2021-02-01 00:00:00",
+    "avg_meter_price": 6293.874111853229
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2021-03-01 00:00:00",
+    "avg_meter_price": 7143.4601064219305
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2021-04-01 00:00:00",
+    "avg_meter_price": 6264.016920481401
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2021-05-01 00:00:00",
+    "avg_meter_price": 6141.618990887708
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2021-06-01 00:00:00",
+    "avg_meter_price": 7031.877370535535
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2021-07-01 00:00:00",
+    "avg_meter_price": 6918.861304668073
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2021-08-01 00:00:00",
+    "avg_meter_price": 7603.580003353123
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2021-09-01 00:00:00",
+    "avg_meter_price": 7449.546261877915
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2021-10-01 00:00:00",
+    "avg_meter_price": 7907.415137784663
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2021-11-01 00:00:00",
+    "avg_meter_price": 7545.578248588537
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2021-12-01 00:00:00",
+    "avg_meter_price": 7658.609206894133
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2022-01-01 00:00:00",
+    "avg_meter_price": 8147.424694546933
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2022-02-01 00:00:00",
+    "avg_meter_price": 7391.319992913591
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2022-03-01 00:00:00",
+    "avg_meter_price": 6295.3444154153685
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2022-04-01 00:00:00",
+    "avg_meter_price": 6236.393038777669
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2022-05-01 00:00:00",
+    "avg_meter_price": 6708.603765995279
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2022-06-01 00:00:00",
+    "avg_meter_price": 6271.626373576993
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2022-07-01 00:00:00",
+    "avg_meter_price": 7814.221667990035
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2022-08-01 00:00:00",
+    "avg_meter_price": 7077.1181874639815
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2022-09-01 00:00:00",
+    "avg_meter_price": 7174.661686044851
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2022-10-01 00:00:00",
+    "avg_meter_price": 7434.168392664975
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2022-11-01 00:00:00",
+    "avg_meter_price": 8704.654894351423
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2022-12-01 00:00:00",
+    "avg_meter_price": 8337.72483367103
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2023-01-01 00:00:00",
+    "avg_meter_price": 8475.883863074458
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2023-02-01 00:00:00",
+    "avg_meter_price": 8530.857453390821
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2023-03-01 00:00:00",
+    "avg_meter_price": 8674.597728062483
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2023-04-01 00:00:00",
+    "avg_meter_price": 8320.546755026031
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2023-05-01 00:00:00",
+    "avg_meter_price": 8307.620809606758
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2023-06-01 00:00:00",
+    "avg_meter_price": 8780.242699475684
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2023-07-01 00:00:00",
+    "avg_meter_price": 9498.29092320149
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2023-08-01 00:00:00",
+    "avg_meter_price": 12050.030300441142
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2023-09-01 00:00:00",
+    "avg_meter_price": 11417.767254828386
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2023-10-01 00:00:00",
+    "avg_meter_price": 8827.49763040214
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2023-11-01 00:00:00",
+    "avg_meter_price": 14286.07447533838
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2023-12-01 00:00:00",
+    "avg_meter_price": 13506.568844371172
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 14873.113933325018
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2024-02-01 00:00:00",
+    "avg_meter_price": 12078.110684586372
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2024-03-01 00:00:00",
+    "avg_meter_price": 14869.762602991465
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2024-04-01 00:00:00",
+    "avg_meter_price": 14188.53296283868
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2024-05-01 00:00:00",
+    "avg_meter_price": 14186.423842910868
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2024-06-01 00:00:00",
+    "avg_meter_price": 14027.425093543729
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2024-07-01 00:00:00",
+    "avg_meter_price": 14253.94306372873
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2024-08-01 00:00:00",
+    "avg_meter_price": 13186.308562184078
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2024-09-01 00:00:00",
+    "avg_meter_price": 14929.678948712452
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2024-10-01 00:00:00",
+    "avg_meter_price": 15793.311361927144
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2024-11-01 00:00:00",
+    "avg_meter_price": 15146.04732676326
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2024-12-01 00:00:00",
+    "avg_meter_price": 16894.81572837426
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2025-01-01 00:00:00",
+    "avg_meter_price": 19515.406857717662
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2025-02-01 00:00:00",
+    "avg_meter_price": 16252.19694429506
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2025-03-01 00:00:00",
+    "avg_meter_price": 19507.29199885092
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2025-04-01 00:00:00",
+    "avg_meter_price": 17357.565979602063
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2025-05-01 00:00:00",
+    "avg_meter_price": 17429.605476175322
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2025-06-01 00:00:00",
+    "avg_meter_price": 19025.37787959753
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2025-07-01 00:00:00",
+    "avg_meter_price": 17950.072512576495
+  },
+  {
+    "area_id": 462,
+    "name_en": "Madinat Al Mataar",
+    "instance_date": "2025-08-01 00:00:00",
+    "avg_meter_price": 15616.876277830956
+  }
+]

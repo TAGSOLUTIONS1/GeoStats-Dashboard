@@ -1,0 +1,26 @@
+[
+  {
+    "area_id": 515,
+    "name_en": "Saih Aldahal",
+    "instance_date": "2017-08-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 515,
+    "name_en": "Saih Aldahal",
+    "instance_date": "2018-12-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 515,
+    "name_en": "Saih Aldahal",
+    "instance_date": "2020-09-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  },
+  {
+    "area_id": 515,
+    "name_en": "Saih Aldahal",
+    "instance_date": "2024-01-01 00:00:00",
+    "avg_meter_price": 1324.2179383939942
+  }
+]

@@ -72,7 +72,8 @@ const Sidebar = () => {
       {/* Explore Data Points Link */}
       <div className="p-4 border-t border-gray-300">
         <button
-          onClick={() => setIsExploreModalOpen(true)}
+          // onClick={() => setIsExploreModalOpen(true)}
+            onClick={() => window.dispatchEvent(new CustomEvent('modal:open', { detail: 'explore' }))}
             className="w-full flex items-center justify-between p-3 bg-azure text-white rounded-lg hover:bg-azure-dark transition-colors group"
         >
           <span className="font-medium">Explore Data Points</span>
@@ -87,11 +88,6 @@ const Sidebar = () => {
         onClose={handleCloseDetail} 
       />
 
-      {/* Explore Data Points Modal */}
-      <ExploreDataPointsModal
-        isOpen={isExploreModalOpen}
-        onClose={() => setIsExploreModalOpen(false)}
-      />
     </div>
   );
 };

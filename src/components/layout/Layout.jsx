@@ -10,6 +10,7 @@ import ShareModal from '../ui/ShareModal';
 import Map from '../ui/Map';
 import GraphModal from '../ui/GraphModal';
 import AreasMap from "../../data/average_meter_price/forecasts/Areas_id.json";
+import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -26,6 +27,7 @@ const Layout = ({ children }) => {
   const [isSearching, setIsSearching] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const searchTimeoutRef = useRef(null);
+  const [isExploreModalOpen, setIsExploreModalOpen] = useState(false);
 
   const filterOptions = ['Emirate', 'Area'];
 
@@ -182,6 +184,21 @@ const Layout = ({ children }) => {
       );
   }, [graphPlace]);
 
+
+   useEffect(() => {
+        const handleOpenModal = (e) => {
+            if (e.detail === 'explore') {
+                setIsExploreModalOpen(true);
+            }
+            if (window.innerWidth < 1024) { 
+                setIsSidebarOpen(false);
+            }
+        };
+        window.addEventListener('modal:open', handleOpenModal);
+        // Removes the listener when the component unmounts
+        return () => window.removeEventListener('modal:open', handleOpenModal);
+    }, []);
+    
   return (
     <div className="flex h-screen bg-gray-50 relative">
       {/* Desktop Sidebar */}
@@ -415,6 +432,11 @@ const Layout = ({ children }) => {
         placeName={graphPlace}
         series={series}
       />
+
+       <ExploreDataPointsModal
+                isOpen={isExploreModalOpen}
+                onClose={() => setIsExploreModalOpen(false)}
+            />
     </div>
   );
 }
