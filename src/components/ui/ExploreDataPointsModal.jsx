@@ -35,7 +35,7 @@ const ExploreDataPointsModal = ({ isOpen, onClose }) => {
       initial={{ opacity: 0, y: "100%" }}
       animate={isOpen ? { opacity: 1, y: "0%" } : { opacity: 1, y: "100%" }}
       transition={{ duration: 0.5, ease: "easeInOut" }}
-      className="fixed w-[78%] h-[87%] bottom-0 right-5 flex items-center justify-center z-50 p-4 bg-white border border-azure-200 shadow-2xl rounded-t-2xl backdrop-blur-sm"
+      className="fixed w-[98%] sm:w-[90%] md:w-[78%] h-[87%] bottom-0 right-1 sm:right-5 md:right-20 lg:right-5 flex items-center justify-center z-50 p-4 bg-white border border-azure-200 shadow-2xl rounded-t-2xl backdrop-blur-sm"
     >
       <div className="w-full h-full flex flex-col">
         {/* Header with gradient background */}
@@ -83,17 +83,17 @@ const ExploreDataPointsModal = ({ isOpen, onClose }) => {
                         <IconComponent className="w-5 h-5 text-white" />
                       </div>
                       <div className="text-left">
-                        <h3 className="text-lg font-bold text-blue font-inter group-hover:text-azure transition-colors">
+                        <h3 className="text-base sm:text-lg font-bold text-blue font-inter group-hover:text-azure transition-colors">
                           {section.label}
                         </h3>
-                        <p className="text-xs text-blue/70 font-inter">
+                        <p className="text-[10px] sm:text-xs text-blue/70 font-inter">
                           {section.items.length} data points available
                         </p>
                       </div>
                     </div>
                     <div className="flex items-center space-x-2">
-                      <div className="px-2 py-1 bg-azure/10 rounded-full">
-                        <span className="text-xs font-semibold text-azure font-inter">
+                      <div className="px-2 py-1 bg-azure/10 rounded-full whitespace-nowrap">
+                        <span className="text-[10px] sm:text-xs font-semibold text-azure font-inter">
                           {section.items.filter(item => item.isPremium).length} Premium
                         </span>
                       </div>
