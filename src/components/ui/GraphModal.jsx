@@ -1,5 +1,5 @@
-import React, { useMemo, useState, useEffect } from "react";
-import { X, Calendar } from "lucide-react";
+import React, { useMemo, useState, useEffect, useRef } from "react";
+import { X, Calendar, ZoomIn, ZoomOut, Maximize2 } from "lucide-react";
 
 // Mock data for demo
 const mockForecastData = Array.from({ length: 24 }, (_, i) => ({
@@ -25,7 +25,12 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
   const [customRange, setCustomRange] = useState(false);
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
-  console.log("Past Series:", pastSeries);
+  const [zoom, setZoom] = useState(1);
+  const [panOffset, setPanOffset] = useState({ x: 0, y: 0 });
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
+  const svgRef = useRef(null);
+  
   const svgWidth = 760;
   const svgHeight = 360;
   const margin = { top: 10, right: 10, bottom: 30, left: 40 };
@@ -34,39 +39,37 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
   const activeHistorical = pastSeries.length > 0 ? pastSeries : mockHistoricalData;
   
   // Combine historical and forecast data
-  // Combine historical and forecast data
-  const allData = useMemo(() => {
-    const combined = [];
-    
-    // Add historical data (using your new format keys)
-    if (activeHistorical && activeHistorical.length > 0) {
-      activeHistorical.forEach((item) => {
-        // Use 'instance_date' for the date and 'avg_meter_price' for the value
-        combined.push({
-          x: new Date(item.instance_date || item.ds), // Fallback to ds if needed
-          y: parseFloat(item.avg_meter_price || item.y || item.yhat), // Use new key
-          date: item.instance_date || item.ds,
-          name: item.name_en,
-          areaId: item.area_id,
-          type: 'historical'
-        });
-      });
-    }
-    
-    // Add forecast data (uses the 'ds' and 'yhat' from the mock/series)
-    activeSeries.forEach((item) => {
-      combined.push({
-        x: new Date(item.ds),
-        y: parseFloat(item.yhat),
-        date: item.ds,
-        name: item.name_en,
-        areaId: item.area_id,
-        type: 'forecast'
-      });
-    });
-    
-    return combined.sort((a, b) => a.x - b.x);
-  }, [activeSeries, activeHistorical]);
+  const allData = useMemo(() => {
+    const combined = [];
+    
+    // Add historical data
+    if (activeHistorical && activeHistorical.length > 0) {
+      activeHistorical.forEach((item) => {
+        combined.push({
+          x: new Date(item.instance_date || item.ds),
+          y: parseFloat(item.avg_meter_price || item.y || item.yhat),
+          date: item.instance_date || item.ds,
+          name: item.name_en,
+          areaId: item.area_id,
+          type: 'historical'
+        });
+      });
+    }
+    
+    // Add forecast data
+    activeSeries.forEach((item) => {
+      combined.push({
+        x: new Date(item.ds),
+        y: parseFloat(item.yhat),
+        date: item.ds,
+        name: item.name_en,
+        areaId: item.area_id,
+        type: 'forecast'
+      });
+    });
+    
+    return combined.sort((a, b) => a.x - b.x);
+  }, [activeSeries, activeHistorical]);
 
   // Get date range for initial values
   useEffect(() => {
@@ -84,14 +87,12 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
   const dataPoints = useMemo(() => {
     let filtered = allData;
     
-    // Filter by data type
     if (dataView === 'historical') {
       filtered = filtered.filter(d => d.type === 'historical');
     } else if (dataView === 'forecast') {
       filtered = filtered.filter(d => d.type === 'forecast');
     }
     
-    // Filter by custom date range
     if (customRange && startDate && endDate) {
       const start = new Date(startDate);
       const end = new Date(endDate);
@@ -104,38 +105,33 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
   // X-axis scale
   const dataExists = dataPoints.length > 0; 
   const xValues = dataPoints.map((p) => p.x.getTime());
-  const xMin = dataExists ? Math.min(...xValues) : 0; // Set a default if empty
-  const xMax = dataExists ? Math.max(...xValues) : 1; // Set a default if empty
+  const xMin = dataExists ? Math.min(...xValues) : 0;
+  const xMax = dataExists ? Math.max(...xValues) : 1;
 
   const xScale = (date) => {
-    if (!dataExists || xMax === xMin) return margin.left; // Handle empty or single-point data
-    return margin.left +
-    ((date.getTime() - xMin) / (xMax - xMin)) *
+    if (!dataExists || xMax === xMin) return margin.left;
+    const baseX = margin.left +
+      ((date.getTime() - xMin) / (xMax - xMin)) *
       (svgWidth - margin.left - margin.right);
+    return (baseX - svgWidth / 2) * zoom + svgWidth / 2 + panOffset.x;
   }
 
   // Y-axis scale
   const yValues = dataPoints.map((p) => p.y);
-  
-  // FIX: Define yMin and yMax BEFORE calculating buffer
   const yMin = dataExists ? Math.min(...yValues) : 0; 
   const yMax = dataExists ? Math.max(...yValues) : 1;
-  
-  // Calculate buffer using the now-defined yMin and yMax
-  // We use this value for the ticks calculation, not the scale itself, but it was causing a runtime error.
   const buffer = dataExists && yMax !== yMin ? (yMax - yMin) * 0.1 : (dataExists ? 1 : 0); 
   const yRange = yMax - yMin;
 
   const yScale = (value) => {
-    if (!dataExists || yRange === 0) return svgHeight - margin.bottom; // Handle empty or single-point data
-    return svgHeight -
-    margin.bottom -
-    ((value - yMin) / yRange) * (svgHeight - margin.top - margin.bottom);
+    if (!dataExists || yRange === 0) return svgHeight - margin.bottom;
+    const baseY = svgHeight -
+      margin.bottom -
+      ((value - yMin) / yRange) * (svgHeight - margin.top - margin.bottom);
+    return (baseY - svgHeight / 2) * zoom + svgHeight / 2 + panOffset.y;
   }
 
   // X-axis ticks
-  // X-axis ticks
-// X-axis ticks
   const ticksX = useMemo(() => {
     if (!dataExists) return [];
     
@@ -143,26 +139,23 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
     const end = new Date(xMax);
     const rangeInYears = (xMax - xMin) / (1000 * 60 * 60 * 24 * 365.25);
     
-    let intervalMonths = 6; // Default to 6 months
+    let intervalMonths = 6;
     
-    // Adjust interval based on range
     if (rangeInYears > 10) {
-        intervalMonths = 24; // Show every 2 years
+        intervalMonths = 24;
     } else if (rangeInYears > 5) {
-        intervalMonths = 12; // Show every year
+        intervalMonths = 12;
     } else if (rangeInYears > 2) {
-        intervalMonths = 6; // Show every 6 months
+        intervalMonths = 6;
     } else if (rangeInYears > 0.5) {
-        intervalMonths = 3; // Show every 3 months
+        intervalMonths = 3;
     }
     
     const ticks = [];
     let current = new Date(start);
-    // Align to the start of the interval (e.g., if interval is 1 year, start at Jan 1st of the start year)
     current.setMonth(0, 1);
     current.setHours(0, 0, 0, 0);
 
-    // Keep adding ticks until past the max date
     while (current.getTime() <= xMax) {
       if (current.getTime() >= xMin) {
         ticks.push(new Date(current));
@@ -170,11 +163,9 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
       current.setMonth(current.getMonth() + intervalMonths);
     }
 
-    // Ensure the last tick (xMax) is always included if it's far from the last generated tick
     if (ticks.length > 0 && (xMax - ticks[ticks.length - 1].getTime()) > (intervalMonths * 30 * 24 * 60 * 60 * 1000 * 0.5)) {
         ticks.push(end);
     } else if (ticks.length === 0 && dataExists) {
-        // Fallback for single data point
         ticks.push(start);
     }
     
@@ -195,15 +186,13 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
     )
     .join(" ");
 
-  // Trend line (simple linear regression)
+  // Trend line
   const trendLine = useMemo(() => {
-    // FIX: All slope/intercept calculation logic must be inside useMemo.
     if (dataPoints.length < 2) return null; 
 
     const n = dataPoints.length;
     let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
     
-    // Use timestamps for X values in the regression calculation
     const regressionPoints = dataPoints.map(p => ({
       x: p.x.getTime(),
       y: p.y
@@ -216,18 +205,14 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
       sumXX += regressionPoints[i].x * regressionPoints[i].x;
     }
     
-    // Calculate slope and intercept
     const slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
     const intercept = (sumY - slope * sumX) / n;
 
-    // Check for vertical line (where slope calculation denominator is zero)
     if (isFinite(slope) === false) return null; 
 
-    // Define the endpoints of the trend line using the min/max X values
     const y1 = slope * xMin + intercept;
     const y2 = slope * xMax + intercept;
     
-    // Guard against identical max/min values on the chart
     if (xMax === xMin || yMax === yMin) return null; 
 
     return {
@@ -236,7 +221,56 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
       x2: xScale(new Date(xMax)),
       y2: yScale(y2),
     };
-  }, [dataPoints, xMin, xMax, xScale, yScale, yMax, yMin]); // Added yMax/yMin to dependencies
+  }, [dataPoints, xMin, xMax, xScale, yScale, yMax, yMin]);
+
+  // Zoom and pan handlers
+  const handleZoomIn = () => {
+    setZoom(prev => Math.min(prev * 1.3, 10));
+  };
+
+  const handleZoomOut = () => {
+    setZoom(prev => Math.max(prev / 1.3, 1));
+  };
+
+  const handleResetView = () => {
+    setZoom(1);
+    setPanOffset({ x: 0, y: 0 });
+  };
+
+  const handleMouseDown = (e) => {
+    if (e.button !== 0) return;
+    setIsDragging(true);
+    setDragStart({ x: e.clientX - panOffset.x, y: e.clientY - panOffset.y });
+  };
+
+  const handleMouseMove = (e) => {
+    if (!isDragging) return;
+    setPanOffset({
+      x: e.clientX - dragStart.x,
+      y: e.clientY - dragStart.y
+    });
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  const handleWheel = (e) => {
+    e.preventDefault();
+    const delta = e.deltaY > 0 ? 0.9 : 1.1;
+    setZoom(prev => Math.min(Math.max(prev * delta, 1), 10));
+  };
+
+  useEffect(() => {
+    if (isDragging) {
+      window.addEventListener('mousemove', handleMouseMove);
+      window.addEventListener('mouseup', handleMouseUp);
+      return () => {
+        window.removeEventListener('mousemove', handleMouseMove);
+        window.removeEventListener('mouseup', handleMouseUp);
+      };
+    }
+  }, [isDragging, dragStart]);
 
   const handleMouseEnter = (e, p) => {
     const svgRect = e.currentTarget.ownerSVGElement.getBoundingClientRect();
@@ -282,7 +316,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                 <button
                   className={`px-3 py-1.5 text-sm ${
                     dataView === "all"
-                      ? "bg-blue-500 text-white"
+                      ? "bg-azure text-white"
                       : "bg-white hover:bg-gray-50"
                   }`}
                   onClick={() => setDataView("all")}
@@ -293,7 +327,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                   <button
                     className={`px-3 py-1.5 text-sm border-l border-gray-300 ${
                       dataView === "historical"
-                        ? "bg-blue-500 text-white"
+                        ? "bg-azure text-white"
                         : "bg-white hover:bg-gray-50"
                     }`}
                     onClick={() => setDataView("historical")}
@@ -304,7 +338,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                 <button
                   className={`px-3 py-1.5 text-sm border-l border-gray-300 ${
                     dataView === "forecast"
-                      ? "bg-blue-500 text-white"
+                      ? "bg-azure text-white"
                       : "bg-white hover:bg-gray-50"
                   }`}
                   onClick={() => setDataView("forecast")}
@@ -321,7 +355,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                 <button
                   className={`px-3 py-1.5 text-sm ${
                     chartType === "line"
-                      ? "bg-blue-500 text-white"
+                      ? "bg-azure text-white"
                       : "bg-white hover:bg-gray-50"
                   }`}
                   onClick={() => setChartType("line")}
@@ -331,7 +365,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                 <button
                   className={`px-3 py-1.5 text-sm border-l border-gray-300 ${
                     chartType === "scatter"
-                      ? "bg-blue-500 text-white"
+                      ? "bg-azure text-white"
                       : "bg-white hover:bg-gray-50"
                   }`}
                   onClick={() => setChartType("scatter")}
@@ -358,6 +392,35 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                 />
                 Show labels
               </label>
+
+              {/* Zoom Controls */}
+              <div className="flex items-center gap-1 ml-auto border-l pl-3 border-gray-300">
+                <button
+                  onClick={handleZoomIn}
+                  className="p-1.5 rounded hover:bg-gray-100"
+                  title="Zoom In"
+                >
+                  <ZoomIn className="w-4 h-4" />
+                </button>
+                <button
+                  onClick={handleZoomOut}
+                  className="p-1.5 rounded hover:bg-gray-100"
+                  title="Zoom Out"
+                  disabled={zoom <= 1}
+                >
+                  <ZoomOut className="w-4 h-4" />
+                </button>
+                <button
+                  onClick={handleResetView}
+                  className="p-1.5 rounded hover:bg-gray-100"
+                  title="Reset View"
+                >
+                  <Maximize2 className="w-4 h-4" />
+                </button>
+                <span className="text-xs text-gray-500 ml-1">
+                  {(zoom * 100).toFixed(0)}%
+                </span>
+              </div>
             </div>
 
             {/* Custom Date Range */}
@@ -412,10 +475,24 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
           <div className="relative w-full">
             <div className="relative h-0 w-full pt-[47.3%]"> 
               <svg 
+                ref={svgRef}
                 viewBox={`0 0 ${svgWidth} ${svgHeight}`} 
                 preserveAspectRatio="xMidYMid meet" 
-                className="absolute top-0 left-0 w-full h-full"
+                className={`absolute top-0 left-0 w-full h-full ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
+                onMouseDown={handleMouseDown}
+                onWheel={handleWheel}
               >
+                <defs>
+                  <clipPath id="chart-area-clip">
+                    <rect
+                      x={margin.left}
+                      y={margin.top}
+                      width={svgWidth - margin.left - margin.right}
+                      height={svgHeight - margin.top - margin.bottom}
+                    />
+                  </clipPath>
+                </defs>
+
                 {/* X-axis */}
                 <line
                   x1={margin.left}
@@ -432,7 +509,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                       x2={xScale(t)}
                       y2={margin.top}
                       stroke="#eee"
-                      strokeDasharray="2,2" // Added dash for grid lines
+                      strokeDasharray="2,2"
                     />
                     <text
                       x={xScale(t)}
@@ -465,7 +542,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                       x2={svgWidth - margin.right}
                       y2={yScale(t)}
                       stroke="#eee"
-                      strokeDasharray="2,2" // Added dash for grid lines
+                      strokeDasharray="2,2"
                     />
                     <text
                       x={margin.left - 10}
@@ -479,55 +556,53 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                   </g>
                 ))}
 
-                {/* Line chart */}
-                {chartType === "line" && (
-                  <path
-                    d={pathD}
-                    fill="none"
-                    stroke="#10b981"
-                    strokeWidth="2"
-                  />
-                )}
-
                 {/* Scatter points */}
-                {dataPoints.map((p, i) => (
-                  <g key={i}>
-                    {(chartType === "scatter" || chartType === "line") && (
-                      <circle
-                        cx={xScale(p.x)}
-                        cy={yScale(p.y)}
-                        r="4"
-                        fill={p.type === 'historical' ? "#2d7fa8" : "#10b981"}
-                        className="cursor-pointer"
-                        onMouseEnter={(e) => handleMouseEnter(e, p)}
-                        onMouseLeave={() => setTooltip(null)}
+               <g clipPath="url(#chart-area-clip)">
+                    {/* Line chart */}
+                    {chartType === "line" && (
+                      <path d={pathD} fill="none" stroke="#10b981" strokeWidth="2" />
+                    )}
+
+                    {/* Scatter points */}
+                    {dataPoints.map((p, i) => (
+                      <g key={i}>
+                        {(chartType === "scatter" || chartType === "line") && (
+                          <circle
+                            cx={xScale(p.x)}
+                            cy={yScale(p.y)}
+                            r="4"
+                            fill={p.type === "historical" ? "#2d7fa8" : "#10b981"}
+                            className="cursor-pointer"
+                            onMouseEnter={(e) => handleMouseEnter(e, p)}
+                            onMouseLeave={() => setTooltip(null)}
+                          />
+                        )}
+                        {showLabels && (
+                          <text
+                            x={xScale(p.x) + 5}
+                            y={yScale(p.y) - 5}
+                            fontSize="10"
+                            fill="#111"
+                          >
+                            {p.y.toFixed(1)}
+                          </text>
+                        )}
+                      </g>
+                    ))}
+
+                    {/* Trend line */}
+                    {showTrend && trendLine && (
+                      <line
+                        x1={trendLine.x1}
+                        y1={trendLine.y1}
+                        x2={trendLine.x2}
+                        y2={trendLine.y2}
+                        stroke="#FF7E2A"
+                        strokeWidth="1.5"
+                        strokeDasharray="4,2"
                       />
                     )}
-                    {showLabels && (
-                      <text
-                        x={xScale(p.x) + 5}
-                        y={yScale(p.y) - 5}
-                        fontSize="10"
-                        fill="#111"
-                      >
-                        {p.y.toFixed(1)}
-                      </text>
-                    )}
                   </g>
-                ))}
-
-                {/* Trend line */}
-                {showTrend && trendLine && (
-                  <line
-                    x1={trendLine.x1}
-                    y1={trendLine.y1}
-                    x2={trendLine.x2}
-                    y2={trendLine.y2}
-                    stroke="#FF7E2A"
-                    strokeWidth="1.5"
-                    strokeDasharray="4,2"
-                  />
-                )}
               </svg>
             </div>
             
