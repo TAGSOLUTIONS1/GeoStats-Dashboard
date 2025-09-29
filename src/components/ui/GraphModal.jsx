@@ -25,7 +25,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
   const [customRange, setCustomRange] = useState(false);
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
-
+  console.log("Past Series:", pastSeries);
   const svgWidth = 760;
   const svgHeight = 360;
   const margin = { top: 10, right: 10, bottom: 30, left: 40 };
@@ -34,37 +34,39 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
   const activeHistorical = pastSeries.length > 0 ? pastSeries : mockHistoricalData;
   
   // Combine historical and forecast data
-  const allData = useMemo(() => {
-    const combined = [];
-    
-    // Add historical data
-    if (activeHistorical && activeHistorical.length > 0) {
-      activeHistorical.forEach((item) => {
-        combined.push({
-          x: new Date(item.ds),
-          y: parseFloat(item.y || item.yhat),
-          date: item.ds,
-          name: item.name_en,
-          areaId: item.area_id,
-          type: 'historical'
-        });
-      });
-    }
-    
-    // Add forecast data
-    activeSeries.forEach((item) => {
-      combined.push({
-        x: new Date(item.ds),
-        y: parseFloat(item.yhat),
-        date: item.ds,
-        name: item.name_en,
-        areaId: item.area_id,
-        type: 'forecast'
-      });
-    });
-    
-    return combined.sort((a, b) => a.x - b.x);
-  }, [activeSeries, activeHistorical]);
+  // Combine historical and forecast data
+  const allData = useMemo(() => {
+    const combined = [];
+    
+    // Add historical data (using your new format keys)
+    if (activeHistorical && activeHistorical.length > 0) {
+      activeHistorical.forEach((item) => {
+        // Use 'instance_date' for the date and 'avg_meter_price' for the value
+        combined.push({
+          x: new Date(item.instance_date || item.ds), // Fallback to ds if needed
+          y: parseFloat(item.avg_meter_price || item.y || item.yhat), // Use new key
+          date: item.instance_date || item.ds,
+          name: item.name_en,
+          areaId: item.area_id,
+          type: 'historical'
+        });
+      });
+    }
+    
+    // Add forecast data (uses the 'ds' and 'yhat' from the mock/series)
+    activeSeries.forEach((item) => {
+      combined.push({
+        x: new Date(item.ds),
+        y: parseFloat(item.yhat),
+        date: item.ds,
+        name: item.name_en,
+        areaId: item.area_id,
+        type: 'forecast'
+      });
+    });
+    
+    return combined.sort((a, b) => a.x - b.x);
+  }, [activeSeries, activeHistorical]);
 
   // Get date range for initial values
   useEffect(() => {
@@ -100,38 +102,84 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
   }, [allData, dataView, customRange, startDate, endDate]);
     
   // X-axis scale
+  const dataExists = dataPoints.length > 0; 
   const xValues = dataPoints.map((p) => p.x.getTime());
-  const xMin = Math.min(...xValues);
-  const xMax = Math.max(...xValues);
+  const xMin = dataExists ? Math.min(...xValues) : 0; // Set a default if empty
+  const xMax = dataExists ? Math.max(...xValues) : 1; // Set a default if empty
 
-  const xScale = (date) =>
-    margin.left +
+  const xScale = (date) => {
+    if (!dataExists || xMax === xMin) return margin.left; // Handle empty or single-point data
+    return margin.left +
     ((date.getTime() - xMin) / (xMax - xMin)) *
       (svgWidth - margin.left - margin.right);
+  }
 
   // Y-axis scale
   const yValues = dataPoints.map((p) => p.y);
-  const yMin = Math.min(...yValues);
-  const yMax = Math.max(...yValues);
+  
+  // FIX: Define yMin and yMax BEFORE calculating buffer
+  const yMin = dataExists ? Math.min(...yValues) : 0; 
+  const yMax = dataExists ? Math.max(...yValues) : 1;
+  
+  // Calculate buffer using the now-defined yMin and yMax
+  // We use this value for the ticks calculation, not the scale itself, but it was causing a runtime error.
+  const buffer = dataExists && yMax !== yMin ? (yMax - yMin) * 0.1 : (dataExists ? 1 : 0); 
+  const yRange = yMax - yMin;
 
-  const yScale = (value) =>
-    svgHeight -
+  const yScale = (value) => {
+    if (!dataExists || yRange === 0) return svgHeight - margin.bottom; // Handle empty or single-point data
+    return svgHeight -
     margin.bottom -
-    ((value - yMin) / (yMax - yMin)) *
-      (svgHeight - margin.top - margin.bottom);
+    ((value - yMin) / yRange) * (svgHeight - margin.top - margin.bottom);
+  }
 
   // X-axis ticks
+  // X-axis ticks
+// X-axis ticks
   const ticksX = useMemo(() => {
-    const ticks = [];
+    if (!dataExists) return [];
+    
     const start = new Date(xMin);
     const end = new Date(xMax);
-    let current = new Date(start);
-    while (current <= end) {
-      ticks.push(new Date(current));
-      current.setMonth(current.getMonth() + 6);
+    const rangeInYears = (xMax - xMin) / (1000 * 60 * 60 * 24 * 365.25);
+    
+    let intervalMonths = 6; // Default to 6 months
+    
+    // Adjust interval based on range
+    if (rangeInYears > 10) {
+        intervalMonths = 24; // Show every 2 years
+    } else if (rangeInYears > 5) {
+        intervalMonths = 12; // Show every year
+    } else if (rangeInYears > 2) {
+        intervalMonths = 6; // Show every 6 months
+    } else if (rangeInYears > 0.5) {
+        intervalMonths = 3; // Show every 3 months
     }
+    
+    const ticks = [];
+    let current = new Date(start);
+    // Align to the start of the interval (e.g., if interval is 1 year, start at Jan 1st of the start year)
+    current.setMonth(0, 1);
+    current.setHours(0, 0, 0, 0);
+
+    // Keep adding ticks until past the max date
+    while (current.getTime() <= xMax) {
+      if (current.getTime() >= xMin) {
+        ticks.push(new Date(current));
+      }
+      current.setMonth(current.getMonth() + intervalMonths);
+    }
+
+    // Ensure the last tick (xMax) is always included if it's far from the last generated tick
+    if (ticks.length > 0 && (xMax - ticks[ticks.length - 1].getTime()) > (intervalMonths * 30 * 24 * 60 * 60 * 1000 * 0.5)) {
+        ticks.push(end);
+    } else if (ticks.length === 0 && dataExists) {
+        // Fallback for single data point
+        ticks.push(start);
+    }
+    
     return ticks;
-  }, [xMin, xMax]);
+  }, [xMin, xMax, dataExists]);
 
   // Y-axis ticks
   const ticksY = useMemo(() => {
@@ -149,26 +197,38 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
 
   // Trend line (simple linear regression)
   const trendLine = useMemo(() => {
-    if (dataPoints.length < 2) return null;
+    // FIX: All slope/intercept calculation logic must be inside useMemo.
+    if (dataPoints.length < 2) return null; 
 
     const n = dataPoints.length;
-    const xs = dataPoints.map((p) => p.x.getTime());
-    const ys = dataPoints.map((p) => p.y);
+    let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
+    
+    // Use timestamps for X values in the regression calculation
+    const regressionPoints = dataPoints.map(p => ({
+      x: p.x.getTime(),
+      y: p.y
+    }));
 
-    const meanX = xs.reduce((a, b) => a + b, 0) / n;
-    const meanY = ys.reduce((a, b) => a + b, 0) / n;
-
-    let num = 0,
-      den = 0;
     for (let i = 0; i < n; i++) {
-      num += (xs[i] - meanX) * (ys[i] - meanY);
-      den += (xs[i] - meanX) ** 2;
+      sumX += regressionPoints[i].x;
+      sumY += regressionPoints[i].y;
+      sumXY += regressionPoints[i].x * regressionPoints[i].y;
+      sumXX += regressionPoints[i].x * regressionPoints[i].x;
     }
-    const slope = num / den;
-    const intercept = meanY - slope * meanX;
+    
+    // Calculate slope and intercept
+    const slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+    const intercept = (sumY - slope * sumX) / n;
 
+    // Check for vertical line (where slope calculation denominator is zero)
+    if (isFinite(slope) === false) return null; 
+
+    // Define the endpoints of the trend line using the min/max X values
     const y1 = slope * xMin + intercept;
     const y2 = slope * xMax + intercept;
+    
+    // Guard against identical max/min values on the chart
+    if (xMax === xMin || yMax === yMin) return null; 
 
     return {
       x1: xScale(new Date(xMin)),
@@ -176,7 +236,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
       x2: xScale(new Date(xMax)),
       y2: yScale(y2),
     };
-  }, [dataPoints, xMin, xMax, xScale, yScale]);
+  }, [dataPoints, xMin, xMax, xScale, yScale, yMax, yMin]); // Added yMax/yMin to dependencies
 
   const handleMouseEnter = (e, p) => {
     const svgRect = e.currentTarget.ownerSVGElement.getBoundingClientRect();
@@ -372,6 +432,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                       x2={xScale(t)}
                       y2={margin.top}
                       stroke="#eee"
+                      strokeDasharray="2,2" // Added dash for grid lines
                     />
                     <text
                       x={xScale(t)}
@@ -404,6 +465,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                       x2={svgWidth - margin.right}
                       y2={yScale(t)}
                       stroke="#eee"
+                      strokeDasharray="2,2" // Added dash for grid lines
                     />
                     <text
                       x={margin.left - 10}
@@ -497,7 +559,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
             {dataView === "all" && activeHistorical.length > 0 && (
               <div className="flex items-center justify-center gap-4 mt-4 text-xs">
                 <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-blue-light"></div>
+                  <div className="w-3 h-3 rounded-full bg-blue-500"></div>
                   <span>Historical Data</span>
                 </div>
                 <div className="flex items-center gap-2">
