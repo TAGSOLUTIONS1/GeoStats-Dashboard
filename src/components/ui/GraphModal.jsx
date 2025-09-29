@@ -1,6 +1,6 @@
 import React, { useMemo, useState, useEffect, useRef } from "react";
 import { X, Calendar, ZoomIn, ZoomOut, Maximize2 } from "lucide-react";
-
+import { motion } from "framer-motion";
 // Mock data for demo
 const mockForecastData = Array.from({ length: 24 }, (_, i) => ({
   ds: new Date(2024, i, 1).toISOString(),
@@ -289,8 +289,15 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
   };
 
   return isOpen ? (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-5xl max-h-[90vh] flex flex-col">
+     <motion.div
+      initial={{ opacity: 0, y: "100%" }}
+      animate={
+        isOpen ? { opacity: 1, y: "0%" } : { opacity: 1, y: "100%" }
+      }
+      transition={{ duration: 0.5, ease: "easeInOut" }}
+      className="fixed max-w-[96vw] max-h-[90vh] overflow-y-auto bottom-0 right-2 xl:right-[5%] 2xl:right-[15%] flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
+    >
+      <div className="w-full sm:w-[880px] max-w-[95vw]  max-h-[90vh]">
         <div className="flex-shrink-0 flex items-center justify-between px-6 py-4 border-b">
           <div>
             <h2 className="text-lg font-semibold text-gray-900">
@@ -648,7 +655,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
         )}
         </div>
       </div>
-    </div>
+    </motion.div>
   ) : null;
 };
 
