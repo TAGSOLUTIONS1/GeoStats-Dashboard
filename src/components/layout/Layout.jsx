@@ -151,6 +151,7 @@ const Layout = ({ children }) => {
   };
 
   const [series, setSeries] = useState([]);
+  const [pastSeries, setPastSeries] = useState([]);
 
   console.log("graph place is " , graphPlace);
   useEffect(() => {
@@ -181,6 +182,18 @@ const Layout = ({ children }) => {
       .catch((err) =>
         console.error("Error loading forecast for area:", areaId, err),
         setSeries([]),
+      );
+
+    //past series
+     import(
+      `../../data/average_meter_price/historical_data/avg_meter_price_${areaId}_2010onwards.json`
+    )
+      .then((module) => {
+        setPastSeries(module.default);
+      })
+      .catch((err) =>
+        console.error("Error loading historical data for area:", areaId, err),
+        setPastSeries([]),
       );
   }, [graphPlace]);
 
@@ -430,13 +443,14 @@ const Layout = ({ children }) => {
         isOpen={isGraphOpen}
         onClose={() => setIsGraphOpen(false)}
         placeName={graphPlace}
+        pastSeries={pastSeries}
         series={series}
       />
 
        <ExploreDataPointsModal
-                isOpen={isExploreModalOpen}
-                onClose={() => setIsExploreModalOpen(false)}
-            />
+          isOpen={isExploreModalOpen}
+          onClose={() => setIsExploreModalOpen(false)}
+      />
     </div>
   );
 }

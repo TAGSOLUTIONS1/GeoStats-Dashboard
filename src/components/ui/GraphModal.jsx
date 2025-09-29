@@ -1,30 +1,103 @@
-import React, { useMemo, useState } from "react";
-import { X } from "lucide-react";
-import { motion } from "framer-motion";
-import dummyData from "../../data/average_meter_price/forecasts/lgbm/forecast_area_464_2010onwards.json";
+import React, { useMemo, useState, useEffect } from "react";
+import { X, Calendar } from "lucide-react";
 
-const GraphModal = ({ isOpen, onClose, series, placeName }) => {
+// Mock data for demo
+const mockForecastData = Array.from({ length: 24 }, (_, i) => ({
+  ds: new Date(2024, i, 1).toISOString(),
+  yhat: 45 + Math.random() * 10 + i * 0.5,
+  name_en: "Demo Area",
+  area_id: "464"
+}));
+
+const mockHistoricalData = Array.from({ length: 36 }, (_, i) => ({
+  ds: new Date(2021, i, 1).toISOString(),
+  y: 40 + Math.random() * 8 + i * 0.3,
+  name_en: "Demo Area",
+  area_id: "464"
+}));
+
+const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName = "Demo Location", pastSeries = [] }) => {
   const [tooltip, setTooltip] = useState(null);
-  const [chartType, setChartType] = useState("line"); // 'line' or 'scatter'
+  const [chartType, setChartType] = useState("line");
   const [showTrend, setShowTrend] = useState(true);
   const [showLabels, setShowLabels] = useState(false);
+  const [dataView, setDataView] = useState("all");
+  const [customRange, setCustomRange] = useState(false);
+  const [startDate, setStartDate] = useState("");
+  const [endDate, setEndDate] = useState("");
 
-  // Use fixed SVG dimensions for viewBox, but let CSS handle actual size
   const svgWidth = 760;
   const svgHeight = 360;
   const margin = { top: 10, right: 10, bottom: 30, left: 40 };
 
-  const activeSeries = series.length > 0 ? series : dummyData;
+  const activeSeries = series.length > 0 ? series : mockForecastData;
+  const activeHistorical = pastSeries.length > 0 ? pastSeries : mockHistoricalData;
+  
+  // Combine historical and forecast data
+  const allData = useMemo(() => {
+    const combined = [];
+    
+    // Add historical data
+    if (activeHistorical && activeHistorical.length > 0) {
+      activeHistorical.forEach((item) => {
+        combined.push({
+          x: new Date(item.ds),
+          y: parseFloat(item.y || item.yhat),
+          date: item.ds,
+          name: item.name_en,
+          areaId: item.area_id,
+          type: 'historical'
+        });
+      });
+    }
+    
+    // Add forecast data
+    activeSeries.forEach((item) => {
+      combined.push({
+        x: new Date(item.ds),
+        y: parseFloat(item.yhat),
+        date: item.ds,
+        name: item.name_en,
+        areaId: item.area_id,
+        type: 'forecast'
+      });
+    });
+    
+    return combined.sort((a, b) => a.x - b.x);
+  }, [activeSeries, activeHistorical]);
 
+  // Get date range for initial values
+  useEffect(() => {
+    if (allData.length > 0) {
+      const dates = allData.map(d => d.x);
+      const min = new Date(Math.min(...dates));
+      const max = new Date(Math.max(...dates));
+      
+      if (!startDate) setStartDate(min.toISOString().split('T')[0]);
+      if (!endDate) setEndDate(max.toISOString().split('T')[0]);
+    }
+  }, [allData, startDate, endDate]);
+
+  // Filter data based on view and custom range
   const dataPoints = useMemo(() => {
-    return activeSeries.map((item) => ({
-      x: new Date(item.ds),
-      y: parseFloat(item.yhat),
-      date: item.ds,
-      name: item.name_en,
-      areaId: item.area_id,
-    }));
-  }, [activeSeries]);
+    let filtered = allData;
+    
+    // Filter by data type
+    if (dataView === 'historical') {
+      filtered = filtered.filter(d => d.type === 'historical');
+    } else if (dataView === 'forecast') {
+      filtered = filtered.filter(d => d.type === 'forecast');
+    }
+    
+    // Filter by custom date range
+    if (customRange && startDate && endDate) {
+      const start = new Date(startDate);
+      const end = new Date(endDate);
+      filtered = filtered.filter(d => d.x >= start && d.x <= end);
+    }
+    
+    return filtered;
+  }, [allData, dataView, customRange, startDate, endDate]);
     
   // X-axis scale
   const xValues = dataPoints.map((p) => p.x.getTime());
@@ -105,21 +178,12 @@ const GraphModal = ({ isOpen, onClose, series, placeName }) => {
     };
   }, [dataPoints, xMin, xMax, xScale, yScale]);
 
-
-  // --- Helper to get SVG Bounding Box for Tooltip Positioning ---
   const handleMouseEnter = (e, p) => {
-    // Get the SVG element's position on the screen
     const svgRect = e.currentTarget.ownerSVGElement.getBoundingClientRect();
-    
-    // Get the chart coordinate (already in the original 760x360 scale)
     const chartX = xScale(p.x);
     const chartY = yScale(p.y);
-
-    // Calculate the percentage of the current point relative to the SVG viewbox
     const percentX = chartX / svgWidth;
     const percentY = chartY / svgHeight;
-
-    // Map the chart coordinate to the actual screen position
     const screenX = svgRect.left + (svgRect.width * percentX);
     const screenY = svgRect.top + (svgRect.height * percentY);
 
@@ -130,17 +194,9 @@ const GraphModal = ({ isOpen, onClose, series, placeName }) => {
     });
   };
 
-
   return isOpen ? (
-    <motion.div
-      initial={{ opacity: 0, y: "100%" }}
-      animate={
-        isOpen ? { opacity: 1, y: "0%" } : { opacity: 1, y: "100%" }
-      }
-      transition={{ duration: 0.5, ease: "easeInOut" }}
-      className="fixed max-w-[96vw] h-[75%] sm:h-[83%] bottom-0 right-2  md:right-[5%] flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
-    >
-      <div className="w-full sm:w-[880px] max-w-[95vw] overflow-auto">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-5xl max-h-[90vh] flex flex-col">
         <div className="flex-shrink-0 flex items-center justify-between px-6 py-4 border-b">
           <div>
             <h2 className="text-lg font-semibold text-gray-900">
@@ -158,58 +214,142 @@ const GraphModal = ({ isOpen, onClose, series, placeName }) => {
 
         <div className="flex-1 px-6 py-5 overflow-y-auto">
           {/* Controls */}
-          <div className="flex items-center flex-wrap gap-3 mb-4 flex-shrink-0">
-            {/* ... (Chart control buttons remain the same) ... */}
-            <div className="inline-flex rounded-md border border-gray-300 overflow-hidden">
-              <button
-                className={`px-3 py-1 text-sm ${
-                  chartType === "line"
-                    ? "bg-azure text-white"
-                    : "bg-white"
-                } `}
-                onClick={() => setChartType("line")}
-              >
-                Line
-              </button>
-              <button
-                className={`px-3 py-1 text-sm ${
-                  chartType === "scatter"
-                    ? "bg-azure text-white"
-                    : "bg-white"
-                } `}
-                onClick={() => setChartType("scatter")}
-              >
-                Scatter
-              </button>
+          <div className="flex flex-col gap-3 mb-4 flex-shrink-0">
+            {/* Data View Selection */}
+            <div className="flex items-center flex-wrap gap-2">
+              <span className="text-sm font-medium text-gray-700 mr-1">View:</span>
+              <div className="inline-flex rounded-md border border-gray-300 overflow-hidden">
+                <button
+                  className={`px-3 py-1.5 text-sm ${
+                    dataView === "all"
+                      ? "bg-blue-500 text-white"
+                      : "bg-white hover:bg-gray-50"
+                  }`}
+                  onClick={() => setDataView("all")}
+                >
+                  All Data
+                </button>
+                {activeHistorical.length > 0 && (
+                  <button
+                    className={`px-3 py-1.5 text-sm border-l border-gray-300 ${
+                      dataView === "historical"
+                        ? "bg-blue-500 text-white"
+                        : "bg-white hover:bg-gray-50"
+                    }`}
+                    onClick={() => setDataView("historical")}
+                  >
+                    Historical
+                  </button>
+                )}
+                <button
+                  className={`px-3 py-1.5 text-sm border-l border-gray-300 ${
+                    dataView === "forecast"
+                      ? "bg-blue-500 text-white"
+                      : "bg-white hover:bg-gray-50"
+                  }`}
+                  onClick={() => setDataView("forecast")}
+                >
+                  Forecast
+                </button>
+              </div>
             </div>
 
-            <label className="flex items-center gap-2 text-sm">
-              <input
-                type="checkbox"
-                checked={showTrend}
-                onChange={(e) => setShowTrend(e.target.checked)}
-              />
-              Trend line
-            </label>
-            <label className="flex items-center gap-2 text-sm">
-              <input
-                type="checkbox"
-                checked={showLabels}
-                onChange={(e) => setShowLabels(e.target.checked)}
-              />
-              Show labels
-            </label>
+            {/* Chart Type and Options */}
+            <div className="flex items-center flex-wrap gap-3">
+              <span className="text-sm font-medium text-gray-700 mr-1">Chart:</span>
+              <div className="inline-flex rounded-md border border-gray-300 overflow-hidden">
+                <button
+                  className={`px-3 py-1.5 text-sm ${
+                    chartType === "line"
+                      ? "bg-blue-500 text-white"
+                      : "bg-white hover:bg-gray-50"
+                  }`}
+                  onClick={() => setChartType("line")}
+                >
+                  Line
+                </button>
+                <button
+                  className={`px-3 py-1.5 text-sm border-l border-gray-300 ${
+                    chartType === "scatter"
+                      ? "bg-blue-500 text-white"
+                      : "bg-white hover:bg-gray-50"
+                  }`}
+                  onClick={() => setChartType("scatter")}
+                >
+                  Scatter
+                </button>
+              </div>
+
+              <label className="flex items-center gap-2 text-sm cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={showTrend}
+                  onChange={(e) => setShowTrend(e.target.checked)}
+                  className="cursor-pointer"
+                />
+                Trend line
+              </label>
+              <label className="flex items-center gap-2 text-sm cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={showLabels}
+                  onChange={(e) => setShowLabels(e.target.checked)}
+                  className="cursor-pointer"
+                />
+                Show labels
+              </label>
+            </div>
+
+            {/* Custom Date Range */}
+            <div className="flex items-center flex-wrap gap-3 pt-2 border-t border-gray-200">
+              <label className="flex items-center gap-2 text-sm cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={customRange}
+                  onChange={(e) => setCustomRange(e.target.checked)}
+                  className="cursor-pointer"
+                />
+                <Calendar className="w-4 h-4" />
+                Custom Range
+              </label>
+              
+              {customRange && (
+                <div className="flex items-center gap-2 flex-wrap">
+                  <input
+                    type="date"
+                    value={startDate}
+                    onChange={(e) => setStartDate(e.target.value)}
+                    className="px-2 py-1 text-sm border border-gray-300 rounded"
+                  />
+                  <span className="text-sm text-gray-500">to</span>
+                  <input
+                    type="date"
+                    value={endDate}
+                    onChange={(e) => setEndDate(e.target.value)}
+                    className="px-2 py-1 text-sm border border-gray-300 rounded"
+                  />
+                </div>
+              )}
+            </div>
+
+            {/* Data Summary */}
+            <div className="text-xs text-gray-500 pt-1">
+              Showing {dataPoints.length} data points
+              {dataView === "all" && activeHistorical.length > 0 && (
+                <span className="ml-2">
+                  ({allData.filter(d => d.type === 'historical').length} historical, {allData.filter(d => d.type === 'forecast').length} forecast)
+                </span>
+              )}
+            </div>
           </div>
 
           {/* SVG Chart */}
-          {activeSeries.length === 0 ? (
+          {dataPoints.length === 0 ? (
           <div className="flex items-center justify-center h-60 text-gray-500 text-sm">
-            No forecast data available
+            No data available for selected range
           </div>
         ) : (
           <div className="relative w-full">
-            {/* SVG Wrapper with Responsive Aspect Ratio */}
-            {/* The 'pb-[47.3%]' gives an aspect ratio of 760/360 ≈ 2.11, so 1 / 2.11 * 100% ≈ 47.3% */}
             <div className="relative h-0 w-full pt-[47.3%]"> 
               <svg 
                 viewBox={`0 0 ${svgWidth} ${svgHeight}`} 
@@ -295,9 +435,9 @@ const GraphModal = ({ isOpen, onClose, series, placeName }) => {
                         cx={xScale(p.x)}
                         cy={yScale(p.y)}
                         r="4"
-                        fill="#10b981"
+                        fill={p.type === 'historical' ? "#3b82f6" : "#10b981"}
                         className="cursor-pointer"
-                        onMouseEnter={(e) => handleMouseEnter(e, p)} // Use updated handler
+                        onMouseEnter={(e) => handleMouseEnter(e, p)}
                         onMouseLeave={() => setTooltip(null)}
                       />
                     )}
@@ -332,23 +472,45 @@ const GraphModal = ({ isOpen, onClose, series, placeName }) => {
             {/* Tooltip */}
             {tooltip && (
               <div
-                className="fixed bg-gray-800 text-white text-xs px-2 py-1 rounded pointer-events-none"
+                className="fixed bg-gray-800 text-white text-xs px-3 py-2 rounded shadow-lg pointer-events-none z-50"
                 style={{
-                  // Position the tooltip relative to the screen using state
-                  top: tooltip.y - 40,
+                  top: tooltip.y - 50,
                   left: tooltip.x,
-                  transform: 'translateX(-50%)' // Center the tooltip over the point
+                  transform: 'translateX(-50%)'
                 }}
               >
-                <div>{new Date(tooltip.value.date).toLocaleDateString()}</div>
-                <div>Value: {tooltip.value.y.toFixed(2)}</div>
+                <div className="font-medium mb-1">
+                  {new Date(tooltip.value.date).toLocaleDateString('en-US', {
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric'
+                  })}
+                </div>
+                <div>Value: <span className="font-semibold">{tooltip.value.y.toFixed(2)}</span></div>
+                <div className="mt-1 text-[10px] opacity-75 capitalize">
+                  {tooltip.value.type}
+                </div>
+              </div>
+            )}
+            
+            {/* Legend */}
+            {dataView === "all" && activeHistorical.length > 0 && (
+              <div className="flex items-center justify-center gap-4 mt-4 text-xs">
+                <div className="flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full bg-blue-light"></div>
+                  <span>Historical Data</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                  <span>Forecast Data</span>
+                </div>
               </div>
             )}
           </div>
         )}
         </div>
       </div>
-    </motion.div>
+    </div>
   ) : null;
 };
 
