@@ -480,7 +480,8 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                 preserveAspectRatio="xMidYMid meet" 
                 className={`absolute top-0 left-0 w-full h-full ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
                 onMouseDown={handleMouseDown}
-                onWheel={handleWheel}
+                // onWheel={handleWheel}
+                onWheel={(e) => e.preventDefault()}
               >
                 <defs>
                   <clipPath id="chart-area-clip">
