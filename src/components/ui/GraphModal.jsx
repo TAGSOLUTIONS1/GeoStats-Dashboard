@@ -497,7 +497,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                         cx={xScale(p.x)}
                         cy={yScale(p.y)}
                         r="4"
-                        fill={p.type === 'historical' ? "#3b82f6" : "#10b981"}
+                        fill={p.type === 'historical' ? "#2d7fa8" : "#10b981"}
                         className="cursor-pointer"
                         onMouseEnter={(e) => handleMouseEnter(e, p)}
                         onMouseLeave={() => setTooltip(null)}
@@ -559,7 +559,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
             {dataView === "all" && activeHistorical.length > 0 && (
               <div className="flex items-center justify-center gap-4 mt-4 text-xs">
                 <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-blue-500"></div>
+                  <div className="w-3 h-3 rounded-full bg-[#2d7fa8]"></div>
                   <span>Historical Data</span>
                 </div>
                 <div className="flex items-center gap-2">
