@@ -3,7 +3,7 @@ import { X, Copy, Check } from 'lucide-react';
 
 const ShareModal = ({ isOpen, onClose }) => {
   const [copied, setCopied] = useState(false);
-  const [shareUrl, setShareUrl] = useState('https://map.reventure.app/dashboard?geo=zij');
+  const [shareUrl, setShareUrl] = useState('https://www.geostats.ai');
 
   useEffect(() => {
     if (isOpen) {
