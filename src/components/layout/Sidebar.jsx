@@ -8,11 +8,26 @@ import DetailPanel from './DetailPanel';
 import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
 
 const Sidebar = () => {
-  const [activeItem, setActiveItem] = useState('demographics');
-  const [selectedDataPoint, setSelectedDataPoint] = useState(null);
-  const [hoveredItem, setHoveredItem] = useState(null);
-  const [hoveredcrown, setHoveredcrown] = useState(null);
-  const [searchQuery, setSearchQuery] = useState('');
+  
+  const [isExploreModalOpen, setIsExploreModalOpen] = useState(false);
+  
+  const {
+    activeItem,
+    hoveredItem,
+    hoveredcrown,
+    selectedDetailItem,
+    detailPanelPosition,
+    selectedDataPoint,
+    searchQuery,
+    setActiveItem,
+    setHoveredItem,
+    setHoveredcrown,
+    handleItemClick,
+    setSearchQuery,
+    handleSubItemClick,
+    handleCloseDetail,
+  } = useSidebar();
+
   const [filteredSections, setFilteredSections] = useState(dataSections);
 
   // Filter data points based on search query
@@ -41,16 +56,6 @@ const Sidebar = () => {
       setActiveItem(filtered[0].id);
     }
   }, [searchQuery]);
-
-  const handleItemClick = (itemOrId) => {
-    if (typeof itemOrId === 'string') {
-      setActiveItem(activeItem === itemOrId ? null : itemOrId);
-    } else {
-      if (!itemOrId.isPremium) {
-        setSelectedDataPoint(itemOrId.id);
-      }
-    }
-  };
 
   const handleInfoClick = (item, position) => {
     console.log('Info clicked for:', item);
