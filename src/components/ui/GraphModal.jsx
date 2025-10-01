@@ -920,12 +920,12 @@ const handleChartMouseLeave = () => {
                     <div className="w-3 h-3 rounded-full bg-green-500 ring-2 ring-green-200"></div>
                     <span className="font-medium text-gray-700">Forecast Data</span>
                   </div>
-                  {timePeriod !== "all" && (
+                  {/* {timePeriod !== "all" && (
                     <div className="flex items-center gap-2">
                       <div className="w-3 h-3 rounded-full bg-purple-500 ring-2 ring-purple-200"></div>
                       <span className="font-medium text-gray-700">Mixed Period</span>
                     </div>
-                  )}
+                  )} */}
                 </div>
               )}
             </div>
