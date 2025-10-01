@@ -164,7 +164,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
     return (baseX - svgWidth / 2) * zoom + svgWidth / 2 + panOffset.x;
   }
 
-  // Y-axis scale
+  // Y-axis scale (no zoom on Y)
   const yValues = dataPoints.map((p) => p.y);
   const yMin = dataExists ? Math.min(...yValues) : 0; 
   const yMax = dataExists ? Math.max(...yValues) : 1;
@@ -175,55 +175,73 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
     const baseY = svgHeight -
       margin.bottom -
       ((value - yMin) / yRange) * (svgHeight - margin.top - margin.bottom);
-    return (baseY - svgHeight / 2) * zoom + svgHeight / 2 + panOffset.y;
+    return baseY;
   }
 
   // X-axis ticks
+  // const ticksX = useMemo(() => {
+  //   if (!dataExists) return [];
+    
+  //   const start = new Date(xMin);
+  //   const end = new Date(xMax);
+  //   const rangeInYears = (xMax - xMin) / (1000 * 60 * 60 * 24 * 365.25);
+    
+  //   let intervalMonths = 6;
+    
+  //   if (timePeriod === "yearly") {
+  //     intervalMonths = 12;
+  //   } else if (timePeriod === "monthly") {
+  //     intervalMonths = rangeInYears > 2 ? 3 : 1;
+  //   } else {
+  //     if (rangeInYears > 10) {
+  //       intervalMonths = 24;
+  //     } else if (rangeInYears > 5) {
+  //       intervalMonths = 12;
+  //     } else if (rangeInYears > 2) {
+  //       intervalMonths = 6;
+  //     } else if (rangeInYears > 0.5) {
+  //       intervalMonths = 3;
+  //     }
+  //   }
+    
+  //   const ticks = [];
+  //   let current = new Date(start);
+  //   current.setMonth(0, 1);
+  //   current.setHours(0, 0, 0, 0);
+
+  //   while (current.getTime() <= xMax) {
+  //     if (current.getTime() >= xMin) {
+  //       ticks.push(new Date(current));
+  //     }
+  //     current.setMonth(current.getMonth() + intervalMonths);
+  //   }
+
+  //   if (ticks.length > 0 && (xMax - ticks[ticks.length - 1].getTime()) > (intervalMonths * 30 * 24 * 60 * 60 * 1000 * 0.5)) {
+  //     ticks.push(end);
+  //   } else if (ticks.length === 0 && dataExists) {
+  //     ticks.push(start);
+  //   }
+    
+  //   return ticks;
+  // }, [xMin, xMax, dataExists, timePeriod]);
+
+  // X-axis ticks (always yearly)
   const ticksX = useMemo(() => {
     if (!dataExists) return [];
-    
+
     const start = new Date(xMin);
     const end = new Date(xMax);
-    const rangeInYears = (xMax - xMin) / (1000 * 60 * 60 * 24 * 365.25);
-    
-    let intervalMonths = 6;
-    
-    if (timePeriod === "yearly") {
-      intervalMonths = 12;
-    } else if (timePeriod === "monthly") {
-      intervalMonths = rangeInYears > 2 ? 3 : 1;
-    } else {
-      if (rangeInYears > 10) {
-        intervalMonths = 24;
-      } else if (rangeInYears > 5) {
-        intervalMonths = 12;
-      } else if (rangeInYears > 2) {
-        intervalMonths = 6;
-      } else if (rangeInYears > 0.5) {
-        intervalMonths = 3;
-      }
-    }
-    
+
     const ticks = [];
-    let current = new Date(start);
-    current.setMonth(0, 1);
-    current.setHours(0, 0, 0, 0);
+    let current = new Date(start.getFullYear(), 0, 1); // Jan 1 of start year
 
-    while (current.getTime() <= xMax) {
-      if (current.getTime() >= xMin) {
-        ticks.push(new Date(current));
-      }
-      current.setMonth(current.getMonth() + intervalMonths);
+    while (current.getTime() <= end.getTime()) {
+      ticks.push(new Date(current));
+      current.setFullYear(current.getFullYear() + 1);
     }
 
-    if (ticks.length > 0 && (xMax - ticks[ticks.length - 1].getTime()) > (intervalMonths * 30 * 24 * 60 * 60 * 1000 * 0.5)) {
-      ticks.push(end);
-    } else if (ticks.length === 0 && dataExists) {
-      ticks.push(start);
-    }
-    
     return ticks;
-  }, [xMin, xMax, dataExists, timePeriod]);
+  }, [xMin, xMax, dataExists]);
 
   // Y-axis ticks
   const ticksY = useMemo(() => {
@@ -298,7 +316,6 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
 
   // Zoom and pan handlers
   const handleZoomIn = () => setZoom(prev => Math.min(prev * 1.3, 10));
-  
   const handleZoomOut = () => setZoom(prev => Math.max(prev / 1.3, 1));
   const handleResetView = () => {
     setZoom(1);
@@ -308,14 +325,14 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
   const handleMouseDown = (e) => {
     if (e.button !== 0) return;
     setIsDragging(true);
-    setDragStart({ x: e.clientX - panOffset.x, y: e.clientY - panOffset.y });
+    setDragStart({ x: e.clientX - panOffset.x, y: 0 });
   };
 
   const handleMouseMove = (e) => {
     if (!isDragging) return;
     setPanOffset({
       x: e.clientX - dragStart.x,
-      y: e.clientY - dragStart.y
+      y: 0 // No vertical panning
     });
   };
 
@@ -355,8 +372,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
   }, [dataPoints]);
 
   return isOpen ? (
-    // <div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex items-center justify-center z-50 p-4">
-    <motion.div
+     <motion.div
       initial={{ opacity: 0, y: "100%" }}
       animate={
         isOpen ? { opacity: 1, y: "0%" } : { opacity: 1, y: "100%" }
@@ -365,7 +381,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
       // className="fixed max-w-[96vw] max-h-[90vh] overflow-y-auto bottom-0 right-2 xl:right-[5%] 2xl:right-[15%] flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
       className="fixed overflow-y-auto bottom-0 right-2 xl:right-[10%] 2xl:right-[15%] flex items-center justify-center z-50 p-4"
     >
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-6xl max-h-[90vh] overflow-hidden flex flex-col">
+    <div className="bg-white rounded-2xl shadow-2xl w-full max-w-6xl max-h-[90vh] overflow-hidden flex flex-col">
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-gradient-to-r from-blue-50 to-white">
           <div>
@@ -675,13 +691,14 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                       fontWeight="500"
                       fill="#6b7280"
                     >
-                      {timePeriod === "yearly" 
+                      {t.getFullYear()}
+                      {/* {timePeriod === "yearly" 
                         ? t.getFullYear()
                         : t.toLocaleString("en-US", {
                             month: "short",
                             year: "numeric",
                           })
-                      }
+                      } */}
                     </text>
                   ))}
 
@@ -720,7 +737,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                           <circle
                             cx={xScale(p.x)}
                             cy={yScale(p.y)}
-                            r={p.aggregated ? "5" : "4"}
+                            r={timePeriod === "yearly" ? "6" : timePeriod === "monthly" ? "4.5" : "4"}
                             fill={p.type === "historical" ? "#3b82f6" : p.type === "mixed" ? "#8b5cf6" : "#10b981"}
                             stroke="white"
                             strokeWidth="2"
@@ -785,6 +802,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                   }}
                 >
                   <div className="font-semibold text-sm mb-2">
+                    {tooltip.value.x.getFullYear()}
                     {timePeriod === "yearly" 
                       ? tooltip.value.x.getFullYear()
                       : timePeriod === "monthly"
@@ -841,7 +859,6 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
           )}
         </div>
       </div>
-    {/* </div> */}
     </motion.div>
   ) : null;
 };
