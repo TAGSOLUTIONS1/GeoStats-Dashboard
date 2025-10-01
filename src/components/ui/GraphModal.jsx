@@ -371,6 +371,39 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
     return { avg, max, min };
   }, [dataPoints]);
 
+  
+const [cursor, setCursor] = useState(null); // { x: number, point: {...} }
+const handleChartMouseMove = (e) => {
+  const svgRect = svgRef.current.getBoundingClientRect();
+  const mouseX = e.clientX - svgRect.left;
+
+  // Convert mouseX back to a date
+  const ratio = (mouseX - margin.left) / (svgWidth - margin.left - margin.right);
+  const dateAtCursor = new Date(xMin + ratio * (xMax - xMin));
+
+  // Find nearest data point
+  let nearest = null;
+  let minDist = Infinity;
+  dataPoints.forEach((p) => {
+    const dist = Math.abs(p.x.getTime() - dateAtCursor.getTime());
+    if (dist < minDist) {
+      minDist = dist;
+      nearest = p;
+    }
+  });
+
+  if (nearest) {
+    setCursor({
+      x: xScale(nearest.x),
+      point: nearest
+    });
+  }
+};
+
+const handleChartMouseLeave = () => {
+  setCursor(null);
+};
+
   return isOpen ? (
      <motion.div
       initial={{ opacity: 0, y: "100%" }}
@@ -415,7 +448,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                 <button
                   className={`px-4 py-2 text-sm font-medium transition-all ${
                     timePeriod === "all"
-                      ? "bg-blue-600 text-white"
+                      ? "bg-azure text-white"
                       : "bg-white hover:bg-gray-50 text-gray-700"
                   }`}
                   onClick={() => setTimePeriod("all")}
@@ -425,7 +458,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                 <button
                   className={`px-4 py-2 text-sm font-medium border-l border-gray-300 transition-all ${
                     timePeriod === "monthly"
-                      ? "bg-blue-600 text-white"
+                      ? "bg-azure text-white"
                       : "bg-white hover:bg-gray-50 text-gray-700"
                   }`}
                   onClick={() => setTimePeriod("monthly")}
@@ -435,7 +468,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                 <button
                   className={`px-4 py-2 text-sm font-medium border-l border-gray-300 transition-all ${
                     timePeriod === "yearly"
-                      ? "bg-blue-600 text-white"
+                      ? "bg-azure text-white"
                       : "bg-white hover:bg-gray-50 text-gray-700"
                   }`}
                   onClick={() => setTimePeriod("yearly")}
@@ -453,7 +486,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                   <button
                     className={`px-3 py-1.5 text-sm transition-all ${
                       dataView === "all"
-                        ? "bg-blue-600 text-white"
+                        ? "bg-azure text-white"
                         : "bg-white hover:bg-gray-50"
                     }`}
                     onClick={() => setDataView("all")}
@@ -464,7 +497,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                     <button
                       className={`px-3 py-1.5 text-sm border-l border-gray-300 transition-all ${
                         dataView === "historical"
-                          ? "bg-blue-600 text-white"
+                          ? "bg-azure text-white"
                           : "bg-white hover:bg-gray-50"
                       }`}
                       onClick={() => setDataView("historical")}
@@ -475,7 +508,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                   <button
                     className={`px-3 py-1.5 text-sm border-l border-gray-300 transition-all ${
                       dataView === "forecast"
-                        ? "bg-blue-600 text-white"
+                        ? "bg-azure text-white"
                         : "bg-white hover:bg-gray-50"
                     }`}
                     onClick={() => setDataView("forecast")}
@@ -492,7 +525,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                   <button
                     className={`px-3 py-1.5 text-sm transition-all ${
                       chartType === "line"
-                        ? "bg-blue-600 text-white"
+                        ? "bg-azure text-white"
                         : "bg-white hover:bg-gray-50"
                     }`}
                     onClick={() => setChartType("line")}
@@ -502,7 +535,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                   <button
                     className={`px-3 py-1.5 text-sm border-l border-gray-300 transition-all ${
                       chartType === "scatter"
-                        ? "bg-blue-600 text-white"
+                        ? "bg-azure text-white"
                         : "bg-white hover:bg-gray-50"
                     }`}
                     onClick={() => setChartType("scatter")}
@@ -621,6 +654,8 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                   preserveAspectRatio="xMidYMid meet" 
                   className={`absolute top-0 left-0 w-full h-full ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
                   onMouseDown={handleMouseDown}
+                  onMouseMove={handleChartMouseMove}
+                  onMouseLeave={handleChartMouseLeave}
                   onWheel={(e) => e.preventDefault()}
                 >
                   <defs>
@@ -661,6 +696,31 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                       strokeWidth="1"
                     />
                   ))}
+
+                  {/* Cursor line */}
+                    {cursor && (
+                      <line
+                        x1={cursor.x}
+                        x2={cursor.x}
+                        y1={margin.top}
+                        y2={svgHeight - margin.bottom}
+                        stroke="#aaa"
+                        strokeDasharray="4"
+                      />
+                    )}
+
+                    {/* Cursor point highlight */}
+                    {cursor && (
+                      <circle
+                        cx={cursor.x}
+                        cy={yScale(cursor.point.y)}
+                        r={5}
+                        fill="#f59e0b"
+                        stroke="white"
+                        strokeWidth={2}
+                      />
+                    )}
+
 
                   {/* Axes */}
                   <line
@@ -791,18 +851,31 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                 </svg>
               </div>
               
-              {/* Tooltip */}
-              {tooltip && (
+              {cursor && (
                 <div
-                  className="fixed bg-gray-900 text-white text-xs px-4 py-3 rounded-lg shadow-2xl pointer-events-none z-50 border border-gray-700"
+                  className="absolute bg-gray-900 text-white shadow-md border rounded px-2 py-1 text-sm"
+                  style={{
+                    left: cursor.x + margin.left,
+                    top: yScale(cursor.point.y) - 40,
+                  }}
+                >
+                  <div><strong>{cursor.point.x.toISOString().split("T")[0]}</strong></div>
+                  <div>Value: {cursor.point.y.toFixed(2)}</div>
+                </div>
+              )}
+
+
+              {/* Tooltip */}
+              {/* {tooltip  && (
+                <div
+                  className="fixed bg-gray-900 text-white text-xs px-3 py-2 rounded-lg shadow-2xl pointer-events-none z-50 border border-gray-700"
                   style={{
                     top: tooltip.y - 70,
                     left: tooltip.x,
                     transform: 'translateX(-50%)'
                   }}
                 >
-                  <div className="font-semibold text-sm mb-2">
-                    {tooltip.value.x.getFullYear()}
+                  <div className="font-semibold text-xs mb-2">
                     {timePeriod === "yearly" 
                       ? tooltip.value.x.getFullYear()
                       : timePeriod === "monthly"
@@ -815,8 +888,8 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                     }
                   </div>
                   <div className="flex items-center gap-2">
-                    <span className="text-gray-400">Value:</span>
-                    <span className="font-bold text-base text-blue-400">{tooltip.value.y.toFixed(2)}</span>
+                    <span className="text-gray-400 text-xs">Value:</span>
+                    <span className="font-bold text-xs text-blue-400">{tooltip.value.y.toFixed(2)}</span>
                   </div>
                   {tooltip.value.aggregated && (
                     <div className="text-[10px] text-gray-400 mt-1">
@@ -825,7 +898,7 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                   )}
                   <div className="mt-2 pt-2 border-t border-gray-700">
                     <span className={`inline-block px-2 py-0.5 rounded text-[10px] font-medium ${
-                      tooltip.value.type === 'historical' ? 'bg-blue-600' :
+                      tooltip.value.type === 'historical' ? 'bg-azure' :
                       tooltip.value.type === 'mixed' ? 'bg-purple-600' :
                       'bg-green-600'
                     }`}>
@@ -834,13 +907,13 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
                     </span>
                   </div>
                 </div>
-              )}
+              )} */}
               
               {/* Legend */}
               {dataView === "all" && activeHistorical.length > 0 && (
                 <div className="flex items-center justify-center gap-6 mt-4 text-xs bg-white rounded-lg py-3 px-4 border border-gray-200">
                   <div className="flex items-center gap-2">
-                    <div className="w-3 h-3 rounded-full bg-blue-500 ring-2 ring-blue-200"></div>
+                    <div className="w-3 h-3 rounded-full bg-[#3b82f6] ring-2 ring-blue-200"></div>
                     <span className="font-medium text-gray-700">Historical Data</span>
                   </div>
                   <div className="flex items-center gap-2">
