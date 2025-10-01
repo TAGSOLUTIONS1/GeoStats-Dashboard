@@ -29,7 +29,7 @@ export const formatDataPointDescription = (item) => {
   if (item.id === 'for-sale-inventory') {
     return {
       ...item,
-      source: 'Realtor.com',
+      source: 'https://www.geostats.ai',
       note: 'For Sale Inventory excludes listings that are pending.'
     };
   }

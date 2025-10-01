@@ -46,9 +46,9 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
           
           {selectedItem.id === 'for-sale-inventory' && (
             <div className="space-y-2">
-              <p className="text-gray-300 text-xs">
-                <strong className="text-white">Source:</strong> Realtor.com
-              </p>
+              {/* <p className="text-gray-300 text-xs">
+                <strong className="text-white">Source:</strong> Geostats
+              </p> */}
               <p className="text-gray-300 text-xs">
                 <strong className="text-white">Note:</strong> For Sale Inventory excludes listings that are pending.
               </p>

@@ -6,15 +6,13 @@ export const useSidebar = () => {
   const [hoveredcrown, setHoveredcrown] = useState(null);
   const [selectedDetailItem, setSelectedDetailItem] = useState(null);
   const [detailPanelPosition, setDetailPanelPosition] = useState({ top: 0, left: 0 });
-  const [selectedDataPoint, setSelectedDataPoint] = useState('population'); // Default to Population
+  const [selectedDataPoint, setSelectedDataPoint] = useState('population');
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleItemClick = (item) => {
-    // If it's a data point item, update selected data point
     if (item.id && item.label) {
       setSelectedDataPoint(item.id);
     } else {
-      // If it's a section, toggle expansion
       setActiveItem(activeItem === item ? null : item);
     }
   };
@@ -30,10 +28,6 @@ export const useSidebar = () => {
     setSelectedDetailItem(null);
   };
 
-  const handleSearchChange = (e) => {
-    setSearchQuery(e.target.value);
-  };
-
   return {
     // State
     activeItem,
@@ -43,15 +37,16 @@ export const useSidebar = () => {
     detailPanelPosition,
     selectedDataPoint,
     searchQuery,
-    
+
     // Setters
+    setActiveItem,
     setHoveredItem,
     setHoveredcrown,
-    
+    setSearchQuery,
+
     // Handlers
     handleItemClick,
     handleSubItemClick,
     handleCloseDetail,
-    handleSearchChange
   };
 };

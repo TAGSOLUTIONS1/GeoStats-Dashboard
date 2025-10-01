@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ChevronDown, Search, Crown } from 'lucide-react';
 import { useSidebar } from '../../hooks/useSidebar';
 import { dataSections } from '../../data/sidebarData';
 import SidebarSearch from './SidebarSearch';
@@ -8,6 +8,7 @@ import DetailPanel from './DetailPanel';
 import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
 
 const Sidebar = () => {
+  
   const [isExploreModalOpen, setIsExploreModalOpen] = useState(false);
   
   const {
@@ -18,23 +19,54 @@ const Sidebar = () => {
     detailPanelPosition,
     selectedDataPoint,
     searchQuery,
+    setActiveItem,
     setHoveredItem,
     setHoveredcrown,
     handleItemClick,
+    setSearchQuery,
     handleSubItemClick,
     handleCloseDetail,
-    handleSearchChange
   } = useSidebar();
 
-  // Expose currently selected data point for other components (e.g., Map hover tooltip)
+  const [filteredSections, setFilteredSections] = useState(dataSections);
+
+  // Filter data points based on search query
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      window.selectedDataPoint = selectedDataPoint;
+    if (!searchQuery.trim()) {
+      setFilteredSections(dataSections);
+      return;
     }
-  }, [selectedDataPoint]);
+
+    const query = searchQuery.toLowerCase();
+    const filtered = dataSections.map(section => {
+      const filteredItems = section.items.filter(item => 
+        item.label.toLowerCase().includes(query)
+      );
+      
+      return {
+        ...section,
+        items: filteredItems
+      };
+    }).filter(section => section.items.length > 0);
+
+    setFilteredSections(filtered);
+
+    // Auto-expand sections that have matching items
+    if (filtered.length > 0 && !filtered.find(s => s.id === activeItem)) {
+      setActiveItem(filtered[0].id);
+    }
+  }, [searchQuery]);
+
+  const handleInfoClick = (item, position) => {
+    console.log('Info clicked for:', item);
+  };
+
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
 
   return (
-    <div className="w-72 bg-gray-100 text-blue h-screen flex flex-col relative z-20 overflow-visible">
+        <div className="w-72 bg-gray-100 text-blue h-screen flex flex-col relative z-20 overflow-visible">
       {/* Header with Logo */}
       <div className="p-4 border-b border-gray-700">
         <div className="flex items-center space-x-2">
@@ -46,15 +78,24 @@ const Sidebar = () => {
       </div>
 
       {/* Search Bar */}
-      <SidebarSearch 
-        searchQuery={searchQuery} 
-        onSearchChange={handleSearchChange} 
-      />
+      <div className="p-4">
+        <div className="relative">
+          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
+          <input
+            type="text"
+            placeholder="SEARCH DATA POINTS"
+            value={searchQuery}
+            onChange={handleSearchChange}
+            className="w-full pl-10 pr-4 py-1.5 text-sm bg-white border border-gray-400 rounded-lg text-blue-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+      </div>
 
       {/* Data Sections */}
       <div className="flex-1 overflow-y-auto p-4 space-y-4 scrollbar-hide">
-        {dataSections.map((section) => (
-          <DataSection
+        {filteredSections.length > 0 ? (
+          filteredSections.map((section) => (
+            <DataSection
             key={section.id}
             section={section}
             activeItem={activeItem}
@@ -66,10 +107,14 @@ const Sidebar = () => {
             setHoveredItem={setHoveredItem}
             setHoveredcrown={setHoveredcrown}
           />
-        ))}
+          ))
+        ) : (
+          <div className="text-center text-gray-500 text-sm py-4">
+            No data points found matching "{searchQuery}"
+          </div>
+        )}
       </div>
 
-      {/* Explore Data Points Link */}
       <div className="p-4 border-t border-gray-300">
         <button
           // onClick={() => setIsExploreModalOpen(true)}
@@ -87,7 +132,6 @@ const Sidebar = () => {
         position={detailPanelPosition}
         onClose={handleCloseDetail} 
       />
-
     </div>
   );
 };

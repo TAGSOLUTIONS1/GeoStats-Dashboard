@@ -4,16 +4,43 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import { dubaiGeoData, geojsonData } from '../../data/geoData';
 import { dubaiWEBDATA } from '../../data/DubaiData';
 import { EmiratesData } from '../../data/Emirates';
+import { New_Population } from '../../data/new_population';
 
 const Map = ({selectedFilter}) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  // console.log('Map render - selectedFilter:', selectedFilter);
+
 
   // Dubai coordinates
   const lng = 55.3;
   const lat = 25.15;
   const zoom = 7;
+
+    function addPopulation(geojson, populationArray) {
+      populationArray.forEach(pop => {
+        const communityCode = pop["Community Code"];
+        
+        // Find matching feature by COMM_NUM
+        const feature = geojson.features.find(f => f.properties.COMM_NUM === communityCode);
+        
+        if (feature) {
+          // Add new fields or update if already exist
+          feature.properties.Population_New = parseInt(
+            (pop["مجموع السكان\nTotal population"] || "0").replace(/,/g, ""),
+            10
+          );
+          feature.properties.Area_New = parseFloat(pop["المساحة كم2\nArea km2"]) || 0;
+          feature.properties.PopDensity_New = parseFloat(
+            pop["الكثافة السكانية (فرد/كم2)\nPopulation Density (person/km2)"]
+          ) || 0;
+        }
+      });
+      return geojson;
+    }
+
+    // Example usage:
+    // const mergedGeojson = addPopulation(geojsonData, New_Population);
+    // console.log("cobmined " , mergedGeojson);
 
   useEffect(() => {
     const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
@@ -46,7 +73,8 @@ const Map = ({selectedFilter}) => {
       // Add GeoJSON source
       map.current.addSource('dubai-communities', {
         type: 'geojson',
-        data: selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA
+        // data: selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA ,
+        data: selectedFilter === 'Area' ? addPopulation(geojsonData, New_Population) : addPopulation(dubaiWEBDATA,New_Population),
       });
 
       // Add fill layer
@@ -92,7 +120,7 @@ const Map = ({selectedFilter}) => {
             'format',
             ['get', 'CNAME_E'], { 'font-scale': 1.1, 'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'] },
             '\n',
-            ['number-format', ['get', 'Population 2019'], { 'locale': 'en-US' }],
+            ['number-format', ['get', 'Population_New'], { 'locale': 'en-US' }],
             { 'font-scale': 1.2, 'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'] }
           ],
           'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
@@ -121,14 +149,19 @@ const Map = ({selectedFilter}) => {
         const selected = (typeof window !== 'undefined' && window.selectedDataPoint) ? window.selectedDataPoint : 'population';
         // Map selected key to property in geojson
         let valueLabel = '';
+        let valueLabel2 = '';
+        let valueLabel3 = '';
+
         if (selected === 'population') {
-          const val = props['Population 2019'] || props['Population 2018'] || props['Population'] || null;
+          const val = props['Population_New'] || props['Area_New'] || props['PopDensity_New'] || null;
           const formatted = new Intl.NumberFormat('en-US').format(val);
           valueLabel = val != null ? `<br/>Population: ${formatted}` : '';
+          valueLabel2 = val != null ? `<br/>Area km\u00B2: ${props['Area_New']}` : '';
+          valueLabel3 = val != null ? `<br/>Population Density: ${props['PopDensity_New']}` : '';
         }
 
         tooltip.setLngLat(e.lngLat)
-          .setHTML(`<strong>${props.CNAME_E}</strong>${valueLabel}`)
+          .setHTML(`<strong>${props.CNAME_E}</strong>${valueLabel}</strong>${valueLabel2}</strong>${valueLabel3}`)
           .addTo(map.current);
       });
 
@@ -140,6 +173,7 @@ const Map = ({selectedFilter}) => {
       // Click: dispatch custom event so Layout can open a modal
       map.current.on('click', 'dubai-communities-fill', (e) => {
         const props = e.features[0].properties;
+        // const population=features
         const detail = {
           placeName: props.COMMUNITY_E || props.CNAME_E || 'Selected Area',
           lngLat: e.lngLat,
