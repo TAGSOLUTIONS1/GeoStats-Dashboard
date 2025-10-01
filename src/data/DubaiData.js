@@ -1,3 +1,5 @@
+import { New_Population } from "./new_population";
+
 export const dubaiWEBDATA = {
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
@@ -47,7 +49,10 @@ export const dubaiWEBDATA = {
         "Population 2019": 3331400,
         "Area Sq Km": 4114,
         "Latitude": 25.2048493,
-        "Longitude": 55.2707828
+        "Longitude": 55.2707828,
+        "Population_New":3863600,
+        "PopDensity_New":809.2,
+        "Area_New":4774.9,
       },
       "geometry": {
         "type": "MultiPolygon",
