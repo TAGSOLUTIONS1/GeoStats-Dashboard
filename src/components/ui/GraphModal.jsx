@@ -1,8 +1,9 @@
 import React, { useMemo, useState, useEffect, useRef } from "react";
+import { useCallback } from "react";
 import { X, Calendar, ZoomIn, ZoomOut, Maximize2, TrendingUp } from "lucide-react";
 import { motion } from "framer-motion";
+import DraggableBar from "./DraggableBar";
 
-// Mock data for demo
 const mockForecastData = Array.from({ length: 24 }, (_, i) => ({
   ds: new Date(2024, i, 1).toISOString(),
   yhat: 45 + Math.random() * 10 + i * 0.5,
@@ -17,20 +18,24 @@ const mockHistoricalData = Array.from({ length: 36 }, (_, i) => ({
   area_id: "464"
 }));
 
-const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName = "Demo Location", pastSeries = [] }) => {
-  const [tooltip, setTooltip] = useState(null);
+const GraphModal = ({ 
+  isOpen = true, 
+  onClose = () => {}, 
+  series = [], 
+  placeName = "Demo Location", 
+  pastSeries = [] 
+}) => {
   const [chartType, setChartType] = useState("line");
   const [showTrend, setShowTrend] = useState(true);
   const [showLabels, setShowLabels] = useState(false);
   const [dataView, setDataView] = useState("all");
-  const [timePeriod, setTimePeriod] = useState("all"); // monthly, yearly, all
+  const [timePeriod, setTimePeriod] = useState("all");
   const [customRange, setCustomRange] = useState(false);
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
   const [zoom, setZoom] = useState(1);
-  const [panOffset, setPanOffset] = useState({ x: 0, y: 0 });
-  const [isDragging, setIsDragging] = useState(false);
-  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
+  const [panValue, setPanValue] = useState(50);
+  const [cursor, setCursor] = useState(null);
   const svgRef = useRef(null);
   
   const svgWidth = 760;
@@ -40,30 +45,24 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
   const activeSeries = series.length > 0 ? series : mockForecastData;
   const activeHistorical = pastSeries.length > 0 ? pastSeries : mockHistoricalData;
   
-  // Combine historical and forecast data
+  // Combine and sort data
   const allData = useMemo(() => {
     const combined = [];
     
-    if (activeHistorical && activeHistorical.length > 0) {
-      activeHistorical.forEach((item) => {
-        combined.push({
-          x: new Date(item.instance_date || item.ds),
-          y: parseFloat(item.avg_meter_price || item.y || item.yhat),
-          date: item.instance_date || item.ds,
-          name: item.name_en,
-          areaId: item.area_id,
-          type: 'historical'
-        });
+    activeHistorical?.forEach((item) => {
+      combined.push({
+        x: new Date(item.instance_date || item.ds),
+        y: parseFloat(item.avg_meter_price || item.y || item.yhat),
+        date: item.instance_date || item.ds,
+        type: 'historical'
       });
-    }
+    });
     
     activeSeries.forEach((item) => {
       combined.push({
         x: new Date(item.ds),
         y: parseFloat(item.yhat),
         date: item.ds,
-        name: item.name_en,
-        areaId: item.area_id,
         type: 'forecast'
       });
     });
@@ -71,38 +70,27 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
     return combined.sort((a, b) => a.x - b.x);
   }, [activeSeries, activeHistorical]);
 
-  // Get date range for initial values
+  // Initialize date range
   useEffect(() => {
-    if (allData.length > 0) {
+    if (allData.length > 0 && !startDate) {
       const dates = allData.map(d => d.x);
-      const min = new Date(Math.min(...dates));
-      const max = new Date(Math.max(...dates));
-      
-      if (!startDate) setStartDate(min.toISOString().split('T')[0]);
-      if (!endDate) setEndDate(max.toISOString().split('T')[0]);
+      setStartDate(new Date(Math.min(...dates)).toISOString().split('T')[0]);
+      setEndDate(new Date(Math.max(...dates)).toISOString().split('T')[0]);
     }
-  }, [allData, startDate, endDate]);
+  }, [allData, startDate]);
 
   // Aggregate data by time period
-  const aggregateData = (data, period) => {
+  const aggregateData = useCallback((data, period) => {
     if (period === "all") return data;
     
     const grouped = {};
-    
     data.forEach(point => {
-      let key;
-      if (period === "monthly") {
-        key = `${point.x.getFullYear()}-${String(point.x.getMonth() + 1).padStart(2, '0')}`;
-      } else if (period === "yearly") {
-        key = `${point.x.getFullYear()}`;
-      }
+      const key = period === "monthly" 
+        ? `${point.x.getFullYear()}-${String(point.x.getMonth() + 1).padStart(2, '0')}`
+        : `${point.x.getFullYear()}`;
       
       if (!grouped[key]) {
-        grouped[key] = {
-          values: [],
-          types: new Set(),
-          date: point.x
-        };
+        grouped[key] = { values: [], types: new Set(), date: point.x };
       }
       grouped[key].values.push(point.y);
       grouped[key].types.add(point.type);
@@ -110,14 +98,10 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
     
     return Object.entries(grouped).map(([key, group]) => {
       const avgY = group.values.reduce((a, b) => a + b, 0) / group.values.length;
-      let periodDate;
-      
-      if (period === "monthly") {
-        const [year, month] = key.split('-');
-        periodDate = new Date(parseInt(year), parseInt(month) - 1, 15);
-      } else if (period === "yearly") {
-        periodDate = new Date(parseInt(key), 6, 1);
-      }
+      const [year, month] = key.split('-');
+      const periodDate = period === "monthly" 
+        ? new Date(parseInt(year), parseInt(month) - 1, 15)
+        : new Date(parseInt(year), 6, 1);
       
       return {
         x: periodDate,
@@ -129,9 +113,9 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
         count: group.values.length
       };
     }).sort((a, b) => a.x - b.x);
-  };
+  }, []);
 
-  // Filter data based on view and custom range
+  // Filter data
   const dataPoints = useMemo(() => {
     let filtered = allData;
     
@@ -148,108 +132,57 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
     }
     
     return aggregateData(filtered, timePeriod);
-  }, [allData, dataView, customRange, startDate, endDate, timePeriod]);
-    
-  // X-axis scale
-  const dataExists = dataPoints.length > 0; 
-  const xValues = dataPoints.map((p) => p.x.getTime());
+  }, [allData, dataView, customRange, startDate, endDate, timePeriod, aggregateData]);
+
+  // Scale functions
+  const dataExists = dataPoints.length > 0;
+  const xValues = dataPoints.map(p => p.x.getTime());
   const xMin = dataExists ? Math.min(...xValues) : 0;
   const xMax = dataExists ? Math.max(...xValues) : 1;
-
-  const xScale = (date) => {
-    if (!dataExists || xMax === xMin) return margin.left;
-    const baseX = margin.left +
-      ((date.getTime() - xMin) / (xMax - xMin)) *
-      (svgWidth - margin.left - margin.right);
-    return (baseX - svgWidth / 2) * zoom + svgWidth / 2 + panOffset.x;
-  }
-
-  // Y-axis scale (no zoom on Y)
-  const yValues = dataPoints.map((p) => p.y);
-  const yMin = dataExists ? Math.min(...yValues) : 0; 
+  const yValues = dataPoints.map(p => p.y);
+  const yMin = dataExists ? Math.min(...yValues) : 0;
   const yMax = dataExists ? Math.max(...yValues) : 1;
   const yRange = yMax - yMin;
 
-  const yScale = (value) => {
+  const xScale = useCallback((date) => {
+    if (!dataExists || xMax === xMin) return margin.left;
+    
+    const chartWidth = svgWidth - margin.left - margin.right;
+    const baseX = margin.left + ((date.getTime() - xMin) / (xMax - xMin)) * chartWidth;
+    
+    // Apply zoom and pan
+    const center = svgWidth / 2;
+    const panOffset = (panValue - 50) * chartWidth * (zoom - 1) / 50;
+    
+    return (baseX - center) * zoom + center - panOffset;
+  }, [dataExists, xMin, xMax, zoom, panValue, svgWidth, margin]);
+
+  const yScale = useCallback((value) => {
     if (!dataExists || yRange === 0) return svgHeight - margin.bottom;
-    const baseY = svgHeight -
-      margin.bottom -
-      ((value - yMin) / yRange) * (svgHeight - margin.top - margin.bottom);
-    return baseY;
-  }
+    return svgHeight - margin.bottom - ((value - yMin) / yRange) * (svgHeight - margin.top - margin.bottom);
+  }, [dataExists, yMin, yRange, svgHeight, margin]);
 
-  // X-axis ticks
-  // const ticksX = useMemo(() => {
-  //   if (!dataExists) return [];
-    
-  //   const start = new Date(xMin);
-  //   const end = new Date(xMax);
-  //   const rangeInYears = (xMax - xMin) / (1000 * 60 * 60 * 24 * 365.25);
-    
-  //   let intervalMonths = 6;
-    
-  //   if (timePeriod === "yearly") {
-  //     intervalMonths = 12;
-  //   } else if (timePeriod === "monthly") {
-  //     intervalMonths = rangeInYears > 2 ? 3 : 1;
-  //   } else {
-  //     if (rangeInYears > 10) {
-  //       intervalMonths = 24;
-  //     } else if (rangeInYears > 5) {
-  //       intervalMonths = 12;
-  //     } else if (rangeInYears > 2) {
-  //       intervalMonths = 6;
-  //     } else if (rangeInYears > 0.5) {
-  //       intervalMonths = 3;
-  //     }
-  //   }
-    
-  //   const ticks = [];
-  //   let current = new Date(start);
-  //   current.setMonth(0, 1);
-  //   current.setHours(0, 0, 0, 0);
-
-  //   while (current.getTime() <= xMax) {
-  //     if (current.getTime() >= xMin) {
-  //       ticks.push(new Date(current));
-  //     }
-  //     current.setMonth(current.getMonth() + intervalMonths);
-  //   }
-
-  //   if (ticks.length > 0 && (xMax - ticks[ticks.length - 1].getTime()) > (intervalMonths * 30 * 24 * 60 * 60 * 1000 * 0.5)) {
-  //     ticks.push(end);
-  //   } else if (ticks.length === 0 && dataExists) {
-  //     ticks.push(start);
-  //   }
-    
-  //   return ticks;
-  // }, [xMin, xMax, dataExists, timePeriod]);
-
-  // X-axis ticks (always yearly)
+  // Generate ticks
   const ticksX = useMemo(() => {
     if (!dataExists) return [];
-
     const start = new Date(xMin);
     const end = new Date(xMax);
-
     const ticks = [];
-    let current = new Date(start.getFullYear(), 0, 1); // Jan 1 of start year
+    let current = new Date(start.getFullYear(), 0, 1);
 
     while (current.getTime() <= end.getTime()) {
       ticks.push(new Date(current));
       current.setFullYear(current.getFullYear() + 1);
     }
-
     return ticks;
   }, [xMin, xMax, dataExists]);
 
-  // Y-axis ticks
   const ticksY = useMemo(() => {
     const step = (yMax - yMin) / 5;
     return Array.from({ length: 6 }, (_, i) => yMin + i * step);
   }, [yMin, yMax]);
 
-  // Line path with smooth curves
+  // Line path
   const pathD = useMemo(() => {
     if (dataPoints.length === 0) return "";
     if (dataPoints.length === 1) {
@@ -258,21 +191,16 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
     }
     
     let path = `M ${xScale(dataPoints[0].x)} ${yScale(dataPoints[0].y)}`;
-    
     for (let i = 1; i < dataPoints.length; i++) {
       const curr = dataPoints[i];
       const prev = dataPoints[i - 1];
-      
       const x1 = xScale(prev.x);
       const y1 = yScale(prev.y);
       const x2 = xScale(curr.x);
       const y2 = yScale(curr.y);
-      
       const mx = (x1 + x2) / 2;
-      
       path += ` C ${mx} ${y1}, ${mx} ${y2}, ${x2} ${y2}`;
     }
-    
     return path;
   }, [dataPoints, xScale, yScale]);
 
@@ -283,17 +211,13 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
     const n = dataPoints.length;
     let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
     
-    const regressionPoints = dataPoints.map(p => ({
-      x: p.x.getTime(),
-      y: p.y
-    }));
-
-    for (let i = 0; i < n; i++) {
-      sumX += regressionPoints[i].x;
-      sumY += regressionPoints[i].y;
-      sumXY += regressionPoints[i].x * regressionPoints[i].y;
-      sumXX += regressionPoints[i].x * regressionPoints[i].x;
-    }
+    dataPoints.forEach(p => {
+      const xVal = p.x.getTime();
+      sumX += xVal;
+      sumY += p.y;
+      sumXY += xVal * p.y;
+      sumXX += xVal * xVal;
+    });
     
     const slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
     const intercept = (sumY - slope * sumX) / n;
@@ -302,107 +226,51 @@ const GraphModal = ({ isOpen = true, onClose = () => {}, series = [], placeName 
 
     const y1 = slope * xMin + intercept;
     const y2 = slope * xMax + intercept;
-    
-    if (xMax === xMin || yMax === yMin) return null;
 
     return {
       x1: xScale(new Date(xMin)),
       y1: yScale(y1),
       x2: xScale(new Date(xMax)),
       y2: yScale(y2),
-      slope: slope
+      slope
     };
-  }, [dataPoints, xMin, xMax, xScale, yScale, yMax, yMin]);
+  }, [dataPoints, xMin, xMax, xScale, yScale]);
 
-  // Zoom and pan handlers
+  // Zoom handlers
   const handleZoomIn = () => setZoom(prev => Math.min(prev * 1.3, 10));
-  const handleZoomOut = () => setZoom(prev => Math.max(prev / 1.3, 1));
+  const handleZoomOut = () => {
+    setZoom(prev => {
+      const newZoom = Math.max(prev / 1.3, 1);
+      if (newZoom === 1) setPanValue(50);
+      return newZoom;
+    });
+  };
   const handleResetView = () => {
     setZoom(1);
-    setPanOffset({ x: 0, y: 0 });
+    setPanValue(50);
   };
 
-  const handleMouseDown = (e) => {
-    if (e.button !== 0) return;
-    setIsDragging(true);
-    setDragStart({ x: e.clientX - panOffset.x, y: 0 });
-  };
+  // Cursor tracking
+  const handleChartMouseMove = (e) => {
+    const svgRect = svgRef.current.getBoundingClientRect();
+    const mouseX = e.clientX - svgRect.left;
+    const ratio = (mouseX - margin.left) / (svgWidth - margin.left - margin.right);
+    const dateAtCursor = new Date(xMin + ratio * (xMax - xMin));
 
-  const handleMouseMove = (e) => {
-    if (!isDragging) return;
-    setPanOffset({
-      x: e.clientX - dragStart.x,
-      y: 0 // No vertical panning
+    let nearest = null;
+    let minDist = Infinity;
+    dataPoints.forEach(p => {
+      const dist = Math.abs(p.x.getTime() - dateAtCursor.getTime());
+      if (dist < minDist) {
+        minDist = dist;
+        nearest = p;
+      }
     });
-  };
 
-  const handleMouseUp = () => setIsDragging(false);
-
-  useEffect(() => {
-    if (isDragging) {
-      window.addEventListener('mousemove', handleMouseMove);
-      window.addEventListener('mouseup', handleMouseUp);
-      return () => {
-        window.removeEventListener('mousemove', handleMouseMove);
-        window.removeEventListener('mouseup', handleMouseUp);
-      };
+    if (nearest) {
+      setCursor({ x: xScale(nearest.x), point: nearest });
     }
-  }, [isDragging, dragStart]);
-
-  const handleMouseEnter = (e, p) => {
-    const svgRect = e.currentTarget.ownerSVGElement.getBoundingClientRect();
-    const chartX = xScale(p.x);
-    const chartY = yScale(p.y);
-    const percentX = chartX / svgWidth;
-    const percentY = chartY / svgHeight;
-    const screenX = svgRect.left + (svgRect.width * percentX);
-    const screenY = svgRect.top + (svgRect.height * percentY);
-
-    setTooltip({ x: screenX, y: screenY, value: p });
   };
-
-  // Calculate statistics
-  const stats = useMemo(() => {
-    if (dataPoints.length === 0) return null;
-    const values = dataPoints.map(p => p.y);
-    const avg = values.reduce((a, b) => a + b, 0) / values.length;
-    const max = Math.max(...values);
-    const min = Math.min(...values);
-    return { avg, max, min };
-  }, [dataPoints]);
-
-  
-const [cursor, setCursor] = useState(null); // { x: number, point: {...} }
-const handleChartMouseMove = (e) => {
-  const svgRect = svgRef.current.getBoundingClientRect();
-  const mouseX = e.clientX - svgRect.left;
-
-  // Convert mouseX back to a date
-  const ratio = (mouseX - margin.left) / (svgWidth - margin.left - margin.right);
-  const dateAtCursor = new Date(xMin + ratio * (xMax - xMin));
-
-  // Find nearest data point
-  let nearest = null;
-  let minDist = Infinity;
-  dataPoints.forEach((p) => {
-    const dist = Math.abs(p.x.getTime() - dateAtCursor.getTime());
-    if (dist < minDist) {
-      minDist = dist;
-      nearest = p;
-    }
-  });
-
-  if (nearest) {
-    setCursor({
-      x: xScale(nearest.x),
-      point: nearest
-    });
-  }
-};
-
-const handleChartMouseLeave = () => {
-  setCursor(null);
-};
 
   return isOpen ? (
      <motion.div
@@ -436,6 +304,14 @@ const handleChartMouseLeave = () => {
           >
             <X className="w-5 h-5 text-gray-600" />
           </button>
+        </div>
+
+        <div>
+          <DraggableBar
+          value={panValue}
+          onChange={setPanValue}
+          disabled={zoom<=1}
+          ></DraggableBar>
         </div>
 
         <div className="flex-1 px-6 py-5 overflow-y-auto">
@@ -650,13 +526,10 @@ const handleChartMouseLeave = () => {
               <div className="relative h-0 w-full pt-[47.3%]">
                 <svg 
                   ref={svgRef}
-                  viewBox={`0 0 ${svgWidth} ${svgHeight}`} 
-                  preserveAspectRatio="xMidYMid meet" 
-                  className={`absolute top-0 left-0 w-full h-full ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
-                  onMouseDown={handleMouseDown}
+                  viewBox={`0 0 ${svgWidth} ${svgHeight}`}
+                  className="absolute top-0 left-0 w-full h-full"
                   onMouseMove={handleChartMouseMove}
-                  onMouseLeave={handleChartMouseLeave}
-                  onWheel={(e) => e.preventDefault()}
+                  onMouseLeave={() => setCursor(null)}
                 >
                   <defs>
                     <clipPath id="chart-area-clip">
@@ -798,13 +671,13 @@ const handleChartMouseLeave = () => {
                             cx={xScale(p.x)}
                             cy={yScale(p.y)}
                             r={timePeriod === "yearly" ? "6" : timePeriod === "monthly" ? "4.5" : "4"}
-                            fill={p.type === "historical" ? "#3b82f6" : p.type === "mixed" ? "#8b5cf6" : "#10b981"}
+                            fill={p.type === "historical" ? "#3b82f6" : "#10b981"}
                             stroke="white"
                             strokeWidth="2"
                             className="cursor-pointer transition-all hover:r-6"
                             style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))' }}
-                            onMouseEnter={(e) => handleMouseEnter(e, p)}
-                            onMouseLeave={() => setTooltip(null)}
+                            // onMouseEnter={(e) => handleMouseEnter(e, p)}
+                            // onMouseLeave={() => setTooltip(null)}
                           />
                         )}
                         {showLabels && (
