@@ -67,15 +67,15 @@ const DraggableBar = ({ min = 0, max = 100, value, onChange, disabled = false })
         <span className="text-xs font-semibold text-gray-600 whitespace-nowrap">Pan View:</span>
         <div
           ref={trackRef}
-          className={`relative flex-1 h-2 rounded-full bg-gray-300 ${disabled ? 'opacity-40' : 'cursor-pointer'}`}
+          className={`relative flex-1 h-2 rounded-full bg-[#2f779b] ${disabled ? 'opacity-40' : 'cursor-pointer'}`}
         >
           <div
-            className="absolute left-0 top-0 h-full rounded-full bg-blue-500"
+            className="absolute left-0 top-0 h-full rounded-full"
             style={{ width: `${valueToPercent(value)}%` }}
           />
           <motion.div
             style={{ x }}
-            className="absolute -top-1 h-4 w-4 rounded-full bg-white shadow-lg border-2 border-blue-500 cursor-grab active:cursor-grabbing"
+            className="absolute -top-1 h-4 w-4 rounded-full bg-blue-light shadow-lg border-2 border-blue-500 cursor-grab active:cursor-grabbing"
           >
             <div className="h-full w-full rounded-full bg-blue-500/30" />
           </motion.div>
