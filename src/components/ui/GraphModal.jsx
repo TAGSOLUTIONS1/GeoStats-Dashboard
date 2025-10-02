@@ -306,13 +306,6 @@ const GraphModal = ({
           </button>
         </div>
 
-        <div>
-          <DraggableBar
-          value={panValue}
-          onChange={setPanValue}
-          disabled={zoom<=1}
-          ></DraggableBar>
-        </div>
 
         <div className="flex-1 px-6 py-5 overflow-y-auto">
           {/* Controls */}
@@ -511,6 +504,15 @@ const GraphModal = ({
                 {timePeriod !== "all" && <span className="ml-1">({timePeriod} aggregation)</span>}
               </div>
             </div>
+
+            <div>
+          <DraggableBar
+          value={panValue}
+          onChange={setPanValue}
+          disabled={zoom<=1}
+          ></DraggableBar>
+        </div>
+        
           </div>
 
           {/* SVG Chart */}
