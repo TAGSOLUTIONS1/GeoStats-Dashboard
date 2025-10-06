@@ -68,6 +68,24 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
             </div>
           )}
           
+          {/* {selectedItem.id === 'home-value' && (
+            <div className="space-y-2">
+              <p className="text-gray-300 text-xs">
+                <strong className="text-white">Data Range:</strong> $208,652 - $6,025,408
+              </p>
+              <p className="text-gray-300 text-xs">
+                <strong className="text-white">Update Frequency:</strong> Monthly
+              </p>
+            </div>
+          )} */}
+          
+          {/* {selectedItem.isPremium && (
+            <div className="bg-orange-light bg-opacity-20 border border-orange-light border-opacity-30 rounded-lg p-3">
+              <p className="text-orange-light text-xs">
+                <strong>Premium Feature:</strong> This data point requires a premium subscription to access detailed analytics and historical data.
+              </p>
+            </div>
+          )} */}
         </div>
         
         <div className="pt-4 border-t border-gray-700">
@@ -90,10 +108,22 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
   const getResponsivePosition = () => {
     const viewportWidth = windowSize.width;
     const viewportHeight = windowSize.height;
-    const panelWidth = viewportWidth < 640 ? Math.min(320, viewportWidth - 32) : 320; // sm: 320px, mobile: min(320, screen-32)
-    const panelHeight = 200; // Estimated height
-    const margin = 24; // Safe margin from edges
-    const bottomMargin = 100; // Extra margin from bottom
+    
+    // For screens larger than 700px, use original simple positioning
+    if (viewportWidth > 700) {
+      return {
+        left: position.left + 10,
+        top: position.top,
+        transform: 'translateY(-50%)',
+        arrowPosition: 'left-0 -translate-x-1/2'
+      };
+    }
+    
+    // For smaller screens, use responsive positioning
+    const panelWidth = viewportWidth < 640 ? Math.min(320, viewportWidth - 32) : 320;
+    const panelHeight = 200;
+    const margin = 24;
+    const bottomMargin = 100;
     
     let left = position.left + 10;
     let top = position.top;
@@ -102,32 +132,30 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
     
     // Check if panel would go off the right edge
     if (left + panelWidth > viewportWidth - margin) {
-      left = position.left - panelWidth - 10; // Position to the left
+      left = position.left - panelWidth - 10;
       arrowPosition = 'right-0 translate-x-1/2';
     }
     
-    // Check if panel would go off the bottom edge (more aggressive check)
+    // Check if panel would go off the bottom edge
     const bottomSpace = viewportHeight - position.top;
     const topSpace = position.top;
     
     // If there's more space above, position above the click point
     if (topSpace > bottomSpace && topSpace > panelHeight + margin) {
-      top = position.top - panelHeight/2 - 10; // Position above
+      top = position.top - panelHeight/2 - 10;
       transform = 'translateY(-50%)';
     }
     // If there's more space below, position below the click point
     else if (bottomSpace > panelHeight + bottomMargin) {
-      top = position.top + panelHeight/2 + 10; // Position below
+      top = position.top + panelHeight/2 + 10;
       transform = 'translateY(0)';
     }
     // If neither has enough space, position to fit within viewport
     else {
       if (topSpace < bottomSpace) {
-        // Position at bottom of screen with extra margin
         top = viewportHeight - panelHeight - bottomMargin;
         transform = 'translateY(0)';
       } else {
-        // Position at top of screen with margin
         top = margin;
         transform = 'translateY(0)';
       }
@@ -151,7 +179,7 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
       left = Math.max(margin, (viewportWidth - panelWidth) / 2);
       top = Math.max(margin, Math.min(viewportHeight - panelHeight - bottomMargin, position.top));
       transform = 'translateY(0)';
-      arrowPosition = 'hidden'; // Hide arrow on very small screens
+      arrowPosition = 'hidden';
     }
     
     return { left, top, transform, arrowPosition };
@@ -171,12 +199,14 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
       <div 
         ref={panelRef} 
         className={`bg-gray-900 rounded-lg shadow-xl border border-gray-700 pointer-events-auto ${
-          windowSize.width < 640 
-            ? `w-80 max-w-[calc(100vw-2rem)]` 
-            : 'max-w-md w-80'
+          windowSize.width > 700 
+            ? 'max-w-md w-80' 
+            : windowSize.width < 640 
+              ? `w-80 max-w-[calc(100vw-2rem)]` 
+              : 'max-w-md w-80'
         }`}
       >
-        <div className="p-4 sm:p-6">
+        <div className={windowSize.width > 700 ? 'p-6' : 'p-4 sm:p-6'}>
           {renderContent()}
         </div>
       </div>
