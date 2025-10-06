@@ -5,6 +5,16 @@ import {
   BarChart3,
   DollarSign,
   Users,
+  Heart,
+  Shield,
+  Lightbulb,
+  Building,
+  Car,
+  GraduationCap,
+  Stethoscope,
+  TreePine,
+  Wifi,
+  Bus,
 } from 'lucide-react';
 
 const dataPoints = [
@@ -347,7 +357,7 @@ const dataPoints = [
     isPremium:false, 
     description:'The area\'s population according to the most recent year of official UAE statistics and surveys.',
     source:'Zillow',
-    Upcoming: false,
+    Upcoming: true,
   },
   {
     count: 32,
@@ -789,6 +799,272 @@ const dataPoints = [
     source: 'Zillow',
     Upcoming: true,
   },
+  {
+    count: 72,
+    label:"Average Schooling Cost",
+    id:"average-schooling-cost",
+    icon: DollarSign,
+    isSelected: false,
+    isPremium: true,
+    description: 'The average cost of schooling in the area.',
+    source: 'Zillow',
+    Upcoming: true,
+  },
+  {
+    count: 73,
+    label:"Average Healthcare Cost",
+    id:"average-healthcare-cost",
+    icon: DollarSign,
+    isSelected: false,
+    isPremium: true,
+    description: 'The average cost of healthcare in the area.',
+    source: 'Zillow',
+    Upcoming: true,
+  },
+  {
+    count: 74,
+    label:"Average Transportation Cost",
+    id:"average-transportation-cost",
+    icon: DollarSign,
+    isSelected: false,
+    isPremium: true,
+    description: 'The average cost of transportation in the area.',
+    source: 'Zillow',
+    Upcoming: true,
+  },
+  {
+    count: 75,
+    label:"Average Living Cost",
+    id:"average-living-cost",
+    icon: DollarSign,
+    isSelected: false,
+    isPremium: true,
+    description: 'The average cost of living in the area.',
+    source: 'Zillow',
+    Upcoming: true,
+  },
+  {
+    count: 76,
+    label:"Average grocery cost",
+    id:"average-grocery-cost",
+    icon: DollarSign,
+    isSelected: false,
+    isPremium: true,
+    description: 'The average cost of groceries in the area.',
+    source: 'Zillow',
+    Upcoming: true,
+  },
+  {
+    count: 77,
+    label:"Average clothing cost",
+    id:"average-clothing-cost",
+    icon: DollarSign,
+    isSelected: false,
+    isPremium: true,
+    description: 'The average cost of clothing in the area.',
+    source: 'Zillow',
+    Upcoming: true,
+  },
+  {
+    count: 78,
+    label:"Salary to afford a car",
+    id:"salary-to-afford-a-car",
+    icon: DollarSign,
+    isSelected: false,
+    isPremium: true,
+    description: 'The salary needed to afford a car in the area.',
+    source: 'Zillow',
+    Upcoming: true,
+  },
+  {
+    count: 79,
+    label:"Salary to afford a house",
+    id:"salary-to-afford-a-house",
+    icon: DollarSign,
+    isSelected: false,
+    isPremium: true,
+    description: 'The salary needed to afford a house in the area.',
+    source: 'Zillow',
+    Upcoming: true,
+  },
+  {
+    count: 80,
+    label:"Salary to afford a vacation",
+    id:"salary-to-afford-a-vacation",
+    icon: DollarSign,
+    isSelected: false,
+    isPremium: true,
+    description: 'The salary needed to afford a vacation in the area.',
+    source: 'Zillow',
+    Upcoming: true,
+  },
+  // Public Interest & Community Benefit Data Points
+  {
+    count: 81,
+    label: "Community Safety Score",
+    id: "community-safety-score",
+    icon: Shield,
+    isSelected: false,
+    isPremium: true,
+    description: "A comprehensive safety rating based on crime statistics, emergency response times, and community safety initiatives. Higher scores indicate safer neighborhoods for residents.",
+    source: 'UAE Police & Community Data',
+    Upcoming: true,
+  },
+  {
+    count: 82,
+    label: "Public School Quality Rating",
+    id: "public-school-quality-rating",
+    icon: GraduationCap,
+    isSelected: false,
+    isPremium: true,
+    description: "Average rating of public schools in the area based on academic performance, teacher quality, and student outcomes. Helps families make informed education decisions.",
+    source: 'UAE Ministry of Education',
+    Upcoming: true,
+  },
+  {
+    count: 83,
+    label: "Healthcare Accessibility Score",
+    id: "healthcare-accessibility-score",
+    icon: Stethoscope,
+    isSelected: false,
+    isPremium: true,
+    description: "Measures access to quality healthcare including hospitals, clinics, and emergency services within reasonable distance. Critical for community health planning.",
+    source: 'UAE Health Authority',
+    Upcoming: true,
+  },
+  {
+    count: 84,
+    label: "Public Transportation Coverage",
+    id: "public-transportation-coverage",
+    icon: Bus,
+    isSelected: false,
+    isPremium: true,
+    description: "Percentage of area covered by public transportation including metro, buses, and other public transit options. Reduces traffic congestion and environmental impact.",
+    source: 'UAE RTA & Transport Authorities',
+    Upcoming: true,
+  },
+  {
+    count: 85,
+    label: "Green Space per Capita",
+    id: "green-space-per-capita",
+    icon: TreePine,
+    isSelected: false,
+    isPremium: true,
+    description: "Square meters of parks, gardens, and recreational green spaces per resident. Essential for community wellbeing and environmental quality.",
+    source: 'UAE Municipality Data',
+    Upcoming: true,
+  },
+  {
+    count: 86,
+    label: "Digital Infrastructure Score",
+    id: "digital-infrastructure-score",
+    icon: Wifi,
+    isSelected: false,
+    isPremium: true,
+    description: "Quality and coverage of internet connectivity, 5G networks, and digital infrastructure. Enables remote work and digital inclusion.",
+    source: 'UAE Telecommunications Authority',
+    Upcoming: true,
+  },
+  {
+    count: 87,
+    label: "Affordable Housing Units",
+    id: "affordable-housing-units",
+    icon: Building,
+    isSelected: false,
+    isPremium: true,
+    description: "Number of government-subsidized and affordable housing units available. Supports housing accessibility for low and middle-income families.",
+    source: 'UAE Housing Authority',
+    Upcoming: true,
+  },
+  {
+    count: 88,
+    label: "Community Engagement Index",
+    id: "community-engagement-index",
+    icon: Heart,
+    isSelected: false,
+    isPremium: true,
+    description: "Measures community participation in local events, volunteer activities, and civic engagement. Higher scores indicate stronger community bonds.",
+    source: 'Community Surveys & Local Government',
+    Upcoming: true,
+  },
+  {
+    count: 89,
+    label: "Environmental Quality Index",
+    id: "environmental-quality-index",
+    icon: TreePine,
+    isSelected: false,
+    isPremium: true,
+    description: "Air quality, water quality, and environmental sustainability metrics. Protects public health and ensures sustainable development.",
+    source: 'UAE Environment Agency',
+    Upcoming: true,
+  },
+  {
+    count: 90,
+    label: "Job Market Diversity",
+    id: "job-market-diversity",
+    icon: Lightbulb,
+    isSelected: false,
+    isPremium: true,
+    description: "Variety of employment opportunities across different sectors and skill levels. Promotes economic stability and career growth for residents.",
+    source: 'UAE Labor Market Data',
+    Upcoming: true,
+  },
+  {
+    count: 91,
+    label: "Senior Care Facilities",
+    id: "senior-care-facilities",
+    icon: Heart,
+    isSelected: false,
+    isPremium: true,
+    description: "Availability of elderly care services, nursing homes, and senior community centers. Ensures quality of life for aging population.",
+    source: 'UAE Health & Social Services',
+    Upcoming: true,
+  },
+  {
+    count: 92,
+    label: "Youth Development Programs",
+    id: "youth-development-programs",
+    icon: GraduationCap,
+    isSelected: false,
+    isPremium: true,
+    description: "Number and quality of programs supporting youth education, skills development, and career preparation. Invests in future community leaders.",
+    source: 'UAE Youth & Sports Authority',
+    Upcoming: true,
+  },
+  {
+    count: 93,
+    label: "Disability Accessibility Score",
+    id: "disability-accessibility-score",
+    icon: Shield,
+    isSelected: false,
+    isPremium: true,
+    description: "Accessibility of public spaces, transportation, and services for people with disabilities. Ensures inclusive community development.",
+    source: 'UAE Disability Services',
+    Upcoming: true,
+  },
+  {
+    count: 94,
+    label: "Cultural Diversity Index",
+    id: "cultural-diversity-index",
+    icon: Users,
+    isSelected: false,
+    isPremium: true,
+    description: "Measures cultural diversity and inclusion in the community. Promotes social cohesion and celebrates multicultural society.",
+    source: 'UAE Statistics Center',
+    Upcoming: true,
+  },
+  {
+    count: 95,
+    label: "Emergency Services Response Time",
+    id: "emergency-services-response-time",
+    icon: Shield,
+    isSelected: false,
+    isPremium: true,
+    description: "Average response time for police, fire, and medical emergency services. Critical for public safety and community protection.",
+    source: 'UAE Emergency Services',
+    Upcoming: true,
+  },
+  
 ];
 const getDataPointById = (id) => dataPoints.find((dp) => dp.id === id);
 
@@ -815,19 +1091,41 @@ export const dataSections = [
     label: 'Home Price & Affordability',
     isExpanded: false,
     items: [
-      dataPoints[0], // Home Value
-      dataPoints[1], // Home Value Growth (YoY)
-      dataPoints[5], // Home Value Growth (5-Year)
-      dataPoints[6], // Overvalued %
-      dataPoints[10], // Value / Income Ratio
-      dataPoints[13], // Mtg Payments as % of Income
-      dataPoints[11], // Mortgage Payments
-      dataPoints[12], // Salary to Afford a House
-      dataPoints[14], // Property Tax Rate
-      dataPoints[16], // Buy v Rent Differential
-      dataPoints[17], // % Change from June 2022
-      dataPoints[18], // % Crash from 2007-12
-      dataPoints[19], // Home Value Growth (MoM)
+      getDataPointById('home-value'),
+      getDataPointById('home-value-growth-yoy'),
+      getDataPointById('home-value-growth-5year'),
+      getDataPointById('overvalued-percent'),
+      getDataPointById('value-income-ratio'),
+      getDataPointById('mtg-payments-income-percent'),
+      getDataPointById('mortgage-payments'),
+      getDataPointById('salary-afford-house'),
+      getDataPointById('property-tax-rate'),
+      getDataPointById('buy-rent-differential'),
+      getDataPointById('change-june-2022'),
+      getDataPointById('crash-2007-12'),
+      getDataPointById('home-value-growth-mom'),
+    ]
+  },
+  {
+    id: 'community-wellbeing',
+    label: 'Community Wellbeing & Public Services',
+    isExpanded: false,
+    items: [
+      getDataPointById('community-safety-score'),
+      getDataPointById('public-school-quality-rating'),
+      getDataPointById('healthcare-accessibility-score'),
+      getDataPointById('public-transportation-coverage'),
+      getDataPointById('green-space-per-capita'),
+      getDataPointById('digital-infrastructure-score'),
+      getDataPointById('affordable-housing-units'),
+      getDataPointById('community-engagement-index'),
+      getDataPointById('environmental-quality-index'),
+      getDataPointById('job-market-diversity'),
+      getDataPointById('senior-care-facilities'),
+      getDataPointById('youth-development-programs'),
+      getDataPointById('disability-accessibility-score'),
+      getDataPointById('cultural-diversity-index'),
+      getDataPointById('emergency-services-response-time'),
     ]
   },
   {
@@ -835,21 +1133,21 @@ export const dataSections = [
     label: 'Market Trends',
     isExpanded: false,
     items: [
-      dataPoints[3], // Home Price Forecast
-      dataPoints[68], // Home Sales
-      dataPoints[69], // Home Sales Growth (YoY)
-      dataPoints[21], // Inventory Surplus/Deficit
-      dataPoints[7], // Price Cut %
-      dataPoints[22], // Days on Market
-      dataPoints[23], // Days on Market Growth (YoY)
-      dataPoints[24], // Inventory as % of Houses
-      dataPoints[25], // Median Listing Price
-      dataPoints[26], // Median Listing Price (YoY)
-      dataPoints[70], // New Listing Count
-      dataPoints[28], // New Listings Count (YoY)
-      dataPoints[2], // For Sale Inventory
-      dataPoints[29], // Sale Inventory Growth (MoM)
-      dataPoints[20], // Sale Inventory Growth (YoY)
+      getDataPointById('home-price-forecast'),
+      getDataPointById('home-sales'),
+      getDataPointById('home-sales-growth-yoy'),
+      getDataPointById('inventory-surplus-deficit'),
+      getDataPointById('price-cut-percent'),
+      getDataPointById('days-on-market'),
+      getDataPointById('days-on-market-growth-yoy'),
+      getDataPointById('inventory-percent-houses'),
+      getDataPointById('median-listing-price'),
+      getDataPointById('median-listing-price-yoy'),
+      getDataPointById('new-listing-count'),
+      getDataPointById('new-listings-count-yoy'),
+      getDataPointById('for-sale-inventory'),
+      getDataPointById('sale-inventory-growth-mom'),
+      getDataPointById('sale-inventory-growth-yoy'),
     ]
   },
   {
@@ -857,20 +1155,20 @@ export const dataSections = [
     label: 'Demographic',
     isExpanded: false,
     items: [
-      dataPoints[30], // Population
-      dataPoints[31], // Median Household Income
-      dataPoints[8], // Population Growth
-      dataPoints[32], // Income Growth
-      dataPoints[33], // Remote Work %
-      dataPoints[34], // College Degree Rate
-      dataPoints[35], // Unemployment Rate
-      dataPoints[36], // Homeownership Rate
-      dataPoints[38], // Mortgaged Home %
-      dataPoints[39], // Median Age
-      dataPoints[40], // Poverty Rate
-      dataPoints[42], // Family Households %
-      dataPoints[43], // Housing Units
-      dataPoints[44], // Housing Units Growth Rate
+      getDataPointById('population'),
+      getDataPointById('median-household-income'),
+      getDataPointById('population-growth'),
+      getDataPointById('income-growth'),
+      getDataPointById('remote-work-percent'),
+      getDataPointById('college-degree-rate'),
+      getDataPointById('unemployment-rate'),
+      getDataPointById('homeownership-rate'),
+      getDataPointById('mortgaged-home-percent'),
+      getDataPointById('median-age'),
+      getDataPointById('poverty-rate'),
+      getDataPointById('family-households-percent'),
+      getDataPointById('housing-units'),
+      getDataPointById('housing-units-growth-rate'),
     ]
   },
   {
@@ -878,13 +1176,13 @@ export const dataSections = [
     label: 'Investor Metrics',
     isExpanded: false,
     items: [
-      dataPoints[45], // Rental Rate
-      dataPoints[47], // Rent for Houses
-      dataPoints[9], // Cap Rate
-      dataPoints[49], // Vacancy Rate
-      dataPoints[50], // Home Value to Rent Ratio
-      dataPoints[51], // Rent as % of Income
-      dataPoints[52], // Shadow Inventory %
+      getDataPointById('rental-rate'),
+      getDataPointById('rent-for-houses'),
+      getDataPointById('cap-rate'),
+      getDataPointById('vacancy-rate'),
+      getDataPointById('home-value-rent-ratio'),
+      getDataPointById('rent-income-percent'),
+      getDataPointById('shadow-inventory-percent'),
     ]
   },
   {
@@ -892,8 +1190,8 @@ export const dataSections = [
     label: 'Geostats Scores',
     isExpanded: false,
     items: [
-      dataPoints[54], 
-      dataPoints[55], 
+      getDataPointById('geostats-score'),
+      getDataPointById('geostats-growth-score'),
     ]
-  }
+  },
 ];
