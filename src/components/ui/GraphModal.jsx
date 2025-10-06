@@ -280,7 +280,7 @@ const GraphModal = ({
       }
       transition={{ duration: 0.5, ease: "easeInOut" }}
       // className="fixed max-w-[96vw] max-h-[90vh] overflow-y-auto bottom-0 right-2 xl:right-[5%] 2xl:right-[15%] flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
-      className="fixed overflow-y-auto bottom-0 right-2 xl:right-[10%] 2xl:right-[15%] flex items-center justify-center z-50 p-4"
+      className="fixed overflow-y-auto bottom-0 w-[98%] right-2 xl:right-[10%] 2xl:right-[15%] flex items-center justify-center z-50 p-4"
     >
     <div className="bg-white rounded-2xl shadow-2xl w-full max-w-6xl max-h-[90vh] overflow-hidden flex flex-col">
         {/* Header */}
@@ -312,10 +312,10 @@ const GraphModal = ({
           <div className="flex flex-col gap-4 mb-6">
             {/* Time Period Selection */}
             <div className="flex items-center flex-wrap gap-3">
-              <span className="text-sm font-semibold text-gray-700">Time Period:</span>
+              <span className="text-xs sm:text-sm font-semibold text-gray-700">Time Period:</span>
               <div className="inline-flex rounded-lg border border-gray-300 overflow-hidden shadow-sm">
                 <button
-                  className={`px-4 py-2 text-sm font-medium transition-all ${
+                  className={`px-4 py-2 text-xs sm:text-sm font-medium transition-all ${
                     timePeriod === "all"
                       ? "bg-azure text-white"
                       : "bg-white hover:bg-gray-50 text-gray-700"
@@ -325,7 +325,7 @@ const GraphModal = ({
                   All Points
                 </button>
                 <button
-                  className={`px-4 py-2 text-sm font-medium border-l border-gray-300 transition-all ${
+                  className={`px-4 py-2 text-xs sm:text-sm font-medium border-l border-gray-300 transition-all ${
                     timePeriod === "monthly"
                       ? "bg-azure text-white"
                       : "bg-white hover:bg-gray-50 text-gray-700"
@@ -335,7 +335,7 @@ const GraphModal = ({
                   Monthly Avg
                 </button>
                 <button
-                  className={`px-4 py-2 text-sm font-medium border-l border-gray-300 transition-all ${
+                  className={`px-4 py-2 text-xs sm:text-sm font-medium border-l border-gray-300 transition-all ${
                     timePeriod === "yearly"
                       ? "bg-azure text-white"
                       : "bg-white hover:bg-gray-50 text-gray-700"
@@ -350,10 +350,10 @@ const GraphModal = ({
             <div className="flex flex-wrap items-center gap-4">
               {/* Data View Selection */}
               <div className="flex items-center gap-2">
-                <span className="text-sm font-semibold text-gray-700">View:</span>
+                <span className="text-xs sm:text-sm font-semibold text-gray-700">View:</span>
                 <div className="inline-flex rounded-lg border border-gray-300 overflow-hidden shadow-sm">
                   <button
-                    className={`px-3 py-1.5 text-sm transition-all ${
+                    className={`px-3 py-1.5 text-xs sm:text-sm transition-all ${
                       dataView === "all"
                         ? "bg-azure text-white"
                         : "bg-white hover:bg-gray-50"
@@ -364,7 +364,7 @@ const GraphModal = ({
                   </button>
                   {activeHistorical.length > 0 && (
                     <button
-                      className={`px-3 py-1.5 text-sm border-l border-gray-300 transition-all ${
+                      className={`px-3 py-1.5 text-xs sm:text-sm border-l border-gray-300 transition-all ${
                         dataView === "historical"
                           ? "bg-azure text-white"
                           : "bg-white hover:bg-gray-50"
@@ -375,7 +375,7 @@ const GraphModal = ({
                     </button>
                   )}
                   <button
-                    className={`px-3 py-1.5 text-sm border-l border-gray-300 transition-all ${
+                    className={`px-3 py-1.5 text-xs sm:text-sm border-l border-gray-300 transition-all ${
                       dataView === "forecast"
                         ? "bg-azure text-white"
                         : "bg-white hover:bg-gray-50"
@@ -389,10 +389,10 @@ const GraphModal = ({
 
               {/* Chart Type */}
               <div className="flex items-center gap-2">
-                <span className="text-sm font-semibold text-gray-700">Type:</span>
+                <span className="text-xs sm:text-sm font-semibold text-gray-700">Type:</span>
                 <div className="inline-flex rounded-lg border border-gray-300 overflow-hidden shadow-sm">
                   <button
-                    className={`px-3 py-1.5 text-sm transition-all ${
+                    className={`px-3 py-1.5 text-xs sm:text-sm transition-all ${
                       chartType === "line"
                         ? "bg-azure text-white"
                         : "bg-white hover:bg-gray-50"
@@ -402,7 +402,7 @@ const GraphModal = ({
                     Line
                   </button>
                   <button
-                    className={`px-3 py-1.5 text-sm border-l border-gray-300 transition-all ${
+                    className={`px-3 py-1.5 text-xs sm:text-sm border-l border-gray-300 transition-all ${
                       chartType === "scatter"
                         ? "bg-azure text-white"
                         : "bg-white hover:bg-gray-50"
@@ -415,8 +415,8 @@ const GraphModal = ({
               </div>
 
               {/* Options */}
-              <div className="flex items-center gap-3 ml-auto">
-                <label className="flex items-center gap-2 text-sm cursor-pointer hover:bg-gray-50 px-2 py-1 rounded transition-colors">
+              <div className="flex items-center gap-1 sm:gap-3 ml-auto">
+                <label className="flex items-center gap-2 text-xs sm:text-sm cursor-pointer hover:bg-gray-50 px-2 py-1 rounded transition-colors">
                   <input
                     type="checkbox"
                     checked={showTrend}
@@ -426,7 +426,7 @@ const GraphModal = ({
                   <TrendingUp className="w-4 h-4" />
                   Trend
                 </label>
-                <label className="flex items-center gap-2 text-sm cursor-pointer hover:bg-gray-50 px-2 py-1 rounded transition-colors">
+                <label className="flex items-center gap-2 text-xs sm:text-sm cursor-pointer hover:bg-gray-50 px-2 py-1 rounded transition-colors">
                   <input
                     type="checkbox"
                     checked={showLabels}
@@ -437,17 +437,17 @@ const GraphModal = ({
                 </label>
 
                 {/* Zoom Controls */}
-                <div className="flex items-center gap-1 border-l pl-3 border-gray-300">
+                <div className="flex items-center gap-1 border-l pl-1 sm:pl-3 border-gray-300">
                   <button
                     onClick={handleZoomIn}
-                    className="p-1.5 rounded-lg hover:bg-gray-100 transition-colors"
+                    className="p-0.5 sm:p-1.5 rounded-lg hover:bg-gray-100 transition-colors"
                     title="Zoom In"
                   >
                     <ZoomIn className="w-4 h-4" />
                   </button>
                   <button
                     onClick={handleZoomOut}
-                    className="p-1.5 rounded-lg hover:bg-gray-100 transition-colors"
+                    className="p-0.5 sm:p-1.5 rounded-lg hover:bg-gray-100 transition-colors"
                     title="Zoom Out"
                     disabled={zoom <= 1}
                   >
@@ -455,12 +455,12 @@ const GraphModal = ({
                   </button>
                   <button
                     onClick={handleResetView}
-                    className="p-1.5 rounded-lg hover:bg-gray-100 transition-colors"
+                    className="p-0.5 sm:p-1.5 rounded-lg hover:bg-gray-100 transition-colors"
                     title="Reset View"
                   >
                     <Maximize2 className="w-4 h-4" />
                   </button>
-                  <span className="text-xs text-gray-500 font-medium ml-1">
+                  <span className="text-xs sm:text-sm text-gray-500 font-medium ml-1">
                     {(zoom * 100).toFixed(0)}%
                   </span>
                 </div>
@@ -469,7 +469,7 @@ const GraphModal = ({
 
             {/* Custom Date Range */}
             <div className="flex items-center flex-wrap gap-3 pt-3 border-t border-gray-200">
-              <label className="flex items-center gap-2 text-sm cursor-pointer hover:bg-gray-50 px-2 py-1 rounded transition-colors">
+              <label className="flex items-center gap-2 text-xs sm:text-sm cursor-pointer hover:bg-gray-50 px-2 py-1 rounded transition-colors">
                 <input
                   type="checkbox"
                   checked={customRange}
@@ -486,7 +486,7 @@ const GraphModal = ({
                     type="date"
                     value={startDate}
                     onChange={(e) => setStartDate(e.target.value)}
-                    className="px-3 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className="px-3 py-1.5 text-xs sm:text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                   />
                   <span className="text-sm text-gray-500 font-medium">to</span>
                   <input
