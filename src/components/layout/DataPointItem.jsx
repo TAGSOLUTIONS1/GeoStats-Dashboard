@@ -39,7 +39,7 @@ const DataPointItem = ({
             checked={item.isSelected && !item.isPremium}
             disabled={item.isPremium}
             onChange={() => onItemClick(item)}
-            className=""
+            className="disabled:opacity-30"
           />
           </div>
           <div>

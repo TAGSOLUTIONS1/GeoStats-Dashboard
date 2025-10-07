@@ -280,9 +280,9 @@ const GraphModal = ({
       }
       transition={{ duration: 0.5, ease: "easeInOut" }}
       // className="fixed max-w-[96vw] max-h-[90vh] overflow-y-auto bottom-0 right-2 xl:right-[5%] 2xl:right-[15%] flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
-      className="fixed overflow-y-auto bottom-0 w-[98%] right-2 xl:right-[10%] 2xl:right-[15%] flex items-center justify-center z-50 p-4"
+      className="fixed bottom-0 w-[98%] md::w-[95%] xl:w-[85%] 2xl:w-[75%] right-1 md:right-[2%] xl:right-[5%] z-50 p-2 overflow-y-auto"
     >
-    <div className="bg-white rounded-2xl shadow-2xl w-full max-w-6xl max-h-[90vh] overflow-hidden flex flex-col">
+    <div className="bg-white rounded-2xl w-full max-h-[90vh] overflow-hidden flex flex-col">
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-gradient-to-r from-blue-50 to-white">
           <div>
@@ -788,12 +788,12 @@ const GraphModal = ({
               {dataView === "all" && activeHistorical.length > 0 && (
                 <div className="flex items-center justify-center gap-6 mt-4 text-xs bg-white rounded-lg py-3 px-4 border border-gray-200">
                   <div className="flex items-center gap-2">
-                    <div className="w-3 h-3 rounded-full bg-[#3b82f6] ring-2 ring-blue-200"></div>
-                    <span className="font-medium text-gray-700">Historical Data</span>
+                    <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-[#3b82f6] ring-2 ring-blue-200"></div>
+                    <span className="font-medium text-xs sm:text-sm text-gray-700">Historical Data</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <div className="w-3 h-3 rounded-full bg-green-500 ring-2 ring-green-200"></div>
-                    <span className="font-medium text-gray-700">Forecast Data</span>
+                    <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-green-500 ring-2 ring-green-200"></div>
+                    <span className="font-medium text-xs sm:text-sm text-gray-700">Forecast Data</span>
                   </div>
                   {/* {timePeriod !== "all" && (
                     <div className="flex items-center gap-2">
