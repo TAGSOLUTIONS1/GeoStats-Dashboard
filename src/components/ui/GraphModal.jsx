@@ -280,9 +280,9 @@ const GraphModal = ({
       }
       transition={{ duration: 0.5, ease: "easeInOut" }}
       // className="fixed max-w-[96vw] max-h-[90vh] overflow-y-auto bottom-0 right-2 xl:right-[5%] 2xl:right-[15%] flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
-      className="fixed overflow-y-auto bottom-0 w-[98%] right-2 xl:right-[10%] 2xl:right-[15%] flex items-center justify-center z-50 p-4"
+      className="fixed bottom-0 w-[98%] md::w-[95%] xl:w-[85%] 2xl:w-[75%] right-[2%] md:right-[3%] xl:right-[5%] z-50 p-2 overflow-y-auto"
     >
-    <div className="bg-white rounded-2xl shadow-2xl w-full max-w-6xl max-h-[90vh] overflow-hidden flex flex-col">
+    <div className="bg-white rounded-2xl w-full max-w-6xl max-h-[90vh] overflow-hidden flex flex-col">
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-gradient-to-r from-blue-50 to-white">
           <div>
