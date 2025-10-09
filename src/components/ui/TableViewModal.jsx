@@ -189,7 +189,7 @@ const tableHeaders = [
       initial={{ opacity: 0, y: "100%" }}
       animate={isOpen ? { opacity: 1, y: "0%" } : { opacity: 1, y: "100%" }}
       transition={{ duration: 0.5, ease: "easeInOut" }}
-      className="fixed w-[90%] lg:w-[78%] h-[98%] bottom-0 right-5 flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
+      className="fixed w-[90%] lg:w-[78%] h-[98%] bottom-0 right-5 flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl mobile-scroll-fix"
     >
       <div className="w-full h-full flex flex-col overflow-y-auto ">
         {/* Header */}
