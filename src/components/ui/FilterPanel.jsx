@@ -93,7 +93,7 @@ const FilterPanel = ({ isOpen, onClose }) => {
         initial={{ opacity: 0, height: 0 }}
         animate={isOpen ? { opacity: 1, height: "80%" } : { opacity: 1, height: 0 }}
         transition={{ duration: 0.75, ease: "easeInOut" }}
-        className="fixed top-16 right-10 w-80 bg-white shadow-2xl z-50 overflow-hidden"
+        className="fixed top-16 right-10 w-80 bg-white shadow-2xl z-50 overflow-hidden mobile-scroll-fix"
         onClick={onClose}
         >
       <div 

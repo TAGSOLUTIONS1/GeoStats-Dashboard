@@ -24,7 +24,7 @@ const FeedbackModal = ({ isOpen, onClose }) => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.2 }}
-      className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-10"
+      className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-10 mobile-scroll-fix"
     >
       <motion.div
         initial={{ opacity: 0, scale: 0.95, y: 20 }}

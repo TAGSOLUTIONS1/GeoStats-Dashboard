@@ -272,6 +272,19 @@ const GraphModal = ({
     }
   };
 
+  // Prevent body scroll when modal is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add('modal-open');
+    } else {
+      document.body.classList.remove('modal-open');
+    }
+    
+    return () => {
+      document.body.classList.remove('modal-open');
+    };
+  }, [isOpen]);
+
   return isOpen ? (
      <motion.div
       initial={{ opacity: 0, y: "100%" }}
@@ -279,7 +292,7 @@ const GraphModal = ({
         isOpen ? { opacity: 1, y: "0%" } : { opacity: 1, y: "100%" }
       }
       transition={{ duration: 0.5, ease: "easeInOut" }}
-      // className="fixed max-w-[96vw] max-h-[90vh] overflow-y-auto bottom-0 right-2 xl:right-[5%] 2xl:right-[15%] flex items-center justify-center z-50 p-4 bg-white border border-gray-200 shadow-2xl rounded-t-2xl"
+      // className="mobile-modal fixed bottom-0 w-[98%] md:w-[95%] lg:w-[70%] 2xl:w-[75%] right-1 md:right-[2%] xl:right-[5%] z-50 p-2 mobile-scroll-fix"
       className="fixed bottom-0 w-[98%] md:w-[95%] lg:w-[70%] 2xl:w-[75%] right-1 md:right-[2%] xl:right-[5%] z-50 p-2 overflow-y-auto"
     >
     <div className="bg-white rounded-2xl w-full max-h-[90vh] overflow-hidden flex flex-col">
