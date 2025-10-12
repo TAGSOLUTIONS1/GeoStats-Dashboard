@@ -178,7 +178,7 @@ const Map = ({selectedFilter}) => {
                   margin-top: 10px;
                   width: 100%;
                   padding: 8px 12px;
-                  background-color: #0ea5e9;
+                  background-color: #3696A8;
                   color: white;
                   border: none;
                   border-radius: 6px;
