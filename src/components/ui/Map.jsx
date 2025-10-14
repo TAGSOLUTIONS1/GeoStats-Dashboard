@@ -1,276 +1,341 @@
-import React, { useEffect, useRef, useState, useMemo, useCallback } from 'react';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { dubaiGeoData, geojsonData } from '../../data/geoData';
 import { dubaiWEBDATA } from '../../data/DubaiData';
-import { EmiratesData } from '../../data/Emirates';
 import { New_Population } from '../../data/new_population';
 
 const MapComponent = ({selectedFilter}) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
-  const [isStyleLoaded, setIsStyleLoaded] = useState(false);
-  const [isDataProcessing, setIsDataProcessing] = useState(false);
-  const clickPopupRef = useRef(null); // Track mobile popup
-  
-  // Cache for processed data to avoid reprocessing
+  const [isDataLoaded, setIsDataLoaded] = useState(false);
+  const [loadingError, setLoadingError] = useState(null);
+  const clickPopupRef = useRef(null);
   const processedDataCache = useRef(new Map());
+  const isProcessing = useRef(false);
+  const layersAdded = useRef(false);
+  const mountedRef = useRef(true);
   
-  // Performance monitoring
-  const performanceStart = useRef(null);
-  const performanceEnd = useRef(null);
-  
-  // Utility function to optimize GeoJSON for performance
-  const optimizeGeoJSON = useCallback((geojson) => {
-    return {
-      ...geojson,
-      features: geojson.features.map(feature => ({
-        ...feature,
-        // Simplify geometry for better performance
-        geometry: feature.geometry,
-        properties: {
-          // Only keep essential properties to reduce payload
-          CNAME_E: feature.properties.CNAME_E,
-          CNAME_A: feature.properties.CNAME_A,
-          COMMUNITY_E: feature.properties.COMMUNITY_E,
-          COMMUNITY_A: feature.properties.COMMUNITY_A,
-          COMM_NUM: feature.properties.COMM_NUM,
-          'Population 2019': feature.properties['Population 2019'],
-          'Population 2018': feature.properties['Population 2018'],
-          'Area Sq Km': feature.properties['Area Sq Km'],
-          Population_New: feature.properties.Population_New,
-          Area_New: feature.properties.Area_New,
-          PopDensity_New: feature.properties.PopDensity_New,
-          Latitude: feature.properties.Latitude,
-          Longitude: feature.properties.Longitude
-        }
-      }))
-    };
-  }, []);
-
-  // Dubai coordinates
   const lng = 55.3;
   const lat = 25.15;
-  const zoom = 7;
+  const zoom = 8;
 
-  // Detect mobile devices based on screen dimensions
-  const isMobile = () => {
-    return window.innerWidth <= 780;
-  };
+  const isMobile = () => window.innerWidth <= 780;
 
-  // Memoized function to add population data with caching
+  // Optimized population merge - no deep clone, shallow copy only
   const addPopulation = useCallback((geojson, populationArray) => {
-    const cacheKey = `${selectedFilter}-${geojson.features.length}-${populationArray.length}`;
+    if (!geojson || !populationArray) {
+      console.warn('Missing data for processing');
+      return null;
+    }
+
+    const cacheKey = `${selectedFilter}-${geojson.features?.length || 0}`;
     
-    // Check cache first
     if (processedDataCache.current.has(cacheKey)) {
+      console.log('Using cached data');
       return processedDataCache.current.get(cacheKey);
     }
+
+    const startTime = performance.now();
     
-    setIsDataProcessing(true);
-    performanceStart.current = performance.now();
-    
-    // Create a deep copy to avoid mutating original data
-    const processedGeojson = JSON.parse(JSON.stringify(geojson));
-    
-    // Create a lookup map for faster feature finding
-    const featureMap = new Map();
-    processedGeojson.features.forEach(feature => {
-      if (feature.properties.COMM_NUM) {
-        featureMap.set(feature.properties.COMM_NUM, feature);
-      }
-    });
-    
-    // Process population data with optimized lookup
-    populationArray.forEach(pop => {
-      const communityCode = pop["Community Code"];
-      const feature = featureMap.get(communityCode);
-      
-      if (feature) {
-        // Clean and parse population data
-        const populationStr = (pop["مجموع السكان\nTotal population"] || "0").replace(/,/g, "");
-        const population = parseInt(populationStr, 10);
-        
-        // Add new fields or update if already exist
-        feature.properties.Population_New = isNaN(population) ? 0 : population;
-        feature.properties.Area_New = parseFloat(pop["المساحة كم2\nArea km2"]) || 0;
-        feature.properties.PopDensity_New = parseFloat(
-          pop["الكثافة السكانية (فرد/كم2)\nPopulation Density (person/km2)"]
-        ) || 0;
-        
-        // Ensure we have a fallback to existing population data
-        if (!feature.properties.Population_New || feature.properties.Population_New === 0) {
-          feature.properties.Population_New = feature.properties["Population 2019"] || feature.properties["Population 2018"] || 0;
+    try {
+      // Build lookup map for population data
+      const popMap = new Map();
+      populationArray.forEach(pop => {
+        const code = pop["Community Code"];
+        if (code) {
+          const populationStr = (pop["مجموع السكان\nTotal population"] || "0").replace(/,/g, "");
+          const population = parseInt(populationStr, 10) || 0;
+          
+          popMap.set(code, {
+            Population_New: population,
+            Area_New: parseFloat(pop["المساحة كم2\nArea km2"]) || 0,
+            PopDensity_New: parseFloat(pop["الكثافة السكانية (فرد/كم2)\nPopulation Density (person/km2)"]) || 0
+          });
         }
-      }
-    });
-    
-    // Optimize the processed data for better performance
-    const optimizedData = optimizeGeoJSON(processedGeojson);
-    
-    // Cache the processed data
-    processedDataCache.current.set(cacheKey, optimizedData);
-    
-    performanceEnd.current = performance.now();
-    const processingTime = performanceEnd.current - performanceStart.current;
-    console.log(`Data processing took ${processingTime.toFixed(2)}ms`);
-    
-    setIsDataProcessing(false);
-    
-    return optimizedData;
+      });
+
+      // Shallow copy with merged properties
+      const processedGeojson = {
+        type: geojson.type,
+        features: geojson.features.map(feature => {
+          const popData = popMap.get(feature.properties?.COMM_NUM);
+          
+          if (!popData) return feature;
+
+          const Population_New = popData.Population_New || 
+                                 feature.properties["Population 2019"] || 
+                                 feature.properties["Population 2018"] || 0;
+
+          return {
+            type: feature.type,
+            geometry: feature.geometry,
+            properties: {
+              ...feature.properties,
+              Population_New,
+              Area_New: popData.Area_New,
+              PopDensity_New: popData.PopDensity_New
+            }
+          };
+        })
+      };
+
+      processedDataCache.current.set(cacheKey, processedGeojson);
+      
+      const endTime = performance.now();
+      console.log(`Data processing took ${(endTime - startTime).toFixed(2)}ms`);
+      
+      return processedGeojson;
+    } catch (error) {
+      console.error('Error processing data:', error);
+      return geojson; // Return original data as fallback
+    }
   }, [selectedFilter]);
 
+  // Get color scheme based on filter
+  const getColorScheme = useCallback((filterType) => {
+    const baseExpression = [
+      'case',
+      ['has', 'Population_New'],
+      ['get', 'Population_New'],
+      ['get', 'Population 2019']
+    ];
+
+    if (filterType === 'Area') {
+      return [
+        'interpolate',
+        ['linear'],
+        baseExpression,
+        0, '#f5f5f5',
+        1, '#ffebee',
+        100, '#ffcdd2',
+        1000, '#ffcdd2',
+        5000, '#ef9a9a',
+        10000, '#e57373',
+        20000, '#d32f2f',
+        50000, '#b71c1c'
+      ];
+    } else {
+      return [
+        'interpolate',
+        ['linear'],
+        baseExpression,
+        0, '#f5f5f5',
+        1, '#ffebee',
+        100, '#ffcdd2',
+        1000, '#ef9a9a',
+        5000, '#e57373',
+        10000, '#d32f2f',
+        20000, '#b71c1c'
+      ];
+    }
+  }, []);
+
   useEffect(() => {
+    mountedRef.current = true;
+
     const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
     if (!token || token === 'your_mapbox_access_token_here') {
+      setLoadingError('Mapbox token not configured');
       return;
     }
+    
     mapboxgl.accessToken = token;
     if (map.current) return;
 
-    map.current = new mapboxgl.Map({
-      container: mapContainer.current,
-      style: 'mapbox://styles/mapbox/streets-v12',
-      center: [lng, lat],
-      zoom: zoom,
-      // Performance optimizations
-      renderWorldCopies: false,
-      maxTileCacheSize: 50,
-      localIdeographFontFamily: 'Arial Unicode MS, sans-serif',
-      // maxBounds: [
-      //   [54.13, 24.5],
-      //   [56.4, 25.7]
-      // ]
-    });
+    try {
+      map.current = new mapboxgl.Map({
+        container: mapContainer.current,
+        style: 'mapbox://styles/mapbox/streets-v12',
+        center: [lng, lat],
+        zoom: zoom,
+        renderWorldCopies: false,
+        maxTileCacheSize: 50,
+        localIdeographFontFamily: 'Arial Unicode MS, sans-serif',
+        preserveDrawingBuffer: true,
+        trackResize: true
+      });
 
-    window.map = map.current;
+      window.map = map.current;
 
-    map.current.on('style.load', () => {
-      setIsStyleLoaded(true);
-    });
+      // Add error handler
+      map.current.on('error', (e) => {
+        console.error('Map error:', e);
+        if (mountedRef.current) {
+          setLoadingError('Map loading error');
+        }
+      });
 
-    map.current.on('load', () => {
-      setIsMapLoaded(true);
-      
-      // Progressive loading: Load data asynchronously to avoid blocking
-      setTimeout(() => {
-        const processedData = selectedFilter === 'Area' 
-          ? addPopulation(geojsonData, New_Population) 
-          : addPopulation(dubaiWEBDATA, New_Population);
+      // Style load handler
+      map.current.once('style.load', () => {
+        console.log('Map style loaded');
+      });
+
+      // Main load handler
+      map.current.once('load', () => {
+        if (!mountedRef.current) return;
         
-        // Add GeoJSON source with optimized settings
-        map.current.addSource('dubai-communities', {
-          type: 'geojson',
-          data: processedData,
-          // Performance optimizations
-          cluster: false,
-          clusterMaxZoom: 14,
-          clusterRadius: 50
-        });
+        console.log('Map loaded, preparing data...');
+        setIsMapLoaded(true);
+        
+        // Multiple deferred frames to ensure map is fully ready
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+              if (!mountedRef.current || !map.current) return;
+              
+              try {
+                console.log('Starting data processing...');
+                
+                const processedData = selectedFilter === 'Area' 
+                  ? addPopulation(geojsonData, New_Population) 
+                  : addPopulation(dubaiWEBDATA, New_Population);
 
-        // Add fill layer with performance optimizations
-        map.current.addLayer({
-          id: 'dubai-communities-fill',
-          type: 'fill',
-          source: 'dubai-communities',
-          layout: {
-            'visibility': 'visible'
-          },
-          paint: {
-            'fill-color': [
-              'interpolate',
-              ['linear'],
-              [
-                'case',
-                ['has', 'Population_New'],
-                ['get', 'Population_New'],
-                ['get', 'Population 2019']
-              ],
-                0,     '#f5f5f5', // very light gray for no data
-                1,     '#ffebee', // very light rose for minimal data
-                100,   '#ffcdd2', // soft pink
-                1000,  '#ffcdd2', // soft pink
-                5000,  '#ef9a9a', // light red
-                10000, '#e57373', // medium red
-                20000, '#d32f2f', // Emirates red
-                50000, '#b71c1c'  // deep maroon red
-            ],
-            'fill-opacity': 0.7,
-            'fill-antialias': true
-          }
-        });
+                if (!processedData || !map.current) {
+                  console.error('No processed data or map destroyed');
+                  return;
+                }
 
-        // Add outline layer with performance optimizations
-        map.current.addLayer({
-          id: 'dubai-communities-stroke',
-          type: 'line',
-          source: 'dubai-communities',
-          layout: {
-            'visibility': 'visible'
-          },
-          paint: {
-            'line-color': '#000000',
-            'line-width': 0.8,
-            'line-opacity': 0.8
-          }
-        });
+                // Check if source already exists (shouldn't happen, but safety check)
+                if (map.current.getSource('dubai-communities')) {
+                  console.log('Source already exists, removing...');
+                  map.current.removeLayer('dubai-communities-name');
+                  map.current.removeLayer('dubai-communities-stroke');
+                  map.current.removeLayer('dubai-communities-fill');
+                  map.current.removeSource('dubai-communities');
+                }
 
-        // Add name + population labels with performance optimizations
-        map.current.addLayer({
-          id: 'dubai-communities-name',
-          type: 'symbol',
-          source: 'dubai-communities',
-          layout: {
-            'text-field': [
-              'format',
-              ['get', 'CNAME_E'], { 'font-scale': 1.1, 'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'] },
-              '\n',
-              [
-                'case',
-                ['has', 'Population_New'],
-                [
-                  'case',
-                  ['>', ['get', 'Population_New'], 0],
-                  ['number-format', ['get', 'Population_New'], { 'locale': 'en-US' }],
-                  'No Data'
-                ],
-                [
-                  'case',
-                  ['has', 'Population 2019'],
-                  [
-                    'case',
-                    ['>', ['get', 'Population 2019'], 0],
-                    ['number-format', ['get', 'Population 2019'], { 'locale': 'en-US' }],
-                    'No Data'
-                  ],
-                  'No Data'
-                ]
-              ],
-              { 'font-scale': 1.2, 'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'] }
-            ],
-            'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
-            'text-size': 10,
-            'text-justify': 'center',
-            'text-anchor': 'center',
-            'text-offset': [0, 0],
-            'text-allow-overlap': false,
-            'text-ignore-placement': false,
-            'text-optional': true,
-            'visibility': 'visible'
-          },
-          paint: {
-            'text-color': '#000000',
-            'text-halo-color': '#ffffff',
-            'text-halo-width': 1,
-            'text-opacity': 0.9
-          }
-        });
-      }, 100); // Small delay to allow map to render first
+                map.current.addSource('dubai-communities', {
+                  type: 'geojson',
+                  data: processedData,
+                  tolerance: 0.5,
+                  buffer: 0,
+                  maxzoom: 14
+                });
 
-      // Helper function to get value labels
+                map.current.addLayer({
+                  id: 'dubai-communities-fill',
+                  type: 'fill',
+                  source: 'dubai-communities',
+                  layout: {
+                    'visibility': 'visible'
+                  },
+                  paint: {
+                    'fill-color': getColorScheme(selectedFilter),
+                    'fill-opacity': 0.7,
+                    'fill-antialias': true
+                  }
+                });
+
+                map.current.addLayer({
+                  id: 'dubai-communities-stroke',
+                  type: 'line',
+                  source: 'dubai-communities',
+                  layout: {
+                    'visibility': 'visible'
+                  },
+                  paint: {
+                    'line-color': '#000000',
+                    'line-width': 0.8,
+                    'line-opacity': 0.8
+                  }
+                });
+
+                map.current.addLayer({
+                  id: 'dubai-communities-name',
+                  type: 'symbol',
+                  source: 'dubai-communities',
+                  layout: {
+                    'text-field': [
+                      'format',
+                      ['get', 'CNAME_E'], { 'font-scale': 1.1, 'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'] },
+                      '\n',
+                      [
+                        'case',
+                        ['has', 'Population_New'],
+                        [
+                          'case',
+                          ['>', ['get', 'Population_New'], 0],
+                          ['number-format', ['get', 'Population_New'], { 'locale': 'en-US' }],
+                          'No Data'
+                        ],
+                        [
+                          'case',
+                          ['has', 'Population 2019'],
+                          [
+                            'case',
+                            ['>', ['get', 'Population 2019'], 0],
+                            ['number-format', ['get', 'Population 2019'], { 'locale': 'en-US' }],
+                            'No Data'
+                          ],
+                          'No Data'
+                        ]
+                      ],
+                      { 'font-scale': 1.2, 'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'] }
+                    ],
+                    'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
+                    'text-size': 10,
+                    'text-justify': 'center',
+                    'text-anchor': 'center',
+                    'text-offset': [0, 0],
+                    'text-allow-overlap': false,
+                    'text-ignore-placement': false,
+                    'text-optional': true,
+                    'visibility': 'visible'
+                  },
+                  paint: {
+                    'text-color': '#000000',
+                    'text-halo-color': '#ffffff',
+                    'text-halo-width': 1,
+                    'text-opacity': 0.9
+                  }
+                });
+
+                layersAdded.current = true;
+                console.log('Layers added, setting up interactions...');
+                
+                setupInteractions();
+                setupMarker();
+                setupControls();
+                
+                if (mountedRef.current) {
+                  setIsDataLoaded(true);
+                }
+              } catch (error) {
+                console.error('Error setting up map layers:', error);
+                if (mountedRef.current) {
+                  setLoadingError('Failed to load map data');
+                }
+              }
+            });
+          });
+        });
+      });
+
+      // Timeout fallback - if map doesn't load in 10 seconds, show error
+      const timeout = setTimeout(() => {
+        if (!isDataLoaded && mountedRef.current) {
+          console.error('Map loading timeout');
+          setLoadingError('Map loading timeout. Please refresh.');
+        }
+      }, 10000);
+
+      return () => clearTimeout(timeout);
+
+    } catch (error) {
+      console.error('Error initializing map:', error);
+      if (mountedRef.current) {
+        setLoadingError('Failed to initialize map');
+      }
+    }
+
+    function setupInteractions() {
+      if (!map.current) return;
+
       const getValueLabels = (props) => {
-        const selected = (typeof window !== 'undefined' && window.selectedDataPoint) ? window.selectedDataPoint : 'population';
+        const selected = (typeof window !== 'undefined' && window.selectedDataPoint) 
+          ? window.selectedDataPoint : 'population';
         
         let valueLabel = '';
         let valueLabel2 = '';
@@ -287,13 +352,9 @@ const MapComponent = ({selectedFilter}) => {
         return { valueLabel, valueLabel2, valueLabel3 };
       };
 
-      // MOBILE: Click handler with popup and button
       if (isMobile()) {
         map.current.on('click', 'dubai-communities-fill', (e) => {
-          // Close any existing popup
-          if (clickPopupRef.current) {
-            clickPopupRef.current.remove();
-          }
+          if (clickPopupRef.current) clickPopupRef.current.remove();
 
           const props = e.features[0].properties;
           const placeName = props.COMMUNITY_E || props.CNAME_E || 'Selected Area';
@@ -323,7 +384,6 @@ const MapComponent = ({selectedFilter}) => {
             </div>
           `;
 
-          // Create and show popup
           const popup = new mapboxgl.Popup({ 
             closeButton: true, 
             maxWidth: '300px',
@@ -335,25 +395,20 @@ const MapComponent = ({selectedFilter}) => {
 
           clickPopupRef.current = popup;
 
-          // Attach button click handler after DOM renders
           setTimeout(() => {
             const btn = document.getElementById('show-graph-btn');
             if (btn) {
               btn.onclick = () => {
-                const detail = {
-                  placeName,
-                  lngLat: e.lngLat,
-                };
-                window.dispatchEvent(new CustomEvent('map:placeSelected', { detail }));
+                window.dispatchEvent(new CustomEvent('map:placeSelected', {
+                  detail: { placeName, lngLat: e.lngLat }
+                }));
                 popup.remove();
                 clickPopupRef.current = null;
               };
             }
           }, 50);
         });
-      } 
-      // DESKTOP: Hover tooltip + click handler
-      else {
+      } else {
         const hoverTooltip = new mapboxgl.Popup({
           closeButton: false,
           closeOnClick: false,
@@ -361,6 +416,7 @@ const MapComponent = ({selectedFilter}) => {
         });
 
         map.current.on('mousemove', 'dubai-communities-fill', (e) => {
+          if (!map.current) return;
           map.current.getCanvas().style.cursor = 'pointer';
           const props = e.features[0].properties;
           const { valueLabel, valueLabel2, valueLabel3 } = getValueLabels(props);
@@ -373,35 +429,36 @@ const MapComponent = ({selectedFilter}) => {
         });
 
         map.current.on('mouseleave', 'dubai-communities-fill', () => {
+          if (!map.current) return;
           map.current.getCanvas().style.cursor = '';
           hoverTooltip.remove();
         });
 
         map.current.on('click', 'dubai-communities-fill', (e) => {
           const props = e.features[0].properties;
-          const detail = {
-            placeName: props.COMMUNITY_E || props.CNAME_E || 'Selected Area',
-            lngLat: e.lngLat,
-          };
-          window.dispatchEvent(new CustomEvent('map:placeSelected', { detail }));
+          window.dispatchEvent(new CustomEvent('map:placeSelected', {
+            detail: { 
+              placeName: props.COMMUNITY_E || props.CNAME_E || 'Selected Area',
+              lngLat: e.lngLat
+            }
+          }));
         });
       }
+    }
 
-      // Load custom marker image
+    function setupMarker() {
+      if (!map.current) return;
+
       map.current.loadImage('/logo/geo_stats.png', (error, image) => {
-        if (error) {
+        if (error || !map.current) {
           console.error('Error loading marker image:', error);
           return;
         }
         
         map.current.addImage('search-marker', image);
-
         map.current.addSource('search-result', {
           type: 'geojson',
-          data: {
-            type: 'FeatureCollection',
-            features: []
-          }
+          data: { type: 'FeatureCollection', features: [] }
         });
 
         map.current.addLayer({
@@ -417,136 +474,127 @@ const MapComponent = ({selectedFilter}) => {
         });
       });
 
-      // Expose function to update search marker
       window.highlightSearchResult = (coordinates) => {
-        if (!coordinates) return;
-        
+        if (!coordinates || !map.current || !map.current.getSource('search-result')) return;
         map.current.getSource('search-result').setData({
           type: 'FeatureCollection',
           features: [{
             type: 'Feature',
-            geometry: {
-              type: 'Point',
-              coordinates: coordinates
-            },
+            geometry: { type: 'Point', coordinates },
             properties: {}
           }]
         });
       };
+    }
 
-      // Add navigation controls
+    function setupControls() {
+      if (!map.current) return;
+
       map.current.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
-
-      // Add geolocate control
       map.current.addControl(
         new mapboxgl.GeolocateControl({
-          positionOptions: {
-            enableHighAccuracy: true
-          },
+          positionOptions: { enableHighAccuracy: true },
           trackUserLocation: true,
           showUserHeading: true
         }),
         'bottom-right'
       );
-
-      // Add fullscreen control
       map.current.addControl(new mapboxgl.FullscreenControl(), 'bottom-right');
-
-      // Add scale control
       map.current.addControl(new mapboxgl.ScaleControl({
         maxWidth: 100,
         unit: 'metric'
       }), 'bottom-left');
-    });
+    }
 
     return () => {
+      mountedRef.current = false;
       if (clickPopupRef.current) {
         clickPopupRef.current.remove();
+      }
+      if (map.current) {
+        map.current.remove();
+        map.current = null;
       }
     };
   }, []);
 
-  // Effect 2: update data when filter changes
+  // Update data when filter changes
   useEffect(() => {
-    if (!map.current || !isMapLoaded) return;
+    if (!map.current || !isMapLoaded || !layersAdded.current || isProcessing.current) return;
 
-    // Use cached data if available, otherwise process
-    const newData = selectedFilter === 'Area' 
-      ? addPopulation(geojsonData, New_Population) 
-      : addPopulation(dubaiWEBDATA, New_Population);
+    console.log('Filter changed to:', selectedFilter);
+    isProcessing.current = true;
 
-    if (map.current.getSource('dubai-communities')) {
-      // Batch update to avoid multiple re-renders
-      map.current.getSource('dubai-communities').setData(newData);
-    }
-
-    // Update fill color dynamically when filter changes
-    if (map.current.getLayer('dubai-communities-fill')) {
-      if (selectedFilter === 'Area') {
-        map.current.setPaintProperty('dubai-communities-fill', 'fill-color', [
-          'interpolate',
-          ['linear'],
-          [
-            'case',
-            ['has', 'Population_New'],
-            ['get', 'Population_New'],
-            ['get', 'Population 2019']
-          ],
-          0, '#f5f5f5', // very light gray for no data
-          1, '#ffebee', // very light rose for minimal data
-          100, '#ffcdd2', // soft pink
-          1000, '#ffcdd2', // soft pink
-          5000, '#ef9a9a', // light red
-          10000, '#e57373', // medium red
-          20000, '#d32f2f', // Emirates red
-          50000, '#b71c1c' // deep maroon red
-        ]);
-      } else if (selectedFilter === 'Emirate') {
-        map.current.setPaintProperty('dubai-communities-fill', 'fill-color', [
-          'interpolate',
-          ['linear'],
-          [
-            'case',
-            ['has', 'Population_New'],
-            ['get', 'Population_New'],
-            ['get', 'Population 2019']
-          ],
-          0, '#f5f5f5', // very light gray for no data
-          1, '#ffebee', // very light rose for minimal data
-          100, '#ffcdd2', // soft pink
-          1000, '#ef9a9a', // light red
-          5000, '#e57373', // medium red
-          10000, '#d32f2f', // Emirates red
-          20000, '#b71c1c' // deep maroon red
-        ]);
+    requestAnimationFrame(() => {
+      if (!map.current || !mountedRef.current) {
+        isProcessing.current = false;
+        return;
       }
-    }
-  }, [selectedFilter, isMapLoaded]);
+
+      try {
+        const newData = selectedFilter === 'Area' 
+          ? addPopulation(geojsonData, New_Population) 
+          : addPopulation(dubaiWEBDATA, New_Population);
+
+        if (!newData) {
+          isProcessing.current = false;
+          return;
+        }
+
+        const source = map.current.getSource('dubai-communities');
+        if (source) {
+          source.setData(newData);
+        }
+
+        const layer = map.current.getLayer('dubai-communities-fill');
+        if (layer) {
+          map.current.setPaintProperty('dubai-communities-fill', 'fill-color', getColorScheme(selectedFilter));
+        }
+      } catch (error) {
+        console.error('Error updating filter:', error);
+      } finally {
+        isProcessing.current = false;
+      }
+    });
+  }, [selectedFilter, isMapLoaded, addPopulation, getColorScheme]);
 
   const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
   const hasValidToken = token && token !== 'your_mapbox_access_token_here';
 
   return (
-    <div className="w-full h-full">
-      {(!isStyleLoaded || !isMapLoaded || isDataProcessing) && hasValidToken && (
+    <div className="w-full h-full relative">
+      {(!isDataLoaded && hasValidToken && !loadingError) && (
         <div className="absolute inset-0 flex items-center justify-center bg-gray-100 z-50">
           <div className="text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-4 border-gray-300 border-t-blue-500 mx-auto mb-4"></div>
-            <p className="text-gray-600 text-sm">
-              {isDataProcessing ? 'Processing data...' : 'Loading map...'}
-            </p>
+            <p className="text-gray-600 text-sm">Loading map...</p>
           </div>
         </div>
       )}
       
-      <div
-        ref={mapContainer}
+      <div 
+        ref={mapContainer} 
         className="w-full h-full"
-        style={{ width: '100%', height: '100%' }}
+        style={{ minHeight: '400px' }}
       />
       
+      {loadingError && (
+        <div className="absolute inset-0 flex items-center justify-center bg-white/90 z-50">
+          <div className="text-center p-4">
+            <h2 className="text-xl font-bold mb-2 text-red-600">Error Loading Map</h2>
+            <p className="text-gray-600 mb-4">{loadingError}</p>
+            <button 
+              onClick={() => window.location.reload()}
+              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            >
+              Reload Page
+            </button>
+          </div>
+        </div>
+      )}
+      
       {!hasValidToken && (
-        <div className="absolute inset-0 flex items-center justify-center bg-white/80">
+        <div className="absolute inset-0 flex items-center justify-center bg-white/80 z-50">
           <div className="text-center p-4">
             <h2 className="text-xl font-bold mb-2">Mapbox Setup Required</h2>
             <p className="text-gray-600">Add your Mapbox token to .env</p>
