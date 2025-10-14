@@ -7,7 +7,7 @@ import DatePicker from '../ui/DatePicker';
 import TooltipToggle from '../ui/TooltipToggle';
 import FeedbackModal from '../ui/FeedbackModal';
 import ShareModal from '../ui/ShareModal';
-import MapComponent from '../ui/Map';
+import Map from '../ui/Map';
 import GraphModal from '../ui/GraphModal';
 import AreasMap from "../../data/average_meter_price/forecasts/Areas_id.json";
 import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
@@ -255,7 +255,7 @@ const Layout = ({ children }) => {
       
       {/* Background Map - Fixed behind main content only */}
       <div className="absolute left-0 right-0 top-0 bottom-0">
-        <MapComponent selectedFilter={selectedFilter}/>
+        <Map selectedFilter={selectedFilter}/>
       </div>
       
       <main className="flex-1 relative z-20 flex flex-col pointer-events-none">
