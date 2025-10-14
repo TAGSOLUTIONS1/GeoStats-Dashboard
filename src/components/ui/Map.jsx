@@ -16,6 +16,7 @@ const MapComponent = ({selectedFilter}) => {
   const isProcessing = useRef(false);
   const layersAdded = useRef(false);
   const mountedRef = useRef(true);
+  const timeoutRef = useRef(null);
   
   const lng = 55.3;
   const lat = 25.15;
@@ -162,7 +163,7 @@ const MapComponent = ({selectedFilter}) => {
       // Add error handler
       map.current.on('error', (e) => {
         console.error('Map error:', e);
-        if (mountedRef.current) {
+        if (mountedRef.current && !isDataLoaded) {
           setLoadingError('Map loading error');
         }
       });
@@ -172,161 +173,175 @@ const MapComponent = ({selectedFilter}) => {
         console.log('Map style loaded');
       });
 
-      // Main load handler
+      // Main load handler with improved error handling
       map.current.once('load', () => {
         if (!mountedRef.current) return;
         
         console.log('Map loaded, preparing data...');
         setIsMapLoaded(true);
         
-        // Multiple deferred frames to ensure map is fully ready
-        requestAnimationFrame(() => {
-          requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-              if (!mountedRef.current || !map.current) return;
-              
-              try {
-                console.log('Starting data processing...');
-                
-                const processedData = selectedFilter === 'Area' 
-                  ? addPopulation(geojsonData, New_Population) 
-                  : addPopulation(dubaiWEBDATA, New_Population);
+        // Clear any existing timeout
+        if (timeoutRef.current) {
+          clearTimeout(timeoutRef.current);
+        }
+        
+        // Use setTimeout instead of triple requestAnimationFrame for more reliable execution
+        setTimeout(() => {
+          if (!mountedRef.current || !map.current) return;
+          
+          try {
+            console.log('Starting data processing...');
+            
+            const processedData = selectedFilter === 'Area' 
+              ? addPopulation(geojsonData, New_Population) 
+              : addPopulation(dubaiWEBDATA, New_Population);
 
-                if (!processedData || !map.current) {
-                  console.error('No processed data or map destroyed');
-                  return;
-                }
+            if (!processedData) {
+              console.error('No processed data');
+              if (mountedRef.current) {
+                setLoadingError('Failed to process map data');
+              }
+              return;
+            }
 
-                // Check if source already exists (shouldn't happen, but safety check)
-                if (map.current.getSource('dubai-communities')) {
-                  console.log('Source already exists, removing...');
-                  map.current.removeLayer('dubai-communities-name');
-                  map.current.removeLayer('dubai-communities-stroke');
-                  map.current.removeLayer('dubai-communities-fill');
-                  map.current.removeSource('dubai-communities');
-                }
+            if (!map.current) {
+              console.error('Map destroyed during processing');
+              return;
+            }
 
-                map.current.addSource('dubai-communities', {
-                  type: 'geojson',
-                  data: processedData,
-                  tolerance: 0.5,
-                  buffer: 0,
-                  maxzoom: 14
-                });
+            // Check if source already exists (shouldn't happen, but safety check)
+            if (map.current.getSource('dubai-communities')) {
+              console.log('Source already exists, removing...');
+              if (map.current.getLayer('dubai-communities-name')) {
+                map.current.removeLayer('dubai-communities-name');
+              }
+              if (map.current.getLayer('dubai-communities-stroke')) {
+                map.current.removeLayer('dubai-communities-stroke');
+              }
+              if (map.current.getLayer('dubai-communities-fill')) {
+                map.current.removeLayer('dubai-communities-fill');
+              }
+              map.current.removeSource('dubai-communities');
+            }
 
-                map.current.addLayer({
-                  id: 'dubai-communities-fill',
-                  type: 'fill',
-                  source: 'dubai-communities',
-                  layout: {
-                    'visibility': 'visible'
-                  },
-                  paint: {
-                    'fill-color': getColorScheme(selectedFilter),
-                    'fill-opacity': 0.7,
-                    'fill-antialias': true
-                  }
-                });
+            map.current.addSource('dubai-communities', {
+              type: 'geojson',
+              data: processedData,
+              tolerance: 0.5,
+              buffer: 0,
+              maxzoom: 14
+            });
 
-                map.current.addLayer({
-                  id: 'dubai-communities-stroke',
-                  type: 'line',
-                  source: 'dubai-communities',
-                  layout: {
-                    'visibility': 'visible'
-                  },
-                  paint: {
-                    'line-color': '#000000',
-                    'line-width': 0.8,
-                    'line-opacity': 0.8
-                  }
-                });
-
-                map.current.addLayer({
-                  id: 'dubai-communities-name',
-                  type: 'symbol',
-                  source: 'dubai-communities',
-                  layout: {
-                    'text-field': [
-                      'format',
-                      ['get', 'CNAME_E'], { 'font-scale': 1.1, 'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'] },
-                      '\n',
-                      [
-                        'case',
-                        ['has', 'Population_New'],
-                        [
-                          'case',
-                          ['>', ['get', 'Population_New'], 0],
-                          ['number-format', ['get', 'Population_New'], { 'locale': 'en-US' }],
-                          'No Data'
-                        ],
-                        [
-                          'case',
-                          ['has', 'Population 2019'],
-                          [
-                            'case',
-                            ['>', ['get', 'Population 2019'], 0],
-                            ['number-format', ['get', 'Population 2019'], { 'locale': 'en-US' }],
-                            'No Data'
-                          ],
-                          'No Data'
-                        ]
-                      ],
-                      { 'font-scale': 1.2, 'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'] }
-                    ],
-                    'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
-                    'text-size': 10,
-                    'text-justify': 'center',
-                    'text-anchor': 'center',
-                    'text-offset': [0, 0],
-                    'text-allow-overlap': false,
-                    'text-ignore-placement': false,
-                    'text-optional': true,
-                    'visibility': 'visible'
-                  },
-                  paint: {
-                    'text-color': '#000000',
-                    'text-halo-color': '#ffffff',
-                    'text-halo-width': 1,
-                    'text-opacity': 0.9
-                  }
-                });
-
-                layersAdded.current = true;
-                console.log('Layers added, setting up interactions...');
-                
-                setupInteractions();
-                setupMarker();
-                setupControls();
-                
-                if (mountedRef.current) {
-                  setIsDataLoaded(true);
-                }
-              } catch (error) {
-                console.error('Error setting up map layers:', error);
-                if (mountedRef.current) {
-                  setLoadingError('Failed to load map data');
-                }
+            map.current.addLayer({
+              id: 'dubai-communities-fill',
+              type: 'fill',
+              source: 'dubai-communities',
+              layout: {
+                'visibility': 'visible'
+              },
+              paint: {
+                'fill-color': getColorScheme(selectedFilter),
+                'fill-opacity': 0.7,
+                'fill-antialias': true
               }
             });
-          });
-        });
+
+            map.current.addLayer({
+              id: 'dubai-communities-stroke',
+              type: 'line',
+              source: 'dubai-communities',
+              layout: {
+                'visibility': 'visible'
+              },
+              paint: {
+                'line-color': '#000000',
+                'line-width': 0.8,
+                'line-opacity': 0.8
+              }
+            });
+
+            map.current.addLayer({
+              id: 'dubai-communities-name',
+              type: 'symbol',
+              source: 'dubai-communities',
+              layout: {
+                'text-field': [
+                  'format',
+                  ['get', 'CNAME_E'], { 'font-scale': 1.1, 'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'] },
+                  '\n',
+                  [
+                    'case',
+                    ['has', 'Population_New'],
+                    [
+                      'case',
+                      ['>', ['get', 'Population_New'], 0],
+                      ['number-format', ['get', 'Population_New'], { 'locale': 'en-US' }],
+                      'No Data'
+                    ],
+                    [
+                      'case',
+                      ['has', 'Population 2019'],
+                      [
+                        'case',
+                        ['>', ['get', 'Population 2019'], 0],
+                        ['number-format', ['get', 'Population 2019'], { 'locale': 'en-US' }],
+                        'No Data'
+                      ],
+                      'No Data'
+                    ]
+                  ],
+                  { 'font-scale': 1.2, 'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'] }
+                ],
+                'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
+                'text-size': 10,
+                'text-justify': 'center',
+                'text-anchor': 'center',
+                'text-offset': [0, 0],
+                'text-allow-overlap': false,
+                'text-ignore-placement': false,
+                'text-optional': true,
+                'visibility': 'visible'
+              },
+              paint: {
+                'text-color': '#000000',
+                'text-halo-color': '#ffffff',
+                'text-halo-width': 1,
+                'text-opacity': 0.9
+              }
+            });
+
+            layersAdded.current = true;
+            console.log('Layers added, setting up interactions...');
+            
+            setupInteractions();
+            setupMarker();
+            setupControls();
+            
+            if (mountedRef.current) {
+              setIsDataLoaded(true);
+              console.log('Map setup complete!');
+            }
+          } catch (error) {
+            console.error('Error setting up map layers:', error);
+            if (mountedRef.current) {
+              setLoadingError(`Failed to load map data: ${error.message}`);
+            }
+          }
+        }, 500); // 500ms delay is more reliable than triple RAF
       });
 
-      // Timeout fallback - if map doesn't load in 10 seconds, show error
-      const timeout = setTimeout(() => {
-        if (!isDataLoaded && mountedRef.current) {
-          console.error('Map loading timeout');
-          setLoadingError('Map loading timeout. Please refresh.');
+      // Timeout fallback - increased to 20 seconds for large datasets
+      timeoutRef.current = setTimeout(() => {
+        if (!isDataLoaded && mountedRef.current && !loadingError) {
+          console.error('Map loading timeout after 20 seconds');
+          setLoadingError('Map loading timeout. Please refresh the page.');
         }
-      }, 10000);
-
-      return () => clearTimeout(timeout);
+      }, 20000);
 
     } catch (error) {
       console.error('Error initializing map:', error);
       if (mountedRef.current) {
-        setLoadingError('Failed to initialize map');
+        setLoadingError(`Failed to initialize map: ${error.message}`);
       }
     }
 
@@ -508,6 +523,9 @@ const MapComponent = ({selectedFilter}) => {
 
     return () => {
       mountedRef.current = false;
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
       if (clickPopupRef.current) {
         clickPopupRef.current.remove();
       }
@@ -567,7 +585,8 @@ const MapComponent = ({selectedFilter}) => {
         <div className="absolute inset-0 flex items-center justify-center bg-gray-100 z-50">
           <div className="text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-4 border-gray-300 border-t-blue-500 mx-auto mb-4"></div>
-            <p className="text-gray-600 text-sm">Loading map...</p>
+            <p className="text-gray-600 text-sm">Loading map data...</p>
+            <p className="text-gray-400 text-xs mt-2">This may take a few moments</p>
           </div>
         </div>
       )}
@@ -580,12 +599,15 @@ const MapComponent = ({selectedFilter}) => {
       
       {loadingError && (
         <div className="absolute inset-0 flex items-center justify-center bg-white/90 z-50">
-          <div className="text-center p-4">
+          <div className="text-center p-4 max-w-md">
             <h2 className="text-xl font-bold mb-2 text-red-600">Error Loading Map</h2>
-            <p className="text-gray-600 mb-4">{loadingError}</p>
+            <p className="text-gray-600 mb-2">{loadingError}</p>
+            <p className="text-gray-500 text-sm mb-4">
+              Check your internet connection and Mapbox token configuration.
+            </p>
             <button 
               onClick={() => window.location.reload()}
-              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+              className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
             >
               Reload Page
             </button>
