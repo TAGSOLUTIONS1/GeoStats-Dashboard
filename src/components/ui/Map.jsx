@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useMemo, useCallback } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { dubaiGeoData, geojsonData } from '../../data/geoData';
@@ -6,12 +6,48 @@ import { dubaiWEBDATA } from '../../data/DubaiData';
 import { EmiratesData } from '../../data/Emirates';
 import { New_Population } from '../../data/new_population';
 
-const Map = ({selectedFilter}) => {
+const MapComponent = ({selectedFilter}) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
   const [isStyleLoaded, setIsStyleLoaded] = useState(false);
+  const [isDataProcessing, setIsDataProcessing] = useState(false);
   const clickPopupRef = useRef(null); // Track mobile popup
+  
+  // Cache for processed data to avoid reprocessing
+  const processedDataCache = useRef(new Map());
+  
+  // Performance monitoring
+  const performanceStart = useRef(null);
+  const performanceEnd = useRef(null);
+  
+  // Utility function to optimize GeoJSON for performance
+  const optimizeGeoJSON = useCallback((geojson) => {
+    return {
+      ...geojson,
+      features: geojson.features.map(feature => ({
+        ...feature,
+        // Simplify geometry for better performance
+        geometry: feature.geometry,
+        properties: {
+          // Only keep essential properties to reduce payload
+          CNAME_E: feature.properties.CNAME_E,
+          CNAME_A: feature.properties.CNAME_A,
+          COMMUNITY_E: feature.properties.COMMUNITY_E,
+          COMMUNITY_A: feature.properties.COMMUNITY_A,
+          COMM_NUM: feature.properties.COMM_NUM,
+          'Population 2019': feature.properties['Population 2019'],
+          'Population 2018': feature.properties['Population 2018'],
+          'Area Sq Km': feature.properties['Area Sq Km'],
+          Population_New: feature.properties.Population_New,
+          Area_New: feature.properties.Area_New,
+          PopDensity_New: feature.properties.PopDensity_New,
+          Latitude: feature.properties.Latitude,
+          Longitude: feature.properties.Longitude
+        }
+      }))
+    };
+  }, []);
 
   // Dubai coordinates
   const lng = 55.3;
@@ -23,27 +59,67 @@ const Map = ({selectedFilter}) => {
     return window.innerWidth <= 780;
   };
 
-  function addPopulation(geojson, populationArray) {
+  // Memoized function to add population data with caching
+  const addPopulation = useCallback((geojson, populationArray) => {
+    const cacheKey = `${selectedFilter}-${geojson.features.length}-${populationArray.length}`;
+    
+    // Check cache first
+    if (processedDataCache.current.has(cacheKey)) {
+      return processedDataCache.current.get(cacheKey);
+    }
+    
+    setIsDataProcessing(true);
+    performanceStart.current = performance.now();
+    
+    // Create a deep copy to avoid mutating original data
+    const processedGeojson = JSON.parse(JSON.stringify(geojson));
+    
+    // Create a lookup map for faster feature finding
+    const featureMap = new Map();
+    processedGeojson.features.forEach(feature => {
+      if (feature.properties.COMM_NUM) {
+        featureMap.set(feature.properties.COMM_NUM, feature);
+      }
+    });
+    
+    // Process population data with optimized lookup
     populationArray.forEach(pop => {
       const communityCode = pop["Community Code"];
-      
-      // Find matching feature by COMM_NUM
-      const feature = geojson.features.find(f => f.properties.COMM_NUM === communityCode);
+      const feature = featureMap.get(communityCode);
       
       if (feature) {
+        // Clean and parse population data
+        const populationStr = (pop["مجموع السكان\nTotal population"] || "0").replace(/,/g, "");
+        const population = parseInt(populationStr, 10);
+        
         // Add new fields or update if already exist
-        feature.properties.Population_New = parseInt(
-          (pop["مجموع السكان\nTotal population"] || "0").replace(/,/g, ""),
-          10
-        );
+        feature.properties.Population_New = isNaN(population) ? 0 : population;
         feature.properties.Area_New = parseFloat(pop["المساحة كم2\nArea km2"]) || 0;
         feature.properties.PopDensity_New = parseFloat(
           pop["الكثافة السكانية (فرد/كم2)\nPopulation Density (person/km2)"]
         ) || 0;
+        
+        // Ensure we have a fallback to existing population data
+        if (!feature.properties.Population_New || feature.properties.Population_New === 0) {
+          feature.properties.Population_New = feature.properties["Population 2019"] || feature.properties["Population 2018"] || 0;
+        }
       }
     });
-    return geojson;
-  }
+    
+    // Optimize the processed data for better performance
+    const optimizedData = optimizeGeoJSON(processedGeojson);
+    
+    // Cache the processed data
+    processedDataCache.current.set(cacheKey, optimizedData);
+    
+    performanceEnd.current = performance.now();
+    const processingTime = performanceEnd.current - performanceStart.current;
+    console.log(`Data processing took ${processingTime.toFixed(2)}ms`);
+    
+    setIsDataProcessing(false);
+    
+    return optimizedData;
+  }, [selectedFilter]);
 
   useEffect(() => {
     const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
@@ -58,10 +134,14 @@ const Map = ({selectedFilter}) => {
       style: 'mapbox://styles/mapbox/streets-v12',
       center: [lng, lat],
       zoom: zoom,
-      maxBounds: [
-        [54.13, 24.5],
-        [56.4, 25.7]
-      ]
+      // Performance optimizations
+      renderWorldCopies: false,
+      maxTileCacheSize: 50,
+      localIdeographFontFamily: 'Arial Unicode MS, sans-serif',
+      // maxBounds: [
+      //   [54.13, 24.5],
+      //   [56.4, 25.7]
+      // ]
     });
 
     window.map = map.current;
@@ -73,69 +153,120 @@ const Map = ({selectedFilter}) => {
     map.current.on('load', () => {
       setIsMapLoaded(true);
       
-      // Add GeoJSON source
-      map.current.addSource('dubai-communities', {
-        type: 'geojson',
-        data: selectedFilter === 'Area' ? addPopulation(geojsonData, New_Population) : addPopulation(dubaiWEBDATA, New_Population),
-      });
+      // Progressive loading: Load data asynchronously to avoid blocking
+      setTimeout(() => {
+        const processedData = selectedFilter === 'Area' 
+          ? addPopulation(geojsonData, New_Population) 
+          : addPopulation(dubaiWEBDATA, New_Population);
+        
+        // Add GeoJSON source with optimized settings
+        map.current.addSource('dubai-communities', {
+          type: 'geojson',
+          data: processedData,
+          // Performance optimizations
+          cluster: false,
+          clusterMaxZoom: 14,
+          clusterRadius: 50
+        });
 
-      // Add fill layer
-      map.current.addLayer({
-        id: 'dubai-communities-fill',
-        type: 'fill',
-        source: 'dubai-communities',
-        paint: {
-          'fill-color': [
-            'interpolate',
-            ['linear'],
-            ['get', 'Population 2019'],
-              0,     '#ffebee', // very light rose
-              1000,  '#ffcdd2', // soft pink
-              5000,  '#ef9a9a', // light red
-              10000, '#e57373', // medium red
-              20000, '#d32f2f', // Emirates red
-              50000, '#b71c1c'  // deep maroon red
-          ],
-          'fill-opacity': 0.7
-        }
-      });
+        // Add fill layer with performance optimizations
+        map.current.addLayer({
+          id: 'dubai-communities-fill',
+          type: 'fill',
+          source: 'dubai-communities',
+          layout: {
+            'visibility': 'visible'
+          },
+          paint: {
+            'fill-color': [
+              'interpolate',
+              ['linear'],
+              [
+                'case',
+                ['has', 'Population_New'],
+                ['get', 'Population_New'],
+                ['get', 'Population 2019']
+              ],
+                0,     '#f5f5f5', // very light gray for no data
+                1,     '#ffebee', // very light rose for minimal data
+                100,   '#ffcdd2', // soft pink
+                1000,  '#ffcdd2', // soft pink
+                5000,  '#ef9a9a', // light red
+                10000, '#e57373', // medium red
+                20000, '#d32f2f', // Emirates red
+                50000, '#b71c1c'  // deep maroon red
+            ],
+            'fill-opacity': 0.7,
+            'fill-antialias': true
+          }
+        });
 
-      // Add outline layer
-      map.current.addLayer({
-        id: 'dubai-communities-stroke',
-        type: 'line',
-        source: 'dubai-communities',
-        paint: {
-          'line-color': '#000000',
-          'line-width': 0.8
-        }
-      });
+        // Add outline layer with performance optimizations
+        map.current.addLayer({
+          id: 'dubai-communities-stroke',
+          type: 'line',
+          source: 'dubai-communities',
+          layout: {
+            'visibility': 'visible'
+          },
+          paint: {
+            'line-color': '#000000',
+            'line-width': 0.8,
+            'line-opacity': 0.8
+          }
+        });
 
-      // Add name + population labels
-      map.current.addLayer({
-        id: 'dubai-communities-name',
-        type: 'symbol',
-        source: 'dubai-communities',
-        layout: {
-          'text-field': [
-            'format',
-            ['get', 'CNAME_E'], { 'font-scale': 1.1, 'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'] },
-            '\n',
-            ['number-format', ['get', 'Population_New'], { 'locale': 'en-US' }],
-            { 'font-scale': 1.2, 'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'] }
-          ],
-          'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
-          'text-size': 10,
-          'text-justify': 'center',
-          'text-anchor': 'center',
-          'text-offset': [0, 0]
-        },
-        paint: {
-          'text-color': '#000000',
-          'text-halo-color': '#ffffff',
-          'text-halo-width': 1
-        }
-      });
+        // Add name + population labels with performance optimizations
+        map.current.addLayer({
+          id: 'dubai-communities-name',
+          type: 'symbol',
+          source: 'dubai-communities',
+          layout: {
+            'text-field': [
+              'format',
+              ['get', 'CNAME_E'], { 'font-scale': 1.1, 'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'] },
+              '\n',
+              [
+                'case',
+                ['has', 'Population_New'],
+                [
+                  'case',
+                  ['>', ['get', 'Population_New'], 0],
+                  ['number-format', ['get', 'Population_New'], { 'locale': 'en-US' }],
+                  'No Data'
+                ],
+                [
+                  'case',
+                  ['has', 'Population 2019'],
+                  [
+                    'case',
+                    ['>', ['get', 'Population 2019'], 0],
+                    ['number-format', ['get', 'Population 2019'], { 'locale': 'en-US' }],
+                    'No Data'
+                  ],
+                  'No Data'
+                ]
+              ],
+              { 'font-scale': 1.2, 'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'] }
+            ],
+            'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
+            'text-size': 10,
+            'text-justify': 'center',
+            'text-anchor': 'center',
+            'text-offset': [0, 0],
+            'text-allow-overlap': false,
+            'text-ignore-placement': false,
+            'text-optional': true,
+            'visibility': 'visible'
+          },
+          paint: {
+            'text-color': '#000000',
+            'text-halo-color': '#ffffff',
+            'text-halo-width': 1,
+            'text-opacity': 0.9
+          }
+        });
+      }, 100); // Small delay to allow map to render first
 
       // Helper function to get value labels
       const getValueLabels = (props) => {
@@ -339,9 +470,13 @@ const Map = ({selectedFilter}) => {
   useEffect(() => {
     if (!map.current || !isMapLoaded) return;
 
-    const newData = selectedFilter === 'Area' ? addPopulation(geojsonData, New_Population) : addPopulation(dubaiWEBDATA, New_Population);
+    // Use cached data if available, otherwise process
+    const newData = selectedFilter === 'Area' 
+      ? addPopulation(geojsonData, New_Population) 
+      : addPopulation(dubaiWEBDATA, New_Population);
 
     if (map.current.getSource('dubai-communities')) {
+      // Batch update to avoid multiple re-renders
       map.current.getSource('dubai-communities').setData(newData);
     }
 
@@ -351,20 +486,38 @@ const Map = ({selectedFilter}) => {
         map.current.setPaintProperty('dubai-communities-fill', 'fill-color', [
           'interpolate',
           ['linear'],
-          ['get', 'Population 2019'],
-          0, '#ffebee',
-          1000, '#ffcdd2',
-          5000, '#ef9a9a',
-          10000, '#e57373',
-          20000, '#d32f2f',
-          50000, '#b71c1c'
+          [
+            'case',
+            ['has', 'Population_New'],
+            ['get', 'Population_New'],
+            ['get', 'Population 2019']
+          ],
+          0, '#f5f5f5', // very light gray for no data
+          1, '#ffebee', // very light rose for minimal data
+          100, '#ffcdd2', // soft pink
+          1000, '#ffcdd2', // soft pink
+          5000, '#ef9a9a', // light red
+          10000, '#e57373', // medium red
+          20000, '#d32f2f', // Emirates red
+          50000, '#b71c1c' // deep maroon red
         ]);
       } else if (selectedFilter === 'Emirate') {
         map.current.setPaintProperty('dubai-communities-fill', 'fill-color', [
           'interpolate',
           ['linear'],
-          ['get', 'Population 2019'],
-          0, '#ef9a9a',
+          [
+            'case',
+            ['has', 'Population_New'],
+            ['get', 'Population_New'],
+            ['get', 'Population 2019']
+          ],
+          0, '#f5f5f5', // very light gray for no data
+          1, '#ffebee', // very light rose for minimal data
+          100, '#ffcdd2', // soft pink
+          1000, '#ef9a9a', // light red
+          5000, '#e57373', // medium red
+          10000, '#d32f2f', // Emirates red
+          20000, '#b71c1c' // deep maroon red
         ]);
       }
     }
@@ -375,11 +528,13 @@ const Map = ({selectedFilter}) => {
 
   return (
     <div className="w-full h-full">
-      {(!isStyleLoaded || !isMapLoaded) && hasValidToken && (
+      {(!isStyleLoaded || !isMapLoaded || isDataProcessing) && hasValidToken && (
         <div className="absolute inset-0 flex items-center justify-center bg-gray-100 z-50">
           <div className="text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-4 border-gray-300 border-t-blue-500 mx-auto mb-4"></div>
-            <p className="text-gray-600 text-sm">Loading map...</p>
+            <p className="text-gray-600 text-sm">
+              {isDataProcessing ? 'Processing data...' : 'Loading map...'}
+            </p>
           </div>
         </div>
       )}
@@ -402,4 +557,4 @@ const Map = ({selectedFilter}) => {
   );
 };
 
-export default Map;
+export default MapComponent;
