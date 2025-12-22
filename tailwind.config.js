@@ -29,6 +29,27 @@ export default {
         'orange':'#FE6A0F',
         'orange-light':'#FF7E2A',
         'orange-dark':'#E65A00',
+        // Design system colors for Dubai platform
+        'dubai': {
+          'blue': '#4A90A4',      // Muted blue
+          'blue-light': '#6BA8B8',
+          'blue-dark': '#2E6B7A',
+          'green': '#5A9A8A',     // Muted green
+          'green-light': '#7AB8A8',
+          'green-dark': '#3A7A6A',
+          'gray': {
+            '50': '#F9FAFB',
+            '100': '#F3F4F6',
+            '200': '#E5E7EB',
+            '300': '#D1D5DB',
+            '400': '#9CA3AF',
+            '500': '#6B7280',
+            '600': '#4B5563',
+            '700': '#374151',
+            '800': '#1F2937',
+            '900': '#111827',
+          }
+        }
       },
     },
   },
