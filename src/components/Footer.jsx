@@ -61,6 +61,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/faq" className="text-dubai-gray-300 hover:text-dubai-blue-light">
+                  FAQ
+                </Link>
+              </li>
+              <li>
                 <Link to="/contact" className="text-dubai-gray-300 hover:text-dubai-blue-light">
                   Become a Data Partner
                 </Link>

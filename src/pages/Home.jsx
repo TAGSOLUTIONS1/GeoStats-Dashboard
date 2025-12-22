@@ -94,7 +94,7 @@ const Home = () => {
     }
   ];
 
-  const [mapFilter, setMapFilter] = useState('Population');
+  const [mapFilter, setMapFilter] = useState('Area');
 
   return (
     <div className="min-h-screen bg-white">

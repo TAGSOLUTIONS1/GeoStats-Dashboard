@@ -15,6 +15,7 @@ const Navigation = () => {
     { path: '/b2g', label: 'For Government' },
     { path: '/use-cases', label: 'Use Cases' },
     { path: '/about', label: 'About' },
+    { path: '/faq', label: 'FAQ' },
   ];
 
   return (
