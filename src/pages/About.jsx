@@ -94,7 +94,7 @@ const About = () => {
             <div className="bg-white rounded-xl p-8 space-y-4">
               {principles.map((principle, index) => (
                 <div key={index} className="flex items-start">
-                  <CheckCircle className="h-6 w-6 text-dubai-green mr-4 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-6 w-6 text-dubai-blue mr-4 flex-shrink-0 mt-0.5" />
                   <span className="text-lg text-dubai-gray-700">{principle}</span>
                 </div>
               ))}
@@ -166,7 +166,7 @@ const About = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-dubai-blue to-dubai-green text-white">
+      <section className="py-20 bg-gradient-to-r from-dubai-blue to-dubai-blue-dark text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Join Us in Building Smarter Cities

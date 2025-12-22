@@ -92,18 +92,18 @@ const B2G = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-dubai-gray-50 to-dubai-green-50 py-20 lg:py-24">
+      <section className="bg-gradient-to-br from-dubai-gray-50 to-dubai-blue-50 py-20 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold text-dubai-gray-900 mb-6">
-              For <span className="text-dubai-green">Government</span> & Public Sector
+              For <span className="text-dubai-blue">Government</span> & Public Sector
             </h1>
             <p className="text-xl md:text-2xl text-dubai-gray-600 mb-8">
               Evidence-based urban planning and policy making powered by comprehensive data analytics.
             </p>
             <Link
               to="/contact"
-              className="bg-dubai-green text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-dubai-green-dark transition-colors inline-flex items-center"
+              className="bg-dubai-blue text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-dubai-blue-dark transition-colors inline-flex items-center"
             >
               Become a Data Partner
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -131,8 +131,8 @@ const B2G = () => {
                   key={index}
                   className="bg-dubai-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
                 >
-                  <div className="bg-dubai-green bg-opacity-10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-                    <Icon className="h-6 w-6 text-dubai-green" />
+                  <div className="bg-dubai-blue bg-opacity-10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                    <Icon className="h-6 w-6 text-dubai-blue" />
                   </div>
                   <h3 className="text-xl font-bold text-dubai-gray-900 mb-2">
                     {audience.title}
@@ -167,8 +167,8 @@ const B2G = () => {
                   className="bg-white rounded-xl p-8 hover:shadow-lg transition-shadow border border-dubai-gray-200"
                 >
                   <div className="flex items-start space-x-6">
-                    <div className="bg-dubai-green bg-opacity-10 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Icon className="h-8 w-8 text-dubai-green" />
+                    <div className="bg-dubai-blue bg-opacity-10 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Icon className="h-8 w-8 text-dubai-blue" />
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold text-dubai-gray-900 mb-4">
@@ -180,7 +180,7 @@ const B2G = () => {
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         {section.metrics.map((metric, idx) => (
                           <div key={idx} className="flex items-center">
-                            <CheckCircle className="h-5 w-5 text-dubai-green mr-3 flex-shrink-0" />
+                            <CheckCircle className="h-5 w-5 text-dubai-blue mr-3 flex-shrink-0" />
                             <span className="text-dubai-gray-700">{metric}</span>
                           </div>
                         ))}
@@ -230,7 +230,7 @@ const B2G = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-dubai-green to-dubai-blue text-white">
+      <section className="py-20 bg-gradient-to-r from-dubai-blue to-dubai-blue-dark text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Transform Urban Planning with Data
@@ -240,7 +240,7 @@ const B2G = () => {
           </p>
           <Link
             to="/contact"
-            className="bg-white text-dubai-green px-8 py-4 rounded-lg text-lg font-semibold hover:bg-dubai-gray-100 transition-colors inline-flex items-center"
+            className="bg-white text-dubai-blue px-8 py-4 rounded-lg text-lg font-semibold hover:bg-dubai-gray-100 transition-colors inline-flex items-center"
           >
             Become a Data Partner
             <ArrowRight className="ml-2 h-5 w-5" />

@@ -139,7 +139,7 @@ const UseCases = () => {
                     {/* Data Used */}
                     <div className="bg-white rounded-lg p-6">
                       <div className="flex items-center mb-4">
-                        <BarChart3 className="h-5 w-5 text-dubai-green mr-2" />
+                        <BarChart3 className="h-5 w-5 text-dubai-blue mr-2" />
                         <h3 className="text-xl font-bold text-dubai-gray-900">
                           Data Used
                         </h3>
@@ -147,7 +147,7 @@ const UseCases = () => {
                       <ul className="space-y-3">
                         {useCase.dataUsed.map((data, idx) => (
                           <li key={idx} className="flex items-start">
-                            <CheckCircle className="h-5 w-5 text-dubai-green mr-3 flex-shrink-0 mt-0.5" />
+                            <CheckCircle className="h-5 w-5 text-dubai-blue mr-3 flex-shrink-0 mt-0.5" />
                             <span className="text-dubai-gray-700">{data}</span>
                           </li>
                         ))}
@@ -198,8 +198,8 @@ const UseCases = () => {
               </p>
             </div>
             <div className="bg-white rounded-xl p-8 text-center">
-              <div className="bg-dubai-green bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl font-bold text-dubai-green">2</span>
+              <div className="bg-dubai-blue bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-2xl font-bold text-dubai-blue">2</span>
               </div>
               <h3 className="text-xl font-bold text-dubai-gray-900 mb-4">
                 Explore the Data
@@ -224,7 +224,7 @@ const UseCases = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-dubai-blue to-dubai-green text-white">
+      <section className="py-20 bg-gradient-to-r from-dubai-blue to-dubai-blue-dark text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Solve Your Urban Challenges?

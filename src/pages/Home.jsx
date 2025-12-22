@@ -151,7 +151,7 @@ const Home = () => {
                   <ul className="space-y-2">
                     {block.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center text-dubai-gray-700">
-                        <CheckCircle className="h-5 w-5 text-dubai-green mr-2 flex-shrink-0" />
+                        <CheckCircle className="h-5 w-5 text-dubai-blue mr-2 flex-shrink-0" />
                         <span>{feature}</span>
                       </li>
                     ))}
@@ -223,8 +223,8 @@ const Home = () => {
                   key={index}
                   className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow border border-dubai-gray-200"
                 >
-                  <div className="bg-dubai-green bg-opacity-10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-                    <Icon className="h-6 w-6 text-dubai-green" />
+                  <div className="bg-dubai-blue bg-opacity-10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                    <Icon className="h-6 w-6 text-dubai-blue" />
                   </div>
                   <h3 className="text-xl font-bold text-dubai-gray-900 mb-3">
                     {group.title}
@@ -274,7 +274,7 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-dubai-blue to-dubai-green text-white">
+      <section className="py-20 bg-gradient-to-r from-dubai-blue to-dubai-blue-dark text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Make Smarter Decisions?

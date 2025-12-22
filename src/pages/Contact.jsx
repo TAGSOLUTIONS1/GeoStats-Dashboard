@@ -92,8 +92,8 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="bg-dubai-green bg-opacity-10 w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <MapPin className="h-6 w-6 text-dubai-green" />
+                  <div className="bg-dubai-blue bg-opacity-10 w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <MapPin className="h-6 w-6 text-dubai-blue" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-dubai-gray-900 mb-1">Location</h3>
@@ -108,15 +108,15 @@ const Contact = () => {
                 </h3>
                 <ul className="space-y-3 text-dubai-gray-600">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-dubai-green mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-dubai-blue mr-2 flex-shrink-0 mt-0.5" />
                     <span>We'll review your request within 24-48 hours</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-dubai-green mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-dubai-blue mr-2 flex-shrink-0 mt-0.5" />
                     <span>We'll reach out to discuss data partnership opportunities</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-dubai-green mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-dubai-blue mr-2 flex-shrink-0 mt-0.5" />
                     <span>You'll be among the first to access the platform when it launches</span>
                   </li>
                 </ul>
@@ -128,8 +128,8 @@ const Contact = () => {
               <div className="bg-dubai-gray-50 rounded-xl p-8">
                 {submitted ? (
                   <div className="text-center py-12">
-                    <div className="bg-dubai-green bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                      <CheckCircle className="h-8 w-8 text-dubai-green" />
+                    <div className="bg-dubai-blue bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                      <CheckCircle className="h-8 w-8 text-dubai-blue" />
                     </div>
                     <h3 className="text-2xl font-bold text-dubai-gray-900 mb-4">
                       Request Submitted!
