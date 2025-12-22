@@ -22,19 +22,22 @@ const Home = () => {
       icon: MapPin,
       title: 'Location Intelligence',
       description: 'Population density, income levels, commute times, and footfall data at your fingertips.',
-      features: ['Population density', 'Income levels', 'Commute times', 'Footfall']
+      features: ['Population density', 'Income levels', 'Commute times', 'Footfall'],
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop'
     },
     {
       icon: Target,
       title: 'Real-World Decisions',
       description: 'Make informed choices about where to live, work, invest, and build.',
-      features: ['Where to live', 'Where to open a business', 'Where to invest', 'Where to build']
+      features: ['Where to live', 'Where to open a business', 'Where to invest', 'Where to build'],
+      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop'
     },
     {
       icon: Globe,
       title: 'Built for Dubai',
       description: 'Community-level insights powered by local data sources, focused on growth and planning.',
-      features: ['Community-level insights', 'Local data sources', 'Growth & planning focused']
+      features: ['Community-level insights', 'Local data sources', 'Growth & planning focused'],
+      image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&h=600&fit=crop'
     }
   ];
 
@@ -42,32 +45,38 @@ const Home = () => {
     {
       icon: Users,
       title: 'Residents & Expats',
-      decision: 'Find the best neighborhood to live based on rent, commute, and amenities.'
+      decision: 'Find the best neighborhood to live based on rent, commute, and amenities.',
+      image: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600&h=400&fit=crop'
     },
     {
       icon: Briefcase,
       title: 'Business Owners',
-      decision: 'Identify high-demand locations and understand customer demographics.'
+      decision: 'Identify high-demand locations and understand customer demographics.',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop'
     },
     {
       icon: TrendingUp,
       title: 'Investors & Developers',
-      decision: 'Discover growth areas and make data-driven investment decisions.'
+      decision: 'Discover growth areas and make data-driven investment decisions.',
+      image: 'https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=600&h=400&fit=crop'
     },
     {
       icon: Landmark,
       title: 'Urban Planners',
-      decision: 'Plan infrastructure and services based on population and demand data.'
+      decision: 'Plan infrastructure and services based on population and demand data.',
+      image: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=400&fit=crop'
     },
     {
       icon: Building2,
       title: 'Government Agencies',
-      decision: 'Make evidence-based policy decisions with comprehensive urban analytics.'
+      decision: 'Make evidence-based policy decisions with comprehensive urban analytics.',
+      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop'
     },
     {
       icon: GraduationCap,
       title: 'NGOs & Researchers',
-      decision: 'Access aggregated data for research and community development projects.'
+      decision: 'Access aggregated data for research and community development projects.',
+      image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop'
     }
   ];
 
@@ -75,22 +84,26 @@ const Home = () => {
     {
       icon: CheckCircle,
       title: 'One Source of Truth',
-      description: 'All your urban intelligence needs in one platform, no need to juggle multiple sources.'
+      description: 'All your urban intelligence needs in one platform, no need to juggle multiple sources.',
+      image: '/images/onesource.jpg'
     },
     {
       icon: BarChart3,
       title: 'Area-Level Averages',
-      description: 'Get meaningful insights from aggregated data, not noisy individual listings.'
+      description: 'Get meaningful insights from aggregated data, not noisy individual listings.',
+      image: '/images/arealvl.jpg'
     },
     {
       icon: TrendingUp,
       title: 'Easy Comparisons',
-      description: 'Compare neighborhoods, districts, and communities side-by-side effortlessly.'
+      description: 'Compare neighborhoods, districts, and communities side-by-side effortlessly.',
+      image: '/images/neigh.jpg'
     },
     {
       icon: MapPin,
       title: 'Historical + Future Insights',
-      description: 'Understand trends over time and see projections for better planning.'
+      description: 'Understand trends over time and see projections for better planning.',
+      image: '/images/past.jpg'
     }
   ];
 
@@ -137,25 +150,34 @@ const Home = () => {
               return (
                 <div
                   key={index}
-                  className="bg-dubai-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow"
+                  className="bg-dubai-gray-50 rounded-xl overflow-hidden hover:shadow-lg transition-shadow"
                 >
-                  <div className="bg-dubai-blue-light bg-opacity-10 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                    <Icon className="h-8 w-8 text-dubai-blue" />
+                  <div className="relative h-48 overflow-hidden">
+                    <img 
+                      src={block.image} 
+                      alt={block.title}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute top-4 left-4 bg-dubai-blue-light bg-opacity-90 w-16 h-16 rounded-lg flex items-center justify-center">
+                      <Icon className="h-8 w-8 text-white" />
+                    </div>
                   </div>
-                  <h3 className="text-2xl font-bold text-dubai-gray-900 mb-4">
-                    {block.title}
-                  </h3>
-                  <p className="text-dubai-gray-600 mb-6 text-lg">
-                    {block.description}
-                  </p>
-                  <ul className="space-y-2">
-                    {block.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-center text-dubai-gray-700">
-                        <CheckCircle className="h-5 w-5 text-dubai-blue mr-2 flex-shrink-0" />
-                        <span>{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  <div className="p-8">
+                    <h3 className="text-2xl font-bold text-dubai-gray-900 mb-4">
+                      {block.title}
+                    </h3>
+                    <p className="text-dubai-gray-600 mb-6 text-lg">
+                      {block.description}
+                    </p>
+                    <ul className="space-y-2">
+                      {block.features.map((feature, idx) => (
+                        <li key={idx} className="flex items-center text-dubai-gray-700">
+                          <CheckCircle className="h-5 w-5 text-dubai-blue mr-2 flex-shrink-0" />
+                          <span>{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               );
             })}
@@ -221,17 +243,33 @@ const Home = () => {
               return (
                 <div
                   key={index}
-                  className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow border border-dubai-gray-200"
+                  className="relative rounded-xl overflow-hidden hover:shadow-lg transition-shadow border border-dubai-gray-200 min-h-[280px]"
+                  style={{
+                    backgroundImage: `url(${group.image})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat'
+                  }}
                 >
-                  <div className="bg-dubai-blue bg-opacity-10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-                    <Icon className="h-6 w-6 text-dubai-blue" />
+                  {/* Overlay for better text readability */}
+                  <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
+                  
+                  {/* Content */}
+                  <div className="relative p-6 h-full flex flex-col justify-between z-10">
+                    <div className="flex justify-end mb-4">
+                      <div className="bg-dubai-blue bg-opacity-90 w-12 h-12 rounded-lg flex items-center justify-center">
+                        <Icon className="h-6 w-6 text-white" />
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-white mb-3">
+                        {group.title}
+                      </h3>
+                      <p className="text-white/90">
+                        <span className="font-semibold">Decision:</span> {group.decision}
+                      </p>
+                    </div>
                   </div>
-                  <h3 className="text-xl font-bold text-dubai-gray-900 mb-3">
-                    {group.title}
-                  </h3>
-                  <p className="text-dubai-gray-600">
-                    <span className="font-semibold">Decision:</span> {group.decision}
-                  </p>
                 </div>
               );
             })}
@@ -254,11 +292,18 @@ const Home = () => {
             {whyUsePoints.map((point, index) => {
               const Icon = point.icon;
               return (
-                <div key={index} className="flex items-start space-x-4">
-                  <div className="bg-dubai-blue bg-opacity-10 w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Icon className="h-6 w-6 text-dubai-blue" />
+                <div key={index} className="bg-white rounded-xl overflow-hidden border border-dubai-gray-200 hover:shadow-lg transition-shadow">
+                  <div className="relative h-48 overflow-hidden">
+                    <img 
+                      src={point.image} 
+                      alt={point.title}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute top-4 left-4 bg-dubai-blue bg-opacity-90 w-12 h-12 rounded-lg flex items-center justify-center">
+                      <Icon className="h-6 w-6 text-white" />
+                    </div>
                   </div>
-                  <div>
+                  <div className="p-6">
                     <h3 className="text-xl font-bold text-dubai-gray-900 mb-2">
                       {point.title}
                     </h3>
