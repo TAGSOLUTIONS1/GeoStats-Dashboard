@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, ArrowLeft, MapPin } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
 import TableViewModal from '../ui/TableViewModal';
@@ -261,8 +262,9 @@ const Layout = ({ children }) => {
       <main className="flex-1 relative z-20 flex flex-col pointer-events-none">
         {/* Top Header */}
         <div className="bg-white/95 mt-4 mx-2 sm:mx-4 lg:mx-6 border-b border-gray-200 px-2 sm:px-4 lg:px-6 py-2 flex justify-between pointer-events-auto items-center rounded-lg">
-          {/* Left side with hamburger and search */}
+          {/* Left side with back button, logo, hamburger and search */}
           <div className="flex items-center space-x-2 sm:space-x-4 flex-1">
+            
             {/* Hamburger Menu - Only visible on mobile */}
             <button
               onClick={toggleSidebar}

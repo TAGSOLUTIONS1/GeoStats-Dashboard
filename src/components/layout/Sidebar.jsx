@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowRight, ChevronDown, Search, Crown } from 'lucide-react';
+import { ArrowRight, ChevronDown, Search, Crown , ArrowLeft, MapPin } from 'lucide-react';
 import { useSidebar } from '../../hooks/useSidebar';
 import { dataSections } from '../../data/sidebarData';
 import SidebarSearch from './SidebarSearch';
 import DataSection from './DataSection';
 import DetailPanel from './DetailPanel';
 import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   
@@ -68,7 +69,14 @@ const Sidebar = () => {
   return (
         <div className="w-72 bg-gray-100 text-blue h-screen flex flex-col relative z-20 overflow-visible">
       {/* Header with Logo */}
-      <div className="p-4 border-b border-gray-700">
+      <div className="p-4 border-b border-gray-700 flex items-center gap-2">
+            <Link
+              to="/"
+              className="flex items-center space-x-2 p-2 bg-gray-200 hover:bg-gray-100 rounded-lg transition-colors group"
+              title="Back to Home"
+            >
+              <ArrowLeft className="w-5 h-5 text-gray-600 group-hover:text-azure" />
+            </Link>
         <div className="flex items-center space-x-2">
           <div className="w-10 h-10 rounded-lg flex items-center justify-center">
             <img src="/logo/geo_stats.png" alt="Logo" className="w-auto h-10" />
