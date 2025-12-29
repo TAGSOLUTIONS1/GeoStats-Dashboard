@@ -103,8 +103,16 @@ const B2C = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-dubai-gray-50 to-dubai-blue-50 py-20 lg:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section 
+        className="relative py-20 lg:py-24 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url(/images/pandb.jpg)`
+        }}
+      >
+        {/* Overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-br from-dubai-gray-50/80 via-dubai-blue-50/70 to-dubai-gray-50/80"></div>
+        
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold text-dubai-gray-900 mb-6">
               For People & <span className="text-dubai-blue">Businesses</span>

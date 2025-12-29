@@ -24,8 +24,12 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 flex-shrink-0">
-            <MapPin className="h-8 w-8 text-dubai-blue" />
-            <span className="text-2xl font-bold text-dubai-gray-900">GeoStats</span>
+          <div className="flex items-center space-x-2">
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center">
+                <img src="/logo/geo_stats.png" alt="Logo" className="w-auto h-10" />
+              </div>
+              <h1 className="text-2xl font-semibold text-orange font-tomorrow">GeoStats</h1>
+            </div>
           </Link>
 
           {/* Desktop Navigation - Centered */}
