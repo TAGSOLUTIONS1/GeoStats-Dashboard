@@ -5,7 +5,7 @@ import { dubaiGeoData, geojsonData } from '../../data/geoData';
 import { dubaiWEBDATA } from '../../data/DubaiData';
 import { New_Population } from '../../data/new_population';
 
-const Map = ({ selectedFilter }) => {
+const Map = ({ selectedFilter, disableScrollZoom = false }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
@@ -91,7 +91,8 @@ const Map = ({ selectedFilter }) => {
       style: 'mapbox://styles/mapbox/streets-v12',
       center: [lng, lat],
       zoom: zoom,
-      maxBounds: [[54.13, 24.5], [56.4, 25.7]]
+      maxBounds: [[54.13, 24.5], [56.4, 25.7]],
+      scrollZoom: !disableScrollZoom
     });
 
     window.map = map.current;
@@ -383,7 +384,7 @@ const Map = ({ selectedFilter }) => {
   const hasValidToken = token && token !== 'your_mapbox_access_token_here';
 
   return (
-    <div className="w-full h-full relative">
+    <div className="w-full h-full relative" style={{ pointerEvents: 'auto' }}>
       {!isMapLoaded && hasValidToken && (
         <div className="absolute inset-0 flex items-center justify-center bg-gray-100 z-50">
           <div className="text-center">
