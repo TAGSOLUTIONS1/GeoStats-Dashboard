@@ -67,7 +67,7 @@ const Sidebar = () => {
   };
 
   return (
-        <div className="w-72 bg-gray-100 text-blue h-screen flex flex-col relative z-20 overflow-visible">
+        <div className="w-72 bg-gray-100 text-blue h-screen flex flex-col relative z-20 overflow-visible sidebar-content">
       {/* Header with Logo */}
       <div className="p-4 border-b border-gray-700 flex items-center gap-2">
             <Link

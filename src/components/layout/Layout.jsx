@@ -26,8 +26,10 @@ const Layout = ({ children }) => {
   const [graphPlace, setGraphPlace] = useState('');
   const [searchSuggestions, setSearchSuggestions] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true); // Default to open on desktop
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
   const searchTimeoutRef = useRef(null);
+  const isDesktopRef = useRef(window.innerWidth >= 1024);
   const [isExploreModalOpen, setIsExploreModalOpen] = useState(false);
 
   const filterOptions = ['Emirate', 'Area'];
@@ -42,38 +44,54 @@ const Layout = ({ children }) => {
     return () => window.removeEventListener('map:placeSelected', onPlaceSelected);
   }, []);
 
-  // Close sidebar when clicking outside on mobile
+  // Close sidebar when clicking outside on mobile only
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (isSidebarOpen && !event.target.closest('.sidebar-container') && !event.target.closest('.hamburger-menu')) {
-        setIsSidebarOpen(false);
+      // Only handle click outside on mobile
+      if (!isDesktop && isSidebarOpen) {
+        // Check if click is inside sidebar (including all nested elements)
+        const sidebarElement = event.target.closest('.sidebar-container') || 
+                               event.target.closest('.sidebar-content');
+        
+        // Check if click is on hamburger menu
+        const isClickOnHamburger = event.target.closest('.hamburger-menu');
+        
+        // Don't close if clicking inside sidebar or on hamburger menu
+        if (!sidebarElement && !isClickOnHamburger) {
+          setIsSidebarOpen(false);
+        }
       }
     };
 
-    if (isSidebarOpen) {
+    if (isSidebarOpen && !isDesktop) {
       document.addEventListener('mousedown', handleClickOutside);
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+      };
     }
+  }, [isSidebarOpen, isDesktop]);
 
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, [isSidebarOpen]);
-
-  // Close sidebar on window resize to desktop
+  // Track screen size for responsive behavior
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth >= 1024) { // lg breakpoint
+      const desktop = window.innerWidth >= 1024;
+      const wasDesktop = isDesktopRef.current;
+      isDesktopRef.current = desktop;
+      setIsDesktop(desktop);
+      // Auto-close sidebar when resizing from desktop to mobile
+      if (wasDesktop && !desktop) {
         setIsSidebarOpen(false);
       }
     };
 
+    handleResize(); // Set initial state
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   // Prevent body scroll when mobile sidebar is open
   useEffect(() => {
-    if (isSidebarOpen && window.innerWidth < 1024) {
+    if (isSidebarOpen && !isDesktop) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = 'unset';
@@ -82,7 +100,7 @@ const Layout = ({ children }) => {
     return () => {
       document.body.style.overflow = 'unset';
     };
-  }, [isSidebarOpen]);
+  }, [isSidebarOpen, isDesktop]);
 
   const handleFilterPanel = () => {
     setIsFilterPanelOpen(!isFilterPanelOpen);
@@ -217,7 +235,7 @@ const Layout = ({ children }) => {
             if (e.detail === 'explore') {
                 setIsExploreModalOpen(true);
             }
-            if (window.innerWidth < 1024) { 
+            if (!isDesktop) { 
                 setIsSidebarOpen(false);
             }
         };
@@ -229,20 +247,37 @@ const Layout = ({ children }) => {
   return (
     <div className="flex h-screen bg-gray-50 relative mobile-scroll-fix">
       {/* Desktop Sidebar */}
-      <div className="hidden lg:block">
-        <Sidebar />
+      <div className={`hidden lg:block relative transition-all duration-300 ease-in-out overflow-hidden ${
+        isSidebarOpen ? 'w-72' : 'w-0'
+      }`}>
+        <div className="absolute left-0 top-0 h-full w-72 sidebar-content">
+          <div className="relative">
+            <Sidebar />
+            {/* Close button for desktop sidebar */}
+            <button
+              onClick={toggleSidebar}
+              className="absolute top-4 right-4 p-2 hover:bg-gray-200 rounded-lg transition-colors z-30"
+              aria-label="Close sidebar"
+            >
+              <X className="w-5 h-5 text-gray-600" />
+            </button>
+          </div>
+        </div>
       </div>
       
       {/* Mobile Sidebar Overlay */}
       {isSidebarOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden" />
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
+          onClick={toggleSidebar}
+        />
       )}
       
       {/* Mobile Sidebar */}
       <div className={`sidebar-container fixed left-0 top-0 h-full z-50 transform transition-transform duration-300 ease-in-out lg:hidden mobile-scroll-fix ${
         isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
       }`}>
-        <div className="relative">
+        <div className="relative sidebar-content">
           <Sidebar />
           {/* Close button for mobile sidebar */}
           <button
@@ -265,14 +300,26 @@ const Layout = ({ children }) => {
           {/* Left side with back button, logo, hamburger and search */}
           <div className="flex items-center space-x-2 sm:space-x-4 flex-1">
             
-            {/* Hamburger Menu - Only visible on mobile */}
+            {/* Hamburger Menu - Visible on mobile and desktop when sidebar is closed */}
             <button
               onClick={toggleSidebar}
-              className="hamburger-menu lg:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors"
+              className={`hamburger-menu p-2 hover:bg-gray-100 rounded-lg transition-colors ${
+                isDesktop && isSidebarOpen ? 'lg:hidden' : ''
+              }`}
+              aria-label="Toggle sidebar"
             >
               <Menu className="w-5 h-5 text-gray-600" />
             </button>
-            
+
+            {!isSidebarOpen && (
+              <div className="flex items-center space-x-2">
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center">
+                <img src="/logo/geo_stats.png" alt="Logo" className="w-auto h-10" />
+              </div>
+              <h1 className="text-2xl font-semibold text-orange font-tomorrow">GeoStats</h1>
+            </div>
+            )}
+
             {/* Search Bar */}
             <div className="relative flex-1 max-w-sm lg:max-w-md">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
