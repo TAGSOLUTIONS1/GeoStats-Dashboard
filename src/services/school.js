@@ -1,5 +1,69 @@
 import schoolsData from '../data/schools.json';
 
+// Cache for reverse geocoding results
+const locationCache = new Map();
+
+/**
+ * Get location address from coordinates using Nominatim reverse geocoding
+ * @param {number} lat - Latitude
+ * @param {number} lon - Longitude
+ * @returns {Promise<string>} - Location address string
+ */
+export const getLocationFromCoordinates = async (lat, lon) => {
+  if (!lat || !lon) return null;
+  
+  // Create cache key
+  const cacheKey = `${lat.toFixed(6)}_${lon.toFixed(6)}`;
+  
+  // Check cache first
+  if (locationCache.has(cacheKey)) {
+    return locationCache.get(cacheKey);
+  }
+  
+  try {
+    const response = await fetch(
+      `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`,
+      {
+        headers: {
+          'User-Agent': 'GeoStats-Dashboard' // Required by Nominatim
+        }
+      }
+    );
+    
+    if (!response.ok) {
+      console.warn('Nominatim API error:', response.status);
+      return null;
+    }
+    
+    const data = await response.json();
+    
+    // Extract location from address components
+    let location = '';
+    if (data.address) {
+      // Try to get a meaningful location string
+      const parts = [];
+      if (data.address.road) parts.push(data.address.road);
+      if (data.address.suburb) parts.push(data.address.suburb);
+      if (data.address.residential) parts.push(data.address.residential);
+      if (data.address.state && !parts.length) parts.push(data.address.state);
+      
+      location = parts.join(', ') || data.display_name || null;
+    } else if (data.display_name) {
+      location = data.display_name;
+    }
+    
+    // Cache the result
+    if (location) {
+      locationCache.set(cacheKey, location);
+    }
+    
+    return location;
+  } catch (error) {
+    console.error('Error fetching location from Nominatim:', error);
+    return null;
+  }
+};
+
 /**
  * Normalize location names for matching
  * Removes common variations and standardizes format

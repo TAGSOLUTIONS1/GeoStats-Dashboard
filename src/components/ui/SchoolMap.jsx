@@ -4,7 +4,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import { dubaiGeoData, geojsonData } from '../../data/geoData';
 import { dubaiWEBDATA } from '../../data/DubaiData';
 import schoolsData from '../../data/schools.json';
-import { addSchoolCountsToGeoJSON } from '../../services/school';
+import { addSchoolCountsToGeoJSON, getLocationFromCoordinates } from '../../services/school';
 
 const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
   const mapContainer = useRef(null);
@@ -278,7 +278,9 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
               grades: school.Grades,
               rating: school['Latest DSIB Rating'],
               enrollment: school['2024/25 Enrollments'],
-              schoolId: school['School Name'] // Use name as unique ID
+              schoolId: school['School Name'], // Use name as unique ID
+              latitude: school.Latitude,
+              longitude: school.Longitude
             }
           }))
       };
@@ -371,20 +373,34 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
       // });
 
       // Add click handler for schools
-      map.current.on('click', 'schools', (e) => {
+      map.current.on('click', 'schools', async (e) => {
         const props = e.features[0].properties;
         const coordinates = e.features[0].geometry.coordinates.slice();
+        // Use lat/lng from properties if available, otherwise from coordinates
+        const lat = props.latitude || coordinates[1];
+        const lng = props.longitude || coordinates[0];
         
         // Highlight the clicked school
         if (window.highlightSchool) {
           window.highlightSchool(props.name, coordinates);
         }
         
+        // Get location from coordinates using Nominatim API
+        let displayLocation = props.location || 'Location not available';
+        try {
+          const locationFromAPI = await getLocationFromCoordinates(lat, lng);
+          if (locationFromAPI) {
+            displayLocation = locationFromAPI;
+          }
+        } catch (error) {
+          console.error('Error fetching location:', error);
+        }
+        
         // Create popup content
         const popupHTML = `
           <div style="padding: 8px; max-width: 250px;">
             <h3 style="font-weight: bold; margin-bottom: 8px; font-size: 14px;">${props.name}</h3>
-            ${props.location ? `<p style="font-size: 12px; color: #666; margin-bottom: 4px;">📍 ${props.location}</p>` : ''}
+            <p style="font-size: 12px; color: #666; margin-bottom: 4px;">📍 ${displayLocation}</p>
             ${props.curriculum ? `<p style="font-size: 12px; color: #666; margin-bottom: 4px;">📚 ${props.curriculum}</p>` : ''}
             ${props.grades ? `<p style="font-size: 12px; color: #666; margin-bottom: 4px;">🎓 ${props.grades}</p>` : ''}
             ${props.rating ? `<p style="font-size: 12px; color: #666; margin-bottom: 4px;">⭐ Rating: ${props.rating}</p>` : ''}

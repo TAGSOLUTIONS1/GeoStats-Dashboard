@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { X, GraduationCap, Star, Filter } from 'lucide-react';
 import { motion } from 'framer-motion';
 import schoolsData from '../../data/schools.json';
+import { getLocationFromCoordinates } from '../../services/school';
 
 const SchoolFilterPanel = ({ 
   isOpen, 
@@ -339,12 +340,18 @@ const SchoolFilterPanel = ({
                 </div>
                 
                 <div className="space-y-1 text-xs text-gray-600">
-                  {school.Location && (
+                  {school.Latitude && school.Longitude ? (
+                    <SchoolLocation 
+                      lat={school.Latitude} 
+                      lng={school.Longitude}
+                      fallback={school.Location}
+                    />
+                  ) : school.Location ? (
                     <p className="flex items-center">
                       <span className="font-medium mr-1">Location:</span>
                       {school.Location}
                     </p>
-                  )}
+                  ) : null}
                   {school.Curriculum && (
                     <p>
                       <span className="font-medium mr-1">Curriculum:</span>
@@ -372,6 +379,50 @@ const SchoolFilterPanel = ({
         </div>
       </motion.div>
     </>
+  );
+};
+
+// Component to fetch and display location from coordinates
+const SchoolLocation = ({ lat, lng, fallback }) => {
+  const [location, setLocation] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchLocation = async () => {
+      if (!lat || !lng) {
+        setLocation(fallback);
+        setLoading(false);
+        return;
+      }
+
+      try {
+        const fetchedLocation = await getLocationFromCoordinates(lat, lng);
+        setLocation(fetchedLocation || fallback);
+      } catch (error) {
+        console.error('Error fetching location:', error);
+        setLocation(fallback);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchLocation();
+  }, [lat, lng, fallback]);
+
+  if (loading) {
+    return (
+      <p className="flex items-center">
+        <span className="font-medium mr-1">Location:</span>
+        <span className="text-gray-400">Loading...</span>
+      </p>
+    );
+  }
+
+  return (
+    <p className="flex items-center">
+      <span className="font-medium mr-1">Location:</span>
+      {location || 'Location not available'}
+    </p>
   );
 };
 
