@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, ArrowLeft, MapPin, GraduationCap, RotateCcw } from 'lucide-react';
+import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, ArrowLeft, MapPin, GraduationCap, RotateCcw, Ruler } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
 import TableViewModal from '../ui/TableViewModal';
@@ -41,6 +41,12 @@ const Layout = ({ children }) => {
   const [selectedCurriculum, setSelectedCurriculum] = useState('');
   const [selectedGrade, setSelectedGrade] = useState('');
   const [selectedRating, setSelectedRating] = useState('');
+  
+  // Measurement states
+  const [isMeasurementMode, setIsMeasurementMode] = useState(false);
+  const [measurementPoints, setMeasurementPoints] = useState([]);
+  const measurementPointsRef = useRef([]);
+  const isMeasurementModeRef = useRef(false);
   
   // Access sidebar state to detect school landscape selection
   const { activeItem, selectedDataPoint, setActiveItem } = useSidebar();
@@ -113,8 +119,8 @@ const Layout = ({ children }) => {
       if (isSchoolPanelOpen) {
         setSelectedLocation({ placeName: placeName || 'Selected Area', lngLat });
       } else {
-        setGraphPlace(placeName || 'Selected Area');
-        setIsGraphOpen(true);
+      setGraphPlace(placeName || 'Selected Area');
+      setIsGraphOpen(true);
       }
     };
     window.addEventListener('map:placeSelected', onPlaceSelected);
@@ -135,16 +141,16 @@ const Layout = ({ children }) => {
         
         // Don't close if clicking inside sidebar or on hamburger menu
         if (!sidebarElement && !isClickOnHamburger) {
-          setIsSidebarOpen(false);
+        setIsSidebarOpen(false);
         }
       }
     };
 
     if (isSidebarOpen && !isDesktop) {
       document.addEventListener('mousedown', handleClickOutside);
-      return () => {
-        document.removeEventListener('mousedown', handleClickOutside);
-      };
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
     }
   }, [isSidebarOpen, isDesktop]);
 
@@ -187,7 +193,7 @@ const Layout = ({ children }) => {
       if (isFilterPanelOpen) setIsFilterPanelOpen(false);
     } else {
       // Otherwise, toggle regular filter panel
-      setIsFilterPanelOpen(!isFilterPanelOpen);
+    setIsFilterPanelOpen(!isFilterPanelOpen);
       // Close school filter panel if open
       if (isSchoolFilterPanelOpen) setIsSchoolFilterPanelOpen(false);
     }
@@ -216,7 +222,426 @@ const Layout = ({ children }) => {
     
     // Clear selected location state
     setSelectedLocation(null);
+    
+    // Clear measurement
+    clearMeasurement();
   };
+
+  // Calculate distance between two coordinates (Haversine formula)
+  const calculateDistance = (coord1, coord2) => {
+    const [lng1, lat1] = coord1;
+    const [lng2, lat2] = coord2;
+    const R = 6371; // Earth's radius in km
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLng = (lng2 - lng1) * Math.PI / 180;
+    const a = 
+      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+      Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    return R * c;
+  };
+
+  const formatDistance = (distance) => {
+    if (distance < 1) {
+      return `${(distance * 1000).toFixed(0)} m`;
+    }
+    return `${distance.toFixed(2)} km`;
+  };
+
+  const setupMeasurement = () => {
+    if (!window.map) return;
+
+    // Add measurement source and layers if they don't exist
+    if (!window.map.getSource('measurement-lines')) {
+      window.map.addSource('measurement-lines', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: [] }
+      });
+
+      window.map.addLayer({
+        id: 'measurement-lines',
+        type: 'line',
+        source: 'measurement-lines',
+        paint: {
+          'line-color': '#FF6B35',
+          'line-width': 4,
+          'line-dasharray': [2, 2]
+        }
+      });
+    }
+
+    if (!window.map.getSource('measurement-points')) {
+      window.map.addSource('measurement-points', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: [] }
+      });
+
+      window.map.addLayer({
+        id: 'measurement-points',
+        type: 'circle',
+        source: 'measurement-points',
+        paint: {
+          'circle-radius': 5,
+          'circle-color': '#FF6B35',
+          'circle-stroke-width': 3,
+          'circle-stroke-color': '#ffffff'
+        }
+      });
+    }
+
+    // Add measurement labels source
+    if (!window.map.getSource('measurement-labels')) {
+      window.map.addSource('measurement-labels', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: [] }
+      });
+
+      // Add background circles for labels (box effect)
+      window.map.addSource('measurement-label-bg', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: [] }
+      });
+
+      window.map.addLayer({
+        id: 'measurement-label-bg',
+        type: 'circle',
+        source: 'measurement-label-bg',
+        paint: {
+          'circle-radius': 0,
+          'circle-color': '#FF6B35',
+          'circle-opacity': 0.9,
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#ffffff'
+        }
+      });
+
+      window.map.addLayer({
+        id: 'measurement-labels',
+        type: 'symbol',
+        source: 'measurement-labels',
+        layout: {
+          'text-field': ['get', 'distance'],
+          'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+          'text-size': 13,
+          'text-offset': [0, 0],
+          'text-anchor': 'center'
+        },
+        paint: {
+          'text-color': '#ffffff',
+          'text-halo-color': '#FF6B35',
+          'text-halo-width': 2,
+          'text-halo-blur': 1
+        }
+      });
+    }
+  };
+
+  const updateMeasurementDisplay = (points) => {
+    if (!window.map) return;
+
+    const linesSource = window.map.getSource('measurement-lines');
+    const pointsSource = window.map.getSource('measurement-points');
+    const labelsSource = window.map.getSource('measurement-labels');
+    const labelBgSource = window.map.getSource('measurement-label-bg');
+
+    if (points.length === 0) {
+      if (linesSource) linesSource.setData({ type: 'FeatureCollection', features: [] });
+      if (pointsSource) pointsSource.setData({ type: 'FeatureCollection', features: [] });
+      if (labelsSource) labelsSource.setData({ type: 'FeatureCollection', features: [] });
+      if (labelBgSource) labelBgSource.setData({ type: 'FeatureCollection', features: [] });
+      return;
+    }
+
+    // Create line features
+    const lineFeatures = [];
+    for (let i = 0; i < points.length - 1; i++) {
+      const distance = calculateDistance(points[i], points[i + 1]);
+      lineFeatures.push({
+        type: 'Feature',
+        geometry: {
+          type: 'LineString',
+          coordinates: [points[i], points[i + 1]]
+        },
+        properties: {
+          distance: formatDistance(distance),
+          index: i
+        }
+      });
+    }
+
+    // Create point features
+    const pointFeatures = points.map((point, index) => ({
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: point
+      },
+      properties: {
+        index: index
+      }
+    }));
+
+    // Create label features (midpoint of each segment with cumulative distance)
+    const labelFeatures = [];
+    const labelBgFeatures = [];
+    let cumulativeDistance = 0;
+    for (let i = 0; i < points.length - 1; i++) {
+      const segmentDistance = calculateDistance(points[i], points[i + 1]);
+      cumulativeDistance += segmentDistance;
+      
+      const midPoint = [
+        (points[i][0] + points[i + 1][0]) / 2,
+        (points[i][1] + points[i + 1][1]) / 2
+      ];
+      
+      // Background circle for label (box effect)
+      labelBgFeatures.push({
+        type: 'Feature',
+        geometry: {
+          type: 'Point',
+          coordinates: midPoint
+        },
+        properties: {
+          index: i
+        }
+      });
+      
+      // Show cumulative distance
+      labelFeatures.push({
+        type: 'Feature',
+        geometry: {
+          type: 'Point',
+          coordinates: midPoint
+        },
+        properties: {
+          distance: formatDistance(cumulativeDistance),
+          index: i
+        }
+      });
+    }
+
+    if (linesSource) linesSource.setData({ type: 'FeatureCollection', features: lineFeatures });
+    if (pointsSource) pointsSource.setData({ type: 'FeatureCollection', features: pointFeatures });
+    if (labelBgSource) labelBgSource.setData({ type: 'FeatureCollection', features: labelBgFeatures });
+    if (labelsSource) labelsSource.setData({ type: 'FeatureCollection', features: labelFeatures });
+  };
+
+  const clearMeasurement = () => {
+    setMeasurementPoints([]);
+    measurementPointsRef.current = [];
+    updateMeasurementDisplay([]);
+    setIsMeasurementMode(false);
+    isMeasurementModeRef.current = false;
+    
+    if (window.map) {
+      // Restore area/emirate layers and school markers visibility
+      const layersToShow = ['dubai-communities-fill', 'dubai-communities-stroke', 'dubai-communities-name', 'schools'];
+      layersToShow.forEach(layerId => {
+        if (window.map.getLayer(layerId)) {
+          window.map.setLayoutProperty(layerId, 'visibility', 'visible');
+        }
+      });
+      
+      // Remove click handler using stored reference
+      if (window._measurementClickHandler) {
+        window.map.off('click', window._measurementClickHandler);
+        window._measurementClickHandler = null;
+      }
+      window.map.off('click', handleMeasurementClick);
+      window.map.off('mousemove', handleMeasurementMouseMove);
+      window.map.getCanvas().style.cursor = '';
+      
+      // Clear temp line
+      const tempSource = window.map.getSource('measurement-temp-line');
+      if (tempSource) {
+        tempSource.setData({ type: 'FeatureCollection', features: [] });
+      }
+    }
+  };
+
+  const handleMeasurementClick = (e) => {
+    // Use ref to check mode to avoid stale closure
+    if (!isMeasurementModeRef.current || !window.map) {
+      console.log('Measurement not active or map not available', {
+        isMeasurementModeRef: isMeasurementModeRef.current,
+        hasMap: !!window.map
+      });
+      return;
+    }
+    
+    console.log('Measurement click received', e.lngLat);
+    
+    // Check if clicking on an existing measurement point to remove it
+    const features = window.map.queryRenderedFeatures(e.point, {
+      layers: ['measurement-points']
+    });
+    
+    if (features.length > 0) {
+      const clickedIndex = features[0].properties.index;
+      const newPoints = measurementPointsRef.current.filter((_, i) => i !== clickedIndex);
+      measurementPointsRef.current = newPoints;
+      setMeasurementPoints(newPoints);
+      updateMeasurementDisplay(newPoints);
+      console.log('Removed point at index', clickedIndex);
+      return;
+    }
+    
+    // Add new point - allow clicking anywhere when in measurement mode
+    const coordinates = [e.lngLat.lng, e.lngLat.lat];
+    const newPoints = [...measurementPointsRef.current, coordinates];
+    measurementPointsRef.current = newPoints;
+    setMeasurementPoints(newPoints);
+    updateMeasurementDisplay(newPoints);
+    console.log('Added point', coordinates, 'Total points:', newPoints.length);
+  };
+
+  const handleMeasurementMouseMove = (e) => {
+    if (!isMeasurementMode || !window.map) return;
+    
+    // Check if hovering over a measurement point
+    const features = window.map.queryRenderedFeatures(e.point, {
+      layers: ['measurement-points']
+    });
+    
+    if (features.length > 0) {
+      window.map.getCanvas().style.cursor = 'pointer';
+      // Clear temp line when hovering over point
+      const tempSource = window.map.getSource('measurement-temp-line');
+      if (tempSource) {
+        tempSource.setData({ type: 'FeatureCollection', features: [] });
+      }
+      return;
+    }
+    
+    // Show crosshair when measuring
+    window.map.getCanvas().style.cursor = 'crosshair';
+    
+    // Show distance from last point if there are points
+    if (measurementPointsRef.current.length > 0) {
+      const currentPoint = [e.lngLat.lng, e.lngLat.lat];
+      const lastPoint = measurementPointsRef.current[measurementPointsRef.current.length - 1];
+      const distance = calculateDistance(lastPoint, currentPoint);
+      
+      // Create or update temporary line to cursor
+      if (!window.map.getSource('measurement-temp-line')) {
+        window.map.addSource('measurement-temp-line', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        });
+        
+        window.map.addLayer({
+          id: 'measurement-temp-line',
+          type: 'line',
+          source: 'measurement-temp-line',
+          paint: {
+            'line-color': '#3696A8',
+            'line-width': 1,
+            'line-opacity': 0.5,
+            'line-dasharray': [1, 1]
+          }
+        });
+      }
+      
+      const tempSource = window.map.getSource('measurement-temp-line');
+      if (tempSource) {
+        tempSource.setData({
+          type: 'FeatureCollection',
+          features: [{
+            type: 'Feature',
+            geometry: {
+              type: 'LineString',
+              coordinates: [lastPoint, currentPoint]
+            },
+            properties: {
+              distance: formatDistance(distance)
+            }
+          }]
+        });
+      }
+    } else {
+      // Clear temp line when no points
+      const tempSource = window.map.getSource('measurement-temp-line');
+      if (tempSource) {
+        tempSource.setData({ type: 'FeatureCollection', features: [] });
+      }
+    }
+  };
+
+  const toggleMeasurement = () => {
+    const newMode = !isMeasurementMode;
+    setIsMeasurementMode(newMode);
+    isMeasurementModeRef.current = newMode;
+    
+    if (newMode) {
+      // Wait for map to be ready
+      if (!window.map) {
+        console.warn('Map not ready for measurement');
+        setIsMeasurementMode(false);
+        return;
+      }
+      
+      // Ensure map is loaded
+      const setupHandlers = () => {
+        setupMeasurement();
+        measurementPointsRef.current = [];
+        setMeasurementPoints([]);
+        
+        // Hide area/emirate layers and school markers when measuring
+        const layersToHide = ['dubai-communities-fill', 'dubai-communities-stroke', 'dubai-communities-name', 'schools'];
+        layersToHide.forEach(layerId => {
+          if (window.map.getLayer(layerId)) {
+            window.map.setLayoutProperty(layerId, 'visibility', 'none');
+          }
+        });
+        
+        // Setup click handler - use a wrapper to ensure it fires
+        const clickHandler = (e) => {
+          console.log('Click handler fired, mode:', isMeasurementModeRef.current);
+          // Always call handleMeasurementClick - it will check the ref internally
+          handleMeasurementClick(e);
+        };
+        
+        // Add click handler - use once to test, then add permanent
+        // First, remove any existing handlers to avoid conflicts
+        window.map.off('click', clickHandler);
+        window.map.off('click', handleMeasurementClick);
+        
+        // Add our handler
+        window.map.on('click', clickHandler);
+        window.map.on('mousemove', handleMeasurementMouseMove);
+        window.map.getCanvas().style.cursor = 'crosshair';
+        
+        // Test that handler is registered
+        console.log('Measurement handlers registered', {
+          hasMap: !!window.map,
+          mode: isMeasurementModeRef.current,
+          listeners: window.map._listeners?.click?.length || 0
+        });
+        
+        // Store handler reference for cleanup
+        window._measurementClickHandler = clickHandler;
+      };
+      
+      if (window.map.loaded()) {
+        setupHandlers();
+      } else {
+        window.map.once('load', setupHandlers);
+      }
+    } else {
+      clearMeasurement();
+    }
+  };
+
+  // Cleanup measurement on unmount
+  useEffect(() => {
+    return () => {
+      if (window.map) {
+        window.map.off('click', handleMeasurementClick);
+        window.map.off('mousemove', handleMeasurementMouseMove);
+      }
+    };
+  }, [isMeasurementMode]);
 
   const handleTableView = () => {
     setIsTableViewOpen(!isTableViewOpen);
@@ -364,7 +789,7 @@ const Layout = ({ children }) => {
       }`}>
         <div className="absolute left-0 top-0 h-full w-72 sidebar-content">
           <div className="relative">
-            <Sidebar />
+        <Sidebar />
             {/* Close button for desktop sidebar */}
             <button
               onClick={toggleSidebar}
@@ -455,7 +880,7 @@ const Layout = ({ children }) => {
               <h1 className="text-2xl font-semibold text-orange font-tomorrow">GeoStats</h1>
             </div>
             )}
-
+            
             {/* Search Bar */}
             <div className="relative flex-1 max-w-sm lg:max-w-md">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
@@ -522,6 +947,18 @@ const Layout = ({ children }) => {
                 {/* <p className="text-sm hidden sm:block">Clear</p> */}
               </button>
               <button 
+                onClick={toggleMeasurement}
+                className={`p-2 rounded-lg transition-colors flex items-center space-x-1 border border-gray-300 ${
+                  isMeasurementMode 
+                    ? 'bg-azure text-white hover:bg-azure-dark' 
+                    : 'hover:bg-gray-100'
+                }`}
+                title="Measure distance"
+              >
+                <Ruler className={`w-4 h-4 ${isMeasurementMode ? 'text-white' : 'text-gray-600'}`} />
+                {/* <p className="text-sm hidden sm:block">Measure</p> */}
+              </button>
+              <button 
                 onClick={handleShare}
                 className="p-2 hover:bg-gray-100 rounded-lg transition-colors border border-gray-300"
               >
@@ -535,7 +972,7 @@ const Layout = ({ children }) => {
                 {isSchoolPanelOpen ? (
                   <GraduationCap className="w-4 h-4 text-gray-600" />
                 ) : (
-                  <Filter className="w-4 h-4 text-gray-600" />
+                <Filter className="w-4 h-4 text-gray-600" />
                 )}
                 <p className="text-sm hidden sm:block">Filter</p>
               </button>
