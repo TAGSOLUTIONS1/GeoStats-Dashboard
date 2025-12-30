@@ -463,16 +463,11 @@ const Layout = ({ children }) => {
   const handleMeasurementClick = (e) => {
     // Use ref to check mode to avoid stale closure
     if (!isMeasurementModeRef.current || !window.map) {
-      console.log('Measurement not active or map not available', {
-        isMeasurementModeRef: isMeasurementModeRef.current,
-        hasMap: !!window.map
-      });
       return;
     }
     
-    console.log('Measurement click received', e.lngLat);
-    
     // Check if clicking on an existing measurement point to remove it
+    // Only query measurement-points layer to avoid checking all markers
     const features = window.map.queryRenderedFeatures(e.point, {
       layers: ['measurement-points']
     });
@@ -483,7 +478,6 @@ const Layout = ({ children }) => {
       measurementPointsRef.current = newPoints;
       setMeasurementPoints(newPoints);
       updateMeasurementDisplay(newPoints);
-      console.log('Removed point at index', clickedIndex);
       return;
     }
     
@@ -493,11 +487,10 @@ const Layout = ({ children }) => {
     measurementPointsRef.current = newPoints;
     setMeasurementPoints(newPoints);
     updateMeasurementDisplay(newPoints);
-    console.log('Added point', coordinates, 'Total points:', newPoints.length);
   };
 
   const handleMeasurementMouseMove = (e) => {
-    if (!isMeasurementMode || !window.map) return;
+    if (!isMeasurementModeRef.current || !window.map) return;
     
     // Check if hovering over a measurement point
     const features = window.map.queryRenderedFeatures(e.point, {
@@ -581,11 +574,28 @@ const Layout = ({ children }) => {
         return;
       }
       
-      // Ensure map is loaded
-      const setupHandlers = () => {
+      // Immediately register click handlers for instant response (don't wait for setup)
+      const clickHandler = (e) => {
+        if (isMeasurementModeRef.current) {
+          handleMeasurementClick(e);
+        }
+      };
+      
+      // Register handlers immediately for instant feedback
+      window.map.on('click', clickHandler);
+      window.map.on('mousemove', handleMeasurementMouseMove);
+      window.map.getCanvas().style.cursor = 'crosshair';
+      window._measurementClickHandler = clickHandler;
+      
+      // Reset measurement points immediately
+      measurementPointsRef.current = [];
+      setMeasurementPoints([]);
+      
+      // Setup layers and hide other layers asynchronously (non-blocking, happens in background)
+      requestAnimationFrame(() => {
+        if (!window.map || !isMeasurementModeRef.current) return;
+        
         setupMeasurement();
-        measurementPointsRef.current = [];
-        setMeasurementPoints([]);
         
         // Hide area/emirate layers and school markers when measuring
         const layersToHide = ['dubai-communities-fill', 'dubai-communities-stroke', 'dubai-communities-name', 'schools'];
@@ -594,40 +604,7 @@ const Layout = ({ children }) => {
             window.map.setLayoutProperty(layerId, 'visibility', 'none');
           }
         });
-        
-        // Setup click handler - use a wrapper to ensure it fires
-        const clickHandler = (e) => {
-          console.log('Click handler fired, mode:', isMeasurementModeRef.current);
-          // Always call handleMeasurementClick - it will check the ref internally
-          handleMeasurementClick(e);
-        };
-        
-        // Add click handler - use once to test, then add permanent
-        // First, remove any existing handlers to avoid conflicts
-        window.map.off('click', clickHandler);
-        window.map.off('click', handleMeasurementClick);
-        
-        // Add our handler
-        window.map.on('click', clickHandler);
-        window.map.on('mousemove', handleMeasurementMouseMove);
-        window.map.getCanvas().style.cursor = 'crosshair';
-        
-        // Test that handler is registered
-        console.log('Measurement handlers registered', {
-          hasMap: !!window.map,
-          mode: isMeasurementModeRef.current,
-          listeners: window.map._listeners?.click?.length || 0
-        });
-        
-        // Store handler reference for cleanup
-        window._measurementClickHandler = clickHandler;
-      };
-      
-      if (window.map.loaded()) {
-        setupHandlers();
-      } else {
-        window.map.once('load', setupHandlers);
-      }
+      });
     } else {
       clearMeasurement();
     }

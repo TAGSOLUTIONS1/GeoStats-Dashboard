@@ -124,7 +124,8 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
                   ['number-format', ['get', 'SchoolCount'], { 'locale': 'en-US' }],
                   ' Schools'
                 ],
-                'No Schools'
+                ''
+                // 'No Schools'
               ],
               'No Data'
             ],
@@ -581,6 +582,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
               ['number-format', ['get', 'SchoolCount'], { 'locale': 'en-US' }],
               ' Schools'
             ],
+            ''
             // 'No Schools'
           ],
           'No Data'

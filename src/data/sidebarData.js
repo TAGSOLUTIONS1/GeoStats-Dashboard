@@ -1093,7 +1093,7 @@ const dataPoints = [
     icon: BarChart3,
     isSelected: false,
     isPremium: false,
-    description: "The distribution of grades in the area. Telling How many schools for KG to primary students",
+    description: "The distribution of grades in the area. Telling how many schools for KG to primary students",
     source: 'UAE Ministry of Education',
     Upcoming: false,
   },
