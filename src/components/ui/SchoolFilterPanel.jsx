@@ -74,13 +74,50 @@ const SchoolFilterPanel = ({
     });
   }, []);
 
-  const ratings = [
-    { value: '1', label: 'Outstanding (1)' },
-    { value: '2', label: 'Very Good (2)' },
-    { value: '3', label: 'Good (3)' },
-    { value: '4', label: 'Acceptable (4)' },
-    { value: '5', label: 'Unsatisfactory (5)' }
-  ];
+  // Rating encoding map
+  const RATING_MAP = {
+    "Not yet inspected": 0,
+    "Unsatisfactory": 1,
+    "Acceptable": 2,
+    "Good": 3,
+    "Very Good": 4,
+    "Outstanding": 5
+  };
+
+  // Reverse map: numeric value to text
+  const RATING_REVERSE_MAP = {
+    0: "Not yet inspected",
+    1: "Unsatisfactory",
+    2: "Acceptable",
+    3: "Good",
+    4: "Very Good",
+    5: "Outstanding"
+  };
+
+  const ratings = useMemo(() => {
+    // Extract unique numeric ratings from Latest DSIB Rating column
+    const ratingSet = new Set();
+    schoolsData.forEach(school => {
+      const rating = school['Latest DSIB Rating'];
+      if (rating !== null && rating !== undefined && rating !== '') {
+        ratingSet.add(rating);
+      }
+    });
+    
+    // Convert to array and sort by numeric value (descending: Outstanding first)
+    const ratingArray = Array.from(ratingSet)
+      .filter(r => typeof r === 'number' || !isNaN(Number(r)))
+      .map(r => Number(r))
+      .sort((a, b) => b - a);
+    
+    return ratingArray.map(ratingNum => {
+      const ratingText = RATING_REVERSE_MAP[ratingNum] || `Rating ${ratingNum}`;
+      return {
+        value: String(ratingNum), // Store as string for select value
+        label: ratingText // Show descriptive text
+      };
+    });
+  }, []);
 
   // Filter schools based on criteria
   useEffect(() => {
@@ -110,10 +147,12 @@ const SchoolFilterPanel = ({
 
     // Filter by rating
     if (selectedRating) {
-      const ratingNum = parseInt(selectedRating);
+      const ratingNum = Number(selectedRating); // Convert selected string to number
       filtered = filtered.filter(school => {
         const latestRating = school['Latest DSIB Rating'];
-        return latestRating === ratingNum;
+        // Compare numeric values - handle both number and string cases
+        const schoolRatingNum = typeof latestRating === 'number' ? latestRating : Number(latestRating);
+        return !isNaN(schoolRatingNum) && schoolRatingNum === ratingNum;
       });
     }
 
@@ -135,25 +174,23 @@ const SchoolFilterPanel = ({
   };
 
   const getRatingLabel = (rating) => {
-    const ratingMap = {
-      1: 'Outstanding',
-      2: 'Very Good',
-      3: 'Good',
-      4: 'Acceptable',
-      5: 'Unsatisfactory'
-    };
-    return ratingMap[rating] || 'N/A';
+    // Rating is numeric, convert to text using reverse map
+    const ratingNum = typeof rating === 'number' ? rating : Number(rating);
+    return RATING_REVERSE_MAP[ratingNum] || rating || 'N/A';
   };
 
   const getRatingColor = (rating) => {
+    // Rating is numeric, use directly for color mapping
+    const ratingNum = typeof rating === 'number' ? rating : Number(rating);
     const colorMap = {
-      1: 'text-green-600 bg-green-100',
-      2: 'text-blue-600 bg-blue-100',
-      3: 'text-yellow-600 bg-yellow-100',
-      4: 'text-orange-600 bg-orange-100',
-      5: 'text-red-600 bg-red-100'
+      5: 'text-green-600 bg-green-100',      // Outstanding
+      4: 'text-blue-600 bg-blue-100',        // Very Good
+      3: 'text-yellow-600 bg-yellow-100',     // Good
+      2: 'text-orange-600 bg-orange-100',     // Acceptable
+      1: 'text-red-600 bg-red-100',          // Unsatisfactory
+      0: 'text-gray-600 bg-gray-100'         // Not yet inspected
     };
-    return colorMap[rating] || 'text-gray-600 bg-gray-100';
+    return colorMap[ratingNum] || 'text-gray-600 bg-gray-100';
   };
 
   return (
