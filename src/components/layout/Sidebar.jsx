@@ -31,6 +31,17 @@ const Sidebar = () => {
 
   const [filteredSections, setFilteredSections] = useState(dataSections);
 
+  // Listen for close section events
+  useEffect(() => {
+    const handleCloseSection = (e) => {
+      if (e.detail === activeItem) {
+        setActiveItem(null);
+      }
+    };
+    window.addEventListener('sidebar:closeSection', handleCloseSection);
+    return () => window.removeEventListener('sidebar:closeSection', handleCloseSection);
+  }, [activeItem, setActiveItem]);
+
   // Filter data points based on search query
   useEffect(() => {
     if (!searchQuery.trim()) {

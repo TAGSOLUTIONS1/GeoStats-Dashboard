@@ -9,9 +9,12 @@ import TooltipToggle from '../ui/TooltipToggle';
 import FeedbackModal from '../ui/FeedbackModal';
 import ShareModal from '../ui/ShareModal';
 import Map from '../ui/Map';
+import SchoolMap from '../ui/SchoolMap';
 import GraphModal from '../ui/GraphModal';
 import AreasMap from "../../data/average_meter_price/forecasts/Areas_id.json";
 import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
+import SchoolFilterPanel from '../ui/SchoolFilterPanel';
+import { useSidebar } from '../../hooks/useSidebar';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -31,18 +34,86 @@ const Layout = ({ children }) => {
   const searchTimeoutRef = useRef(null);
   const isDesktopRef = useRef(window.innerWidth >= 1024);
   const [isExploreModalOpen, setIsExploreModalOpen] = useState(false);
+  const [selectedLocation, setSelectedLocation] = useState(null);
+  
+  // Access sidebar state to detect school landscape selection
+  const { activeItem, selectedDataPoint, setActiveItem } = useSidebar();
+  
+  // School-related data point IDs
+  const schoolDataPointIds = [
+    'distribution-and-quality-analysis',
+    'rating-by-curriculum',
+    'grade-distribution',
+    'enrollment-growth'
+  ];
+  
+  // State to track selected data point from window (since Sidebar and Layout use separate hook instances)
+  const [windowDataPoint, setWindowDataPoint] = useState(
+    typeof window !== 'undefined' ? window.selectedDataPoint : null
+  );
+
+  // Listen for data point selection changes from sidebar
+  useEffect(() => {
+    const handleDataPointChange = (e) => {
+      const dataPointId = e.detail?.dataPointId;
+      if (dataPointId) {
+        setWindowDataPoint(dataPointId);
+        if (schoolDataPointIds.includes(dataPointId) && activeItem !== 'dubai-school-landscape') {
+          setActiveItem('dubai-school-landscape');
+        }
+      }
+    };
+    
+    // Also poll window.selectedDataPoint in case event doesn't fire
+    const checkWindowDataPoint = () => {
+      if (typeof window !== 'undefined' && window.selectedDataPoint !== windowDataPoint) {
+        const dp = window.selectedDataPoint;
+        setWindowDataPoint(dp);
+        if (dp && schoolDataPointIds.includes(dp) && activeItem !== 'dubai-school-landscape') {
+          setActiveItem('dubai-school-landscape');
+        }
+      }
+    };
+    
+    window.addEventListener('sidebar:dataPointSelected', handleDataPointChange);
+    const interval = setInterval(checkWindowDataPoint, 100); // Check every 100ms
+    
+    return () => {
+      window.removeEventListener('sidebar:dataPointSelected', handleDataPointChange);
+      clearInterval(interval);
+    };
+  }, [activeItem, setActiveItem, windowDataPoint]);
+  
+  // Auto-expand school landscape section when a school data point is selected
+  useEffect(() => {
+    const currentDataPoint = windowDataPoint || selectedDataPoint;
+    if (currentDataPoint && schoolDataPointIds.includes(currentDataPoint) && activeItem !== 'dubai-school-landscape') {
+      setActiveItem('dubai-school-landscape');
+    }
+  }, [selectedDataPoint, windowDataPoint, activeItem, setActiveItem]);
+  
+  // Check if school filter panel should be open
+  const currentDataPoint = windowDataPoint || selectedDataPoint;
+  const isSchoolPanelOpen = activeItem === 'dubai-school-landscape' || 
+    (currentDataPoint && schoolDataPointIds.includes(currentDataPoint));
 
   const filterOptions = ['Emirate', 'Area'];
 
   useEffect(() => {
     const onPlaceSelected = (e) => {
-      const { placeName } = e.detail || {};
-      setGraphPlace(placeName || 'Selected Area');
-      setIsGraphOpen(true);
+      const { placeName, lngLat } = e.detail || {};
+      
+      // If school panel is open, update selected location instead of opening graph
+      if (isSchoolPanelOpen) {
+        setSelectedLocation({ placeName: placeName || 'Selected Area', lngLat });
+      } else {
+        setGraphPlace(placeName || 'Selected Area');
+        setIsGraphOpen(true);
+      }
     };
     window.addEventListener('map:placeSelected', onPlaceSelected);
     return () => window.removeEventListener('map:placeSelected', onPlaceSelected);
-  }, []);
+  }, [isSchoolPanelOpen]);
 
   // Close sidebar when clicking outside on mobile only
   useEffect(() => {
@@ -289,9 +360,28 @@ const Layout = ({ children }) => {
         </div>
       </div>
       
+      {/* School Filter Panel */}
+      {isSchoolPanelOpen && (
+        <SchoolFilterPanel
+          isOpen={isSchoolPanelOpen}
+          onClose={() => {}}
+          selectedArea={graphPlace}
+          selectedLocation={selectedLocation}
+          sidebarOpen={isSidebarOpen}
+        />
+      )}
+      
       {/* Background Map - Fixed behind main content only */}
       <div className="absolute left-0 right-0 top-0 bottom-0">
-        <Map selectedFilter={selectedFilter}/>
+        {isSchoolPanelOpen ? (
+          <SchoolMap 
+            selectedFilter={selectedFilter}
+          />
+        ) : (
+          <Map 
+            selectedFilter={selectedFilter}
+          />
+        )}
       </div>
       
       <main className="flex-1 relative z-20 flex flex-col pointer-events-none">

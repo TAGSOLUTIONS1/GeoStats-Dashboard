@@ -1064,11 +1064,67 @@ const dataPoints = [
     source: 'UAE Emergency Services',
     Upcoming: true,
   },
-  
+  {
+    count: 96,
+    label: "Distribution & Quality Analysis",
+    id: "distribution-and-quality-analysis",
+    icon: BarChart3,
+    isSelected: false,
+    isPremium: false,
+    description: "Analysis of the distribution and quality of schools in the area. Telling How many schools fall under each rating: Outstanding, Very Good, Good, Acceptable, Unsatisfactory.",
+    source: 'UAE Ministry of Education',
+    Upcoming: false,
+  },
+  {
+    count: 97,
+    label: "Rating by Curriculum",
+    id: "rating-by-curriculum",
+    icon: BarChart3,
+    isSelected: false,
+    isPremium: false,
+    description: "Are certain curricula associated with higher ratings? Example: IB schools more likely to be Outstanding.",
+    source: 'UAE Ministry of Education',
+    Upcoming: false,
+  },
+  {
+    count: 98,
+    label:"Grade Distribution",
+    id:"grade-distribution",
+    icon: BarChart3,
+    isSelected: false,
+    isPremium: false,
+    description: "The distribution of grades in the area. Telling How many schools for KG to primary students",
+    source: 'UAE Ministry of Education',
+    Upcoming: false,
+  },
+  {
+    count: 99,
+    label:"Enrollment Growth",
+    id:"enrollment-growth",
+    icon: BarChart3,
+    isSelected: false,
+    isPremium: false,
+    description: "The growth of enrollment in the area. Telling How many schools for KG to primary students",
+    source: 'UAE Ministry of Education',
+    Upcoming: false,
+  },
+
 ];
 const getDataPointById = (id) => dataPoints.find((dp) => dp.id === id);
 
 export const dataSections = [
+  {
+    id: 'dubai-school-landscape',
+    label: 'Dubai School Landscape',
+    isExpanded: false,
+    items: [
+      getDataPointById('distribution-and-quality-analysis'),
+      getDataPointById('rating-by-curriculum'),
+      getDataPointById('grade-distribution'),
+      getDataPointById('enrollment-growth'),
+    ]
+    
+  },
   {
     id: 'popular-data',
     label: 'Popular Data',
