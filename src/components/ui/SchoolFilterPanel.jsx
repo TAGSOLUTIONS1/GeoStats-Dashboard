@@ -1,12 +1,46 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { X, GraduationCap, Star, Filter } from 'lucide-react';
+import { motion } from 'framer-motion';
 import schoolsData from '../../data/schools.json';
 
-const SchoolFilterPanel = ({ isOpen, onClose, selectedArea, selectedLocation, sidebarOpen = true }) => {
-  const [selectedCurriculum, setSelectedCurriculum] = useState('');
-  const [selectedGrade, setSelectedGrade] = useState('');
-  const [selectedRating, setSelectedRating] = useState('');
+const SchoolFilterPanel = ({ 
+  isOpen, 
+  onClose, 
+  selectedArea, 
+  selectedLocation,
+  selectedCurriculum: externalCurriculum,
+  selectedGrade: externalGrade,
+  selectedRating: externalRating,
+  onCurriculumChange,
+  onGradeChange,
+  onRatingChange
+}) => {
+  const [selectedCurriculum, setSelectedCurriculum] = useState(externalCurriculum || '');
+  const [selectedGrade, setSelectedGrade] = useState(externalGrade || '');
+  const [selectedRating, setSelectedRating] = useState(externalRating || '');
   const [filteredSchools, setFilteredSchools] = useState([]);
+  
+  // Sync with external state
+  useEffect(() => {
+    if (externalCurriculum !== undefined) setSelectedCurriculum(externalCurriculum);
+    if (externalGrade !== undefined) setSelectedGrade(externalGrade);
+    if (externalRating !== undefined) setSelectedRating(externalRating);
+  }, [externalCurriculum, externalGrade, externalRating]);
+  
+  const handleCurriculumChange = (value) => {
+    setSelectedCurriculum(value);
+    if (onCurriculumChange) onCurriculumChange(value);
+  };
+  
+  const handleGradeChange = (value) => {
+    setSelectedGrade(value);
+    if (onGradeChange) onGradeChange(value);
+  };
+  
+  const handleRatingChange = (value) => {
+    setSelectedRating(value);
+    if (onRatingChange) onRatingChange(value);
+  };
 
   // Get unique values for filters
   const curricula = useMemo(() => {
@@ -122,31 +156,36 @@ const SchoolFilterPanel = ({ isOpen, onClose, selectedArea, selectedLocation, si
     return colorMap[rating] || 'text-gray-600 bg-gray-100';
   };
 
-  if (!isOpen) return null;
-
   return (
-    <div className="fixed top-0 bottom-0 right-0 w-96 bg-white shadow-xl z-30 flex flex-col pointer-events-auto transition-all duration-300">
-      {/* Header */}
-      <div className="bg-azure text-white p-4 flex items-center justify-between">
-        <div className="flex items-center space-x-2">
-          <GraduationCap className="w-5 h-5" />
-          <h2 className="text-lg font-semibold">School Filter</h2>
-        </div>
-        <button
-          onClick={() => {
-            // Dispatch event to close the school landscape section
-            window.dispatchEvent(new CustomEvent('sidebar:closeSection', { detail: 'dubai-school-landscape' }));
-            if (onClose) onClose();
-          }}
-          className="p-1 hover:bg-white/20 rounded transition-colors"
-          aria-label="Close panel"
+    <>
+      <motion.div
+        initial={{ opacity: 0, height: 0 }}
+        animate={isOpen ? { opacity: 1, height: "80%" } : { opacity: 1, height: 0 }}
+        transition={{ duration: 0.75, ease: "easeInOut" }}
+        className="fixed top-16 right-10 w-80 bg-white shadow-2xl z-50 overflow-hidden mobile-scroll-fix"
+        onClick={onClose}
+      >
+        <div 
+          className="h-full flex flex-col"
+          onClick={(e) => e.stopPropagation()}
         >
-          <X className="w-5 h-5" />
-        </button>
-      </div>
+          {/* Header */}
+          <div className="flex items-center justify-between p-4 border-b border-gray-200 flex-shrink-0">
+            <div className="flex items-center space-x-2">
+              <GraduationCap className="w-5 h-5 text-azure" />
+              <h2 className="text-base font-semibold text-gray-900">School Filter</h2>
+            </div>
+            <button
+              onClick={onClose}
+              className="p-1 hover:bg-gray-100 rounded-lg transition-colors"
+              aria-label="Close panel"
+            >
+              <X className="w-4 h-4 text-gray-500" />
+            </button>
+          </div>
 
-      {/* Filters */}
-      <div className="p-4 border-b border-gray-200 space-y-4 bg-gray-50">
+          {/* Filters */}
+          <div className="p-4 border-b border-gray-200 space-y-4 bg-gray-50 flex-shrink-0">
         {/* Curriculum Filter */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -155,7 +194,7 @@ const SchoolFilterPanel = ({ isOpen, onClose, selectedArea, selectedLocation, si
           </label>
           <select
             value={selectedCurriculum}
-            onChange={(e) => setSelectedCurriculum(e.target.value)}
+            onChange={(e) => handleCurriculumChange(e.target.value)}
             className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure text-sm"
           >
             <option value="">All Curricula</option>
@@ -174,7 +213,7 @@ const SchoolFilterPanel = ({ isOpen, onClose, selectedArea, selectedLocation, si
           </label>
           <select
             value={selectedGrade}
-            onChange={(e) => setSelectedGrade(e.target.value)}
+            onChange={(e) => handleGradeChange(e.target.value)}
             className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure text-sm"
           >
             <option value="">All Grades</option>
@@ -194,7 +233,7 @@ const SchoolFilterPanel = ({ isOpen, onClose, selectedArea, selectedLocation, si
           </label>
           <select
             value={selectedRating}
-            onChange={(e) => setSelectedRating(e.target.value)}
+            onChange={(e) => handleRatingChange(e.target.value)}
             className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure text-sm"
           >
             <option value="">All Ratings</option>
@@ -212,8 +251,8 @@ const SchoolFilterPanel = ({ isOpen, onClose, selectedArea, selectedLocation, si
         </div>
       </div>
 
-      {/* Schools List */}
-      <div className="flex-1 overflow-y-auto p-4">
+          {/* Schools List */}
+          <div className="flex-1 overflow-y-auto p-4 min-h-0">
         {filteredSchools.length === 0 ? (
           <div className="text-center text-gray-500 py-8">
             <GraduationCap className="w-12 h-12 mx-auto mb-2 text-gray-400" />
@@ -227,13 +266,23 @@ const SchoolFilterPanel = ({ isOpen, onClose, selectedArea, selectedLocation, si
                 key={index}
                 className="border border-gray-200 rounded-lg p-3 hover:shadow-md transition-shadow cursor-pointer"
                 onClick={() => {
-                  // Center map on school location
+                  // Center map on school location and highlight it
                   if (window.map && school.Latitude && school.Longitude) {
+                    const coordinates = [school.Longitude, school.Latitude];
+                    
+                    // Fly to school location
                     window.map.flyTo({
-                      center: [school.Longitude, school.Latitude],
+                      center: coordinates,
                       zoom: 15,
                       duration: 1500
                     });
+
+                    // Highlight the school after a short delay to ensure map has moved
+                    setTimeout(() => {
+                      if (window.highlightSchool) {
+                        window.highlightSchool(school['School Name'], coordinates);
+                      }
+                    }, 1600);
                   }
                 }}
               >
@@ -282,8 +331,10 @@ const SchoolFilterPanel = ({ isOpen, onClose, selectedArea, selectedLocation, si
             ))}
           </div>
         )}
-      </div>
-    </div>
+          </div>
+        </div>
+      </motion.div>
+    </>
   );
 };
 

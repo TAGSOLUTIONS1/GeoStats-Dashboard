@@ -275,7 +275,8 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
               curriculum: school.Curriculum,
               grades: school.Grades,
               rating: school['Latest DSIB Rating'],
-              enrollment: school['2024/25 Enrollments']
+              enrollment: school['2024/25 Enrollments'],
+              schoolId: school['School Name'] // Use name as unique ID
             }
           }))
       };
@@ -300,10 +301,82 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
         }
       });
 
+      // Add selected school marker source
+      map.current.addSource('selected-school', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: [] }
+      });
+
+      // Add pulsing circle for selected school (behind the marker)
+      map.current.addLayer({
+        id: 'selected-school-pulse',
+        type: 'circle',
+        source: 'selected-school',
+        paint: {
+          'circle-radius': [
+            'interpolate',
+            ['linear'],
+            ['get', 'pulse'],
+            0, 15,
+            1, 25
+          ],
+          'circle-color': '#FF6B35',
+          'circle-opacity': [
+            'interpolate',
+            ['linear'],
+            ['get', 'pulse'],
+            0, 0.4,
+            1, 0
+          ],
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#FF6B35',
+          'circle-stroke-opacity': 0.6
+        }
+      });
+
+      // Add selected school marker (larger, highlighted circle)
+      map.current.addLayer({
+        id: 'selected-school-marker',
+        type: 'circle',
+        source: 'selected-school',
+        paint: {
+          'circle-radius': 12,
+          'circle-color': '#FF6B35',
+          'circle-stroke-width': 3,
+          'circle-stroke-color': '#ffffff',
+          'circle-opacity': 0.9
+        }
+      });
+
+      // Try to load a school icon
+      // map.current.loadImage('/logo/geo_stats.png', (error, image) => {
+      //   if (!error && image && map.current) {
+      //     map.current.addImage('school-icon', image);
+          
+      //     map.current.addLayer({
+      //       id: 'selected-school-icon',
+      //       type: 'symbol',
+      //       source: 'selected-school',
+      //       layout: {
+      //         'icon-image': 'school-icon',
+      //         'icon-size': 0.12,
+      //         'icon-allow-overlap': true,
+      //         'icon-ignore-placement': true,
+      //         'icon-anchor': 'center'
+      //       }
+      //     });
+      //   }
+      // });
+
       // Add click handler for schools
       map.current.on('click', 'schools', (e) => {
         const props = e.features[0].properties;
         const coordinates = e.features[0].geometry.coordinates.slice();
+        
+        // Highlight the clicked school
+        if (window.highlightSchool) {
+          window.highlightSchool(props.name, coordinates);
+        }
         
         // Create popup content
         const popupHTML = `
@@ -331,6 +404,81 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
       map.current.on('mouseleave', 'schools', () => {
         if (map.current) map.current.getCanvas().style.cursor = '';
       });
+
+      // Function to highlight a selected school
+      window.highlightSchool = (schoolName, coordinates) => {
+        if (!map.current || !coordinates) return;
+        
+        const [lng, lat] = coordinates;
+        
+        // Update selected school marker
+        const selectedSource = map.current.getSource('selected-school');
+        if (selectedSource) {
+          selectedSource.setData({
+            type: 'FeatureCollection',
+            features: [{
+              type: 'Feature',
+              geometry: { type: 'Point', coordinates: [lng, lat] },
+              properties: { name: schoolName, pulse: 0 }
+            }]
+          });
+        }
+
+        // Note: We use a separate layer for the selected school instead of modifying the schools layer
+
+        // Animate pulse effect
+        let pulseValue = 0;
+        const pulseInterval = setInterval(() => {
+          if (!map.current) {
+            clearInterval(pulseInterval);
+            return;
+          }
+          
+          pulseValue = (pulseValue + 0.05) % 1;
+          const selectedSource = map.current.getSource('selected-school');
+          if (selectedSource) {
+            const currentData = selectedSource._data;
+            if (currentData.features.length > 0) {
+              selectedSource.setData({
+                ...currentData,
+                features: [{
+                  ...currentData.features[0],
+                  properties: {
+                    ...currentData.features[0].properties,
+                    pulse: pulseValue
+                  }
+                }]
+              });
+            }
+          }
+        }, 50);
+
+        // Store interval to clear it later
+        if (!window.schoolPulseInterval) {
+          window.schoolPulseInterval = pulseInterval;
+        } else {
+          clearInterval(window.schoolPulseInterval);
+          window.schoolPulseInterval = pulseInterval;
+        }
+      };
+
+      // Function to clear school highlight
+      window.clearSchoolHighlight = () => {
+        if (!map.current) return;
+        
+        const selectedSource = map.current.getSource('selected-school');
+        if (selectedSource) {
+          selectedSource.setData({ type: 'FeatureCollection', features: [] });
+        }
+
+        // Selection is cleared by removing the selected-school marker
+
+        // Clear pulse interval
+        if (window.schoolPulseInterval) {
+          clearInterval(window.schoolPulseInterval);
+          window.schoolPulseInterval = null;
+        }
+      };
     }
 
     function setupControls() {

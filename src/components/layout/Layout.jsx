@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, ArrowLeft, MapPin } from 'lucide-react';
+import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, ArrowLeft, MapPin, GraduationCap } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
 import TableViewModal from '../ui/TableViewModal';
@@ -20,6 +20,7 @@ const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedFilter, setSelectedFilter] = useState('Area');
   const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
+  const [isSchoolFilterPanelOpen, setIsSchoolFilterPanelOpen] = useState(false);
   const [isTableViewOpen, setIsTableViewOpen] = useState(false);
   const [isTooltipEnabled, setIsTooltipEnabled] = useState(true);
   const [selectedDate, setSelectedDate] = useState('Jul 2025');
@@ -35,6 +36,11 @@ const Layout = ({ children }) => {
   const isDesktopRef = useRef(window.innerWidth >= 1024);
   const [isExploreModalOpen, setIsExploreModalOpen] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState(null);
+  
+  // School filter states
+  const [selectedCurriculum, setSelectedCurriculum] = useState('');
+  const [selectedGrade, setSelectedGrade] = useState('');
+  const [selectedRating, setSelectedRating] = useState('');
   
   // Access sidebar state to detect school landscape selection
   const { activeItem, selectedDataPoint, setActiveItem } = useSidebar();
@@ -175,6 +181,10 @@ const Layout = ({ children }) => {
 
   const handleFilterPanel = () => {
     setIsFilterPanelOpen(!isFilterPanelOpen);
+  };
+
+  const handleSchoolFilterPanel = () => {
+    setIsSchoolFilterPanelOpen(!isSchoolFilterPanelOpen);
   };
 
   const handleTableView = () => {
@@ -363,11 +373,16 @@ const Layout = ({ children }) => {
       {/* School Filter Panel */}
       {isSchoolPanelOpen && (
         <SchoolFilterPanel
-          isOpen={isSchoolPanelOpen}
-          onClose={() => {}}
+          isOpen={isSchoolFilterPanelOpen}
+          onClose={handleSchoolFilterPanel}
           selectedArea={graphPlace}
           selectedLocation={selectedLocation}
-          sidebarOpen={isSidebarOpen}
+          selectedCurriculum={selectedCurriculum}
+          selectedGrade={selectedGrade}
+          selectedRating={selectedRating}
+          onCurriculumChange={setSelectedCurriculum}
+          onGradeChange={setSelectedGrade}
+          onRatingChange={setSelectedRating}
         />
       )}
       
@@ -448,38 +463,53 @@ const Layout = ({ children }) => {
 
           {/* Right side controls */}
           <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-6">
-            {/* Filter Options - Hidden on small screens, shown as horizontal on medium+ */}
-            <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
-              {filterOptions.map((option) => (
-                <label key={option} className="flex items-center space-x-2">
-                  <input
-                    type="radio"
-                    name="filter-desktop"
-                    value={option}
-                    checked={selectedFilter === option}
-                    onChange={(e) => setSelectedFilter(e.target.value)}
-                    className="text-azure w-3 h-3"
-                  />
-                  <span className="text-sm text-gray-700">{option}</span>
-                </label>
-              ))}
-            </div>
+            {/* Filter Options - Only show when NOT on school map */}
+            {!isSchoolPanelOpen && (
+              <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
+                {filterOptions.map((option) => (
+                  <label key={option} className="flex items-center space-x-2">
+                    <input
+                      type="radio"
+                      name="filter-desktop"
+                      value={option}
+                      checked={selectedFilter === option}
+                      onChange={(e) => setSelectedFilter(e.target.value)}
+                      className="text-azure w-3 h-3"
+                    />
+                    <span className="text-sm text-gray-700">{option}</span>
+                  </label>
+                ))}
+              </div>
+            )}
 
             {/* Action Buttons */}
             <div className="flex items-center space-x-1 sm:space-x-2 lg:space-x-4">
+              {/* School Filter Button - Only show when school map is active */}
+              {isSchoolPanelOpen && (
+                <button 
+                  onClick={handleSchoolFilterPanel}
+                  className="p-2 hover:bg-gray-100 rounded-lg transition-colors flex items-center space-x-1 border border-gray-300"
+                >
+                  <GraduationCap className="w-4 h-4 text-gray-600" />
+                  <p className="text-sm hidden sm:block">School Filter</p>
+                </button>
+              )}
               <button 
                 onClick={handleShare}
                 className="p-2 hover:bg-gray-100 rounded-lg transition-colors border border-gray-300"
               >
                 <Share2 className="w-4 h-4 sm:w-5 sm:h-5 text-gray-600" />
               </button>
-              <button 
-                onClick={handleFilterPanel}
-                className="p-2 hover:bg-gray-100 rounded-lg transition-colors flex items-center space-x-1 border border-gray-300"
-              >
-                <Filter className="w-4 h-4 text-gray-600" />
-                <p className="text-sm hidden sm:block">Filter</p>
-              </button>
+              {/* Regular Filter Button - Only show when NOT on school map */}
+              {!isSchoolPanelOpen && (
+                <button 
+                  onClick={handleFilterPanel}
+                  className="p-2 hover:bg-gray-100 rounded-lg transition-colors flex items-center space-x-1 border border-gray-300"
+                >
+                  <Filter className="w-4 h-4 text-gray-600" />
+                  <p className="text-sm hidden sm:block">Filter</p>
+                </button>
+              )}
               <button className="px-2 sm:px-3 py-1.5 text-xs font-medium text-azure hover:text-azure-dark transition-colors hidden sm:block">
                 Sign up
               </button>
@@ -491,24 +521,26 @@ const Layout = ({ children }) => {
           </div>
         </div>
         
-        {/* Mobile Filter Options - Show when filter options are hidden */}
-        <div className="md:hidden bg-white/95 mx-2 sm:mx-4 mt-2 px-4 py-3 rounded-lg pointer-events-auto">
-          <div className="flex flex-wrap gap-4">
-            {filterOptions.map((option) => (
-              <label key={option} className="flex items-center space-x-2">
-                <input
-                  type="radio"
-                  name="filter-mobile"
-                  value={option}
-                  checked={selectedFilter === option}
-                  onChange={(e) => setSelectedFilter(e.target.value)}
-                  className="text-azure w-3 h-3"
-                />
-                <span className="text-sm text-gray-700">{option}</span>
-              </label>
-            ))}
+        {/* Mobile Filter Options - Show when filter options are hidden and NOT on school map */}
+        {!isSchoolPanelOpen && (
+          <div className="md:hidden bg-white/95 mx-2 sm:mx-4 mt-2 px-4 py-3 rounded-lg pointer-events-auto">
+            <div className="flex flex-wrap gap-4">
+              {filterOptions.map((option) => (
+                <label key={option} className="flex items-center space-x-2">
+                  <input
+                    type="radio"
+                    name="filter-mobile"
+                    value={option}
+                    checked={selectedFilter === option}
+                    onChange={(e) => setSelectedFilter(e.target.value)}
+                    className="text-azure w-3 h-3"
+                  />
+                  <span className="text-sm text-gray-700">{option}</span>
+                </label>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
         
         {/* Main Content Area - Only render if there are actual children */}
         {children && React.Children.count(children) > 0 && (

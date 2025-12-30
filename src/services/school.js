@@ -87,33 +87,36 @@ export const countSchoolsByArea = (geojsonFeatures) => {
     }
   });
   
-  // Count schools for each area
+  // Count schools for each area - PRIORITIZE lat/long (point-in-polygon) over name matching
   schoolsData.forEach(school => {
-    if (!school.Location || !school.Latitude || !school.Longitude) return;
+    // Skip schools without coordinates
+    if (!school.Latitude || !school.Longitude) return;
     
-    // Try to match by location name
+    const schoolPoint = [school.Longitude, school.Latitude];
     let matched = false;
-    for (const [areaName] of areaSchoolCounts) {
-      if (matchLocationToArea(school.Location, areaName)) {
+    
+    // FIRST: Try point-in-polygon (most accurate)
+    geojsonFeatures.forEach(feature => {
+      if (matched) return; // Already matched, skip
+      
+      const areaName = feature.properties?.CNAME_E || feature.properties?.COMMUNITY_E || '';
+      if (!areaName) return;
+      
+      if (feature.geometry && isPointInPolygon(schoolPoint, feature.geometry)) {
         areaSchoolCounts.set(areaName, (areaSchoolCounts.get(areaName) || 0) + 1);
         matched = true;
-        break;
       }
-    }
+    });
     
-    // If name matching fails, try point-in-polygon
-    if (!matched) {
-      const schoolPoint = [school.Longitude, school.Latitude];
-      
-      geojsonFeatures.forEach(feature => {
-        const areaName = feature.properties?.CNAME_E || feature.properties?.COMMUNITY_E || '';
-        if (!areaName) return;
-        
-        if (feature.geometry && isPointInPolygon(schoolPoint, feature.geometry)) {
+    // FALLBACK: If point-in-polygon fails and we have location name, try name matching
+    if (!matched && school.Location) {
+      for (const [areaName] of areaSchoolCounts) {
+        if (matchLocationToArea(school.Location, areaName)) {
           areaSchoolCounts.set(areaName, (areaSchoolCounts.get(areaName) || 0) + 1);
           matched = true;
+          break;
         }
-      });
+      }
     }
   });
   
