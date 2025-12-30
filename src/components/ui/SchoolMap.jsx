@@ -145,6 +145,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
 
       setupInteractions();
       setupSchoolMarkers();
+      setupMarker();
       setupControls();
     });
 
@@ -478,6 +479,44 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
           clearInterval(window.schoolPulseInterval);
           window.schoolPulseInterval = null;
         }
+      };
+    }
+
+    function setupMarker() {
+      if (!map.current) return;
+
+      map.current.loadImage('/logo/geo_stats.png', (error, image) => {
+        if (error || !map.current) return;
+        
+        map.current.addImage('search-marker', image);
+        map.current.addSource('search-result', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        });
+
+        map.current.addLayer({
+          id: 'search-result-marker',
+          type: 'symbol',
+          source: 'search-result',
+          layout: {
+            'icon-image': 'search-marker',
+            'icon-size': 0.09,
+            'icon-allow-overlap': true,
+            'icon-anchor': 'bottom'
+          }
+        });
+      });
+
+      window.highlightSearchResult = (coordinates) => {
+        if (!coordinates || !map.current || !map.current.getSource('search-result')) return;
+        map.current.getSource('search-result').setData({
+          type: 'FeatureCollection',
+          features: [{
+            type: 'Feature',
+            geometry: { type: 'Point', coordinates },
+            properties: {}
+          }]
+        });
       };
     }
 
