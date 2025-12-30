@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, ArrowLeft, MapPin, GraduationCap } from 'lucide-react';
+import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, ArrowLeft, MapPin, GraduationCap, RotateCcw } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
 import TableViewModal from '../ui/TableViewModal';
@@ -191,6 +191,31 @@ const Layout = ({ children }) => {
       // Close school filter panel if open
       if (isSchoolFilterPanelOpen) setIsSchoolFilterPanelOpen(false);
     }
+  };
+
+  const handleClear = () => {
+    // Clear selected school highlight
+    if (window.clearSchoolHighlight) {
+      window.clearSchoolHighlight();
+    }
+    
+    // Clear search result marker
+    if (window.map) {
+      const searchSource = window.map.getSource('search-result');
+      if (searchSource) {
+        searchSource.setData({
+          type: 'FeatureCollection',
+          features: []
+        });
+      }
+      
+      // Remove any open popups
+      const popups = document.querySelectorAll('.mapboxgl-popup');
+      popups.forEach(popup => popup.remove());
+    }
+    
+    // Clear selected location state
+    setSelectedLocation(null);
   };
 
   const handleTableView = () => {
@@ -488,6 +513,14 @@ const Layout = ({ children }) => {
 
             {/* Action Buttons */}
             <div className="flex items-center space-x-1 sm:space-x-2 lg:space-x-4">
+              <button 
+                onClick={handleClear}
+                className="p-2 hover:bg-gray-100 rounded-lg transition-colors flex items-center space-x-1 border border-gray-300"
+                title="Clear markers"
+              >
+                <RotateCcw className="w-4 h-4 text-gray-600" />
+                {/* <p className="text-sm hidden sm:block">Clear</p> */}
+              </button>
               <button 
                 onClick={handleShare}
                 className="p-2 hover:bg-gray-100 rounded-lg transition-colors border border-gray-300"
