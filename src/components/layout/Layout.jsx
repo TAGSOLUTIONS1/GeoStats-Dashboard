@@ -42,6 +42,7 @@ const Layout = ({ children }) => {
   const [selectedCurriculum, setSelectedCurriculum] = useState([]);
   const [selectedGrade, setSelectedGrade] = useState([]);
   const [selectedRating, setSelectedRating] = useState('');
+  const [filteredSchools, setFilteredSchools] = useState(null);
   
   // Measurement states
   const [isMeasurementMode, setIsMeasurementMode] = useState(false);
@@ -869,6 +870,7 @@ const Layout = ({ children }) => {
           onCurriculumChange={setSelectedCurriculum}
           onGradeChange={setSelectedGrade}
           onRatingChange={setSelectedRating}
+          onFilteredSchoolsChange={setFilteredSchools}
         />
       )}
       
@@ -878,6 +880,7 @@ const Layout = ({ children }) => {
           <SchoolMap 
             selectedFilter={selectedFilter}
             selectedDataPoint={currentDataPoint}
+            filteredSchools={filteredSchools}
           />
         ) : (
           <Map 

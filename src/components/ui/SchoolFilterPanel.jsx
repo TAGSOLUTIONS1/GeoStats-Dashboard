@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { X, GraduationCap, Star, Filter, ChevronDown, ChevronUp } from 'lucide-react';
+import { X, GraduationCap, Star, Filter, ChevronDown, ChevronUp, RotateCcw } from 'lucide-react';
 import { motion } from 'framer-motion';
 import schoolsData from '../../data/schools.json';
 import { getLocationFromCoordinates } from '../../services/school';
@@ -15,7 +15,8 @@ const SchoolFilterPanel = ({
   selectedRating: externalRating,
   onCurriculumChange,
   onGradeChange,
-  onRatingChange
+  onRatingChange,
+  onFilteredSchoolsChange
 }) => {
   const [selectedCurricula, setSelectedCurricula] = useState(
     externalCurriculum ? (Array.isArray(externalCurriculum) ? externalCurriculum : [externalCurriculum]) : []
@@ -163,7 +164,22 @@ const SchoolFilterPanel = ({
     }
 
     setFilteredSchools(filtered);
-  }, [isOpen, selectedCurricula, selectedGrades, selectedRating, selectedLocation]);
+    
+    // Notify parent component of filtered schools
+    if (onFilteredSchoolsChange) {
+      onFilteredSchoolsChange(filtered);
+    }
+  }, [isOpen, selectedCurricula, selectedGrades, selectedRating, selectedLocation, onFilteredSchoolsChange]);
+  
+  // Clear all filters
+  const handleClearFilters = () => {
+    setSelectedCurricula([]);
+    setSelectedGrades([]);
+    setSelectedRating('');
+    if (onCurriculumChange) onCurriculumChange([]);
+    if (onGradeChange) onGradeChange([]);
+    if (onRatingChange) onRatingChange('');
+  };
 
 
   const getRatingLabel = (rating) => {
@@ -205,13 +221,25 @@ const SchoolFilterPanel = ({
               <GraduationCap className="w-5 h-5 text-azure" />
               <h2 className="text-base font-semibold text-gray-900">School Filter</h2>
             </div>
-            <button
-              onClick={onClose}
-              className="p-1 hover:bg-gray-100 rounded-lg transition-colors"
-              aria-label="Close panel"
-            >
-              <X className="w-4 h-4 text-gray-500" />
-            </button>
+            <div className="flex items-center space-x-2">
+              {(selectedCurricula.length > 0 || selectedGrades.length > 0 || selectedRating) && (
+                <button
+                  onClick={handleClearFilters}
+                  className="p-1.5 hover:bg-gray-100 rounded-lg transition-colors"
+                  aria-label="Clear filters"
+                  title="Clear all filters"
+                >
+                  <RotateCcw className="w-4 h-4 text-gray-500" />
+                </button>
+              )}
+              <button
+                onClick={onClose}
+                className="p-1 hover:bg-gray-100 rounded-lg transition-colors"
+                aria-label="Close panel"
+              >
+                <X className="w-4 h-4 text-gray-500" />
+              </button>
+            </div>
           </div>
 
           {/* Filters - Scrollable */}

@@ -6,7 +6,7 @@ import { dubaiWEBDATA } from '../../data/DubaiData';
 import schoolsData from '../../data/schools.json';
 import { addSchoolCountsToGeoJSON } from '../../services/school';
 
-const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoint = null }) => {
+const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoint = null, filteredSchools = null }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
@@ -414,10 +414,15 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
     function setupSchoolMarkers() {
       if (!map.current) return;
 
+      // Use filtered schools if provided, otherwise use all schools
+      const schoolsToDisplay = filteredSchools && filteredSchools.length > 0 
+        ? filteredSchools 
+        : schoolsData;
+
       // Create GeoJSON from schools data
       const schoolsGeoJSON = {
         type: 'FeatureCollection',
-        features: schoolsData
+        features: schoolsToDisplay
           .filter(school => school.Latitude && school.Longitude)
           .map(school => ({
             type: 'Feature',
@@ -788,6 +793,45 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
       ]);
     }
   }, [selectedFilter, isMapLoaded, processGeoJSONWithSchools, getColorScheme, visualizationMode]);
+
+  // Update school markers when filtered schools change
+  useEffect(() => {
+    if (!map.current || !isMapLoaded) return;
+    
+    const schoolsToDisplay = filteredSchools && filteredSchools.length > 0 
+      ? filteredSchools 
+      : schoolsData;
+    
+    const schoolsGeoJSON = {
+      type: 'FeatureCollection',
+      features: schoolsToDisplay
+        .filter(school => school.Latitude && school.Longitude)
+        .map(school => ({
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: [school.Longitude, school.Latitude]
+          },
+          properties: {
+            name: school['School Name'],
+            location: school.Location,
+            geostatDisplayName: school.geostat?.display_name || null,
+            curriculum: school.Curriculum,
+            grades: school.Grades,
+            rating: school['Latest DSIB Rating'],
+            enrollment: school['2024/25 Enrollments'],
+            schoolId: school['School Name'],
+            latitude: school.Latitude,
+            longitude: school.Longitude
+          }
+        }))
+    };
+    
+    const source = map.current.getSource('schools');
+    if (source) {
+      source.setData(schoolsGeoJSON);
+    }
+  }, [filteredSchools, isMapLoaded]);
 
   const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
   const hasValidToken = token && token !== 'your_mapbox_access_token_here';
