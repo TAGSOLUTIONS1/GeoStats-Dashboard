@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { X, GraduationCap, Star, Filter } from 'lucide-react';
+import { X, GraduationCap, Star, Filter, ChevronDown, ChevronUp } from 'lucide-react';
 import { motion } from 'framer-motion';
 import schoolsData from '../../data/schools.json';
 import { getLocationFromCoordinates } from '../../services/school';
+import { GRADE_CATEGORIES, matchesGradeCategory } from '../../utils/gradeMatching';
 
 const SchoolFilterPanel = ({ 
   isOpen, 
@@ -16,26 +17,46 @@ const SchoolFilterPanel = ({
   onGradeChange,
   onRatingChange
 }) => {
-  const [selectedCurriculum, setSelectedCurriculum] = useState(externalCurriculum || '');
-  const [selectedGrade, setSelectedGrade] = useState(externalGrade || '');
+  const [selectedCurricula, setSelectedCurricula] = useState(
+    externalCurriculum ? (Array.isArray(externalCurriculum) ? externalCurriculum : [externalCurriculum]) : []
+  );
+  const [selectedGrades, setSelectedGrades] = useState(
+    externalGrade ? (Array.isArray(externalGrade) ? externalGrade : [externalGrade]) : []
+  );
   const [selectedRating, setSelectedRating] = useState(externalRating || '');
   const [filteredSchools, setFilteredSchools] = useState([]);
+  const [isCurriculumOpen, setIsCurriculumOpen] = useState(false);
+  const [isGradeOpen, setIsGradeOpen] = useState(false);
   
   // Sync with external state
   useEffect(() => {
-    if (externalCurriculum !== undefined) setSelectedCurriculum(externalCurriculum);
-    if (externalGrade !== undefined) setSelectedGrade(externalGrade);
+    if (externalCurriculum !== undefined) {
+      setSelectedCurricula(Array.isArray(externalCurriculum) ? externalCurriculum : (externalCurriculum ? [externalCurriculum] : []));
+    }
+    if (externalGrade !== undefined) {
+      setSelectedGrades(Array.isArray(externalGrade) ? externalGrade : (externalGrade ? [externalGrade] : []));
+    }
     if (externalRating !== undefined) setSelectedRating(externalRating);
   }, [externalCurriculum, externalGrade, externalRating]);
   
-  const handleCurriculumChange = (value) => {
-    setSelectedCurriculum(value);
-    if (onCurriculumChange) onCurriculumChange(value);
+  const handleCurriculumToggle = (curriculum) => {
+    setSelectedCurricula(prev => {
+      const newSelection = prev.includes(curriculum)
+        ? prev.filter(c => c !== curriculum)
+        : [...prev, curriculum];
+      if (onCurriculumChange) onCurriculumChange(newSelection);
+      return newSelection;
+    });
   };
   
-  const handleGradeChange = (value) => {
-    setSelectedGrade(value);
-    if (onGradeChange) onGradeChange(value);
+  const handleGradeToggle = (grade) => {
+    setSelectedGrades(prev => {
+      const newSelection = prev.includes(grade)
+        ? prev.filter(g => g !== grade)
+        : [...prev, grade];
+      if (onGradeChange) onGradeChange(newSelection);
+      return newSelection;
+    });
   };
   
   const handleRatingChange = (value) => {
@@ -47,32 +68,6 @@ const SchoolFilterPanel = ({
   const curricula = useMemo(() => {
     const unique = [...new Set(schoolsData.map(school => school.Curriculum).filter(Boolean))];
     return unique.sort();
-  }, []);
-
-  const grades = useMemo(() => {
-    const gradeSet = new Set();
-    schoolsData.forEach(school => {
-      if (school.Grades) {
-        // Extract grade ranges like "KG1-G12" or "KG1-G5"
-        const gradeMatch = school.Grades.match(/(KG\d+|G\d+)/g);
-        if (gradeMatch) {
-          gradeMatch.forEach(grade => {
-            // Normalize grades
-            if (grade.startsWith('KG')) {
-              gradeSet.add(grade);
-            } else if (grade.startsWith('G')) {
-              gradeSet.add(grade);
-            }
-          });
-        }
-      }
-    });
-    return Array.from(gradeSet).sort((a, b) => {
-      // Sort KG first, then G grades
-      if (a.startsWith('KG') && b.startsWith('G')) return -1;
-      if (a.startsWith('G') && b.startsWith('KG')) return 1;
-      return a.localeCompare(b);
-    });
   }, []);
 
   // Rating encoding map
@@ -129,20 +124,23 @@ const SchoolFilterPanel = ({
 
     let filtered = [...schoolsData];
 
-    // Filter by curriculum
-    if (selectedCurriculum) {
+    // Filter by curriculum (multiple selection)
+    if (selectedCurricula.length > 0) {
       filtered = filtered.filter(school => 
-        school.Curriculum && school.Curriculum.includes(selectedCurriculum)
+        school.Curriculum && selectedCurricula.some(curriculum => 
+          school.Curriculum.includes(curriculum)
+        )
       );
     }
 
-    // Filter by grade
-    if (selectedGrade) {
+    // Filter by grade (multiple selection with category matching)
+    if (selectedGrades.length > 0) {
       filtered = filtered.filter(school => {
         if (!school.Grades) return false;
-        // Check if the school offers the selected grade
-        const gradeRegex = new RegExp(selectedGrade.replace('G', 'G\\d*').replace('KG', 'KG\\d*'));
-        return gradeRegex.test(school.Grades);
+        // Check if the school matches any of the selected grade categories
+        return selectedGrades.some(gradeCategory => 
+          matchesGradeCategory(school.Grades, gradeCategory)
+        );
       });
     }
 
@@ -165,14 +163,8 @@ const SchoolFilterPanel = ({
     }
 
     setFilteredSchools(filtered);
-  }, [isOpen, selectedCurriculum, selectedGrade, selectedRating, selectedLocation]);
+  }, [isOpen, selectedCurricula, selectedGrades, selectedRating, selectedLocation]);
 
-  // Check if school offers the selected grade
-  const schoolOffersGrade = (school, grade) => {
-    if (!school.Grades || !grade) return true;
-    const gradeRegex = new RegExp(grade.replace('G', 'G\\d*').replace('KG', 'KG\\d*'));
-    return gradeRegex.test(school.Grades);
-  };
 
   const getRatingLabel = (rating) => {
     // Rating is numeric, convert to text using reverse map
@@ -222,72 +214,116 @@ const SchoolFilterPanel = ({
             </button>
           </div>
 
-          {/* Filters */}
-          <div className="p-4 border-b border-gray-200 space-y-4 bg-gray-50 flex-shrink-0">
-        {/* Curriculum Filter */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            <Filter className="w-4 h-4 inline mr-1" />
-            Curriculum
-          </label>
-          <select
-            value={selectedCurriculum}
-            onChange={(e) => handleCurriculumChange(e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure text-sm"
-          >
-            <option value="">All Curricula</option>
-            {curricula.map((curriculum) => (
-              <option key={curriculum} value={curriculum}>
-                {curriculum}
-              </option>
-            ))}
-          </select>
-        </div>
+          {/* Filters - Scrollable */}
+          <div className="flex-shrink-0 border-b border-gray-200 bg-gray-50 overflow-y-auto" style={{ maxHeight: '40vh' }}>
+            <div className="p-4 space-y-3">
+              {/* Curriculum Filter - Collapsible Multi-select */}
+              <div>
+                <button
+                  onClick={() => setIsCurriculumOpen(!isCurriculumOpen)}
+                  className="w-full flex items-center justify-between text-sm font-medium text-gray-700 mb-1.5 px-3 py-2 border border-gray-300 rounded-lg bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-azure"
+                >
+                  <span className="flex items-center">
+                    <Filter className="w-4 h-4 mr-1" />
+                    Curriculum {selectedCurricula.length > 0 && `(${selectedCurricula.length})`}
+                  </span>
+                  {isCurriculumOpen ? (
+                    <ChevronUp className="w-4 h-4 text-gray-500" />
+                  ) : (
+                    <ChevronDown className="w-4 h-4 text-gray-500" />
+                  )}
+                </button>
+                {isCurriculumOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: 'auto' }}
+                    exit={{ opacity: 0, height: 0 }}
+                    className="mt-1.5 max-h-32 overflow-y-auto border border-gray-300 rounded-lg bg-white shadow-sm"
+                  >
+                    {curricula.map((curriculum) => (
+                      <label
+                        key={curriculum}
+                        className="flex items-center px-2.5 py-1.5 hover:bg-gray-50 cursor-pointer border-b border-gray-100 last:border-b-0"
+                      >
+                        <input
+                          type="checkbox"
+                          checked={selectedCurricula.includes(curriculum)}
+                          onChange={() => handleCurriculumToggle(curriculum)}
+                          className="w-3.5 h-3.5 text-azure focus:ring-azure border-gray-300 rounded"
+                        />
+                        <span className="ml-2 text-xs text-gray-700">{curriculum}</span>
+                      </label>
+                    ))}
+                  </motion.div>
+                )}
+              </div>
 
-        {/* Grade Filter */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            Grade Level
-          </label>
-          <select
-            value={selectedGrade}
-            onChange={(e) => handleGradeChange(e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure text-sm"
-          >
-            <option value="">All Grades</option>
-            {grades.map((grade) => (
-              <option key={grade} value={grade}>
-                {grade}
-              </option>
-            ))}
-          </select>
-        </div>
+              {/* Grade Filter - Collapsible Multi-select with categories */}
+              <div>
+                <button
+                  onClick={() => setIsGradeOpen(!isGradeOpen)}
+                  className="w-full flex items-center justify-between text-sm font-medium text-gray-700 mb-1.5 px-3 py-2 border border-gray-300 rounded-lg bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-azure"
+                >
+                  <span>
+                    Grade Level {selectedGrades.length > 0 && `(${selectedGrades.length})`}
+                  </span>
+                  {isGradeOpen ? (
+                    <ChevronUp className="w-4 h-4 text-gray-500" />
+                  ) : (
+                    <ChevronDown className="w-4 h-4 text-gray-500" />
+                  )}
+                </button>
+                {isGradeOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: 'auto' }}
+                    exit={{ opacity: 0, height: 0 }}
+                    className="mt-1.5 max-h-32 overflow-y-auto border border-gray-300 rounded-lg bg-white shadow-sm"
+                  >
+                    {GRADE_CATEGORIES.map((category) => (
+                      <label
+                        key={category.value}
+                        className="flex items-center px-2.5 py-1.5 hover:bg-gray-50 cursor-pointer border-b border-gray-100 last:border-b-0"
+                      >
+                        <input
+                          type="checkbox"
+                          checked={selectedGrades.includes(category.value)}
+                          onChange={() => handleGradeToggle(category.value)}
+                          className="w-3.5 h-3.5 text-azure focus:ring-azure border-gray-300 rounded"
+                        />
+                        <span className="ml-2 text-xs text-gray-700">{category.label}</span>
+                      </label>
+                    ))}
+                  </motion.div>
+                )}
+              </div>
 
-        {/* Rating Filter */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            <Star className="w-4 h-4 inline mr-1" />
-            DSIB Rating
-          </label>
-          <select
-            value={selectedRating}
-            onChange={(e) => handleRatingChange(e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure text-sm"
-          >
-            <option value="">All Ratings</option>
-            {ratings.map((rating) => (
-              <option key={rating.value} value={rating.value}>
-                {rating.label}
-              </option>
-            ))}
-          </select>
-        </div>
+              {/* Rating Filter */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1.5">
+                  <Star className="w-4 h-4 inline mr-1" />
+                  DSIB Rating
+                </label>
+                <select
+                  value={selectedRating}
+                  onChange={(e) => handleRatingChange(e.target.value)}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure text-sm"
+                >
+                  <option value="">All Ratings</option>
+                  {ratings.map((rating) => (
+                    <option key={rating.value} value={rating.value}>
+                      {rating.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
 
-        {/* Results Count */}
-        <div className="text-sm text-gray-600 pt-2 border-t border-gray-200">
-          <strong>{filteredSchools.length}</strong> school{filteredSchools.length !== 1 ? 's' : ''} found
-        </div>
-      </div>
+              {/* Results Count */}
+              <div className="text-xs text-gray-600 pt-1.5 border-t border-gray-200">
+                <strong>{filteredSchools.length}</strong> school{filteredSchools.length !== 1 ? 's' : ''} found
+              </div>
+            </div>
+          </div>
 
           {/* Schools List */}
           <div className="flex-1 overflow-y-auto p-4 min-h-0">

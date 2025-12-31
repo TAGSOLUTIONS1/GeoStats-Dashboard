@@ -38,8 +38,8 @@ const Layout = ({ children }) => {
   const [selectedLocation, setSelectedLocation] = useState(null);
   
   // School filter states
-  const [selectedCurriculum, setSelectedCurriculum] = useState('');
-  const [selectedGrade, setSelectedGrade] = useState('');
+  const [selectedCurriculum, setSelectedCurriculum] = useState([]);
+  const [selectedGrade, setSelectedGrade] = useState([]);
   const [selectedRating, setSelectedRating] = useState('');
   
   // Measurement states
