@@ -14,6 +14,7 @@ import GraphModal from '../ui/GraphModal';
 import AreasMap from "../../data/average_meter_price/forecasts/Areas_id.json";
 import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
 import SchoolFilterPanel from '../ui/SchoolFilterPanel';
+import ColorLegend from '../ui/ColorLegend';
 import { useSidebar } from '../../hooks/useSidebar';
 
 const Layout = ({ children }) => {
@@ -143,6 +144,23 @@ const Layout = ({ children }) => {
   // Otherwise show population map
   const isSchoolPanelOpen = activeItem === 'dubai-school-landscape' || 
     (currentDataPoint && schoolDataPointIds.includes(currentDataPoint));
+
+  // Determine visualization mode for color legend
+  const getVisualizationMode = () => {
+    if (!currentDataPoint) return null;
+    const ratingDataPoints = ['rating-distribution'];
+    const enrollmentDataPoints = ['enrollment-growth'];
+    const countDataPoints = ['distribution-and-quality-analysis', 'fee-distribution'];
+    
+    if (ratingDataPoints.includes(currentDataPoint)) {
+      return 'rating';
+    } else if (enrollmentDataPoints.includes(currentDataPoint)) {
+      return 'enrollment';
+    } else if (countDataPoints.includes(currentDataPoint)) {
+      return 'count';
+    }
+    return null;
+  };
 
   const filterOptions = ['Emirate', 'Area'];
 
@@ -1034,7 +1052,7 @@ const Layout = ({ children }) => {
         )}
 
         {/* Bottom Control Bar */}
-        <div className="px-2 sm:px-4 lg:px-6 py-4 flex items-center space-x-4 lg:space-x-6 pointer-events-auto">
+        <div className="px-2 sm:px-4 lg:px-6 py-4 flex items-center space-x-4 lg:space-x-6 pointer-events-auto flex-wrap gap-3">
           <div className="flex items-center">
             <button 
               onClick={handleTableView}
@@ -1050,6 +1068,11 @@ const Layout = ({ children }) => {
                 onDateChange={handleDateChange}
               />
             </div>
+          
+          {/* Color Legend - Show when school data point is selected */}
+          {schoolDataPointIds.includes(currentDataPoint) && (
+            <ColorLegend mode={getVisualizationMode()} />
+          )}
           
           {/* Mobile Date Picker */}
           {/* <div className="sm:hidden">

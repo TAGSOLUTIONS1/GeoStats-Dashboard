@@ -99,7 +99,8 @@ export const calculateAreaSchoolStats = (geojsonFeatures) => {
     if (areaName) {
       areaStats.set(areaName, {
         count: 0,
-        ratings: []
+        ratings: [],
+        enrollments: []
       });
     }
   });
@@ -111,6 +112,7 @@ export const calculateAreaSchoolStats = (geojsonFeatures) => {
     
     const schoolPoint = [school.Longitude, school.Latitude];
     const rating = school['Latest DSIB Rating'];
+    const enrollment = school['2024/25 Enrollments'];
     
     // Check which area polygon contains this school point
     for (const feature of geojsonFeatures) {
@@ -130,21 +132,34 @@ export const calculateAreaSchoolStats = (geojsonFeatures) => {
             stats.ratings.push(ratingNum);
           }
         }
+        
+        // Add enrollment if available
+        if (enrollment !== null && enrollment !== undefined && enrollment !== '') {
+          const enrollmentNum = typeof enrollment === 'number' ? enrollment : Number(enrollment);
+          if (!isNaN(enrollmentNum) && enrollmentNum > 0) {
+            stats.enrollments.push(enrollmentNum);
+          }
+        }
         break; // School can only be in one area
       }
     }
   });
   
-  // Calculate average ratings
+  // Calculate average ratings and total enrollments
   const result = new Map();
   areaStats.forEach((stats, areaName) => {
     const avgRating = stats.ratings.length > 0
       ? stats.ratings.reduce((sum, r) => sum + r, 0) / stats.ratings.length
       : null;
     
+    const totalEnrollment = stats.enrollments.length > 0
+      ? stats.enrollments.reduce((sum, e) => sum + e, 0)
+      : null;
+    
     result.set(areaName, {
       count: stats.count,
-      averageRating: avgRating !== null ? Math.round(avgRating * 100) / 100 : null // Round to 2 decimal places
+      averageRating: avgRating !== null ? Math.round(avgRating * 100) / 100 : null, // Round to 2 decimal places
+      totalEnrollment: totalEnrollment !== null ? Math.round(totalEnrollment) : null
     });
   });
   
@@ -177,14 +192,15 @@ export const addSchoolCountsToGeoJSON = (geojson) => {
   
   const processedFeatures = geojson.features.map(feature => {
     const areaName = feature.properties?.CNAME_E || feature.properties?.COMMUNITY_E || '';
-    const stats = areaStats.get(areaName) || { count: 0, averageRating: null };
+    const stats = areaStats.get(areaName) || { count: 0, averageRating: null, totalEnrollment: null };
     
     return {
       ...feature,
       properties: {
         ...feature.properties,
         SchoolCount: stats.count,
-        AverageRating: stats.averageRating
+        AverageRating: stats.averageRating,
+        TotalEnrollment: stats.totalEnrollment
       }
     };
   });

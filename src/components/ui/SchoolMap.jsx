@@ -40,12 +40,16 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
   const visualizationMode = useMemo(() => {
     // Rating-related data points show average rating
     const ratingDataPoints = ['rating-distribution'];
+    // Enrollment-related data points show total enrollment
+    const enrollmentDataPoints = ['enrollment-growth'];
     // Count-related data points show school count
-    const countDataPoints = ['distribution-and-quality-analysis', 'fee-distribution', 'enrollment-growth'];
+    const countDataPoints = ['distribution-and-quality-analysis', 'fee-distribution'];
     
     if (selectedDataPoint) {
       if (ratingDataPoints.includes(selectedDataPoint)) {
         return 'rating';
+      } else if (enrollmentDataPoints.includes(selectedDataPoint)) {
+        return 'enrollment';
       } else if (countDataPoints.includes(selectedDataPoint)) {
         return 'count';
       }
@@ -106,10 +110,38 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
     ];
   }, []);
 
+  // Color scheme for total enrollments
+  const getEnrollmentColorScheme = useCallback(() => {
+    return [
+      'case',
+      // If no enrollment or null, use light gray
+      ['==', ['get', 'TotalEnrollment'], null],
+      '#e0e0e0',  // Light gray for no enrollment data
+      [
+        'interpolate',
+        ['linear'],
+        ['get', 'TotalEnrollment'],
+        0, '#fff3e0',      // Light orange for 0 enrollments
+        100, '#ffe0b2',    // Light orange for 100
+        500, '#ffcc80',    // Orange for 500
+        1000, '#ffb74d',   // Medium orange for 1,000
+        2500, '#ff9800',   // Orange for 2,500
+        5000, '#f57c00',   // Dark orange for 5,000
+        10000, '#e65100'   // Deep orange for 10,000+
+      ]
+    ];
+  }, []);
+
   // Get current color scheme based on visualization mode
   const getColorScheme = useCallback(() => {
-    return visualizationMode === 'rating' ? getRatingColorScheme() : getCountColorScheme();
-  }, [visualizationMode, getRatingColorScheme, getCountColorScheme]);
+    if (visualizationMode === 'rating') {
+      return getRatingColorScheme();
+    } else if (visualizationMode === 'enrollment') {
+      return getEnrollmentColorScheme();
+    } else {
+      return getCountColorScheme();
+    }
+  }, [visualizationMode, getRatingColorScheme, getEnrollmentColorScheme, getCountColorScheme]);
 
   useEffect(() => {
     const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
@@ -190,6 +222,22 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
                   ],
                   'No Data'
                 ]
+              : visualizationMode === 'enrollment'
+              ? [
+                  'case',
+                  ['has', 'TotalEnrollment'],
+                  [
+                    'case',
+                    ['!=', ['get', 'TotalEnrollment'], null],
+                    [
+                      'concat',
+                      'Enrollment: ',
+                      ['number-format', ['get', 'TotalEnrollment'], { 'locale': 'en-US' }]
+                    ],
+                    ''
+                  ],
+                  'No Data'
+                ]
               : [
                   'case',
                   ['has', 'SchoolCount'],
@@ -242,6 +290,18 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
             : ratingText;
           return {
             valueLabel: `<br/>Avg Rating: ${ratingDisplay}${schoolCount > 0 ? `<br/>Schools: ${schoolCount}` : ''}`,
+            valueLabel2: '',
+            valueLabel3: ''
+          };
+        } else if (visualizationMode === 'enrollment') {
+          // Show total enrollment
+          const totalEnrollment = props['TotalEnrollment'];
+          const schoolCount = props['SchoolCount'] || 0;
+          const enrollmentDisplay = totalEnrollment !== null && totalEnrollment !== undefined
+            ? new Intl.NumberFormat('en-US').format(totalEnrollment)
+            : 'No enrollment data';
+          return {
+            valueLabel: `<br/>Total Enrollment: ${enrollmentDisplay}${schoolCount > 0 ? `<br/>Schools: ${schoolCount}` : ''}`,
             valueLabel2: '',
             valueLabel3: ''
           };
@@ -688,6 +748,22 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
                   'concat',
                   'Rating: ',
                   ['number-format', ['get', 'AverageRating'], { 'locale': 'en-US', 'min-fraction-digits': 1, 'max-fraction-digits': 2 }]
+                ],
+                ''
+              ],
+              'No Data'
+            ]
+          : visualizationMode === 'enrollment'
+          ? [
+              'case',
+              ['has', 'TotalEnrollment'],
+              [
+                'case',
+                ['!=', ['get', 'TotalEnrollment'], null],
+                [
+                  'concat',
+                  'Enrollment: ',
+                  ['number-format', ['get', 'TotalEnrollment'], { 'locale': 'en-US' }]
                 ],
                 ''
               ],
