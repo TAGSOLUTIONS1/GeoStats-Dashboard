@@ -46,28 +46,6 @@ export const getLocationFromCoordinates = async (lat, lon) => {
   return location;
 };
 
-/**
- * Match school location to area name (CNAME)
- * Strict matching - no normalization, exact or contains match only
- */
-const matchLocationToArea = (schoolLocation, areaName) => {
-  if (!schoolLocation || !areaName) return false;
-  
-  // Convert both to uppercase for case-insensitive comparison
-  const schoolUpper = schoolLocation.toUpperCase().trim();
-  const areaUpper = areaName.toUpperCase().trim();
-  
-  // Exact match (case-insensitive)
-  if (schoolUpper === areaUpper) return true;
-  
-  // Contains match: area name must be contained in school location
-  // This handles cases like "Cycle Path, Wadi Al Safa 3, Dubai" containing "WADI AL SAFA 3"
-  if (schoolUpper.includes(areaUpper)) {
-    return true;
-  }
-  
-  return false;
-};
 
 /**
  * Check if a school point is within an area polygon
@@ -79,10 +57,21 @@ const isPointInPolygon = (point, polygon) => {
   const [lng, lat] = point;
   let inside = false;
   
-  // Handle MultiPolygon
-  const coordinates = polygon.type === 'MultiPolygon' 
-    ? polygon.coordinates[0] 
-    : polygon.coordinates;
+  // Handle Polygon and MultiPolygon coordinate structures
+  // Polygon: coordinates = [[[lng, lat], ...]] - array of rings
+  // MultiPolygon: coordinates = [[[[lng, lat], ...]], ...] - array of polygons, each with rings
+  let coordinates;
+  if (polygon.type === 'MultiPolygon') {
+    // MultiPolygon: get first polygon's first ring
+    if (!polygon.coordinates[0] || !polygon.coordinates[0][0]) return false;
+    coordinates = polygon.coordinates[0][0];
+  } else if (polygon.type === 'Polygon') {
+    // Polygon: get first ring (outer boundary)
+    if (!polygon.coordinates[0]) return false;
+    coordinates = polygon.coordinates[0];
+  } else {
+    return false;
+  }
   
   for (let i = 0, j = coordinates.length - 1; i < coordinates.length; j = i++) {
     const [xi, yi] = coordinates[i];
@@ -98,7 +87,8 @@ const isPointInPolygon = (point, polygon) => {
 };
 
 /**
- * Count schools per area based on location name matching
+ * Count schools per area using point-in-polygon matching
+ * Uses school lat/lng and area geometry from geoData
  */
 export const countSchoolsByArea = (geojsonFeatures) => {
   const areaSchoolCounts = new Map();
@@ -111,53 +101,24 @@ export const countSchoolsByArea = (geojsonFeatures) => {
     }
   });
   
-  // Count schools for each area - PRIORITIZE name matching (geostat.address.neighbourhood first, then geostat.display_name), then point-in-polygon as fallback
+  // Count schools for each area using point-in-polygon
   schoolsData.forEach(school => {
     // Skip schools without coordinates
     if (!school.Latitude || !school.Longitude) return;
     
     const schoolPoint = [school.Longitude, school.Latitude];
-    let matched = false;
     
-    // FIRST: Try name matching
-    // Priority 1: Check geostat.address.neighbourhood
-    // Priority 2: Check if area name appears in geostat.display_name (like "..., area name, ...")
-    const neighbourhood = school.geostat?.address?.neighbourhood;
-    const displayName = school.geostat?.display_name;
-    
-    if (neighbourhood || displayName) {
-      for (const [areaName] of areaSchoolCounts) {
-        // First check neighbourhood
-        if (neighbourhood && matchLocationToArea(neighbourhood, areaName)) {
-          const currentCount = areaSchoolCounts.get(areaName) || 0;
-          areaSchoolCounts.set(areaName, currentCount + 1);
-          matched = true;
-          break;
-        }
-        
-        // Then check if area name appears in display_name
-        if (displayName && matchLocationToArea(displayName, areaName)) {
-          const currentCount = areaSchoolCounts.get(areaName) || 0;
-          areaSchoolCounts.set(areaName, currentCount + 1);
-          matched = true;
-          break;
-        }
+    // Check which area polygon contains this school point
+    for (const feature of geojsonFeatures) {
+      if (!feature.geometry) continue;
+      
+      const areaName = feature.properties?.CNAME_E || feature.properties?.COMMUNITY_E || '';
+      if (!areaName) continue;
+      
+      if (isPointInPolygon(schoolPoint, feature.geometry)) {
+        areaSchoolCounts.set(areaName, (areaSchoolCounts.get(areaName) || 0) + 1);
+        break; // School can only be in one area
       }
-    }
-    
-    // FALLBACK: If name matching fails, try point-in-polygon
-    if (!matched) {
-      geojsonFeatures.forEach(feature => {
-        if (matched) return; // Already matched, skip
-        
-        const areaName = feature.properties?.CNAME_E || feature.properties?.COMMUNITY_E || '';
-        if (!areaName) return;
-        
-        if (feature.geometry && isPointInPolygon(schoolPoint, feature.geometry)) {
-          areaSchoolCounts.set(areaName, (areaSchoolCounts.get(areaName) || 0) + 1);
-          matched = true;
-        }
-      });
     }
   });
   
@@ -194,26 +155,45 @@ export const addSchoolCountsToGeoJSON = (geojson) => {
 };
 
 /**
- * Get schools by area name
+ * Get schools by area name using point-in-polygon
  */
-export const getSchoolsByArea = (areaName) => {
-  if (!areaName) return [];
+export const getSchoolsByArea = (areaName, geojsonFeatures) => {
+  if (!areaName || !geojsonFeatures) {
+    console.log('getSchoolsByArea: Missing parameters', { areaName, hasFeatures: !!geojsonFeatures });
+    return [];
+  }
   
-  return schoolsData.filter(school => {
-    // First check geostat.address.neighbourhood, then geostat.display_name
-    const neighbourhood = school.geostat?.address?.neighbourhood;
-    const displayName = school.geostat?.display_name;
-    
-    if (neighbourhood && matchLocationToArea(neighbourhood, areaName)) {
-      return true;
-    }
-    
-    if (displayName && matchLocationToArea(displayName, areaName)) {
-      return true;
-    }
-    
-    return false;
+  // Find the feature for this area
+  const areaFeature = geojsonFeatures.find(feature => {
+    const featureAreaName = feature.properties?.CNAME_E || feature.properties?.COMMUNITY_E || '';
+    return featureAreaName === areaName;
   });
+  
+  console.log('getSchoolsByArea called:', {
+    areaName,
+    areaFeatureFound: !!areaFeature,
+    hasGeometry: !!areaFeature?.geometry,
+    totalFeatures: geojsonFeatures.length
+  });
+  
+  if (!areaFeature || !areaFeature.geometry) {
+    console.log('getSchoolsByArea: Area feature not found or has no geometry');
+    return [];
+  }
+  
+  // Filter schools that fall within this area's polygon
+  const schoolsInArea = schoolsData.filter(school => {
+    if (!school.Latitude || !school.Longitude) return false;
+    const schoolPoint = [school.Longitude, school.Latitude];
+    return isPointInPolygon(schoolPoint, areaFeature.geometry);
+  });
+  
+  console.log('getSchoolsByArea result:', {
+    areaName,
+    schoolsFound: schoolsInArea.length
+  });
+  
+  return schoolsInArea;
 };
 
 /**
@@ -287,5 +267,34 @@ const calculateDistance = (lat1, lon1, lat2, lon2) => {
 
 const toRad = (degrees) => {
   return degrees * (Math.PI / 180);
+};
+
+/**
+ * TEST FUNCTION: Find which area a school falls into based on coordinates
+ * Uses point-in-polygon algorithm to determine the area
+ * @param {number} lat - School latitude
+ * @param {number} lng - School longitude
+ * @param {Array} geojsonFeatures - Array of GeoJSON features with polygons
+ * @returns {string|null} - Area name (CNAME_E) or null if not found
+ */
+export const findAreaForSchool = (lat, lng, geojsonFeatures) => {
+  if (!lat || !lng || !geojsonFeatures || !Array.isArray(geojsonFeatures)) {
+    return null;
+  }
+  
+  const schoolPoint = [lng, lat];
+  
+  for (const feature of geojsonFeatures) {
+    if (!feature.geometry) continue;
+    
+    const areaName = feature.properties?.CNAME_E || feature.properties?.COMMUNITY_E || '';
+    if (!areaName) continue;
+    
+    if (isPointInPolygon(schoolPoint, feature.geometry)) {
+      return areaName;
+    }
+  }
+  
+  return null;
 };
 
