@@ -47,7 +47,22 @@
     "2021/22 Spring Enrollments": 209,
     "2022/23 Enrollments": 180,
     "2023/24 Enrollments": 160,
-    "2024/25 Enrollments": 272
+    "2024/25 Enrollments": 272,
+    "geostat": {
+      "display_name": "Al bustan, 14 Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "tourism": "Al bustan",
+        "road": "14 Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 2.0,
@@ -97,7 +112,22 @@
     "2021/22 Spring Enrollments": 162,
     "2022/23 Enrollments": 146,
     "2023/24 Enrollments": 167,
-    "2024/25 Enrollments": 259
+    "2024/25 Enrollments": 259,
+    "geostat": {
+      "display_name": "Al bustan, 14 Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "tourism": "Al bustan",
+        "road": "14 Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 3.0,
@@ -147,7 +177,19 @@
     "2021/22 Spring Enrollments": 704,
     "2022/23 Enrollments": 596,
     "2023/24 Enrollments": 958,
-    "2024/25 Enrollments": 1050
+    "2024/25 Enrollments": 1050,
+    "geostat": {
+      "display_name": "Al Thowima Street, Al Barsha, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Al Thowima Street",
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 4.0,
@@ -197,7 +239,18 @@
     "2021/22 Spring Enrollments": 65,
     "2022/23 Enrollments": 62,
     "2023/24 Enrollments": 115,
-    "2024/25 Enrollments": 126
+    "2024/25 Enrollments": 126,
+    "geostat": {
+      "display_name": "Al-Khawaneej 2, Al Khawaneej, Dubai, United Arab Emirates",
+      "address": {
+        "residential": "Al-Khawaneej 2",
+        "suburb": "Al Khawaneej",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 5.0,
@@ -247,7 +300,20 @@
     "2021/22 Spring Enrollments": 73,
     "2022/23 Enrollments": 116,
     "2023/24 Enrollments": 125,
-    "2024/25 Enrollments": 104
+    "2024/25 Enrollments": 104,
+    "geostat": {
+      "display_name": "Hatta Community Centre, Heritage Village Path, Hayl, Hatta, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Hatta Community Centre",
+        "road": "Heritage Village Path",
+        "suburb": "Hayl",
+        "city": "Hatta",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 6.0,
@@ -297,7 +363,22 @@
     "2021/22 Spring Enrollments": 1593,
     "2022/23 Enrollments": 1700,
     "2023/24 Enrollments": 1716,
-    "2024/25 Enrollments": 1964
+    "2024/25 Enrollments": 1964,
+    "geostat": {
+      "display_name": "Diyafah High School, 9 Street, Al Nahda 2, Al Nahda, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Diyafah High School",
+        "road": "9 Street",
+        "neighbourhood": "Al Nahda 2",
+        "suburb": "Al Nahda",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 7.0,
@@ -347,7 +428,21 @@
     "2021/22 Spring Enrollments": 301,
     "2022/23 Enrollments": 242,
     "2023/24 Enrollments": 308,
-    "2024/25 Enrollments": 371
+    "2024/25 Enrollments": 371,
+    "geostat": {
+      "display_name": "Al Eman Private School, 49c Street, Al Rashidiya, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Al Eman Private School",
+        "road": "49c Street",
+        "suburb": "Al Rashidiya",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 8.0,
@@ -397,7 +492,17 @@
     "2021/22 Spring Enrollments": 120,
     "2022/23 Enrollments": 79,
     "2023/24 Enrollments": 59,
-    "2024/25 Enrollments": 55
+    "2024/25 Enrollments": 55,
+    "geostat": {
+      "display_name": "Jabal Ali, Dubai, United Arab Emirates",
+      "address": {
+        "neighbourhood": "Jabal Ali",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 9.0,
@@ -447,7 +552,22 @@
     "2021/22 Spring Enrollments": 1647,
     "2022/23 Enrollments": 1673,
     "2023/24 Enrollments": 1542,
-    "2024/25 Enrollments": 1434
+    "2024/25 Enrollments": 1434,
+    "geostat": {
+      "display_name": "Al Ittihad Private School, Cairo Street, Deira, Al Mamzar, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Al Ittihad Private School",
+        "road": "Cairo Street",
+        "neighbourhood": "Deira",
+        "suburb": "Al Mamzar",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 10.0,
@@ -497,7 +617,22 @@
     "2021/22 Spring Enrollments": 2724,
     "2022/23 Enrollments": 2613,
     "2023/24 Enrollments": 2581,
-    "2024/25 Enrollments": 2535
+    "2024/25 Enrollments": 2535,
+    "geostat": {
+      "display_name": "Al Ittihad Private School, 9a Street, Al Safa 1, Al Safa, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Al Ittihad Private School",
+        "road": "9a Street",
+        "neighbourhood": "Al Safa 1",
+        "suburb": "Al Safa",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 11.0,
@@ -547,7 +682,22 @@
     "2021/22 Spring Enrollments": 852,
     "2022/23 Enrollments": 529,
     "2023/24 Enrollments": 1195,
-    "2024/25 Enrollments": 1422
+    "2024/25 Enrollments": 1422,
+    "geostat": {
+      "display_name": "The Millenium School, 25a Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "The Millenium School",
+        "road": "25a Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 12.0,
@@ -597,7 +747,20 @@
     "2021/22 Spring Enrollments": 3110,
     "2022/23 Enrollments": 3112,
     "2023/24 Enrollments": 3357,
-    "2024/25 Enrollments": 3340
+    "2024/25 Enrollments": 3340,
+    "geostat": {
+      "display_name": "Al Mawakeb School, First Al Khail Street, Al Barsha, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Al Mawakeb School",
+        "road": "First Al Khail Street",
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 13.0,
@@ -647,7 +810,21 @@
     "2021/22 Spring Enrollments": 2328,
     "2022/23 Enrollments": 2271,
     "2023/24 Enrollments": 2308,
-    "2024/25 Enrollments": 2345
+    "2024/25 Enrollments": 2345,
+    "geostat": {
+      "display_name": "Al Mawakeb School, Marrakech Street, Al Garhoud, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Al Mawakeb School",
+        "road": "Marrakech Street",
+        "suburb": "Al Garhoud",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 14.0,
@@ -697,7 +874,19 @@
     "2021/22 Spring Enrollments": 1008,
     "2022/23 Enrollments": 1090,
     "2023/24 Enrollments": 1205,
-    "2024/25 Enrollments": 1277
+    "2024/25 Enrollments": 1277,
+    "geostat": {
+      "display_name": "26a Street, Al Mizhar 1, Al Mizhar, Dubai, United Arab Emirates",
+      "address": {
+        "road": "26a Street",
+        "residential": "Al Mizhar 1",
+        "suburb": "Al Mizhar",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 15.0,
@@ -747,7 +936,18 @@
     "2021/22 Spring Enrollments": 1222,
     "2022/23 Enrollments": 1287,
     "2023/24 Enrollments": 1525,
-    "2024/25 Enrollments": 1665
+    "2024/25 Enrollments": 1665,
+    "geostat": {
+      "display_name": "70 Street, Dubai Investments Park, Dubai, United Arab Emirates",
+      "address": {
+        "road": "70 Street",
+        "neighbourhood": "Dubai Investments Park",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 16.0,
@@ -797,7 +997,21 @@
     "2021/22 Spring Enrollments": 2442,
     "2022/23 Enrollments": 2695,
     "2023/24 Enrollments": 2708,
-    "2024/25 Enrollments": 2746
+    "2024/25 Enrollments": 2746,
+    "geostat": {
+      "display_name": "Oud Maitha Road, Bur Dubai, Umm Hurair, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Oud Maitha Road",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Umm Hurair",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 17.0,
@@ -847,7 +1061,22 @@
     "2021/22 Spring Enrollments": 1581,
     "2022/23 Enrollments": 1641,
     "2023/24 Enrollments": 2188,
-    "2024/25 Enrollments": 2213
+    "2024/25 Enrollments": 2213,
+    "geostat": {
+      "display_name": "Al Sadiq Islamic English School, 14b Street, Al Qusais 2, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Al Sadiq Islamic English School",
+        "road": "14b Street",
+        "neighbourhood": "Al Qusais 2",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 18.0,
@@ -897,7 +1126,22 @@
     "2021/22 Spring Enrollments": 1259,
     "2022/23 Enrollments": 1537,
     "2023/24 Enrollments": 1945,
-    "2024/25 Enrollments": 1993
+    "2024/25 Enrollments": 1993,
+    "geostat": {
+      "display_name": "مدرسة الحديبية للتعليم الأساسي, 22 Street, Al Twar 2, Al Twar, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "مدرسة الحديبية للتعليم الأساسي",
+        "road": "22 Street",
+        "neighbourhood": "Al Twar 2",
+        "suburb": "Al Twar",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 19.0,
@@ -947,7 +1191,21 @@
     "2021/22 Spring Enrollments": 1112,
     "2022/23 Enrollments": 1155,
     "2023/24 Enrollments": 1253,
-    "2024/25 Enrollments": 1267
+    "2024/25 Enrollments": 1267,
+    "geostat": {
+      "display_name": "Al Salam Private School, 5 Street, Al Nahda, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Al Salam Private School",
+        "road": "5 Street",
+        "suburb": "Al Nahda",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 20.0,
@@ -997,7 +1255,21 @@
     "2021/22 Spring Enrollments": 1822,
     "2022/23 Enrollments": 1812,
     "2023/24 Enrollments": 1934,
-    "2024/25 Enrollments": 1856
+    "2024/25 Enrollments": 1856,
+    "geostat": {
+      "display_name": "Al Shoroq Private School, 75c Street, Jumeirah, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Al Shoroq Private School",
+        "road": "75c Street",
+        "suburb": "Jumeirah",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 21.0,
@@ -1047,7 +1319,19 @@
     "2021/22 Spring Enrollments": 847,
     "2022/23 Enrollments": 1382,
     "2023/24 Enrollments": 1474,
-    "2024/25 Enrollments": 1518
+    "2024/25 Enrollments": 1518,
+    "geostat": {
+      "display_name": "Al Quoz Community, Dubai, United Arab Emirates",
+      "address": {
+        "suburb": "Al Quoz Community",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 22.0,
@@ -1097,7 +1381,21 @@
     "2021/22 Spring Enrollments": 1272,
     "2022/23 Enrollments": 1314,
     "2023/24 Enrollments": 1408,
-    "2024/25 Enrollments": 1382
+    "2024/25 Enrollments": 1382,
+    "geostat": {
+      "display_name": "41a Street, Bur Dubai, Al Mankhool, Dubai, United Arab Emirates",
+      "address": {
+        "road": "41a Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Al Mankhool",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 23.0,
@@ -1147,7 +1445,20 @@
     "2021/22 Spring Enrollments": 493,
     "2022/23 Enrollments": 498,
     "2023/24 Enrollments": 548,
-    "2024/25 Enrollments": 569
+    "2024/25 Enrollments": 569,
+    "geostat": {
+      "display_name": "Dubai Modern Education School, 11a Street, Al Mizhar 1, Al Mizhar, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Dubai Modern Education School",
+        "road": "11a Street",
+        "residential": "Al Mizhar 1",
+        "suburb": "Al Mizhar",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 24.0,
@@ -1197,7 +1508,22 @@
     "2021/22 Spring Enrollments": 2466,
     "2022/23 Enrollments": 2437,
     "2023/24 Enrollments": 2744,
-    "2024/25 Enrollments": 2809
+    "2024/25 Enrollments": 2809,
+    "geostat": {
+      "display_name": "American International School, 19a Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "American International School",
+        "road": "19a Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 25.0,
@@ -1247,7 +1573,19 @@
     "2021/22 Spring Enrollments": 1990,
     "2022/23 Enrollments": 2026,
     "2023/24 Enrollments": 2061,
-    "2024/25 Enrollments": 2058
+    "2024/25 Enrollments": 2058,
+    "geostat": {
+      "display_name": "American School of Dubai, Hessa Street, Al Barsha North, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "American School of Dubai",
+        "road": "Hessa Street",
+        "residential": "Al Barsha North",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 26.0,
@@ -1297,7 +1635,17 @@
     "2021/22 Spring Enrollments": 417,
     "2022/23 Enrollments": 534,
     "2023/24 Enrollments": 720,
-    "2024/25 Enrollments": 1050
+    "2024/25 Enrollments": 1050,
+    "geostat": {
+      "display_name": "Nad Al Sheba, Dubai, United Arab Emirates",
+      "address": {
+        "suburb": "Nad Al Sheba",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 27.0,
@@ -1347,7 +1695,22 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 0,
-    "2024/25 Enrollments": 44
+    "2024/25 Enrollments": 44,
+    "geostat": {
+      "display_name": "Amity English School, 6 Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Amity English School",
+        "road": "6 Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 28.0,
@@ -1397,7 +1760,22 @@
     "2021/22 Spring Enrollments": 800,
     "2022/23 Enrollments": 939,
     "2023/24 Enrollments": 1311,
-    "2024/25 Enrollments": 1483
+    "2024/25 Enrollments": 1483,
+    "geostat": {
+      "display_name": "Amity English School, 6 Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Amity English School",
+        "road": "6 Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 29.0,
@@ -1447,7 +1825,22 @@
     "2021/22 Spring Enrollments": 2615,
     "2022/23 Enrollments": 3603,
     "2023/24 Enrollments": 4937,
-    "2024/25 Enrollments": 5363
+    "2024/25 Enrollments": 5363,
+    "geostat": {
+      "display_name": "The Apple International School, 19b Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "The Apple International School",
+        "road": "19b Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 30.0,
@@ -1497,7 +1890,18 @@
     "2021/22 Spring Enrollments": 2963,
     "2022/23 Enrollments": 3116,
     "2023/24 Enrollments": 3504,
-    "2024/25 Enrollments": 3615
+    "2024/25 Enrollments": 3615,
+    "geostat": {
+      "display_name": "Al Mizhar 1, Al Mizhar, Dubai, United Arab Emirates",
+      "address": {
+        "residential": "Al Mizhar 1",
+        "suburb": "Al Mizhar",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 31.0,
@@ -1547,7 +1951,20 @@
     "2021/22 Spring Enrollments": 585,
     "2022/23 Enrollments": 790,
     "2023/24 Enrollments": 1067,
-    "2024/25 Enrollments": 1173
+    "2024/25 Enrollments": 1173,
+    "geostat": {
+      "display_name": "Orchid Street, Jumeirah Village Circle, District 9, Al Barsha South 5, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Orchid Street",
+        "neighbourhood": "Jumeirah Village Circle",
+        "residential": "District 9",
+        "suburb": "Al Barsha South 5",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 32.0,
@@ -1597,7 +2014,18 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 625,
-    "2024/25 Enrollments": 1495
+    "2024/25 Enrollments": 1495,
+    "geostat": {
+      "display_name": "Jabal Ali, Al Furjan, Jabal Ali, Dubai, United Arab Emirates",
+      "address": {
+        "neighbourhood": "Jabal Ali",
+        "suburb": "Jabal Ali",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 33.0,
@@ -1647,7 +2075,18 @@
     "2021/22 Spring Enrollments": 43,
     "2022/23 Enrollments": 205,
     "2023/24 Enrollments": 421,
-    "2024/25 Enrollments": 418
+    "2024/25 Enrollments": 418,
+    "geostat": {
+      "display_name": "Al Barsha, Al Barsha South 3, Dubai, United Arab Emirates",
+      "address": {
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha South 3",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 34.0,
@@ -1697,7 +2136,21 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 0,
-    "2024/25 Enrollments": 15
+    "2024/25 Enrollments": 15,
+    "geostat": {
+      "display_name": "Al Banoosh Street, Umm Suqeim 2, Umm Suqeim, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Al Banoosh Street",
+        "neighbourhood": "Umm Suqeim 2",
+        "suburb": "Umm Suqeim",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 35.0,
@@ -1747,7 +2200,21 @@
     "2021/22 Spring Enrollments": 612,
     "2022/23 Enrollments": 751,
     "2023/24 Enrollments": 551,
-    "2024/25 Enrollments": 558
+    "2024/25 Enrollments": 558,
+    "geostat": {
+      "display_name": "Meydan Racecourse, Meydan, Nad Al Sheba, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Meydan Racecourse",
+        "neighbourhood": "Meydan",
+        "suburb": "Nad Al Sheba",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 36.0,
@@ -1797,7 +2264,18 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 281,
     "2023/24 Enrollments": 684,
-    "2024/25 Enrollments": 1091
+    "2024/25 Enrollments": 1091,
+    "geostat": {
+      "display_name": "Al Barsha, Al Barsha South, Dubai, United Arab Emirates",
+      "address": {
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha South",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 37.0,
@@ -1847,7 +2325,20 @@
     "2021/22 Spring Enrollments": 113,
     "2022/23 Enrollments": 159,
     "2023/24 Enrollments": 221,
-    "2024/25 Enrollments": 317
+    "2024/25 Enrollments": 317,
+    "geostat": {
+      "display_name": "56a Street, Al Rashidiya, Dubai, United Arab Emirates",
+      "address": {
+        "road": "56a Street",
+        "suburb": "Al Rashidiya",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 38.0,
@@ -1897,7 +2388,18 @@
     "2021/22 Spring Enrollments": 519,
     "2022/23 Enrollments": 742,
     "2023/24 Enrollments": 1142,
-    "2024/25 Enrollments": 1536
+    "2024/25 Enrollments": 1536,
+    "geostat": {
+      "display_name": "18 Street, Dubai Investments Park, Dubai, United Arab Emirates",
+      "address": {
+        "road": "18 Street",
+        "neighbourhood": "Dubai Investments Park",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 39.0,
@@ -1947,7 +2449,19 @@
     "2021/22 Spring Enrollments": 586,
     "2022/23 Enrollments": 722,
     "2023/24 Enrollments": 976,
-    "2024/25 Enrollments": 1194
+    "2024/25 Enrollments": 1194,
+    "geostat": {
+      "display_name": "123 Street, Al Barsha, Al Barsha South, Dubai, United Arab Emirates",
+      "address": {
+        "road": "123 Street",
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha South",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 40.0,
@@ -1997,7 +2511,19 @@
     "2021/22 Spring Enrollments": 354,
     "2022/23 Enrollments": 704,
     "2023/24 Enrollments": 1053,
-    "2024/25 Enrollments": 1124
+    "2024/25 Enrollments": 1124,
+    "geostat": {
+      "display_name": "7a Street, Muhaisnah 1, Muhaisnah, Dubai, United Arab Emirates",
+      "address": {
+        "road": "7a Street",
+        "neighbourhood": "Muhaisnah 1",
+        "suburb": "Muhaisnah",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 41.0,
@@ -2047,7 +2573,21 @@
     "2021/22 Spring Enrollments": 2730,
     "2022/23 Enrollments": 2842,
     "2023/24 Enrollments": 2779,
-    "2024/25 Enrollments": 2891
+    "2024/25 Enrollments": 2891,
+    "geostat": {
+      "display_name": "Emarat, Damascus Street, Al Twar, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Emarat",
+        "road": "Damascus Street",
+        "suburb": "Al Twar",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 42.0,
@@ -2097,7 +2637,21 @@
     "2021/22 Spring Enrollments": 481,
     "2022/23 Enrollments": 487,
     "2023/24 Enrollments": 800,
-    "2024/25 Enrollments": 910
+    "2024/25 Enrollments": 910,
+    "geostat": {
+      "display_name": "Capital School, Baghdad Street, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Capital School",
+        "road": "Baghdad Street",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 43.0,
@@ -2147,7 +2701,18 @@
     "2021/22 Spring Enrollments": 152,
     "2022/23 Enrollments": 272,
     "2023/24 Enrollments": 328,
-    "2024/25 Enrollments": 376
+    "2024/25 Enrollments": 376,
+    "geostat": {
+      "display_name": "Sheikh Mohammed Bin Zayed Road, Al Warqa, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Sheikh Mohammed Bin Zayed Road",
+        "suburb": "Al Warqa",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 44.0,
@@ -2197,7 +2762,18 @@
     "2021/22 Spring Enrollments": 269,
     "2022/23 Enrollments": 323,
     "2023/24 Enrollments": 503,
-    "2024/25 Enrollments": 523
+    "2024/25 Enrollments": 523,
+    "geostat": {
+      "display_name": "58c Street, Mirdif, Dubai, United Arab Emirates",
+      "address": {
+        "road": "58c Street",
+        "suburb": "Mirdif",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 45.0,
@@ -2247,7 +2823,20 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 66,
     "2023/24 Enrollments": 536,
-    "2024/25 Enrollments": 586
+    "2024/25 Enrollments": 586,
+    "geostat": {
+      "display_name": "Al Dorar Street, Al Satwa, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Al Dorar Street",
+        "suburb": "Al Satwa",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 46.0,
@@ -2297,7 +2886,22 @@
     "2021/22 Spring Enrollments": 303,
     "2022/23 Enrollments": 326,
     "2023/24 Enrollments": 293,
-    "2024/25 Enrollments": 267
+    "2024/25 Enrollments": 267,
+    "geostat": {
+      "display_name": "23, 44c Street, Al Qouz 1, Al Quoz, Dubai, United Arab Emirates",
+      "address": {
+        "house_number": "23",
+        "road": "44c Street",
+        "neighbourhood": "Al Qouz 1",
+        "suburb": "Al Quoz",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 47.0,
@@ -2347,7 +2951,22 @@
     "2021/22 Spring Enrollments": 358,
     "2022/23 Enrollments": 375,
     "2023/24 Enrollments": 745,
-    "2024/25 Enrollments": 683
+    "2024/25 Enrollments": 683,
+    "geostat": {
+      "display_name": "Collegiate American School, Al Maydar Street, Umm Suqeim 2, Umm Suqeim, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Collegiate American School",
+        "road": "Al Maydar Street",
+        "neighbourhood": "Umm Suqeim 2",
+        "suburb": "Umm Suqeim",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 48.0,
@@ -2397,7 +3016,21 @@
     "2021/22 Spring Enrollments": 1041,
     "2022/23 Enrollments": 1532,
     "2023/24 Enrollments": 2074,
-    "2024/25 Enrollments": 2304
+    "2024/25 Enrollments": 2304,
+    "geostat": {
+      "display_name": "43a Street, Al Quoz, Al Quoz Community, Dubai, United Arab Emirates",
+      "address": {
+        "road": "43a Street",
+        "residential": "Al Quoz",
+        "suburb": "Al Quoz Community",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 49.0,
@@ -2447,7 +3080,21 @@
     "2021/22 Spring Enrollments": 1341,
     "2022/23 Enrollments": 1478,
     "2023/24 Enrollments": 1550,
-    "2024/25 Enrollments": 1601
+    "2024/25 Enrollments": 1601,
+    "geostat": {
+      "display_name": "13 Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "road": "13 Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 50.0,
@@ -2497,7 +3144,19 @@
     "2021/22 Spring Enrollments": 908,
     "2022/23 Enrollments": 1048,
     "2023/24 Enrollments": 1215,
-    "2024/25 Enrollments": 1270
+    "2024/25 Enrollments": 1270,
+    "geostat": {
+      "display_name": "47 Street, Al-Khawaneej 1, Al Khawaneej, Dubai, United Arab Emirates",
+      "address": {
+        "road": "47 Street",
+        "residential": "Al-Khawaneej 1",
+        "suburb": "Al Khawaneej",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 51.0,
@@ -2547,7 +3206,21 @@
     "2021/22 Spring Enrollments": 1682,
     "2022/23 Enrollments": 1756,
     "2023/24 Enrollments": 1879,
-    "2024/25 Enrollments": 2034
+    "2024/25 Enrollments": 2034,
+    "geostat": {
+      "display_name": "Vista Boulevard, New Ras Al Khor Community, Dubai Festival City, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Vista Boulevard",
+        "residential": "New Ras Al Khor Community",
+        "suburb": "Dubai Festival City",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 52.0,
@@ -2597,7 +3270,20 @@
     "2021/22 Spring Enrollments": 560,
     "2022/23 Enrollments": 867,
     "2023/24 Enrollments": 818,
-    "2024/25 Enrollments": 875
+    "2024/25 Enrollments": 875,
+    "geostat": {
+      "display_name": "Deira Private School, 32 Street, Al Twar 3, Al Twar, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Deira Private School",
+        "road": "32 Street",
+        "neighbourhood": "Al Twar 3",
+        "suburb": "Al Twar",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 53.0,
@@ -2647,7 +3333,20 @@
     "2021/22 Spring Enrollments": 3869,
     "2022/23 Enrollments": 3856,
     "2023/24 Enrollments": 3848,
-    "2024/25 Enrollments": 3808
+    "2024/25 Enrollments": 3808,
+    "geostat": {
+      "display_name": "Delhi Private School, 51d Street, Jabal Ali, Discovery Gardens, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Delhi Private School",
+        "road": "51d Street",
+        "neighbourhood": "Jabal Ali",
+        "suburb": "Discovery Gardens",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 54.0,
@@ -2697,7 +3396,22 @@
     "2021/22 Spring Enrollments": 199,
     "2022/23 Enrollments": 184,
     "2023/24 Enrollments": 142,
-    "2024/25 Enrollments": 106
+    "2024/25 Enrollments": 106,
+    "geostat": {
+      "display_name": "DEWA Academy, 7 Street, Bur Dubai, Al Hudaiba, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "DEWA Academy",
+        "road": "7 Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Al Hudaiba",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 55.0,
@@ -2747,7 +3461,21 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 704,
-    "2024/25 Enrollments": 914
+    "2024/25 Enrollments": 914,
+    "geostat": {
+      "display_name": "26 Street, Al Quoz, Al Quoz Community, Dubai, United Arab Emirates",
+      "address": {
+        "road": "26 Street",
+        "residential": "Al Quoz",
+        "suburb": "Al Quoz Community",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 56.0,
@@ -2797,7 +3525,18 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 115,
-    "2024/25 Enrollments": 207
+    "2024/25 Enrollments": 207,
+    "geostat": {
+      "display_name": "Al Barsha, Al Barsha South 3, Dubai, United Arab Emirates",
+      "address": {
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha South 3",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 57.0,
@@ -2847,7 +3586,19 @@
     "2021/22 Spring Enrollments": 542,
     "2022/23 Enrollments": 599,
     "2023/24 Enrollments": 661,
-    "2024/25 Enrollments": 650
+    "2024/25 Enrollments": 650,
+    "geostat": {
+      "display_name": "Sarhad Darbar, Industry Ring Street, Dubai Investments Park, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Sarhad Darbar",
+        "road": "Industry Ring Street",
+        "neighbourhood": "Dubai Investments Park",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 58.0,
@@ -2897,7 +3648,20 @@
     "2021/22 Spring Enrollments": 1167,
     "2022/23 Enrollments": 1181,
     "2023/24 Enrollments": 1189,
-    "2024/25 Enrollments": 1205
+    "2024/25 Enrollments": 1205,
+    "geostat": {
+      "display_name": "Dubai British School Emirates Hills, 9 Street, The Springs, Emirates Hills, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Dubai British School Emirates Hills",
+        "road": "9 Street",
+        "neighbourhood": "The Springs",
+        "suburb": "Emirates Hills",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 59.0,
@@ -2947,7 +3711,20 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 0,
-    "2024/25 Enrollments": 531
+    "2024/25 Enrollments": 531,
+    "geostat": {
+      "display_name": "40b Street, Al Wasl, Dubai, United Arab Emirates",
+      "address": {
+        "road": "40b Street",
+        "suburb": "Al Wasl",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 60.0,
@@ -2997,7 +3774,20 @@
     "2021/22 Spring Enrollments": 1815,
     "2022/23 Enrollments": 2016,
     "2023/24 Enrollments": 2103,
-    "2024/25 Enrollments": 2142
+    "2024/25 Enrollments": 2142,
+    "geostat": {
+      "display_name": "F8 Street, District 6, Jumeirah Park, Jumeirah Park, Emirates Hills, Dubai, United Arab Emirates",
+      "address": {
+        "road": "F8 Street",
+        "residential": "District 6, Jumeirah Park",
+        "neighbourhood": "Jumeirah Park",
+        "suburb": "Emirates Hills",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 61.0,
@@ -3047,7 +3837,21 @@
     "2021/22 Spring Enrollments": 399,
     "2022/23 Enrollments": 397,
     "2023/24 Enrollments": 684,
-    "2024/25 Enrollments": 740
+    "2024/25 Enrollments": 740,
+    "geostat": {
+      "display_name": "Dubai Carmel School, 24 Street, Al Nahda, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Dubai Carmel School",
+        "road": "24 Street",
+        "suburb": "Al Nahda",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 62.0,
@@ -3097,7 +3901,20 @@
     "2021/22 Spring Enrollments": 1035,
     "2022/23 Enrollments": 1084,
     "2023/24 Enrollments": 1093,
-    "2024/25 Enrollments": 1112
+    "2024/25 Enrollments": 1112,
+    "geostat": {
+      "display_name": "Dubai College, King Salman bin Abdulaziz Al Saud Street, Al Sufouh 2, Al Sufouh, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Dubai College",
+        "road": "King Salman bin Abdulaziz Al Saud Street",
+        "neighbourhood": "Al Sufouh 2",
+        "suburb": "Al Sufouh",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 63.0,
@@ -3147,7 +3964,18 @@
     "2021/22 Spring Enrollments": 1775,
     "2022/23 Enrollments": 1856,
     "2023/24 Enrollments": 1852,
-    "2024/25 Enrollments": 1863
+    "2024/25 Enrollments": 1863,
+    "geostat": {
+      "display_name": "Pompidou Road, Academic City, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Pompidou Road",
+        "suburb": "Academic City",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 64.0,
@@ -3197,7 +4025,21 @@
     "2021/22 Spring Enrollments": 1018,
     "2022/23 Enrollments": 1010,
     "2023/24 Enrollments": 1017,
-    "2024/25 Enrollments": 1011
+    "2024/25 Enrollments": 1011,
+    "geostat": {
+      "display_name": "Oud Maitha Road, Bur Dubai, Umm Hurair, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Oud Maitha Road",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Umm Hurair",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 65.0,
@@ -3247,7 +4089,21 @@
     "2021/22 Spring Enrollments": 1028,
     "2022/23 Enrollments": 1075,
     "2023/24 Enrollments": 1058,
-    "2024/25 Enrollments": 1101
+    "2024/25 Enrollments": 1101,
+    "geostat": {
+      "display_name": "17b Street, Bur Dubai, Oud Metha, Dubai, United Arab Emirates",
+      "address": {
+        "road": "17b Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Oud Metha",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 66.0,
@@ -3297,7 +4153,19 @@
     "2021/22 Spring Enrollments": 226,
     "2022/23 Enrollments": 298,
     "2023/24 Enrollments": 321,
-    "2024/25 Enrollments": 645
+    "2024/25 Enrollments": 645,
+    "geostat": {
+      "display_name": "123 Street, Al Barsha, Al Barsha South, Dubai, United Arab Emirates",
+      "address": {
+        "road": "123 Street",
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha South",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 67.0,
@@ -3347,7 +4215,18 @@
     "2021/22 Spring Enrollments": 1183,
     "2022/23 Enrollments": 1373,
     "2023/24 Enrollments": 1631,
-    "2024/25 Enrollments": 1836
+    "2024/25 Enrollments": 1836,
+    "geostat": {
+      "display_name": "Al Seedaf Road 1, Al Barsha, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Al Seedaf Road 1",
+        "residential": "Al Barsha",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 68.0,
@@ -3397,7 +4276,20 @@
     "2021/22 Spring Enrollments": 2560,
     "2022/23 Enrollments": 2584,
     "2023/24 Enrollments": 2760,
-    "2024/25 Enrollments": 2744
+    "2024/25 Enrollments": 2744,
+    "geostat": {
+      "display_name": "Dubai International Academy, First Al Khail Street, Emirates Hills, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Dubai International Academy",
+        "road": "First Al Khail Street",
+        "residential": "Emirates Hills",
+        "suburb": "Emirates Hills",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 69.0,
@@ -3447,7 +4339,21 @@
     "2021/22 Spring Enrollments": 1167,
     "2022/23 Enrollments": 1093,
     "2023/24 Enrollments": 1024,
-    "2024/25 Enrollments": 953
+    "2024/25 Enrollments": 953,
+    "geostat": {
+      "display_name": "Smart Football Academy, 55 Street, Al Garhoud, Dubai, United Arab Emirates",
+      "address": {
+        "club": "Smart Football Academy",
+        "road": "55 Street",
+        "suburb": "Al Garhoud",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 70.0,
@@ -3497,7 +4403,22 @@
     "2021/22 Spring Enrollments": 1882,
     "2022/23 Enrollments": 1894,
     "2023/24 Enrollments": 1816,
-    "2024/25 Enrollments": 1725
+    "2024/25 Enrollments": 1725,
+    "geostat": {
+      "display_name": "Dubai International School, Al Asayel Street, Al Quoz, Business Bay, Downtown Dubai, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Dubai International School",
+        "road": "Al Asayel Street",
+        "residential": "Al Quoz",
+        "suburb": "Business Bay",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 71.0,
@@ -3547,7 +4468,20 @@
     "2021/22 Spring Enrollments": 1923,
     "2022/23 Enrollments": 1862,
     "2023/24 Enrollments": 1983,
-    "2024/25 Enrollments": 2012
+    "2024/25 Enrollments": 2012,
+    "geostat": {
+      "display_name": "Dubai Modern Education School, 11a Street, Al Mizhar 1, Al Mizhar, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Dubai Modern Education School",
+        "road": "11a Street",
+        "residential": "Al Mizhar 1",
+        "suburb": "Al Mizhar",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 73.0,
@@ -3597,7 +4531,22 @@
     "2021/22 Spring Enrollments": 1245,
     "2022/23 Enrollments": 1069,
     "2023/24 Enrollments": 1159,
-    "2024/25 Enrollments": 1080
+    "2024/25 Enrollments": 1080,
+    "geostat": {
+      "display_name": "Dubai National School, 13 Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Dubai National School",
+        "road": "13 Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 72.0,
@@ -3647,7 +4596,19 @@
     "2021/22 Spring Enrollments": 2494,
     "2022/23 Enrollments": 2462,
     "2023/24 Enrollments": 2427,
-    "2024/25 Enrollments": 2438
+    "2024/25 Enrollments": 2438,
+    "geostat": {
+      "display_name": "44 Street, Al Barsha, Dubai, United Arab Emirates",
+      "address": {
+        "road": "44 Street",
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 74.0,
@@ -3697,7 +4658,22 @@
     "2021/22 Spring Enrollments": 2016,
     "2022/23 Enrollments": 2332,
     "2023/24 Enrollments": 2327,
-    "2024/25 Enrollments": 2748
+    "2024/25 Enrollments": 2748,
+    "geostat": {
+      "display_name": "Dubai Scholars School, 5 Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Dubai Scholars School",
+        "road": "5 Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 75.0,
@@ -3747,7 +4723,17 @@
     "2021/22 Spring Enrollments": 612,
     "2022/23 Enrollments": 775,
     "2023/24 Enrollments": 879,
-    "2024/25 Enrollments": 1300
+    "2024/25 Enrollments": 1300,
+    "geostat": {
+      "display_name": "Mirdif, Dubai, United Arab Emirates",
+      "address": {
+        "suburb": "Mirdif",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 76.0,
@@ -3797,7 +4783,20 @@
     "2021/22 Spring Enrollments": 590,
     "2022/23 Enrollments": 969,
     "2023/24 Enrollments": 1232,
-    "2024/25 Enrollments": 1492
+    "2024/25 Enrollments": 1492,
+    "geostat": {
+      "display_name": "GEMS World Academy, Al Khail Road, Al Barsha South 1, Jumeirah Village Circle, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "GEMS World Academy",
+        "road": "Al Khail Road",
+        "neighbourhood": "Al Barsha South 1",
+        "suburb": "Jumeirah Village Circle",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 77.0,
@@ -3847,7 +4846,18 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 212,
     "2023/24 Enrollments": 464,
-    "2024/25 Enrollments": 541
+    "2024/25 Enrollments": 541,
+    "geostat": {
+      "display_name": "12th Street, Nad Al Sheba, Dubai, United Arab Emirates",
+      "address": {
+        "road": "12th Street",
+        "suburb": "Nad Al Sheba",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 78.0,
@@ -3897,7 +4907,19 @@
     "2021/22 Spring Enrollments": 471,
     "2022/23 Enrollments": 584,
     "2023/24 Enrollments": 674,
-    "2024/25 Enrollments": 773
+    "2024/25 Enrollments": 773,
+    "geostat": {
+      "display_name": "Cycle Path, Wadi Al Safa 3, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Cycle Path",
+        "neighbourhood": "Wadi Al Safa 3",
+        "suburb": "Wadi Al Safa 3",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 79.0,
@@ -3947,7 +4969,18 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 88,
     "2023/24 Enrollments": 275,
-    "2024/25 Enrollments": 424
+    "2024/25 Enrollments": 424,
+    "geostat": {
+      "display_name": "70 Street, Dubai Investments Park, Dubai, United Arab Emirates",
+      "address": {
+        "road": "70 Street",
+        "neighbourhood": "Dubai Investments Park",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 80.0,
@@ -3997,7 +5030,19 @@
     "2021/22 Spring Enrollments": 407,
     "2022/23 Enrollments": 462,
     "2023/24 Enrollments": 563,
-    "2024/25 Enrollments": 658
+    "2024/25 Enrollments": 658,
+    "geostat": {
+      "display_name": "Dwight School Dubai, Hessa Street, Al Hebiah 4, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Dwight School Dubai",
+        "road": "Hessa Street",
+        "suburb": "Al Hebiah 4",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 81.0,
@@ -4047,7 +5092,22 @@
     "2021/22 Spring Enrollments": 1526,
     "2022/23 Enrollments": 1883,
     "2023/24 Enrollments": 2144,
-    "2024/25 Enrollments": 2172
+    "2024/25 Enrollments": 2172,
+    "geostat": {
+      "display_name": "The Elite English School, 30b Street, Deira, Al Waheda, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "The Elite English School",
+        "road": "30b Street",
+        "neighbourhood": "Deira",
+        "suburb": "Al Waheda",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 83.0,
@@ -4097,7 +5157,22 @@
     "2021/22 Spring Enrollments": 1989,
     "2022/23 Enrollments": 2011,
     "2023/24 Enrollments": 2274,
-    "2024/25 Enrollments": 2326
+    "2024/25 Enrollments": 2326,
+    "geostat": {
+      "display_name": "Emirates International School, 12a Street, Umm Al Sheif, Dubai, P.O. Box 6446, United Arab Emirates",
+      "address": {
+        "amenity": "Emirates International School",
+        "road": "12a Street",
+        "suburb": "Umm Al Sheif",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "postcode": "P.O. Box 6446",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 82.0,
@@ -4147,7 +5222,19 @@
     "2021/22 Spring Enrollments": 1714,
     "2022/23 Enrollments": 1812,
     "2023/24 Enrollments": 1878,
-    "2024/25 Enrollments": 1905
+    "2024/25 Enrollments": 1905,
+    "geostat": {
+      "display_name": "Al Sohool Street, The Meadows, Emirates Hills, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Al Sohool Street",
+        "neighbourhood": "The Meadows",
+        "suburb": "Emirates Hills",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 84.0,
@@ -4197,7 +5284,18 @@
     "2021/22 Spring Enrollments": 116,
     "2022/23 Enrollments": 260,
     "2023/24 Enrollments": 474,
-    "2024/25 Enrollments": 582
+    "2024/25 Enrollments": 582,
+    "geostat": {
+      "display_name": "Al-Khawaneej 2, Al Khawaneej, Dubai, United Arab Emirates",
+      "address": {
+        "residential": "Al-Khawaneej 2",
+        "suburb": "Al Khawaneej",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 85.0,
@@ -4247,7 +5345,21 @@
     "2021/22 Spring Enrollments": 1802,
     "2022/23 Enrollments": 1927,
     "2023/24 Enrollments": 1964,
-    "2024/25 Enrollments": 2005
+    "2024/25 Enrollments": 2005,
+    "geostat": {
+      "display_name": "10 Street, Bur Dubai, Umm Hurair, Dubai, United Arab Emirates",
+      "address": {
+        "road": "10 Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Umm Hurair",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 86.0,
@@ -4297,7 +5409,19 @@
     "2021/22 Spring Enrollments": 597,
     "2022/23 Enrollments": 890,
     "2023/24 Enrollments": 1014,
-    "2024/25 Enrollments": 1042
+    "2024/25 Enrollments": 1042,
+    "geostat": {
+      "display_name": "Al Qudra Street, Dubai Sustainable City, Wadi Al Safa 7, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Al Qudra Street",
+        "neighbourhood": "Dubai Sustainable City",
+        "suburb": "Wadi Al Safa 7",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 87.0,
@@ -4347,7 +5471,18 @@
     "2021/22 Spring Enrollments": 2018,
     "2022/23 Enrollments": 2446,
     "2023/24 Enrollments": 2665,
-    "2024/25 Enrollments": 3064
+    "2024/25 Enrollments": 3064,
+    "geostat": {
+      "display_name": "Nouakchott Street, Al Warqa, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Nouakchott Street",
+        "suburb": "Al Warqa",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 88.0,
@@ -4397,7 +5532,19 @@
     "2021/22 Spring Enrollments": 1175,
     "2022/23 Enrollments": 1136,
     "2023/24 Enrollments": 992,
-    "2024/25 Enrollments": 933
+    "2024/25 Enrollments": 933,
+    "geostat": {
+      "display_name": "123 Street, Al Barsha, Al Barsha South, Dubai, United Arab Emirates",
+      "address": {
+        "road": "123 Street",
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha South",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 89.0,
@@ -4447,7 +5594,18 @@
     "2021/22 Spring Enrollments": 2896,
     "2022/23 Enrollments": 2969,
     "2023/24 Enrollments": 3066,
-    "2024/25 Enrollments": 3320
+    "2024/25 Enrollments": 3320,
+    "geostat": {
+      "display_name": "Al Na'ayat Street, Al Barsha, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Al Na'ayat Street",
+        "residential": "Al Barsha",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 90.0,
@@ -4497,7 +5655,18 @@
     "2021/22 Spring Enrollments": 1505,
     "2022/23 Enrollments": 1704,
     "2023/24 Enrollments": 1884,
-    "2024/25 Enrollments": 1954
+    "2024/25 Enrollments": 1954,
+    "geostat": {
+      "display_name": "Dubai Residence Complex, Wadi Al Safa 5, Dubai, United Arab Emirates",
+      "address": {
+        "neighbourhood": "Dubai Residence Complex",
+        "suburb": "Wadi Al Safa 5",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 91.0,
@@ -4547,7 +5716,19 @@
     "2021/22 Spring Enrollments": 5777,
     "2022/23 Enrollments": 6188,
     "2023/24 Enrollments": 6129,
-    "2024/25 Enrollments": 6231
+    "2024/25 Enrollments": 6231,
+    "geostat": {
+      "display_name": "123 Street, Al Barsha, Al Barsha South, Dubai, United Arab Emirates",
+      "address": {
+        "road": "123 Street",
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha South",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 92.0,
@@ -4597,7 +5778,19 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 0,
-    "2024/25 Enrollments": 554
+    "2024/25 Enrollments": 554,
+    "geostat": {
+      "display_name": "Al Shams Road, Dubai South Residential District, Madinat Al Mataar, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Al Shams Road",
+        "residential": "Dubai South Residential District",
+        "suburb": "Madinat Al Mataar",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 93.0,
@@ -4647,7 +5840,19 @@
     "2021/22 Spring Enrollments": 3005,
     "2022/23 Enrollments": 3158,
     "2023/24 Enrollments": 4001,
-    "2024/25 Enrollments": 4739
+    "2024/25 Enrollments": 4739,
+    "geostat": {
+      "display_name": "31 Street, Al Mizhar 1, Al Mizhar, Dubai, United Arab Emirates",
+      "address": {
+        "road": "31 Street",
+        "residential": "Al Mizhar 1",
+        "suburb": "Al Mizhar",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 94.0,
@@ -4697,7 +5902,19 @@
     "2021/22 Spring Enrollments": 1401,
     "2022/23 Enrollments": 1778,
     "2023/24 Enrollments": 2150,
-    "2024/25 Enrollments": 2246
+    "2024/25 Enrollments": 2246,
+    "geostat": {
+      "display_name": "D66, Fairways 1, Hadaeq Sheikh Mohammed Bin Rashid, Dubai, United Arab Emirates",
+      "address": {
+        "road": "D66",
+        "neighbourhood": "Fairways 1",
+        "suburb": "Hadaeq Sheikh Mohammed Bin Rashid",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 95.0,
@@ -4747,7 +5964,22 @@
     "2021/22 Spring Enrollments": 1466,
     "2022/23 Enrollments": 1458,
     "2023/24 Enrollments": 1466,
-    "2024/25 Enrollments": 1443
+    "2024/25 Enrollments": 1443,
+    "geostat": {
+      "display_name": "Jumeirah Primary School, 19 Street, Al Safa 1, Al Safa, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Jumeirah Primary School",
+        "road": "19 Street",
+        "neighbourhood": "Al Safa 1",
+        "suburb": "Al Safa",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 96.0,
@@ -4797,7 +6029,21 @@
     "2021/22 Spring Enrollments": 4850,
     "2022/23 Enrollments": 5667,
     "2023/24 Enrollments": 6325,
-    "2024/25 Enrollments": 6746
+    "2024/25 Enrollments": 6746,
+    "geostat": {
+      "display_name": "GEMS Legacy School Primary Campus, 2 Street, Al Garhoud, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "GEMS Legacy School Primary Campus",
+        "road": "2 Street",
+        "suburb": "Al Garhoud",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 97.0,
@@ -4847,7 +6093,19 @@
     "2021/22 Spring Enrollments": 2808,
     "2022/23 Enrollments": 3446,
     "2023/24 Enrollments": 3928,
-    "2024/25 Enrollments": 4066
+    "2024/25 Enrollments": 4066,
+    "geostat": {
+      "display_name": "Claverton Street, Motor City, Up Town Motor City, Al Hebiah 1, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Claverton Street",
+        "neighbourhood": "Motor City",
+        "suburb": "Al Hebiah 1",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 98.0,
@@ -4897,7 +6155,18 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 725,
-    "2024/25 Enrollments": 1505
+    "2024/25 Enrollments": 1505,
+    "geostat": {
+      "display_name": "Wadi Al Safa 7, Serena, Wadi Al Safa 7, Dubai, United Arab Emirates",
+      "address": {
+        "neighbourhood": "Wadi Al Safa 7",
+        "suburb": "Wadi Al Safa 7",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 99.0,
@@ -4947,7 +6216,18 @@
     "2021/22 Spring Enrollments": 3521,
     "2022/23 Enrollments": 3608,
     "2023/24 Enrollments": 3840,
-    "2024/25 Enrollments": 3941
+    "2024/25 Enrollments": 3941,
+    "geostat": {
+      "display_name": "31 Street, Nad Al Sheba, Dubai, United Arab Emirates",
+      "address": {
+        "road": "31 Street",
+        "suburb": "Nad Al Sheba",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 100.0,
@@ -4997,7 +6277,17 @@
     "2021/22 Spring Enrollments": 2083,
     "2022/23 Enrollments": 2290,
     "2023/24 Enrollments": 2476,
-    "2024/25 Enrollments": 2654
+    "2024/25 Enrollments": 2654,
+    "geostat": {
+      "display_name": "Hadaeq Sheikh Mohammed Bin Rashid, Dubai, United Arab Emirates",
+      "address": {
+        "suburb": "Hadaeq Sheikh Mohammed Bin Rashid",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 101.0,
@@ -5047,7 +6337,20 @@
     "2021/22 Spring Enrollments": 10495,
     "2022/23 Enrollments": 10412,
     "2023/24 Enrollments": 10399,
-    "2024/25 Enrollments": 10446
+    "2024/25 Enrollments": 10446,
+    "geostat": {
+      "display_name": "Gems our own English high school, 37 Street, Al Warqa 3, Al Warqa, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Gems our own English high school",
+        "road": "37 Street",
+        "neighbourhood": "Al Warqa 3",
+        "suburb": "Al Warqa",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 102.0,
@@ -5097,7 +6400,22 @@
     "2021/22 Spring Enrollments": 3717,
     "2022/23 Enrollments": 3696,
     "2023/24 Enrollments": 3666,
-    "2024/25 Enrollments": 3687
+    "2024/25 Enrollments": 3687,
+    "geostat": {
+      "display_name": "GEMS Our Indian School, Al Meydan Street, Al Qouz 1, Al Quoz Community, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "GEMS Our Indian School",
+        "road": "Al Meydan Street",
+        "neighbourhood": "Al Qouz 1",
+        "suburb": "Al Quoz Community",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 103.0,
@@ -5147,7 +6465,19 @@
     "2021/22 Spring Enrollments": 872,
     "2022/23 Enrollments": 905,
     "2023/24 Enrollments": 829,
-    "2024/25 Enrollments": 801
+    "2024/25 Enrollments": 801,
+    "geostat": {
+      "display_name": "11a Street, Al Mizhar 1, Al Mizhar, Dubai, United Arab Emirates",
+      "address": {
+        "road": "11a Street",
+        "residential": "Al Mizhar 1",
+        "suburb": "Al Mizhar",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 104.0,
@@ -5197,7 +6527,19 @@
     "2021/22 Spring Enrollments": 1628,
     "2022/23 Enrollments": 2144,
     "2023/24 Enrollments": 2532,
-    "2024/25 Enrollments": 2472
+    "2024/25 Enrollments": 2472,
+    "geostat": {
+      "display_name": "Al Khail Road, Al Barsha, Hadaeq Sheikh Mohammed Bin Rashid, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Al Khail Road",
+        "residential": "Al Barsha",
+        "suburb": "Hadaeq Sheikh Mohammed Bin Rashid",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 105.0,
@@ -5247,7 +6589,20 @@
     "2021/22 Spring Enrollments": 3222,
     "2022/23 Enrollments": 3668,
     "2023/24 Enrollments": 4202,
-    "2024/25 Enrollments": 4265
+    "2024/25 Enrollments": 4265,
+    "geostat": {
+      "display_name": "4d, 61 Street, Dubai Silicon Oasis, Semmer Villas A & C, International City, Dubai, United Arab Emirates",
+      "address": {
+        "house_number": "4d",
+        "road": "61 Street",
+        "neighbourhood": "Dubai Silicon Oasis",
+        "suburb": "International City",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 106.0,
@@ -5297,7 +6652,20 @@
     "2021/22 Spring Enrollments": 2852,
     "2022/23 Enrollments": 2885,
     "2023/24 Enrollments": 2903,
-    "2024/25 Enrollments": 2907
+    "2024/25 Enrollments": 2907,
+    "geostat": {
+      "display_name": "GEMS Wellington International School, Al Sarfa Street, Al Sufouh, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "GEMS Wellington International School",
+        "road": "Al Sarfa Street",
+        "neighbourhood": "Al Sufouh",
+        "suburb": "Al Sufouh",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 107.0,
@@ -5347,7 +6715,19 @@
     "2021/22 Spring Enrollments": 4070,
     "2022/23 Enrollments": 4029,
     "2023/24 Enrollments": 4123,
-    "2024/25 Enrollments": 4182
+    "2024/25 Enrollments": 4182,
+    "geostat": {
+      "display_name": "Sheikh Zayed bin Hamdan Al Nahyan Street, Falcon City of Wonders, Liwan, Wadi Al Safa 4, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Sheikh Zayed bin Hamdan Al Nahyan Street",
+        "neighbourhood": "Falcon City of Wonders",
+        "suburb": "Wadi Al Safa 4",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 108.0,
@@ -5397,7 +6777,20 @@
     "2021/22 Spring Enrollments": 1401,
     "2022/23 Enrollments": 1704,
     "2023/24 Enrollments": 2026,
-    "2024/25 Enrollments": 2066
+    "2024/25 Enrollments": 2066,
+    "geostat": {
+      "display_name": "GEMS World Academy, Al Khail Road, Al Barsha South 1, Jumeirah Village Circle, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "GEMS World Academy",
+        "road": "Al Khail Road",
+        "neighbourhood": "Al Barsha South 1",
+        "suburb": "Jumeirah Village Circle",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 109.0,
@@ -5447,7 +6840,19 @@
     "2021/22 Spring Enrollments": 820,
     "2022/23 Enrollments": 814,
     "2023/24 Enrollments": 923,
-    "2024/25 Enrollments": 950
+    "2024/25 Enrollments": 950,
+    "geostat": {
+      "display_name": "German International School Dubai, Pompidou Road, Academic City, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "German International School Dubai",
+        "road": "Pompidou Road",
+        "suburb": "Academic City",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 110.0,
@@ -5497,7 +6902,22 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 118,
-    "2024/25 Enrollments": 305
+    "2024/25 Enrollments": 305,
+    "geostat": {
+      "display_name": "GEMS Winchester School, 17b Street, Bur Dubai, Oud Metha, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "GEMS Winchester School",
+        "road": "17b Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Oud Metha",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 111.0,
@@ -5547,7 +6967,22 @@
     "2021/22 Spring Enrollments": 674,
     "2022/23 Enrollments": 946,
     "2023/24 Enrollments": 1021,
-    "2024/25 Enrollments": 837
+    "2024/25 Enrollments": 837,
+    "geostat": {
+      "display_name": "Safa Private School, Al Meydan Street, Al Qouz 1, Al Quoz Community, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Safa Private School",
+        "road": "Al Meydan Street",
+        "neighbourhood": "Al Qouz 1",
+        "suburb": "Al Quoz Community",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 112.0,
@@ -5597,7 +7032,20 @@
     "2021/22 Spring Enrollments": 1097,
     "2022/23 Enrollments": 1136,
     "2023/24 Enrollments": 1319,
-    "2024/25 Enrollments": 1379
+    "2024/25 Enrollments": 1379,
+    "geostat": {
+      "display_name": "24 Street, Al Garhoud, Dubai, United Arab Emirates",
+      "address": {
+        "road": "24 Street",
+        "suburb": "Al Garhoud",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 113.0,
@@ -5647,7 +7095,18 @@
     "2021/22 Spring Enrollments": 1230,
     "2022/23 Enrollments": 1369,
     "2023/24 Enrollments": 1557,
-    "2024/25 Enrollments": 1774
+    "2024/25 Enrollments": 1774,
+    "geostat": {
+      "display_name": "25 Street, Dubai Investment Park 1, Dubai, United Arab Emirates",
+      "address": {
+        "road": "25 Street",
+        "neighbourhood": "Dubai Investment Park 1",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 114.0,
@@ -5697,7 +7156,20 @@
     "2021/22 Spring Enrollments": 1260,
     "2022/23 Enrollments": 1264,
     "2023/24 Enrollments": 1262,
-    "2024/25 Enrollments": 1251
+    "2024/25 Enrollments": 1251,
+    "geostat": {
+      "display_name": "Greenwood International School, 32 Street, Muhaisnah 1, Muhaisnah, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Greenwood International School",
+        "road": "32 Street",
+        "neighbourhood": "Muhaisnah 1",
+        "suburb": "Muhaisnah",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 115.0,
@@ -5747,7 +7219,20 @@
     "2021/22 Spring Enrollments": 1876,
     "2022/23 Enrollments": 2197,
     "2023/24 Enrollments": 2373,
-    "2024/25 Enrollments": 2554
+    "2024/25 Enrollments": 2554,
+    "geostat": {
+      "display_name": "24 Street, Al Garhoud, Dubai, United Arab Emirates",
+      "address": {
+        "road": "24 Street",
+        "suburb": "Al Garhoud",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 116.0,
@@ -5797,7 +7282,19 @@
     "2021/22 Spring Enrollments": 2277,
     "2022/23 Enrollments": 2137,
     "2023/24 Enrollments": 4214,
-    "2024/25 Enrollments": 4737
+    "2024/25 Enrollments": 4737,
+    "geostat": {
+      "display_name": "24 Street, Muhaisnah 4, Muhaisnah, Dubai, United Arab Emirates",
+      "address": {
+        "road": "24 Street",
+        "neighbourhood": "Muhaisnah 4",
+        "suburb": "Muhaisnah",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 117.0,
@@ -5847,7 +7344,21 @@
     "2021/22 Spring Enrollments": 1260,
     "2022/23 Enrollments": 1379,
     "2023/24 Enrollments": 1357,
-    "2024/25 Enrollments": 1404
+    "2024/25 Enrollments": 1404,
+    "geostat": {
+      "display_name": "Pakistan School, Baghdad Street, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Pakistan School",
+        "road": "Baghdad Street",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 118.0,
@@ -5897,7 +7408,21 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 0,
-    "2024/25 Enrollments": 255
+    "2024/25 Enrollments": 255,
+    "geostat": {
+      "display_name": "27a Street, Al Twar 3, Al Twar, Dubai, United Arab Emirates",
+      "address": {
+        "road": "27a Street",
+        "neighbourhood": "Al Twar 3",
+        "suburb": "Al Twar",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 119.0,
@@ -5947,7 +7472,20 @@
     "2021/22 Spring Enrollments": 1048,
     "2022/23 Enrollments": 1386,
     "2023/24 Enrollments": 1619,
-    "2024/25 Enrollments": 1998
+    "2024/25 Enrollments": 1998,
+    "geostat": {
+      "display_name": "Meydan, MBR- Al Merkad, Dubai, United Arab Emirates",
+      "address": {
+        "neighbourhood": "Meydan",
+        "suburb": "MBR- Al Merkad",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 120.0,
@@ -5997,7 +7535,21 @@
     "2021/22 Spring Enrollments": 201,
     "2022/23 Enrollments": 184,
     "2023/24 Enrollments": 198,
-    "2024/25 Enrollments": 199
+    "2024/25 Enrollments": 199,
+    "geostat": {
+      "display_name": "5 Street, Bur Dubai, Al Karama, Dubai, United Arab Emirates",
+      "address": {
+        "road": "5 Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Al Karama",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 121.0,
@@ -6047,7 +7599,21 @@
     "2021/22 Spring Enrollments": 1045,
     "2022/23 Enrollments": 1074,
     "2023/24 Enrollments": 1031,
-    "2024/25 Enrollments": 1016
+    "2024/25 Enrollments": 1016,
+    "geostat": {
+      "display_name": "10a Street, Deira, Hor Al Anz East, Hor Al Anz, Dubai, United Arab Emirates",
+      "address": {
+        "road": "10a Street",
+        "neighbourhood": "Deira",
+        "suburb": "Hor Al Anz East",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 122.0,
@@ -6097,7 +7663,21 @@
     "2021/22 Spring Enrollments": 1045,
     "2022/23 Enrollments": 1059,
     "2023/24 Enrollments": 1057,
-    "2024/25 Enrollments": 1047
+    "2024/25 Enrollments": 1047,
+    "geostat": {
+      "display_name": "13b Street, Bur Dubai, Al Karama, Dubai, United Arab Emirates",
+      "address": {
+        "road": "13b Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Al Karama",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 123.0,
@@ -6147,7 +7727,20 @@
     "2021/22 Spring Enrollments": 1216,
     "2022/23 Enrollments": 1340,
     "2023/24 Enrollments": 1393,
-    "2024/25 Enrollments": 1545
+    "2024/25 Enrollments": 1545,
+    "geostat": {
+      "display_name": "9a Street, Umm Al Sheif, Dubai, United Arab Emirates",
+      "address": {
+        "road": "9a Street",
+        "suburb": "Umm Al Sheif",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 124.0,
@@ -6197,7 +7790,21 @@
     "2021/22 Spring Enrollments": 976,
     "2022/23 Enrollments": 1107,
     "2023/24 Enrollments": 1313,
-    "2024/25 Enrollments": 1379
+    "2024/25 Enrollments": 1379,
+    "geostat": {
+      "display_name": "Horizon English School, 40b Street, Al Wasl, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Horizon English School",
+        "road": "40b Street",
+        "suburb": "Al Wasl",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 125.0,
@@ -6247,7 +7854,21 @@
     "2021/22 Spring Enrollments": 914,
     "2022/23 Enrollments": 845,
     "2023/24 Enrollments": 877,
-    "2024/25 Enrollments": 909
+    "2024/25 Enrollments": 909,
+    "geostat": {
+      "display_name": "OnTime, G9, B12, Al Burooj Street, Al Sufouh, Dubai, United Arab Emirates",
+      "address": {
+        "office": "OnTime",
+        "house_number": "G9, B12",
+        "road": "Al Burooj Street",
+        "neighbourhood": "Al Sufouh",
+        "suburb": "Al Sufouh",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 126.0,
@@ -6297,7 +7918,22 @@
     "2021/22 Spring Enrollments": 640,
     "2022/23 Enrollments": 673,
     "2023/24 Enrollments": 1003,
-    "2024/25 Enrollments": 1152
+    "2024/25 Enrollments": 1152,
+    "geostat": {
+      "display_name": "Ignite School, Al Warqa’a 3, Al Warqa'a 1 Street, Al Warqa 3, Al Warqa, Dubai, 299517, United Arab Emirates",
+      "address": {
+        "amenity": "Ignite School",
+        "house_number": "Al Warqa’a 3",
+        "road": "Al Warqa'a 1 Street",
+        "neighbourhood": "Al Warqa 3",
+        "suburb": "Al Warqa",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "postcode": "299517",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 127.0,
@@ -6347,7 +7983,20 @@
     "2021/22 Spring Enrollments": 578,
     "2022/23 Enrollments": 429,
     "2023/24 Enrollments": 1256,
-    "2024/25 Enrollments": 1506
+    "2024/25 Enrollments": 1506,
+    "geostat": {
+      "display_name": "International Academic School, 12c Street, Al Warqa 1, Al Warqa, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "International Academic School",
+        "road": "12c Street",
+        "neighbourhood": "Al Warqa 1",
+        "suburb": "Al Warqa",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 128.0,
@@ -6397,7 +8046,19 @@
     "2021/22 Spring Enrollments": 1276,
     "2022/23 Enrollments": 1461,
     "2023/24 Enrollments": 1686,
-    "2024/25 Enrollments": 1655
+    "2024/25 Enrollments": 1655,
+    "geostat": {
+      "display_name": "123 Street, Al Barsha, Al Barsha South, Dubai, United Arab Emirates",
+      "address": {
+        "road": "123 Street",
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha South",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 129.0,
@@ -6447,7 +8108,21 @@
     "2021/22 Spring Enrollments": 265,
     "2022/23 Enrollments": 249,
     "2023/24 Enrollments": 325,
-    "2024/25 Enrollments": 328
+    "2024/25 Enrollments": 328,
+    "geostat": {
+      "display_name": "Khalid Bin Waleed Road, Bur Dubai, Al Karama, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Khalid Bin Waleed Road",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Al Karama",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 130.0,
@@ -6497,7 +8172,22 @@
     "2021/22 Spring Enrollments": 415,
     "2022/23 Enrollments": 445,
     "2023/24 Enrollments": 469,
-    "2024/25 Enrollments": 479
+    "2024/25 Enrollments": 479,
+    "geostat": {
+      "display_name": "Salman Farsi Iranian Boys School, 10 Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Salman Farsi Iranian Boys School",
+        "road": "10 Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 131.0,
@@ -6547,7 +8237,22 @@
     "2021/22 Spring Enrollments": 700,
     "2022/23 Enrollments": 602,
     "2023/24 Enrollments": 873,
-    "2024/25 Enrollments": 796
+    "2024/25 Enrollments": 796,
+    "geostat": {
+      "display_name": "Javid Electronics Trading, First Al Khail Street, Al Qouz 1, Business Bay, Al Quoz, Dubai, United Arab Emirates",
+      "address": {
+        "shop": "Javid Electronics Trading",
+        "road": "First Al Khail Street",
+        "neighbourhood": "Al Qouz 1",
+        "suburb": "Business Bay",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 132.0,
@@ -6597,7 +8302,21 @@
     "2021/22 Spring Enrollments": 160,
     "2022/23 Enrollments": 174,
     "2023/24 Enrollments": 224,
-    "2024/25 Enrollments": 158
+    "2024/25 Enrollments": 158,
+    "geostat": {
+      "display_name": "1st Street, Bur Dubai, Al Karama, Dubai, United Arab Emirates",
+      "address": {
+        "road": "1st Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Al Karama",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 133.0,
@@ -6647,7 +8366,20 @@
     "2021/22 Spring Enrollments": 540,
     "2022/23 Enrollments": 592,
     "2023/24 Enrollments": 619,
-    "2024/25 Enrollments": 734
+    "2024/25 Enrollments": 734,
+    "geostat": {
+      "display_name": "Islamic School For Education Training, 32 Street, Muhaisnah 1, Muhaisnah, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Islamic School For Education Training",
+        "road": "32 Street",
+        "neighbourhood": "Muhaisnah 1",
+        "suburb": "Muhaisnah",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 134.0,
@@ -6697,7 +8429,21 @@
     "2021/22 Spring Enrollments": 146,
     "2022/23 Enrollments": 132,
     "2023/24 Enrollments": 171,
-    "2024/25 Enrollments": 173
+    "2024/25 Enrollments": 173,
+    "geostat": {
+      "display_name": "JSS School, 45 Street, Al Wasl, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "JSS School",
+        "road": "45 Street",
+        "suburb": "Al Wasl",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 135.0,
@@ -6747,7 +8493,20 @@
     "2021/22 Spring Enrollments": 1395,
     "2022/23 Enrollments": 1633,
     "2023/24 Enrollments": 1977,
-    "2024/25 Enrollments": 2027
+    "2024/25 Enrollments": 2027,
+    "geostat": {
+      "display_name": "Za'abeel, Zabeel, Dubai, United Arab Emirates",
+      "address": {
+        "neighbourhood": "Za'abeel",
+        "suburb": "Zabeel",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 136.0,
@@ -6797,7 +8556,19 @@
     "2021/22 Spring Enrollments": 2373,
     "2022/23 Enrollments": 2598,
     "2023/24 Enrollments": 3001,
-    "2024/25 Enrollments": 3131
+    "2024/25 Enrollments": 3131,
+    "geostat": {
+      "display_name": "Dana Road, Jumeirah Village Circle, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Dana Road",
+        "neighbourhood": "Jumeirah Village Circle",
+        "suburb": "Jumeirah Village Circle",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 137.0,
@@ -6847,7 +8618,21 @@
     "2021/22 Spring Enrollments": 1959,
     "2022/23 Enrollments": 2060,
     "2023/24 Enrollments": 2083,
-    "2024/25 Enrollments": 2091
+    "2024/25 Enrollments": 2091,
+    "geostat": {
+      "display_name": "JSS School, 45 Street, Al Wasl, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "JSS School",
+        "road": "45 Street",
+        "suburb": "Al Wasl",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 138.0,
@@ -6897,7 +8682,21 @@
     "2021/22 Spring Enrollments": 1086,
     "2022/23 Enrollments": 1287,
     "2023/24 Enrollments": 1495,
-    "2024/25 Enrollments": 1614
+    "2024/25 Enrollments": 1614,
+    "geostat": {
+      "display_name": "32b Street, Jumeirah 1, Jumeirah, Dubai, United Arab Emirates",
+      "address": {
+        "road": "32b Street",
+        "neighbourhood": "Jumeirah 1",
+        "suburb": "Jumeirah",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 139.0,
@@ -6947,7 +8746,22 @@
     "2021/22 Spring Enrollments": 1135,
     "2022/23 Enrollments": 1133,
     "2023/24 Enrollments": 1309,
-    "2024/25 Enrollments": 1463
+    "2024/25 Enrollments": 1463,
+    "geostat": {
+      "display_name": "Jumeirah College, 19 Street, Al Safa 1, Al Safa, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Jumeirah College",
+        "road": "19 Street",
+        "neighbourhood": "Al Safa 1",
+        "suburb": "Al Safa",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 140.0,
@@ -6997,7 +8811,22 @@
     "2021/22 Spring Enrollments": 731,
     "2022/23 Enrollments": 753,
     "2023/24 Enrollments": 750,
-    "2024/25 Enrollments": 755
+    "2024/25 Enrollments": 755,
+    "geostat": {
+      "display_name": "Jumeirah English Speaking School, 7th Street, Al Safa 1, Al Safa, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Jumeirah English Speaking School",
+        "road": "7th Street",
+        "neighbourhood": "Al Safa 1",
+        "suburb": "Al Safa",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 141.0,
@@ -7047,7 +8876,19 @@
     "2021/22 Spring Enrollments": 1665,
     "2022/23 Enrollments": 1746,
     "2023/24 Enrollments": 1790,
-    "2024/25 Enrollments": 1814
+    "2024/25 Enrollments": 1814,
+    "geostat": {
+      "display_name": "Jumeirah Engllish Speaking School, Arabian Ranches, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Jumeirah Engllish Speaking School",
+        "road": "Arabian Ranches",
+        "suburb": "Arabian Ranches",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 142.0,
@@ -7097,7 +8938,19 @@
     "2021/22 Spring Enrollments": 1044,
     "2022/23 Enrollments": 1207,
     "2023/24 Enrollments": 1304,
-    "2024/25 Enrollments": 1399
+    "2024/25 Enrollments": 1399,
+    "geostat": {
+      "display_name": "11, 3 Street, Jumeirah Village Circle, Dubai, United Arab Emirates",
+      "address": {
+        "house_number": "11",
+        "road": "3 Street",
+        "neighbourhood": "Jumeirah Village Circle",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 143.0,
@@ -7147,7 +9000,19 @@
     "2021/22 Spring Enrollments": 2483,
     "2022/23 Enrollments": 2560,
     "2023/24 Enrollments": 3015,
-    "2024/25 Enrollments": 3053
+    "2024/25 Enrollments": 3053,
+    "geostat": {
+      "display_name": "Maple 2, Dubai Hills, Hadaeq Sheikh Mohammed Bin Rashid, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Maple 2",
+        "residential": "Dubai Hills",
+        "suburb": "Hadaeq Sheikh Mohammed Bin Rashid",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 144.0,
@@ -7197,7 +9062,22 @@
     "2021/22 Spring Enrollments": 1064,
     "2022/23 Enrollments": 1110,
     "2023/24 Enrollments": 1144,
-    "2024/25 Enrollments": 1157
+    "2024/25 Enrollments": 1157,
+    "geostat": {
+      "display_name": "Kings' Dubai, 24b Street, Umm Suqeim 3, Umm Suqeim, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Kings' Dubai",
+        "road": "24b Street",
+        "neighbourhood": "Umm Suqeim 3",
+        "suburb": "Umm Suqeim",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 145.0,
@@ -7247,7 +9127,18 @@
     "2021/22 Spring Enrollments": 639,
     "2022/23 Enrollments": 749,
     "2023/24 Enrollments": 1060,
-    "2024/25 Enrollments": 1160
+    "2024/25 Enrollments": 1160,
+    "geostat": {
+      "display_name": "31 Street, Nad Al Sheba, Dubai, United Arab Emirates",
+      "address": {
+        "road": "31 Street",
+        "suburb": "Nad Al Sheba",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 146.0,
@@ -7297,7 +9188,22 @@
     "2021/22 Spring Enrollments": 791,
     "2022/23 Enrollments": 923,
     "2023/24 Enrollments": 928,
-    "2024/25 Enrollments": 962
+    "2024/25 Enrollments": 962,
+    "geostat": {
+      "display_name": "Tamam Gents Tailoring, Al Rasheed Street, Deira, Hor Al Anz East, Hor Al Anz, Dubai, United Arab Emirates",
+      "address": {
+        "shop": "Tamam Gents Tailoring",
+        "road": "Al Rasheed Street",
+        "neighbourhood": "Deira",
+        "suburb": "Hor Al Anz East",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 147.0,
@@ -7347,7 +9253,22 @@
     "2021/22 Spring Enrollments": 2114,
     "2022/23 Enrollments": 2306,
     "2023/24 Enrollments": 2992,
-    "2024/25 Enrollments": 3131
+    "2024/25 Enrollments": 3131,
+    "geostat": {
+      "display_name": "Let’s Go, 9 Street, Bur Dubai, Oud Metha, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Let’s Go",
+        "road": "9 Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Oud Metha",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 148.0,
@@ -7397,7 +9318,19 @@
     "2021/22 Spring Enrollments": 2255,
     "2022/23 Enrollments": 2012,
     "2023/24 Enrollments": 1997,
-    "2024/25 Enrollments": 2045
+    "2024/25 Enrollments": 2045,
+    "geostat": {
+      "display_name": "2/1, Sheikh Zayed bin Hamdan Al Nahyan Street, Academic City, Dubai, United Arab Emirates",
+      "address": {
+        "house_number": "2/1",
+        "road": "Sheikh Zayed bin Hamdan Al Nahyan Street",
+        "suburb": "Academic City",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 149.0,
@@ -7447,7 +9380,23 @@
     "2021/22 Spring Enrollments": 374,
     "2022/23 Enrollments": 43,
     "2023/24 Enrollments": 365,
-    "2024/25 Enrollments": 399
+    "2024/25 Enrollments": 399,
+    "geostat": {
+      "display_name": "Alliance Française de Dubaï, 18 Street, Bur Dubai, Oud Metha, Dubai, P.O. Box 4605, United Arab Emirates",
+      "address": {
+        "office": "Alliance Française de Dubaï",
+        "road": "18 Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Oud Metha",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "postcode": "P.O. Box 4605",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 150.0,
@@ -7497,7 +9446,21 @@
     "2021/22 Spring Enrollments": 962,
     "2022/23 Enrollments": 1186,
     "2023/24 Enrollments": 1408,
-    "2024/25 Enrollments": 1494
+    "2024/25 Enrollments": 1494,
+    "geostat": {
+      "display_name": "14a Street, Al Quoz, Dubai, United Arab Emirates",
+      "address": {
+        "road": "14a Street",
+        "residential": "Al Quoz",
+        "suburb": "Al Quoz",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 151.0,
@@ -7547,7 +9510,8 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 0,
-    "2024/25 Enrollments": 134
+    "2024/25 Enrollments": 134,
+    "geostat": null
   },
   {
     "nan": 152.0,
@@ -7597,7 +9561,19 @@
     "2021/22 Spring Enrollments": 379,
     "2022/23 Enrollments": 946,
     "2023/24 Enrollments": 1309,
-    "2024/25 Enrollments": 1295
+    "2024/25 Enrollments": 1295,
+    "geostat": {
+      "display_name": "Al Abjar Street, Wadi Al Safa 3, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Al Abjar Street",
+        "neighbourhood": "Wadi Al Safa 3",
+        "suburb": "Wadi Al Safa 3",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 153.0,
@@ -7647,7 +9623,21 @@
     "2021/22 Spring Enrollments": 1037,
     "2022/23 Enrollments": 1094,
     "2023/24 Enrollments": 1281,
-    "2024/25 Enrollments": 1463
+    "2024/25 Enrollments": 1463,
+    "geostat": {
+      "display_name": "MSB Private School - Primary Block, 27 Street, Al Nahda, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "MSB Private School - Primary Block",
+        "road": "27 Street",
+        "suburb": "Al Nahda",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 154.0,
@@ -7697,7 +9687,20 @@
     "2021/22 Spring Enrollments": 745,
     "2022/23 Enrollments": 708,
     "2023/24 Enrollments": 670,
-    "2024/25 Enrollments": 774
+    "2024/25 Enrollments": 774,
+    "geostat": {
+      "display_name": "Tee Square, 11a Street, Al Mizhar 1, Al Mizhar, Dubai, United Arab Emirates",
+      "address": {
+        "tourism": "Tee Square",
+        "road": "11a Street",
+        "residential": "Al Mizhar 1",
+        "suburb": "Al Mizhar",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 155.0,
@@ -7747,7 +9750,20 @@
     "2021/22 Spring Enrollments": 1744,
     "2022/23 Enrollments": 1605,
     "2023/24 Enrollments": 1670,
-    "2024/25 Enrollments": 1875
+    "2024/25 Enrollments": 1875,
+    "geostat": {
+      "display_name": "School of Modern Skills, 27 Street, Muhaisnah 1, Muhaisnah, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "School of Modern Skills",
+        "road": "27 Street",
+        "neighbourhood": "Muhaisnah 1",
+        "suburb": "Muhaisnah",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 156.0,
@@ -7797,7 +9813,23 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 782,
     "2023/24 Enrollments": 711,
-    "2024/25 Enrollments": 715
+    "2024/25 Enrollments": 715,
+    "geostat": {
+      "display_name": "8, Sodo g., Alanta, Alantos seniūnija, Molėtų rajono savivaldybė, Utena County, 33312, Lithuania",
+      "address": {
+        "house_number": "8",
+        "road": "Sodo g.",
+        "town": "Alanta",
+        "county": "Alantos seniūnija",
+        "state_district": "Molėtų rajono savivaldybė",
+        "ISO3166-2-lvl5": "LT-27",
+        "state": "Utena County",
+        "ISO3166-2-lvl4": "LT-UT",
+        "postcode": "33312",
+        "country": "Lithuania",
+        "country_code": "lt"
+      }
+    }
   },
   {
     "nan": 157.0,
@@ -7847,7 +9879,21 @@
     "2021/22 Spring Enrollments": 1280,
     "2022/23 Enrollments": 1315,
     "2023/24 Enrollments": 1353,
-    "2024/25 Enrollments": 1370
+    "2024/25 Enrollments": 1370,
+    "geostat": {
+      "display_name": "33b Street, Bur Dubai, Al Raffa, Dubai, United Arab Emirates",
+      "address": {
+        "road": "33b Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Al Raffa",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 158.0,
@@ -7897,7 +9943,19 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 0,
-    "2024/25 Enrollments": 293
+    "2024/25 Enrollments": 293,
+    "geostat": {
+      "display_name": "41 Street, Muhaisnah 4, Muhaisnah, Dubai, United Arab Emirates",
+      "address": {
+        "road": "41 Street",
+        "neighbourhood": "Muhaisnah 4",
+        "suburb": "Muhaisnah",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 159.0,
@@ -7947,7 +10005,21 @@
     "2021/22 Spring Enrollments": 6215,
     "2022/23 Enrollments": 6806,
     "2023/24 Enrollments": 7259,
-    "2024/25 Enrollments": 7449
+    "2024/25 Enrollments": 7449,
+    "geostat": {
+      "display_name": "N.I. Model School, Al Rebat Street, Al Garhoud, Dubai, United Arab Emirates",
+      "address": {
+        "office": "N.I. Model School",
+        "road": "Al Rebat Street",
+        "suburb": "Al Garhoud",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 160.0,
@@ -7997,7 +10069,21 @@
     "2021/22 Spring Enrollments": 695,
     "2022/23 Enrollments": 274,
     "2023/24 Enrollments": 1001,
-    "2024/25 Enrollments": 1042
+    "2024/25 Enrollments": 1042,
+    "geostat": {
+      "display_name": "Al Awir Road, Nadd Al Hamar, Al Warqa, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Al Awir Road",
+        "residential": "Nadd Al Hamar",
+        "suburb": "Al Warqa",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 161.0,
@@ -8047,7 +10133,19 @@
     "2021/22 Spring Enrollments": 981,
     "2022/23 Enrollments": 1155,
     "2023/24 Enrollments": 1223,
-    "2024/25 Enrollments": 1480
+    "2024/25 Enrollments": 1480,
+    "geostat": {
+      "display_name": "27a Street, Al Barsha, Dubai, United Arab Emirates",
+      "address": {
+        "road": "27a Street",
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 162.0,
@@ -8097,7 +10195,18 @@
     "2021/22 Spring Enrollments": 1991,
     "2022/23 Enrollments": 2293,
     "2023/24 Enrollments": 2440,
-    "2024/25 Enrollments": 2944
+    "2024/25 Enrollments": 2944,
+    "geostat": {
+      "display_name": "Al Barsha, Al Barsha South 3, Dubai, United Arab Emirates",
+      "address": {
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha South 3",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 163.0,
@@ -8147,7 +10256,19 @@
     "2021/22 Spring Enrollments": 533,
     "2022/23 Enrollments": 632,
     "2023/24 Enrollments": 817,
-    "2024/25 Enrollments": 909
+    "2024/25 Enrollments": 909,
+    "geostat": {
+      "display_name": "11a Street, Al Mizhar 1, Al Mizhar, Dubai, United Arab Emirates",
+      "address": {
+        "road": "11a Street",
+        "residential": "Al Mizhar 1",
+        "suburb": "Al Mizhar",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 164.0,
@@ -8197,7 +10318,22 @@
     "2021/22 Spring Enrollments": 1061,
     "2022/23 Enrollments": 1233,
     "2023/24 Enrollments": 1549,
-    "2024/25 Enrollments": 1782
+    "2024/25 Enrollments": 1782,
+    "geostat": {
+      "display_name": "North London Collegiate School, Roundabout 3, Meydan, MBR- Al Merkad, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "North London Collegiate School",
+        "road": "Roundabout 3",
+        "neighbourhood": "Meydan",
+        "suburb": "MBR- Al Merkad",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 165.0,
@@ -8247,7 +10383,21 @@
     "2021/22 Spring Enrollments": 548,
     "2022/23 Enrollments": 665,
     "2023/24 Enrollments": 609,
-    "2024/25 Enrollments": 556
+    "2024/25 Enrollments": 556,
+    "geostat": {
+      "display_name": "Al Asayel Street, Al Quoz, Al Quoz Community, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Al Asayel Street",
+        "residential": "Al Quoz",
+        "suburb": "Al Quoz Community",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 166.0,
@@ -8297,7 +10447,19 @@
     "2021/22 Spring Enrollments": 4649,
     "2022/23 Enrollments": 4657,
     "2023/24 Enrollments": 4657,
-    "2024/25 Enrollments": 4663
+    "2024/25 Enrollments": 4663,
+    "geostat": {
+      "display_name": "12c Street, Al Warqa 1, Al Warqa, Dubai, United Arab Emirates",
+      "address": {
+        "road": "12c Street",
+        "neighbourhood": "Al Warqa 1",
+        "suburb": "Al Warqa",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 167.0,
@@ -8347,7 +10509,19 @@
     "2021/22 Spring Enrollments": 1385,
     "2022/23 Enrollments": 1744,
     "2023/24 Enrollments": 2186,
-    "2024/25 Enrollments": 2316
+    "2024/25 Enrollments": 2316,
+    "geostat": {
+      "display_name": "The Oxford School, Halab Street, Muhaisnah, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "The Oxford School",
+        "road": "Halab Street",
+        "suburb": "Muhaisnah",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 168.0,
@@ -8397,7 +10571,21 @@
     "2021/22 Spring Enrollments": 215,
     "2022/23 Enrollments": 467,
     "2023/24 Enrollments": 900,
-    "2024/25 Enrollments": 1055
+    "2024/25 Enrollments": 1055,
+    "geostat": {
+      "display_name": "Philippines School, 41b Street, Al Rashidiya, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Philippines School",
+        "road": "41b Street",
+        "suburb": "Al Rashidiya",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 169.0,
@@ -8447,7 +10635,21 @@
     "2021/22 Spring Enrollments": 1518,
     "2022/23 Enrollments": 1375,
     "2023/24 Enrollments": 1558,
-    "2024/25 Enrollments": 1748
+    "2024/25 Enrollments": 1748,
+    "geostat": {
+      "display_name": "Oud Maitha Road, Bur Dubai, Umm Hurair, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Oud Maitha Road",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Umm Hurair",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 170.0,
@@ -8497,7 +10699,22 @@
     "2021/22 Spring Enrollments": 316,
     "2022/23 Enrollments": 572,
     "2023/24 Enrollments": 815,
-    "2024/25 Enrollments": 1078
+    "2024/25 Enrollments": 1078,
+    "geostat": {
+      "display_name": "Pearl Wisdom School, Street 26, Deira, Hor Al Anz East, Hor Al Anz, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Pearl Wisdom School",
+        "road": "Street 26",
+        "neighbourhood": "Deira",
+        "suburb": "Hor Al Anz East",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 171.0,
@@ -8547,7 +10764,20 @@
     "2021/22 Spring Enrollments": 1136,
     "2022/23 Enrollments": 968,
     "2023/24 Enrollments": 990,
-    "2024/25 Enrollments": 1000
+    "2024/25 Enrollments": 1000,
+    "geostat": {
+      "display_name": "Philadelphia Private School, 4 Street, Muhaisnah 4, Muhaisnah, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Philadelphia Private School",
+        "road": "4 Street",
+        "neighbourhood": "Muhaisnah 4",
+        "suburb": "Muhaisnah",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 172.0,
@@ -8597,7 +10827,20 @@
     "2021/22 Spring Enrollments": 1135,
     "2022/23 Enrollments": 1249,
     "2023/24 Enrollments": 1451,
-    "2024/25 Enrollments": 1553
+    "2024/25 Enrollments": 1553,
+    "geostat": {
+      "display_name": "Primus Private School, 21 Street, Al Warqa 1, Al Warqa, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Primus Private School",
+        "road": "21 Street",
+        "neighbourhood": "Al Warqa 1",
+        "suburb": "Al Warqa",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 173.0,
@@ -8647,7 +10890,22 @@
     "2021/22 Spring Enrollments": 1596,
     "2022/23 Enrollments": 1841,
     "2023/24 Enrollments": 2001,
-    "2024/25 Enrollments": 2057
+    "2024/25 Enrollments": 2057,
+    "geostat": {
+      "display_name": "Pristine Private School, 11 Street, Al Nahda 2, Al Nahda, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Pristine Private School",
+        "road": "11 Street",
+        "neighbourhood": "Al Nahda 2",
+        "suburb": "Al Nahda",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 174.0,
@@ -8697,7 +10955,22 @@
     "2021/22 Spring Enrollments": 765,
     "2022/23 Enrollments": 735,
     "2023/24 Enrollments": 684,
-    "2024/25 Enrollments": 633
+    "2024/25 Enrollments": 633,
+    "geostat": {
+      "display_name": "Hor-Al-Anz Primary Health Centre, 1b Street, Deira, Hor Al Anz East, Hor Al Anz, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Hor-Al-Anz Primary Health Centre",
+        "road": "1b Street",
+        "neighbourhood": "Deira",
+        "suburb": "Hor Al Anz East",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 175.0,
@@ -8747,7 +11020,23 @@
     "2021/22 Spring Enrollments": 1075,
     "2022/23 Enrollments": 1128,
     "2023/24 Enrollments": 1362,
-    "2024/25 Enrollments": 1308
+    "2024/25 Enrollments": 1308,
+    "geostat": {
+      "display_name": "Raffles International School, 43, Al Baghla Street, Umm Suqeim 3, Umm Suqeim, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Raffles International School",
+        "house_number": "43",
+        "road": "Al Baghla Street",
+        "neighbourhood": "Umm Suqeim 3",
+        "suburb": "Umm Suqeim",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 176.0,
@@ -8797,7 +11086,22 @@
     "2021/22 Spring Enrollments": 1712,
     "2022/23 Enrollments": 1621,
     "2023/24 Enrollments": 1999,
-    "2024/25 Enrollments": 1926
+    "2024/25 Enrollments": 1926,
+    "geostat": {
+      "display_name": "Raffles World Academy, Al Marcup Street, Umm Suqeim 3, Umm Suqeim, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Raffles World Academy",
+        "road": "Al Marcup Street",
+        "neighbourhood": "Umm Suqeim 3",
+        "suburb": "Umm Suqeim",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 177.0,
@@ -8847,7 +11151,20 @@
     "2021/22 Spring Enrollments": 611,
     "2022/23 Enrollments": 730,
     "2023/24 Enrollments": 935,
-    "2024/25 Enrollments": 1089
+    "2024/25 Enrollments": 1089,
+    "geostat": {
+      "display_name": "1, Ad Deem Street, Arabian Ranches 2, Wadi Al Safa 7, Dubai, United Arab Emirates",
+      "address": {
+        "house_number": "1",
+        "road": "Ad Deem Street",
+        "residential": "Arabian Ranches 2",
+        "suburb": "Wadi Al Safa 7",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 178.0,
@@ -8897,7 +11214,21 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 0,
-    "2024/25 Enrollments": 97
+    "2024/25 Enrollments": 97,
+    "geostat": {
+      "display_name": "20 Street, Meydan, Nad Al Sheba, Dubai, United Arab Emirates",
+      "address": {
+        "road": "20 Street",
+        "neighbourhood": "Meydan",
+        "suburb": "Nad Al Sheba",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 179.0,
@@ -8947,7 +11278,20 @@
     "2021/22 Spring Enrollments": 1159,
     "2022/23 Enrollments": 1428,
     "2023/24 Enrollments": 1516,
-    "2024/25 Enrollments": 1591
+    "2024/25 Enrollments": 1591,
+    "geostat": {
+      "display_name": "Regent International School, 7 Street, The Views, Dubai, 24857, United Arab Emirates",
+      "address": {
+        "amenity": "Regent International School",
+        "road": "7 Street",
+        "residential": "The Views",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "postcode": "24857",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 180.0,
@@ -8997,7 +11341,17 @@
     "2021/22 Spring Enrollments": 526,
     "2022/23 Enrollments": 535,
     "2023/24 Enrollments": 590,
-    "2024/25 Enrollments": 449
+    "2024/25 Enrollments": 449,
+    "geostat": {
+      "display_name": "Al Hebiah 4, Dubai, United Arab Emirates",
+      "address": {
+        "suburb": "Al Hebiah 4",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 181.0,
@@ -9047,7 +11401,19 @@
     "2021/22 Spring Enrollments": 809,
     "2022/23 Enrollments": 1040,
     "2023/24 Enrollments": 1331,
-    "2024/25 Enrollments": 1489
+    "2024/25 Enrollments": 1489,
+    "geostat": {
+      "display_name": "123 Street, Dubiotech, Al Barsha South, Dubai, United Arab Emirates",
+      "address": {
+        "road": "123 Street",
+        "neighbourhood": "Dubiotech",
+        "suburb": "Al Barsha South",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 182.0,
@@ -9097,7 +11463,20 @@
     "2021/22 Spring Enrollments": 1869,
     "2022/23 Enrollments": 2020,
     "2023/24 Enrollments": 2329,
-    "2024/25 Enrollments": 2621
+    "2024/25 Enrollments": 2621,
+    "geostat": {
+      "display_name": "Repton School Dubai, 31 Street, Nad Al Sheba, Dubai, 300331, United Arab Emirates",
+      "address": {
+        "amenity": "Repton School Dubai",
+        "road": "31 Street",
+        "suburb": "Nad Al Sheba",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "postcode": "300331",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 183.0,
@@ -9147,7 +11526,17 @@
     "2021/22 Spring Enrollments": 262,
     "2022/23 Enrollments": 578,
     "2023/24 Enrollments": 1272,
-    "2024/25 Enrollments": 1662
+    "2024/25 Enrollments": 1662,
+    "geostat": {
+      "display_name": "Al Hebiah 4, Dubai, United Arab Emirates",
+      "address": {
+        "suburb": "Al Hebiah 4",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 184.0,
@@ -9197,7 +11586,20 @@
     "2021/22 Spring Enrollments": 174,
     "2022/23 Enrollments": 207,
     "2023/24 Enrollments": 502,
-    "2024/25 Enrollments": 449
+    "2024/25 Enrollments": 449,
+    "geostat": {
+      "display_name": "Russian International School, 17 Street, Muhaisnah 4, Muhaisnah, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Russian International School",
+        "road": "17 Street",
+        "neighbourhood": "Muhaisnah 4",
+        "suburb": "Muhaisnah",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 185.0,
@@ -9247,7 +11649,22 @@
     "2021/22 Spring Enrollments": 443,
     "2022/23 Enrollments": 576,
     "2023/24 Enrollments": 777,
-    "2024/25 Enrollments": 749
+    "2024/25 Enrollments": 749,
+    "geostat": {
+      "display_name": "Sabari Indian School, 21b Street, Deira, Al Waheda, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Sabari Indian School",
+        "road": "21b Street",
+        "neighbourhood": "Deira",
+        "suburb": "Al Waheda",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 186.0,
@@ -9297,7 +11714,22 @@
     "2021/22 Spring Enrollments": 1101,
     "2022/23 Enrollments": 1242,
     "2023/24 Enrollments": 1464,
-    "2024/25 Enrollments": 1669
+    "2024/25 Enrollments": 1669,
+    "geostat": {
+      "display_name": "Safa British School, 14a Street, Al Safa 1, Al Safa, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Safa British School",
+        "road": "14a Street",
+        "neighbourhood": "Al Safa 1",
+        "suburb": "Al Safa",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 187.0,
@@ -9347,7 +11779,19 @@
     "2021/22 Spring Enrollments": 2050,
     "2022/23 Enrollments": 2162,
     "2023/24 Enrollments": 2362,
-    "2024/25 Enrollments": 2560
+    "2024/25 Enrollments": 2560,
+    "geostat": {
+      "display_name": "3 Street, Al Barsha, Al Barsha South 3, Dubai, United Arab Emirates",
+      "address": {
+        "road": "3 Street",
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha South 3",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 188.0,
@@ -9397,7 +11841,20 @@
     "2021/22 Spring Enrollments": 1819,
     "2022/23 Enrollments": 1889,
     "2023/24 Enrollments": 2073,
-    "2024/25 Enrollments": 2009
+    "2024/25 Enrollments": 2009,
+    "geostat": {
+      "display_name": "Cleopatra Swimming Academy, 13 Street, Al Warqa 1, Al Warqa, Dubai, United Arab Emirates",
+      "address": {
+        "leisure": "Cleopatra Swimming Academy",
+        "road": "13 Street",
+        "neighbourhood": "Al Warqa 1",
+        "suburb": "Al Warqa",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 189.0,
@@ -9447,7 +11904,20 @@
     "2021/22 Spring Enrollments": 188,
     "2022/23 Enrollments": 154,
     "2023/24 Enrollments": 209,
-    "2024/25 Enrollments": 211
+    "2024/25 Enrollments": 211,
+    "geostat": {
+      "display_name": "Sheikh Rashid bin Saied Islamic Institute, Emirates Road, Warsan 3, Academic City, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Sheikh Rashid bin Saied Islamic Institute",
+        "road": "Emirates Road",
+        "residential": "Warsan 3",
+        "suburb": "Academic City",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 190.0,
@@ -9497,7 +11967,19 @@
     "2021/22 Spring Enrollments": 349,
     "2022/23 Enrollments": 400,
     "2023/24 Enrollments": 425,
-    "2024/25 Enrollments": 387
+    "2024/25 Enrollments": 387,
+    "geostat": {
+      "display_name": "14a Street, Al Barsha, Dubai, United Arab Emirates",
+      "address": {
+        "road": "14a Street",
+        "residential": "Al Barsha",
+        "suburb": "Al Barsha",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 191.0,
@@ -9547,7 +12029,19 @@
     "2021/22 Spring Enrollments": 976,
     "2022/23 Enrollments": 1111,
     "2023/24 Enrollments": 1166,
-    "2024/25 Enrollments": 1315
+    "2024/25 Enrollments": 1315,
+    "geostat": {
+      "display_name": "South View School, Al Thammam Street, Al Hebiah 5, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "South View School",
+        "road": "Al Thammam Street",
+        "suburb": "Al Hebiah 5",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 192.0,
@@ -9597,7 +12091,21 @@
     "2021/22 Spring Enrollments": 965,
     "2022/23 Enrollments": 1193,
     "2023/24 Enrollments": 1358,
-    "2024/25 Enrollments": 1527
+    "2024/25 Enrollments": 1527,
+    "geostat": {
+      "display_name": "35 Street, Al Quoz, Al Quoz Community, Dubai, United Arab Emirates",
+      "address": {
+        "road": "35 Street",
+        "residential": "Al Quoz",
+        "suburb": "Al Quoz Community",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 193.0,
@@ -9647,7 +12155,17 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 0,
     "2023/24 Enrollments": 0,
-    "2024/25 Enrollments": 62
+    "2024/25 Enrollments": 62,
+    "geostat": {
+      "display_name": "Al Awir 1, Dubai, United Arab Emirates",
+      "address": {
+        "suburb": "Al Awir 1",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 195.0,
@@ -9697,7 +12215,20 @@
     "2021/22 Spring Enrollments": 1025,
     "2022/23 Enrollments": 1130,
     "2023/24 Enrollments": 1991,
-    "2024/25 Enrollments": 1265
+    "2024/25 Enrollments": 1265,
+    "geostat": {
+      "display_name": "11, 22 Street, Muhaisnah 4, Muhaisnah, Dubai, United Arab Emirates",
+      "address": {
+        "house_number": "11",
+        "road": "22 Street",
+        "neighbourhood": "Muhaisnah 4",
+        "suburb": "Muhaisnah",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 194.0,
@@ -9747,7 +12278,22 @@
     "2021/22 Spring Enrollments": 1961,
     "2022/23 Enrollments": 1979,
     "2023/24 Enrollments": 1074,
-    "2024/25 Enrollments": 1967
+    "2024/25 Enrollments": 1967,
+    "geostat": {
+      "display_name": "St Marys Catholic Church, 10 Street, Bur Dubai, Umm Hurair, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "St Marys Catholic Church",
+        "road": "10 Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Umm Hurair",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 196.0,
@@ -9797,7 +12343,21 @@
     "2021/22 Spring Enrollments": 574,
     "2022/23 Enrollments": 647,
     "2023/24 Enrollments": 643,
-    "2024/25 Enrollments": 625
+    "2024/25 Enrollments": 625,
+    "geostat": {
+      "display_name": "9c Street, Al Twar 2, Al Twar, Dubai, United Arab Emirates",
+      "address": {
+        "road": "9c Street",
+        "neighbourhood": "Al Twar 2",
+        "suburb": "Al Twar",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 197.0,
@@ -9847,7 +12407,18 @@
     "2021/22 Spring Enrollments": 810,
     "2022/23 Enrollments": 858,
     "2023/24 Enrollments": 1044,
-    "2024/25 Enrollments": 1250
+    "2024/25 Enrollments": 1250,
+    "geostat": {
+      "display_name": "24b Street, Mirdif, Dubai, United Arab Emirates",
+      "address": {
+        "road": "24b Street",
+        "suburb": "Mirdif",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 198.0,
@@ -9897,7 +12468,19 @@
     "2021/22 Spring Enrollments": 1604,
     "2022/23 Enrollments": 1912,
     "2023/24 Enrollments": 1962,
-    "2024/25 Enrollments": 2085
+    "2024/25 Enrollments": 2085,
+    "geostat": {
+      "display_name": "D41 Street, Jumeirah Village Circle, Al Barsha South 5, Dubai, United Arab Emirates",
+      "address": {
+        "road": "D41 Street",
+        "neighbourhood": "Jumeirah Village Circle",
+        "suburb": "Al Barsha South 5",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 199.0,
@@ -9947,7 +12530,21 @@
     "2021/22 Spring Enrollments": 1436,
     "2022/23 Enrollments": 1709,
     "2023/24 Enrollments": 2155,
-    "2024/25 Enrollments": 2610
+    "2024/25 Enrollments": 2610,
+    "geostat": {
+      "display_name": "Swiss International Scientific School in Dubai, Al Jaddaf Walk, Al Jaddaf, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Swiss International Scientific School in Dubai",
+        "road": "Al Jaddaf Walk",
+        "suburb": "Al Jaddaf",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 200.0,
@@ -9997,7 +12594,22 @@
     "2021/22 Spring Enrollments": 182,
     "2022/23 Enrollments": 692,
     "2023/24 Enrollments": 1025,
-    "2024/25 Enrollments": 1123
+    "2024/25 Enrollments": 1123,
+    "geostat": {
+      "display_name": "Al Saeediya Center For Adult Education, 16th Street, Bur Dubai, Al Hamriya, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Al Saeediya Center For Adult Education",
+        "road": "16th Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Al Hamriya",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 201.0,
@@ -10047,7 +12659,18 @@
     "2021/22 Spring Enrollments": 858,
     "2022/23 Enrollments": 1029,
     "2023/24 Enrollments": 1131,
-    "2024/25 Enrollments": 1281
+    "2024/25 Enrollments": 1281,
+    "geostat": {
+      "display_name": "Dubai Residence Complex, Wadi Al Safa 5, Dubai, United Arab Emirates",
+      "address": {
+        "neighbourhood": "Dubai Residence Complex",
+        "suburb": "Wadi Al Safa 5",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 202.0,
@@ -10097,7 +12720,20 @@
     "2021/22 Spring Enrollments": 838,
     "2022/23 Enrollments": 1073,
     "2023/24 Enrollments": 1240,
-    "2024/25 Enrollments": 1391
+    "2024/25 Enrollments": 1391,
+    "geostat": {
+      "display_name": "The Arbor School, Al Asayel Street, Jabal Ali, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "The Arbor School",
+        "road": "Al Asayel Street",
+        "neighbourhood": "Jabal Ali",
+        "suburb": "Jabal Ali",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 203.0,
@@ -10147,7 +12783,21 @@
     "2021/22 Spring Enrollments": 2991,
     "2022/23 Enrollments": 3299,
     "2023/24 Enrollments": 3598,
-    "2024/25 Enrollments": 3978
+    "2024/25 Enrollments": 3978,
+    "geostat": {
+      "display_name": "15 Street, Al Nahda 2, Al Nahda, Dubai, United Arab Emirates",
+      "address": {
+        "road": "15 Street",
+        "neighbourhood": "Al Nahda 2",
+        "suburb": "Al Nahda",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 204.0,
@@ -10197,7 +12847,22 @@
     "2021/22 Spring Enrollments": 752,
     "2022/23 Enrollments": 901,
     "2023/24 Enrollments": 1006,
-    "2024/25 Enrollments": 1017
+    "2024/25 Enrollments": 1017,
+    "geostat": {
+      "display_name": "The City School International, 410 Street, Nadd Al Hamar, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "The City School International",
+        "road": "410 Street",
+        "residential": "Nadd Al Hamar",
+        "suburb": "Nadd Al Hamar",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 205.0,
@@ -10247,7 +12912,21 @@
     "2021/22 Spring Enrollments": 1046,
     "2022/23 Enrollments": 1137,
     "2023/24 Enrollments": 1335,
-    "2024/25 Enrollments": 1498
+    "2024/25 Enrollments": 1498,
+    "geostat": {
+      "display_name": "Sheikh Zayed Road, Al Safa 1, Al Safa, Dubai, United Arab Emirates",
+      "address": {
+        "road": "Sheikh Zayed Road",
+        "neighbourhood": "Al Safa 1",
+        "suburb": "Al Safa",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 206.0,
@@ -10297,7 +12976,21 @@
     "2021/22 Spring Enrollments": 815,
     "2022/23 Enrollments": 855,
     "2023/24 Enrollments": 1571,
-    "2024/25 Enrollments": 1721
+    "2024/25 Enrollments": 1721,
+    "geostat": {
+      "display_name": "fasttrack, Beirut Street, Al Twar, Dubai, United Arab Emirates",
+      "address": {
+        "shop": "fasttrack",
+        "road": "Beirut Street",
+        "suburb": "Al Twar",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 207.0,
@@ -10347,7 +13040,22 @@
     "2021/22 Spring Enrollments": 5295,
     "2022/23 Enrollments": 5381,
     "2023/24 Enrollments": 5303,
-    "2024/25 Enrollments": 5500
+    "2024/25 Enrollments": 5500,
+    "geostat": {
+      "display_name": "The Indian High School, 9 Street, Bur Dubai, Oud Metha, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "The Indian High School",
+        "road": "9 Street",
+        "neighbourhood": "Bur Dubai",
+        "suburb": "Oud Metha",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 208.0,
@@ -10397,7 +13105,21 @@
     "2021/22 Spring Enrollments": 4208,
     "2022/23 Enrollments": 4227,
     "2023/24 Enrollments": 4178,
-    "2024/25 Enrollments": 4209
+    "2024/25 Enrollments": 4209,
+    "geostat": {
+      "display_name": "The Indian High School, 53 Street, Al Garhoud, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "The Indian High School",
+        "road": "53 Street",
+        "suburb": "Al Garhoud",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 209.0,
@@ -10447,7 +13169,23 @@
     "2021/22 Spring Enrollments": 2037,
     "2022/23 Enrollments": 2808,
     "2023/24 Enrollments": 3143,
-    "2024/25 Enrollments": 3417
+    "2024/25 Enrollments": 3417,
+    "geostat": {
+      "display_name": "Indian International School, 29/1, Sheikh Mohammed Bin Zayed Road, Dubai Silicon Oasis, International City, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Indian International School",
+        "house_number": "29/1",
+        "road": "Sheikh Mohammed Bin Zayed Road",
+        "neighbourhood": "Dubai Silicon Oasis",
+        "suburb": "International City",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 210.0,
@@ -10497,7 +13235,20 @@
     "2021/22 Spring Enrollments": 3890,
     "2022/23 Enrollments": 4012,
     "2023/24 Enrollments": 3954,
-    "2024/25 Enrollments": 3900
+    "2024/25 Enrollments": 3900,
+    "geostat": {
+      "display_name": "Choueifat School, Hessa Street, Al Sufouh, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Choueifat School",
+        "road": "Hessa Street",
+        "neighbourhood": "Al Sufouh",
+        "suburb": "Al Sufouh",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 211.0,
@@ -10547,7 +13298,18 @@
     "2021/22 Spring Enrollments": 2865,
     "2022/23 Enrollments": 3111,
     "2023/24 Enrollments": 2985,
-    "2024/25 Enrollments": 2797
+    "2024/25 Enrollments": 2797,
+    "geostat": {
+      "display_name": "86 Street, Dubai Investments Park, Dubai, United Arab Emirates",
+      "address": {
+        "road": "86 Street",
+        "neighbourhood": "Dubai Investments Park",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 212.0,
@@ -10597,7 +13359,22 @@
     "2021/22 Spring Enrollments": 2801,
     "2022/23 Enrollments": 2756,
     "2023/24 Enrollments": 2756,
-    "2024/25 Enrollments": 2777
+    "2024/25 Enrollments": 2777,
+    "geostat": {
+      "display_name": "Al Mareef Pvt. School, 25a Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Al Mareef Pvt. School",
+        "road": "25a Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 213.0,
@@ -10647,7 +13424,23 @@
     "2021/22 Spring Enrollments": 0,
     "2022/23 Enrollments": 1551,
     "2023/24 Enrollments": 1478,
-    "2024/25 Enrollments": 1379
+    "2024/25 Enrollments": 1379,
+    "geostat": {
+      "display_name": "2, Perkalių g., Laičiai, Alantos seniūnija, Molėtų rajono savivaldybė, Utena County, 33314, Lithuania",
+      "address": {
+        "house_number": "2",
+        "road": "Perkalių g.",
+        "village": "Laičiai",
+        "county": "Alantos seniūnija",
+        "state_district": "Molėtų rajono savivaldybė",
+        "ISO3166-2-lvl5": "LT-27",
+        "state": "Utena County",
+        "ISO3166-2-lvl4": "LT-UT",
+        "postcode": "33314",
+        "country": "Lithuania",
+        "country_code": "lt"
+      }
+    }
   },
   {
     "nan": 214.0,
@@ -10697,7 +13490,21 @@
     "2021/22 Spring Enrollments": 4153,
     "2022/23 Enrollments": 1222,
     "2023/24 Enrollments": 1461,
-    "2024/25 Enrollments": 1381
+    "2024/25 Enrollments": 1381,
+    "geostat": {
+      "display_name": "The National Charity School, 5 Street, Al Garhoud, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "The National Charity School",
+        "road": "5 Street",
+        "suburb": "Al Garhoud",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 215.0,
@@ -10747,7 +13554,20 @@
     "2021/22 Spring Enrollments": 1420,
     "2022/23 Enrollments": 2017,
     "2023/24 Enrollments": 2498,
-    "2024/25 Enrollments": 2581
+    "2024/25 Enrollments": 2581,
+    "geostat": {
+      "display_name": "Grocery, 9 Street, Muhaisnah 2, Muhaisnah, Dubai, United Arab Emirates",
+      "address": {
+        "shop": "Grocery",
+        "road": "9 Street",
+        "neighbourhood": "Muhaisnah 2",
+        "suburb": "Muhaisnah",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 217.0,
@@ -10797,7 +13617,19 @@
     "2021/22 Spring Enrollments": 3203,
     "2022/23 Enrollments": 3368,
     "2023/24 Enrollments": 3259,
-    "2024/25 Enrollments": 3519
+    "2024/25 Enrollments": 3519,
+    "geostat": {
+      "display_name": "School of Research Science, Tripoli Street, Al Warqa, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "School of Research Science",
+        "road": "Tripoli Street",
+        "suburb": "Al Warqa",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 216.0,
@@ -10847,7 +13679,19 @@
     "2021/22 Spring Enrollments": 508,
     "2022/23 Enrollments": 653,
     "2023/24 Enrollments": 814,
-    "2024/25 Enrollments": 720
+    "2024/25 Enrollments": 720,
+    "geostat": {
+      "display_name": "School of Research Science, Tripoli Street, Al Warqa, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "School of Research Science",
+        "road": "Tripoli Street",
+        "suburb": "Al Warqa",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 218.0,
@@ -10897,7 +13741,21 @@
     "2021/22 Spring Enrollments": 1003,
     "2022/23 Enrollments": 1062,
     "2023/24 Enrollments": 1166,
-    "2024/25 Enrollments": 1211
+    "2024/25 Enrollments": 1211,
+    "geostat": {
+      "display_name": "The Sheffield Private School, 42 Street, Al Nahda, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "The Sheffield Private School",
+        "road": "42 Street",
+        "suburb": "Al Nahda",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 219.0,
@@ -10947,7 +13805,22 @@
     "2021/22 Spring Enrollments": 5263,
     "2022/23 Enrollments": 5375,
     "2023/24 Enrollments": 5222,
-    "2024/25 Enrollments": 5271
+    "2024/25 Enrollments": 5271,
+    "geostat": {
+      "display_name": "The Westminster School, 21a Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "The Westminster School",
+        "road": "21a Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 220.0,
@@ -10997,7 +13870,20 @@
     "2021/22 Spring Enrollments": 4205,
     "2022/23 Enrollments": 4232,
     "2023/24 Enrollments": 4308,
-    "2024/25 Enrollments": 4270
+    "2024/25 Enrollments": 4270,
+    "geostat": {
+      "display_name": "The Winchester School, 51d Street, Jabal Ali, Discovery Gardens, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "The Winchester School",
+        "road": "51d Street",
+        "neighbourhood": "Jabal Ali",
+        "suburb": "Discovery Gardens",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 221.0,
@@ -11047,7 +13933,20 @@
     "2021/22 Spring Enrollments": 1398,
     "2022/23 Enrollments": 1454,
     "2023/24 Enrollments": 1824,
-    "2024/25 Enrollments": 1902
+    "2024/25 Enrollments": 1902,
+    "geostat": {
+      "display_name": "UIPS, 35 Street, Muhaisnah 4, Muhaisnah, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "UIPS",
+        "road": "35 Street",
+        "neighbourhood": "Muhaisnah 4",
+        "suburb": "Muhaisnah",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 222.0,
@@ -11097,7 +13996,21 @@
     "2021/22 Spring Enrollments": 1113,
     "2022/23 Enrollments": 1074,
     "2023/24 Enrollments": 1233,
-    "2024/25 Enrollments": 1356
+    "2024/25 Enrollments": 1356,
+    "geostat": {
+      "display_name": "Universal American School, Al Rebat Street, Umm Ramool, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Universal American School",
+        "road": "Al Rebat Street",
+        "suburb": "Umm Ramool",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 223.0,
@@ -11147,7 +14060,18 @@
     "2021/22 Spring Enrollments": 1224,
     "2022/23 Enrollments": 1211,
     "2023/24 Enrollments": 1368,
-    "2024/25 Enrollments": 1385
+    "2024/25 Enrollments": 1385,
+    "geostat": {
+      "display_name": "15th Street, Mirdif, Dubai, United Arab Emirates",
+      "address": {
+        "road": "15th Street",
+        "suburb": "Mirdif",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 224.0,
@@ -11197,7 +14121,20 @@
     "2021/22 Spring Enrollments": 230,
     "2022/23 Enrollments": 303,
     "2023/24 Enrollments": 250,
-    "2024/25 Enrollments": 282
+    "2024/25 Enrollments": 282,
+    "geostat": {
+      "display_name": "22, 94 Street, Dubai Silicon Oasis, Nadd Hessa, Dubai, United Arab Emirates",
+      "address": {
+        "house_number": "22",
+        "road": "94 Street",
+        "neighbourhood": "Dubai Silicon Oasis",
+        "suburb": "Nadd Hessa",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 225.0,
@@ -11247,7 +14184,20 @@
     "2021/22 Spring Enrollments": 867,
     "2022/23 Enrollments": 982,
     "2023/24 Enrollments": 1020,
-    "2024/25 Enrollments": 1040
+    "2024/25 Enrollments": 1040,
+    "geostat": {
+      "display_name": "Victory Heights Primary School, Golf car path, Dubai Sports City, Al Hebiah 4, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Victory Heights Primary School",
+        "road": "Golf car path",
+        "neighbourhood": "Dubai Sports City",
+        "suburb": "Al Hebiah 4",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   },
   {
     "nan": 226.0,
@@ -11297,6 +14247,21 @@
     "2021/22 Spring Enrollments": 1517,
     "2022/23 Enrollments": 2227,
     "2023/24 Enrollments": 2727,
-    "2024/25 Enrollments": 2665
+    "2024/25 Enrollments": 2665,
+    "geostat": {
+      "display_name": "Woodlem Park School, 21a Street, Al Qusais 1, Al Qusais, Dubai, United Arab Emirates",
+      "address": {
+        "amenity": "Woodlem Park School",
+        "road": "21a Street",
+        "neighbourhood": "Al Qusais 1",
+        "suburb": "Al Qusais",
+        "city": "Dubai",
+        "ISO3166-2-lvl10": "AE-DU",
+        "state": "Dubai",
+        "ISO3166-2-lvl4": "AE-DU",
+        "country": "United Arab Emirates",
+        "country_code": "ae"
+      }
+    }
   }
 ]

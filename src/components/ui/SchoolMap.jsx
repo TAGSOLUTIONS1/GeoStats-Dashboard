@@ -4,7 +4,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import { dubaiGeoData, geojsonData } from '../../data/geoData';
 import { dubaiWEBDATA } from '../../data/DubaiData';
 import schoolsData from '../../data/schools.json';
-import { addSchoolCountsToGeoJSON, getLocationFromCoordinates } from '../../services/school';
+import { addSchoolCountsToGeoJSON } from '../../services/school';
 
 const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
   const mapContainer = useRef(null);
@@ -274,6 +274,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
             properties: {
               name: school['School Name'],
               location: school.Location,
+              geostatDisplayName: school.geostat?.display_name || null,
               curriculum: school.Curriculum,
               grades: school.Grades,
               rating: school['Latest DSIB Rating'],
@@ -385,16 +386,8 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
           window.highlightSchool(props.name, coordinates);
         }
         
-        // Get location from coordinates using Nominatim API
-        let displayLocation = props.location || 'Location not available';
-        try {
-          const locationFromAPI = await getLocationFromCoordinates(lat, lng);
-          if (locationFromAPI) {
-            displayLocation = locationFromAPI;
-          }
-        } catch (error) {
-          console.error('Error fetching location:', error);
-        }
+        // Get location from geostat.display_name if available, otherwise use Location field
+        let displayLocation = props.geostatDisplayName || props.location || 'Location not available';
         
         // Create popup content
         const popupHTML = `

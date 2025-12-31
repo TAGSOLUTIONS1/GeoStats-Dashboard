@@ -4,7 +4,7 @@ import schoolsData from '../data/schools.json';
 const locationCache = new Map();
 
 /**
- * Get location address from coordinates using Nominatim reverse geocoding
+ * Get location address from coordinates using geostat.display_name from schools data
  * @param {number} lat - Latitude
  * @param {number} lon - Longitude
  * @returns {Promise<string>} - Location address string
@@ -20,48 +20,30 @@ export const getLocationFromCoordinates = async (lat, lon) => {
     return locationCache.get(cacheKey);
   }
   
-  try {
-    const response = await fetch(
-      `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`,
-      {
-        headers: {
-          'User-Agent': 'GeoStats-Dashboard' // Required by Nominatim
-        }
-      }
-    );
-    
-    if (!response.ok) {
-      console.warn('Nominatim API error:', response.status);
-      return null;
-    }
-    
-    const data = await response.json();
-    
-    // Extract location from address components
-    let location = '';
-    if (data.address) {
-      // Try to get a meaningful location string
-      const parts = [];
-      if (data.address.road) parts.push(data.address.road);
-      if (data.address.suburb) parts.push(data.address.suburb);
-      if (data.address.residential) parts.push(data.address.residential);
-      if (data.address.state && !parts.length) parts.push(data.address.state);
-      
-      location = parts.join(', ') || data.display_name || null;
-    } else if (data.display_name) {
-      location = data.display_name;
-    }
-    
-    // Cache the result
-    if (location) {
-      locationCache.set(cacheKey, location);
-    }
-    
-    return location;
-  } catch (error) {
-    console.error('Error fetching location from Nominatim:', error);
-    return null;
+  // Find school by matching coordinates (with small tolerance for floating point differences)
+  const tolerance = 0.0001; // Approximately 11 meters
+  const school = schoolsData.find(s => {
+    if (!s.Latitude || !s.Longitude) return false;
+    const latDiff = Math.abs(s.Latitude - lat);
+    const lonDiff = Math.abs(s.Longitude - lon);
+    return latDiff < tolerance && lonDiff < tolerance;
+  });
+  
+  // Get location from geostat.display_name if available
+  let location = null;
+  if (school && school.geostat && school.geostat.display_name) {
+    location = school.geostat.display_name;
+  } else if (school && school.Location) {
+    // Fallback to Location field if geostat.display_name is not available
+    location = school.Location;
   }
+  
+  // Cache the result
+  if (location) {
+    locationCache.set(cacheKey, location);
+  }
+  
+  return location;
 };
 
 /**
