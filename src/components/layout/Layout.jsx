@@ -70,8 +70,19 @@ const Layout = ({ children }) => {
       const dataPointId = e.detail?.dataPointId;
       if (dataPointId) {
         setWindowDataPoint(dataPointId);
-        if (schoolDataPointIds.includes(dataPointId) && activeItem !== 'dubai-school-landscape') {
-          setActiveItem('dubai-school-landscape');
+        if (schoolDataPointIds.includes(dataPointId)) {
+          // Switch to school map if school data point is selected
+          if (activeItem !== 'dubai-school-landscape') {
+            setActiveItem('dubai-school-landscape');
+          }
+        } else {
+          // Switch away from school map if non-school data point is selected
+          if (activeItem === 'dubai-school-landscape') {
+            // Find the section that contains this data point and switch to it
+            // For now, we'll just clear the school landscape selection
+            // The sidebar will handle which section to show
+            setActiveItem(null);
+          }
         }
       }
     };
@@ -81,8 +92,18 @@ const Layout = ({ children }) => {
       if (typeof window !== 'undefined' && window.selectedDataPoint !== windowDataPoint) {
         const dp = window.selectedDataPoint;
         setWindowDataPoint(dp);
-        if (dp && schoolDataPointIds.includes(dp) && activeItem !== 'dubai-school-landscape') {
-          setActiveItem('dubai-school-landscape');
+        if (dp) {
+          if (schoolDataPointIds.includes(dp)) {
+            // Switch to school map if school data point is selected
+            if (activeItem !== 'dubai-school-landscape') {
+              setActiveItem('dubai-school-landscape');
+            }
+          } else {
+            // Switch away from school map if non-school data point is selected
+            if (activeItem === 'dubai-school-landscape') {
+              setActiveItem(null);
+            }
+          }
         }
       }
     };
@@ -99,13 +120,27 @@ const Layout = ({ children }) => {
   // Auto-expand school landscape section when a school data point is selected
   useEffect(() => {
     const currentDataPoint = windowDataPoint || selectedDataPoint;
-    if (currentDataPoint && schoolDataPointIds.includes(currentDataPoint) && activeItem !== 'dubai-school-landscape') {
-      setActiveItem('dubai-school-landscape');
+    if (currentDataPoint) {
+      if (schoolDataPointIds.includes(currentDataPoint)) {
+        // Switch to school map if school data point is selected
+        if (activeItem !== 'dubai-school-landscape') {
+          setActiveItem('dubai-school-landscape');
+        }
+      } else {
+        // Switch away from school map if non-school data point is selected
+        if (activeItem === 'dubai-school-landscape') {
+          setActiveItem(null);
+        }
+      }
     }
   }, [selectedDataPoint, windowDataPoint, activeItem, setActiveItem]);
   
   // Check if school filter panel should be open
   const currentDataPoint = windowDataPoint || selectedDataPoint;
+  // Show school map if:
+  // 1. The active section is school landscape, OR
+  // 2. A school data point is currently selected
+  // Otherwise show population map
   const isSchoolPanelOpen = activeItem === 'dubai-school-landscape' || 
     (currentDataPoint && schoolDataPointIds.includes(currentDataPoint));
 
