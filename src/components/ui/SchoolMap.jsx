@@ -19,6 +19,23 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
 
   const isMobile = () => window.innerWidth <= 780;
 
+  // Rating mapping: number to text
+  const RATING_MAP = {
+    0: "Not yet inspected",
+    1: "Unsatisfactory",
+    2: "Acceptable",
+    3: "Good",
+    4: "Very Good",
+    5: "Outstanding"
+  };
+
+  // Convert numeric rating to text
+  const getRatingText = (rating) => {
+    if (rating === null || rating === undefined || rating === '') return null;
+    const ratingNum = typeof rating === 'number' ? rating : Number(rating);
+    return RATING_MAP[ratingNum] || null;
+  };
+
   // Process GeoJSON with school counts
   const processGeoJSONWithSchools = useCallback((geojson) => {
     const cacheKey = `schools-${selectedFilter}-${geojson.features?.length || 0}`;
@@ -389,6 +406,9 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
         // Get location from geostat.display_name if available, otherwise use Location field
         let displayLocation = props.geostatDisplayName || props.location || 'Location not available';
         
+        // Convert rating to text
+        const ratingText = getRatingText(props.rating);
+        
         // Create popup content
         const popupHTML = `
           <div style="padding: 8px; max-width: 250px;">
@@ -396,7 +416,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
             <p style="font-size: 12px; color: #666; margin-bottom: 4px;">📍 ${displayLocation}</p>
             ${props.curriculum ? `<p style="font-size: 12px; color: #666; margin-bottom: 4px;">📚 ${props.curriculum}</p>` : ''}
             ${props.grades ? `<p style="font-size: 12px; color: #666; margin-bottom: 4px;">🎓 ${props.grades}</p>` : ''}
-            ${props.rating ? `<p style="font-size: 12px; color: #666; margin-bottom: 4px;">⭐ Rating: ${props.rating}</p>` : ''}
+            ${ratingText ? `<p style="font-size: 12px; color: #666; margin-bottom: 4px;">⭐ Rating: ${ratingText}</p>` : ''}
             ${props.enrollment ? `<p style="font-size: 12px; color: #666;">👥 Enrollment: ${props.enrollment.toLocaleString()}</p>` : ''}
           </div>
         `;
