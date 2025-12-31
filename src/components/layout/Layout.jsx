@@ -54,8 +54,8 @@ const Layout = ({ children }) => {
   // School-related data point IDs
   const schoolDataPointIds = [
     'distribution-and-quality-analysis',
-    'rating-by-curriculum',
-    'grade-distribution',
+    'rating-distribution',
+    'fee-distribution',
     'enrollment-growth'
   ];
   
@@ -859,6 +859,7 @@ const Layout = ({ children }) => {
         {isSchoolPanelOpen ? (
           <SchoolMap 
             selectedFilter={selectedFilter}
+            selectedDataPoint={currentDataPoint}
           />
         ) : (
           <Map 

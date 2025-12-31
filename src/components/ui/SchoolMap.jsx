@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, useCallback } from 'react';
+import React, { useEffect, useRef, useState, useCallback, useMemo } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { dubaiGeoData, geojsonData } from '../../data/geoData';
@@ -6,7 +6,7 @@ import { dubaiWEBDATA } from '../../data/DubaiData';
 import schoolsData from '../../data/schools.json';
 import { addSchoolCountsToGeoJSON } from '../../services/school';
 
-const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
+const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoint = null }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
@@ -36,9 +36,27 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
     return RATING_MAP[ratingNum] || null;
   };
 
+  // Determine visualization mode based on selected data point
+  const visualizationMode = useMemo(() => {
+    // Rating-related data points show average rating
+    const ratingDataPoints = ['rating-distribution'];
+    // Count-related data points show school count
+    const countDataPoints = ['distribution-and-quality-analysis', 'fee-distribution', 'enrollment-growth'];
+    
+    if (selectedDataPoint) {
+      if (ratingDataPoints.includes(selectedDataPoint)) {
+        return 'rating';
+      } else if (countDataPoints.includes(selectedDataPoint)) {
+        return 'count';
+      }
+    }
+    // Default to rating if no specific data point selected
+    return 'rating';
+  }, [selectedDataPoint]);
+
   // Process GeoJSON with school counts
   const processGeoJSONWithSchools = useCallback((geojson) => {
-    const cacheKey = `schools-${selectedFilter}-${geojson.features?.length || 0}`;
+    const cacheKey = `schools-${selectedFilter}-${visualizationMode}-${geojson.features?.length || 0}`;
     
     if (processedDataCache.current.has(cacheKey)) {
       return processedDataCache.current.get(cacheKey);
@@ -47,10 +65,31 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
     const processed = addSchoolCountsToGeoJSON(geojson);
     processedDataCache.current.set(cacheKey, processed);
     return processed;
-  }, [selectedFilter]);
+  }, [selectedFilter, visualizationMode]);
+
+  // Color scheme for average ratings with improved gradient
+  const getRatingColorScheme = useCallback(() => {
+    return [
+      'case',
+      // If no rating or null, use light gray
+      ['==', ['get', 'AverageRating'], null],
+      '#e0e0e0',  // Light gray for no rating
+      [
+        'interpolate',
+        ['linear'],
+        ['get', 'AverageRating'],
+        0, '#d32f2f',      // Deep red for 0 (Unsatisfactory)
+        1, '#f57c00',      // Orange for 1 (Unsatisfactory)
+        2, '#fbc02d',      // Yellow-orange for 2 (Acceptable)
+        3, '#689f38',      // Green for 3 (Good)
+        4, '#1976d2',      // Blue for 4 (Very Good)
+        5, '#00796b'       // Teal-green for 5 (Outstanding)
+      ]
+    ];
+  }, []);
 
   // Color scheme for school counts
-  const getSchoolColorScheme = useCallback(() => {
+  const getCountColorScheme = useCallback(() => {
     return [
       'interpolate',
       ['linear'],
@@ -66,6 +105,11 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
       100, '#1565c0'     // Very dark blue for 100+ schools
     ];
   }, []);
+
+  // Get current color scheme based on visualization mode
+  const getColorScheme = useCallback(() => {
+    return visualizationMode === 'rating' ? getRatingColorScheme() : getCountColorScheme();
+  }, [visualizationMode, getRatingColorScheme, getCountColorScheme]);
 
   useEffect(() => {
     const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
@@ -104,7 +148,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
         type: 'fill',
         source: 'dubai-communities',
         paint: {
-          'fill-color': getSchoolColorScheme(),
+          'fill-color': getColorScheme(),
           'fill-opacity': 0.7
         }
       });
@@ -130,22 +174,37 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
             'format',
             ['get', 'CNAME_E'], { 'font-scale': 1.1, 'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'] },
             '\n',
-            [
-              'case',
-              ['has', 'SchoolCount'],
-              [
-                'case',
-                ['>', ['get', 'SchoolCount'], 0],
-                [
-                  'concat',
-                  ['number-format', ['get', 'SchoolCount'], { 'locale': 'en-US' }],
-                  ' Schools'
+            visualizationMode === 'rating'
+              ? [
+                  'case',
+                  ['has', 'AverageRating'],
+                  [
+                    'case',
+                    ['!=', ['get', 'AverageRating'], null],
+                    [
+                      'concat',
+                      'Rating: ',
+                      ['number-format', ['get', 'AverageRating'], { 'locale': 'en-US', 'min-fraction-digits': 1, 'max-fraction-digits': 2 }]
+                    ],
+                    ''
+                  ],
+                  'No Data'
+                ]
+              : [
+                  'case',
+                  ['has', 'SchoolCount'],
+                  [
+                    'case',
+                    ['>', ['get', 'SchoolCount'], 0],
+                    [
+                      'concat',
+                      ['number-format', ['get', 'SchoolCount'], { 'locale': 'en-US' }],
+                      ' Schools'
+                    ],
+                    ''
+                  ],
+                  'No Data'
                 ],
-                ''
-                // 'No Schools'
-              ],
-              'No Data'
-            ],
             { 'font-scale': 1.2, 'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'] }
           ],
           'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
@@ -171,13 +230,31 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
       if (!map.current) return;
 
       const getSchoolLabels = (props) => {
-        const schoolCount = props['SchoolCount'] || 0;
-        const formatted = new Intl.NumberFormat('en-US').format(schoolCount);
-        return {
-          valueLabel: `<br/>Schools: ${formatted}`,
-          valueLabel2: '',
-          valueLabel3: ''
-        };
+        if (visualizationMode === 'rating') {
+          // Show average rating
+          const avgRating = props['AverageRating'];
+          const schoolCount = props['SchoolCount'] || 0;
+          const ratingText = avgRating !== null && avgRating !== undefined 
+            ? getRatingText(Math.round(avgRating))
+            : 'No rating data';
+          const ratingDisplay = avgRating !== null && avgRating !== undefined
+            ? `${ratingText} (${avgRating.toFixed(2)})`
+            : ratingText;
+          return {
+            valueLabel: `<br/>Avg Rating: ${ratingDisplay}${schoolCount > 0 ? `<br/>Schools: ${schoolCount}` : ''}`,
+            valueLabel2: '',
+            valueLabel3: ''
+          };
+        } else {
+          // Show school count
+          const schoolCount = props['SchoolCount'] || 0;
+          const formatted = new Intl.NumberFormat('en-US').format(schoolCount);
+          return {
+            valueLabel: `<br/>Schools: ${formatted}`,
+            valueLabel2: '',
+            valueLabel3: ''
+          };
+        }
       };
 
       if (isMobile()) {
@@ -574,7 +651,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
       if (map.current) map.current.remove();
       map.current = null;
     };
-  }, [selectedFilter, processGeoJSONWithSchools, getSchoolColorScheme]);
+  }, [selectedFilter, processGeoJSONWithSchools, getRatingColorScheme]);
 
   // Update data when filter changes
   useEffect(() => {
@@ -590,36 +667,51 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false }) => {
 
     const layer = map.current.getLayer('dubai-communities-fill');
     if (layer) {
-      map.current.setPaintProperty('dubai-communities-fill', 'fill-color', getSchoolColorScheme());
+      map.current.setPaintProperty('dubai-communities-fill', 'fill-color', getColorScheme());
     }
 
-    // Update text layer
+    // Update text layer based on visualization mode
     const textLayer = map.current.getLayer('dubai-communities-name');
     if (textLayer) {
       map.current.setLayoutProperty('dubai-communities-name', 'text-field', [
         'format',
         ['get', 'CNAME_E'], { 'font-scale': 1.1, 'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'] },
         '\n',
-        [
-          'case',
-          ['has', 'SchoolCount'],
-          [
-            'case',
-            ['>', ['get', 'SchoolCount'], 0],
-            [
-              'concat',
-              ['number-format', ['get', 'SchoolCount'], { 'locale': 'en-US' }],
-              ' Schools'
+        visualizationMode === 'rating'
+          ? [
+              'case',
+              ['has', 'AverageRating'],
+              [
+                'case',
+                ['!=', ['get', 'AverageRating'], null],
+                [
+                  'concat',
+                  'Rating: ',
+                  ['number-format', ['get', 'AverageRating'], { 'locale': 'en-US', 'min-fraction-digits': 1, 'max-fraction-digits': 2 }]
+                ],
+                ''
+              ],
+              'No Data'
+            ]
+          : [
+              'case',
+              ['has', 'SchoolCount'],
+              [
+                'case',
+                ['>', ['get', 'SchoolCount'], 0],
+                [
+                  'concat',
+                  ['number-format', ['get', 'SchoolCount'], { 'locale': 'en-US' }],
+                  ' Schools'
+                ],
+                ''
+              ],
+              'No Data'
             ],
-            ''
-            // 'No Schools'
-          ],
-          'No Data'
-        ],
         { 'font-scale': 1.2, 'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'] }
       ]);
     }
-  }, [selectedFilter, isMapLoaded, processGeoJSONWithSchools, getSchoolColorScheme]);
+  }, [selectedFilter, isMapLoaded, processGeoJSONWithSchools, getColorScheme, visualizationMode]);
 
   const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
   const hasValidToken = token && token !== 'your_mapbox_access_token_here';

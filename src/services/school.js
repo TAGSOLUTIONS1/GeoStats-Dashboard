@@ -87,26 +87,30 @@ const isPointInPolygon = (point, polygon) => {
 };
 
 /**
- * Count schools per area using point-in-polygon matching
+ * Calculate school statistics per area (count and average rating)
  * Uses school lat/lng and area geometry from geoData
  */
-export const countSchoolsByArea = (geojsonFeatures) => {
-  const areaSchoolCounts = new Map();
+export const calculateAreaSchoolStats = (geojsonFeatures) => {
+  const areaStats = new Map();
   
-  // Initialize all areas with 0 schools
+  // Initialize all areas
   geojsonFeatures.forEach(feature => {
     const areaName = feature.properties?.CNAME_E || feature.properties?.COMMUNITY_E || '';
     if (areaName) {
-      areaSchoolCounts.set(areaName, 0);
+      areaStats.set(areaName, {
+        count: 0,
+        ratings: []
+      });
     }
   });
   
-  // Count schools for each area using point-in-polygon
+  // Process schools for each area using point-in-polygon
   schoolsData.forEach(school => {
     // Skip schools without coordinates
     if (!school.Latitude || !school.Longitude) return;
     
     const schoolPoint = [school.Longitude, school.Latitude];
+    const rating = school['Latest DSIB Rating'];
     
     // Check which area polygon contains this school point
     for (const feature of geojsonFeatures) {
@@ -116,34 +120,71 @@ export const countSchoolsByArea = (geojsonFeatures) => {
       if (!areaName) continue;
       
       if (isPointInPolygon(schoolPoint, feature.geometry)) {
-        areaSchoolCounts.set(areaName, (areaSchoolCounts.get(areaName) || 0) + 1);
+        const stats = areaStats.get(areaName);
+        stats.count += 1;
+        
+        // Add rating if available (only numeric ratings)
+        if (rating !== null && rating !== undefined && rating !== '') {
+          const ratingNum = typeof rating === 'number' ? rating : Number(rating);
+          if (!isNaN(ratingNum)) {
+            stats.ratings.push(ratingNum);
+          }
+        }
         break; // School can only be in one area
       }
     }
   });
   
-  return areaSchoolCounts;
+  // Calculate average ratings
+  const result = new Map();
+  areaStats.forEach((stats, areaName) => {
+    const avgRating = stats.ratings.length > 0
+      ? stats.ratings.reduce((sum, r) => sum + r, 0) / stats.ratings.length
+      : null;
+    
+    result.set(areaName, {
+      count: stats.count,
+      averageRating: avgRating !== null ? Math.round(avgRating * 100) / 100 : null // Round to 2 decimal places
+    });
+  });
+  
+  return result;
 };
 
 /**
- * Add school counts to GeoJSON features
+ * Count schools per area using point-in-polygon matching
+ * Uses school lat/lng and area geometry from geoData
+ * @deprecated Use calculateAreaSchoolStats instead
+ */
+export const countSchoolsByArea = (geojsonFeatures) => {
+  const stats = calculateAreaSchoolStats(geojsonFeatures);
+  const counts = new Map();
+  stats.forEach((stat, areaName) => {
+    counts.set(areaName, stat.count);
+  });
+  return counts;
+};
+
+/**
+ * Add school statistics (count and average rating) to GeoJSON features
  */
 export const addSchoolCountsToGeoJSON = (geojson) => {
   if (!geojson || !geojson.features) {
     return geojson;
   }
   
-  const schoolCounts = countSchoolsByArea(geojson.features);
+  const areaStats = calculateAreaSchoolStats(geojson.features);
   
   const processedFeatures = geojson.features.map(feature => {
     const areaName = feature.properties?.CNAME_E || feature.properties?.COMMUNITY_E || '';
-    const schoolCount = schoolCounts.get(areaName) || 0;
+    const stats = areaStats.get(areaName) || { count: 0, averageRating: null };
     
     return {
       ...feature,
       properties: {
         ...feature.properties,
-        SchoolCount: schoolCount
+        SchoolCount: stats.count,
+        AverageRating: stats.averageRating
       }
     };
   });
