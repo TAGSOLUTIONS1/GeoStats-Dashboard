@@ -47,44 +47,22 @@ export const getLocationFromCoordinates = async (lat, lon) => {
 };
 
 /**
- * Normalize location names for matching
- * Removes common variations and standardizes format
- */
-const normalizeLocationName = (name) => {
-  if (!name) return '';
-  return name
-    .toUpperCase()
-    .trim()
-    .replace(/\s+/g, ' ') // Multiple spaces to single space
-    .replace(/^(AL|AL-)/, 'AL ') // Standardize AL prefix
-    .replace(/\s+(FIRST|SECOND|THIRD|1ST|2ND|3RD)$/i, '') // Remove ordinal suffixes for matching
-    .trim();
-};
-
-/**
- * Match school location to area name
- * Tries multiple matching strategies
+ * Match school location to area name (CNAME)
+ * Strict matching - no normalization, exact or contains match only
  */
 const matchLocationToArea = (schoolLocation, areaName) => {
   if (!schoolLocation || !areaName) return false;
   
-  const normalizedSchool = normalizeLocationName(schoolLocation);
-  const normalizedArea = normalizeLocationName(areaName);
+  // Convert both to uppercase for case-insensitive comparison
+  const schoolUpper = schoolLocation.toUpperCase().trim();
+  const areaUpper = areaName.toUpperCase().trim();
   
-  // Exact match
-  if (normalizedSchool === normalizedArea) return true;
+  // Exact match (case-insensitive)
+  if (schoolUpper === areaUpper) return true;
   
-  // Contains match (e.g., "AL QUSAIS FIRST" matches "AL QUSAIS")
-  if (normalizedSchool.includes(normalizedArea) || normalizedArea.includes(normalizedSchool)) {
-    return true;
-  }
-  
-  // Remove common prefixes and match
-  const schoolWithoutPrefix = normalizedSchool.replace(/^(AL|AL-)\s*/i, '');
-  const areaWithoutPrefix = normalizedArea.replace(/^(AL|AL-)\s*/i, '');
-  
-  if (schoolWithoutPrefix === areaWithoutPrefix) return true;
-  if (schoolWithoutPrefix.includes(areaWithoutPrefix) || areaWithoutPrefix.includes(schoolWithoutPrefix)) {
+  // Contains match: area name must be contained in school location
+  // This handles cases like "Cycle Path, Wadi Al Safa 3, Dubai" containing "WADI AL SAFA 3"
+  if (schoolUpper.includes(areaUpper)) {
     return true;
   }
   
@@ -133,7 +111,7 @@ export const countSchoolsByArea = (geojsonFeatures) => {
     }
   });
   
-  // Count schools for each area - PRIORITIZE lat/long (point-in-polygon) over name matching
+  // Count schools for each area - PRIORITIZE name matching (geostat.address.neighbourhood first, then geostat.display_name), then point-in-polygon as fallback
   schoolsData.forEach(school => {
     // Skip schools without coordinates
     if (!school.Latitude || !school.Longitude) return;
@@ -141,28 +119,45 @@ export const countSchoolsByArea = (geojsonFeatures) => {
     const schoolPoint = [school.Longitude, school.Latitude];
     let matched = false;
     
-    // FIRST: Try point-in-polygon (most accurate)
-    geojsonFeatures.forEach(feature => {
-      if (matched) return; // Already matched, skip
-      
-      const areaName = feature.properties?.CNAME_E || feature.properties?.COMMUNITY_E || '';
-      if (!areaName) return;
-      
-      if (feature.geometry && isPointInPolygon(schoolPoint, feature.geometry)) {
-        areaSchoolCounts.set(areaName, (areaSchoolCounts.get(areaName) || 0) + 1);
-        matched = true;
-      }
-    });
+    // FIRST: Try name matching
+    // Priority 1: Check geostat.address.neighbourhood
+    // Priority 2: Check if area name appears in geostat.display_name (like "..., area name, ...")
+    const neighbourhood = school.geostat?.address?.neighbourhood;
+    const displayName = school.geostat?.display_name;
     
-    // FALLBACK: If point-in-polygon fails and we have location name, try name matching
-    if (!matched && school.Location) {
+    if (neighbourhood || displayName) {
       for (const [areaName] of areaSchoolCounts) {
-        if (matchLocationToArea(school.Location, areaName)) {
-          areaSchoolCounts.set(areaName, (areaSchoolCounts.get(areaName) || 0) + 1);
+        // First check neighbourhood
+        if (neighbourhood && matchLocationToArea(neighbourhood, areaName)) {
+          const currentCount = areaSchoolCounts.get(areaName) || 0;
+          areaSchoolCounts.set(areaName, currentCount + 1);
+          matched = true;
+          break;
+        }
+        
+        // Then check if area name appears in display_name
+        if (displayName && matchLocationToArea(displayName, areaName)) {
+          const currentCount = areaSchoolCounts.get(areaName) || 0;
+          areaSchoolCounts.set(areaName, currentCount + 1);
           matched = true;
           break;
         }
       }
+    }
+    
+    // FALLBACK: If name matching fails, try point-in-polygon
+    if (!matched) {
+      geojsonFeatures.forEach(feature => {
+        if (matched) return; // Already matched, skip
+        
+        const areaName = feature.properties?.CNAME_E || feature.properties?.COMMUNITY_E || '';
+        if (!areaName) return;
+        
+        if (feature.geometry && isPointInPolygon(schoolPoint, feature.geometry)) {
+          areaSchoolCounts.set(areaName, (areaSchoolCounts.get(areaName) || 0) + 1);
+          matched = true;
+        }
+      });
     }
   });
   
@@ -173,7 +168,9 @@ export const countSchoolsByArea = (geojsonFeatures) => {
  * Add school counts to GeoJSON features
  */
 export const addSchoolCountsToGeoJSON = (geojson) => {
-  if (!geojson || !geojson.features) return geojson;
+  if (!geojson || !geojson.features) {
+    return geojson;
+  }
   
   const schoolCounts = countSchoolsByArea(geojson.features);
   
@@ -203,8 +200,19 @@ export const getSchoolsByArea = (areaName) => {
   if (!areaName) return [];
   
   return schoolsData.filter(school => {
-    if (!school.Location) return false;
-    return matchLocationToArea(school.Location, areaName);
+    // First check geostat.address.neighbourhood, then geostat.display_name
+    const neighbourhood = school.geostat?.address?.neighbourhood;
+    const displayName = school.geostat?.display_name;
+    
+    if (neighbourhood && matchLocationToArea(neighbourhood, areaName)) {
+      return true;
+    }
+    
+    if (displayName && matchLocationToArea(displayName, areaName)) {
+      return true;
+    }
+    
+    return false;
   });
 };
 
@@ -214,8 +222,14 @@ export const getSchoolsByArea = (areaName) => {
 export const getAllSchoolLocations = () => {
   const locations = new Set();
   schoolsData.forEach(school => {
-    if (school.Location) {
-      locations.add(school.Location);
+    // Prefer geostat.address.neighbourhood, then geostat.display_name
+    const neighbourhood = school.geostat?.address?.neighbourhood;
+    const displayName = school.geostat?.display_name;
+    
+    if (neighbourhood) {
+      locations.add(neighbourhood);
+    } else if (displayName) {
+      locations.add(displayName);
     }
   });
   return Array.from(locations).sort();
