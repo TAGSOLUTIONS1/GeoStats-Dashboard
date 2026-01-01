@@ -377,6 +377,86 @@ export const processRatingDistribution = (schools) => {
 };
 
 /**
+ * Process rating data over years for schools in an area
+ * @param {Array} schools - Array of school objects
+ * @returns {Array} - Array of { year, averageRating, schoolCount } objects
+ */
+export const processRatingOverYears = (schools) => {
+  if (!schools || schools.length === 0) return [];
+  
+  const ratingByYear = new Map();
+  
+  schools.forEach(school => {
+    // Extract rating fields (format: "2008/09 DSIB Rating", "2019/20 DSIB Rating", etc.)
+    Object.keys(school).forEach(key => {
+      if (key.includes('DSIB Rating') && key !== 'Latest DSIB Rating' && typeof school[key] === 'number') {
+        // Extract year from key (e.g., "2008/09 DSIB Rating" -> 2008)
+        const yearMatch = key.match(/(\d{4})\//);
+        if (yearMatch) {
+          const year = parseInt(yearMatch[1]);
+          const rating = school[key];
+          
+          if (!isNaN(rating) && rating >= 0 && rating <= 5) {
+            if (!ratingByYear.has(year)) {
+              ratingByYear.set(year, []);
+            }
+            ratingByYear.get(year).push(rating);
+          }
+        }
+      }
+    });
+  });
+  
+  // Calculate average rating per year
+  const result = [];
+  ratingByYear.forEach((ratings, year) => {
+    const avgRating = ratings.reduce((sum, r) => sum + r, 0) / ratings.length;
+    
+    result.push({
+      year: year,
+      averageRating: Math.round(avgRating * 100) / 100,
+      schoolCount: ratings.length,
+      date: new Date(year, 6, 1).toISOString() // Mid-year date
+    });
+  });
+  
+  return result.sort((a, b) => a.year - b.year);
+};
+
+/**
+ * Process rating over years for a single school
+ * @param {Object} school - School object
+ * @returns {Array} - Array of { year, rating } objects
+ */
+export const processSchoolRatingOverYears = (school) => {
+  if (!school) return [];
+  
+  const ratings = [];
+  
+  // Extract rating fields (format: "2008/09 DSIB Rating", "2019/20 DSIB Rating", etc.)
+  Object.keys(school).forEach(key => {
+    if (key.includes('DSIB Rating') && key !== 'Latest DSIB Rating' && typeof school[key] === 'number') {
+      // Extract year from key (e.g., "2008/09 DSIB Rating" -> 2008)
+      const yearMatch = key.match(/(\d{4})\//);
+      if (yearMatch) {
+        const year = parseInt(yearMatch[1]);
+        const rating = school[key];
+        
+        if (!isNaN(rating) && rating >= 0 && rating <= 5) {
+          ratings.push({
+            year: year,
+            rating: rating,
+            date: new Date(year, 6, 1).toISOString()
+          });
+        }
+      }
+    }
+  });
+  
+  return ratings.sort((a, b) => a.year - b.year);
+};
+
+/**
  * Get schools by area name using point-in-polygon
  */
 export const getSchoolsByArea = (areaName, geojsonFeatures) => {

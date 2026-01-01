@@ -35,7 +35,8 @@ const Layout = ({ children }) => {
     areaName: '',
     visualizationMode: 'rating',
     ratingData: [],
-    enrollmentData: []
+    enrollmentData: [],
+    schools: []
   });
 
   const [searchSuggestions, setSearchSuggestions] = useState([]);
@@ -193,7 +194,7 @@ const Layout = ({ children }) => {
     
     // Listen for school area clicks
     const onSchoolAreaClicked = (e) => {
-      const { areaName, visualizationMode, ratingData, enrollmentData } = e.detail;
+      const { areaName, visualizationMode, ratingData, enrollmentData, schools } = e.detail;
       
       // Close regular graph modal if open
       setIsGraphOpen(false);
@@ -202,7 +203,8 @@ const Layout = ({ children }) => {
         areaName,
         visualizationMode,
         ratingData,
-        enrollmentData
+        enrollmentData,
+        schools: schools || []
       });
       setIsSchoolGraphOpen(true);
     };
@@ -1180,6 +1182,7 @@ const Layout = ({ children }) => {
         visualizationMode={schoolGraphData.visualizationMode}
         ratingData={schoolGraphData.ratingData}
         enrollmentData={schoolGraphData.enrollmentData}
+        schools={schoolGraphData.schools}
       />
     </div>
   );

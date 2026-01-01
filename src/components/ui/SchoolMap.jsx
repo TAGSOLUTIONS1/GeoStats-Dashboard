@@ -342,7 +342,8 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
                 areaName: cleanAreaName,
                 visualizationMode: visualizationMode,
                 ratingData: ratingData,
-                enrollmentData: enrollmentData
+                enrollmentData: enrollmentData,
+                schools: schoolsInArea
               }
             }));
           } else {
@@ -352,7 +353,8 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
                 areaName: cleanAreaName,
                 visualizationMode: visualizationMode,
                 ratingData: [],
-                enrollmentData: []
+                enrollmentData: [],
+                schools: []
               }
             }));
           }
@@ -949,7 +951,8 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
               areaName: cleanAreaName,
               visualizationMode: visualizationMode,
               ratingData: ratingData,
-              enrollmentData: enrollmentData
+              enrollmentData: enrollmentData,
+              schools: schoolsInArea
             }
           }));
         } else {
@@ -959,7 +962,8 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
               areaName: cleanAreaName,
               visualizationMode: visualizationMode,
               ratingData: [],
-              enrollmentData: []
+              enrollmentData: [],
+              schools: []
             }
           }));
         }

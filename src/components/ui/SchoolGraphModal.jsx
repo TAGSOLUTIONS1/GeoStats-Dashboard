@@ -1,6 +1,7 @@
 import React, { useMemo, useRef, useState, useEffect } from "react";
-import { X, BarChart3, TrendingUp } from "lucide-react";
+import { X, BarChart3, TrendingUp, Users, School } from "lucide-react";
 import { motion } from "framer-motion";
+import { processRatingOverYears, processSchoolRatingOverYears } from "../../services/school";
 
 const RATING_COLORS = {
   0: '#9CA3AF', // Gray - Not yet inspected
@@ -17,14 +18,58 @@ const SchoolGraphModal = ({
   areaName = "Selected Area",
   visualizationMode = 'rating', // 'rating' or 'enrollment'
   ratingData = [],
-  enrollmentData = []
+  enrollmentData = [],
+  schools = []
 }) => {
   const svgRef = useRef(null);
   const [cursor, setCursor] = useState(null);
+  const [ratingViewMode, setRatingViewMode] = useState('count'); // 'count', 'overall', 'individual', 'all'
+  const [selectedSchool, setSelectedSchool] = useState('');
   
   const svgWidth = 760;
   const svgHeight = 400;
   const margin = { top: 40, right: 40, bottom: 60, left: 60 };
+
+  // Process rating over years data
+  const ratingOverYears = useMemo(() => {
+    if (!schools || schools.length === 0) return [];
+    return processRatingOverYears(schools);
+  }, [schools]);
+
+  // Get unique school names for dropdown
+  const schoolNames = useMemo(() => {
+    if (!schools || schools.length === 0) return [];
+    return schools
+      .map(s => s['School Name'])
+      .filter(name => name)
+      .sort();
+  }, [schools]);
+
+  // Process selected school rating over years
+  const selectedSchoolRatingData = useMemo(() => {
+    if (!selectedSchool || !schools || schools.length === 0) return [];
+    const school = schools.find(s => s['School Name'] === selectedSchool);
+    if (!school) return [];
+    return processSchoolRatingOverYears(school);
+  }, [selectedSchool, schools]);
+
+  // Process all schools rating over years
+  const allSchoolsRatingData = useMemo(() => {
+    if (!schools || schools.length === 0) return new Map();
+    const schoolRatingsMap = new Map();
+    
+    schools.forEach(school => {
+      const schoolName = school['School Name'];
+      if (!schoolName) return;
+      
+      const ratings = processSchoolRatingOverYears(school);
+      if (ratings.length > 0) {
+        schoolRatingsMap.set(schoolName, ratings);
+      }
+    });
+    
+    return schoolRatingsMap;
+  }, [schools]);
 
   // Prevent body scroll when modal is open
   useEffect(() => {
@@ -39,33 +84,102 @@ const SchoolGraphModal = ({
     };
   }, [isOpen]);
 
-  // Rating Distribution Chart
-  const renderRatingChart = () => {
-    if (!ratingData || ratingData.length === 0) {
-      return (
-        <div className="flex items-center justify-center h-96 bg-gray-50 rounded-xl border-2 border-dashed border-gray-300">
-          <div className="text-center">
-            <div className="text-gray-400 text-4xl mb-2">📊</div>
-            <p className="text-gray-500 text-sm">No rating data available</p>
-          </div>
-        </div>
-      );
+  // Reset selected school when view mode changes
+  useEffect(() => {
+    if (ratingViewMode !== 'individual') {
+      setSelectedSchool('');
+    } else if (selectedSchool === '' && schoolNames.length > 0) {
+      setSelectedSchool(schoolNames[0]);
     }
+  }, [ratingViewMode, schoolNames, selectedSchool]);
 
-    const chartWidth = svgWidth - margin.left - margin.right;
-    const chartHeight = svgHeight - margin.top - margin.bottom;
-
-    const maxCount = Math.max(...ratingData.map(d => d.count));
-    const barWidth = chartWidth / ratingData.length * 0.6;
-    const xScale = (index) => margin.left + (index + 0.2) * (chartWidth / ratingData.length);
-    const yScale = (value) => margin.top + chartHeight - (value / maxCount) * chartHeight;
-
-    return (
-      <div className="relative w-full bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-200">
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold text-gray-800 mb-1">Rating Distribution</h3>
-          <p className="text-sm text-gray-600">Distribution of school ratings in {areaName}</p>
+  // Rating Distribution Chart with multiple view modes
+  const renderRatingChart = () => {
+    // View mode selector (only for rating mode)
+    const viewModeSelector = (
+      <div className="mb-4 p-3 bg-gray-50 rounded-lg border border-gray-200">
+        <div className="text-xs font-semibold text-gray-600 mb-2 uppercase tracking-wide">View Mode</div>
+        <div className="flex flex-wrap gap-2">
+          <button
+            onClick={() => setRatingViewMode('count')}
+            className={`px-4 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-sm ${
+              ratingViewMode === 'count'
+                ? 'bg-azure text-white shadow-md scale-105'
+                : 'bg-white text-gray-700 hover:bg-blue-50 hover:text-blue-700 border border-gray-300'
+            }`}
+          >
+            <BarChart3 className="w-4 h-4 inline mr-2" />
+            By Count
+          </button>
+          <button
+            onClick={() => setRatingViewMode('overall')}
+            className={`px-4 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-sm ${
+              ratingViewMode === 'overall'
+                ? 'bg-purple-600 text-white shadow-md scale-105'
+                : 'bg-white text-gray-700 hover:bg-purple-50 hover:text-purple-700 border border-gray-300'
+            }`}
+          >
+            <TrendingUp className="w-4 h-4 inline mr-2" />
+            Overall Trend
+          </button>
+          <button
+            onClick={() => setRatingViewMode('individual')}
+            className={`px-4 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-sm ${
+              ratingViewMode === 'individual'
+                ? 'bg-green-600 text-white shadow-md scale-105'
+                : 'bg-white text-gray-700 hover:bg-green-50 hover:text-green-700 border border-gray-300'
+            }`}
+          >
+            <School className="w-4 h-4 inline mr-2" />
+            Individual School
+          </button>
+          <button
+            onClick={() => setRatingViewMode('all')}
+            className={`px-4 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-sm ${
+              ratingViewMode === 'all'
+                ? 'bg-orange-light text-white shadow-md scale-105'
+                : 'bg-white text-gray-700 hover:bg-orange-50 hover:text-orange-700 border border-gray-300'
+            }`}
+          >
+            <Users className="w-4 h-4 inline mr-2" />
+            All Schools
+          </button>
         </div>
+      </div>
+    );
+
+    // Count view (bar chart)
+    if (ratingViewMode === 'count') {
+      if (!ratingData || ratingData.length === 0) {
+        return (
+          <div>
+            {viewModeSelector}
+            <div className="flex items-center justify-center h-96 bg-gray-50 rounded-xl border-2 border-dashed border-gray-300">
+              <div className="text-center">
+                <div className="text-gray-400 text-4xl mb-2">📊</div>
+                <p className="text-gray-500 text-sm">No rating data available</p>
+              </div>
+            </div>
+          </div>
+        );
+      }
+
+      const chartWidth = svgWidth - margin.left - margin.right;
+      const chartHeight = svgHeight - margin.top - margin.bottom;
+
+      const maxCount = Math.max(...ratingData.map(d => d.count));
+      const barWidth = chartWidth / ratingData.length * 0.6;
+      const xScale = (index) => margin.left + (index + 0.2) * (chartWidth / ratingData.length);
+      const yScale = (value) => margin.top + chartHeight - (value / maxCount) * chartHeight;
+
+      return (
+        <div className="relative w-full">
+          {viewModeSelector}
+          <div className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-200">
+            <div className="mb-4">
+              <h3 className="text-lg font-semibold text-gray-800 mb-1">Rating Distribution by Count</h3>
+              <p className="text-sm text-gray-600">Number of schools by rating in {areaName}</p>
+            </div>
         <div className="relative h-0 w-full pt-[52.6%]">
           <svg 
             ref={svgRef}
@@ -203,17 +317,736 @@ const SchoolGraphModal = ({
           </div>
         )}
 
-        {/* Legend */}
-        <div className="mt-4 flex flex-wrap gap-4 justify-center">
-          {ratingData.filter(d => d.count > 0).map(d => (
-            <div key={d.rating} className="flex items-center gap-2">
-              <div
-                className="w-4 h-4 rounded"
-                style={{ backgroundColor: RATING_COLORS[d.rating] }}
-              />
-              <span className="text-sm text-gray-700">{d.label}</span>
+            {/* Legend */}
+            <div className="mt-4 flex flex-wrap gap-4 justify-center">
+              {ratingData.filter(d => d.count > 0).map(d => (
+                <div key={d.rating} className="flex items-center gap-2">
+                  <div
+                    className="w-4 h-4 rounded"
+                    style={{ backgroundColor: RATING_COLORS[d.rating] }}
+                  />
+                  <span className="text-sm text-gray-700">{d.label}</span>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
+        </div>
+      );
+    }
+
+    // Overall rating over years view (line chart)
+    if (ratingViewMode === 'overall') {
+      if (!ratingOverYears || ratingOverYears.length === 0) {
+        return (
+          <div>
+            {viewModeSelector}
+            <div className="flex items-center justify-center h-96 bg-gray-50 rounded-xl border-2 border-dashed border-gray-300">
+              <div className="text-center">
+                <div className="text-gray-400 text-4xl mb-2">📊</div>
+                <p className="text-gray-500 text-sm">No rating data over years available</p>
+              </div>
+            </div>
+          </div>
+        );
+      }
+
+      const chartWidth = svgWidth - margin.left - margin.right;
+      const chartHeight = svgHeight - margin.top - margin.bottom;
+
+      const years = ratingOverYears.map(d => d.year);
+      const ratings = ratingOverYears.map(d => d.averageRating);
+      const maxRating = Math.max(...ratings, 5);
+      const minRating = Math.min(...ratings, 0);
+      const range = maxRating - minRating || 5;
+
+      const xScale = (index) => margin.left + (index / (ratingOverYears.length - 1 || 1)) * chartWidth;
+      const yScale = (value) => margin.top + chartHeight - ((value - minRating) / range) * chartHeight;
+
+      const linePath = ratingOverYears.map((d, index) => {
+        const x = xScale(index);
+        const y = yScale(d.averageRating);
+        return `${index === 0 ? 'M' : 'L'} ${x} ${y}`;
+      }).join(' ');
+
+      const areaPath = linePath + ` L ${xScale(ratingOverYears.length - 1)} ${margin.top + chartHeight} L ${xScale(0)} ${margin.top + chartHeight} Z`;
+
+      return (
+        <div className="relative w-full">
+          {viewModeSelector}
+          <div className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-200">
+            <div className="mb-4">
+              <h3 className="text-lg font-semibold text-gray-800 mb-1">Overall Rating Trend</h3>
+              <p className="text-sm text-gray-600">Average rating over years in {areaName}</p>
+            </div>
+            <div className="relative h-0 w-full pt-[52.6%]">
+              <svg 
+                ref={svgRef}
+                viewBox={`0 0 ${svgWidth} ${svgHeight}`}
+                className="absolute top-0 left-0 w-full h-full"
+                onMouseMove={(e) => {
+                  const svgRect = svgRef.current.getBoundingClientRect();
+                  const mouseX = e.clientX - svgRect.left;
+                  const ratio = (mouseX - margin.left) / chartWidth;
+                  const index = Math.round(ratio * (ratingOverYears.length - 1));
+                  if (index >= 0 && index < ratingOverYears.length) {
+                    const point = ratingOverYears[index];
+                    setCursor({
+                      x: e.clientX - svgRect.left,
+                      y: e.clientY - svgRect.top,
+                      data: point
+                    });
+                  }
+                }}
+                onMouseLeave={() => setCursor(null)}
+              >
+                <defs>
+                  <linearGradient id="ratingGradient" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0%" stopColor="#3B82F6" stopOpacity="0.3" />
+                    <stop offset="100%" stopColor="#3B82F6" stopOpacity="0.05" />
+                  </linearGradient>
+                </defs>
+
+                {/* Grid lines */}
+                {[0, 1, 2, 3, 4, 5].map(rating => {
+                  const y = margin.top + chartHeight - ((rating - minRating) / range) * chartHeight;
+                  return (
+                    <g key={rating}>
+                      <line
+                        x1={margin.left}
+                        y1={y}
+                        x2={svgWidth - margin.right}
+                        y2={y}
+                        stroke="#E5E7EB"
+                        strokeWidth="1"
+                        strokeDasharray="4,4"
+                      />
+                      <text
+                        x={margin.left - 10}
+                        y={y + 4}
+                        textAnchor="end"
+                        fontSize="12"
+                        fill="#6B7280"
+                      >
+                        {rating}
+                      </text>
+                    </g>
+                  );
+                })}
+
+                {/* Area fill */}
+                <path
+                  d={areaPath}
+                  fill="url(#ratingGradient)"
+                />
+
+                {/* Line */}
+                <path
+                  d={linePath}
+                  fill="none"
+                  stroke="#3B82F6"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+
+                {/* Data points */}
+                {ratingOverYears.map((d, index) => {
+                  const x = xScale(index);
+                  const y = yScale(d.averageRating);
+                  return (
+                    <circle
+                      key={d.year}
+                      cx={x}
+                      cy={y}
+                      r="5"
+                      fill="#3B82F6"
+                      stroke="#fff"
+                      strokeWidth="2"
+                      className="hover:r-7 transition-all cursor-pointer"
+                    />
+                  );
+                })}
+
+                {/* X-axis labels */}
+                {ratingOverYears.map((d, index) => {
+                  const x = xScale(index);
+                  return (
+                    <text
+                      key={d.year}
+                      x={x}
+                      y={margin.top + chartHeight + 20}
+                      textAnchor="middle"
+                      fontSize="11"
+                      fill="#374151"
+                      fontWeight="500"
+                    >
+                      {d.year}
+                    </text>
+                  );
+                })}
+
+                {/* Y-axis label */}
+                <text
+                  x={-svgHeight / 2}
+                  y={20}
+                  transform="rotate(-90)"
+                  textAnchor="middle"
+                  fontSize="14"
+                  fill="#6B7280"
+                  fontWeight="500"
+                >
+                  Average Rating
+                </text>
+
+                {/* X-axis label */}
+                <text
+                  x={svgWidth / 2}
+                  y={svgHeight - 10}
+                  textAnchor="middle"
+                  fontSize="14"
+                  fill="#6B7280"
+                  fontWeight="500"
+                >
+                  Year
+                </text>
+              </svg>
+            </div>
+
+            {/* Tooltip */}
+            {cursor && cursor.data && (
+              <div
+                className="absolute bg-gray-900 text-white px-3 py-2 rounded-lg shadow-lg text-sm z-50 pointer-events-none"
+                style={{
+                  left: `${cursor.x}px`,
+                  top: `${cursor.y - 60}px`,
+                  transform: 'translateX(-50%)'
+                }}
+              >
+                <div className="font-semibold">Year: {cursor.data.year}</div>
+                <div className="text-gray-300">Average Rating: {cursor.data.averageRating.toFixed(2)}</div>
+                <div className="text-gray-300">Schools: {cursor.data.schoolCount}</div>
+              </div>
+            )}
+          </div>
+        </div>
+      );
+    }
+
+    // Individual school view
+    if (ratingViewMode === 'individual') {
+      if (!schoolNames || schoolNames.length === 0) {
+        return (
+          <div>
+            {viewModeSelector}
+            <div className="flex items-center justify-center h-96 bg-gray-50 rounded-xl border-2 border-dashed border-gray-300">
+              <div className="text-center">
+                <div className="text-gray-400 text-4xl mb-2">📊</div>
+                <p className="text-gray-500 text-sm">No schools available</p>
+              </div>
+            </div>
+          </div>
+        );
+      }
+
+      if (!selectedSchoolRatingData || selectedSchoolRatingData.length === 0) {
+        return (
+          <div>
+            {viewModeSelector}
+            <div className="mb-4">
+              <label className="block text-sm font-medium text-gray-700 mb-2">Select School:</label>
+              <select
+                value={selectedSchool}
+                onChange={(e) => setSelectedSchool(e.target.value)}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              >
+                {schoolNames.map(name => (
+                  <option key={name} value={name}>{name}</option>
+                ))}
+              </select>
+            </div>
+            <div className="flex items-center justify-center h-96 bg-gray-50 rounded-xl border-2 border-dashed border-gray-300">
+              <div className="text-center">
+                <div className="text-gray-400 text-4xl mb-2">📊</div>
+                <p className="text-gray-500 text-sm">No rating data available for selected school</p>
+              </div>
+            </div>
+          </div>
+        );
+      }
+
+      const chartWidth = svgWidth - margin.left - margin.right;
+      const chartHeight = svgHeight - margin.top - margin.bottom;
+
+      const ratings = selectedSchoolRatingData.map(d => d.rating);
+      const maxRating = Math.max(...ratings, 5);
+      const minRating = Math.min(...ratings, 0);
+      const range = maxRating - minRating || 5;
+
+      const xScale = (index) => margin.left + (index / (selectedSchoolRatingData.length - 1 || 1)) * chartWidth;
+      const yScale = (value) => margin.top + chartHeight - ((value - minRating) / range) * chartHeight;
+
+      const linePath = selectedSchoolRatingData.map((d, index) => {
+        const x = xScale(index);
+        const y = yScale(d.rating);
+        return `${index === 0 ? 'M' : 'L'} ${x} ${y}`;
+      }).join(' ');
+
+      const areaPath = linePath + ` L ${xScale(selectedSchoolRatingData.length - 1)} ${margin.top + chartHeight} L ${xScale(0)} ${margin.top + chartHeight} Z`;
+
+      const ratingLabels = {
+        0: 'Not yet inspected',
+        1: 'Unsatisfactory',
+        2: 'Acceptable',
+        3: 'Good',
+        4: 'Very Good',
+        5: 'Outstanding'
+      };
+
+      return (
+        <div className="relative w-full">
+          {viewModeSelector}
+          <div className="mb-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">Select School:</label>
+            <select
+              value={selectedSchool}
+              onChange={(e) => setSelectedSchool(e.target.value)}
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            >
+              {schoolNames.map(name => (
+                <option key={name} value={name}>{name}</option>
+              ))}
+            </select>
+          </div>
+          <div className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-200">
+            <div className="mb-4">
+              <h3 className="text-lg font-semibold text-gray-800 mb-1">School Rating Over Years</h3>
+              <p className="text-sm text-gray-600">{selectedSchool}</p>
+            </div>
+            <div className="relative h-0 w-full pt-[52.6%]">
+              <svg 
+                ref={svgRef}
+                viewBox={`0 0 ${svgWidth} ${svgHeight}`}
+                className="absolute top-0 left-0 w-full h-full"
+                onMouseMove={(e) => {
+                  const svgRect = svgRef.current.getBoundingClientRect();
+                  const mouseX = e.clientX - svgRect.left;
+                  const ratio = (mouseX - margin.left) / chartWidth;
+                  const index = Math.round(ratio * (selectedSchoolRatingData.length - 1));
+                  if (index >= 0 && index < selectedSchoolRatingData.length) {
+                    const point = selectedSchoolRatingData[index];
+                    setCursor({
+                      x: e.clientX - svgRect.left,
+                      y: e.clientY - svgRect.top,
+                      data: point
+                    });
+                  }
+                }}
+                onMouseLeave={() => setCursor(null)}
+              >
+                <defs>
+                  <linearGradient id="schoolRatingGradient" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0%" stopColor="#10B981" stopOpacity="0.3" />
+                    <stop offset="100%" stopColor="#10B981" stopOpacity="0.05" />
+                  </linearGradient>
+                </defs>
+
+                {/* Grid lines */}
+                {[0, 1, 2, 3, 4, 5].map(rating => {
+                  const y = margin.top + chartHeight - ((rating - minRating) / range) * chartHeight;
+                  return (
+                    <g key={rating}>
+                      <line
+                        x1={margin.left}
+                        y1={y}
+                        x2={svgWidth - margin.right}
+                        y2={y}
+                        stroke="#E5E7EB"
+                        strokeWidth="1"
+                        strokeDasharray="4,4"
+                      />
+                      <text
+                        x={margin.left - 10}
+                        y={y + 4}
+                        textAnchor="end"
+                        fontSize="12"
+                        fill="#6B7280"
+                      >
+                        {rating}
+                      </text>
+                    </g>
+                  );
+                })}
+
+                {/* Area fill */}
+                <path
+                  d={areaPath}
+                  fill="url(#schoolRatingGradient)"
+                />
+
+                {/* Line */}
+                <path
+                  d={linePath}
+                  fill="none"
+                  stroke="#10B981"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+
+                {/* Data points */}
+                {selectedSchoolRatingData.map((d, index) => {
+                  const x = xScale(index);
+                  const y = yScale(d.rating);
+                  const color = RATING_COLORS[d.rating] || '#10B981';
+                  return (
+                    <circle
+                      key={d.year}
+                      cx={x}
+                      cy={y}
+                      r="5"
+                      fill={color}
+                      stroke="#fff"
+                      strokeWidth="2"
+                      className="hover:r-7 transition-all cursor-pointer"
+                    />
+                  );
+                })}
+
+                {/* X-axis labels */}
+                {selectedSchoolRatingData.map((d, index) => {
+                  const x = xScale(index);
+                  return (
+                    <text
+                      key={d.year}
+                      x={x}
+                      y={margin.top + chartHeight + 20}
+                      textAnchor="middle"
+                      fontSize="11"
+                      fill="#374151"
+                      fontWeight="500"
+                    >
+                      {d.year}
+                    </text>
+                  );
+                })}
+
+                {/* Y-axis label */}
+                <text
+                  x={-svgHeight / 2}
+                  y={20}
+                  transform="rotate(-90)"
+                  textAnchor="middle"
+                  fontSize="14"
+                  fill="#6B7280"
+                  fontWeight="500"
+                >
+                  Rating
+                </text>
+
+                {/* X-axis label */}
+                <text
+                  x={svgWidth / 2}
+                  y={svgHeight - 10}
+                  textAnchor="middle"
+                  fontSize="14"
+                  fill="#6B7280"
+                  fontWeight="500"
+                >
+                  Year
+                </text>
+              </svg>
+            </div>
+
+            {/* Tooltip */}
+            {cursor && cursor.data && (
+              <div
+                className="absolute bg-gray-900 text-white px-3 py-2 rounded-lg shadow-lg text-sm z-50 pointer-events-none"
+                style={{
+                  left: `${cursor.x}px`,
+                  top: `${cursor.y - 60}px`,
+                  transform: 'translateX(-50%)'
+                }}
+              >
+                <div className="font-semibold">Year: {cursor.data.year}</div>
+                <div className="text-gray-300">Rating: {cursor.data.rating}</div>
+                <div className="text-gray-300">{ratingLabels[cursor.data.rating] || 'Unknown'}</div>
+              </div>
+            )}
+          </div>
+        </div>
+      );
+    }
+
+    // All schools view (multiple lines)
+    if (ratingViewMode === 'all') {
+      // Check if we have schools data
+      if (!schools || schools.length === 0) {
+        return (
+          <div>
+            {viewModeSelector}
+            <div className="flex items-center justify-center h-96 bg-gray-50 rounded-xl border-2 border-dashed border-gray-300">
+              <div className="text-center">
+                <div className="text-gray-400 text-4xl mb-2">📊</div>
+                <p className="text-gray-500 text-sm">No schools available in this area</p>
+              </div>
+            </div>
+          </div>
+        );
+      }
+
+      if (!allSchoolsRatingData || allSchoolsRatingData.size === 0) {
+        return (
+          <div>
+            {viewModeSelector}
+            <div className="flex items-center justify-center h-96 bg-gray-50 rounded-xl border-2 border-dashed border-gray-300">
+              <div className="text-center">
+                <div className="text-gray-400 text-4xl mb-2">📊</div>
+                <p className="text-gray-500 text-sm">No rating data over years available for schools in this area</p>
+                <p className="text-gray-400 text-xs mt-2">Schools may not have historical rating data</p>
+              </div>
+            </div>
+          </div>
+        );
+      }
+
+      const chartWidth = svgWidth - margin.left - margin.right;
+      const chartHeight = svgHeight - margin.top - margin.bottom;
+
+      // Get all years from all schools
+      const allYears = new Set();
+      allSchoolsRatingData.forEach(ratings => {
+        ratings.forEach(d => allYears.add(d.year));
+      });
+      const sortedYears = Array.from(allYears).sort((a, b) => a - b);
+
+      const maxRating = 5;
+      const minRating = 0;
+      const range = maxRating - minRating || 5;
+
+      const xScale = (index) => margin.left + (index / (sortedYears.length - 1 || 1)) * chartWidth;
+      const yScale = (value) => margin.top + chartHeight - ((value - minRating) / range) * chartHeight;
+
+      // Generate colors for each school
+      const schoolColors = Array.from(allSchoolsRatingData.keys()).map((_, i) => {
+        const hue = (i * 137.508) % 360; // Golden angle for color distribution
+        return `hsl(${hue}, 70%, 50%)`;
+      });
+
+      return (
+        <div className="relative w-full">
+          {viewModeSelector}
+          <div className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-200">
+            <div className="mb-4">
+              <h3 className="text-lg font-semibold text-gray-800 mb-1">All Schools Rating Trends</h3>
+              <p className="text-sm text-gray-600">Rating over years for all schools in {areaName}</p>
+              <p className="text-xs text-gray-500 mt-1">Showing {allSchoolsRatingData.size} school{allSchoolsRatingData.size !== 1 ? 's' : ''} with rating data</p>
+            </div>
+            <div className="relative h-0 w-full pt-[52.6%]">
+              <svg 
+                ref={svgRef}
+                viewBox={`0 0 ${svgWidth} ${svgHeight}`}
+                className="absolute top-0 left-0 w-full h-full"
+                onMouseMove={(e) => {
+                  const svgRect = svgRef.current.getBoundingClientRect();
+                  const mouseX = e.clientX - svgRect.left;
+                  const ratio = (mouseX - margin.left) / chartWidth;
+                  const yearIndex = Math.round(ratio * (sortedYears.length - 1));
+                  if (yearIndex >= 0 && yearIndex < sortedYears.length) {
+                    const year = sortedYears[yearIndex];
+                    const nearestData = Array.from(allSchoolsRatingData.entries()).map(([schoolName, ratings]) => {
+                      const yearData = ratings.find(r => r.year === year);
+                      return yearData ? { schoolName, ...yearData } : null;
+                    }).filter(Boolean);
+                    if (nearestData.length > 0) {
+                      setCursor({
+                        x: e.clientX - svgRect.left,
+                        y: e.clientY - svgRect.top,
+                        data: { year, schools: nearestData }
+                      });
+                    }
+                  }
+                }}
+                onMouseLeave={() => setCursor(null)}
+              >
+                <defs>
+                  {Array.from(allSchoolsRatingData.keys()).map((schoolName, i) => (
+                    <linearGradient key={schoolName} id={`schoolGradient-${i}`} x1="0" x2="0" y1="0" y2="1">
+                      <stop offset="0%" stopColor={schoolColors[i]} stopOpacity="0.3" />
+                      <stop offset="100%" stopColor={schoolColors[i]} stopOpacity="0.05" />
+                    </linearGradient>
+                  ))}
+                </defs>
+
+                {/* Grid lines */}
+                {[0, 1, 2, 3, 4, 5].map(rating => {
+                  const y = margin.top + chartHeight - ((rating - minRating) / range) * chartHeight;
+                  return (
+                    <g key={rating}>
+                      <line
+                        x1={margin.left}
+                        y1={y}
+                        x2={svgWidth - margin.right}
+                        y2={y}
+                        stroke="#E5E7EB"
+                        strokeWidth="1"
+                        strokeDasharray="4,4"
+                      />
+                      <text
+                        x={margin.left - 10}
+                        y={y + 4}
+                        textAnchor="end"
+                        fontSize="12"
+                        fill="#6B7280"
+                      >
+                        {rating}
+                      </text>
+                    </g>
+                  );
+                })}
+
+                {/* Draw lines for each school */}
+                {Array.from(allSchoolsRatingData.entries()).map(([schoolName, ratings], schoolIndex) => {
+                  const schoolRatings = sortedYears.map(year => {
+                    const yearData = ratings.find(r => r.year === year);
+                    return yearData ? yearData.rating : null;
+                  });
+
+                  const linePath = schoolRatings.reduce((path, rating, index) => {
+                    if (rating !== null) {
+                      const x = xScale(index);
+                      const y = yScale(rating);
+                      return path + (path === '' ? `M ${x} ${y}` : ` L ${x} ${y}`);
+                    }
+                    return path;
+                  }, '');
+
+                  return (
+                    <g key={schoolName}>
+                      <path
+                        d={linePath}
+                        fill="none"
+                        stroke={schoolColors[schoolIndex]}
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        opacity="0.7"
+                        className="hover:opacity-100 hover:stroke-width-3 transition-all cursor-pointer"
+                      />
+                      {schoolRatings.map((rating, index) => {
+                        if (rating !== null) {
+                          const x = xScale(index);
+                          const y = yScale(rating);
+                          return (
+                            <circle
+                              key={`${schoolName}-${sortedYears[index]}`}
+                              cx={x}
+                              cy={y}
+                              r="3"
+                              fill={schoolColors[schoolIndex]}
+                              stroke="#fff"
+                              strokeWidth="1"
+                              className="hover:r-5 transition-all cursor-pointer"
+                            />
+                          );
+                        }
+                        return null;
+                      })}
+                    </g>
+                  );
+                })}
+
+                {/* X-axis labels */}
+                {sortedYears.map((year, index) => {
+                  const x = xScale(index);
+                  return (
+                    <text
+                      key={year}
+                      x={x}
+                      y={margin.top + chartHeight + 20}
+                      textAnchor="middle"
+                      fontSize="11"
+                      fill="#374151"
+                      fontWeight="500"
+                    >
+                      {year}
+                    </text>
+                  );
+                })}
+
+                {/* Y-axis label */}
+                <text
+                  x={-svgHeight / 2}
+                  y={20}
+                  transform="rotate(-90)"
+                  textAnchor="middle"
+                  fontSize="14"
+                  fill="#6B7280"
+                  fontWeight="500"
+                >
+                  Rating
+                </text>
+
+                {/* X-axis label */}
+                <text
+                  x={svgWidth / 2}
+                  y={svgHeight - 10}
+                  textAnchor="middle"
+                  fontSize="14"
+                  fill="#6B7280"
+                  fontWeight="500"
+                >
+                  Year
+                </text>
+              </svg>
+            </div>
+
+            {/* Tooltip */}
+            {cursor && cursor.data && cursor.data.schools && (
+              <div
+                className="absolute bg-gray-900 text-white px-3 py-2 rounded-lg shadow-lg text-sm z-50 pointer-events-none max-w-xs"
+                style={{
+                  left: `${cursor.x}px`,
+                  top: `${cursor.y - 60}px`,
+                  transform: 'translateX(-50%)'
+                }}
+              >
+                <div className="font-semibold mb-1">Year: {cursor.data.year}</div>
+                <div className="max-h-40 overflow-y-auto">
+                  {cursor.data.schools.map((school, i) => (
+                    <div key={i} className="text-gray-300 text-xs">
+                      {school.schoolName}: {school.rating}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Legend */}
+            <div className="mt-4 flex flex-wrap gap-3 justify-center max-h-32 overflow-y-auto">
+              {Array.from(allSchoolsRatingData.keys()).map((schoolName, i) => (
+                <div key={schoolName} className="flex items-center gap-2">
+                  <div
+                    className="w-3 h-3 rounded-full"
+                    style={{ backgroundColor: schoolColors[i] }}
+                  />
+                  <span className="text-xs text-gray-700 truncate max-w-[150px]">{schoolName}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    // Default: return count view
+    return (
+      <div>
+        {viewModeSelector}
+        <div className="flex items-center justify-center h-96 bg-gray-50 rounded-xl border-2 border-dashed border-gray-300">
+          <div className="text-center">
+            <div className="text-gray-400 text-4xl mb-2">📊</div>
+            <p className="text-gray-500 text-sm">No rating data available</p>
+          </div>
         </div>
       </div>
     );
