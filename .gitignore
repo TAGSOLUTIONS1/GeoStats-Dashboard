@@ -20,6 +20,8 @@
 
 # environment variables
 .env
+/venv/
+/.venv/
 
 # test files
 test-mapbox.html
