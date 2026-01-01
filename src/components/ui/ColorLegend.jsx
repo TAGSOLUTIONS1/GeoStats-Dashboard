@@ -96,6 +96,55 @@ const ColorLegend = ({ mode }) => {
     );
   }
 
+  if (mode === 'fee') {
+    return (
+      <div className="flex items-center space-x-2 bg-white px-3 py-1.5 rounded-lg shadow-sm border border-gray-200">
+        <div className="flex items-center space-x-0.5">
+          <div className="flex flex-col items-center">
+            <div className="w-3 h-2.5 rounded" style={{ backgroundColor: '#e8f5e9' }}></div>
+            <span className="text-[9px] text-gray-600 mt-0.5 leading-none">0</span>
+          </div>
+          <div className="w-8 h-2.5 rounded" style={{ background: 'linear-gradient(to right, #e8f5e9, #c8e6c9)' }}></div>
+          <div className="flex flex-col items-center">
+            <div className="w-3 h-2.5 rounded" style={{ backgroundColor: '#c8e6c9' }}></div>
+            <span className="text-[9px] text-gray-600 mt-0.5 leading-none">10K</span>
+          </div>
+          <div className="w-8 h-2.5 rounded" style={{ background: 'linear-gradient(to right, #c8e6c9, #a5d6a7)' }}></div>
+          <div className="flex flex-col items-center">
+            <div className="w-3 h-2.5 rounded" style={{ backgroundColor: '#a5d6a7' }}></div>
+            <span className="text-[9px] text-gray-600 mt-0.5 leading-none">25K</span>
+          </div>
+          <div className="w-8 h-2.5 rounded" style={{ background: 'linear-gradient(to right, #a5d6a7, #81c784)' }}></div>
+          <div className="flex flex-col items-center">
+            <div className="w-3 h-2.5 rounded" style={{ backgroundColor: '#81c784' }}></div>
+            <span className="text-[9px] text-gray-600 mt-0.5 leading-none">50K</span>
+          </div>
+          <div className="w-8 h-2.5 rounded" style={{ background: 'linear-gradient(to right, #81c784, #66bb6a)' }}></div>
+          <div className="flex flex-col items-center">
+            <div className="w-3 h-2.5 rounded" style={{ backgroundColor: '#66bb6a' }}></div>
+            <span className="text-[9px] text-gray-600 mt-0.5 leading-none">75K</span>
+          </div>
+          <div className="w-8 h-2.5 rounded" style={{ background: 'linear-gradient(to right, #66bb6a, #4caf50)' }}></div>
+          <div className="flex flex-col items-center">
+            <div className="w-3 h-2.5 rounded" style={{ backgroundColor: '#4caf50' }}></div>
+            <span className="text-[9px] text-gray-600 mt-0.5 leading-none">100K</span>
+          </div>
+          <div className="w-8 h-2.5 rounded" style={{ background: 'linear-gradient(to right, #4caf50, #388e3c)' }}></div>
+          <div className="flex flex-col items-center">
+            <div className="w-3 h-2.5 rounded" style={{ backgroundColor: '#388e3c' }}></div>
+            <span className="text-[9px] text-gray-600 mt-0.5 leading-none">150K+</span>
+          </div>
+        </div>
+        <div className="flex items-center space-x-1.5 text-[9px] text-gray-600 ml-1">
+          <div className="flex items-center space-x-1">
+            <div className="w-2.5 h-2.5 rounded" style={{ backgroundColor: '#e0e0e0' }}></div>
+            <span>No Data</span>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (mode === 'count') {
     return (
       <div className="flex items-center space-x-2 bg-white px-3 py-1.5 rounded-lg shadow-sm border border-gray-200">

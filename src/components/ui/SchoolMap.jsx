@@ -42,14 +42,18 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
     const ratingDataPoints = ['rating-distribution'];
     // Enrollment-related data points show total enrollment
     const enrollmentDataPoints = ['enrollment-growth'];
+    // Fee-related data points show average fee
+    const feeDataPoints = ['fee-distribution'];
     // Count-related data points show school count
-    const countDataPoints = ['distribution-and-quality-analysis', 'fee-distribution'];
+    const countDataPoints = ['distribution-and-quality-analysis'];
     
     if (selectedDataPoint) {
       if (ratingDataPoints.includes(selectedDataPoint)) {
         return 'rating';
       } else if (enrollmentDataPoints.includes(selectedDataPoint)) {
         return 'enrollment';
+      } else if (feeDataPoints.includes(selectedDataPoint)) {
+        return 'fee';
       } else if (countDataPoints.includes(selectedDataPoint)) {
         return 'count';
       }
@@ -132,16 +136,40 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
     ];
   }, []);
 
+  // Color scheme for average fees
+  const getFeeColorScheme = useCallback(() => {
+    return [
+      'case',
+      // If no fee or null, use light gray
+      ['==', ['get', 'AverageFee'], null],
+      '#e0e0e0',  // Light gray for no fee data
+      [
+        'interpolate',
+        ['linear'],
+        ['get', 'AverageFee'],
+        0, '#e8f5e9',      // Light green for 0
+        10000, '#c8e6c9',  // Light green for 10K
+        25000, '#a5d6a7',  // Green for 25K
+        50000, '#81c784',  // Medium green for 50K
+        75000, '#66bb6a',  // Green for 75K
+        100000, '#4caf50', // Dark green for 100K
+        150000, '#388e3c'  // Very dark green for 150K+
+      ]
+    ];
+  }, []);
+
   // Get current color scheme based on visualization mode
   const getColorScheme = useCallback(() => {
     if (visualizationMode === 'rating') {
       return getRatingColorScheme();
     } else if (visualizationMode === 'enrollment') {
       return getEnrollmentColorScheme();
+    } else if (visualizationMode === 'fee') {
+      return getFeeColorScheme();
     } else {
       return getCountColorScheme();
     }
-  }, [visualizationMode, getRatingColorScheme, getEnrollmentColorScheme, getCountColorScheme]);
+  }, [visualizationMode, getRatingColorScheme, getEnrollmentColorScheme, getFeeColorScheme, getCountColorScheme]);
 
   useEffect(() => {
     const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
@@ -238,6 +266,23 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
                   ],
                   'No Data'
                 ]
+              : visualizationMode === 'fee'
+              ? [
+                  'case',
+                  ['has', 'AverageFee'],
+                  [
+                    'case',
+                    ['!=', ['get', 'AverageFee'], null],
+                    [
+                      'concat',
+                      'Avg Fee: ',
+                      ['number-format', ['get', 'AverageFee'], { 'locale': 'en-US' }],
+                      ' AED'
+                    ],
+                    ''
+                  ],
+                  'No Data'
+                ]
               : [
                   'case',
                   ['has', 'SchoolCount'],
@@ -278,10 +323,20 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
       if (!map.current) return;
 
       const getSchoolLabels = (props) => {
+        const schoolCount = props['SchoolCount'] || 0;
+        const avgFee = props['AverageFee'];
+        
+        // Format fee display
+        const feeDisplay = avgFee !== null && avgFee !== undefined
+          ? new Intl.NumberFormat('en-US', { style: 'currency', currency: 'AED', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(avgFee)
+          : null;
+        
+        // Build fee info string
+        const feeInfo = feeDisplay ? `<br/>Avg Fee: ${feeDisplay}` : '';
+        
         if (visualizationMode === 'rating') {
           // Show average rating
           const avgRating = props['AverageRating'];
-          const schoolCount = props['SchoolCount'] || 0;
           const ratingText = avgRating !== null && avgRating !== undefined 
             ? getRatingText(Math.round(avgRating))
             : 'No rating data';
@@ -289,28 +344,33 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
             ? `${ratingText} (${avgRating.toFixed(2)})`
             : ratingText;
           return {
-            valueLabel: `<br/>Avg Rating: ${ratingDisplay}${schoolCount > 0 ? `<br/>Schools: ${schoolCount}` : ''}`,
+            valueLabel: `<br/>Avg Rating: ${ratingDisplay}${schoolCount > 0 ? `<br/>Schools: ${schoolCount}` : ''}${feeInfo}`,
             valueLabel2: '',
             valueLabel3: ''
           };
         } else if (visualizationMode === 'enrollment') {
           // Show total enrollment
           const totalEnrollment = props['TotalEnrollment'];
-          const schoolCount = props['SchoolCount'] || 0;
           const enrollmentDisplay = totalEnrollment !== null && totalEnrollment !== undefined
             ? new Intl.NumberFormat('en-US').format(totalEnrollment)
             : 'No enrollment data';
           return {
-            valueLabel: `<br/>Total Enrollment: ${enrollmentDisplay}${schoolCount > 0 ? `<br/>Schools: ${schoolCount}` : ''}`,
+            valueLabel: `<br/>Total Enrollment: ${enrollmentDisplay}${schoolCount > 0 ? `<br/>Schools: ${schoolCount}` : ''}${feeInfo}`,
+            valueLabel2: '',
+            valueLabel3: ''
+          };
+        } else if (visualizationMode === 'fee') {
+          // Show average fee
+          return {
+            valueLabel: `<br/>Avg Fee: ${feeDisplay || 'No fee data'}${schoolCount > 0 ? `<br/>Schools: ${schoolCount}` : ''}`,
             valueLabel2: '',
             valueLabel3: ''
           };
         } else {
           // Show school count
-          const schoolCount = props['SchoolCount'] || 0;
           const formatted = new Intl.NumberFormat('en-US').format(schoolCount);
           return {
-            valueLabel: `<br/>Schools: ${formatted}`,
+            valueLabel: `<br/>Schools: ${formatted}${feeInfo}`,
             valueLabel2: '',
             valueLabel3: ''
           };
@@ -769,6 +829,23 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
                   'concat',
                   'Enrollment: ',
                   ['number-format', ['get', 'TotalEnrollment'], { 'locale': 'en-US' }]
+                ],
+                ''
+              ],
+              'No Data'
+            ]
+          : visualizationMode === 'fee'
+          ? [
+              'case',
+              ['has', 'AverageFee'],
+              [
+                'case',
+                ['!=', ['get', 'AverageFee'], null],
+                [
+                  'concat',
+                  'Avg Fee: ',
+                  ['number-format', ['get', 'AverageFee'], { 'locale': 'en-US' }],
+                  ' AED'
                 ],
                 ''
               ],

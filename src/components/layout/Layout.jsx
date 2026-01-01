@@ -151,12 +151,15 @@ const Layout = ({ children }) => {
     if (!currentDataPoint) return null;
     const ratingDataPoints = ['rating-distribution'];
     const enrollmentDataPoints = ['enrollment-growth'];
-    const countDataPoints = ['distribution-and-quality-analysis', 'fee-distribution'];
+    const feeDataPoints = ['fee-distribution'];
+    const countDataPoints = ['distribution-and-quality-analysis'];
     
     if (ratingDataPoints.includes(currentDataPoint)) {
       return 'rating';
     } else if (enrollmentDataPoints.includes(currentDataPoint)) {
       return 'enrollment';
+    } else if (feeDataPoints.includes(currentDataPoint)) {
+      return 'fee';
     } else if (countDataPoints.includes(currentDataPoint)) {
       return 'count';
     }

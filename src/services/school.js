@@ -1,4 +1,25 @@
 import schoolsData from '../data/schools/schools.json';
+import schoolsWithFeesData from '../data/schools/schools_with_fees.json';
+
+// Merge schools data with fees data
+const mergeSchoolsWithFees = () => {
+  const feesMap = new Map();
+  schoolsWithFeesData.forEach(school => {
+    if (school['School Name']) {
+      feesMap.set(school['School Name'], school.fees || null);
+    }
+  });
+  
+  return schoolsData.map(school => {
+    const fees = feesMap.get(school['School Name']);
+    return {
+      ...school,
+      fees: fees || null
+    };
+  });
+};
+
+const mergedSchoolsData = mergeSchoolsWithFees();
 
 // Cache for reverse geocoding results
 const locationCache = new Map();
@@ -17,7 +38,7 @@ export const getLocationFromCoordinates = async (lat, lon) => {
   
   // Check cache first
   if (locationCache.has(cacheKey)) {
-    return locationCache.get(cacheKey);
+    return locationCache.get(cacheKey); 
   }
   
   // Find school by matching coordinates (with small tolerance for floating point differences)
@@ -100,19 +121,32 @@ export const calculateAreaSchoolStats = (geojsonFeatures) => {
       areaStats.set(areaName, {
         count: 0,
         ratings: [],
-        enrollments: []
+        enrollments: [],
+        fees: []
       });
     }
   });
   
   // Process schools for each area using point-in-polygon
-  schoolsData.forEach(school => {
+  mergedSchoolsData.forEach(school => {
     // Skip schools without coordinates
     if (!school.Latitude || !school.Longitude) return;
     
     const schoolPoint = [school.Longitude, school.Latitude];
     const rating = school['Latest DSIB Rating'];
     const enrollment = school['2024/25 Enrollments'];
+    const fees = school.fees;
+    
+    // Calculate average fee for this school (average of all grade fees, excluding 0)
+    let schoolAverageFee = null;
+    if (fees && typeof fees === 'object') {
+      const feeValues = Object.values(fees).filter(fee => 
+        typeof fee === 'number' && fee > 0
+      );
+      if (feeValues.length > 0) {
+        schoolAverageFee = feeValues.reduce((sum, fee) => sum + fee, 0) / feeValues.length;
+      }
+    }
     
     // Check which area polygon contains this school point
     for (const feature of geojsonFeatures) {
@@ -140,12 +174,17 @@ export const calculateAreaSchoolStats = (geojsonFeatures) => {
             stats.enrollments.push(enrollmentNum);
           }
         }
+        
+        // Add average fee if available
+        if (schoolAverageFee !== null && !isNaN(schoolAverageFee) && schoolAverageFee > 0) {
+          stats.fees.push(schoolAverageFee);
+        }
         break; // School can only be in one area
       }
     }
   });
   
-  // Calculate average ratings and total enrollments
+  // Calculate average ratings, total enrollments, and average fees
   const result = new Map();
   areaStats.forEach((stats, areaName) => {
     const avgRating = stats.ratings.length > 0
@@ -156,10 +195,15 @@ export const calculateAreaSchoolStats = (geojsonFeatures) => {
       ? stats.enrollments.reduce((sum, e) => sum + e, 0)
       : null;
     
+    const avgFee = stats.fees.length > 0
+      ? stats.fees.reduce((sum, f) => sum + f, 0) / stats.fees.length
+      : null;
+    
     result.set(areaName, {
       count: stats.count,
       averageRating: avgRating !== null ? Math.round(avgRating * 100) / 100 : null, // Round to 2 decimal places
-      totalEnrollment: totalEnrollment !== null ? Math.round(totalEnrollment) : null
+      totalEnrollment: totalEnrollment !== null ? Math.round(totalEnrollment) : null,
+      averageFee: avgFee !== null ? Math.round(avgFee) : null // Round to nearest integer
     });
   });
   
@@ -192,7 +236,7 @@ export const addSchoolCountsToGeoJSON = (geojson) => {
   
   const processedFeatures = geojson.features.map(feature => {
     const areaName = feature.properties?.CNAME_E || feature.properties?.COMMUNITY_E || '';
-    const stats = areaStats.get(areaName) || { count: 0, averageRating: null, totalEnrollment: null };
+    const stats = areaStats.get(areaName) || { count: 0, averageRating: null, totalEnrollment: null, averageFee: null };
     
     return {
       ...feature,
@@ -200,7 +244,8 @@ export const addSchoolCountsToGeoJSON = (geojson) => {
         ...feature.properties,
         SchoolCount: stats.count,
         AverageRating: stats.averageRating,
-        TotalEnrollment: stats.totalEnrollment
+        TotalEnrollment: stats.totalEnrollment,
+        AverageFee: stats.averageFee
       }
     };
   });
