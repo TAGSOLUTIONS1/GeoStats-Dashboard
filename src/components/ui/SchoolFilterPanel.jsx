@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { X, GraduationCap, Star, Filter, ChevronDown, ChevronUp, RotateCcw } from 'lucide-react';
 import { motion } from 'framer-motion';
-import schoolsData from '../../data/schools.json';
+import schoolsData from '../../data/schools/schools.json';
 import { getLocationFromCoordinates } from '../../services/school';
 import { GRADE_CATEGORIES, matchesGradeCategory } from '../../utils/gradeMatching';
 

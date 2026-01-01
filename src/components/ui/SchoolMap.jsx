@@ -3,7 +3,7 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { dubaiGeoData, geojsonData } from '../../data/geoData';
 import { dubaiWEBDATA } from '../../data/DubaiData';
-import schoolsData from '../../data/schools.json';
+import schoolsData from '../../data/schools/schools.json';
 import { addSchoolCountsToGeoJSON } from '../../services/school';
 
 const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoint = null, filteredSchools = null }) => {

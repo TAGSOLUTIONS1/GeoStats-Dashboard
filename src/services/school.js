@@ -1,4 +1,4 @@
-import schoolsData from '../data/schools.json';
+import schoolsData from '../data/schools/schools.json';
 
 // Cache for reverse geocoding results
 const locationCache = new Map();
