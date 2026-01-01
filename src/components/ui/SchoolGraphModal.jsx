@@ -97,51 +97,50 @@ const SchoolGraphModal = ({
   const renderRatingChart = () => {
     // View mode selector (only for rating mode)
     const viewModeSelector = (
-      <div className="mb-4 p-3 bg-gray-50 rounded-lg border border-gray-200">
-        <div className="text-xs font-semibold text-gray-600 mb-2 uppercase tracking-wide">View Mode</div>
-        <div className="flex flex-wrap gap-2">
+      <div className="mb-3 p-2 bg-gray-50 rounded-lg border border-gray-200">
+        <div className="flex flex-wrap gap-1.5">
           <button
             onClick={() => setRatingViewMode('count')}
-            className={`px-4 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-sm ${
+            className={`px-2.5 py-1.5 rounded-md text-xs font-medium transition-all ${
               ratingViewMode === 'count'
-                ? 'bg-azure text-white shadow-md scale-105'
+                ? 'bg-azure text-white shadow-sm'
                 : 'bg-white text-gray-700 hover:bg-blue-50 hover:text-blue-700 border border-gray-300'
             }`}
           >
-            <BarChart3 className="w-4 h-4 inline mr-2" />
+            <BarChart3 className="w-3 h-3 inline mr-1.5" />
             By Count
           </button>
           <button
             onClick={() => setRatingViewMode('overall')}
-            className={`px-4 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-sm ${
+            className={`px-2.5 py-1.5 rounded-md text-xs font-medium transition-all ${
               ratingViewMode === 'overall'
-                ? 'bg-purple-600 text-white shadow-md scale-105'
+                ? 'bg-purple-600 text-white shadow-sm'
                 : 'bg-white text-gray-700 hover:bg-purple-50 hover:text-purple-700 border border-gray-300'
             }`}
           >
-            <TrendingUp className="w-4 h-4 inline mr-2" />
-            Overall Trend
+            <TrendingUp className="w-3 h-3 inline mr-1.5" />
+            Overall
           </button>
           <button
             onClick={() => setRatingViewMode('individual')}
-            className={`px-4 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-sm ${
+            className={`px-2.5 py-1.5 rounded-md text-xs font-medium transition-all ${
               ratingViewMode === 'individual'
-                ? 'bg-green-600 text-white shadow-md scale-105'
+                ? 'bg-green-600 text-white shadow-sm'
                 : 'bg-white text-gray-700 hover:bg-green-50 hover:text-green-700 border border-gray-300'
             }`}
           >
-            <School className="w-4 h-4 inline mr-2" />
-            Individual School
+            <School className="w-3 h-3 inline mr-1.5" />
+            Individual
           </button>
           <button
             onClick={() => setRatingViewMode('all')}
-            className={`px-4 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-sm ${
+            className={`px-2.5 py-1.5 rounded-md text-xs font-medium transition-all ${
               ratingViewMode === 'all'
-                ? 'bg-orange-light text-white shadow-md scale-105'
+                ? 'bg-orange-light text-white shadow-sm'
                 : 'bg-white text-gray-700 hover:bg-orange-50 hover:text-orange-700 border border-gray-300'
             }`}
           >
-            <Users className="w-4 h-4 inline mr-2" />
+            <Users className="w-3 h-3 inline mr-1.5" />
             All Schools
           </button>
         </div>
@@ -240,11 +239,15 @@ const SchoolGraphModal = ({
                     className="hover:opacity-100 transition-opacity cursor-pointer"
                     onMouseEnter={(e) => {
                       const rect = e.currentTarget.getBoundingClientRect();
-                      setCursor({
-                        x: rect.left + rect.width / 2,
-                        y: rect.top,
-                        data: d
-                      });
+                      const container = e.currentTarget.closest('.relative');
+                      if (container) {
+                        const containerRect = container.getBoundingClientRect();
+                        setCursor({
+                          x: rect.left - containerRect.left + rect.width / 2,
+                          y: rect.top - containerRect.top,
+                          data: d
+                        });
+                      }
                     }}
                     onMouseLeave={() => setCursor(null)}
                   />
@@ -302,20 +305,23 @@ const SchoolGraphModal = ({
         </div>
 
         {/* Tooltip */}
-        {cursor && cursor.data && (
-          <div
-            className="absolute bg-gray-900 text-white px-3 py-2 rounded-lg shadow-lg text-sm z-50 pointer-events-none"
-            style={{
-              left: `${cursor.x}px`,
-              top: `${cursor.y - 60}px`,
-              transform: 'translateX(-50%)'
-            }}
-          >
-            <div className="font-semibold">{cursor.data.label}</div>
-            <div className="text-gray-300">Schools: {cursor.data.count}</div>
-            <div className="text-gray-300">{cursor.data.percentage}% of rated schools</div>
-          </div>
-        )}
+        {cursor && cursor.data && (() => {
+          const tooltipWidth = 140; // Approximate tooltip width
+          const tooltipLeft = Math.max(10, Math.min(cursor.x - tooltipWidth / 2, svgWidth - tooltipWidth - 10));
+          return (
+            <div
+              className="absolute bg-gray-900 text-white px-3 py-2 rounded-lg shadow-lg text-sm z-50 pointer-events-none"
+              style={{
+                left: `${tooltipLeft}px`,
+                top: `${Math.max(10, cursor.y - 70)}px`,
+              }}
+            >
+              <div className="font-semibold">{cursor.data.label}</div>
+              <div className="text-gray-300">Schools: {cursor.data.count}</div>
+              <div className="text-gray-300">{cursor.data.percentage}% of rated schools</div>
+            </div>
+          );
+        })()}
 
             {/* Legend */}
             <div className="mt-4 flex flex-wrap gap-4 justify-center">
@@ -513,20 +519,23 @@ const SchoolGraphModal = ({
             </div>
 
             {/* Tooltip */}
-            {cursor && cursor.data && (
-              <div
-                className="absolute bg-gray-900 text-white px-3 py-2 rounded-lg shadow-lg text-sm z-50 pointer-events-none"
-                style={{
-                  left: `${cursor.x}px`,
-                  top: `${cursor.y - 60}px`,
-                  transform: 'translateX(-50%)'
-                }}
-              >
-                <div className="font-semibold">Year: {cursor.data.year}</div>
-                <div className="text-gray-300">Average Rating: {cursor.data.averageRating.toFixed(2)}</div>
-                <div className="text-gray-300">Schools: {cursor.data.schoolCount}</div>
-              </div>
-            )}
+            {cursor && cursor.data && (() => {
+              const tooltipWidth = 160;
+              const tooltipLeft = Math.max(10, Math.min(cursor.x - tooltipWidth / 2, svgWidth - tooltipWidth - 10));
+              return (
+                <div
+                  className="absolute bg-gray-900 text-white px-3 py-2 rounded-lg shadow-lg text-sm z-50 pointer-events-none"
+                  style={{
+                    left: `${tooltipLeft}px`,
+                    top: `${Math.max(10, cursor.y - 70)}px`,
+                  }}
+                >
+                  <div className="font-semibold">Year: {cursor.data.year}</div>
+                  <div className="text-gray-300">Average Rating: {cursor.data.averageRating.toFixed(2)}</div>
+                  <div className="text-gray-300">Schools: {cursor.data.schoolCount}</div>
+                </div>
+              );
+            })()}
           </div>
         </div>
       );
@@ -758,20 +767,23 @@ const SchoolGraphModal = ({
             </div>
 
             {/* Tooltip */}
-            {cursor && cursor.data && (
-              <div
-                className="absolute bg-gray-900 text-white px-3 py-2 rounded-lg shadow-lg text-sm z-50 pointer-events-none"
-                style={{
-                  left: `${cursor.x}px`,
-                  top: `${cursor.y - 60}px`,
-                  transform: 'translateX(-50%)'
-                }}
-              >
-                <div className="font-semibold">Year: {cursor.data.year}</div>
-                <div className="text-gray-300">Rating: {cursor.data.rating}</div>
-                <div className="text-gray-300">{ratingLabels[cursor.data.rating] || 'Unknown'}</div>
-              </div>
-            )}
+            {cursor && cursor.data && (() => {
+              const tooltipWidth = 150;
+              const tooltipLeft = Math.max(10, Math.min(cursor.x - tooltipWidth / 2, svgWidth - tooltipWidth - 10));
+              return (
+                <div
+                  className="absolute bg-gray-900 text-white px-3 py-2 rounded-lg shadow-lg text-sm z-50 pointer-events-none"
+                  style={{
+                    left: `${tooltipLeft}px`,
+                    top: `${Math.max(10, cursor.y - 70)}px`,
+                  }}
+                >
+                  <div className="font-semibold">Year: {cursor.data.year}</div>
+                  <div className="text-gray-300">Rating: {cursor.data.rating}</div>
+                  <div className="text-gray-300">{ratingLabels[cursor.data.rating] || 'Unknown'}</div>
+                </div>
+              );
+            })()}
           </div>
         </div>
       );
@@ -1001,15 +1013,17 @@ const SchoolGraphModal = ({
             </div>
 
             {/* Tooltip */}
-            {cursor && cursor.data && cursor.data.schools && (
-              <div
-                className="absolute bg-gray-900 text-white px-3 py-2 rounded-lg shadow-lg text-sm z-50 pointer-events-none max-w-xs"
-                style={{
-                  left: `${cursor.x}px`,
-                  top: `${cursor.y - 60}px`,
-                  transform: 'translateX(-50%)'
-                }}
-              >
+            {cursor && cursor.data && cursor.data.schools && (() => {
+              const tooltipWidth = 200;
+              const tooltipLeft = Math.max(10, Math.min(cursor.x - tooltipWidth / 2, svgWidth - tooltipWidth - 10));
+              return (
+                <div
+                  className="absolute bg-gray-900 text-white px-3 py-2 rounded-lg shadow-lg text-sm z-50 pointer-events-none max-w-xs"
+                  style={{
+                    left: `${tooltipLeft}px`,
+                    top: `${Math.max(10, cursor.y - 70)}px`,
+                  }}
+                >
                 <div className="font-semibold mb-1">Year: {cursor.data.year}</div>
                 <div className="max-h-40 overflow-y-auto">
                   {cursor.data.schools.map((school, i) => (
@@ -1019,7 +1033,8 @@ const SchoolGraphModal = ({
                   ))}
                 </div>
               </div>
-            )}
+              );
+            })()}
 
             {/* Legend */}
             <div className="mt-4 flex flex-wrap gap-3 justify-center max-h-32 overflow-y-auto">
@@ -1229,21 +1244,24 @@ const SchoolGraphModal = ({
         </div>
 
         {/* Tooltip */}
-        {cursor && cursor.data && (
-          <div
-            className="absolute bg-gray-900 text-white px-3 py-2 rounded-lg shadow-lg text-sm z-50 pointer-events-none"
-            style={{
-              left: `${cursor.x}px`,
-              top: `${cursor.y - 60}px`,
-              transform: 'translateX(-50%)'
-            }}
-          >
-            <div className="font-semibold">Year: {cursor.data.year}</div>
-            <div className="text-gray-300">Total Enrollment: {cursor.data.totalEnrollment.toLocaleString()}</div>
-            <div className="text-gray-300">Average: {cursor.data.enrollment.toLocaleString()}</div>
-            <div className="text-gray-300">Schools: {cursor.data.schoolCount}</div>
-          </div>
-        )}
+        {cursor && cursor.data && (() => {
+          const tooltipWidth = 180;
+          const tooltipLeft = Math.max(10, Math.min(cursor.x - tooltipWidth / 2, svgWidth - tooltipWidth - 10));
+          return (
+            <div
+              className="absolute bg-gray-900 text-white px-3 py-2 rounded-lg shadow-lg text-sm z-50 pointer-events-none"
+              style={{
+                left: `${tooltipLeft}px`,
+                top: `${Math.max(10, cursor.y - 70)}px`,
+              }}
+            >
+              <div className="font-semibold">Year: {cursor.data.year}</div>
+              <div className="text-gray-300">Total Enrollment: {cursor.data.totalEnrollment.toLocaleString()}</div>
+              <div className="text-gray-300">Average: {cursor.data.enrollment.toLocaleString()}</div>
+              <div className="text-gray-300">Schools: {cursor.data.schoolCount}</div>
+            </div>
+          );
+        })()}
       </div>
     );
   };
