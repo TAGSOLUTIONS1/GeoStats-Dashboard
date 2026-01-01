@@ -11,6 +11,7 @@ import ShareModal from '../ui/ShareModal';
 import Map from '../ui/Map';
 import SchoolMap from '../ui/SchoolMap';
 import GraphModal from '../ui/GraphModal';
+import SchoolGraphModal from '../ui/SchoolGraphModal';
 import AreasMap from "../../data/average_meter_price/forecasts/Areas_id.json";
 import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
 import SchoolFilterPanel from '../ui/SchoolFilterPanel';
@@ -29,6 +30,14 @@ const Layout = ({ children }) => {
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
   const [isGraphOpen, setIsGraphOpen] = useState(false);
   const [graphPlace, setGraphPlace] = useState('');
+  const [isSchoolGraphOpen, setIsSchoolGraphOpen] = useState(false);
+  const [schoolGraphData, setSchoolGraphData] = useState({
+    areaName: '',
+    visualizationMode: 'rating',
+    ratingData: [],
+    enrollmentData: []
+  });
+
   const [searchSuggestions, setSearchSuggestions] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true); // Default to open on desktop
@@ -181,7 +190,28 @@ const Layout = ({ children }) => {
       }
     };
     window.addEventListener('map:placeSelected', onPlaceSelected);
-    return () => window.removeEventListener('map:placeSelected', onPlaceSelected);
+    
+    // Listen for school area clicks
+    const onSchoolAreaClicked = (e) => {
+      const { areaName, visualizationMode, ratingData, enrollmentData } = e.detail;
+      
+      // Close regular graph modal if open
+      setIsGraphOpen(false);
+      
+      setSchoolGraphData({
+        areaName,
+        visualizationMode,
+        ratingData,
+        enrollmentData
+      });
+      setIsSchoolGraphOpen(true);
+    };
+    
+    window.addEventListener('school:areaClicked', onSchoolAreaClicked);
+    return () => {
+      window.removeEventListener('map:placeSelected', onPlaceSelected);
+      window.removeEventListener('school:areaClicked', onSchoolAreaClicked);
+    };
   }, [isSchoolPanelOpen]);
 
   // Close sidebar when clicking outside on mobile only
@@ -1140,6 +1170,16 @@ const Layout = ({ children }) => {
        <ExploreDataPointsModal
           isOpen={isExploreModalOpen}
           onClose={() => setIsExploreModalOpen(false)}
+      />
+      
+      {/* School Graph Modal (opens on area click in school visualizations) */}
+      <SchoolGraphModal
+        isOpen={isSchoolGraphOpen}
+        onClose={() => setIsSchoolGraphOpen(false)}
+        areaName={schoolGraphData.areaName}
+        visualizationMode={schoolGraphData.visualizationMode}
+        ratingData={schoolGraphData.ratingData}
+        enrollmentData={schoolGraphData.enrollmentData}
       />
     </div>
   );

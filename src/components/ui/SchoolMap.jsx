@@ -4,7 +4,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import { dubaiGeoData, geojsonData } from '../../data/geoData';
 import { dubaiWEBDATA } from '../../data/DubaiData';
 import schoolsData from '../../data/schools/schools.json';
-import { addSchoolCountsToGeoJSON } from '../../services/school';
+import { addSchoolCountsToGeoJSON, getSchoolsInArea, processEnrollmentData, processRatingDistribution } from '../../services/school';
 
 const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoint = null, filteredSchools = null }) => {
   const mapContainer = useRef(null);
@@ -322,6 +322,43 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
     function setupInteractions() {
       if (!map.current) return;
 
+      // Helper function to dispatch school graph event
+      // Access visualizationMode from the component scope (closure)
+      const dispatchSchoolGraphEvent = (areaName, feature) => {
+        // Clean area name - remove municipality number if present (format: "AREA NAME - NUMBER")
+        const cleanAreaName = areaName.split(' - ')[0].trim();
+        
+        if (visualizationMode && (visualizationMode === 'rating' || visualizationMode === 'enrollment')) {
+          const baseGeoJSON = selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA;
+          const processedGeoJSON = addSchoolCountsToGeoJSON(baseGeoJSON);
+          const schoolsInArea = getSchoolsInArea(cleanAreaName, processedGeoJSON.features);
+          
+          if (schoolsInArea.length > 0) {
+            const ratingData = processRatingDistribution(schoolsInArea);
+            const enrollmentData = processEnrollmentData(schoolsInArea);
+            
+            window.dispatchEvent(new CustomEvent('school:areaClicked', {
+              detail: {
+                areaName: cleanAreaName,
+                visualizationMode: visualizationMode,
+                ratingData: ratingData,
+                enrollmentData: enrollmentData
+              }
+            }));
+          } else {
+            // Still dispatch event even if no schools, so user can see the empty state
+            window.dispatchEvent(new CustomEvent('school:areaClicked', {
+              detail: {
+                areaName: cleanAreaName,
+                visualizationMode: visualizationMode,
+                ratingData: [],
+                enrollmentData: []
+              }
+            }));
+          }
+        }
+      };
+
       const getSchoolLabels = (props) => {
         const schoolCount = props['SchoolCount'] || 0;
         const avgFee = props['AverageFee'];
@@ -424,14 +461,21 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
             const btn = document.getElementById('show-schools-btn');
             if (btn) {
               btn.onclick = () => {
+                // Clean area name - remove municipality number
+                const cleanPlaceName = placeName.split(' - ')[0].trim();
                 window.dispatchEvent(new CustomEvent('map:placeSelected', {
-                  detail: { placeName, lngLat: e.lngLat }
+                  detail: { placeName: cleanPlaceName, lngLat: e.lngLat }
                 }));
+                // Dispatch school graph event
+                dispatchSchoolGraphEvent(cleanPlaceName, e.features[0]);
                 popup.remove();
                 clickPopupRef.current = null;
               };
             }
           }, 50);
+          
+          // Also dispatch on direct click (not just button)
+          dispatchSchoolGraphEvent(placeName, e.features[0]);
         });
       } else {
         const hoverTooltip = new mapboxgl.Popup({
@@ -461,12 +505,20 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
 
         map.current.on('click', 'dubai-communities-fill', (e) => {
           const props = e.features[0].properties;
+          // Extract area name without municipality number
+          let areaName = props.COMMUNITY_E || props.CNAME_E || 'Selected Area';
+          // Remove municipality number if present (format: "AREA NAME - NUMBER")
+          areaName = areaName.split(' - ')[0].trim();
+          
           window.dispatchEvent(new CustomEvent('map:placeSelected', {
             detail: { 
-              placeName: props.COMMUNITY_E || props.CNAME_E || 'Selected Area',
+              placeName: areaName,
               lngLat: e.lngLat
             }
           }));
+          
+          // Dispatch school graph event
+          dispatchSchoolGraphEvent(areaName, e.features[0]);
         });
       }
     }
@@ -870,6 +922,69 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
       ]);
     }
   }, [selectedFilter, isMapLoaded, processGeoJSONWithSchools, getColorScheme, visualizationMode]);
+
+  // Re-setup click handlers when visualizationMode changes to ensure they have the latest value
+  useEffect(() => {
+    if (!map.current || !isMapLoaded) return;
+
+    // Remove old click handlers
+    map.current.off('click', 'dubai-communities-fill');
+    
+    // Helper function to dispatch school graph event with current visualizationMode
+    const dispatchSchoolGraphEvent = (areaName, feature) => {
+      // Clean area name - remove municipality number if present (format: "AREA NAME - NUMBER")
+      const cleanAreaName = areaName.split(' - ')[0].trim();
+      
+      if (visualizationMode && (visualizationMode === 'rating' || visualizationMode === 'enrollment')) {
+        const baseGeoJSON = selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA;
+        const processedGeoJSON = addSchoolCountsToGeoJSON(baseGeoJSON);
+        const schoolsInArea = getSchoolsInArea(cleanAreaName, processedGeoJSON.features);
+        
+        if (schoolsInArea.length > 0) {
+          const ratingData = processRatingDistribution(schoolsInArea);
+          const enrollmentData = processEnrollmentData(schoolsInArea);
+          
+          window.dispatchEvent(new CustomEvent('school:areaClicked', {
+            detail: {
+              areaName: cleanAreaName,
+              visualizationMode: visualizationMode,
+              ratingData: ratingData,
+              enrollmentData: enrollmentData
+            }
+          }));
+        } else {
+          // Still dispatch event even if no schools, so user can see the empty state
+          window.dispatchEvent(new CustomEvent('school:areaClicked', {
+            detail: {
+              areaName: cleanAreaName,
+              visualizationMode: visualizationMode,
+              ratingData: [],
+              enrollmentData: []
+            }
+          }));
+        }
+      }
+    };
+
+    // Add new click handler with current visualizationMode
+    map.current.on('click', 'dubai-communities-fill', (e) => {
+      const props = e.features[0].properties;
+      // Extract area name without municipality number
+      let areaName = props.COMMUNITY_E || props.CNAME_E || 'Selected Area';
+      // Remove municipality number if present (format: "AREA NAME - NUMBER")
+      areaName = areaName.split(' - ')[0].trim();
+      
+      window.dispatchEvent(new CustomEvent('map:placeSelected', {
+        detail: { 
+          placeName: areaName,
+          lngLat: e.lngLat
+        }
+      }));
+      
+      // Dispatch school graph event
+      dispatchSchoolGraphEvent(areaName, e.features[0]);
+    });
+  }, [visualizationMode, selectedDataPoint, selectedFilter, isMapLoaded]);
 
   // Update school markers when filtered schools change
   useEffect(() => {

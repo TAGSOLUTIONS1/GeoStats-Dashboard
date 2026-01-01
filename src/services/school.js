@@ -257,6 +257,126 @@ export const addSchoolCountsToGeoJSON = (geojson) => {
 };
 
 /**
+ * Get all schools in a specific area by area name
+ * @param {string} areaName - The area name (CNAME_E or COMMUNITY_E)
+ * @param {Array} geojsonFeatures - GeoJSON features array
+ * @returns {Array} - Array of school objects in that area
+ */
+export const getSchoolsInArea = (areaName, geojsonFeatures) => {
+  if (!areaName || !geojsonFeatures) return [];
+  
+  // Find the feature for this area
+  const areaFeature = geojsonFeatures.find(feature => {
+    const featureAreaName = feature.properties?.CNAME_E || feature.properties?.COMMUNITY_E || '';
+    return featureAreaName === areaName;
+  });
+  
+  if (!areaFeature || !areaFeature.geometry) return [];
+  
+  // Get all schools in this area using point-in-polygon
+  const schoolsInArea = [];
+  
+  mergedSchoolsData.forEach(school => {
+    if (!school.Latitude || !school.Longitude) return;
+    
+    const schoolPoint = [school.Longitude, school.Latitude];
+    if (isPointInPolygon(schoolPoint, areaFeature.geometry)) {
+      schoolsInArea.push(school);
+    }
+  });
+  
+  return schoolsInArea;
+};
+
+/**
+ * Process enrollment data over years for schools in an area
+ * @param {Array} schools - Array of school objects
+ * @returns {Array} - Array of { year, enrollment, date } objects
+ */
+export const processEnrollmentData = (schools) => {
+  if (!schools || schools.length === 0) return [];
+  
+  const enrollmentByYear = new Map();
+  
+  schools.forEach(school => {
+    // Extract enrollment fields (format: "2010/11 Enrolments", "2015/16 Enrollments", etc.)
+    Object.keys(school).forEach(key => {
+      if (key.includes('Enrol') && typeof school[key] === 'number' && school[key] > 0) {
+        // Extract year from key (e.g., "2010/11 Enrolments" -> 2010)
+        const yearMatch = key.match(/(\d{4})\//);
+        if (yearMatch) {
+          const year = parseInt(yearMatch[1]);
+          const enrollment = school[key];
+          
+          if (!enrollmentByYear.has(year)) {
+            enrollmentByYear.set(year, []);
+          }
+          enrollmentByYear.get(year).push(enrollment);
+        }
+      }
+    });
+  });
+  
+  // Calculate average enrollment per year
+  const result = [];
+  enrollmentByYear.forEach((enrollments, year) => {
+    const avgEnrollment = enrollments.reduce((sum, e) => sum + e, 0) / enrollments.length;
+    const totalEnrollment = enrollments.reduce((sum, e) => sum + e, 0);
+    
+    result.push({
+      year: year,
+      enrollment: Math.round(avgEnrollment),
+      totalEnrollment: Math.round(totalEnrollment),
+      schoolCount: enrollments.length,
+      date: new Date(year, 6, 1).toISOString() // Mid-year date
+    });
+  });
+  
+  return result.sort((a, b) => a.year - b.year);
+};
+
+/**
+ * Process rating distribution for schools in an area
+ * @param {Array} schools - Array of school objects
+ * @returns {Array} - Array of { rating, count, percentage } objects
+ */
+export const processRatingDistribution = (schools) => {
+  if (!schools || schools.length === 0) return [];
+  
+  const ratingCounts = {
+    0: { label: 'Not yet inspected', count: 0 },
+    1: { label: 'Unsatisfactory', count: 0 },
+    2: { label: 'Acceptable', count: 0 },
+    3: { label: 'Good', count: 0 },
+    4: { label: 'Very Good', count: 0 },
+    5: { label: 'Outstanding', count: 0 }
+  };
+  
+  let totalWithRating = 0;
+  
+  schools.forEach(school => {
+    const rating = school['Latest DSIB Rating'];
+    if (rating !== null && rating !== undefined && rating !== '') {
+      const ratingNum = typeof rating === 'number' ? rating : Number(rating);
+      if (!isNaN(ratingNum) && ratingCounts[ratingNum] !== undefined) {
+        ratingCounts[ratingNum].count += 1;
+        totalWithRating += 1;
+      }
+    }
+  });
+  
+  // Convert to array format
+  const result = Object.entries(ratingCounts).map(([rating, data]) => ({
+    rating: parseInt(rating),
+    label: data.label,
+    count: data.count,
+    percentage: totalWithRating > 0 ? Math.round((data.count / totalWithRating) * 100) : 0
+  }));
+  
+  return result;
+};
+
+/**
  * Get schools by area name using point-in-polygon
  */
 export const getSchoolsByArea = (areaName, geojsonFeatures) => {
