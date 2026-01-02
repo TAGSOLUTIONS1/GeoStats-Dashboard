@@ -67,7 +67,56 @@ ${message ? `Message: ${message}` : ''}
       html: htmlContent,
     };
 
+    // Send email to GeoStats team
     const info = await transporter.sendMail(mailOptions);
+    
+    // Send confirmation email to the sender
+    const confirmationHtml = `
+      <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+        <h2 style="color: #1e40af;">Thank You for Your Interest in GeoStats!</h2>
+        <p>Dear ${name},</p>
+        <p>Thank you for reaching out to become a GeoStats Data Partner. We have received your request and will review it within 24-48 hours.</p>
+        <div style="background-color: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0;">
+          <p><strong>Your Request Summary:</strong></p>
+          <p><strong>Use Case:</strong> ${useCase}</p>
+          ${organization ? `<p><strong>Organization:</strong> ${organization}</p>` : ''}
+        </div>
+        <p>We'll be in touch soon to discuss data partnership opportunities.</p>
+        <p>Best regards,<br>The GeoStats Team</p>
+        <p style="color: #6b7280; font-size: 12px; margin-top: 30px;">This is an automated confirmation email. Please do not reply to this email.</p>
+      </div>
+    `;
+
+    const confirmationText = `
+Thank You for Your Interest in GeoStats!
+
+Dear ${name},
+
+Thank you for reaching out to become a GeoStats Data Partner. We have received your request and will review it within 24-48 hours.
+
+Your Request Summary:
+Use Case: ${useCase}
+${organization ? `Organization: ${organization}` : ''}
+
+We'll be in touch soon to discuss data partnership opportunities.
+
+Best regards,
+The GeoStats Team
+    `;
+
+    const confirmationMailOptions = {
+      from: process.env.EMAIL_USER,
+      to: email,
+      subject: 'Thank You for Your GeoStats Data Partner Request',
+      text: confirmationText,
+      html: confirmationHtml,
+    };
+
+    // Send confirmation email (don't fail if this fails)
+    transporter.sendMail(confirmationMailOptions).catch(err => {
+      console.error('Error sending confirmation email:', err);
+    });
+
     res.json({ success: true, message: 'Contact request submitted successfully', messageId: info.messageId });
   } catch (error) {
     console.error('Error sending contact email:', error);
@@ -113,7 +162,49 @@ Feedback: ${feedback}
       html: htmlContent,
     };
 
+    // Send email to GeoStats team
     const info = await transporter.sendMail(mailOptions);
+    
+    // Send confirmation email to the sender (if email provided)
+    if (email) {
+      const confirmationHtml = `
+        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+          <h2 style="color: #1e40af;">Thank You for Your Feedback!</h2>
+          <p>Dear User,</p>
+          <p>Thank you for taking the time to share your feedback about GeoStats. We truly value your input and will use it to improve our platform.</p>
+          <p>Your feedback helps us build a better experience for everyone.</p>
+          <p>Best regards,<br>The GeoStats Team</p>
+          <p style="color: #6b7280; font-size: 12px; margin-top: 30px;">This is an automated confirmation email. Please do not reply to this email.</p>
+        </div>
+      `;
+
+      const confirmationText = `
+Thank You for Your Feedback!
+
+Dear User,
+
+Thank you for taking the time to share your feedback about GeoStats. We truly value your input and will use it to improve our platform.
+
+Your feedback helps us build a better experience for everyone.
+
+Best regards,
+The GeoStats Team
+      `;
+
+      const confirmationMailOptions = {
+        from: process.env.EMAIL_USER,
+        to: email,
+        subject: 'Thank You for Your GeoStats Feedback',
+        text: confirmationText,
+        html: confirmationHtml,
+      };
+
+      // Send confirmation email (don't fail if this fails)
+      transporter.sendMail(confirmationMailOptions).catch(err => {
+        console.error('Error sending confirmation email:', err);
+      });
+    }
+
     res.json({ success: true, message: 'Feedback submitted successfully', messageId: info.messageId });
   } catch (error) {
     console.error('Error sending feedback email:', error);
