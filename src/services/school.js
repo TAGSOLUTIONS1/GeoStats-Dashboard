@@ -1,5 +1,6 @@
 import schoolsData from '../data/schools/schools.json';
 import schoolsWithFeesData from '../data/schools/schools_with_fees.json';
+import schoolsWithFeesOverYearsData from '../data/schools/schools_with_fees_over_years.json';
 
 // Merge schools data with fees data
 const mergeSchoolsWithFees = () => {
@@ -10,11 +11,21 @@ const mergeSchoolsWithFees = () => {
     }
   });
   
+  // Also merge fees over years data
+  const feesOverYearsMap = new Map();
+  schoolsWithFeesOverYearsData.forEach(school => {
+    if (school['School Name']) {
+      feesOverYearsMap.set(school['School Name'], school.fees || null);
+    }
+  });
+  
   return schoolsData.map(school => {
     const fees = feesMap.get(school['School Name']);
+    const feesOverYears = feesOverYearsMap.get(school['School Name']);
     return {
       ...school,
-      fees: fees || null
+      fees: fees || null,
+      feesOverYears: feesOverYears || null
     };
   });
 };
@@ -510,6 +521,102 @@ export const processSchoolEnrollmentOverYears = (school) => {
   }));
   
   return enrollments.sort((a, b) => a.year - b.year);
+};
+
+/**
+ * Process fees data over years for schools in an area
+ * @param {Array} schools - Array of school objects
+ * @returns {Array} - Array of { year, averageFee, totalFee, schoolCount, date } objects
+ */
+export const processFeesOverYears = (schools) => {
+  if (!schools || schools.length === 0) return [];
+  
+  const feesByYear = new Map();
+  
+  schools.forEach(school => {
+    const feesOverYears = school.feesOverYears || school.fees;
+    if (!feesOverYears || typeof feesOverYears !== 'object') return;
+    
+    // Process each year in feesOverYears
+    Object.keys(feesOverYears).forEach(yearStr => {
+      const year = parseInt(yearStr);
+      if (isNaN(year)) return;
+      
+      const yearFees = feesOverYears[yearStr];
+      if (!yearFees || typeof yearFees !== 'object') return;
+      
+      // Calculate average fee for this year (average of all grade fees, excluding 0)
+      const feeValues = Object.values(yearFees).filter(fee => 
+        typeof fee === 'number' && fee > 0
+      );
+      
+      if (feeValues.length > 0) {
+        const averageFee = feeValues.reduce((sum, fee) => sum + fee, 0) / feeValues.length;
+        
+        if (!feesByYear.has(year)) {
+          feesByYear.set(year, []);
+        }
+        feesByYear.get(year).push(averageFee);
+      }
+    });
+  });
+  
+  // Calculate average fee per year
+  const result = [];
+  feesByYear.forEach((fees, year) => {
+    const avgFee = fees.reduce((sum, f) => sum + f, 0) / fees.length;
+    const totalFee = fees.reduce((sum, f) => sum + f, 0);
+    
+    result.push({
+      year: year,
+      averageFee: Math.round(avgFee),
+      totalFee: Math.round(totalFee),
+      schoolCount: fees.length,
+      date: new Date(year, 6, 1).toISOString() // Mid-year date
+    });
+  });
+  
+  return result.sort((a, b) => a.year - b.year);
+};
+
+/**
+ * Process fees data over years for a single school
+ * @param {Object} school - School object
+ * @returns {Array} - Array of { year, averageFee, date } objects
+ */
+export const processSchoolFeesOverYears = (school) => {
+  if (!school) return [];
+  
+  const feesOverYears = school.feesOverYears || school.fees;
+  if (!feesOverYears || typeof feesOverYears !== 'object') return [];
+  
+  const fees = [];
+  
+  // Process each year in feesOverYears
+  Object.keys(feesOverYears).forEach(yearStr => {
+    const year = parseInt(yearStr);
+    if (isNaN(year)) return;
+    
+    const yearFees = feesOverYears[yearStr];
+    if (!yearFees || typeof yearFees !== 'object') return;
+    
+    // Calculate average fee for this year (average of all grade fees, excluding 0)
+    const feeValues = Object.values(yearFees).filter(fee => 
+      typeof fee === 'number' && fee > 0
+    );
+    
+    if (feeValues.length > 0) {
+      const averageFee = feeValues.reduce((sum, fee) => sum + fee, 0) / feeValues.length;
+      
+      fees.push({
+        year: year,
+        averageFee: Math.round(averageFee),
+        date: new Date(year, 6, 1).toISOString()
+      });
+    }
+  });
+  
+  return fees.sort((a, b) => a.year - b.year);
 };
 
 /**

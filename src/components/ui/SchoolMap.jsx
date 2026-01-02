@@ -328,7 +328,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
         // Clean area name - remove municipality number if present (format: "AREA NAME - NUMBER")
         const cleanAreaName = areaName.split(' - ')[0].trim();
         
-        if (visualizationMode && (visualizationMode === 'rating' || visualizationMode === 'enrollment')) {
+        if (visualizationMode && (visualizationMode === 'rating' || visualizationMode === 'enrollment' || visualizationMode === 'fee')) {
           const baseGeoJSON = selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA;
           const processedGeoJSON = addSchoolCountsToGeoJSON(baseGeoJSON);
           const schoolsInArea = getSchoolsInArea(cleanAreaName, processedGeoJSON.features);
@@ -937,7 +937,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
       // Clean area name - remove municipality number if present (format: "AREA NAME - NUMBER")
       const cleanAreaName = areaName.split(' - ')[0].trim();
       
-      if (visualizationMode && (visualizationMode === 'rating' || visualizationMode === 'enrollment')) {
+      if (visualizationMode && (visualizationMode === 'rating' || visualizationMode === 'enrollment' || visualizationMode === 'fee')) {
         const baseGeoJSON = selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA;
         const processedGeoJSON = addSchoolCountsToGeoJSON(baseGeoJSON);
         const schoolsInArea = getSchoolsInArea(cleanAreaName, processedGeoJSON.features);
