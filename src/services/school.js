@@ -457,6 +457,62 @@ export const processSchoolRatingOverYears = (school) => {
 };
 
 /**
+ * Process enrollment data over years for a single school
+ * @param {Object} school - School object
+ * @returns {Array} - Array of { year, enrollment, date } objects
+ */
+export const processSchoolEnrollmentOverYears = (school) => {
+  if (!school) return [];
+  
+  // Map to store enrollment data by year
+  // Key: year, Value: { enrollment, isAnnual }
+  const enrollmentByYear = new Map();
+  
+  // Extract enrollment fields (format: "2010/11 Enrolments", "2015/16 Enrollments", etc.)
+  Object.keys(school).forEach(key => {
+    if (key.includes('Enrol') && typeof school[key] === 'number' && school[key] > 0) {
+      // Extract year from key (e.g., "2010/11 Enrolments" -> 2010)
+      const yearMatch = key.match(/(\d{4})\//);
+      if (yearMatch) {
+        const year = parseInt(yearMatch[1]);
+        const enrollment = school[key];
+        
+        if (!isNaN(enrollment) && enrollment > 0) {
+          // Check if this is an annual enrollment (not seasonal: Autumn, Spring, Summer)
+          const isAnnual = !key.includes('Autumn') && !key.includes('Spring') && !key.includes('Summer');
+          
+          // If we already have data for this year
+          if (enrollmentByYear.has(year)) {
+            const existing = enrollmentByYear.get(year);
+            // Prioritize annual enrollment over seasonal
+            if (isAnnual || !existing.isAnnual) {
+              enrollmentByYear.set(year, {
+                enrollment: enrollment,
+                isAnnual: isAnnual
+              });
+            }
+          } else {
+            enrollmentByYear.set(year, {
+              enrollment: enrollment,
+              isAnnual: isAnnual
+            });
+          }
+        }
+      }
+    }
+  });
+  
+  // Convert map to array and sort by year
+  const enrollments = Array.from(enrollmentByYear.entries()).map(([year, data]) => ({
+    year: year,
+    enrollment: data.enrollment,
+    date: new Date(year, 6, 1).toISOString()
+  }));
+  
+  return enrollments.sort((a, b) => a.year - b.year);
+};
+
+/**
  * Get schools by area name using point-in-polygon
  */
 export const getSchoolsByArea = (areaName, geojsonFeatures) => {
