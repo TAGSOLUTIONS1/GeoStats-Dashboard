@@ -6,14 +6,38 @@ const FeedbackModal = ({ isOpen, onClose }) => {
   const [email, setEmail] = useState('');
   const [feedback, setFeedback] = useState('');
 
-  const handleSubmit = (e) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle feedback submission here
-    console.log('Feedback submitted:', { email, feedback });
-    // Reset form
-    setEmail('');
-    setFeedback('');
-    onClose();
+    setIsSubmitting(true);
+    
+    try {
+      const response = await fetch('http://localhost:5000/api/feedback', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email, feedback }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        // Reset form
+        setEmail('');
+        setFeedback('');
+        onClose();
+      } else {
+        alert('Failed to submit feedback. Please try again.');
+        console.error('Error:', data.error);
+      }
+    } catch (error) {
+      console.error('Error submitting feedback:', error);
+      alert('Failed to submit feedback. Please check your connection and try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (!isOpen) return null;
@@ -85,10 +109,11 @@ const FeedbackModal = ({ isOpen, onClose }) => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-azure text-white py-2 px-4 rounded-lg hover:bg-azure-dark transition-colors flex items-center justify-center space-x-2"
+            disabled={isSubmitting}
+            className="w-full bg-azure text-white py-2 px-4 rounded-lg hover:bg-azure-dark transition-colors flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             <Send className="w-4 h-4" />
-            <span>Send Feedback</span>
+            <span>{isSubmitting ? 'Sending...' : 'Send Feedback'}</span>
           </button>
         </form>
       </motion.div>

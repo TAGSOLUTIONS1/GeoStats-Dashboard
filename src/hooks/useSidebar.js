@@ -12,6 +12,14 @@ export const useSidebar = () => {
   const handleItemClick = (item) => {
     if (item.id && item.label) {
       setSelectedDataPoint(item.id);
+      // Also set on window for cross-component communication
+      if (typeof window !== 'undefined') {
+        window.selectedDataPoint = item.id;
+        // Dispatch event for other components to listen
+        window.dispatchEvent(new CustomEvent('sidebar:dataPointSelected', {
+          detail: { dataPointId: item.id }
+        }));
+      }
     } else {
       setActiveItem(activeItem === item ? null : item);
     }

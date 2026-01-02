@@ -1064,11 +1064,67 @@ const dataPoints = [
     source: 'UAE Emergency Services',
     Upcoming: true,
   },
-  
+  {
+    count: 96,
+    label: "Distribution & Quality Analysis",
+    id: "distribution-and-quality-analysis",
+    icon: BarChart3,
+    isSelected: false,
+    isPremium: false,
+    description: "Analysis of the distribution and quality of schools in the area. Telling How many schools fall under each rating: Outstanding, Very Good, Good, Acceptable, Unsatisfactory.",
+    source: 'UAE Ministry of Education',
+    Upcoming: false,
+  },
+  {
+    count: 97,
+    label: "Rating distribution",
+    id: "rating-distribution",
+    icon: BarChart3,
+    isSelected: false,
+    isPremium: false,
+    description: "Which area have high rated schools?",
+    source: 'UAE Ministry of Education',
+    Upcoming: false,
+  },
+  {
+    count: 98,
+    label:"Fee Distribution",
+    id:"fee-distribution",
+    icon: BarChart3,
+    isSelected: false,
+    isPremium: false,
+    description: "The average fee for schools in the area. Is there a difference in fees between public and private schools?",
+    source: 'UAE Ministry of Education',
+    Upcoming: false,
+  },
+  {
+    count: 99,
+    label:"Enrollment Growth",
+    id:"enrollment-growth",
+    icon: BarChart3,
+    isSelected: false,
+    isPremium: false,
+    description: "The growth of enrollment in the area. Telling How many schools for KG to primary students",
+    source: 'UAE Ministry of Education',
+    Upcoming: false,
+  },
+
 ];
 const getDataPointById = (id) => dataPoints.find((dp) => dp.id === id);
 
 export const dataSections = [
+  {
+    id: 'dubai-school-landscape',
+    label: 'Dubai School Landscape',
+    isExpanded: false,
+    items: [
+      getDataPointById('distribution-and-quality-analysis'),
+      getDataPointById('rating-distribution'),
+      getDataPointById('fee-distribution'),
+      getDataPointById('enrollment-growth'),
+    ]
+    
+  },
   {
     id: 'popular-data',
     label: 'Popular Data',

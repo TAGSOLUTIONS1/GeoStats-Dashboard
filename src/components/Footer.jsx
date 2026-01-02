@@ -18,8 +18,8 @@ const Footer = () => {
             </p>
             <div className="flex items-center space-x-2 text-dubai-gray-400">
               <Mail className="h-4 w-4" />
-              <a href="mailto:info@geostats.ae" className="hover:text-dubai-blue-light">
-                info@geostats.ae
+              <a href="mailto:contact@tagsolutionsltd.com" className="hover:text-dubai-blue-light">
+                contact@tagsolutionsltd.com
               </a>
             </div>
           </div>

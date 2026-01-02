@@ -31,6 +31,17 @@ const Sidebar = () => {
 
   const [filteredSections, setFilteredSections] = useState(dataSections);
 
+  // Listen for close section events
+  useEffect(() => {
+    const handleCloseSection = (e) => {
+      if (e.detail === activeItem) {
+        setActiveItem(null);
+      }
+    };
+    window.addEventListener('sidebar:closeSection', handleCloseSection);
+    return () => window.removeEventListener('sidebar:closeSection', handleCloseSection);
+  }, [activeItem, setActiveItem]);
+
   // Filter data points based on search query
   useEffect(() => {
     if (!searchQuery.trim()) {
@@ -67,7 +78,7 @@ const Sidebar = () => {
   };
 
   return (
-        <div className="w-72 bg-gray-100 text-blue h-screen flex flex-col relative z-20 overflow-visible">
+        <div className="w-72 bg-gray-100 text-blue h-screen flex flex-col relative z-20 overflow-visible sidebar-content">
       {/* Header with Logo */}
       <div className="p-4 border-b border-gray-700 flex items-center gap-2">
             <Link
