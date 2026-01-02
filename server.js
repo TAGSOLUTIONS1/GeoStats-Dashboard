@@ -21,45 +21,103 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-// Send email endpoint
-app.post('/api/send-email', async (req, res) => {
+// Contact Form - Data Partner Request
+app.post('/api/contact', async (req, res) => {
   try {
-    const { to, subject, text, html } = req.body;
+    const { name, email, organization, role, useCase, message } = req.body;
 
-    if (!to || !subject || !text) {
-      return res.status(400).json({ error: 'Missing required fields: to, subject, text' });
+    if (!name || !email || !useCase) {
+      return res.status(400).json({ error: 'Missing required fields: name, email, useCase' });
     }
+
+    const recipientEmail = process.env.CONTACT_EMAIL || process.env.EMAIL_USER;
+    
+    const htmlContent = `
+      <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+        <h2 style="color: #1e40af;">New GeoStats Data Partner Request</h2>
+        <div style="background-color: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0;">
+          <p><strong>Name:</strong> ${name}</p>
+          <p><strong>Email:</strong> ${email}</p>
+          ${organization ? `<p><strong>Organization:</strong> ${organization}</p>` : ''}
+          ${role ? `<p><strong>Role:</strong> ${role}</p>` : ''}
+          <p><strong>Use Case:</strong> ${useCase}</p>
+          ${message ? `<p><strong>Message:</strong><br>${message.replace(/\n/g, '<br>')}</p>` : ''}
+        </div>
+        <p style="color: #6b7280; font-size: 12px;">This email was sent from the GeoStats contact form.</p>
+      </div>
+    `;
+
+    const textContent = `
+New GeoStats Data Partner Request
+
+Name: ${name}
+Email: ${email}
+${organization ? `Organization: ${organization}` : ''}
+${role ? `Role: ${role}` : ''}
+Use Case: ${useCase}
+${message ? `Message: ${message}` : ''}
+    `;
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: to,
-      subject: subject,
-      text: text,
-      html: html || text,
+      to: recipientEmail,
+      replyTo: email,
+      subject: `New Data Partner Request from ${name}`,
+      text: textContent,
+      html: htmlContent,
     };
 
     const info = await transporter.sendMail(mailOptions);
-    res.json({ success: true, messageId: info.messageId });
+    res.json({ success: true, message: 'Contact request submitted successfully', messageId: info.messageId });
   } catch (error) {
-    console.error('Error sending email:', error);
-    res.status(500).json({ error: 'Failed to send email', details: error.message });
+    console.error('Error sending contact email:', error);
+    res.status(500).json({ error: 'Failed to submit contact request', details: error.message });
   }
 });
 
-// Receive email data endpoint (for contact forms, etc.)
-app.post('/api/receive-email', (req, res) => {
+// Feedback API
+app.post('/api/feedback', async (req, res) => {
   try {
-    const { name, email, message, subject } = req.body;
+    const { email, feedback } = req.body;
+
+    if (!feedback) {
+      return res.status(400).json({ error: 'Feedback is required' });
+    }
+
+    const recipientEmail = process.env.FEEDBACK_EMAIL || process.env.EMAIL_USER;
     
-    // Log received email data
-    console.log('Received email data:', { name, email, subject, message });
-    
-    // You can process this data here (save to database, forward to another email, etc.)
-    
-    res.json({ success: true, message: 'Email data received' });
+    const htmlContent = `
+      <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+        <h2 style="color: #1e40af;">New GeoStats App Feedback</h2>
+        <div style="background-color: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0;">
+          ${email ? `<p><strong>Email:</strong> ${email}</p>` : '<p><strong>Email:</strong> Not provided</p>'}
+          <p><strong>Feedback:</strong><br>${feedback.replace(/\n/g, '<br>')}</p>
+        </div>
+        <p style="color: #6b7280; font-size: 12px;">This feedback was submitted from the GeoStats application.</p>
+      </div>
+    `;
+
+    const textContent = `
+New GeoStats App Feedback
+
+${email ? `Email: ${email}` : 'Email: Not provided'}
+Feedback: ${feedback}
+    `;
+
+    const mailOptions = {
+      from: process.env.EMAIL_USER,
+      to: recipientEmail,
+      ...(email && { replyTo: email }),
+      subject: `GeoStats App Feedback${email ? ` from ${email}` : ''}`,
+      text: textContent,
+      html: htmlContent,
+    };
+
+    const info = await transporter.sendMail(mailOptions);
+    res.json({ success: true, message: 'Feedback submitted successfully', messageId: info.messageId });
   } catch (error) {
-    console.error('Error receiving email data:', error);
-    res.status(500).json({ error: 'Failed to process email data' });
+    console.error('Error sending feedback email:', error);
+    res.status(500).json({ error: 'Failed to submit feedback', details: error.message });
   }
 });
 

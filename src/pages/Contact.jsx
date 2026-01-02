@@ -27,22 +27,40 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // In a real app, this would send data to a backend
-    console.log('Form submitted:', formData);
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      setFormData({
-        name: '',
-        email: '',
-        organization: '',
-        role: '',
-        useCase: '',
-        message: ''
+    try {
+      const response = await fetch('http://localhost:5000/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
       });
-    }, 3000);
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setSubmitted(true);
+        setTimeout(() => {
+          setSubmitted(false);
+          setFormData({
+            name: '',
+            email: '',
+            organization: '',
+            role: '',
+            useCase: '',
+            message: ''
+          });
+        }, 3000);
+      } else {
+        alert('Failed to submit request. Please try again.');
+        console.error('Error:', data.error);
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('Failed to submit request. Please check your connection and try again.');
+    }
   };
 
   const useCases = [
