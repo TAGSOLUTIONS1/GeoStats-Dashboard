@@ -1,8 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+'use client';
+import React, { memo } from 'react';
+import Link from 'next/link';
 import { MapPin, Mail } from 'lucide-react';
 
-const Footer = () => {
+const Footer = memo(() => {
   return (
     <footer className="bg-dubai-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -29,22 +30,22 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-dubai-gray-300 hover:text-dubai-blue-light">
+                <Link href="/" prefetch={false} className="text-dubai-gray-300 hover:text-dubai-blue-light">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/b2c" className="text-dubai-gray-300 hover:text-dubai-blue-light">
+                <Link href="/b2c" prefetch={false} className="text-dubai-gray-300 hover:text-dubai-blue-light">
                   For People & Businesses
                 </Link>
               </li>
               <li>
-                <Link to="/b2g" className="text-dubai-gray-300 hover:text-dubai-blue-light">
+                <Link href="/b2g" prefetch={false} className="text-dubai-gray-300 hover:text-dubai-blue-light">
                   For Government
                 </Link>
               </li>
               <li>
-                <Link to="/use-cases" className="text-dubai-gray-300 hover:text-dubai-blue-light">
+                <Link href="/use-cases" prefetch={false} className="text-dubai-gray-300 hover:text-dubai-blue-light">
                   Use Cases
                 </Link>
               </li>
@@ -56,17 +57,17 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/about" className="text-dubai-gray-300 hover:text-dubai-blue-light">
+                <Link href="/about" prefetch={false} className="text-dubai-gray-300 hover:text-dubai-blue-light">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/faq" className="text-dubai-gray-300 hover:text-dubai-blue-light">
+                <Link href="/faq" prefetch={false} className="text-dubai-gray-300 hover:text-dubai-blue-light">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-dubai-gray-300 hover:text-dubai-blue-light">
+                <Link href="/contact" prefetch={false} className="text-dubai-gray-300 hover:text-dubai-blue-light">
                   Become a Data Partner
                 </Link>
               </li>
@@ -80,6 +81,8 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+});
+
+Footer.displayName = 'Footer';
 
 export default Footer;

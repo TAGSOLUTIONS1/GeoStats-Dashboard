@@ -1,3 +1,4 @@
+'use client';
 import React, { useMemo, useRef, useState, useEffect } from "react";
 import { X, BarChart3, TrendingUp, Users, School, DollarSign } from "lucide-react";
 import { motion } from "framer-motion";

@@ -15,6 +15,7 @@ const DataPointItem = ({
   const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
 
   useEffect(() => {
+    if (typeof window === 'undefined') return;
     if (hoveredItem === item.id && infoButtonRef.current) {
       const rect = infoButtonRef.current.getBoundingClientRect();
       setTooltipPosition({
@@ -54,25 +55,39 @@ const DataPointItem = ({
               onMouseLeave={() => setHoveredcrown(null)}
               />
           )}
-            <button
+            <div
               ref={infoButtonRef}
               onClick={(e) => {
                 e.stopPropagation();
                 const rect = infoButtonRef.current.getBoundingClientRect();
                 const position = {
-                  top: rect.top + window.scrollY,
-                  left: rect.right + window.scrollX + 10
+                  top: rect.top + (typeof window !== 'undefined' ? window.scrollY : 0),
+                  left: rect.right + (typeof window !== 'undefined' ? window.scrollX : 0) + 10
                 };
                 onInfoClick(item, position);
               }}
               onMouseEnter={() => setHoveredItem(item.id)}
               onMouseLeave={() => setHoveredItem(null)}
-              className="relative info-icon"
+              className="relative info-icon cursor-pointer"
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  const rect = infoButtonRef.current.getBoundingClientRect();
+                  const position = {
+                    top: rect.top + (typeof window !== 'undefined' ? window.scrollY : 0),
+                    left: rect.right + (typeof window !== 'undefined' ? window.scrollX : 0) + 10
+                  };
+                  onInfoClick(item, position);
+                }
+              }}
             >
               <div className="w-4 h-4 bg-gray-400 rounded-full flex items-center justify-center">
                 <span className="text-white text-xs font-hoefler font-bold italic">i</span>
               </div>
-            </button>
+            </div>
 
            { hoveredcrown === item.id && (
               <div 

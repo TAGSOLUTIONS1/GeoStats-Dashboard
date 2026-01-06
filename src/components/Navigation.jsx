@@ -1,12 +1,26 @@
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+'use client';
+
+import React, { useState, memo, useTransition } from 'react';
+import Link from 'next/link';
+import { usePathname, useRouter } from 'next/navigation';
 import { Menu, X, MapPin } from 'lucide-react';
 
-const Navigation = () => {
+const Navigation = memo(() => {
   const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation();
+  const [isPending, startTransition] = useTransition();
+  const pathname = usePathname();
+  const router = useRouter();
 
-  const isActive = (path) => location.pathname === path;
+  const isActive = (path) => pathname === path;
+
+  // Handle instant navigation with transition
+  const handleClick = (e, href) => {
+    e.preventDefault();
+    setIsOpen(false);
+    startTransition(() => {
+      router.push(href);
+    });
+  };
 
   const navLinks = [
     { path: '/', label: 'Home' },
@@ -23,7 +37,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 flex-shrink-0">
+          <Link href="/" prefetch={false} className="flex items-center space-x-2 flex-shrink-0">
           <div className="flex items-center space-x-2">
               <div className="w-10 h-10 rounded-lg flex items-center justify-center">
                 <img src="/logo/geo_stats.png" alt="Logo" className="w-auto h-10" />
@@ -37,12 +51,14 @@ const Navigation = () => {
             {navLinks.map((link) => (
               <Link
                 key={link.path}
-                to={link.path}
+                href={link.path}
+                prefetch={false}
+                onClick={(e) => handleClick(e, link.path)}
                 className={`text-base font-medium transition-colors whitespace-nowrap ${
                   isActive(link.path)
                     ? 'text-dubai-blue border-b-2 border-dubai-blue pb-1'
                     : 'text-dubai-gray-600 hover:text-dubai-blue'
-                }`}
+                } ${isPending ? 'opacity-70' : ''}`}
               >
                 {link.label}
               </Link>
@@ -52,7 +68,9 @@ const Navigation = () => {
           {/* CTA Button */}
           <div className="hidden md:flex items-center flex-shrink-0">
             <Link
-              to="/contact"
+              href="/contact"
+              prefetch={false}
+              onClick={(e) => handleClick(e, '/contact')}
               className="bg-dubai-blue text-white text-center w-40 px-6 py-2 rounded-lg font-medium hover:bg-dubai-blue-dark transition-colors"
             >
               Become a Data Partner
@@ -76,8 +94,12 @@ const Navigation = () => {
             {navLinks.map((link) => (
               <Link
                 key={link.path}
-                to={link.path}
-                onClick={() => setIsOpen(false)}
+                href={link.path}
+                prefetch={false}
+                onClick={(e) => {
+                  setIsOpen(false);
+                  handleClick(e, link.path);
+                }}
                 className={`block px-3 py-2 rounded-lg text-base font-medium ${
                   isActive(link.path)
                     ? 'bg-dubai-blue text-white'
@@ -88,8 +110,12 @@ const Navigation = () => {
               </Link>
             ))}
             <Link
-              to="/contact"
-              onClick={() => setIsOpen(false)}
+              href="/contact"
+              prefetch={false}
+              onClick={(e) => {
+                setIsOpen(false);
+                handleClick(e, '/contact');
+              }}
               className="block px-3 py-2 rounded-lg text-base font-medium bg-dubai-blue text-white text-center"
             >
               Become a Data Partner
@@ -99,6 +125,8 @@ const Navigation = () => {
       )}
     </nav>
   );
-};
+});
+
+Navigation.displayName = 'Navigation';
 
 export default Navigation;

@@ -1,3 +1,4 @@
+'use client';
 import React, { useMemo, useState, useEffect, useRef } from "react";
 import { useCallback } from "react";
 import { X, Calendar, ZoomIn, ZoomOut, Maximize2, TrendingUp } from "lucide-react";

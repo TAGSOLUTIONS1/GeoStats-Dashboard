@@ -1,32 +1,37 @@
+'use client';
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { dubaiGeoData, geojsonData } from '../../data/geoData';
-import { dubaiWEBDATA } from '../../data/DubaiData';
-import { New_Population } from '../../data/new_population';
 
 const Map = ({ selectedFilter, disableScrollZoom = false }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
+  const [dataLoaded, setDataLoaded] = useState(false);
   const clickPopupRef = useRef(null);
-  const processedDataCache = useRef(new window.Map());
+  const processedDataCache = useRef(typeof window !== 'undefined' ? new window.Map() : null);
+  const dataRef = useRef({ geojsonData: null, dubaiWEBDATA: null, New_Population: null });
   
   const lng = 55.3;
   const lat = 25.15;
   const zoom = 7;
 
-  const isMobile = () => window.innerWidth <= 780;
+  const isMobile = () => typeof window !== 'undefined' && window.innerWidth <= 780;
 
   // Optimized data processing with caching
   const addPopulation = useCallback((geojson, populationArray) => {
+    // Initialize cache if not already done (client-side only)
+    if (!processedDataCache.current && typeof window !== 'undefined') {
+      processedDataCache.current = new window.Map();
+    }
+    
     const cacheKey = `${selectedFilter}-${geojson.features?.length || 0}`;
     
-    if (processedDataCache.current.has(cacheKey)) {
+    if (processedDataCache.current && processedDataCache.current.has(cacheKey)) {
       return processedDataCache.current.get(cacheKey);
     }
 
-     const popMap = new window.Map();
+    const popMap = typeof window !== 'undefined' ? new window.Map() : new Map();
     populationArray.forEach(pop => {
       const code = pop["Community Code"];
       if (code) {
@@ -55,7 +60,9 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
       })
     };
 
-    processedDataCache.current.set(cacheKey, processedGeojson);
+    if (processedDataCache.current) {
+      processedDataCache.current.set(cacheKey, processedGeojson);
+    }
     return processedGeojson;
   }, [selectedFilter]);
 
@@ -81,7 +88,7 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
   }, []);
 
   useEffect(() => {
-    const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
+    const token = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || process.env.MAPBOX_ACCESS_TOKEN;
     if (!token || token === 'your_mapbox_access_token_here' || map.current) return;
 
     mapboxgl.accessToken = token;
@@ -98,13 +105,13 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
     window.map = map.current;
 
     map.current.on('load', () => {
-      if (!map.current) return;
+      if (!map.current || !dataLoaded) return;
       
       setIsMapLoaded(true);
 
       const processedData = selectedFilter === 'Area' 
-        ? addPopulation(geojsonData, New_Population) 
-        : addPopulation(dubaiWEBDATA, New_Population);
+        ? addPopulation(dataRef.current.geojsonData, dataRef.current.New_Population) 
+        : addPopulation(dataRef.current.dubaiWEBDATA, dataRef.current.New_Population);
 
       map.current.addSource('dubai-communities', {
         type: 'geojson',
@@ -359,15 +366,15 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
       if (map.current) map.current.remove();
       map.current = null;
     };
-  }, [selectedFilter, addPopulation, getColorScheme]);
+  }, [selectedFilter, dataLoaded, disableScrollZoom, addPopulation, getColorScheme]);
 
   // Update data when filter changes
   useEffect(() => {
-    if (!map.current || !isMapLoaded) return;
+    if (!map.current || !isMapLoaded || !dataLoaded) return;
 
     const newData = selectedFilter === 'Area' 
-      ? addPopulation(geojsonData, New_Population) 
-      : addPopulation(dubaiWEBDATA, New_Population);
+      ? addPopulation(dataRef.current.geojsonData, dataRef.current.New_Population) 
+      : addPopulation(dataRef.current.dubaiWEBDATA, dataRef.current.New_Population);
 
     const source = map.current.getSource('dubai-communities');
     if (source) {
@@ -378,9 +385,9 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
     if (layer) {
       map.current.setPaintProperty('dubai-communities-fill', 'fill-color', getColorScheme(selectedFilter));
     }
-  }, [selectedFilter, isMapLoaded, addPopulation, getColorScheme]);
+  }, [selectedFilter, isMapLoaded, dataLoaded, addPopulation, getColorScheme]);
 
-  const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
+  const token = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || process.env.MAPBOX_ACCESS_TOKEN;
   const hasValidToken = token && token !== 'your_mapbox_access_token_here';
 
   return (

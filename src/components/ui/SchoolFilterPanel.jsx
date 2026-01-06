@@ -1,3 +1,4 @@
+'use client';
 import React, { useState, useEffect, useMemo } from 'react';
 import { X, GraduationCap, Star, Filter, ChevronDown, ChevronUp, RotateCcw } from 'lucide-react';
 import { motion } from 'framer-motion';

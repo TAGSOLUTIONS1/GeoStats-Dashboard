@@ -1,3 +1,4 @@
+'use client';
 import React, { useState, useEffect, useRef } from 'react';
 import { X, Download, ChevronUp, ChevronDown, ArrowUpDown, ArrowDownUp, Crown } from 'lucide-react';
 import { motion } from 'framer-motion';

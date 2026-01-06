@@ -1,8 +1,10 @@
-import React from 'react';
+'use client';
+
+import React, { memo } from 'react';
 import Navigation from './Navigation';
 import Footer from './Footer';
 
-const Layout = ({ children }) => {
+const Layout = memo(({ children }) => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -12,6 +14,8 @@ const Layout = ({ children }) => {
       <Footer />
     </div>
   );
-};
+});
+
+Layout.displayName = 'Layout';
 
 export default Layout;

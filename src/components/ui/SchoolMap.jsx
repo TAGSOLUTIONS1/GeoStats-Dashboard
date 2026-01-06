@@ -1,23 +1,23 @@
+'use client';
 import React, { useEffect, useRef, useState, useCallback, useMemo } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { dubaiGeoData, geojsonData } from '../../data/geoData';
-import { dubaiWEBDATA } from '../../data/DubaiData';
-import schoolsData from '../../data/schools/schools.json';
 import { addSchoolCountsToGeoJSON, getSchoolsInArea, processEnrollmentData, processRatingDistribution } from '../../services/school';
 
 const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoint = null, filteredSchools = null }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
+  const [dataLoaded, setDataLoaded] = useState(false);
   const clickPopupRef = useRef(null);
-  const processedDataCache = useRef(new window.Map());
+  const processedDataCache = useRef(typeof window !== 'undefined' ? new window.Map() : null);
+  const dataRef = useRef({ geojsonData: null, dubaiWEBDATA: null, schoolsData: null });
   
   const lng = 55.3;
   const lat = 25.15;
   const zoom = 7;
 
-  const isMobile = () => window.innerWidth <= 780;
+  const isMobile = () => typeof window !== 'undefined' && window.innerWidth <= 780;
 
   // Rating mapping: number to text
   const RATING_MAP = {
@@ -64,14 +64,21 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
 
   // Process GeoJSON with school counts
   const processGeoJSONWithSchools = useCallback((geojson) => {
+    // Initialize cache if not already done (client-side only)
+    if (!processedDataCache.current && typeof window !== 'undefined') {
+      processedDataCache.current = new window.Map();
+    }
+    
     const cacheKey = `schools-${selectedFilter}-${visualizationMode}-${geojson.features?.length || 0}`;
     
-    if (processedDataCache.current.has(cacheKey)) {
+    if (processedDataCache.current && processedDataCache.current.has(cacheKey)) {
       return processedDataCache.current.get(cacheKey);
     }
 
     const processed = addSchoolCountsToGeoJSON(geojson);
-    processedDataCache.current.set(cacheKey, processed);
+    if (processedDataCache.current) {
+      processedDataCache.current.set(cacheKey, processed);
+    }
     return processed;
   }, [selectedFilter, visualizationMode]);
 
@@ -172,7 +179,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
   }, [visualizationMode, getRatingColorScheme, getEnrollmentColorScheme, getFeeColorScheme, getCountColorScheme]);
 
   useEffect(() => {
-    const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
+    const token = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || process.env.MAPBOX_ACCESS_TOKEN;
     if (!token || token === 'your_mapbox_access_token_here' || map.current) return;
 
     mapboxgl.accessToken = token;
@@ -194,8 +201,8 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
       setIsMapLoaded(true);
 
       // Process GeoJSON with school counts
-      const baseGeoJSON = selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA;
-      const processedData = processGeoJSONWithSchools(baseGeoJSON);
+      const baseGeoJSON = selectedFilter === 'Area' ? dataRef.current.geojsonData : dataRef.current.dubaiWEBDATA;
+      const processedData = processGeoJSONWithSchools(baseGeoJSON, dataRef.current.schoolsData);
 
       map.current.addSource('dubai-communities', {
         type: 'geojson',
@@ -329,7 +336,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
         const cleanAreaName = areaName.split(' - ')[0].trim();
         
         if (visualizationMode && (visualizationMode === 'rating' || visualizationMode === 'enrollment' || visualizationMode === 'fee')) {
-          const baseGeoJSON = selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA;
+          const baseGeoJSON = selectedFilter === 'Area' ? dataRef.current.geojsonData : dataRef.current.dubaiWEBDATA;
           const processedGeoJSON = addSchoolCountsToGeoJSON(baseGeoJSON);
           const schoolsInArea = getSchoolsInArea(cleanAreaName, processedGeoJSON.features);
           
@@ -531,7 +538,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
       // Use filtered schools if provided, otherwise use all schools
       const schoolsToDisplay = filteredSchools && filteredSchools.length > 0 
         ? filteredSchools 
-        : schoolsData;
+        : dataRef.current.schoolsData;
 
       // Create GeoJSON from schools data
       const schoolsGeoJSON = {
@@ -830,14 +837,14 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
       if (map.current) map.current.remove();
       map.current = null;
     };
-  }, [selectedFilter, processGeoJSONWithSchools, getRatingColorScheme]);
+  }, [selectedFilter, dataLoaded, disableScrollZoom, processGeoJSONWithSchools, getRatingColorScheme]);
 
   // Update data when filter changes
   useEffect(() => {
     if (!map.current || !isMapLoaded) return;
 
-    const baseGeoJSON = selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA;
-    const newData = processGeoJSONWithSchools(baseGeoJSON);
+    const baseGeoJSON = selectedFilter === 'Area' ? dataRef.current.geojsonData : dataRef.current.dubaiWEBDATA;
+    const newData = processGeoJSONWithSchools(baseGeoJSON, dataRef.current.schoolsData);
 
     const source = map.current.getSource('dubai-communities');
     if (source) {
@@ -923,7 +930,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
         { 'font-scale': 1.2, 'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'] }
       ]);
     }
-  }, [selectedFilter, isMapLoaded, processGeoJSONWithSchools, getColorScheme, visualizationMode]);
+  }, [selectedFilter, isMapLoaded, dataLoaded, processGeoJSONWithSchools, getColorScheme, visualizationMode]);
 
   // Re-setup click handlers when visualizationMode changes to ensure they have the latest value
   useEffect(() => {
@@ -938,7 +945,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
       const cleanAreaName = areaName.split(' - ')[0].trim();
       
       if (visualizationMode && (visualizationMode === 'rating' || visualizationMode === 'enrollment' || visualizationMode === 'fee')) {
-        const baseGeoJSON = selectedFilter === 'Area' ? geojsonData : dubaiWEBDATA;
+        const baseGeoJSON = selectedFilter === 'Area' ? dataRef.current.geojsonData : dataRef.current.dubaiWEBDATA;
         const processedGeoJSON = addSchoolCountsToGeoJSON(baseGeoJSON);
         const schoolsInArea = getSchoolsInArea(cleanAreaName, processedGeoJSON.features);
         
@@ -988,7 +995,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
       // Dispatch school graph event
       dispatchSchoolGraphEvent(areaName, e.features[0]);
     });
-  }, [visualizationMode, selectedDataPoint, selectedFilter, isMapLoaded]);
+  }, [visualizationMode, selectedDataPoint, selectedFilter, isMapLoaded, dataLoaded]);
 
   // Update school markers when filtered schools change
   useEffect(() => {
@@ -996,7 +1003,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
     
     const schoolsToDisplay = filteredSchools && filteredSchools.length > 0 
       ? filteredSchools 
-      : schoolsData;
+      : dataRef.current.schoolsData;
     
     const schoolsGeoJSON = {
       type: 'FeatureCollection',
@@ -1027,9 +1034,9 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
     if (source) {
       source.setData(schoolsGeoJSON);
     }
-  }, [filteredSchools, isMapLoaded]);
+  }, [filteredSchools, isMapLoaded, dataLoaded]);
 
-  const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
+  const token = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || process.env.MAPBOX_ACCESS_TOKEN;
   const hasValidToken = token && token !== 'your_mapbox_access_token_here';
 
   return (

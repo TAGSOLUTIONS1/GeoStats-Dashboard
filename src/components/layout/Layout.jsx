@@ -1,5 +1,6 @@
+'use client';
 import React, { useState, useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, ArrowLeft, MapPin, GraduationCap, RotateCcw, Ruler } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
@@ -42,9 +43,9 @@ const Layout = ({ children }) => {
   const [searchSuggestions, setSearchSuggestions] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true); // Default to open on desktop
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
+  const [isDesktop, setIsDesktop] = useState(false); // Will be set in useEffect
   const searchTimeoutRef = useRef(null);
-  const isDesktopRef = useRef(window.innerWidth >= 1024);
+  const isDesktopRef = useRef(false);
   const [isExploreModalOpen, setIsExploreModalOpen] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState(null);
   
@@ -245,6 +246,8 @@ const Layout = ({ children }) => {
 
   // Track screen size for responsive behavior
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+    
     const handleResize = () => {
       const desktop = window.innerWidth >= 1024;
       const wasDesktop = isDesktopRef.current;
@@ -263,6 +266,8 @@ const Layout = ({ children }) => {
 
   // Prevent body scroll when mobile sidebar is open
   useEffect(() => {
+    if (typeof document === 'undefined') return;
+    
     if (isSidebarOpen && !isDesktop) {
       document.body.style.overflow = 'hidden';
     } else {
@@ -270,7 +275,9 @@ const Layout = ({ children }) => {
     }
     
     return () => {
-      document.body.style.overflow = 'unset';
+      if (typeof document !== 'undefined') {
+        document.body.style.overflow = 'unset';
+      }
     };
   }, [isSidebarOpen, isDesktop]);
 
@@ -752,7 +759,7 @@ const Layout = ({ children }) => {
       try {
         const response = await fetch(
           `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(query)}.json?` +
-          `access_token=${process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}&` +
+          `access_token=${process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || process.env.MAPBOX_ACCESS_TOKEN}&` +
           `bbox=54.13,24.5,56.4,25.7` // Restrict to Dubai area
         );
         const data = await response.json();

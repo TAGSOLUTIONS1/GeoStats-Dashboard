@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 import { X, Crown, ChevronDown, ChevronUp, Sparkles, TrendingUp, BarChart3, Users, Home, DollarSign, Star, Zap } from 'lucide-react';
 import { dataSections } from '../../data/sidebarData';

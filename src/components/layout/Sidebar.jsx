@@ -6,7 +6,7 @@ import SidebarSearch from './SidebarSearch';
 import DataSection from './DataSection';
 import DetailPanel from './DetailPanel';
 import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const Sidebar = () => {
   
@@ -82,7 +82,7 @@ const Sidebar = () => {
       {/* Header with Logo */}
       <div className="p-4 border-b border-gray-700 flex items-center gap-2">
             <Link
-              to="/"
+              href="/"
               className="flex items-center space-x-2 p-2 bg-gray-200 hover:bg-gray-100 rounded-lg transition-colors group"
               title="Back to Home"
             >
