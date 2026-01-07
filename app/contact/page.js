@@ -10,7 +10,12 @@ import {
   User,
   Briefcase
 } from 'lucide-react';
-import Layout from '@/components/Layout';
+import dynamic from 'next/dynamic';
+
+// Lazy load Layout to avoid blocking page render
+const Layout = dynamic(() => import('@/components/Layout'), {
+  ssr: false,
+});
 
 export default function Contact() {
   const [formData, setFormData] = useState({

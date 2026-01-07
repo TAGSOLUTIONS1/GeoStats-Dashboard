@@ -1,1 +1,6 @@
-{}
+{
+  "/map/page": "app/map/page.js",
+  "/b2c/page": "app/b2c/page.js",
+  "/page": "app/page.js",
+  "/b2g/page": "app/b2g/page.js"
+}

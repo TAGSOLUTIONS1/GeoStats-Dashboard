@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["_app-pages-browser_src_data_average_meter_price_historical_data_avg_meter_price_344_2010onwar-89dcb5"],{
+
+/***/ "(app-pages-browser)/./src/data/average_meter_price/historical_data/avg_meter_price_344_2010onwards.json":
+/*!*******************************************************************************************!*\
+  !*** ./src/data/average_meter_price/historical_data/avg_meter_price_344_2010onwards.json ***!
+  \*******************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = /*#__PURE__*/JSON.parse('[{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2017-09-01 00:00:00","avg_meter_price":6673.860399139638},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2017-10-01 00:00:00","avg_meter_price":6515.379558992093},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2017-11-01 00:00:00","avg_meter_price":6566.173655892638},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2017-12-01 00:00:00","avg_meter_price":6545.549465798069},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2018-01-01 00:00:00","avg_meter_price":6539.159532028976},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2018-02-01 00:00:00","avg_meter_price":6674.097884880725},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2018-03-01 00:00:00","avg_meter_price":6565.925925925926},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2018-04-01 00:00:00","avg_meter_price":6565.877289797853},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2018-05-01 00:00:00","avg_meter_price":6620.305400944446},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2019-01-01 00:00:00","avg_meter_price":6565.877289797853},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2019-08-01 00:00:00","avg_meter_price":6189.537932771366},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2019-09-01 00:00:00","avg_meter_price":6028.237455369709},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2019-10-01 00:00:00","avg_meter_price":1324.2179383939942},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2019-11-01 00:00:00","avg_meter_price":6565.828654390305},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2020-01-01 00:00:00","avg_meter_price":5381.944444444444},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2020-06-01 00:00:00","avg_meter_price":4305.564772282015},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2020-09-01 00:00:00","avg_meter_price":6449.710684406443},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2020-10-01 00:00:00","avg_meter_price":4843.739583256172},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2024-11-01 00:00:00","avg_meter_price":14444.444444444443},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2025-01-01 00:00:00","avg_meter_price":4685.831338175842},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2025-02-01 00:00:00","avg_meter_price":6168.389009052311},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2025-03-01 00:00:00","avg_meter_price":6566.327283458758},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2025-04-01 00:00:00","avg_meter_price":10879.88040820064},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2025-05-01 00:00:00","avg_meter_price":4810.278366246426},{"area_id":344,"name_en":"Al Warsan Second","instance_date":"2025-06-01 00:00:00","avg_meter_price":22992.930265633564}]');
+
+/***/ })
+
+}]);

@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["_app-pages-browser_src_data_average_meter_price_historical_data_avg_meter_price_405_2010onwar-04bf93"],{
+
+/***/ "(app-pages-browser)/./src/data/average_meter_price/historical_data/avg_meter_price_405_2010onwards.json":
+/*!*******************************************************************************************!*\
+  !*** ./src/data/average_meter_price/historical_data/avg_meter_price_405_2010onwards.json ***!
+  \*******************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = /*#__PURE__*/JSON.parse('[{"area_id":405,"name_en":"Bukadra","instance_date":"2013-11-01 00:00:00","avg_meter_price":21527.799359791155},{"area_id":405,"name_en":"Bukadra","instance_date":"2024-01-01 00:00:00","avg_meter_price":25017.605660013684},{"area_id":405,"name_en":"Bukadra","instance_date":"2024-02-01 00:00:00","avg_meter_price":24589.98190170442},{"area_id":405,"name_en":"Bukadra","instance_date":"2024-03-01 00:00:00","avg_meter_price":24733.84004409092},{"area_id":405,"name_en":"Bukadra","instance_date":"2024-04-01 00:00:00","avg_meter_price":25046.81334321845},{"area_id":405,"name_en":"Bukadra","instance_date":"2024-05-01 00:00:00","avg_meter_price":24582.167697375484},{"area_id":405,"name_en":"Bukadra","instance_date":"2024-06-01 00:00:00","avg_meter_price":26606.094973050665},{"area_id":405,"name_en":"Bukadra","instance_date":"2024-07-01 00:00:00","avg_meter_price":26326.626806383527},{"area_id":405,"name_en":"Bukadra","instance_date":"2024-08-01 00:00:00","avg_meter_price":25932.21623439613},{"area_id":405,"name_en":"Bukadra","instance_date":"2024-09-01 00:00:00","avg_meter_price":25779.14210794572},{"area_id":405,"name_en":"Bukadra","instance_date":"2024-10-01 00:00:00","avg_meter_price":25805.419635900485},{"area_id":405,"name_en":"Bukadra","instance_date":"2024-11-01 00:00:00","avg_meter_price":24902.920424795888},{"area_id":405,"name_en":"Bukadra","instance_date":"2024-12-01 00:00:00","avg_meter_price":24617.548557538503},{"area_id":405,"name_en":"Bukadra","instance_date":"2025-01-01 00:00:00","avg_meter_price":23983.51331446988},{"area_id":405,"name_en":"Bukadra","instance_date":"2025-02-01 00:00:00","avg_meter_price":25364.288212128376},{"area_id":405,"name_en":"Bukadra","instance_date":"2025-03-01 00:00:00","avg_meter_price":25463.93841298275},{"area_id":405,"name_en":"Bukadra","instance_date":"2025-04-01 00:00:00","avg_meter_price":25835.854401348475},{"area_id":405,"name_en":"Bukadra","instance_date":"2025-05-01 00:00:00","avg_meter_price":25759.290699118043},{"area_id":405,"name_en":"Bukadra","instance_date":"2025-06-01 00:00:00","avg_meter_price":25621.21080764626},{"area_id":405,"name_en":"Bukadra","instance_date":"2025-07-01 00:00:00","avg_meter_price":26687.51544647548},{"area_id":405,"name_en":"Bukadra","instance_date":"2025-08-01 00:00:00","avg_meter_price":26280.76713819512}]');
+
+/***/ })
+
+}]);

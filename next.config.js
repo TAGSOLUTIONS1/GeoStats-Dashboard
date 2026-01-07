@@ -8,8 +8,7 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com'],
   },
-  // Optimize performance
-  swcMinify: true,
+  // Optimize performance (SWC minification is enabled by default in Next.js 15)
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },

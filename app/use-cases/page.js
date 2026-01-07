@@ -1,4 +1,7 @@
+'use client';
+
 import React from 'react';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { 
   School, 
@@ -11,7 +14,11 @@ import {
   CheckCircle,
   ArrowRight
 } from 'lucide-react';
-import Layout from '@/components/Layout';
+
+// Lazy load Layout to avoid blocking page render
+const Layout = dynamic(() => import('@/components/Layout'), {
+  ssr: false,
+});
 
 const UseCases = () => {
   const useCases = [

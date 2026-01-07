@@ -87,7 +87,37 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
     ];
   }, []);
 
+  // Load data asynchronously
   useEffect(() => {
+    const loadData = async () => {
+      try {
+        const [
+          { dubaiGeoData: importedDubaiGeoData, geojsonData: importedGeojsonData },
+          { dubaiWEBDATA: importedDubaiWEBDATA },
+          { New_Population: importedNewPopulation }
+        ] = await Promise.all([
+          import('../../data/geoData'),
+          import('../../data/DubaiData'),
+          import('../../data/new_population')
+        ]);
+        dataRef.current = {
+          geojsonData: importedGeojsonData,
+          dubaiWEBDATA: importedDubaiWEBDATA,
+          New_Population: importedNewPopulation
+        };
+        setDataLoaded(true);
+      } catch (error) {
+        console.error("Failed to load map data:", error);
+        // Still set dataLoaded to true to allow map to render even if data fails
+        setDataLoaded(true);
+      }
+    };
+    loadData();
+  }, []);
+
+  useEffect(() => {
+    if (!dataLoaded) return; // Wait for data to load
+
     const token = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || process.env.MAPBOX_ACCESS_TOKEN;
     if (!token || token === 'your_mapbox_access_token_here' || map.current) return;
 
@@ -102,10 +132,12 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
       scrollZoom: !disableScrollZoom
     });
 
-    window.map = map.current;
+    if (typeof window !== 'undefined') {
+      window.map = map.current;
+    }
 
     map.current.on('load', () => {
-      if (!map.current || !dataLoaded) return;
+      if (!map.current) return;
       
       setIsMapLoaded(true);
 

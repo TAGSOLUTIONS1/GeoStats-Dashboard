@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://geostats.ae'),
   title: 'GeoStats - Dubai Geo-Intelligence & Urban Analytics',
   description: 'Understand Dubai. Decide Smarter. Population, income, mobility, and real-estate insights — explained simply.',
   icons: {
