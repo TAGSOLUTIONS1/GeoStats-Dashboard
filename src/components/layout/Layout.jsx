@@ -18,6 +18,7 @@ import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
 import SchoolFilterPanel from '../ui/SchoolFilterPanel';
 import ColorLegend from '../ui/ColorLegend';
 import { useSidebar } from '../../hooks/useSidebar';
+import schoolsData from '../../data/schools/schools.json';
 
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -1154,7 +1155,9 @@ const Layout = ({ children }) => {
       {/* Table View Modal */}
       <TableViewModal 
         isOpen={isTableViewOpen} 
-        onClose={handleTableView} 
+        onClose={handleTableView}
+        mode={isSchoolPanelOpen ? 'schools' : 'community'}
+        data={isSchoolPanelOpen ? (filteredSchools || schoolsData) : []}
       />
       
       {/* Feedback Modal */}

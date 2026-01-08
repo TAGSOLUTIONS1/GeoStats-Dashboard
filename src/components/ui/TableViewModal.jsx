@@ -4,8 +4,9 @@ import { X, Download, ChevronUp, ChevronDown, ArrowUpDown, ArrowDownUp, Crown } 
 import { motion } from 'framer-motion';
 import { sampleData } from '../../data/TableViewData';
 import { dataSections } from '../../data/sidebarData';
+import schoolsData from '../../data/schools/schools.json';
 
-const TableViewModal = ({ isOpen, onClose, data = [] }) => {
+const TableViewModal = ({ isOpen, onClose, data = [], mode = 'community' }) => {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' });
   const [currentPage, setCurrentPage] = useState(1);
   const [rowsPerPage, setRowsPerPage] = useState(10);
@@ -34,7 +35,10 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
 
   if (!isOpen) return null;
 
-  const tableData = data.length > 0 ? data : sampleData;
+  // Determine table data based on mode
+  const tableData = mode === 'schools' 
+    ? (data.length > 0 ? data : schoolsData)
+    : (data.length > 0 ? data : sampleData);
 
   // Flatten all data points for easy access
   const allDataPoints = dataSections.flatMap(section => 
@@ -129,10 +133,25 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
 
   const sortedData = [...tableData].sort((a, b) => {
     if (sortConfig.key) {
-      if (a[sortConfig.key] < b[sortConfig.key]) {
+      const aVal = a[sortConfig.key];
+      const bVal = b[sortConfig.key];
+      
+      // Handle null/undefined values - put them at the end
+      if (aVal == null && bVal == null) return 0;
+      if (aVal == null) return 1;
+      if (bVal == null) return -1;
+      
+      // Handle string comparison
+      if (typeof aVal === 'string' && typeof bVal === 'string') {
+        const comparison = aVal.localeCompare(bVal);
+        return sortConfig.direction === 'asc' ? comparison : -comparison;
+      }
+      
+      // Handle numeric comparison
+      if (aVal < bVal) {
         return sortConfig.direction === 'asc' ? -1 : 1;
       }
-      if (a[sortConfig.key] > b[sortConfig.key]) {
+      if (aVal > bVal) {
         return sortConfig.direction === 'asc' ? 1 : -1;
       }
     }
@@ -158,17 +177,42 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
   };
 
   const formatNumber = (value) => {
+    if (value === null || value === undefined || value === '') return 'N/A';
     return new Intl.NumberFormat('en-AE').format(value);
   };
 
-  // Header configuration to reduce repetitive code
-const tableHeaders = [
-  { key: 'rk', label: 'RK', sortable: true, format: 'number' },
-  { key: 'area', label: 'Area', sortable: true, format: 'text' },
-  { key: 'homeValue', label: 'Home Value', sortable: true, format: 'currency' },
-  { key: 'homeValueGrowth', label: 'Home Value Growth (YoY)', sortable: true, format: 'percentage' },
-  { key: 'population', label: 'Population', sortable: true, format: 'number' }
-];
+  const formatRating = (value) => {
+    if (value === null || value === undefined || value === '') return 'N/A';
+    const ratingMap = {
+      0: 'Not yet inspected',
+      1: 'Unsatisfactory',
+      2: 'Acceptable',
+      3: 'Good',
+      4: 'Very Good',
+      5: 'Outstanding'
+    };
+    return ratingMap[value] || value;
+  };
+
+  // Header configuration based on mode
+  const communityHeaders = [
+    { key: 'rk', label: 'RK', sortable: true, format: 'number' },
+    { key: 'area', label: 'Area', sortable: true, format: 'text' },
+    { key: 'homeValue', label: 'Home Value', sortable: true, format: 'currency' },
+    { key: 'homeValueGrowth', label: 'Home Value Growth (YoY)', sortable: true, format: 'percentage' },
+    { key: 'population', label: 'Population', sortable: true, format: 'number' }
+  ];
+
+  const schoolHeaders = [
+    { key: 'School Name', label: 'School Name', sortable: true, format: 'text' },
+    { key: 'Location', label: 'Location', sortable: true, format: 'text' },
+    { key: 'Curriculum', label: 'Curriculum', sortable: true, format: 'text' },
+    { key: 'Latest DSIB Rating', label: 'DSIB Rating', sortable: true, format: 'rating' },
+    { key: '2024/25 Enrollments', label: 'Enrollments (2024/25)', sortable: true, format: 'number' },
+    { key: 'Grades', label: 'Grades', sortable: true, format: 'text' }
+  ];
+
+  const tableHeaders = mode === 'schools' ? schoolHeaders : communityHeaders;
 
 
   // Format cell value based on type
@@ -180,8 +224,10 @@ const tableHeaders = [
         return formatPercentage(value);
       case 'number':
         return formatNumber(value);
+      case 'rating':
+        return formatRating(value);
       default:
-        return value;
+        return value || 'N/A';
     }
   };
 
@@ -194,20 +240,22 @@ const tableHeaders = [
     >
       <div className="w-full h-full flex flex-col overflow-y-auto ">
         {/* Header */}
-        <div className="flex items-center justify-between p-3 border-b border-gray-200">
+        <div className="flex items-center justify-between p-2 border-b border-gray-200">
           <div className="flex items-center space-x-4">
-            <h2 className="text-sm md:text-base lg:text-lg font-bold text-gray-900 font-tomorrow">GeoStats Table View - Community</h2>
+            <h2 className="text-xs md:text-sm lg:text-base font-bold text-gray-900 font-tomorrow">
+              GeoStats Table View - {mode === 'schools' ? 'Dubai School Landscape' : 'Community'}
+            </h2>
           </div>
           <div className="flex items-center space-x-3">
-            <button className="px-2 sm:px-3 py-1.5 bg-azure text-white text-[8px] sm:text-xs font-medium rounded-lg hover:bg-azure-dark transition-colors flex items-center space-x-2">
+            <button className="px-2 sm:px-3 py-1 bg-azure text-white text-[8px] sm:text-[10px] font-medium rounded-lg hover:bg-azure-dark transition-colors flex items-center space-x-1">
               <Download className="w-3 h-3" />
               <span>Download Report</span>
             </button>
             <button
               onClick={onClose}
-              className="p-2 hover:bg-gray-200 bg-gray-100 rounded-lg transition-colors"
+              className="p-1.5 hover:bg-gray-200 bg-gray-100 rounded-lg transition-colors"
             >
-              <X className="w-5 h-5 text-gray-500" />
+              <X className="w-4 h-4 text-gray-500" />
             </button>
           </div>
         </div>
@@ -221,7 +269,7 @@ const tableHeaders = [
                   {tableHeaders.map((header, index) => (
                     <th 
                       key={header.key}
-                      className="border-l border-gray-200 py-2 px-3 font-medium text-sm text-blue-light relative font-inter"
+                      className="border-l border-gray-200 py-1.5 px-2 font-medium text-xs text-blue-light relative font-inter"
 
                       style={{
                         background: `linear-gradient(135deg, rgba(168, 85, 247, 0.05) 0%, rgba(59, 130, 246, 0.05) 100%)`,
@@ -229,24 +277,26 @@ const tableHeaders = [
                       }}
                     >
                       <div className="flex items-center justify-between w-full">
-                        {/* Header Label - No dropdown for first 3 columns */}
-                        {['rk', 'zip', 'area'].includes(header.key) ? (
+                        {/* For school mode, all columns are fixed (no dropdowns) */}
+                        {/* For community mode, only first few columns are fixed */}
+                        {(mode === 'schools') || 
+                         (mode === 'community' && ['rk', 'zip', 'area'].includes(header.key)) ? (
                           <div className="flex-1">
-                            <span className="text-sm font-medium text-center block">
+                            <span className="text-xs font-medium text-center block">
                               {header.label}
                             </span>
                           </div>
                         ) : (
-                          /* Dropdown Button with Text for other columns */
+                          /* Dropdown Button with Text for other columns (community mode only) */
                           <div className="flex-1">
                             <button
                               onClick={() => handleDropdownToggle(header.key)}
-                              className="w-full text-left px-2 py-1 hover:bg-gray-200 rounded flex items-center justify-between"
+                              className="w-full text-left px-1.5 py-0.5 hover:bg-gray-200 rounded flex items-center justify-between"
                             >
-                              <span className="text-sm font-medium truncate">
+                              <span className="text-xs font-medium truncate">
                                 {getColumnHeaderLabel(header.key)}
                               </span>
-                              <ChevronDown className="w-3 h-3 flex-shrink-0 ml-1" />
+                              <ChevronDown className="w-2.5 h-2.5 flex-shrink-0 ml-1" />
                             </button>
                           </div>
                         )}
@@ -260,21 +310,21 @@ const tableHeaders = [
                           >
                             <button
                               onClick={() => handleSort(header.key)}
-                              className="p-1 hover:bg-gray-200 rounded"
+                              className="p-0.5 hover:bg-gray-200 rounded"
                             >
                               {sortConfig.key === header.key ? (
                                 sortConfig.direction === 'asc' ? (
-                                  <ArrowUpDown className="w-3 h-3 text-orange" />
+                                  <ArrowUpDown className="w-2.5 h-2.5 text-orange" />
                                 ) : (
-                                  <ArrowDownUp className="w-3 h-3 text-orange" />
+                                  <ArrowDownUp className="w-2.5 h-2.5 text-orange" />
                                 )
                               ) : (
-                                <ArrowUpDown className="w-3 h-3" />
+                                <ArrowUpDown className="w-2.5 h-2.5" />
                               )}
                             </button>
                             {/* Sort Tooltip */}
                             {hoveredSort === header.key && (
-                              <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-1 bg-black text-white text-xs px-2 py-1 rounded whitespace-nowrap z-50">
+                              <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-1 bg-black text-white text-[10px] px-1.5 py-0.5 rounded whitespace-nowrap z-50">
                                 {getSortTooltipText(header.key)}
                               </div>
                             )}
@@ -282,68 +332,70 @@ const tableHeaders = [
                         )}
                       </div>
                       
-                      {/* Dropdown Menu */}
-                      {activeDropdown === header.key && (
+                      {/* Dropdown Menu - Only show for community mode, and filter out school sections */}
+                      {activeDropdown === header.key && mode === 'community' && (
                         <div className="absolute top-full left-0 right-0 bg-white border border-gray-200 rounded shadow-lg z-50 mt-1 max-h-60 overflow-y-auto">
-                          <div className="py-2">
-                            {dataSections.map((section) => {
-                              const isExpanded = expandedSections[section.id];
-                              
-                              return (
-                                <div key={section.id}>
-                                  {/* Section Header - Clickable */}
-                                  <div 
-                                    className="px-3 py-2 border-b border-gray-100 cursor-pointer hover:bg-gray-300 flex items-center justify-between"
-                                    onClick={() => toggleSection(section.id)}
-                                  >
-                                    <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wide text-left">
-                                      {section.label}
-                                    </h4>
-                                    <ChevronDown 
-                                      className={`w-3 h-3 text-gray-500 transition-transform ${
-                                        isExpanded ? 'rotate-180' : ''
-                                      }`} 
-                                    />
-                                  </div>
-                                  
-                                  {/* Section Items - Only show if expanded */}
-                                  {isExpanded && section.items.map((point) => {
-                                    const isNameUsedByOtherColumn = Object.entries(columnHeaders).some(([key, value]) => 
-                                      key !== header.key && value?.label === point.label
-                                    );
+                          <div className="py-1">
+                            {dataSections
+                              .filter(section => section.id !== 'dubai-school-landscape') // Filter out school section
+                              .map((section) => {
+                                const isExpanded = expandedSections[section.id];
+                                
+                                return (
+                                  <div key={section.id}>
+                                    {/* Section Header - Clickable */}
+                                    <div 
+                                      className="px-2 py-1 border-b border-gray-100 cursor-pointer hover:bg-gray-300 flex items-center justify-between"
+                                      onClick={() => toggleSection(section.id)}
+                                    >
+                                      <h4 className="text-[10px] font-semibold text-gray-500 uppercase tracking-wide text-left">
+                                        {section.label}
+                                      </h4>
+                                      <ChevronDown 
+                                        className={`w-2.5 h-2.5 text-gray-500 transition-transform ${
+                                          isExpanded ? 'rotate-180' : ''
+                                        }`} 
+                                      />
+                                    </div>
                                     
-                                    const isSectionUsedByOtherColumn = Object.entries(columnHeaders).some(([key, value]) => 
-                                      key !== header.key && value?.sectionId === section.id
-                                    );
-                                    
-                                    const isUsedByOtherColumn = isNameUsedByOtherColumn || isSectionUsedByOtherColumn;
-                                    
-                                    return (
-                                      <div
-                                        key={point.id}
-                                        onClick={() => handleColumnHeaderChange(header.key, point)}
-                                        className={`px-3 py-2 hover:bg-gray-100 cursor-pointer flex items-center justify-between ${
-                                          isUsedByOtherColumn ? '' : ''
-                                        }`}
-                                      >
-                                        <div className="flex items-center space-x-2">
-                                          <span className="text-xs text-left text-gray-700">{point.label}</span>
-                                          {/* {isNameUsedByOtherColumn && (
-                                            <span className="text-xs text-red-500">(Same name used)</span>
-                                          )} */}
-                                          {isSectionUsedByOtherColumn && !isNameUsedByOtherColumn && (
-                                            <span className="text-xs text-orange">(Section used)</span>
+                                    {/* Section Items - Only show if expanded */}
+                                    {isExpanded && section.items.map((point) => {
+                                      const isNameUsedByOtherColumn = Object.entries(columnHeaders).some(([key, value]) => 
+                                        key !== header.key && value?.label === point.label
+                                      );
+                                      
+                                      const isSectionUsedByOtherColumn = Object.entries(columnHeaders).some(([key, value]) => 
+                                        key !== header.key && value?.sectionId === section.id
+                                      );
+                                      
+                                      const isUsedByOtherColumn = isNameUsedByOtherColumn || isSectionUsedByOtherColumn;
+                                      
+                                      return (
+                                        <div
+                                          key={point.id}
+                                          onClick={() => handleColumnHeaderChange(header.key, point)}
+                                          className={`px-2 py-1 hover:bg-gray-100 cursor-pointer flex items-center justify-between ${
+                                            isUsedByOtherColumn ? '' : ''
+                                          }`}
+                                        >
+                                          <div className="flex items-center space-x-1">
+                                            <span className="text-[10px] text-left text-gray-700">{point.label}</span>
+                                            {/* {isNameUsedByOtherColumn && (
+                                              <span className="text-[10px] text-red-500">(Same name used)</span>
+                                            )} */}
+                                            {isSectionUsedByOtherColumn && !isNameUsedByOtherColumn && (
+                                              <span className="text-[10px] text-orange">(Section used)</span>
+                                            )}
+                                          </div>
+                                          {point.isPremium && (
+                                            <Crown className="w-2.5 h-2.5 text-orange" />
                                           )}
                                         </div>
-                                        {point.isPremium && (
-                                          <Crown className="w-3 h-3 text-orange" />
-                                        )}
-                                      </div>
-                                    );
-                                  })}
-                                </div>
-                              );
-                            })}
+                                      );
+                                    })}
+                                  </div>
+                                );
+                              })}
                             
                           </div>
                         </div>
@@ -354,11 +406,11 @@ const tableHeaders = [
               </thead>
               <tbody>
                 {currentData.map((row, index) => (
-                  <tr key={row.rk} className="border-b border-gray-100 hover:bg-gray-50 text-center">
+                  <tr key={mode === 'schools' ? row['School Name'] || index : row.rk} className="border-b border-gray-100 hover:bg-gray-50 text-center">
                     {tableHeaders.map((header) => (
                       <td 
                         key={header.key}
-                        className={`px-1 py-1 md:px-2 md:py-2 lg:py-3 lg:px-3 text-center text-xs sm:text-sm text-blue ${header.className || ''} font-inter`}
+                        className={`px-1 py-1 md:px-1.5 md:py-1.5 lg:py-2 lg:px-2 text-center text-[10px] sm:text-xs text-blue ${header.className || ''} font-inter`}
                       >
                         {formatCellValue(row[header.key], header.format)}
                       </td>
@@ -371,35 +423,36 @@ const tableHeaders = [
         </div>
 
         {/* Pagination */}
-        <div className="p-6 border-t border-gray-200">
+        <div className="p-3 border-t border-gray-200">
           <div className="flex items-center justify-between">
-              <div className="flex items-center space-x-4">
-                <span className="text-[10px] sm:text-xs md:text-sm text-blue font-inter">
+              <div className="flex items-center space-x-3">
+                <span className="text-[9px] sm:text-[10px] md:text-xs text-blue font-inter">
                   Showing {startIndex + 1} to {Math.min(endIndex, sortedData.length)} of {sortedData.length}
                 </span>
-                <div className="flex items-center space-x-2">
-                  <label className="text-[10px] sm:text-xs md:text-sm text-blue font-inter">Rows per Page:</label>
+                <div className="flex items-center space-x-1.5">
+                  <label className="text-[9px] sm:text-[10px] md:text-xs text-blue font-inter">Rows per Page:</label>
                   <select
                     value={rowsPerPage}
                     onChange={(e) => {
                       setRowsPerPage(Number(e.target.value));
                       setCurrentPage(1);
                     }}
-                    className="px-1 sm:px-2 py-1 border border-gray-300 rounded text-[10px] sm:text-xs md:text-sm focus:outline-none focus:ring-1 focus:ring-blue text-blue font-inter"
+                    className="px-1 py-0.5 border border-gray-300 rounded text-[9px] sm:text-[10px] md:text-xs focus:outline-none focus:ring-1 focus:ring-blue text-blue font-inter"
                   >
                     <option value={5}>5</option>
                     <option value={10}>10</option>
                     <option value={25}>25</option>
                     <option value={50}>50</option>
+                    <option value={100}>100</option>
                   </select>
                 </div>
               </div>
             
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-1">
               <button
                 onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                 disabled={currentPage === 1}
-                className="px-1 sm:px-2 py-1 border border-gray-300 rounded text-[10px] sm:text-xs md:text-sm hover:bg-blue hover:text-white disabled:opacity-50 disabled:cursor-not-allowed text-blue font-inter"
+                className="px-1.5 py-0.5 border border-gray-300 rounded text-[9px] sm:text-[10px] md:text-xs hover:bg-blue hover:text-white disabled:opacity-50 disabled:cursor-not-allowed text-blue font-inter"
               >
                 &lt;
               </button>
@@ -410,7 +463,7 @@ const tableHeaders = [
                   <button
                     key={pageNum}
                     onClick={() => setCurrentPage(pageNum)}
-                    className={`px-1 sm:px-2 py-1 border rounded text-[10px] sm:text-xs md:text-sm font-inter ${
+                    className={`px-1.5 py-0.5 border rounded text-[9px] sm:text-[10px] md:text-xs font-inter ${
                       currentPage === pageNum
                         ? 'bg-blue text-white border-blue'
                         : 'border-gray-300 hover:bg-blue hover:text-white text-blue'
@@ -424,7 +477,7 @@ const tableHeaders = [
               <button
                 onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
                 disabled={currentPage === totalPages}
-                className="px-1 sm:px-2 py-1 border border-gray-300 rounded text-[10px] sm:text-xs md:text-sm hover:bg-blue hover:text-white disabled:opacity-50 disabled:cursor-not-allowed text-blue font-inter"
+                className="px-1.5 py-0.5 border border-gray-300 rounded text-[9px] sm:text-[10px] md:text-xs hover:bg-blue hover:text-white disabled:opacity-50 disabled:cursor-not-allowed text-blue font-inter"
               >
                 &gt;
               </button>
