@@ -580,11 +580,55 @@ export const processFeesOverYears = (schools) => {
 };
 
 /**
+ * Get available grades from a school's fee data
+ * @param {Object} school - School object
+ * @returns {Array} - Array of grade names that have fee data
+ */
+export const getAvailableGradesFromSchool = (school) => {
+  if (!school) return [];
+  
+  const feesOverYears = school.feesOverYears || school.fees;
+  if (!feesOverYears || typeof feesOverYears !== 'object') return [];
+  
+  const gradeSet = new Set();
+  
+  // Collect all grade keys from all years
+  Object.keys(feesOverYears).forEach(yearStr => {
+    const year = parseInt(yearStr);
+    if (isNaN(year)) return;
+    
+    const yearFees = feesOverYears[yearStr];
+    if (!yearFees || typeof yearFees !== 'object') return;
+    
+    Object.keys(yearFees).forEach(grade => {
+      const fee = yearFees[grade];
+      if (typeof fee === 'number' && fee > 0) {
+        gradeSet.add(grade);
+      }
+    });
+  });
+  
+  // Sort grades in a logical order
+  const grades = Array.from(gradeSet);
+  const gradeOrder = ['Pre-primary', 'KG-1', 'KG-2', 'Grade 1', 'Grade 2', 'Grade 3', 'Grade 4', 'Grade 5', 'Grade 6', 'Grade 7', 'Grade 8', 'Grade 9', 'Grade 10', 'Grade 11', 'Grade 12', 'Grade 13'];
+  
+  return grades.sort((a, b) => {
+    const indexA = gradeOrder.indexOf(a);
+    const indexB = gradeOrder.indexOf(b);
+    if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+    if (indexA !== -1) return -1;
+    if (indexB !== -1) return 1;
+    return a.localeCompare(b);
+  });
+};
+
+/**
  * Process fees data over years for a single school
  * @param {Object} school - School object
- * @returns {Array} - Array of { year, averageFee, date } objects
+ * @param {string} grade - Optional grade name to filter by. If not provided, returns average
+ * @returns {Array} - Array of { year, averageFee, date } objects (or gradeFee if grade is specified)
  */
-export const processSchoolFeesOverYears = (school) => {
+export const processSchoolFeesOverYears = (school, grade = null) => {
   if (!school) return [];
   
   const feesOverYears = school.feesOverYears || school.fees;
@@ -600,19 +644,31 @@ export const processSchoolFeesOverYears = (school) => {
     const yearFees = feesOverYears[yearStr];
     if (!yearFees || typeof yearFees !== 'object') return;
     
-    // Calculate average fee for this year (average of all grade fees, excluding 0)
-    const feeValues = Object.values(yearFees).filter(fee => 
-      typeof fee === 'number' && fee > 0
-    );
-    
-    if (feeValues.length > 0) {
-      const averageFee = feeValues.reduce((sum, fee) => sum + fee, 0) / feeValues.length;
+    if (grade) {
+      // Get fee for specific grade
+      const gradeFee = yearFees[grade];
+      if (typeof gradeFee === 'number' && gradeFee > 0) {
+        fees.push({
+          year: year,
+          averageFee: Math.round(gradeFee),
+          date: new Date(year, 6, 1).toISOString()
+        });
+      }
+    } else {
+      // Calculate average fee for this year (average of all grade fees, excluding 0)
+      const feeValues = Object.values(yearFees).filter(fee => 
+        typeof fee === 'number' && fee > 0
+      );
       
-      fees.push({
-        year: year,
-        averageFee: Math.round(averageFee),
-        date: new Date(year, 6, 1).toISOString()
-      });
+      if (feeValues.length > 0) {
+        const averageFee = feeValues.reduce((sum, fee) => sum + fee, 0) / feeValues.length;
+        
+        fees.push({
+          year: year,
+          averageFee: Math.round(averageFee),
+          date: new Date(year, 6, 1).toISOString()
+        });
+      }
     }
   });
   

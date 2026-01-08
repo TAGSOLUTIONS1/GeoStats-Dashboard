@@ -2,7 +2,7 @@
 import React, { useMemo, useRef, useState, useEffect } from "react";
 import { X, BarChart3, TrendingUp, Users, School, DollarSign } from "lucide-react";
 import { motion } from "framer-motion";
-import { processRatingOverYears, processSchoolRatingOverYears, processSchoolEnrollmentOverYears, processFeesOverYears, processSchoolFeesOverYears } from "../../services/school";
+import { processRatingOverYears, processSchoolRatingOverYears, processSchoolEnrollmentOverYears, processFeesOverYears, processSchoolFeesOverYears, getAvailableGradesFromSchool } from "../../services/school";
 
 const RATING_COLORS = {
   0: '#9CA3AF', // Gray - Not yet inspected
@@ -30,6 +30,7 @@ const SchoolGraphModal = ({
   const [selectedSchool, setSelectedSchool] = useState('');
   const [selectedEnrollmentSchool, setSelectedEnrollmentSchool] = useState('');
   const [selectedFeeSchool, setSelectedFeeSchool] = useState('');
+  const [selectedFeeGrade, setSelectedFeeGrade] = useState(''); // '' means average, otherwise specific grade
   
   const svgWidth = 760;
   const svgHeight = 400;
@@ -108,13 +109,21 @@ const SchoolGraphModal = ({
     return processFeesOverYears(schools);
   }, [schools]);
 
-  // Process selected school fees over years
+  // Get available grades for selected school
+  const availableGrades = useMemo(() => {
+    if (!selectedFeeSchool || !schools || schools.length === 0) return [];
+    const school = schools.find(s => s['School Name'] === selectedFeeSchool);
+    if (!school) return [];
+    return getAvailableGradesFromSchool(school);
+  }, [selectedFeeSchool, schools]);
+
+  // Process selected school fees over years (with optional grade filter)
   const selectedSchoolFeesData = useMemo(() => {
     if (!selectedFeeSchool || !schools || schools.length === 0) return [];
     const school = schools.find(s => s['School Name'] === selectedFeeSchool);
     if (!school) return [];
-    return processSchoolFeesOverYears(school);
-  }, [selectedFeeSchool, schools]);
+    return processSchoolFeesOverYears(school, selectedFeeGrade || null);
+  }, [selectedFeeSchool, selectedFeeGrade, schools]);
 
   // Process all schools fees over years
   const allSchoolsFeesData = useMemo(() => {
@@ -2207,23 +2216,50 @@ const SchoolGraphModal = ({
         return (
           <div>
             {feeViewModeSelector}
-            <div className="mb-4">
-              <label className="block text-sm font-medium text-gray-700 mb-2">Select School:</label>
-              <select
-                value={selectedFeeSchool}
-                onChange={(e) => setSelectedFeeSchool(e.target.value)}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-              >
-                <option value="">Select a school</option>
-                {schoolNames.map(name => (
-                  <option key={name} value={name}>{name}</option>
-                ))}
-              </select>
+            <div className="mb-4 flex items-end gap-3">
+              <div className="flex-1 w-1/2">
+                <label className="block text-sm font-medium text-gray-700 mb-2">Select School:</label>
+                <select
+                  value={selectedFeeSchool}
+                  onChange={(e) => {
+                    setSelectedFeeSchool(e.target.value);
+                    setSelectedFeeGrade(''); // Reset grade when school changes
+                  }}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                >
+                  <option value="">Select a school</option>
+                  {schoolNames.map(name => (
+                    <option key={name} value={name}>{name}</option>
+                  ))}
+                </select>
+              </div>
+              {selectedFeeSchool && availableGrades.length > 0 && (
+                <div className="flex-1 w-1/2">
+                  <label className="block text-sm font-medium text-gray-700 mb-2">Select Grade (optional):</label>
+                  <select
+                    value={selectedFeeGrade}
+                    onChange={(e) => setSelectedFeeGrade(e.target.value)}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                  >
+                    <option value="">All Grades (Average)</option>
+                    {availableGrades.map(grade => (
+                      <option key={grade} value={grade}>{grade}</option>
+                    ))}
+                  </select>
+                </div>
+              )}
             </div>
+            {selectedFeeSchool && availableGrades.length > 0 && (
+              <p className="text-xs text-gray-500 mb-4 -mt-2">Select a specific grade to see fee trends for that grade only</p>
+            )}
             <div className="flex items-center justify-center h-96 bg-gray-50 rounded-xl border-2 border-dashed border-gray-300">
               <div className="text-center">
                 <div className="text-gray-400 text-4xl mb-2">📊</div>
-                <p className="text-gray-500 text-sm">No fees data available for selected school</p>
+                <p className="text-gray-500 text-sm">
+                  {selectedFeeGrade 
+                    ? `No fees data available for ${selectedFeeGrade} in selected school`
+                    : 'No fees data available for selected school'}
+                </p>
               </div>
             </div>
           </div>
@@ -2252,23 +2288,50 @@ const SchoolGraphModal = ({
       return (
         <div className="relative w-full">
           {feeViewModeSelector}
-          <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700 mb-2">Select School:</label>
-            <select
-              value={selectedFeeSchool}
-              onChange={(e) => setSelectedFeeSchool(e.target.value)}
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-            >
-              <option value="">Select a school</option>
-              {schoolNames.map(name => (
-                <option key={name} value={name}>{name}</option>
-              ))}
-            </select>
+          <div className="mb-4 flex items-end gap-3">
+            <div className="flex-1 w-1/2">
+              <label className="block text-sm font-medium text-gray-700 mb-2">Select School:</label>
+              <select
+                value={selectedFeeSchool}
+                onChange={(e) => {
+                  setSelectedFeeSchool(e.target.value);
+                  setSelectedFeeGrade(''); // Reset grade when school changes
+                }}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              >
+                <option value="">Select a school</option>
+                {schoolNames.map(name => (
+                  <option key={name} value={name}>{name}</option>
+                ))}
+              </select>
+            </div>
+            {selectedFeeSchool && availableGrades.length > 0 && (
+              <div className="flex-1 w-1/2">
+                <label className="block text-sm font-medium text-gray-700 mb-2">Select Grade (optional):</label>
+                <select
+                  value={selectedFeeGrade}
+                  onChange={(e) => setSelectedFeeGrade(e.target.value)}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                >
+                  <option value="">All Grades (Average)</option>
+                  {availableGrades.map(grade => (
+                    <option key={grade} value={grade}>{grade}</option>
+                  ))}
+                </select>
+              </div>
+            )}
           </div>
+          {selectedFeeSchool && availableGrades.length > 0 && (
+            <p className="text-xs text-gray-500 mb-4 -mt-2">Select a specific grade to see fee trends for that grade only</p>
+          )}
           <div className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-200">
             <div className="mb-4">
               <h3 className="text-lg font-semibold text-gray-800 mb-1">School Fee Over Years</h3>
-              <p className="text-sm text-gray-600">{selectedFeeSchool}</p>
+              <p className="text-sm text-gray-600">
+                {selectedFeeSchool}
+                {selectedFeeGrade && <span className="ml-2 text-gray-500">- {selectedFeeGrade}</span>}
+                {!selectedFeeGrade && <span className="ml-2 text-gray-500">- Average (All Grades)</span>}
+              </p>
             </div>
             <div className="relative h-0 w-full pt-[52.6%]">
               <svg 
@@ -2393,7 +2456,7 @@ const SchoolGraphModal = ({
                   fill="#6B7280"
                   fontWeight="500"
                 >
-                  Average Fee (AED)
+                  {selectedFeeGrade ? `${selectedFeeGrade} Fee (AED)` : 'Average Fee (AED)'}
                 </text>
 
                 {/* X-axis label */}
@@ -2423,7 +2486,9 @@ const SchoolGraphModal = ({
                   }}
                 >
                   <div className="font-semibold">Year: {cursor.data.year}</div>
-                  <div className="text-gray-300">Average Fee: {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'AED', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(cursor.data.averageFee)}</div>
+                  <div className="text-gray-300">
+                    {selectedFeeGrade ? `${selectedFeeGrade} Fee` : 'Average Fee'}: {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'AED', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(cursor.data.averageFee)}
+                  </div>
                 </div>
               );
             })()}
