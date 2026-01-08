@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState, useCallback, useMemo } from 'react'
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { addSchoolCountsToGeoJSON, getSchoolsInArea, processEnrollmentData, processRatingDistribution } from '../../services/school';
+import schoolsData from '../../data/schools/schools.json';
 
 const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoint = null, filteredSchools = null }) => {
   const mapContainer = useRef(null);
@@ -64,12 +65,19 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
 
   // Process GeoJSON with school counts
   const processGeoJSONWithSchools = useCallback((geojson) => {
+    // Guard against null/undefined geojson
+    if (!geojson || !geojson.features) {
+      return geojson || { type: 'FeatureCollection', features: [] };
+    }
+    
     // Initialize cache if not already done (client-side only)
     if (!processedDataCache.current && typeof window !== 'undefined') {
       processedDataCache.current = new window.Map();
     }
     
-    const cacheKey = `schools-${selectedFilter}-${visualizationMode}-${geojson.features?.length || 0}`;
+    // Ensure visualizationMode is defined (fallback to 'rating')
+    const mode = visualizationMode || 'rating';
+    const cacheKey = `schools-${selectedFilter}-${mode}-${geojson.features?.length || 0}`;
     
     if (processedDataCache.current && processedDataCache.current.has(cacheKey)) {
       return processedDataCache.current.get(cacheKey);
@@ -178,7 +186,37 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
     }
   }, [visualizationMode, getRatingColorScheme, getEnrollmentColorScheme, getFeeColorScheme, getCountColorScheme]);
 
+  // Load data asynchronously
   useEffect(() => {
+    const loadData = async () => {
+      try {
+        const [
+          { dubaiGeoData: importedDubaiGeoData, geojsonData: importedGeojsonData },
+          { dubaiWEBDATA: importedDubaiWEBDATA }
+        ] = await Promise.all([
+          import('../../data/geoData'),
+          import('../../data/DubaiData')
+        ]);
+        dataRef.current = {
+          geojsonData: importedGeojsonData,
+          dubaiWEBDATA: importedDubaiWEBDATA,
+          schoolsData: schoolsData // Use statically imported schools data
+        };
+        setDataLoaded(true);
+      } catch (error) {
+        console.error("Failed to load school map data:", error);
+        // Set schools data even if other data fails
+        dataRef.current.schoolsData = schoolsData;
+        // Still set dataLoaded to true to allow map to render even if data fails
+        setDataLoaded(true);
+      }
+    };
+    loadData();
+  }, []);
+
+  useEffect(() => {
+    if (!dataLoaded) return; // Wait for data to load
+
     const token = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || process.env.MAPBOX_ACCESS_TOKEN;
     if (!token || token === 'your_mapbox_access_token_here' || map.current) return;
 
@@ -193,7 +231,9 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
       scrollZoom: !disableScrollZoom
     });
 
-    window.map = map.current;
+    if (typeof window !== 'undefined') {
+      window.map = map.current;
+    }
 
     map.current.on('load', () => {
       if (!map.current) return;
@@ -202,7 +242,14 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
 
       // Process GeoJSON with school counts
       const baseGeoJSON = selectedFilter === 'Area' ? dataRef.current.geojsonData : dataRef.current.dubaiWEBDATA;
-      const processedData = processGeoJSONWithSchools(baseGeoJSON, dataRef.current.schoolsData);
+      
+      // Guard against null/undefined data
+      if (!baseGeoJSON) {
+        console.warn('GeoJSON data not loaded yet');
+        return;
+      }
+      
+      const processedData = processGeoJSONWithSchools(baseGeoJSON);
 
       map.current.addSource('dubai-communities', {
         type: 'geojson',
@@ -472,10 +519,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
               btn.onclick = () => {
                 // Clean area name - remove municipality number
                 const cleanPlaceName = placeName.split(' - ')[0].trim();
-                window.dispatchEvent(new CustomEvent('map:placeSelected', {
-                  detail: { placeName: cleanPlaceName, lngLat: e.lngLat }
-                }));
-                // Dispatch school graph event
+                // Dispatch school graph event only (avoid opening population graph modal)
                 dispatchSchoolGraphEvent(cleanPlaceName, e.features[0]);
                 popup.remove();
                 clickPopupRef.current = null;
@@ -519,14 +563,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
           // Remove municipality number if present (format: "AREA NAME - NUMBER")
           areaName = areaName.split(' - ')[0].trim();
           
-          window.dispatchEvent(new CustomEvent('map:placeSelected', {
-            detail: { 
-              placeName: areaName,
-              lngLat: e.lngLat
-            }
-          }));
-          
-          // Dispatch school graph event
+          // Dispatch school graph event only (avoid opening population graph modal)
           dispatchSchoolGraphEvent(areaName, e.features[0]);
         });
       }
@@ -841,10 +878,16 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
 
   // Update data when filter changes
   useEffect(() => {
-    if (!map.current || !isMapLoaded) return;
+    if (!map.current || !isMapLoaded || !dataLoaded) return;
 
     const baseGeoJSON = selectedFilter === 'Area' ? dataRef.current.geojsonData : dataRef.current.dubaiWEBDATA;
-    const newData = processGeoJSONWithSchools(baseGeoJSON, dataRef.current.schoolsData);
+    
+    // Guard against null/undefined data
+    if (!baseGeoJSON) {
+      return;
+    }
+    
+    const newData = processGeoJSONWithSchools(baseGeoJSON);
 
     const source = map.current.getSource('dubai-communities');
     if (source) {

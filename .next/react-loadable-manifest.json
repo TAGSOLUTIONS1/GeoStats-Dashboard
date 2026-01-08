@@ -1,22 +1,4 @@
 {
-  "app/about/page.js -> @/components/Layout": {
-    "id": "app/about/page.js -> @/components/Layout",
-    "files": [
-      "static/chunks/_app-pages-browser_src_components_Layout_jsx-_f2920.js"
-    ]
-  },
-  "app/b2c/page.js -> @/components/Layout": {
-    "id": "app/b2c/page.js -> @/components/Layout",
-    "files": [
-      "static/chunks/_app-pages-browser_src_components_Layout_jsx-_f2921.js"
-    ]
-  },
-  "app/b2g/page.js -> @/components/Layout": {
-    "id": "app/b2g/page.js -> @/components/Layout",
-    "files": [
-      "static/chunks/_app-pages-browser_src_components_Layout_jsx-_f2921.js"
-    ]
-  },
   "app/map/page.js -> @/components/layout/Layout": {
     "id": "app/map/page.js -> @/components/layout/Layout",
     "files": [
@@ -47,6 +29,18 @@
     "id": "src/components/ui/Map.jsx -> ../../data/new_population",
     "files": [
       "static/chunks/_app-pages-browser_src_data_new_population_js.js"
+    ]
+  },
+  "src/components/ui/SchoolMap.jsx -> ../../data/DubaiData": {
+    "id": "src/components/ui/SchoolMap.jsx -> ../../data/DubaiData",
+    "files": [
+      "static/chunks/_app-pages-browser_src_data_DubaiData_js.js"
+    ]
+  },
+  "src/components/ui/SchoolMap.jsx -> ../../data/geoData": {
+    "id": "src/components/ui/SchoolMap.jsx -> ../../data/geoData",
+    "files": [
+      "static/chunks/_app-pages-browser_src_data_geoData_js.js"
     ]
   }
 }

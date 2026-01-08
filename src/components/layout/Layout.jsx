@@ -844,15 +844,17 @@ const Layout = ({ children }) => {
         const handleOpenModal = (e) => {
             if (e.detail === 'explore') {
                 setIsExploreModalOpen(true);
+                // Don't close sidebar when opening explore modal - users should be able to see both
             }
-            if (!isDesktop) { 
+            // Only close sidebar for other modals on mobile, not for explore modal
+            if (!isDesktop && e.detail !== 'explore') { 
                 setIsSidebarOpen(false);
             }
         };
         window.addEventListener('modal:open', handleOpenModal);
         // Removes the listener when the component unmounts
         return () => window.removeEventListener('modal:open', handleOpenModal);
-    }, []);
+    }, [isDesktop]);
     
   return (
     <div className="flex h-screen bg-gray-50 relative mobile-scroll-fix">
