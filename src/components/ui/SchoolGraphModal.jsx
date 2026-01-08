@@ -33,7 +33,7 @@ const SchoolGraphModal = ({
   
   const svgWidth = 760;
   const svgHeight = 400;
-  const margin = { top: 40, right: 40, bottom: 60, left: 60 };
+  const margin = { top: 40, right: 40, bottom: 60, left: 80 }; // Increased left margin for y-axis labels
 
   // Process rating over years data
   const ratingOverYears = useMemo(() => {
@@ -2041,13 +2041,13 @@ const SchoolGraphModal = ({
                         strokeDasharray="4,4"
                       />
                       <text
-                        x={margin.left - 10}
+                        x={margin.left - 15}
                         y={y + 4}
                         textAnchor="end"
-                        fontSize="12"
+                        fontSize="11"
                         fill="#6B7280"
                       >
-                        {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'AED', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(value)}
+                        {new Intl.NumberFormat('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(Math.round(value))}
                       </text>
                     </g>
                   );
@@ -2108,10 +2108,10 @@ const SchoolGraphModal = ({
                 {/* Y-axis label */}
                 <text
                   x={-svgHeight / 2}
-                  y={20}
+                  y={12}
                   transform="rotate(-90)"
                   textAnchor="middle"
-                  fontSize="14"
+                  fontSize="12"
                   fill="#6B7280"
                   fontWeight="500"
                 >
@@ -2123,7 +2123,7 @@ const SchoolGraphModal = ({
                   x={svgWidth / 2}
                   y={svgHeight - 10}
                   textAnchor="middle"
-                  fontSize="14"
+                  fontSize="12"
                   fill="#6B7280"
                   fontWeight="500"
                 >
@@ -2285,13 +2285,13 @@ const SchoolGraphModal = ({
                         strokeDasharray="4,4"
                       />
                       <text
-                        x={margin.left - 10}
+                        x={margin.left - 15}
                         y={y + 4}
                         textAnchor="end"
-                        fontSize="12"
+                        fontSize="11"
                         fill="#6B7280"
                       >
-                        {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'AED', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(value)}
+                        {new Intl.NumberFormat('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(Math.round(value))}
                       </text>
                     </g>
                   );
@@ -2354,10 +2354,10 @@ const SchoolGraphModal = ({
                 {/* Y-axis label */}
                 <text
                   x={-svgHeight / 2}
-                  y={20}
+                  y={12}
                   transform="rotate(-90)"
                   textAnchor="middle"
-                  fontSize="14"
+                  fontSize="12"
                   fill="#6B7280"
                   fontWeight="500"
                 >
@@ -2369,7 +2369,7 @@ const SchoolGraphModal = ({
                   x={svgWidth / 2}
                   y={svgHeight - 10}
                   textAnchor="middle"
-                  fontSize="14"
+                  fontSize="12"
                   fill="#6B7280"
                   fontWeight="500"
                 >
@@ -2519,13 +2519,13 @@ const SchoolGraphModal = ({
                         strokeDasharray="4,4"
                       />
                       <text
-                        x={margin.left - 10}
+                        x={margin.left - 15}
                         y={y + 4}
                         textAnchor="end"
-                        fontSize="12"
+                        fontSize="11"
                         fill="#6B7280"
                       >
-                        {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'AED', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(value)}
+                        {new Intl.NumberFormat('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(Math.round(value))}
                       </text>
                     </g>
                   );
@@ -2603,10 +2603,10 @@ const SchoolGraphModal = ({
                 {/* Y-axis label */}
                 <text
                   x={-svgHeight / 2}
-                  y={20}
+                  y={12}
                   transform="rotate(-90)"
                   textAnchor="middle"
-                  fontSize="14"
+                  fontSize="12"
                   fill="#6B7280"
                   fontWeight="500"
                 >
@@ -2618,7 +2618,7 @@ const SchoolGraphModal = ({
                   x={svgWidth / 2}
                   y={svgHeight - 10}
                   textAnchor="middle"
-                  fontSize="14"
+                  fontSize="12"
                   fill="#6B7280"
                   fontWeight="500"
                 >
