@@ -936,9 +936,9 @@ const Layout = ({ children }) => {
       
       <main className="flex-1 relative z-20 flex flex-col pointer-events-none">
         {/* Top Header */}
-        <div className="bg-white/95 mt-4 mx-2 sm:mx-4 lg:mx-6 border-b border-gray-200 px-2 sm:px-4 lg:px-6 py-2 flex justify-between pointer-events-auto items-center rounded-lg">
+        <div className="bg-white/95 mt-2 mx-2 sm:mx-4 lg:mx-6 border-b border-gray-200 px-2 sm:px-4 lg:px-6 py-1.5 flex justify-between pointer-events-auto items-center rounded-lg">
           {/* Left side with back button, logo, hamburger and search */}
-          <div className="flex items-center space-x-2 sm:space-x-4 flex-1">
+          <div className="flex items-center space-x-1.5 sm:space-x-3 flex-1">
             
             {/* Hamburger Menu - Visible on mobile and desktop when sidebar is closed */}
             <button
@@ -968,7 +968,7 @@ const Layout = ({ children }) => {
                 placeholder="Search locations in Dubai"
                 value={searchQuery}
                 onChange={(e) => handleSearch(e.target.value)}
-                className="pl-10 pr-4 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure w-full"
+                className="pl-10 pr-4 py-1 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure w-full"
               />
               
               {/* Search suggestions dropdown */}
@@ -997,9 +997,9 @@ const Layout = ({ children }) => {
           </div>
 
           {/* Right side controls */}
-          <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-6">
+          <div className="flex items-center space-x-1.5 sm:space-x-3 lg:space-x-4">
             {/* Filter Options - Always show */}
-            <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
+            <div className="hidden md:flex items-center space-x-3 lg:space-x-6">
               {filterOptions.map((option) => (
                 <label key={option} className="flex items-center space-x-2">
                   <input
@@ -1016,7 +1016,7 @@ const Layout = ({ children }) => {
             </div>
 
             {/* Action Buttons */}
-            <div className="flex items-center space-x-1 sm:space-x-2 lg:space-x-4">
+            <div className="flex items-center space-x-1 sm:space-x-1.5 lg:space-x-2">
               <button 
                 onClick={handleClear}
                 className="p-2 hover:bg-gray-100 rounded-lg transition-colors flex items-center space-x-1 border border-gray-300"
@@ -1067,7 +1067,7 @@ const Layout = ({ children }) => {
         </div>
         
         {/* Mobile Filter Options - Show when filter options are hidden */}
-        <div className="md:hidden bg-white/95 mx-2 sm:mx-4 mt-2 px-4 py-3 rounded-lg pointer-events-auto">
+        <div className="md:hidden bg-white/95 mx-2 sm:mx-4 mt-1 px-4 py-2 rounded-lg pointer-events-auto">
           <div className="flex flex-wrap gap-4">
             {filterOptions.map((option) => (
               <label key={option} className="flex items-center space-x-2">
@@ -1100,7 +1100,7 @@ const Layout = ({ children }) => {
         )}
 
         {/* Bottom Control Bar */}
-        <div className="px-2 sm:px-4 lg:px-6 py-4 flex items-center space-x-4 lg:space-x-6 pointer-events-auto flex-wrap gap-3">
+        <div className="px-2 sm:px-4 lg:px-6 py-2 flex items-center space-x-2 sm:space-x-3 lg:space-x-4 pointer-events-auto flex-wrap gap-2">
           <div className="flex items-center">
             <button 
               onClick={handleTableView}
@@ -1133,7 +1133,7 @@ const Layout = ({ children }) => {
       </main>
       
       {/* Feedback Button - Floating above map controls */}
-      <div className="absolute bottom-52 right-2 sm:right-4 pointer-events-auto z-10">
+      <div className="absolute bottom-40 right-2 sm:right-4 pointer-events-auto z-10">
         <button 
           onClick={handleFeedback}
           className="flex items-center space-x-2 px-3 sm:px-4 py-2 bg-white/95 hover:bg-white rounded-lg shadow-lg transition-all duration-200 ease-in-out hover:shadow-xl transform hover:scale-105"
