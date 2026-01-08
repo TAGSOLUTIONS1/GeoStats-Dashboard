@@ -5,7 +5,7 @@ const ColorLegend = ({ mode }) => {
 
   if (mode === 'rating') {
     return (
-      <div className="flex items-center space-x-2 bg-white px-3 py-1.5 rounded-lg shadow-sm border border-gray-200">
+      <div className="flex items-center space-x-1 sm:space-x-2 bg-white px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg shadow-sm border border-gray-200 overflow-x-auto">
         <div className="flex items-center space-x-0.5">
           <div className="flex flex-col items-center">
             <div className="w-3 h-2.5 rounded" style={{ backgroundColor: '#d32f2f' }}></div>
@@ -49,7 +49,7 @@ const ColorLegend = ({ mode }) => {
 
   if (mode === 'enrollment') {
     return (
-      <div className="flex items-center space-x-2 bg-white px-3 py-1.5 rounded-lg shadow-sm border border-gray-200">
+      <div className="flex items-center space-x-1 sm:space-x-2 bg-white px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg shadow-sm border border-gray-200 overflow-x-auto">
         <div className="flex items-center space-x-0.5">
           <div className="flex flex-col items-center">
             <div className="w-3 h-2.5 rounded" style={{ backgroundColor: '#fff3e0' }}></div>
@@ -98,7 +98,7 @@ const ColorLegend = ({ mode }) => {
 
   if (mode === 'fee') {
     return (
-      <div className="flex items-center space-x-2 bg-white px-3 py-1.5 rounded-lg shadow-sm border border-gray-200">
+      <div className="flex items-center space-x-1 sm:space-x-2 bg-white px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg shadow-sm border border-gray-200 overflow-x-auto">
         <div className="flex items-center space-x-0.5">
           <div className="flex flex-col items-center">
             <div className="w-3 h-2.5 rounded" style={{ backgroundColor: '#e8f5e9' }}></div>
@@ -147,7 +147,7 @@ const ColorLegend = ({ mode }) => {
 
   if (mode === 'count') {
     return (
-      <div className="flex items-center space-x-2 bg-white px-3 py-1.5 rounded-lg shadow-sm border border-gray-200">
+      <div className="flex items-center space-x-1 sm:space-x-2 bg-white px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg shadow-sm border border-gray-200 overflow-x-auto">
         <div className="flex items-center space-x-0.5">
           <div className="flex flex-col items-center">
             <div className="w-3 h-2.5 rounded" style={{ backgroundColor: '#e3f2fd' }}></div>
