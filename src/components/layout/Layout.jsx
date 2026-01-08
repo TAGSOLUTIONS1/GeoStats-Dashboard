@@ -822,10 +822,10 @@ const Layout = ({ children }) => {
       .then((module) => {
         setSeries(module.default);
       })
-      .catch((err) =>
-        console.error("Error loading forecast for area:", areaId, err),
-        setSeries([]),
-      );
+      .catch((err) => {
+        console.error("Error loading forecast for area:", areaId, err);
+        setSeries([]);
+      });
 
     //past series
      import(
@@ -834,10 +834,10 @@ const Layout = ({ children }) => {
       .then((module) => {
         setPastSeries(module.default);
       })
-      .catch((err) =>
-        console.error("Error loading historical data for area:", areaId, err),
-        setPastSeries([]),
-      );
+      .catch((err) => {
+        console.error("Error loading historical data for area:", areaId, err);
+        setPastSeries([]);
+      });
   }, [graphPlace]);
 
 
