@@ -857,7 +857,7 @@ const Layout = ({ children }) => {
     }, [isDesktop]);
     
   return (
-    <div className="flex h-screen bg-gray-50 relative mobile-scroll-fix">
+    <div className="flex h-screen bg-gray-50 relative overflow-hidden">
       {/* Desktop Sidebar */}
       <div className={`hidden lg:block relative transition-all duration-300 ease-in-out overflow-hidden ${
         isSidebarOpen ? 'w-72' : 'w-0'
@@ -919,7 +919,7 @@ const Layout = ({ children }) => {
       )}
       
       {/* Background Map - Fixed behind main content only */}
-      <div className="absolute left-0 right-0 top-0 bottom-0">
+      <div className="absolute inset-0 w-full h-full">
         {isSchoolPanelOpen ? (
           <SchoolMap 
             selectedFilter={selectedFilter}
