@@ -156,6 +156,38 @@ const SchoolGraphModal = ({
     }
   }, [ratingViewMode, schoolNames, selectedSchool]);
 
+  // Reset selected enrollment school when view mode changes and set default
+  useEffect(() => {
+    if (enrollmentViewMode !== 'individual') {
+      setSelectedEnrollmentSchool('');
+    } else if (selectedEnrollmentSchool === '' && allSchoolsEnrollmentData.size > 0) {
+      // Set first school that has enrollment data
+      const firstSchoolWithData = Array.from(allSchoolsEnrollmentData.keys())[0];
+      if (firstSchoolWithData) {
+        setSelectedEnrollmentSchool(firstSchoolWithData);
+      }
+    } else if (selectedEnrollmentSchool === '' && schoolNames.length > 0) {
+      // Fallback to first school name if no enrollment data available yet
+      setSelectedEnrollmentSchool(schoolNames[0]);
+    }
+  }, [enrollmentViewMode, allSchoolsEnrollmentData, schoolNames, selectedEnrollmentSchool]);
+
+  // Reset selected fee school when view mode changes and set default
+  useEffect(() => {
+    if (feeViewMode !== 'individual') {
+      setSelectedFeeSchool('');
+    } else if (selectedFeeSchool === '' && allSchoolsFeesData.size > 0) {
+      // Set first school that has fee data
+      const firstSchoolWithData = Array.from(allSchoolsFeesData.keys())[0];
+      if (firstSchoolWithData) {
+        setSelectedFeeSchool(firstSchoolWithData);
+      }
+    } else if (selectedFeeSchool === '' && schoolNames.length > 0) {
+      // Fallback to first school name if no fee data available yet
+      setSelectedFeeSchool(schoolNames[0]);
+    }
+  }, [feeViewMode, allSchoolsFeesData, schoolNames, selectedFeeSchool]);
+
   // Rating Distribution Chart with multiple view modes
   const renderRatingChart = () => {
     // View mode selector (only for rating mode)
