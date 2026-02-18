@@ -858,7 +858,7 @@ const Layout = ({ children }) => {
     }, [isDesktop]);
     
   return (
-    <div className="flex h-screen bg-gray-50 relative overflow-hidden">
+    <div className="flex min-h-screen bg-gray-50 relative">
       {/* Desktop Sidebar */}
       <div className={`hidden lg:block relative transition-all duration-300 ease-in-out overflow-hidden ${
         isSidebarOpen ? 'w-72' : 'w-0'
@@ -1085,7 +1085,7 @@ const Layout = ({ children }) => {
         
         {/* Main Content Area - Only render if there are actual children */}
         {children && React.Children.count(children) > 0 && (
-          <div className="flex-1 overflow-y-auto bg-transparent pointer-events-none">
+          <div className="flex-1 min-h-0 overflow-y-auto bg-transparent pointer-events-none">
             <div className="pointer-events-auto">
               {children}
             </div>
