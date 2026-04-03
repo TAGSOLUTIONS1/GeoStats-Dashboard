@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowRight, ChevronDown, Search, Crown , ArrowLeft, MapPin } from 'lucide-react';
+import { ArrowRight, Search , ArrowLeft } from 'lucide-react';
 import { useSidebar } from '../../hooks/useSidebar';
 import { dataSections } from '../../data/sidebarData';
-import SidebarSearch from './SidebarSearch';
 import DataSection from './DataSection';
 import DetailPanel from './DetailPanel';
-import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
+// import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
 import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   
-  const [isExploreModalOpen, setIsExploreModalOpen] = useState(false);
+  // const [isExploreModalOpen, setIsExploreModalOpen] = useState(false);
   
   const {
     activeItem,

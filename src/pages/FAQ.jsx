@@ -8,8 +8,6 @@ import {
   Users,
   Building2,
   Shield,
-  Globe,
-  CheckCircle
 } from 'lucide-react';
 
 const FAQ = () => {
