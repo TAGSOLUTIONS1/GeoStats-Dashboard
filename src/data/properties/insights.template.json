@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "dataset": "properties",
+    "currency": "AED",
+    "generated_at": "2026-04-10T00:00:00Z",
+    "total_listings": 0
+  },
+  "combo_counts": [
+    {
+      "Beds": 1,
+      "Baths": 1,
+      "Type": "Apartment",
+      "Count": 0
+    }
+  ],
+  "type_counts": [
+    {
+      "Type": "Apartment",
+      "Count": 0
+    }
+  ],
+  "furnishing_counts": [
+    {
+      "Furnishing": "Furnished",
+      "Count": 0
+    }
+  ],
+  "avg_rent_by_beds_type": [
+    {
+      "Beds": 1,
+      "Type": "Apartment",
+      "AvgRent": 0
+    }
+  ],
+  "avg_rent_by_baths_type": [
+    {
+      "Baths": 1,
+      "Type": "Apartment",
+      "AvgRent": 0
+    }
+  ],
+  "avg_rent_per_sqft_by_location": [
+    {
+      "Location": "Dubai Marina",
+      "AvgRentPerSqft": 0.0,
+      "ListingCount": 0,
+      "Latitude": 25.0800,
+      "Longitude": 55.1400
+    }
+  ]
+}

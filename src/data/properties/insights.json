@@ -1,0 +1,2122 @@
+{
+  "metadata": {
+    "dataset": "properties",
+    "currency": "AED",
+    "generated_at": "2026-04-10T13:03:55.631892Z",
+    "total_listings": 34250
+  },
+  "combo_counts": [
+    {
+      "Beds": 1,
+      "Baths": 2,
+      "Type": "Apartment",
+      "Count": 9879
+    },
+    {
+      "Beds": 2,
+      "Baths": 2,
+      "Type": "Apartment",
+      "Count": 7875
+    },
+    {
+      "Beds": 0,
+      "Baths": 2,
+      "Type": "Apartment",
+      "Count": 3645
+    },
+    {
+      "Beds": 3,
+      "Baths": 2,
+      "Type": "Apartment",
+      "Count": 2729
+    },
+    {
+      "Beds": 4,
+      "Baths": 2,
+      "Type": "Villa",
+      "Count": 1542
+    },
+    {
+      "Beds": 3,
+      "Baths": 2,
+      "Type": "Villa",
+      "Count": 1249
+    },
+    {
+      "Beds": 3,
+      "Baths": 2,
+      "Type": "Townhouse",
+      "Count": 1164
+    },
+    {
+      "Beds": 5,
+      "Baths": 2,
+      "Type": "Villa",
+      "Count": 1024
+    },
+    {
+      "Beds": 4,
+      "Baths": 2,
+      "Type": "Townhouse",
+      "Count": 625
+    },
+    {
+      "Beds": 0,
+      "Baths": 1,
+      "Type": "Apartment",
+      "Count": 481
+    },
+    {
+      "Beds": 2,
+      "Baths": 3,
+      "Type": "Apartment",
+      "Count": 446
+    },
+    {
+      "Beds": 1,
+      "Baths": 1,
+      "Type": "Apartment",
+      "Count": 362
+    },
+    {
+      "Beds": 4,
+      "Baths": 2,
+      "Type": "Apartment",
+      "Count": 314
+    },
+    {
+      "Beds": 6,
+      "Baths": 2,
+      "Type": "Villa",
+      "Count": 292
+    },
+    {
+      "Beds": 2,
+      "Baths": 2,
+      "Type": "Villa",
+      "Count": 215
+    },
+    {
+      "Beds": 2,
+      "Baths": 2,
+      "Type": "Townhouse",
+      "Count": 172
+    },
+    {
+      "Beds": 3,
+      "Baths": 4,
+      "Type": "Apartment",
+      "Count": 162
+    },
+    {
+      "Beds": 1,
+      "Baths": 2,
+      "Type": "Hotel Apartment",
+      "Count": 155
+    },
+    {
+      "Beds": 2,
+      "Baths": 2,
+      "Type": "Hotel Apartment",
+      "Count": 138
+    },
+    {
+      "Beds": 3,
+      "Baths": 3,
+      "Type": "Apartment",
+      "Count": 136
+    },
+    {
+      "Beds": 3,
+      "Baths": 4,
+      "Type": "Townhouse",
+      "Count": 112
+    },
+    {
+      "Beds": 4,
+      "Baths": 4,
+      "Type": "Villa",
+      "Count": 111
+    },
+    {
+      "Beds": 4,
+      "Baths": 5,
+      "Type": "Villa",
+      "Count": 108
+    },
+    {
+      "Beds": 3,
+      "Baths": 4,
+      "Type": "Villa",
+      "Count": 90
+    },
+    {
+      "Beds": 7,
+      "Baths": 2,
+      "Type": "Villa",
+      "Count": 88
+    },
+    {
+      "Beds": 5,
+      "Baths": 6,
+      "Type": "Villa",
+      "Count": 87
+    },
+    {
+      "Beds": 4,
+      "Baths": 2,
+      "Type": "Penthouse",
+      "Count": 71
+    },
+    {
+      "Beds": 3,
+      "Baths": 3,
+      "Type": "Villa",
+      "Count": 71
+    },
+    {
+      "Beds": 4,
+      "Baths": 4,
+      "Type": "Townhouse",
+      "Count": 69
+    },
+    {
+      "Beds": 3,
+      "Baths": 3,
+      "Type": "Townhouse",
+      "Count": 57
+    },
+    {
+      "Beds": 3,
+      "Baths": 2,
+      "Type": "Hotel Apartment",
+      "Count": 49
+    },
+    {
+      "Beds": 5,
+      "Baths": 2,
+      "Type": "Townhouse",
+      "Count": 48
+    },
+    {
+      "Beds": 0,
+      "Baths": 2,
+      "Type": "Hotel Apartment",
+      "Count": 46
+    },
+    {
+      "Beds": 5,
+      "Baths": 5,
+      "Type": "Villa",
+      "Count": 39
+    },
+    {
+      "Beds": 3,
+      "Baths": 2,
+      "Type": "Penthouse",
+      "Count": 38
+    },
+    {
+      "Beds": 4,
+      "Baths": 5,
+      "Type": "Townhouse",
+      "Count": 37
+    },
+    {
+      "Beds": 2,
+      "Baths": 4,
+      "Type": "Apartment",
+      "Count": 28
+    },
+    {
+      "Beds": 1,
+      "Baths": 2,
+      "Type": "Townhouse",
+      "Count": 25
+    },
+    {
+      "Beds": 3,
+      "Baths": 5,
+      "Type": "Apartment",
+      "Count": 23
+    },
+    {
+      "Beds": 5,
+      "Baths": 2,
+      "Type": "Apartment",
+      "Count": 23
+    },
+    {
+      "Beds": 6,
+      "Baths": 7,
+      "Type": "Villa",
+      "Count": 22
+    },
+    {
+      "Beds": 5,
+      "Baths": 7,
+      "Type": "Villa",
+      "Count": 21
+    },
+    {
+      "Beds": 2,
+      "Baths": 1,
+      "Type": "Apartment",
+      "Count": 17
+    },
+    {
+      "Beds": 4,
+      "Baths": 5,
+      "Type": "Apartment",
+      "Count": 17
+    },
+    {
+      "Beds": 4,
+      "Baths": 6,
+      "Type": "Villa",
+      "Count": 17
+    },
+    {
+      "Beds": 2,
+      "Baths": 3,
+      "Type": "Hotel Apartment",
+      "Count": 16
+    },
+    {
+      "Beds": 2,
+      "Baths": 3,
+      "Type": "Townhouse",
+      "Count": 16
+    },
+    {
+      "Beds": 1,
+      "Baths": 1,
+      "Type": "Hotel Apartment",
+      "Count": 15
+    },
+    {
+      "Beds": 0,
+      "Baths": 1,
+      "Type": "Hotel Apartment",
+      "Count": 14
+    },
+    {
+      "Beds": 2,
+      "Baths": 3,
+      "Type": "Villa",
+      "Count": 13
+    },
+    {
+      "Beds": 1,
+      "Baths": 2,
+      "Type": "Villa",
+      "Count": 13
+    },
+    {
+      "Beds": 6,
+      "Baths": 8,
+      "Type": "Villa",
+      "Count": 13
+    },
+    {
+      "Beds": 3,
+      "Baths": 5,
+      "Type": "Villa",
+      "Count": 11
+    },
+    {
+      "Beds": 1,
+      "Baths": 2,
+      "Type": "Penthouse",
+      "Count": 10
+    },
+    {
+      "Beds": 3,
+      "Baths": 5,
+      "Type": "Townhouse",
+      "Count": 10
+    },
+    {
+      "Beds": 8,
+      "Baths": 2,
+      "Type": "Villa",
+      "Count": 9
+    },
+    {
+      "Beds": 5,
+      "Baths": 2,
+      "Type": "Penthouse",
+      "Count": 9
+    },
+    {
+      "Beds": 4,
+      "Baths": 2,
+      "Type": "Villa Compound",
+      "Count": 8
+    },
+    {
+      "Beds": 2,
+      "Baths": 2,
+      "Type": "Penthouse",
+      "Count": 7
+    },
+    {
+      "Beds": 5,
+      "Baths": 8,
+      "Type": "Villa",
+      "Count": 7
+    },
+    {
+      "Beds": 4,
+      "Baths": 6,
+      "Type": "Townhouse",
+      "Count": 7
+    },
+    {
+      "Beds": 4,
+      "Baths": 3,
+      "Type": "Villa",
+      "Count": 7
+    },
+    {
+      "Beds": 4,
+      "Baths": 2,
+      "Type": "Hotel Apartment",
+      "Count": 7
+    },
+    {
+      "Beds": 9,
+      "Baths": 2,
+      "Type": "Villa",
+      "Count": 7
+    },
+    {
+      "Beds": 5,
+      "Baths": 4,
+      "Type": "Villa",
+      "Count": 6
+    },
+    {
+      "Beds": 3,
+      "Baths": 4,
+      "Type": "Penthouse",
+      "Count": 6
+    },
+    {
+      "Beds": 6,
+      "Baths": 2,
+      "Type": "Apartment",
+      "Count": 6
+    },
+    {
+      "Beds": 10,
+      "Baths": 2,
+      "Type": "Villa",
+      "Count": 6
+    },
+    {
+      "Beds": 4,
+      "Baths": 4,
+      "Type": "Apartment",
+      "Count": 6
+    },
+    {
+      "Beds": 6,
+      "Baths": 2,
+      "Type": "Townhouse",
+      "Count": 5
+    },
+    {
+      "Beds": 5,
+      "Baths": 2,
+      "Type": "Villa Compound",
+      "Count": 5
+    },
+    {
+      "Beds": 11,
+      "Baths": 2,
+      "Type": "Residential Building",
+      "Count": 5
+    },
+    {
+      "Beds": 7,
+      "Baths": 8,
+      "Type": "Villa",
+      "Count": 5
+    },
+    {
+      "Beds": 4,
+      "Baths": 3,
+      "Type": "Townhouse",
+      "Count": 4
+    },
+    {
+      "Beds": 2,
+      "Baths": 2,
+      "Type": "Residential Floor",
+      "Count": 4
+    },
+    {
+      "Beds": 3,
+      "Baths": 4,
+      "Type": "Hotel Apartment",
+      "Count": 4
+    },
+    {
+      "Beds": 11,
+      "Baths": 2,
+      "Type": "Villa",
+      "Count": 3
+    },
+    {
+      "Beds": 6,
+      "Baths": 5,
+      "Type": "Villa",
+      "Count": 3
+    },
+    {
+      "Beds": 6,
+      "Baths": 6,
+      "Type": "Villa",
+      "Count": 3
+    },
+    {
+      "Beds": 4,
+      "Baths": 6,
+      "Type": "Apartment",
+      "Count": 3
+    },
+    {
+      "Beds": 2,
+      "Baths": 4,
+      "Type": "Townhouse",
+      "Count": 3
+    },
+    {
+      "Beds": 7,
+      "Baths": 9,
+      "Type": "Villa",
+      "Count": 2
+    },
+    {
+      "Beds": 11,
+      "Baths": 11,
+      "Type": "Residential Building",
+      "Count": 2
+    },
+    {
+      "Beds": 4,
+      "Baths": 6,
+      "Type": "Penthouse",
+      "Count": 2
+    },
+    {
+      "Beds": 4,
+      "Baths": 5,
+      "Type": "Penthouse",
+      "Count": 2
+    },
+    {
+      "Beds": 5,
+      "Baths": 2,
+      "Type": "Residential Floor",
+      "Count": 2
+    },
+    {
+      "Beds": 1,
+      "Baths": 2,
+      "Type": "Residential Building",
+      "Count": 2
+    },
+    {
+      "Beds": 3,
+      "Baths": 3,
+      "Type": "Hotel Apartment",
+      "Count": 2
+    },
+    {
+      "Beds": 3,
+      "Baths": 2,
+      "Type": "Villa Compound",
+      "Count": 2
+    },
+    {
+      "Beds": 3,
+      "Baths": 2,
+      "Type": "Residential Floor",
+      "Count": 2
+    },
+    {
+      "Beds": 6,
+      "Baths": 10,
+      "Type": "Villa",
+      "Count": 2
+    },
+    {
+      "Beds": 6,
+      "Baths": 2,
+      "Type": "Penthouse",
+      "Count": 2
+    },
+    {
+      "Beds": 7,
+      "Baths": 7,
+      "Type": "Villa",
+      "Count": 2
+    },
+    {
+      "Beds": 4,
+      "Baths": 4,
+      "Type": "Penthouse",
+      "Count": 2
+    },
+    {
+      "Beds": 2,
+      "Baths": 3,
+      "Type": "Penthouse",
+      "Count": 1
+    },
+    {
+      "Beds": 4,
+      "Baths": 2,
+      "Type": "Residential Floor",
+      "Count": 1
+    },
+    {
+      "Beds": 3,
+      "Baths": 4,
+      "Type": "Villa Compound",
+      "Count": 1
+    },
+    {
+      "Beds": 2,
+      "Baths": 2,
+      "Type": "Residential Building",
+      "Count": 1
+    },
+    {
+      "Beds": 2,
+      "Baths": 2,
+      "Type": "Residential Plot",
+      "Count": 1
+    },
+    {
+      "Beds": 1,
+      "Baths": 1,
+      "Type": "Penthouse",
+      "Count": 1
+    },
+    {
+      "Beds": 1,
+      "Baths": 1,
+      "Type": "Residential Plot",
+      "Count": 1
+    },
+    {
+      "Beds": 1,
+      "Baths": 1,
+      "Type": "Townhouse",
+      "Count": 1
+    },
+    {
+      "Beds": 3,
+      "Baths": 3,
+      "Type": "Penthouse",
+      "Count": 1
+    },
+    {
+      "Beds": 2,
+      "Baths": 1,
+      "Type": "Hotel Apartment",
+      "Count": 1
+    },
+    {
+      "Beds": 1,
+      "Baths": 2,
+      "Type": "Residential Floor",
+      "Count": 1
+    },
+    {
+      "Beds": 4,
+      "Baths": 3,
+      "Type": "Apartment",
+      "Count": 1
+    },
+    {
+      "Beds": 4,
+      "Baths": 5,
+      "Type": "Hotel Apartment",
+      "Count": 1
+    },
+    {
+      "Beds": 5,
+      "Baths": 6,
+      "Type": "Townhouse",
+      "Count": 1
+    },
+    {
+      "Beds": 5,
+      "Baths": 6,
+      "Type": "Apartment",
+      "Count": 1
+    },
+    {
+      "Beds": 5,
+      "Baths": 5,
+      "Type": "Villa Compound",
+      "Count": 1
+    },
+    {
+      "Beds": 5,
+      "Baths": 4,
+      "Type": "Townhouse",
+      "Count": 1
+    },
+    {
+      "Beds": 4,
+      "Baths": 7,
+      "Type": "Penthouse",
+      "Count": 1
+    },
+    {
+      "Beds": 5,
+      "Baths": 2,
+      "Type": "Hotel Apartment",
+      "Count": 1
+    },
+    {
+      "Beds": 5,
+      "Baths": 7,
+      "Type": "Townhouse",
+      "Count": 1
+    },
+    {
+      "Beds": 6,
+      "Baths": 2,
+      "Type": "Hotel Apartment",
+      "Count": 1
+    },
+    {
+      "Beds": 7,
+      "Baths": 2,
+      "Type": "Residential Building",
+      "Count": 1
+    },
+    {
+      "Beds": 7,
+      "Baths": 10,
+      "Type": "Villa",
+      "Count": 1
+    },
+    {
+      "Beds": 7,
+      "Baths": 6,
+      "Type": "Villa",
+      "Count": 1
+    },
+    {
+      "Beds": 7,
+      "Baths": 5,
+      "Type": "Apartment",
+      "Count": 1
+    },
+    {
+      "Beds": 8,
+      "Baths": 9,
+      "Type": "Villa",
+      "Count": 1
+    },
+    {
+      "Beds": 10,
+      "Baths": 10,
+      "Type": "Villa",
+      "Count": 1
+    },
+    {
+      "Beds": 11,
+      "Baths": 11,
+      "Type": "Villa",
+      "Count": 1
+    },
+    {
+      "Beds": 12,
+      "Baths": 2,
+      "Type": "Villa",
+      "Count": 1
+    }
+  ],
+  "type_counts": [
+    {
+      "Type": "Apartment",
+      "Count": 26155
+    },
+    {
+      "Type": "Villa",
+      "Count": 5094
+    },
+    {
+      "Type": "Townhouse",
+      "Count": 2358
+    },
+    {
+      "Type": "Hotel Apartment",
+      "Count": 450
+    },
+    {
+      "Type": "Penthouse",
+      "Count": 153
+    },
+    {
+      "Type": "Villa Compound",
+      "Count": 17
+    },
+    {
+      "Type": "Residential Building",
+      "Count": 11
+    },
+    {
+      "Type": "Residential Floor",
+      "Count": 10
+    },
+    {
+      "Type": "Residential Plot",
+      "Count": 2
+    }
+  ],
+  "furnishing_counts": [
+    {
+      "Furnishing": "Unfurnished",
+      "Count": 21002
+    },
+    {
+      "Furnishing": "Furnished",
+      "Count": 13248
+    }
+  ],
+  "avg_rent_by_beds_type": [
+    {
+      "Beds": 11,
+      "Type": "Residential Building",
+      "AvgRent": 10402857.142857144
+    },
+    {
+      "Beds": 2,
+      "Type": "Residential Building",
+      "AvgRent": 8000000.0
+    },
+    {
+      "Beds": 10,
+      "Type": "Villa",
+      "AvgRent": 4425000.0
+    },
+    {
+      "Beds": 7,
+      "Type": "Residential Building",
+      "AvgRent": 4200000.0
+    },
+    {
+      "Beds": 1,
+      "Type": "Residential Floor",
+      "AvgRent": 2159960.0
+    },
+    {
+      "Beds": 8,
+      "Type": "Villa",
+      "AvgRent": 2148499.0
+    },
+    {
+      "Beds": 5,
+      "Type": "Residential Floor",
+      "AvgRent": 2005537.5
+    },
+    {
+      "Beds": 2,
+      "Type": "Residential Floor",
+      "AvgRent": 1784482.5
+    },
+    {
+      "Beds": 7,
+      "Type": "Villa",
+      "AvgRent": 1398373.6262626264
+    },
+    {
+      "Beds": 4,
+      "Type": "Residential Floor",
+      "AvgRent": 1367960.0
+    },
+    {
+      "Beds": 6,
+      "Type": "Penthouse",
+      "AvgRent": 1300000.0
+    },
+    {
+      "Beds": 1,
+      "Type": "Residential Plot",
+      "AvgRent": 1200000.0
+    },
+    {
+      "Beds": 5,
+      "Type": "Hotel Apartment",
+      "AvgRent": 1200000.0
+    },
+    {
+      "Beds": 6,
+      "Type": "Villa",
+      "AvgRent": 1164483.1701492537
+    },
+    {
+      "Beds": 6,
+      "Type": "Hotel Apartment",
+      "AvgRent": 1100000.0
+    },
+    {
+      "Beds": 11,
+      "Type": "Villa",
+      "AvgRent": 1087500.0
+    },
+    {
+      "Beds": 3,
+      "Type": "Residential Floor",
+      "AvgRent": 1060000.0
+    },
+    {
+      "Beds": 2,
+      "Type": "Penthouse",
+      "AvgRent": 1027500.0
+    },
+    {
+      "Beds": 6,
+      "Type": "Apartment",
+      "AvgRent": 1008333.3333333334
+    },
+    {
+      "Beds": 5,
+      "Type": "Penthouse",
+      "AvgRent": 985555.5555555555
+    },
+    {
+      "Beds": 4,
+      "Type": "Penthouse",
+      "AvgRent": 876908.717948718
+    },
+    {
+      "Beds": 5,
+      "Type": "Apartment",
+      "AvgRent": 868958.25
+    },
+    {
+      "Beds": 9,
+      "Type": "Villa",
+      "AvgRent": 857142.8571428572
+    },
+    {
+      "Beds": 4,
+      "Type": "Hotel Apartment",
+      "AvgRent": 840843.75
+    },
+    {
+      "Beds": 4,
+      "Type": "Apartment",
+      "AvgRent": 657967.3372434018
+    },
+    {
+      "Beds": 5,
+      "Type": "Villa",
+      "AvgRent": 628402.9898648649
+    },
+    {
+      "Beds": 12,
+      "Type": "Villa",
+      "AvgRent": 600000.0
+    },
+    {
+      "Beds": 7,
+      "Type": "Apartment",
+      "AvgRent": 430000.0
+    },
+    {
+      "Beds": 3,
+      "Type": "Hotel Apartment",
+      "AvgRent": 425357.9636363636
+    },
+    {
+      "Beds": 3,
+      "Type": "Penthouse",
+      "AvgRent": 417866.5777777778
+    },
+    {
+      "Beds": 5,
+      "Type": "Townhouse",
+      "AvgRent": 405195.90196078434
+    },
+    {
+      "Beds": 5,
+      "Type": "Villa Compound",
+      "AvgRent": 403166.6666666667
+    },
+    {
+      "Beds": 6,
+      "Type": "Townhouse",
+      "AvgRent": 394000.0
+    },
+    {
+      "Beds": 4,
+      "Type": "Villa",
+      "AvgRent": 378188.13109243696
+    },
+    {
+      "Beds": 4,
+      "Type": "Villa Compound",
+      "AvgRent": 363125.0
+    },
+    {
+      "Beds": 3,
+      "Type": "Apartment",
+      "AvgRent": 314582.0957377049
+    },
+    {
+      "Beds": 1,
+      "Type": "Residential Building",
+      "AvgRent": 280000.0
+    },
+    {
+      "Beds": 2,
+      "Type": "Residential Plot",
+      "AvgRent": 250000.0
+    },
+    {
+      "Beds": 4,
+      "Type": "Townhouse",
+      "AvgRent": 246418.90566037735
+    },
+    {
+      "Beds": 2,
+      "Type": "Hotel Apartment",
+      "AvgRent": 236789.95483870967
+    },
+    {
+      "Beds": 3,
+      "Type": "Villa",
+      "AvgRent": 219096.84517945108
+    },
+    {
+      "Beds": 3,
+      "Type": "Villa Compound",
+      "AvgRent": 208333.33333333334
+    },
+    {
+      "Beds": 2,
+      "Type": "Apartment",
+      "AvgRent": 189972.08415013147
+    },
+    {
+      "Beds": 2,
+      "Type": "Villa",
+      "AvgRent": 189119.8596491228
+    },
+    {
+      "Beds": 2,
+      "Type": "Townhouse",
+      "AvgRent": 178039.20418848167
+    },
+    {
+      "Beds": 1,
+      "Type": "Penthouse",
+      "AvgRent": 169081.72727272726
+    },
+    {
+      "Beds": 3,
+      "Type": "Townhouse",
+      "AvgRent": 168213.54653760238
+    },
+    {
+      "Beds": 1,
+      "Type": "Hotel Apartment",
+      "AvgRent": 166750.61176470589
+    },
+    {
+      "Beds": 1,
+      "Type": "Apartment",
+      "AvgRent": 108220.80304657748
+    },
+    {
+      "Beds": 0,
+      "Type": "Hotel Apartment",
+      "AvgRent": 102274.5
+    },
+    {
+      "Beds": 1,
+      "Type": "Villa",
+      "AvgRent": 94538.23076923077
+    },
+    {
+      "Beds": 1,
+      "Type": "Townhouse",
+      "AvgRent": 93730.76923076923
+    },
+    {
+      "Beds": 0,
+      "Type": "Apartment",
+      "AvgRent": 58731.564469219586
+    }
+  ],
+  "avg_rent_by_baths_type": [
+    {
+      "Baths": 2,
+      "Type": "Residential Building",
+      "AvgRent": 8908888.888888888
+    },
+    {
+      "Baths": 11,
+      "Type": "Residential Building",
+      "AvgRent": 2700000.0
+    },
+    {
+      "Baths": 2,
+      "Type": "Residential Floor",
+      "AvgRent": 1679692.5
+    },
+    {
+      "Baths": 10,
+      "Type": "Villa",
+      "AvgRent": 1287497.5
+    },
+    {
+      "Baths": 1,
+      "Type": "Residential Plot",
+      "AvgRent": 1200000.0
+    },
+    {
+      "Baths": 7,
+      "Type": "Villa",
+      "AvgRent": 1105888.711111111
+    },
+    {
+      "Baths": 11,
+      "Type": "Villa",
+      "AvgRent": 1100000.0
+    },
+    {
+      "Baths": 7,
+      "Type": "Penthouse",
+      "AvgRent": 900000.0
+    },
+    {
+      "Baths": 6,
+      "Type": "Apartment",
+      "AvgRent": 860000.0
+    },
+    {
+      "Baths": 8,
+      "Type": "Villa",
+      "AvgRent": 769299.68
+    },
+    {
+      "Baths": 2,
+      "Type": "Penthouse",
+      "AvgRent": 739079.3868613138
+    },
+    {
+      "Baths": 6,
+      "Type": "Villa",
+      "AvgRent": 578193.2222222222
+    },
+    {
+      "Baths": 5,
+      "Type": "Penthouse",
+      "AvgRent": 515000.0
+    },
+    {
+      "Baths": 5,
+      "Type": "Apartment",
+      "AvgRent": 502316.9756097561
+    },
+    {
+      "Baths": 9,
+      "Type": "Villa",
+      "AvgRent": 490000.0
+    },
+    {
+      "Baths": 4,
+      "Type": "Penthouse",
+      "AvgRent": 473624.875
+    },
+    {
+      "Baths": 2,
+      "Type": "Villa",
+      "AvgRent": 469773.414475163
+    },
+    {
+      "Baths": 3,
+      "Type": "Penthouse",
+      "AvgRent": 465000.0
+    },
+    {
+      "Baths": 5,
+      "Type": "Villa",
+      "AvgRent": 411378.22360248445
+    },
+    {
+      "Baths": 5,
+      "Type": "Villa Compound",
+      "AvgRent": 400000.0
+    },
+    {
+      "Baths": 5,
+      "Type": "Hotel Apartment",
+      "AvgRent": 390000.0
+    },
+    {
+      "Baths": 6,
+      "Type": "Penthouse",
+      "AvgRent": 387500.0
+    },
+    {
+      "Baths": 4,
+      "Type": "Hotel Apartment",
+      "AvgRent": 360500.0
+    },
+    {
+      "Baths": 2,
+      "Type": "Villa Compound",
+      "AvgRent": 353933.3333333333
+    },
+    {
+      "Baths": 6,
+      "Type": "Townhouse",
+      "AvgRent": 339374.75
+    },
+    {
+      "Baths": 4,
+      "Type": "Apartment",
+      "AvgRent": 337363.5306122449
+    },
+    {
+      "Baths": 4,
+      "Type": "Villa",
+      "AvgRent": 252752.5845410628
+    },
+    {
+      "Baths": 2,
+      "Type": "Residential Plot",
+      "AvgRent": 250000.0
+    },
+    {
+      "Baths": 3,
+      "Type": "Hotel Apartment",
+      "AvgRent": 246333.33333333334
+    },
+    {
+      "Baths": 4,
+      "Type": "Villa Compound",
+      "AvgRent": 240000.0
+    },
+    {
+      "Baths": 2,
+      "Type": "Hotel Apartment",
+      "AvgRent": 233697.6322418136
+    },
+    {
+      "Baths": 5,
+      "Type": "Townhouse",
+      "AvgRent": 232072.27659574468
+    },
+    {
+      "Baths": 3,
+      "Type": "Villa",
+      "AvgRent": 208734.010989011
+    },
+    {
+      "Baths": 3,
+      "Type": "Apartment",
+      "AvgRent": 204498.2538593482
+    },
+    {
+      "Baths": 4,
+      "Type": "Townhouse",
+      "AvgRent": 199432.3135135135
+    },
+    {
+      "Baths": 2,
+      "Type": "Townhouse",
+      "AvgRent": 198551.60961255518
+    },
+    {
+      "Baths": 7,
+      "Type": "Townhouse",
+      "AvgRent": 195000.0
+    },
+    {
+      "Baths": 2,
+      "Type": "Apartment",
+      "AvgRent": 158332.742143762
+    },
+    {
+      "Baths": 3,
+      "Type": "Townhouse",
+      "AvgRent": 157947.98701298703
+    },
+    {
+      "Baths": 1,
+      "Type": "Hotel Apartment",
+      "AvgRent": 152133.16666666666
+    },
+    {
+      "Baths": 1,
+      "Type": "Townhouse",
+      "AvgRent": 110000.0
+    },
+    {
+      "Baths": 1,
+      "Type": "Apartment",
+      "AvgRent": 78090.84186046512
+    },
+    {
+      "Baths": 1,
+      "Type": "Penthouse",
+      "AvgRent": 74900.0
+    }
+  ],
+  "avg_rent_per_sqft_by_location": [
+    {
+      "Location": "Bluewaters Island",
+      "AvgRentPerSqft": 329.6409372786913,
+      "ListingCount": 192,
+      "Latitude": 25.082916,
+      "Longitude": 55.122156
+    },
+    {
+      "Location": "Pearl Jumeirah",
+      "AvgRentPerSqft": 232.6090866107874,
+      "ListingCount": 7,
+      "Latitude": 25.244474,
+      "Longitude": 55.25895972097338
+    },
+    {
+      "Location": "Dubai Harbour",
+      "AvgRentPerSqft": 226.93374190906914,
+      "ListingCount": 460,
+      "Latitude": 25.0956188,
+      "Longitude": 55.13800090659107
+    },
+    {
+      "Location": "Downtown Dubai",
+      "AvgRentPerSqft": 199.15692491915473,
+      "ListingCount": 3003,
+      "Latitude": 25.18668425,
+      "Longitude": 55.27470526460112
+    },
+    {
+      "Location": "Jumeirah Islands",
+      "AvgRentPerSqft": 196.57811580121526,
+      "ListingCount": 68,
+      "Latitude": 25.0570585,
+      "Longitude": 55.15614637904315
+    },
+    {
+      "Location": "Palm Jumeirah",
+      "AvgRentPerSqft": 191.54566790982975,
+      "ListingCount": 1614,
+      "Latitude": 25.109139075,
+      "Longitude": 55.12636794753134
+    },
+    {
+      "Location": "Za'abeel",
+      "AvgRentPerSqft": 191.5260937717436,
+      "ListingCount": 446,
+      "Latitude": 25.21683265,
+      "Longitude": 55.30011608643647
+    },
+    {
+      "Location": "Jumeirah Beach Residence (JBR)",
+      "AvgRentPerSqft": 191.26195079132998,
+      "ListingCount": 920,
+      "Latitude": 25.0778021,
+      "Longitude": 55.13518094856796
+    },
+    {
+      "Location": "Dubai Media City",
+      "AvgRentPerSqft": 178.08568359784869,
+      "ListingCount": 70,
+      "Latitude": 25.0935245,
+      "Longitude": 55.1515716
+    },
+    {
+      "Location": "Jumeirah",
+      "AvgRentPerSqft": 170.06146568996317,
+      "ListingCount": 367,
+      "Latitude": 25.2069604,
+      "Longitude": 55.2474974
+    },
+    {
+      "Location": "Dubai Creek Harbour",
+      "AvgRentPerSqft": 168.811280867797,
+      "ListingCount": 1736,
+      "Latitude": 25.197978,
+      "Longitude": 55.36037960558315
+    },
+    {
+      "Location": "The Hills",
+      "AvgRentPerSqft": 166.46667268941056,
+      "ListingCount": 31,
+      "Latitude": 25.07863765,
+      "Longitude": 55.15818293380914
+    },
+    {
+      "Location": "Knowledge Village",
+      "AvgRentPerSqft": 165.0,
+      "ListingCount": 1,
+      "Latitude": 25.10428145,
+      "Longitude": 55.161588050000006
+    },
+    {
+      "Location": "Al Wasl",
+      "AvgRentPerSqft": 156.1504591809063,
+      "ListingCount": 77,
+      "Latitude": 25.1959326,
+      "Longitude": 55.2557371
+    },
+    {
+      "Location": "Dubai Internet City",
+      "AvgRentPerSqft": 154.4897511416437,
+      "ListingCount": 14,
+      "Latitude": 25.0952352,
+      "Longitude": 55.1597571
+    },
+    {
+      "Location": "Dubai Hills Estate",
+      "AvgRentPerSqft": 149.82561899571186,
+      "ListingCount": 1070,
+      "Latitude": 25.1121740517757,
+      "Longitude": 55.2586844115988
+    },
+    {
+      "Location": "Al Barari",
+      "AvgRentPerSqft": 148.85708246896232,
+      "ListingCount": 66,
+      "Latitude": 25.118865,
+      "Longitude": 55.3209685
+    },
+    {
+      "Location": "Sobha Hartland",
+      "AvgRentPerSqft": 147.58432841427555,
+      "ListingCount": 409,
+      "Latitude": 25.177246000000004,
+      "Longitude": 55.307912984149645
+    },
+    {
+      "Location": "Business Bay",
+      "AvgRentPerSqft": 146.39819609702616,
+      "ListingCount": 2152,
+      "Latitude": 25.18942655,
+      "Longitude": 55.26481901527489
+    },
+    {
+      "Location": "Dubai Marina",
+      "AvgRentPerSqft": 144.31200294039533,
+      "ListingCount": 2600,
+      "Latitude": 25.0786415,
+      "Longitude": 55.135252400000006
+    },
+    {
+      "Location": "Al Hebiah 2",
+      "AvgRentPerSqft": 142.52209994587767,
+      "ListingCount": 1,
+      "Latitude": 25.0357683,
+      "Longitude": 55.2458412
+    },
+    {
+      "Location": "Mohammed Bin Rashid City",
+      "AvgRentPerSqft": 140.08842313869508,
+      "ListingCount": 890,
+      "Latitude": 25.1640592,
+      "Longitude": 55.28566124091724
+    },
+    {
+      "Location": "DIFC",
+      "AvgRentPerSqft": 139.7132006212669,
+      "ListingCount": 179,
+      "Latitude": 25.21282585,
+      "Longitude": 55.277634848521615
+    },
+    {
+      "Location": "Al Sufouh",
+      "AvgRentPerSqft": 138.26214932988412,
+      "ListingCount": 94,
+      "Latitude": 25.112233084042558,
+      "Longitude": 55.170679857080636
+    },
+    {
+      "Location": "Emirates Hills",
+      "AvgRentPerSqft": 136.76770732158482,
+      "ListingCount": 27,
+      "Latitude": 25.067057703703703,
+      "Longitude": 55.16928318821481
+    },
+    {
+      "Location": "Culture Village",
+      "AvgRentPerSqft": 135.2578126949153,
+      "ListingCount": 77,
+      "Latitude": 25.22633235,
+      "Longitude": 55.33809781043797
+    },
+    {
+      "Location": "Umm Suqeim",
+      "AvgRentPerSqft": 135.2069611764254,
+      "ListingCount": 385,
+      "Latitude": 25.15785411818182,
+      "Longitude": 55.21158334545455
+    },
+    {
+      "Location": "Dubai Maritime City",
+      "AvgRentPerSqft": 135.0032033626612,
+      "ListingCount": 7,
+      "Latitude": 25.260067257142857,
+      "Longitude": 55.26831096133971
+    },
+    {
+      "Location": "Jumeirah Golf Estates",
+      "AvgRentPerSqft": 132.81393298588844,
+      "ListingCount": 96,
+      "Latitude": 25.0203281,
+      "Longitude": 55.20083862592119
+    },
+    {
+      "Location": "Meydan City",
+      "AvgRentPerSqft": 132.1724390324941,
+      "ListingCount": 1609,
+      "Latitude": 25.1541673,
+      "Longitude": 55.2906695
+    },
+    {
+      "Location": "The Views",
+      "AvgRentPerSqft": 129.12309444207875,
+      "ListingCount": 172,
+      "Latitude": 25.09125005,
+      "Longitude": 55.170056626517066
+    },
+    {
+      "Location": "Jumeirah Lake Towers (JLT)",
+      "AvgRentPerSqft": 127.8787580585087,
+      "ListingCount": 598,
+      "Latitude": 25.0690625,
+      "Longitude": 55.14116559190774
+    },
+    {
+      "Location": "Sheikh Zayed Road",
+      "AvgRentPerSqft": 126.2210869110571,
+      "ListingCount": 262,
+      "Latitude": 25.21762295,
+      "Longitude": 55.2782830925684
+    },
+    {
+      "Location": "Dubai Studio City",
+      "AvgRentPerSqft": 122.1304737866019,
+      "ListingCount": 133,
+      "Latitude": 25.0410289,
+      "Longitude": 55.2516876
+    },
+    {
+      "Location": "The Greens",
+      "AvgRentPerSqft": 120.32120080560021,
+      "ListingCount": 76,
+      "Latitude": 25.092963392105265,
+      "Longitude": 55.171987195751136
+    },
+    {
+      "Location": "Barsha Heights (Tecom)",
+      "AvgRentPerSqft": 116.45298479660259,
+      "ListingCount": 158,
+      "Latitude": 25.0982842,
+      "Longitude": 55.17578230000001
+    },
+    {
+      "Location": "Dubai Festival City",
+      "AvgRentPerSqft": 116.29511183257911,
+      "ListingCount": 31,
+      "Latitude": 25.2222708,
+      "Longitude": 55.3491663
+    },
+    {
+      "Location": "World Trade Centre",
+      "AvgRentPerSqft": 115.37986791717432,
+      "ListingCount": 27,
+      "Latitude": 25.224833099999998,
+      "Longitude": 55.28512389629629
+    },
+    {
+      "Location": "Hadaeq Sheikh Mohammed Bin Rashid",
+      "AvgRentPerSqft": 113.84449940101484,
+      "ListingCount": 4,
+      "Latitude": 25.120137575,
+      "Longitude": 55.267919500000005
+    },
+    {
+      "Location": "Al Jaddaf",
+      "AvgRentPerSqft": 113.01745885391205,
+      "ListingCount": 325,
+      "Latitude": 25.211807588615383,
+      "Longitude": 55.32378495476923
+    },
+    {
+      "Location": "Wasl Gate",
+      "AvgRentPerSqft": 111.83560769069342,
+      "ListingCount": 38,
+      "Latitude": 25.0258041,
+      "Longitude": 55.10755358863322
+    },
+    {
+      "Location": "Tilal Al Ghaf",
+      "AvgRentPerSqft": 106.76077649391715,
+      "ListingCount": 207,
+      "Latitude": 25.02426745,
+      "Longitude": 55.22382996438196
+    },
+    {
+      "Location": "Dubai Science Park",
+      "AvgRentPerSqft": 105.74738053424993,
+      "ListingCount": 31,
+      "Latitude": null,
+      "Longitude": null
+    },
+    {
+      "Location": "Jumeirah Village Circle (JVC)",
+      "AvgRentPerSqft": 105.6496621539692,
+      "ListingCount": 3117,
+      "Latitude": 25.055944599999997,
+      "Longitude": 55.20746502861806
+    },
+    {
+      "Location": "The Sustainable City",
+      "AvgRentPerSqft": 101.6848060321068,
+      "ListingCount": 16,
+      "Latitude": 25.0291598625,
+      "Longitude": 55.276977348782154
+    },
+    {
+      "Location": "The Lakes",
+      "AvgRentPerSqft": 101.40375361288137,
+      "ListingCount": 47,
+      "Latitude": 25.08086255,
+      "Longitude": 55.16924097168776
+    },
+    {
+      "Location": "The Meadows",
+      "AvgRentPerSqft": 101.39236748349025,
+      "ListingCount": 132,
+      "Latitude": 25.0671417,
+      "Longitude": 55.15679141639751
+    },
+    {
+      "Location": "DAMAC Hills",
+      "AvgRentPerSqft": 101.13407121040001,
+      "ListingCount": 540,
+      "Latitude": 25.02699854814815,
+      "Longitude": 55.256296407407405
+    },
+    {
+      "Location": "Al Furjan",
+      "AvgRentPerSqft": 100.92393628610937,
+      "ListingCount": 431,
+      "Latitude": 25.0267099,
+      "Longitude": 55.1469903
+    },
+    {
+      "Location": "Arjan",
+      "AvgRentPerSqft": 100.75046112239121,
+      "ListingCount": 553,
+      "Latitude": 25.0627549,
+      "Longitude": 55.2392983
+    },
+    {
+      "Location": "Jumeirah Heights",
+      "AvgRentPerSqft": 100.43006288045902,
+      "ListingCount": 14,
+      "Latitude": 25.06553675,
+      "Longitude": 55.14557004705467
+    },
+    {
+      "Location": "Deira",
+      "AvgRentPerSqft": 96.61981738485566,
+      "ListingCount": 220,
+      "Latitude": 25.272793599999996,
+      "Longitude": 55.30533400000001
+    },
+    {
+      "Location": "Dubai Production City (IMPZ)",
+      "AvgRentPerSqft": 95.73015323001741,
+      "ListingCount": 148,
+      "Latitude": 25.0249925,
+      "Longitude": 55.1896223
+    },
+    {
+      "Location": "Jebel Ali",
+      "AvgRentPerSqft": 95.24042640587136,
+      "ListingCount": 38,
+      "Latitude": 24.9775987,
+      "Longitude": 55.0910742
+    },
+    {
+      "Location": "Al Karama",
+      "AvgRentPerSqft": 93.59220575243216,
+      "ListingCount": 26,
+      "Latitude": 25.2446784,
+      "Longitude": 55.30490344299247
+    },
+    {
+      "Location": "The Springs",
+      "AvgRentPerSqft": 93.25634219728322,
+      "ListingCount": 272,
+      "Latitude": 25.05995825,
+      "Longitude": 55.18239787686163
+    },
+    {
+      "Location": "The Gardens",
+      "AvgRentPerSqft": 93.00357320198515,
+      "ListingCount": 26,
+      "Latitude": 25.04205414615385,
+      "Longitude": 55.12731135765306
+    },
+    {
+      "Location": "Bur Dubai",
+      "AvgRentPerSqft": 92.70008046834859,
+      "ListingCount": 391,
+      "Latitude": 25.23559045,
+      "Longitude": 55.29672026315798
+    },
+    {
+      "Location": "Al Garhoud",
+      "AvgRentPerSqft": 90.47355022459524,
+      "ListingCount": 20,
+      "Latitude": 25.2407367,
+      "Longitude": 55.3520393
+    },
+    {
+      "Location": "Umm Ramool",
+      "AvgRentPerSqft": 89.7736143637783,
+      "ListingCount": 1,
+      "Latitude": 25.2310318,
+      "Longitude": 55.3674888
+    },
+    {
+      "Location": "Al Satwa",
+      "AvgRentPerSqft": 89.19040168602234,
+      "ListingCount": 197,
+      "Latitude": 25.2208602,
+      "Longitude": 55.2737617
+    },
+    {
+      "Location": "Dubai Residence Complex",
+      "AvgRentPerSqft": 88.35111307185281,
+      "ListingCount": 214,
+      "Latitude": 25.0930937,
+      "Longitude": 55.38032579883815
+    },
+    {
+      "Location": "Arabian Ranches",
+      "AvgRentPerSqft": 88.26770819402293,
+      "ListingCount": 178,
+      "Latitude": 25.048751349999996,
+      "Longitude": 55.267288518151844
+    },
+    {
+      "Location": "Jumeirah Park",
+      "AvgRentPerSqft": 87.96632935775904,
+      "ListingCount": 257,
+      "Latitude": 25.0469412,
+      "Longitude": 55.15481775751905
+    },
+    {
+      "Location": "Dubai Sports City",
+      "AvgRentPerSqft": 87.88882801360327,
+      "ListingCount": 355,
+      "Latitude": 25.032137899999995,
+      "Longitude": 55.219353
+    },
+    {
+      "Location": "Remraam",
+      "AvgRentPerSqft": 87.76416367212114,
+      "ListingCount": 44,
+      "Latitude": 25.0013542,
+      "Longitude": 55.24885632771925
+    },
+    {
+      "Location": "Expo City",
+      "AvgRentPerSqft": 87.44682261396983,
+      "ListingCount": 60,
+      "Latitude": 24.9592316,
+      "Longitude": 55.15510126455556
+    },
+    {
+      "Location": "Liwan",
+      "AvgRentPerSqft": 85.91568283216324,
+      "ListingCount": 112,
+      "Latitude": 25.1101209,
+      "Longitude": 55.36769929999999
+    },
+    {
+      "Location": "Arabian Ranches 3",
+      "AvgRentPerSqft": 85.40970270839753,
+      "ListingCount": 173,
+      "Latitude": 25.065152400000002,
+      "Longitude": 55.3227884007741
+    },
+    {
+      "Location": "Al Safa",
+      "AvgRentPerSqft": 84.61079788479736,
+      "ListingCount": 22,
+      "Latitude": 25.167737,
+      "Longitude": 55.231018
+    },
+    {
+      "Location": "Mudon",
+      "AvgRentPerSqft": 84.04712218578882,
+      "ListingCount": 109,
+      "Latitude": 25.0204108,
+      "Longitude": 55.2679936
+    },
+    {
+      "Location": "Arabian Ranches 2",
+      "AvgRentPerSqft": 83.79022398228008,
+      "ListingCount": 234,
+      "Latitude": 25.03527815,
+      "Longitude": 55.270059003356224
+    },
+    {
+      "Location": "Discovery Gardens",
+      "AvgRentPerSqft": 83.51045567381406,
+      "ListingCount": 126,
+      "Latitude": 25.03827075,
+      "Longitude": 55.145695642320376
+    },
+    {
+      "Location": "Al Manara",
+      "AvgRentPerSqft": 83.3314576145603,
+      "ListingCount": 17,
+      "Latitude": 25.1448185,
+      "Longitude": 55.2144527
+    },
+    {
+      "Location": "Jumeirah Village Triangle (JVT)",
+      "AvgRentPerSqft": 80.27571542288197,
+      "ListingCount": 110,
+      "Latitude": 25.045403,
+      "Longitude": 55.188366
+    },
+    {
+      "Location": "Majan",
+      "AvgRentPerSqft": 79.04007852142131,
+      "ListingCount": 53,
+      "Latitude": 25.0929388,
+      "Longitude": 55.31848349999999
+    },
+    {
+      "Location": "Motor City",
+      "AvgRentPerSqft": 78.90927681842733,
+      "ListingCount": 74,
+      "Latitude": 25.0476902,
+      "Longitude": 55.23820948643042
+    },
+    {
+      "Location": "Umm Al Sheif",
+      "AvgRentPerSqft": 78.55589710750665,
+      "ListingCount": 6,
+      "Latitude": 25.131997800000004,
+      "Longitude": 55.204668
+    },
+    {
+      "Location": "Dubailand",
+      "AvgRentPerSqft": 77.60742235190807,
+      "ListingCount": 742,
+      "Latitude": 25.058657149999995,
+      "Longitude": 55.245999207609245
+    },
+    {
+      "Location": "Ras Al Khor",
+      "AvgRentPerSqft": 77.47762273000201,
+      "ListingCount": 4,
+      "Latitude": 25.1939625,
+      "Longitude": 55.3392449
+    },
+    {
+      "Location": "Al Barsha",
+      "AvgRentPerSqft": 76.53341644279588,
+      "ListingCount": 421,
+      "Latitude": 25.096326000000005,
+      "Longitude": 55.1984022
+    },
+    {
+      "Location": "Dubai Silicon Oasis (DSO)",
+      "AvgRentPerSqft": 76.26852089726003,
+      "ListingCount": 428,
+      "Latitude": 25.118440999999997,
+      "Longitude": 55.387147000000006
+    },
+    {
+      "Location": "The Valley",
+      "AvgRentPerSqft": 75.38381757885224,
+      "ListingCount": 129,
+      "Latitude": 25.015106,
+      "Longitude": 55.450381
+    },
+    {
+      "Location": "Serena",
+      "AvgRentPerSqft": 75.01784983460622,
+      "ListingCount": 79,
+      "Latitude": 25.03538045,
+      "Longitude": 55.28590440039766
+    },
+    {
+      "Location": "Town Square",
+      "AvgRentPerSqft": 73.9776752443469,
+      "ListingCount": 590,
+      "Latitude": 25.01085145,
+      "Longitude": 55.28887629766314
+    },
+    {
+      "Location": "Al Twar",
+      "AvgRentPerSqft": 73.5847739749821,
+      "ListingCount": 7,
+      "Latitude": 25.262628,
+      "Longitude": 55.3795909
+    },
+    {
+      "Location": "Liwan 2",
+      "AvgRentPerSqft": 72.74721297067791,
+      "ListingCount": 28,
+      "Latitude": 25.1101209,
+      "Longitude": 55.36769929999999
+    },
+    {
+      "Location": "Reem",
+      "AvgRentPerSqft": 71.9971980797089,
+      "ListingCount": 227,
+      "Latitude": 25.0315993,
+      "Longitude": 55.275689057829474
+    },
+    {
+      "Location": "Dubai Investment Park (DIP)",
+      "AvgRentPerSqft": 70.00221462865781,
+      "ListingCount": 39,
+      "Latitude": 24.985928,
+      "Longitude": 55.175013
+    },
+    {
+      "Location": "Bukadra",
+      "AvgRentPerSqft": 68.80510706515517,
+      "ListingCount": 4,
+      "Latitude": 25.1765148,
+      "Longitude": 55.3257751
+    },
+    {
+      "Location": "Green Community",
+      "AvgRentPerSqft": 67.08418417145703,
+      "ListingCount": 27,
+      "Latitude": 25.0053336,
+      "Longitude": 55.160833999999994
+    },
+    {
+      "Location": "Dubai South",
+      "AvgRentPerSqft": 66.7713339497866,
+      "ListingCount": 570,
+      "Latitude": 24.9144391,
+      "Longitude": 55.1615128
+    },
+    {
+      "Location": "DAMAC Hills 2 (Akoya by DAMAC)",
+      "AvgRentPerSqft": 66.48974867602726,
+      "ListingCount": 369,
+      "Latitude": 24.987364,
+      "Longitude": 55.373964
+    },
+    {
+      "Location": "Muhaisnah",
+      "AvgRentPerSqft": 63.11194602665064,
+      "ListingCount": 34,
+      "Latitude": 25.26387,
+      "Longitude": 55.4207896
+    },
+    {
+      "Location": "Dubai Industrial City",
+      "AvgRentPerSqft": 62.71246883081116,
+      "ListingCount": 18,
+      "Latitude": 24.8399006,
+      "Longitude": 55.0662934
+    },
+    {
+      "Location": "Al Jafiliya",
+      "AvgRentPerSqft": 62.597977611669,
+      "ListingCount": 6,
+      "Latitude": 25.2376311,
+      "Longitude": 55.28693669999999
+    },
+    {
+      "Location": "Al Mamzar",
+      "AvgRentPerSqft": 61.17182082089906,
+      "ListingCount": 34,
+      "Latitude": 25.3005332,
+      "Longitude": 55.3596332
+    },
+    {
+      "Location": "Nad Al Sheba",
+      "AvgRentPerSqft": 61.03570083486631,
+      "ListingCount": 128,
+      "Latitude": 25.15347337109375,
+      "Longitude": 55.35637438359375
+    },
+    {
+      "Location": "The Villa",
+      "AvgRentPerSqft": 60.488662190573514,
+      "ListingCount": 96,
+      "Latitude": 25.0843891,
+      "Longitude": 55.361196400000004
+    },
+    {
+      "Location": "International City",
+      "AvgRentPerSqft": 60.173102353131306,
+      "ListingCount": 322,
+      "Latitude": 25.1322737,
+      "Longitude": 55.39813984933585
+    },
+    {
+      "Location": "Al Hudaiba",
+      "AvgRentPerSqft": 59.24052592903632,
+      "ListingCount": 5,
+      "Latitude": 25.2428328,
+      "Longitude": 55.27921200000001
+    },
+    {
+      "Location": "Al Warqaa",
+      "AvgRentPerSqft": 58.961556817784015,
+      "ListingCount": 143,
+      "Latitude": 25.18303293846154,
+      "Longitude": 55.44696939728806
+    },
+    {
+      "Location": "Al Nahda (Dubai)",
+      "AvgRentPerSqft": 58.2485861090674,
+      "ListingCount": 185,
+      "Latitude": 25.291304099999998,
+      "Longitude": 55.37445780000001
+    },
+    {
+      "Location": "Al Warsan",
+      "AvgRentPerSqft": 57.991114313160416,
+      "ListingCount": 3,
+      "Latitude": 25.1575113,
+      "Longitude": 55.414915010444155
+    },
+    {
+      "Location": "Nad Al Hamar",
+      "AvgRentPerSqft": 57.81052405129788,
+      "ListingCount": 31,
+      "Latitude": 25.23609242580645,
+      "Longitude": 55.377734909677415
+    },
+    {
+      "Location": "City of Arabia",
+      "AvgRentPerSqft": 56.618152770151426,
+      "ListingCount": 3,
+      "Latitude": 25.0924395,
+      "Longitude": 55.33693300000001
+    },
+    {
+      "Location": "Wadi Al Safa 2",
+      "AvgRentPerSqft": 55.51816958277254,
+      "ListingCount": 1,
+      "Latitude": 25.0987828,
+      "Longitude": 55.351406478118335
+    },
+    {
+      "Location": "Al Quoz",
+      "AvgRentPerSqft": 54.993236106509755,
+      "ListingCount": 54,
+      "Latitude": 25.1177213,
+      "Longitude": 55.2357807
+    },
+    {
+      "Location": "Al Qusais",
+      "AvgRentPerSqft": 53.63793650640858,
+      "ListingCount": 50,
+      "Latitude": 25.269769,
+      "Longitude": 55.3874873
+    },
+    {
+      "Location": "Oud Al Muteena",
+      "AvgRentPerSqft": 53.33266666666667,
+      "ListingCount": 1,
+      "Latitude": 25.274823,
+      "Longitude": 55.4453362
+    },
+    {
+      "Location": "Falcon City of Wonders",
+      "AvgRentPerSqft": 53.12054579314549,
+      "ListingCount": 31,
+      "Latitude": 25.0955281,
+      "Longitude": 55.3393384
+    },
+    {
+      "Location": "Al Badaa",
+      "AvgRentPerSqft": 52.53713932912446,
+      "ListingCount": 7,
+      "Latitude": 25.21929222857143,
+      "Longitude": 55.27712867142857
+    },
+    {
+      "Location": "Mirdif",
+      "AvgRentPerSqft": 50.786566078976975,
+      "ListingCount": 205,
+      "Latitude": 25.221170800000003,
+      "Longitude": 55.4224204
+    },
+    {
+      "Location": "Living Legends",
+      "AvgRentPerSqft": 50.52030042942221,
+      "ListingCount": 34,
+      "Latitude": 25.0850789,
+      "Longitude": 55.2981217
+    },
+    {
+      "Location": "Al Lisaili",
+      "AvgRentPerSqft": 47.61904761904762,
+      "ListingCount": 1,
+      "Latitude": 24.930673,
+      "Longitude": 55.4732537
+    },
+    {
+      "Location": "Dubai Waterfront",
+      "AvgRentPerSqft": 46.803540359111736,
+      "ListingCount": 13,
+      "Latitude": 24.94481735,
+      "Longitude": 54.998448956903374
+    },
+    {
+      "Location": "Al Khawaneej",
+      "AvgRentPerSqft": 33.60587011921472,
+      "ListingCount": 45,
+      "Latitude": 25.238252300000003,
+      "Longitude": 55.5097961
+    },
+    {
+      "Location": "Wadi Al Shabak",
+      "AvgRentPerSqft": 30.02800613305769,
+      "ListingCount": 9,
+      "Latitude": 25.175974,
+      "Longitude": 55.4784778
+    },
+    {
+      "Location": "Al Awir",
+      "AvgRentPerSqft": 25.372372095642586,
+      "ListingCount": 38,
+      "Latitude": 25.177447,
+      "Longitude": 55.5695341
+    },
+    {
+      "Location": "Al Mizhar",
+      "AvgRentPerSqft": 23.86829686859374,
+      "ListingCount": 26,
+      "Latitude": 25.2450842,
+      "Longitude": 55.45031540000001
+    }
+  ]
+}

@@ -12,6 +12,7 @@ import Map from '../ui/Map';
 import SchoolMap from '../ui/SchoolMap';
 import GraphModal from '../ui/GraphModal';
 import SchoolGraphModal from '../ui/SchoolGraphModal';
+import PropertyGraphModal from '../ui/PropertyGraphModal';
 import AreasMap from "../../data/average_meter_price/forecasts/Areas_id.json";
 import ExploreDataPointsModal from '../ui/ExploreDataPointsModal';
 import SchoolFilterPanel from '../ui/SchoolFilterPanel';
@@ -31,12 +32,18 @@ const Layout = ({ children }) => {
   const [isGraphOpen, setIsGraphOpen] = useState(false);
   const [graphPlace, setGraphPlace] = useState('');
   const [isSchoolGraphOpen, setIsSchoolGraphOpen] = useState(false);
+  const [isPropertyGraphOpen, setIsPropertyGraphOpen] = useState(false);
   const [schoolGraphData, setSchoolGraphData] = useState({
     areaName: '',
     visualizationMode: 'rating',
     ratingData: [],
     enrollmentData: [],
     schools: []
+  });
+  const [propertyGraphData, setPropertyGraphData] = useState({
+    areaName: '',
+    selectedDataPoint: null,
+    areaMetrics: null,
   });
 
   const [searchSuggestions, setSearchSuggestions] = useState([]);
@@ -69,6 +76,15 @@ const Layout = ({ children }) => {
     'rating-distribution',
     'fee-distribution',
     'enrollment-growth'
+  ];
+
+  const propertyDataPointIds = [
+    'property-combo-counts',
+    'property-type-counts',
+    'property-furnishing-counts',
+    'property-avg-rent-beds-type',
+    'property-avg-rent-baths-type',
+    'property-rent-per-sqft-location'
   ];
   
   // State to track selected data point from window (since Sidebar and Layout use separate hook instances)
@@ -156,6 +172,9 @@ const Layout = ({ children }) => {
   const isSchoolPanelOpen = activeItem === 'dubai-school-landscape' || 
     (currentDataPoint && schoolDataPointIds.includes(currentDataPoint));
 
+  const isPropertyPanelOpen = activeItem === 'dubai-property-insights' ||
+    (currentDataPoint && propertyDataPointIds.includes(currentDataPoint));
+
   // Determine visualization mode for color legend
   const getVisualizationMode = () => {
     if (!currentDataPoint) return null;
@@ -163,6 +182,10 @@ const Layout = ({ children }) => {
     const enrollmentDataPoints = ['enrollment-growth'];
     const feeDataPoints = ['fee-distribution'];
     const countDataPoints = ['distribution-and-quality-analysis'];
+    const propertyCountDataPoints = ['property-combo-counts', 'property-type-counts'];
+    const propertyFurnishingDataPoints = ['property-furnishing-counts'];
+    const propertyRentDataPoints = ['property-avg-rent-beds-type', 'property-avg-rent-baths-type'];
+    const propertyRentSqftDataPoints = ['property-rent-per-sqft-location'];
     
     if (ratingDataPoints.includes(currentDataPoint)) {
       return 'rating';
@@ -172,6 +195,14 @@ const Layout = ({ children }) => {
       return 'fee';
     } else if (countDataPoints.includes(currentDataPoint)) {
       return 'count';
+    } else if (propertyCountDataPoints.includes(currentDataPoint)) {
+      return 'property-count';
+    } else if (propertyFurnishingDataPoints.includes(currentDataPoint)) {
+      return 'property-furnishing';
+    } else if (propertyRentDataPoints.includes(currentDataPoint)) {
+      return 'property-rent';
+    } else if (propertyRentSqftDataPoints.includes(currentDataPoint)) {
+      return 'property-rent-sqft';
     }
     return null;
   };
@@ -186,11 +217,25 @@ const Layout = ({ children }) => {
       if (isSchoolPanelOpen) {
         setSelectedLocation({ placeName: placeName || 'Selected Area', lngLat });
       } else {
-      setGraphPlace(placeName || 'Selected Area');
-      setIsGraphOpen(true);
+        setGraphPlace(placeName || 'Selected Area');
+        setIsGraphOpen(true);
       }
     };
     window.addEventListener('map:placeSelected', onPlaceSelected);
+
+    const onPropertyAreaClicked = (e) => {
+      const { areaName, selectedDataPoint: dataPoint, areaMetrics } = e.detail || {};
+
+      setIsGraphOpen(false);
+      setIsSchoolGraphOpen(false);
+      setPropertyGraphData({
+        areaName: areaName || 'Selected Area',
+        selectedDataPoint: dataPoint || currentDataPoint,
+        areaMetrics: areaMetrics || null,
+      });
+      setIsPropertyGraphOpen(true);
+    };
+    window.addEventListener('property:areaClicked', onPropertyAreaClicked);
     
     // Listen for school area clicks
     const onSchoolAreaClicked = (e) => {
@@ -212,9 +257,10 @@ const Layout = ({ children }) => {
     window.addEventListener('school:areaClicked', onSchoolAreaClicked);
     return () => {
       window.removeEventListener('map:placeSelected', onPlaceSelected);
+      window.removeEventListener('property:areaClicked', onPropertyAreaClicked);
       window.removeEventListener('school:areaClicked', onSchoolAreaClicked);
     };
-  }, [isSchoolPanelOpen]);
+  }, [isSchoolPanelOpen, currentDataPoint]);
 
   // Close sidebar when clicking outside on mobile only
   useEffect(() => {
@@ -920,6 +966,7 @@ const Layout = ({ children }) => {
         ) : (
           <Map 
             selectedFilter={selectedFilter}
+            selectedDataPoint={currentDataPoint}
           />
         )}
       </div>
@@ -1107,8 +1154,8 @@ const Layout = ({ children }) => {
               />
             </div>
           
-          {/* Color Legend - Show when school data point is selected */}
-          {schoolDataPointIds.includes(currentDataPoint) && (
+          {/* Color Legend - Show for school and property insight data points */}
+          {(schoolDataPointIds.includes(currentDataPoint) || propertyDataPointIds.includes(currentDataPoint)) && (
             <ColorLegend mode={getVisualizationMode()} />
           )}
           
@@ -1183,6 +1230,14 @@ const Layout = ({ children }) => {
         ratingData={schoolGraphData.ratingData}
         enrollmentData={schoolGraphData.enrollmentData}
         schools={schoolGraphData.schools}
+      />
+
+      <PropertyGraphModal
+        isOpen={isPropertyGraphOpen}
+        onClose={() => setIsPropertyGraphOpen(false)}
+        areaName={propertyGraphData.areaName}
+        selectedDataPoint={propertyGraphData.selectedDataPoint}
+        areaMetrics={propertyGraphData.areaMetrics}
       />
     </div>
   );

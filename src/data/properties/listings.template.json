@@ -1,0 +1,18 @@
+[
+  {
+    "Address": "Marina View Tower, Dubai Marina",
+    "Rent": 120000,
+    "Beds": 2,
+    "Baths": 2,
+    "Type": "Apartment",
+    "Area_in_sqft": 1100,
+    "Rent_per_sqft": 109.09,
+    "Rent_category": "Medium",
+    "Furnishing": "Furnished",
+    "Posted_date": "2026-04-01",
+    "Age_of_listing_in_days": 9,
+    "Location": "Dubai Marina",
+    "Latitude": 25.0800,
+    "Longitude": 55.1400
+  }
+]
