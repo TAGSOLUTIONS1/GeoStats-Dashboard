@@ -13,6 +13,20 @@ const toNumber = (value) => {
 	return Number.isFinite(num) ? num : null;
 };
 
+const DUBAI_BOUNDS = {
+	minLng: 54.13,
+	maxLng: 56.4,
+	minLat: 24.5,
+	maxLat: 25.7,
+};
+
+const isWithinDubaiBounds = (lng, lat) => (
+	lng >= DUBAI_BOUNDS.minLng &&
+	lng <= DUBAI_BOUNDS.maxLng &&
+	lat >= DUBAI_BOUNDS.minLat &&
+	lat <= DUBAI_BOUNDS.maxLat
+);
+
 const normalizeText = (value) => {
 	if (value === null || value === undefined) return '';
 	return String(value)
@@ -27,6 +41,7 @@ const extractPoint = (listing) => {
 	const lng = toNumber(listing?.Longitude);
 	const lat = toNumber(listing?.Latitude);
 	if (lng === null || lat === null) return null;
+	if (!isWithinDubaiBounds(lng, lat)) return null;
 	return [lng, lat];
 };
 
@@ -101,12 +116,162 @@ const getListingText = (listing) => normalizeText([
 	listing?.Rent_per_sqft,
 ].filter(Boolean).join(' '));
 
-const matchesSearch = (listing, query) => {
+const matchesSearchFlexible = (listing, query) => {
 	if (!query) return true;
 	const haystack = getListingText(listing);
-	const needles = normalizeText(query).split(' ').filter(Boolean);
+	const hayTokens = haystack.split(' ').filter(Boolean);
+	const needles = normalizeText(query)
+		.split(' ')
+		.filter((token) => token && token.length > 1);
+
 	if (needles.length === 0) return true;
-	return needles.every((needle) => haystack.includes(needle));
+
+	let matchedCount = 0;
+	needles.forEach((needle) => {
+		const direct = haystack.includes(needle);
+		if (direct) {
+			matchedCount += 1;
+			return;
+		}
+
+		const tokenMatch = hayTokens.some((token) => token.startsWith(needle) || needle.startsWith(token));
+		if (tokenMatch) matchedCount += 1;
+	});
+
+	const threshold = Math.max(1, Math.ceil(needles.length * 0.6));
+	return matchedCount >= threshold;
+};
+
+const isTypeMatch = (listingTypeValue, targetTypeValue) => {
+	if (!targetTypeValue) return true;
+	const listingType = normalizeText(listingTypeValue);
+	const targetType = normalizeText(targetTypeValue);
+	if (!listingType || !targetType) return false;
+	if (listingType === targetType) return true;
+	if (listingType.includes(targetType)) return true;
+	if (targetType.includes(listingType)) return true;
+
+	const targetTokens = targetType.split(' ').filter(Boolean);
+	if (targetTokens.length > 0) {
+		const overlap = targetTokens.filter((token) => token.length > 2 && listingType.includes(token)).length;
+		if (overlap >= Math.max(1, Math.ceil(targetTokens.length * 0.5))) return true;
+	}
+
+	return false;
+};
+
+const parseNumberWithUnit = (value, unit) => {
+	const numeric = Number(value);
+	if (!Number.isFinite(numeric)) return null;
+	const normalizedUnit = String(unit || '').toLowerCase();
+	if (normalizedUnit === 'k') return numeric * 1000;
+	if (normalizedUnit === 'm') return numeric * 1000000;
+	return numeric;
+};
+
+const SMART_TYPE_KEYWORDS = [
+	'apartment',
+	'villa',
+	'townhouse',
+	'residential building',
+	'penthouse',
+	'studio',
+	'duplex',
+	'office',
+	'shop',
+];
+
+const parseSmartPropertyQuery = (query) => {
+	const original = normalizeText(query);
+	if (!original) {
+		return {
+			minRent: null,
+			maxRent: null,
+			beds: null,
+			baths: null,
+			type: null,
+			furnishingClass: null,
+			residualQuery: '',
+		};
+	}
+
+	let working = ` ${original} `;
+	let minRent = null;
+	let maxRent = null;
+	let beds = null;
+	let baths = null;
+	let type = null;
+	let furnishingClass = null;
+
+	const consume = (regex, handler) => {
+		const match = working.match(regex);
+		if (!match) return;
+		handler(match);
+		working = working.replace(match[0], ' ');
+	};
+
+	consume(/\b(\d+(?:\.\d+)?)\s*(k|m)?\s*(?:-|to)\s*(\d+(?:\.\d+)?)\s*(k|m)?\b/i, (match) => {
+		const first = parseNumberWithUnit(match[1], match[2]);
+		const second = parseNumberWithUnit(match[3], match[4]);
+		if (first === null || second === null) return;
+		minRent = Math.min(first, second);
+		maxRent = Math.max(first, second);
+	});
+
+	consume(/\b(?:under|below|less than|max)\s*(\d+(?:\.\d+)?)\s*(k|m)?\b/i, (match) => {
+		const value = parseNumberWithUnit(match[1], match[2]);
+		if (value !== null) maxRent = value;
+	});
+
+	consume(/\b(?:above|over|more than|min)\s*(\d+(?:\.\d+)?)\s*(k|m)?\b/i, (match) => {
+		const value = parseNumberWithUnit(match[1], match[2]);
+		if (value !== null) minRent = value;
+	});
+
+	consume(/\b(\d+)\s*(?:bed|beds|bhk)\b/i, (match) => {
+		beds = Number(match[1]);
+	});
+
+	consume(/\bstudio\b/i, () => {
+		beds = 0;
+	});
+
+	consume(/\b(\d+)\s*(?:bath|baths)\b/i, (match) => {
+		baths = Number(match[1]);
+	});
+
+	consume(/\bunfurnished\b/i, () => {
+		furnishingClass = 'unfurnished';
+	});
+
+	if (!furnishingClass) {
+		consume(/\bfurnished\b/i, () => {
+			furnishingClass = 'furnished';
+		});
+	}
+
+	SMART_TYPE_KEYWORDS.forEach((keyword) => {
+		if (type) return;
+		const regex = new RegExp(`\\b${keyword.replace(/\s+/g, '\\s+')}\\b`, 'i');
+		consume(regex, () => {
+			type = keyword;
+		});
+	});
+
+	const residualQuery = working
+		.replace(/\b(in|at|near|with|and|for|the|a|an)\b/g, ' ')
+		.replace(/\s+/g, ' ')
+		.trim();
+
+	return {
+		minRent,
+		maxRent,
+		beds,
+		baths,
+		type: type ? normalizeText(type) : null,
+		furnishingClass,
+		residualQuery,
+	};
 };
 
 const doesListingMatchSelection = (listing, selection = {}) => {
@@ -142,6 +307,7 @@ export const filterPropertyListings = (listings = [], filters = {}) => {
 	const maxRentPerSqft = toNumber(filters.maxRentPerSqft);
 	const locationFilter = normalizeLocationName(filters.location);
 	const query = normalizeText(filters.searchQuery);
+	const smartQuery = parseSmartPropertyQuery(filters.searchQuery);
 	const comboSelections = Array.isArray(filters.comboSelections)
 		? filters.comboSelections
 			.map((combo) => ({
@@ -180,7 +346,15 @@ export const filterPropertyListings = (listings = [], filters = {}) => {
 			if (!matchesCombo) return false;
 		}
 		if (locationFilter && !location.includes(locationFilter) && !normalizeText(listing?.Address).includes(locationFilter)) return false;
-		if (query && !matchesSearch(listing, query)) return false;
+
+		if (smartQuery.minRent !== null && (rent === null || rent < smartQuery.minRent)) return false;
+		if (smartQuery.maxRent !== null && (rent === null || rent > smartQuery.maxRent)) return false;
+		if (smartQuery.beds !== null && beds !== smartQuery.beds) return false;
+		if (smartQuery.baths !== null && baths !== smartQuery.baths) return false;
+		if (smartQuery.type && !isTypeMatch(listing?.Type, smartQuery.type)) return false;
+		if (smartQuery.furnishingClass && classifyFurnishingLabel(listing?.Furnishing) !== smartQuery.furnishingClass) return false;
+
+		if (query && !matchesSearchFlexible(listing, smartQuery.residualQuery || query)) return false;
 		return true;
 	});
 };

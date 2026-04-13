@@ -1,8 +1,9 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, ArrowLeft, MapPin, GraduationCap, RotateCcw, Ruler } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
+import PropertyFilterPanel from '../ui/PropertyFilterPanel';
 import TableViewModal from '../ui/TableViewModal';
 import DatePicker from '../ui/DatePicker';
 import TooltipToggle from '../ui/TooltipToggle';
@@ -20,7 +21,29 @@ import ColorLegend from '../ui/ColorLegend';
 import { useSidebar } from '../../hooks/useSidebar';
 
 const Layout = ({ children }) => {
+  const DUBAI_BOUNDS = {
+    minLng: 54.13,
+    maxLng: 56.4,
+    minLat: 24.5,
+    maxLat: 25.7,
+  };
+
+  const isWithinDubaiBounds = (coordinates) => {
+    if (!Array.isArray(coordinates) || coordinates.length < 2) return false;
+    const [lng, lat] = coordinates;
+    return (
+      Number.isFinite(lng) &&
+      Number.isFinite(lat) &&
+      lng >= DUBAI_BOUNDS.minLng &&
+      lng <= DUBAI_BOUNDS.maxLng &&
+      lat >= DUBAI_BOUNDS.minLat &&
+      lat <= DUBAI_BOUNDS.maxLat
+    );
+  };
+
   const [searchQuery, setSearchQuery] = useState('');
+  const [searchInputValue, setSearchInputValue] = useState('');
+  const [propertySearchMatchCount, setPropertySearchMatchCount] = useState(null);
   const [selectedFilter, setSelectedFilter] = useState('Area');
   const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
   const [isSchoolFilterPanelOpen, setIsSchoolFilterPanelOpen] = useState(false);
@@ -46,6 +69,8 @@ const Layout = ({ children }) => {
     areaMetrics: null,
   });
   const [selectedPropertySelections, setSelectedPropertySelections] = useState([]);
+  const [propertyManualFilters, setPropertyManualFilters] = useState({});
+  const [propertyFoundCount, setPropertyFoundCount] = useState(null);
 
   const getSelectionKey = (selection) => selection?.selectionId || JSON.stringify(selection);
 
@@ -64,11 +89,19 @@ const Layout = ({ children }) => {
     setSelectedPropertySelections([]);
   };
 
+  const applyPropertyFilters = (filters) => {
+    setPropertyManualFilters(filters || {});
+  };
+
+  const clearPropertyFilters = () => {
+    setPropertyManualFilters({});
+    setPropertyFoundCount(null);
+  };
+
   const [searchSuggestions, setSearchSuggestions] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true); // Default to open on desktop
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
-  const searchTimeoutRef = useRef(null);
   const isDesktopRef = useRef(window.innerWidth >= 1024);
   const [isExploreModalOpen, setIsExploreModalOpen] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState(null);
@@ -192,6 +225,24 @@ const Layout = ({ children }) => {
 
   const isPropertyPanelOpen = activeItem === 'dubai-property-insights' ||
     (currentDataPoint && propertyDataPointIds.includes(currentDataPoint));
+  const isPropertyDataPointSelected = currentDataPoint && propertyDataPointIds.includes(currentDataPoint);
+
+  const propertyExplorerFilters = useMemo(
+    () => ({
+      ...propertyManualFilters,
+      ...(selectedPropertySelections.length > 0 ? { comboSelections: selectedPropertySelections } : {}),
+    }),
+    [propertyManualFilters, selectedPropertySelections],
+  );
+
+  const propertyExplorerConfig = useMemo(
+    () => ({
+      enabled: Boolean(isPropertyDataPointSelected),
+      searchQuery,
+      filters: propertyExplorerFilters,
+    }),
+    [isPropertyDataPointSelected, searchQuery, propertyExplorerFilters],
+  );
 
   // Determine visualization mode for color legend
   const getVisualizationMode = () => {
@@ -798,43 +849,54 @@ const Layout = ({ children }) => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
-  const handleSearch = async (query) => {
+  const handleSearchSubmit = async (rawQuery) => {
+    const query = String(rawQuery || '').trim();
     setSearchQuery(query);
-    
-    // Clear previous timeout
-    if (searchTimeoutRef.current) {
-      clearTimeout(searchTimeoutRef.current);
+
+    if (isPropertyPanelOpen) {
+      setSearchSuggestions([]);
+      setIsSearching(false);
+      setPropertySearchMatchCount(null);
+      return;
     }
 
     if (!query) {
       setSearchSuggestions([]);
+      setIsSearching(false);
       return;
     }
 
-    // Debounce the API call
-    searchTimeoutRef.current = setTimeout(async () => {
-      setIsSearching(true);
-      try {
-        const response = await fetch(
-          `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(query)}.json?` +
-          `access_token=${process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}&` +
-          `bbox=54.13,24.5,56.4,25.7` // Restrict to Dubai area
-        );
-        const data = await response.json();
-        setSearchSuggestions(data.features);
-      } catch (error) {
-        console.error('Search error:', error);
-      } finally {
-        setIsSearching(false);
-      }
-    }, 300);
+    setIsSearching(true);
+    try {
+      const response = await fetch(
+        `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(query)}.json?` +
+        `access_token=${process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}&` +
+        `bbox=54.13,24.5,56.4,25.7`
+      );
+      const data = await response.json();
+      const boundedFeatures = (data.features || []).filter((feature) => {
+        const coordinates = feature?.center || feature?.geometry?.coordinates;
+        return isWithinDubaiBounds(coordinates);
+      });
+      setSearchSuggestions(boundedFeatures);
+    } catch (error) {
+      console.error('Search error:', error);
+      setSearchSuggestions([]);
+    } finally {
+      setIsSearching(false);
+    }
   };
 
   const handleSearchSelection = (feature) => {
+    if (isPropertyPanelOpen) return;
     setSearchQuery(feature.place_name);
+    setSearchInputValue(feature.place_name);
     setSearchSuggestions([]);
     
     const coordinates = feature.center || feature.geometry.coordinates;
+    if (!isWithinDubaiBounds(coordinates)) {
+      return;
+    }
     
     if (window.map) {
       // Fly to location
@@ -852,6 +914,14 @@ const Layout = ({ children }) => {
 
   const [series, setSeries] = useState([]);
   const [pastSeries, setPastSeries] = useState([]);
+
+  useEffect(() => {
+    if (isPropertyPanelOpen) {
+      setSearchSuggestions([]);
+      setIsSearching(false);
+      setPropertySearchMatchCount(null);
+    }
+  }, [isPropertyPanelOpen]);
 
   console.log("graph place is " , graphPlace);
   useEffect(() => {
@@ -988,13 +1058,14 @@ const Layout = ({ children }) => {
             key={`main-map-${selectedFilter}-${currentDataPoint || 'population'}`}
             selectedFilter={selectedFilter}
             selectedDataPoint={currentDataPoint}
-            propertyExplorerConfig={{
-              enabled: propertyDataPointIds.includes(currentDataPoint),
-              filters: selectedPropertySelections.length > 0
-                ? {
-                    comboSelections: selectedPropertySelections,
-                  }
-                : {},
+            propertyExplorerConfig={propertyExplorerConfig}
+            onExplorerSummaryChange={(summary) => {
+              if (!isPropertyPanelOpen) return;
+              setPropertyFoundCount(Number(summary?.totalListings || 0));
+            }}
+            onSearchResultsChange={(results) => {
+              if (!isPropertyPanelOpen) return;
+              setPropertySearchMatchCount(Array.isArray(results) ? results.length : 0);
             }}
           />
         )}
@@ -1031,11 +1102,30 @@ const Layout = ({ children }) => {
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
               <input
                 type="text"
-                placeholder="Search locations in Dubai"
-                value={searchQuery}
-                onChange={(e) => handleSearch(e.target.value)}
+                placeholder={isPropertyPanelOpen ? 'Search anything: 2 bed villa furnished under 120k marina' : 'Search locations in Dubai'}
+                value={searchInputValue}
+                onChange={(e) => {
+                  const value = e.target.value;
+                  setSearchInputValue(value);
+                  if (!value.trim()) {
+                    setSearchQuery('');
+                    setSearchSuggestions([]);
+                    setPropertySearchMatchCount(null);
+                  }
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') {
+                    handleSearchSubmit(searchInputValue);
+                  }
+                }}
                 className="pl-10 pr-4 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure w-full"
               />
+
+              {isPropertyPanelOpen && searchQuery && propertySearchMatchCount === 0 && (
+                <div className="absolute z-40 w-full mt-1 rounded-md border border-rose-200 bg-rose-50 px-3 py-2 text-xs text-rose-700">
+                  Not found
+                </div>
+              )}
               
               {/* Search suggestions dropdown */}
               {searchSuggestions.length > 0 && (
@@ -1171,6 +1261,16 @@ const Layout = ({ children }) => {
             </div>
           </div>
         )}
+
+        {propertyDataPointIds.includes(currentDataPoint) && (
+          <div className="bg-white/95 mt-2 mx-2 sm:mx-4 lg:mx-6 px-3 sm:px-4 py-2 rounded-lg pointer-events-auto border border-gray-200">
+            <p className="text-xs sm:text-sm text-gray-700">
+              {searchQuery
+                ? (propertySearchMatchCount === 0 ? 'Not found' : `Found ${propertySearchMatchCount || 0} properties`)
+                : (propertyFoundCount !== null ? `Found ${propertyFoundCount} properties` : 'Set property filters and click Apply')}
+            </p>
+          </div>
+        )}
         
         {/* Mobile Filter Options - Show when filter options are hidden */}
         <div className="md:hidden bg-white/95 mx-2 sm:mx-4 mt-2 px-4 py-3 rounded-lg pointer-events-auto">
@@ -1253,10 +1353,20 @@ const Layout = ({ children }) => {
       </div>
       
       {/* Filter Panel */}
-      <FilterPanel 
-        isOpen={isFilterPanelOpen} 
-        onClose={handleFilterPanel} 
-      />
+      {isPropertyPanelOpen ? (
+        <PropertyFilterPanel
+          isOpen={isFilterPanelOpen}
+          onClose={handleFilterPanel}
+          initialFilters={propertyManualFilters}
+          onApply={applyPropertyFilters}
+          onClear={clearPropertyFilters}
+        />
+      ) : (
+        <FilterPanel 
+          isOpen={isFilterPanelOpen} 
+          onClose={handleFilterPanel} 
+        />
+      )}
       
       {/* Table View Modal */}
       <TableViewModal 

@@ -30,6 +30,8 @@ const parseObjectValue = (value) => {
   return {};
 };
 
+const normalizeLocationKey = (value) => String(value || '').trim().toLowerCase();
+
 const classifyFurnishingLabel = (label) => {
   const normalizedLabel = String(label || '').toLowerCase();
   if (normalizedLabel.includes('unfurnished')) return 'unfurnished';
@@ -59,6 +61,64 @@ const buildBathsTypeCountMap = () => {
     counts.set(key, (counts.get(key) || 0) + 1);
   });
   return counts;
+};
+
+const buildLocationCountMap = () => {
+  const counts = new Map();
+  propertyListings.forEach((listing) => {
+    const location = listing?.Location ? String(listing.Location).trim() : '';
+    if (!location) return;
+    counts.set(location, (counts.get(location) || 0) + 1);
+  });
+  return counts;
+};
+
+const buildLocationDetailMap = () => {
+  const locationMap = new Map();
+
+  propertyListings.forEach((listing) => {
+    const locationName = listing?.Location ? String(listing.Location).trim() : '';
+    if (!locationName) return;
+
+    const key = normalizeLocationKey(locationName);
+    if (!locationMap.has(key)) {
+      locationMap.set(key, {
+        locationName,
+        listingCount: 0,
+        totalRent: 0,
+        rentCount: 0,
+        totalRentPerSqft: 0,
+        rentPerSqftCount: 0,
+        furnishedCount: 0,
+        typeCounts: {},
+      });
+    }
+
+    const bucket = locationMap.get(key);
+    bucket.listingCount += 1;
+
+    const rent = Number(listing?.Rent);
+    if (!Number.isNaN(rent) && rent > 0) {
+      bucket.totalRent += rent;
+      bucket.rentCount += 1;
+    }
+
+    const rentPerSqft = Number(listing?.Rent_per_sqft);
+    if (!Number.isNaN(rentPerSqft) && rentPerSqft > 0) {
+      bucket.totalRentPerSqft += rentPerSqft;
+      bucket.rentPerSqftCount += 1;
+    }
+
+    const furnishingClass = classifyFurnishingLabel(listing?.Furnishing);
+    if (furnishingClass === 'furnished') {
+      bucket.furnishedCount += 1;
+    }
+
+    const typeName = listing?.Type ? String(listing.Type).trim() : 'Unknown';
+    bucket.typeCounts[typeName] = (bucket.typeCounts[typeName] || 0) + 1;
+  });
+
+  return locationMap;
 };
 
 const aggregateComboDimensionByType = (comboRows, dimensionKey) => {
@@ -148,13 +208,15 @@ const getRowsForDataPoint = (selectedDataPoint, areaMetrics) => {
   if (selectedDataPoint === 'property-type-counts') {
     const areaTypeCounts = areaMetrics?.typeCounts || {};
     const globalRows = Array.isArray(propertyInsights.type_counts) ? propertyInsights.type_counts : [];
+    const totalListings = globalRows.reduce((sum, row) => sum + Number(row.Count || 0), 0);
     return globalRows.map((row) => {
       const typeName = row.Type;
       const areaCount = Number(areaTypeCounts[typeName] || 0);
+      const globalCount = Number(row.Count || 0);
       return {
         label: typeName,
-        value: areaCount,
-        valueLabel: `${formatNumber(areaCount)} in selected area`,
+        value: globalCount,
+        valueLabel: `${formatNumber(globalCount)} / ${formatNumber(totalListings)} listings • area: ${formatNumber(areaCount)}`,
         selection: {
           selectionId: `type-${typeName}`,
           label: `Type: ${typeName}`,
@@ -239,16 +301,24 @@ const getRowsForDataPoint = (selectedDataPoint, areaMetrics) => {
   }
 
   if (selectedDataPoint === 'property-rent-per-sqft-location') {
-    return (propertyInsights.avg_rent_per_sqft_by_location || []).slice(0, 10).map((row) => ({
-      label: row.Location,
-      value: row.AvgRentPerSqft,
-      valueLabel: `AED ${Number(row.AvgRentPerSqft).toFixed(2)}/sqft`,
-      selection: {
-        selectionId: `location-${row.Location}`,
-        label: `Location: ${row.Location}`,
-        location: row.Location,
-      },
-    }));
+    const rows = propertyInsights.avg_rent_per_sqft_by_location || [];
+    const countMap = buildLocationCountMap();
+    const totalListings = [...countMap.values()].reduce((sum, count) => sum + count, 0);
+
+    return rows.map((row) => {
+      const locationName = row?.Location ? String(row.Location).trim() : 'Unknown';
+      const locationCount = countMap.get(locationName) || 0;
+      return {
+        label: locationName,
+        value: locationCount,
+        valueLabel: `${formatNumber(locationCount)} / ${formatNumber(totalListings)} listings • AED ${Number(row.AvgRentPerSqft).toFixed(2)}/sqft`,
+        selection: {
+          selectionId: `location-${locationName}`,
+          label: `Location: ${locationName}`,
+          location: locationName,
+        },
+      };
+    });
   }
 
   return [];
@@ -299,6 +369,7 @@ const PropertyGraphModal = ({
   const isComboMode = selectedDataPoint === 'property-combo-counts';
   const isBedsTypeMode = selectedDataPoint === 'property-avg-rent-beds-type';
   const isBathsTypeMode = selectedDataPoint === 'property-avg-rent-baths-type';
+  const isLocationMode = selectedDataPoint === 'property-rent-per-sqft-location';
   const selectedFilterKeys = useMemo(
     () => new Set((selectedFilters || []).map((item, index) => item.selectionId || `selection-${index}`)),
     [selectedFilters],
@@ -412,6 +483,58 @@ const PropertyGraphModal = ({
     () => aggregateComboDimensionByType(comboDetailRows, 'baths'),
     [comboDetailRows],
   );
+  const locationDetailRows = useMemo(() => {
+    if (!isLocationMode) return [];
+
+    const detailMap = buildLocationDetailMap();
+    const sourceRows = Array.isArray(propertyInsights?.avg_rent_per_sqft_by_location)
+      ? propertyInsights.avg_rent_per_sqft_by_location
+      : [];
+    const selectedLocationSet = new Set(
+      (selectedFilters || [])
+        .map((item) => normalizeLocationKey(item?.location))
+        .filter((value) => Boolean(value)),
+    );
+
+    const mergedRows = sourceRows
+      .map((row) => {
+        const locationName = row?.Location ? String(row.Location).trim() : '';
+        if (!locationName) return null;
+
+        const key = normalizeLocationKey(locationName);
+        const detail = detailMap.get(key);
+        const listingCount = Number(detail?.listingCount || 0);
+        const avgRent = detail?.rentCount > 0 ? detail.totalRent / detail.rentCount : null;
+        const avgRentPerSqftFromListings = detail?.rentPerSqftCount > 0
+          ? detail.totalRentPerSqft / detail.rentPerSqftCount
+          : null;
+        const avgRentPerSqft = avgRentPerSqftFromListings ?? Number(row?.AvgRentPerSqft ?? null);
+        const dominantType = detail?.typeCounts
+          ? Object.entries(detail.typeCounts).sort((a, b) => b[1] - a[1])[0]?.[0] ?? null
+          : null;
+        const furnishedShare = listingCount > 0 ? (Number(detail?.furnishedCount || 0) / listingCount) * 100 : null;
+
+        return {
+          location: locationName,
+          listingCount,
+          avgRent,
+          avgRentPerSqft: Number.isNaN(avgRentPerSqft) ? null : avgRentPerSqft,
+          furnishedShare,
+          dominantType,
+          selected: selectedLocationSet.has(key),
+        };
+      })
+      .filter((row) => row && (row.listingCount > 0 || row.avgRentPerSqft != null));
+
+    if (!selectedLocationSet.size) {
+      return mergedRows.sort((a, b) => b.listingCount - a.listingCount);
+    }
+
+    return [
+      ...mergedRows.filter((row) => row.selected).sort((a, b) => b.listingCount - a.listingCount),
+      ...mergedRows.filter((row) => !row.selected).sort((a, b) => b.listingCount - a.listingCount),
+    ];
+  }, [isLocationMode, selectedFilters]);
 
   if (!isOpen) return null;
 
@@ -680,6 +803,51 @@ const PropertyGraphModal = ({
                           <p className="font-medium text-gray-900">
                             {detail.furnishedShare != null ? `${Number(detail.furnishedShare).toFixed(1)}%` : 'No Data'}
                           </p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+
+          {isLocationMode && (
+            <div className="rounded-xl border border-gray-200 p-4 mt-4">
+              <h3 className="text-base font-semibold text-gray-800 mb-3">Location Details In Selected Section</h3>
+              {locationDetailRows.length === 0 ? (
+                <p className="text-sm text-gray-500">No location detail available.</p>
+              ) : (
+                <div className="space-y-2 max-h-72 overflow-y-auto pr-1">
+                  {locationDetailRows.map((detail) => (
+                    <div
+                      key={detail.location}
+                      className={`rounded-lg border p-3 ${detail.selected ? 'border-emerald-400 bg-emerald-50' : 'border-gray-200 bg-white'}`}
+                    >
+                      <div className="flex items-center justify-between mb-2">
+                        <p className="text-sm font-semibold text-gray-900">{detail.location}</p>
+                        <p className="text-xs text-gray-600">{formatNumber(detail.listingCount)} listings</p>
+                      </div>
+                      <div className="grid grid-cols-1 sm:grid-cols-4 gap-2 text-xs">
+                        <div className="rounded-md bg-gray-50 border border-gray-200 px-2 py-1.5">
+                          <p className="text-gray-500">Avg Rent</p>
+                          <p className="font-medium text-gray-900">{formatCurrency(detail.avgRent)}</p>
+                        </div>
+                        <div className="rounded-md bg-gray-50 border border-gray-200 px-2 py-1.5">
+                          <p className="text-gray-500">Avg Rent/Sqft</p>
+                          <p className="font-medium text-gray-900">
+                            {detail.avgRentPerSqft != null ? `AED ${Number(detail.avgRentPerSqft).toFixed(2)}` : 'No Data'}
+                          </p>
+                        </div>
+                        <div className="rounded-md bg-gray-50 border border-gray-200 px-2 py-1.5">
+                          <p className="text-gray-500">Furnished Share</p>
+                          <p className="font-medium text-gray-900">
+                            {detail.furnishedShare != null ? `${Number(detail.furnishedShare).toFixed(1)}%` : 'No Data'}
+                          </p>
+                        </div>
+                        <div className="rounded-md bg-gray-50 border border-gray-200 px-2 py-1.5">
+                          <p className="text-gray-500">Dominant Type</p>
+                          <p className="font-medium text-gray-900">{detail.dominantType || 'No Data'}</p>
                         </div>
                       </div>
                     </div>
