@@ -45,6 +45,24 @@ const Layout = ({ children }) => {
     selectedDataPoint: null,
     areaMetrics: null,
   });
+  const [selectedPropertySelections, setSelectedPropertySelections] = useState([]);
+
+  const getSelectionKey = (selection) => selection?.selectionId || JSON.stringify(selection);
+
+  const togglePropertySelection = (selection) => {
+    setSelectedPropertySelections((previous) => {
+      const key = getSelectionKey(selection);
+      const exists = previous.some((item) => getSelectionKey(item) === key);
+      if (exists) {
+        return previous.filter((item) => getSelectionKey(item) !== key);
+      }
+      return [...previous, selection];
+    });
+  };
+
+  const clearPropertySelections = () => {
+    setSelectedPropertySelections([]);
+  };
 
   const [searchSuggestions, setSearchSuggestions] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
@@ -68,7 +86,7 @@ const Layout = ({ children }) => {
   const isMeasurementModeRef = useRef(false);
   
   // Access sidebar state to detect school landscape selection
-  const { activeItem, selectedDataPoint, setActiveItem } = useSidebar();
+  const { activeItem, setActiveItem } = useSidebar();
   
   // School-related data point IDs
   const schoolDataPointIds = [
@@ -89,7 +107,7 @@ const Layout = ({ children }) => {
   
   // State to track selected data point from window (since Sidebar and Layout use separate hook instances)
   const [windowDataPoint, setWindowDataPoint] = useState(
-    typeof window !== 'undefined' ? window.selectedDataPoint : null
+    typeof window !== 'undefined' ? (window.selectedDataPoint || 'population') : 'population'
   );
 
   // Listen for data point selection changes from sidebar
@@ -147,7 +165,7 @@ const Layout = ({ children }) => {
   
   // Auto-expand school landscape section when a school data point is selected
   useEffect(() => {
-    const currentDataPoint = windowDataPoint || selectedDataPoint;
+    const currentDataPoint = windowDataPoint || 'population';
     if (currentDataPoint) {
       if (schoolDataPointIds.includes(currentDataPoint)) {
         // Switch to school map if school data point is selected
@@ -161,10 +179,10 @@ const Layout = ({ children }) => {
         }
       }
     }
-  }, [selectedDataPoint, windowDataPoint, activeItem, setActiveItem]);
+  }, [windowDataPoint, activeItem, setActiveItem]);
   
   // Check if school filter panel should be open
-  const currentDataPoint = windowDataPoint || selectedDataPoint;
+  const currentDataPoint = windowDataPoint || 'population';
   // Show school map if:
   // 1. The active section is school landscape, OR
   // 2. A school data point is currently selected
@@ -233,6 +251,7 @@ const Layout = ({ children }) => {
         selectedDataPoint: dataPoint || currentDataPoint,
         areaMetrics: areaMetrics || null,
       });
+      setSelectedPropertySelections([]);
       setIsPropertyGraphOpen(true);
     };
     window.addEventListener('property:areaClicked', onPropertyAreaClicked);
@@ -959,14 +978,24 @@ const Layout = ({ children }) => {
       <div className="absolute left-0 right-0 top-0 bottom-0">
         {isSchoolPanelOpen ? (
           <SchoolMap 
+            key={`school-map-${selectedFilter}-${currentDataPoint || 'none'}`}
             selectedFilter={selectedFilter}
             selectedDataPoint={currentDataPoint}
             filteredSchools={filteredSchools}
           />
         ) : (
           <Map 
+            key={`main-map-${selectedFilter}-${currentDataPoint || 'population'}`}
             selectedFilter={selectedFilter}
             selectedDataPoint={currentDataPoint}
+            propertyExplorerConfig={{
+              enabled: propertyDataPointIds.includes(currentDataPoint),
+              filters: selectedPropertySelections.length > 0
+                ? {
+                    comboSelections: selectedPropertySelections,
+                  }
+                : {},
+            }}
           />
         )}
       </div>
@@ -1102,6 +1131,46 @@ const Layout = ({ children }) => {
             </div>
           </div>
         </div>
+
+        {propertyDataPointIds.includes(currentDataPoint) && selectedPropertySelections.length > 0 && (
+          <div className="bg-emerald-50/95 mt-2 mx-2 sm:mx-4 lg:mx-6 px-3 sm:px-4 lg:px-6 py-3 rounded-lg pointer-events-auto border border-emerald-200">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-xs sm:text-sm font-semibold text-emerald-900">
+                Active section filters ({selectedPropertySelections.length})
+              </span>
+              {selectedPropertySelections.map((selection) => {
+                const selectionKey = getSelectionKey(selection);
+                return (
+                  <span
+                    key={selectionKey}
+                    className="inline-flex items-center gap-2 rounded-full bg-white border border-emerald-300 px-3 py-1 text-xs text-emerald-900"
+                  >
+                    {selection.label || 'Selected filter'}
+                    <button
+                      onClick={() => togglePropertySelection(selection)}
+                      className="text-emerald-700 hover:text-emerald-900"
+                      aria-label="Remove section filter"
+                    >
+                      x
+                    </button>
+                  </span>
+                );
+              })}
+              <button
+                onClick={() => setIsPropertyGraphOpen(true)}
+                className="rounded-md border border-emerald-300 bg-white px-2 py-1 text-xs font-medium text-emerald-900 hover:bg-emerald-100"
+              >
+                Edit Selection
+              </button>
+              <button
+                onClick={clearPropertySelections}
+                className="rounded-md border border-emerald-300 bg-white px-2 py-1 text-xs font-medium text-emerald-900 hover:bg-emerald-100"
+              >
+                Clear All
+              </button>
+            </div>
+          </div>
+        )}
         
         {/* Mobile Filter Options - Show when filter options are hidden */}
         <div className="md:hidden bg-white/95 mx-2 sm:mx-4 mt-2 px-4 py-3 rounded-lg pointer-events-auto">
@@ -1234,10 +1303,15 @@ const Layout = ({ children }) => {
 
       <PropertyGraphModal
         isOpen={isPropertyGraphOpen}
-        onClose={() => setIsPropertyGraphOpen(false)}
+        onClose={() => {
+          setIsPropertyGraphOpen(false);
+        }}
         areaName={propertyGraphData.areaName}
         selectedDataPoint={propertyGraphData.selectedDataPoint}
         areaMetrics={propertyGraphData.areaMetrics}
+        selectedFilters={selectedPropertySelections}
+        onFilterToggle={togglePropertySelection}
+        onFilterClear={clearPropertySelections}
       />
     </div>
   );

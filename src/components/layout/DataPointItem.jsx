@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { Crown } from 'lucide-react';
-import { isDisabled } from '@testing-library/user-event/dist/utils';
 
 const DataPointItem = ({ 
   item, 
@@ -26,8 +25,16 @@ const DataPointItem = ({
 
   return (
     <div className="relative">
-      <button
+      <div
+        role="button"
+        tabIndex={0}
         onClick={() => onItemClick(item)}
+        onKeyDown={(event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            onItemClick(item);
+          }
+        }}
         className="w-full flex items-center justify-between p-1 rounded-lg transition-colors group hover:bg-gray-200"
       >
         <div className="flex items-center text-left space-x-2">
@@ -117,7 +124,7 @@ const DataPointItem = ({
 
           </div>
         </div>
-      </button>
+      </div>
     </div>
   );
 };
