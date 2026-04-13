@@ -205,6 +205,8 @@ const Map = ({
     return getPropertyPointsGeoJSONWithSelections(filteredPropertyListings, selectedComboSelections);
   }, [filteredPropertyListings, comboColorMeta.length, selectedComboSelections]);
 
+  const allPropertyPointsGeoJSON = useMemo(() => getPropertyPointsGeoJSON(propertyListings), []);
+
   const searchPointsGeoJSON = useMemo(() => getPropertyPointsGeoJSON(searchablePropertyListings), [searchablePropertyListings]);
 
   const propertyAreaGeoJSON = useMemo(() => {
@@ -473,6 +475,11 @@ const Map = ({
       });
     
       if (!map.current.getSource('property-points')) {
+        map.current.addSource('property-all-points', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] },
+        });
+
         map.current.addSource('property-points', {
           type: 'geojson',
           data: { type: 'FeatureCollection', features: [] },
@@ -484,6 +491,26 @@ const Map = ({
         map.current.addSource('property-search-results', {
           type: 'geojson',
           data: { type: 'FeatureCollection', features: [] },
+        });
+
+        map.current.addLayer({
+          id: 'property-all-points-dot',
+          type: 'circle',
+          source: 'property-all-points',
+          layout: {
+            visibility: 'none',
+          },
+          paint: {
+            'circle-radius': [
+              'interpolate', ['linear'], ['zoom'],
+              5, 1.7,
+              9, 2.4,
+              12, 3.3,
+              15, 4.1,
+            ],
+            'circle-color': '#0f172a',
+            'circle-opacity': 0.55,
+          },
         });
 
         map.current.addLayer({
@@ -967,6 +994,10 @@ const Map = ({
       map.current.getSource('property-points').setData(propertyPointsGeoJSON);
     }
 
+    if (map.current.getSource('property-all-points')) {
+      map.current.getSource('property-all-points').setData(allPropertyPointsGeoJSON);
+    }
+
     if (map.current.getLayer('property-points-unclustered')) {
       let unclusteredColor = '#1976d2';
       if (comboColorMeta.length > 1) {
@@ -995,6 +1026,10 @@ const Map = ({
         map.current.setLayoutProperty(layerId, 'visibility', propertyLayersVisible ? 'visible' : 'none');
       }
     });
+
+    if (map.current.getLayer('property-all-points-dot')) {
+      map.current.setLayoutProperty('property-all-points-dot', 'visibility', isPropertyMode ? 'visible' : 'none');
+    }
 
     if (map.current.getLayer('property-search-results-layer')) {
       map.current.setLayoutProperty('property-search-results-layer', 'visibility', searchLayerVisible ? 'visible' : 'none');
@@ -1048,6 +1083,7 @@ const Map = ({
     selectedAreaKey,
     viewMode,
     propertyPointsGeoJSON,
+    allPropertyPointsGeoJSON,
     searchPointsGeoJSON,
     searchQueryText,
     explorerSummary,
