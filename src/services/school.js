@@ -39,7 +39,7 @@ const locationCache = new Map();
  * Get location address from coordinates using geostat.display_name from data
  * @param {number} lat - Latitude
  * @param {number} lon - Longitude
- * @returns {Promise<string>} - Location address string
+ * @returns {Promise<string>} - Location address
  */
 export const getLocationFromCoordinates = async (lat, lon) => {
   if (!lat || !lon) return null;
