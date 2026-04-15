@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, ArrowLeft, MapPin, GraduationCap, RotateCcw, Ruler } from 'lucide-react';
+import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, ArrowLeft, MapPin, GraduationCap, RotateCcw, Ruler, SlidersHorizontal } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
 import PropertyFilterPanel from '../ui/PropertyFilterPanel';
@@ -56,6 +56,8 @@ const Layout = ({ children }) => {
   const [graphPlace, setGraphPlace] = useState('');
   const [isSchoolGraphOpen, setIsSchoolGraphOpen] = useState(false);
   const [isPropertyGraphOpen, setIsPropertyGraphOpen] = useState(false);
+  const [isPropertySelectorOpen, setIsPropertySelectorOpen] = useState(false);
+  const [isPropertySelectorExpanded, setIsPropertySelectorExpanded] = useState(true);
   const [schoolGraphData, setSchoolGraphData] = useState({
     areaName: '',
     visualizationMode: 'rating',
@@ -226,6 +228,21 @@ const Layout = ({ children }) => {
   const isPropertyPanelOpen = activeItem === 'dubai-property-insights' ||
     (currentDataPoint && propertyDataPointIds.includes(currentDataPoint));
   const isPropertyDataPointSelected = currentDataPoint && propertyDataPointIds.includes(currentDataPoint);
+
+  useEffect(() => {
+    if (!isPropertyDataPointSelected) {
+      setIsPropertySelectorExpanded(true);
+      return;
+    }
+
+    const intervalId = window.setInterval(() => {
+      setIsPropertySelectorExpanded((previous) => !previous);
+    }, 3000);
+
+    return () => {
+      window.clearInterval(intervalId);
+    };
+  }, [isPropertyDataPointSelected]);
 
   const propertyExplorerFilters = useMemo(
     () => ({
@@ -1351,6 +1368,21 @@ const Layout = ({ children }) => {
           <span className="text-sm text-gray-700 ml-6 hidden sm:block">Feedback</span>
         </button>
       </div>
+
+      {propertyDataPointIds.includes(currentDataPoint) && (
+        <div className="absolute bottom-64 right-2 sm:right-4 pointer-events-auto z-20">
+          <button
+            onClick={() => setIsPropertySelectorOpen(true)}
+            className={`group flex items-center gap-2 rounded-lg shadow-lg border border-white/20 bg-azure hover:bg-azure-dark text-white overflow-hidden transition-all duration-500 ${isPropertySelectorExpanded ? 'w-44 px-3 sm:px-4 py-2' : 'w-11 px-3 py-2'}`}
+            title="Property Selector"
+          >
+            <SlidersHorizontal className="w-4 h-4" />
+            <span className={`text-xs sm:text-sm font-medium whitespace-nowrap transition-all duration-500 ${isPropertySelectorExpanded ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-2 w-0'}`}>
+              Property Selector
+            </span>
+          </button>
+        </div>
+      )}
       
       {/* Filter Panel */}
       {isPropertyPanelOpen ? (
@@ -1412,6 +1444,21 @@ const Layout = ({ children }) => {
       />
 
       <PropertyGraphModal
+        isOpen={isPropertySelectorOpen}
+        onClose={() => {
+          setIsPropertySelectorOpen(false);
+        }}
+        areaName="Dubai - Property Selector"
+        selectedDataPoint={currentDataPoint}
+        areaMetrics={null}
+        selectedFilters={selectedPropertySelections}
+        onFilterToggle={togglePropertySelection}
+        onFilterClear={clearPropertySelections}
+        showSelectorSection={true}
+        showInsightsSections={false}
+      />
+
+      <PropertyGraphModal
         isOpen={isPropertyGraphOpen}
         onClose={() => {
           setIsPropertyGraphOpen(false);
@@ -1422,6 +1469,8 @@ const Layout = ({ children }) => {
         selectedFilters={selectedPropertySelections}
         onFilterToggle={togglePropertySelection}
         onFilterClear={clearPropertySelections}
+        showSelectorSection={false}
+        showInsightsSections={true}
       />
     </div>
   );

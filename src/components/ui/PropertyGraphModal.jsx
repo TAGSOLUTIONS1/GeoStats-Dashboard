@@ -345,6 +345,8 @@ const PropertyGraphModal = ({
   selectedFilters = [],
   onFilterToggle = () => {},
   onFilterClear = () => {},
+  showSelectorSection = true,
+  showInsightsSections = true,
 }) => {
   useEffect(() => {
     if (isOpen) {
@@ -557,6 +559,7 @@ const PropertyGraphModal = ({
         </div>
 
         <div className="p-6 overflow-y-auto">
+          {showInsightsSections && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3 mb-6">
             <div className="rounded-lg border border-gray-200 p-3 bg-gray-50">
               <div className="text-xs text-gray-500 flex items-center gap-1"><Building2 className="w-3 h-3" />Listings</div>
@@ -591,7 +594,9 @@ const PropertyGraphModal = ({
               </div>
             </div>
           </div>
+          )}
 
+          {showSelectorSection && (
           <div className="rounded-xl border border-gray-200 p-4">
             <h3 className="text-base font-semibold text-gray-800 mb-3">
               {isTypeSelectionMode ? 'Property Type Selector' : 'Property Selector'}
@@ -671,8 +676,9 @@ const PropertyGraphModal = ({
               </div>
             )}
           </div>
+          )}
 
-          {isFurnishingMode && (
+          {showInsightsSections && isFurnishingMode && (
             <div className="rounded-xl border border-gray-200 p-4 mt-4">
               <h3 className="text-base font-semibold text-gray-800 mb-3">Furnishing Detail In This Area</h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
@@ -698,7 +704,7 @@ const PropertyGraphModal = ({
             </div>
           )}
 
-          {isComboMode && (
+          {showInsightsSections && isComboMode && (
             <div className="rounded-xl border border-gray-200 p-4 mt-4">
               <h3 className="text-base font-semibold text-gray-800 mb-3">Combo Details In This Area</h3>
               {comboDetailRows.length === 0 ? (
@@ -736,7 +742,7 @@ const PropertyGraphModal = ({
             </div>
           )}
 
-          {isBedsTypeMode && (
+          {showInsightsSections && isBedsTypeMode && (
             <div className="rounded-xl border border-gray-200 p-4 mt-4">
               <h3 className="text-base font-semibold text-gray-800 mb-3">Beds/Type Details In This Area</h3>
               {bedsTypeDetailRows.length === 0 ? (
@@ -774,7 +780,7 @@ const PropertyGraphModal = ({
             </div>
           )}
 
-          {isBathsTypeMode && (
+          {showInsightsSections && isBathsTypeMode && (
             <div className="rounded-xl border border-gray-200 p-4 mt-4">
               <h3 className="text-base font-semibold text-gray-800 mb-3">Baths/Type Details In This Area</h3>
               {bathsTypeDetailRows.length === 0 ? (
@@ -812,7 +818,7 @@ const PropertyGraphModal = ({
             </div>
           )}
 
-          {isLocationMode && (
+          {showInsightsSections && isLocationMode && (
             <div className="rounded-xl border border-gray-200 p-4 mt-4">
               <h3 className="text-base font-semibold text-gray-800 mb-3">Location Details In Selected Section</h3>
               {locationDetailRows.length === 0 ? (
@@ -857,7 +863,7 @@ const PropertyGraphModal = ({
             </div>
           )}
 
-          {isTypeSelectionMode && (
+          {showInsightsSections && isTypeSelectionMode && (
             <div className="rounded-xl border border-gray-200 p-4 mt-4">
               <h3 className="text-base font-semibold text-gray-800 mb-3">Per Type Details In This Area</h3>
               {typeDetailRows.length === 0 ? (
