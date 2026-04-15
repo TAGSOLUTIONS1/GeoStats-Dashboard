@@ -36,7 +36,7 @@ const mergedSchoolsData = mergeSchoolsWithFees();
 const locationCache = new Map();
 
 /**
- * Get location address from coordinates using geostat.display_name from schools data
+ * Get location address from coordinates using geostat.display_name from data
  * @param {number} lat - Latitude
  * @param {number} lon - Longitude
  * @returns {Promise<string>} - Location address string
