@@ -19,6 +19,7 @@ const PROPERTY_DATA_POINT_IDS = [
 
 const PROPERTY_VIEW_MODES = ['points-only', 'area-insights-only', 'combined'];
 const PROPERTY_COMBO_COLORS = ['#2563eb', '#16a34a', '#d97706', '#dc2626', '#7c3aed', '#0f766e', '#9333ea', '#0891b2'];
+const PROPERTY_SELECTION_HIGHLIGHT_COLORS = ['#ff7a00', '#0ea5e9', '#ef4444', '#22c55e', '#e11d48', '#8b5cf6', '#06b6d4', '#f59e0b'];
 const PROPERTY_TYPE_COLORS = ['#2563eb', '#16a34a', '#d97706', '#dc2626', '#7c3aed', '#0f766e', '#9333ea', '#0891b2', '#ea580c', '#0d9488', '#4f46e5', '#be185d'];
 const PROPERTY_FURNISHING_COLORS = {
   furnished: '#16a34a',
@@ -999,19 +1000,52 @@ const Map = ({
     }
 
     if (map.current.getLayer('property-points-unclustered')) {
+      const hasSelection = comboColorMeta.length > 0;
       let unclusteredColor = '#1976d2';
       if (comboColorMeta.length > 1) {
         const matchExpression = ['match', ['get', 'selection_index']];
         comboColorMeta.forEach((entry) => {
-          matchExpression.push(entry.index, entry.color);
+          matchExpression.push(entry.index, PROPERTY_SELECTION_HIGHLIGHT_COLORS[entry.index % PROPERTY_SELECTION_HIGHLIGHT_COLORS.length]);
         });
-        matchExpression.push('#1976d2');
+        matchExpression.push('#0ea5e9');
         unclusteredColor = matchExpression;
       } else if (comboColorMeta.length === 1) {
-        unclusteredColor = comboColorMeta[0].color;
+        unclusteredColor = PROPERTY_SELECTION_HIGHLIGHT_COLORS[0];
       }
 
       map.current.setPaintProperty('property-points-unclustered', 'circle-color', unclusteredColor);
+      map.current.setPaintProperty(
+        'property-points-unclustered',
+        'circle-radius',
+        hasSelection
+          ? [
+              'interpolate', ['linear'], ['zoom'],
+              5, 3.8,
+              10, 6.4,
+              14, 9.2,
+            ]
+          : [
+              'interpolate', ['linear'], ['zoom'],
+              5, 2.5,
+              10, 4.5,
+              14, 7,
+            ],
+      );
+      map.current.setPaintProperty('property-points-unclustered', 'circle-opacity', hasSelection ? 0.98 : 0.9);
+      map.current.setPaintProperty('property-points-unclustered', 'circle-stroke-width', hasSelection ? 2.4 : 1.25);
+      map.current.setPaintProperty('property-points-unclustered', 'circle-stroke-color', hasSelection ? '#ffffff' : '#ffffff');
+    }
+
+    if (map.current.getLayer('property-points-clusters')) {
+      const hasSelection = comboColorMeta.length > 0;
+      map.current.setPaintProperty(
+        'property-points-clusters',
+        'circle-color',
+        hasSelection
+          ? ['step', ['get', 'point_count'], '#fb923c', 10, '#f97316', 35, '#ea580c', 80, '#c2410c']
+          : ['step', ['get', 'point_count'], '#c5cae9', 25, '#9575cd', 100, '#5e35b1'],
+      );
+      map.current.setPaintProperty('property-points-clusters', 'circle-opacity', hasSelection ? 0.96 : 0.88);
     }
 
     if (map.current.getSource('property-search-results')) {
@@ -1029,6 +1063,7 @@ const Map = ({
 
     if (map.current.getLayer('property-all-points-dot')) {
       map.current.setLayoutProperty('property-all-points-dot', 'visibility', isPropertyMode ? 'visible' : 'none');
+      map.current.setPaintProperty('property-all-points-dot', 'circle-opacity', comboColorMeta.length > 0 ? 0.14 : 0.55);
     }
 
     if (map.current.getLayer('property-search-results-layer')) {
