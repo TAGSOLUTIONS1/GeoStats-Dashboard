@@ -2688,13 +2688,13 @@ const SchoolGraphModal = ({
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: "100%" }}
+      initial={{ opacity: 0, y: "-100%" }}
       animate={{ opacity: 1, y: "0%" }}
-      exit={{ opacity: 0, y: "100%" }}
+      exit={{ opacity: 0, y: "-100%" }}
       transition={{ duration: 0.5, ease: "easeInOut" }}
-      className="fixed bottom-0 w-[98%] md:w-[95%] lg:w-[70%] 2xl:w-[75%] right-1 md:right-[2%] xl:right-[5%] z-50 p-2 overflow-y-auto"
+      className="fixed top-20 w-[98%] md:w-[95%] lg:w-[70%] 2xl:w-[75%] right-1 md:right-[2%] xl:right-[5%] z-50 p-2 overflow-y-auto"
     >
-      <div className="bg-white rounded-2xl w-full max-h-[90vh] overflow-hidden flex flex-col shadow-2xl">
+      <div className="bg-white rounded-2xl w-full max-h-[calc(100vh-7rem)] overflow-hidden flex flex-col shadow-2xl">
         {/* Header */}
         <div className="flex items-center justify-between p-4 md:p-6 border-b border-gray-200 bg-gradient-to-r from-blue-50 to-indigo-50">
           <div className="flex items-center gap-3">

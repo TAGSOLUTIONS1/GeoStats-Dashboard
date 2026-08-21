@@ -186,6 +186,8 @@ const Layout = ({ children }) => {
       if (isSchoolPanelOpen) {
         setSelectedLocation({ placeName: placeName || 'Selected Area', lngLat });
       } else {
+      // Only one dialog at a time: dismiss whatever else is open
+      closeAllModals();
       setGraphPlace(placeName || 'Selected Area');
       setIsGraphOpen(true);
       }
@@ -196,8 +198,8 @@ const Layout = ({ children }) => {
     const onSchoolAreaClicked = (e) => {
       const { areaName, visualizationMode, ratingData, enrollmentData, schools } = e.detail;
       
-      // Close regular graph modal if open
-      setIsGraphOpen(false);
+      // Only one dialog at a time: dismiss whatever else is open
+      closeAllModals();
       
       setSchoolGraphData({
         areaName,
@@ -709,6 +711,16 @@ const Layout = ({ children }) => {
     };
   }, [isMeasurementMode]);
 
+  // Dismiss every open modal so a newly opened one never stacks behind another
+  const closeAllModals = () => {
+    setIsExploreModalOpen(false);
+    setIsGraphOpen(false);
+    setIsSchoolGraphOpen(false);
+    setIsTableViewOpen(false);
+    setIsFeedbackOpen(false);
+    setIsShareModalOpen(false);
+  };
+
   const handleTableView = () => {
     setIsTableViewOpen(!isTableViewOpen);
   };
@@ -836,6 +848,8 @@ const Layout = ({ children }) => {
    useEffect(() => {
         const handleOpenModal = (e) => {
             if (e.detail === 'explore') {
+                // Only one modal at a time: dismiss whatever is already open
+                closeAllModals();
                 setIsExploreModalOpen(true);
             }
             if (!isDesktop) { 
@@ -845,7 +859,7 @@ const Layout = ({ children }) => {
         window.addEventListener('modal:open', handleOpenModal);
         // Removes the listener when the component unmounts
         return () => window.removeEventListener('modal:open', handleOpenModal);
-    }, []);
+    }, [isDesktop]);
     
   return (
     <div className="flex h-screen bg-gray-50 relative mobile-scroll-fix">
