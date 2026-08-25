@@ -1,4 +1,3 @@
-import { New_Population } from "./new_population";
 
 export const dubaiWEBDATA = {
   "type": "FeatureCollection",

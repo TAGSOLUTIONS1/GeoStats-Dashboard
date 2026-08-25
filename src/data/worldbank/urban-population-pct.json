@@ -1,0 +1,118 @@
+{
+  "id": "urban-population-pct",
+  "indicatorCode": "SP.URB.TOTL.IN.ZS",
+  "label": "Urban population (% of total population)",
+  "country": "United Arab Emirates",
+  "iso3": "ARE",
+  "unit": "percent",
+  "scope": "country",
+  "source": "World Bank Open Data",
+  "sourceUrl": "https://api.worldbank.org/v2/country/ARE/indicator/SP.URB.TOTL.IN.ZS?format=json&mrv=25",
+  "lastUpdated": "2026-07-13",
+  "yearRange": [
+    2001,
+    2025
+  ],
+  "series": [
+    {
+      "year": 2001,
+      "value": 79.7469002624215
+    },
+    {
+      "year": 2002,
+      "value": 80.2705602850306
+    },
+    {
+      "year": 2003,
+      "value": 80.8489432668434
+    },
+    {
+      "year": 2004,
+      "value": 81.4729199268812
+    },
+    {
+      "year": 2005,
+      "value": 82.2122832763517
+    },
+    {
+      "year": 2006,
+      "value": 82.5588968646829
+    },
+    {
+      "year": 2007,
+      "value": 82.758608500318
+    },
+    {
+      "year": 2008,
+      "value": 82.9658963549658
+    },
+    {
+      "year": 2009,
+      "value": 83.1701992996163
+    },
+    {
+      "year": 2010,
+      "value": 83.3714299144178
+    },
+    {
+      "year": 2011,
+      "value": 83.5695007795347
+    },
+    {
+      "year": 2012,
+      "value": 83.7643244751488
+    },
+    {
+      "year": 2013,
+      "value": 83.9558135814626
+    },
+    {
+      "year": 2014,
+      "value": 84.1438806787019
+    },
+    {
+      "year": 2015,
+      "value": 84.3284383471193
+    },
+    {
+      "year": 2016,
+      "value": 84.5093991669984
+    },
+    {
+      "year": 2017,
+      "value": 84.686675718659
+    },
+    {
+      "year": 2018,
+      "value": 84.8601805824625
+    },
+    {
+      "year": 2019,
+      "value": 85.0298263388195
+    },
+    {
+      "year": 2020,
+      "value": 85.1955255681984
+    },
+    {
+      "year": 2021,
+      "value": 85.3571908511355
+    },
+    {
+      "year": 2022,
+      "value": 85.5147347682487
+    },
+    {
+      "year": 2023,
+      "value": 85.6680699002526
+    },
+    {
+      "year": 2024,
+      "value": 85.8171088279791
+    },
+    {
+      "year": 2025,
+      "value": 85.9617641324017
+    }
+  ]
+}

@@ -6,7 +6,6 @@ import {
   MapPin, 
   TrendingUp, 
   Building2,
-  Heart,
   Shield,
   BarChart3,
   ArrowRight,

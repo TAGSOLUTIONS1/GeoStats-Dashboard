@@ -1,0 +1,118 @@
+{
+  "id": "internet-users-pct",
+  "indicatorCode": "IT.NET.USER.ZS",
+  "label": "Individuals using the Internet (% of population)",
+  "country": "United Arab Emirates",
+  "iso3": "ARE",
+  "unit": "percent",
+  "scope": "country",
+  "source": "World Bank Open Data",
+  "sourceUrl": "https://api.worldbank.org/v2/country/ARE/indicator/IT.NET.USER.ZS?format=json&mrv=25",
+  "lastUpdated": "2026-07-13",
+  "yearRange": [
+    2000,
+    2024
+  ],
+  "series": [
+    {
+      "year": 2000,
+      "value": 23.6253008751553
+    },
+    {
+      "year": 2001,
+      "value": 26.2717542010006
+    },
+    {
+      "year": 2002,
+      "value": 28.3164853110439
+    },
+    {
+      "year": 2003,
+      "value": 29.4779534120864
+    },
+    {
+      "year": 2004,
+      "value": 30.1312961695367
+    },
+    {
+      "year": 2005,
+      "value": 40
+    },
+    {
+      "year": 2006,
+      "value": 52
+    },
+    {
+      "year": 2007,
+      "value": 61
+    },
+    {
+      "year": 2008,
+      "value": 63
+    },
+    {
+      "year": 2009,
+      "value": 64
+    },
+    {
+      "year": 2010,
+      "value": 68
+    },
+    {
+      "year": 2011,
+      "value": 78
+    },
+    {
+      "year": 2012,
+      "value": 84.9999915049492
+    },
+    {
+      "year": 2013,
+      "value": 88
+    },
+    {
+      "year": 2014,
+      "value": 90.4000107121939
+    },
+    {
+      "year": 2015,
+      "value": 90.5
+    },
+    {
+      "year": 2016,
+      "value": 90.6000073180483
+    },
+    {
+      "year": 2017,
+      "value": 94.8199225383446
+    },
+    {
+      "year": 2018,
+      "value": 98.4500017817194
+    },
+    {
+      "year": 2019,
+      "value": 99.1499979561243
+    },
+    {
+      "year": 2020,
+      "value": 100
+    },
+    {
+      "year": 2021,
+      "value": 100
+    },
+    {
+      "year": 2022,
+      "value": 100
+    },
+    {
+      "year": 2023,
+      "value": 100
+    },
+    {
+      "year": 2024,
+      "value": 100
+    }
+  ]
+}

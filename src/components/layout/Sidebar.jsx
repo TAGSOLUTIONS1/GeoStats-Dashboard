@@ -66,11 +66,8 @@ const Sidebar = () => {
     if (filtered.length > 0 && !filtered.find(s => s.id === activeItem)) {
       setActiveItem(filtered[0].id);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchQuery]);
-
-  const handleInfoClick = (item, position) => {
-    console.log('Info clicked for:', item);
-  };
 
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);

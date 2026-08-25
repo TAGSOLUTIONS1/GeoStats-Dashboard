@@ -40,7 +40,8 @@ const GraphModal = ({
   
   const svgWidth = 760;
   const svgHeight = 360;
-  const margin = { top: 20, right: 20, bottom: 40, left: 50 };
+  // Memoised so the useCallback hooks below keep a stable dependency.
+  const margin = useMemo(() => ({ top: 20, right: 20, bottom: 40, left: 50 }), []);
 
   const activeSeries = series.length > 0 ? series : mockForecastData;
   const activeHistorical = pastSeries.length > 0 ? pastSeries : mockHistoricalData;

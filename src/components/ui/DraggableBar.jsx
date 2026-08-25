@@ -1,5 +1,4 @@
-import React, { useMemo, useState, useEffect, useRef, useCallback } from "react";
-import { X, Calendar, ZoomIn, ZoomOut, Maximize2, TrendingUp } from "lucide-react";
+import React, { useEffect, useRef, useCallback } from "react";
 import { motion, useMotionValue, animate } from "framer-motion";
 
 // Optimized DraggableBar Component
@@ -16,6 +15,7 @@ const DraggableBar = ({ min = 0, max = 100, value, onChange, disabled = false })
     const width = trackRef.current.clientWidth || 1;
     const px = (pct / 100) * width;
     animate(x, px, { type: 'spring', stiffness: 300, damping: 30 });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [value, x, min, max]);
 
   const pointerToValue = useCallback(

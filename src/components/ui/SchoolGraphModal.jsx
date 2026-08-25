@@ -231,7 +231,6 @@ const SchoolGraphModal = ({
       const maxCount = Math.max(...ratingData.map(d => d.count));
       const barWidth = chartWidth / ratingData.length * 0.6;
       const xScale = (index) => margin.left + (index + 0.2) * (chartWidth / ratingData.length);
-      const yScale = (value) => margin.top + chartHeight - (value / maxCount) * chartHeight;
 
       return (
         <div className="relative w-full">
@@ -421,7 +420,6 @@ const SchoolGraphModal = ({
       const chartWidth = svgWidth - margin.left - margin.right;
       const chartHeight = svgHeight - margin.top - margin.bottom;
 
-      const years = ratingOverYears.map(d => d.year);
       const ratings = ratingOverYears.map(d => d.averageRating);
       const maxRating = Math.max(...ratings, 5);
       const minRating = Math.min(...ratings, 0);
@@ -1191,7 +1189,6 @@ const SchoolGraphModal = ({
         );
       }
 
-    const years = enrollmentData.map(d => d.year);
     const enrollments = enrollmentData.map(d => d.totalEnrollment);
     const maxEnrollment = Math.max(...enrollments);
     const minEnrollment = Math.min(...enrollments);
@@ -1969,7 +1966,6 @@ const SchoolGraphModal = ({
         );
       }
 
-      const years = feesOverYears.map(d => d.year);
       const fees = feesOverYears.map(d => d.averageFee);
       const maxFee = Math.max(...fees);
       const minFee = Math.min(...fees);

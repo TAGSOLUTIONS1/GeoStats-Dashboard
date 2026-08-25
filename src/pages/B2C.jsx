@@ -1,12 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
-  Home, 
   DollarSign, 
   Users, 
   Clock, 
   School, 
-  Hospital,
   MapPin,
   TrendingUp,
   Building2,

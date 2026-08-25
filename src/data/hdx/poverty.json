@@ -1,0 +1,100 @@
+{
+  "id": "poverty-rate",
+  "label": "Relative poverty (below 50% of median income)",
+  "scope": "country",
+  "unit": "percent",
+  "country": "United Arab Emirates",
+  "iso3": "ARE",
+  "source": "World Bank poverty indicators, via Humanitarian Data Exchange (HDX)",
+  "sourceUrl": "https://data.humdata.org/dataset/world-bank-poverty-indicators-for-united-arab-emirates",
+  "downloadUrl": "https://data.humdata.org/dataset/a5e9c92c-ea14-412c-9fcb-6de920fb3417/resource/77330e7c-a920-40c7-97e6-617d5b359d83/download/poverty_are.csv",
+  "retrieved": "2026-08-25",
+  "method": "Uses the RELATIVE poverty measure (SI.DST.50MD). Absolute headcount ratios at $3.00 and $4.20 a day are 0% for the UAE, so they carry no signal for a high-income country.",
+  "yearRange": [
+    2013,
+    2018
+  ],
+  "series": [
+    {
+      "year": 2013,
+      "value": 19.3
+    },
+    {
+      "year": 2018,
+      "value": 11.4
+    }
+  ],
+  "context": {
+    "giniIndex": [
+      {
+        "year": 2013,
+        "value": 32.5
+      },
+      {
+        "year": 2018,
+        "value": 26.4
+      }
+    ],
+    "povertyHeadcount830PerDay": [
+      {
+        "year": 2013,
+        "value": 0
+      },
+      {
+        "year": 2018,
+        "value": 0.6
+      }
+    ],
+    "populationInSlumsPct": [
+      {
+        "year": 2000,
+        "value": 0.7025
+      },
+      {
+        "year": 2002,
+        "value": 0.95
+      },
+      {
+        "year": 2004,
+        "value": 0.95
+      },
+      {
+        "year": 2006,
+        "value": 0.95
+      },
+      {
+        "year": 2008,
+        "value": 0.8
+      },
+      {
+        "year": 2010,
+        "value": 0.65
+      },
+      {
+        "year": 2012,
+        "value": 0.5
+      },
+      {
+        "year": 2014,
+        "value": 0.4
+      },
+      {
+        "year": 2016,
+        "value": 0.25
+      },
+      {
+        "year": 2018,
+        "value": 0.1
+      },
+      {
+        "year": 2020,
+        "value": 0.2265
+      },
+      {
+        "year": 2022,
+        "value": 0.11325
+      }
+    ],
+    "absoluteHeadcountNote": "$3.00/day and $4.20/day headcount = 0% in both 2013 and 2018"
+  }
+}

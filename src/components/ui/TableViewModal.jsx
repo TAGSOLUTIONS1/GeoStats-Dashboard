@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { X, Download, ChevronUp, ChevronDown, ArrowUpDown, ArrowDownUp, Crown } from 'lucide-react';
+import { X, Download, ChevronDown, ArrowUpDown, ArrowDownUp, Crown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { sampleData } from '../../data/TableViewData';
 import { dataSections } from '../../data/sidebarData';
@@ -35,10 +35,6 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
 
   const tableData = data.length > 0 ? data : sampleData;
 
-  // Flatten all data points for easy access
-  const allDataPoints = dataSections.flatMap(section => 
-    section.items.map(item => ({ ...item, sectionId: section.id, sectionLabel: section.label }))
-  );
 
   const handleSort = (key) => {
     let direction = 'asc';
@@ -84,7 +80,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
       );
       
       if (existingColumn) {
-        const [existingKey, existingValue] = existingColumn;
+        const [existingKey] = existingColumn;
         setColumnHeaders(prev => ({
           ...prev,
           [existingKey]: prev[columnKey] || null, // Move current column's data to existing column
@@ -98,7 +94,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
       );
       
       if (existingColumn) {
-        const [existingKey, existingValue] = existingColumn;
+        const [existingKey] = existingColumn;
         setColumnHeaders(prev => ({
           ...prev,
           [existingKey]: prev[columnKey] || null, // Move current column's data to existing column

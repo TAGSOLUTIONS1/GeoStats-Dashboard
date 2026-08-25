@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState, useCallback, useMemo } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { dubaiGeoData, geojsonData } from '../../data/geoData';
+import { geojsonData } from '../../data/geoData';
 import { dubaiWEBDATA } from '../../data/DubaiData';
 import schoolsData from '../../data/schools/schools.json';
 import { addSchoolCountsToGeoJSON, getSchoolsInArea, processEnrollmentData, processRatingDistribution } from '../../services/school';
@@ -650,10 +650,6 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
       map.current.on('click', 'schools', async (e) => {
         const props = e.features[0].properties;
         const coordinates = e.features[0].geometry.coordinates.slice();
-        // Use lat/lng from properties if available, otherwise from coordinates
-        const lat = props.latitude || coordinates[1];
-        const lng = props.longitude || coordinates[0];
-        
         // Highlight the clicked school
         if (window.highlightSchool) {
           window.highlightSchool(props.name, coordinates);
@@ -830,6 +826,7 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
       if (map.current) map.current.remove();
       map.current = null;
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedFilter, processGeoJSONWithSchools, getRatingColorScheme]);
 
   // Update data when filter changes

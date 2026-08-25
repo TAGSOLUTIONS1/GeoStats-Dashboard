@@ -1,15 +1,16 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, ArrowLeft, MapPin, GraduationCap, RotateCcw, Ruler } from 'lucide-react';
+import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, GraduationCap, RotateCcw, Ruler } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
 import TableViewModal from '../ui/TableViewModal';
 import DatePicker from '../ui/DatePicker';
-import TooltipToggle from '../ui/TooltipToggle';
 import FeedbackModal from '../ui/FeedbackModal';
 import ShareModal from '../ui/ShareModal';
 import Map from '../ui/Map';
 import SchoolMap from '../ui/SchoolMap';
+import IndicatorTrendCard from '../ui/IndicatorTrendCard';
+import { hasCard } from '../../services/cardData';
+import { getMapDataPointMeta } from '../../services/communityData';
 import GraphModal from '../ui/GraphModal';
 import SchoolGraphModal from '../ui/SchoolGraphModal';
 import AreasMap from "../../data/average_meter_price/forecasts/Areas_id.json";
@@ -18,13 +19,14 @@ import SchoolFilterPanel from '../ui/SchoolFilterPanel';
 import ColorLegend from '../ui/ColorLegend';
 import { useSidebar } from '../../hooks/useSidebar';
 
+
+
 const Layout = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedFilter, setSelectedFilter] = useState('Area');
   const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
   const [isSchoolFilterPanelOpen, setIsSchoolFilterPanelOpen] = useState(false);
   const [isTableViewOpen, setIsTableViewOpen] = useState(false);
-  const [isTooltipEnabled, setIsTooltipEnabled] = useState(true);
   const [selectedDate, setSelectedDate] = useState('Jul 2025');
   const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
@@ -56,7 +58,7 @@ const Layout = ({ children }) => {
   
   // Measurement states
   const [isMeasurementMode, setIsMeasurementMode] = useState(false);
-  const [measurementPoints, setMeasurementPoints] = useState([]);
+  const [, setMeasurementPoints] = useState([]);
   const measurementPointsRef = useRef([]);
   const isMeasurementModeRef = useRef(false);
   
@@ -127,6 +129,7 @@ const Layout = ({ children }) => {
       window.removeEventListener('sidebar:dataPointSelected', handleDataPointChange);
       clearInterval(interval);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeItem, setActiveItem, windowDataPoint]);
   
   // Auto-expand school landscape section when a school data point is selected
@@ -145,6 +148,7 @@ const Layout = ({ children }) => {
         }
       }
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedDataPoint, windowDataPoint, activeItem, setActiveItem]);
   
   // Check if school filter panel should be open
@@ -709,6 +713,7 @@ const Layout = ({ children }) => {
         window.map.off('mousemove', handleMeasurementMouseMove);
       }
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isMeasurementMode]);
 
   // Dismiss every open modal so a newly opened one never stacks behind another
@@ -723,10 +728,6 @@ const Layout = ({ children }) => {
 
   const handleTableView = () => {
     setIsTableViewOpen(!isTableViewOpen);
-  };
-
-  const handleTooltipToggle = () => {
-    setIsTooltipEnabled(!isTooltipEnabled);
   };
 
   const handleDateChange = (newDate) => {
@@ -938,6 +939,59 @@ const Layout = ({ children }) => {
         )}
       </div>
       
+      {/* Attribution + scale hint for map-painted community data points */}
+      {currentDataPoint && getMapDataPointMeta(currentDataPoint) && (
+        <div className="absolute left-4 bottom-24 z-30 pointer-events-none">
+          <div className="bg-white/95 backdrop-blur rounded-lg shadow border border-gray-200 px-3 py-2 max-w-[280px]">
+            <div className="text-xs font-inter font-semibold text-blue">
+              {getMapDataPointMeta(currentDataPoint).label}
+            </div>
+            <div className="text-[10px] text-gray-500 mt-0.5">
+              {getMapDataPointMeta(currentDataPoint).communities} communities
+              {getMapDataPointMeta(currentDataPoint).period
+                ? ` · ${getMapDataPointMeta(currentDataPoint).period}`
+                : ''}
+            </div>
+            {getMapDataPointMeta(currentDataPoint).inverted && (
+              <div className="text-[10px] text-orange mt-0.5">
+                Higher value = worse (scale inverted)
+              </div>
+            )}
+            {/* Colour scale */}
+            <div className="mt-1.5">
+              <div
+                className="h-2 rounded"
+                style={{
+                  background: `linear-gradient(to right, ${getMapDataPointMeta(currentDataPoint).palette.join(', ')})`,
+                }}
+              />
+              <div className="flex justify-between text-[9px] text-gray-500 mt-0.5">
+                <span>{getMapDataPointMeta(currentDataPoint).stops[0]}</span>
+                <span>
+                  {getMapDataPointMeta(currentDataPoint).stops[
+                    getMapDataPointMeta(currentDataPoint).stops.length - 1
+                  ]}+
+                </span>
+              </div>
+              <div className="flex items-center space-x-1 mt-1">
+                <div className="w-2.5 h-2.5 rounded" style={{ backgroundColor: '#e0e0e0' }} />
+                <span className="text-[9px] text-gray-500">No data</span>
+              </div>
+            </div>
+            <div className="text-[10px] text-gray-400 mt-1">
+              Source: {getMapDataPointMeta(currentDataPoint).source}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* World Bank (UAE nationwide) indicator trend, for data points backed by it */}
+      {currentDataPoint && hasCard(currentDataPoint) && (
+        <div className="absolute right-4 bottom-24 z-30 pointer-events-none">
+          <IndicatorTrendCard dataPointId={currentDataPoint} />
+        </div>
+      )}
+
       <main className="flex-1 relative z-20 flex flex-col pointer-events-none">
         {/* Top Header */}
         <div className="bg-white/95 mt-4 mx-2 sm:mx-4 lg:mx-6 border-b border-gray-200 px-2 sm:px-4 lg:px-6 py-2 flex justify-between pointer-events-auto items-center rounded-lg">

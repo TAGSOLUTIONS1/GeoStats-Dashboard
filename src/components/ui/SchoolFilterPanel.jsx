@@ -71,15 +71,6 @@ const SchoolFilterPanel = ({
     return unique.sort();
   }, []);
 
-  // Rating encoding map
-  const RATING_MAP = {
-    "Not yet inspected": 0,
-    "Unsatisfactory": 1,
-    "Acceptable": 2,
-    "Good": 3,
-    "Very Good": 4,
-    "Outstanding": 5
-  };
 
   // Reverse map: numeric value to text
   const RATING_REVERSE_MAP = {
@@ -114,6 +105,7 @@ const SchoolFilterPanel = ({
         label: ratingText // Show descriptive text
       };
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Filter schools based on criteria

@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { Crown } from 'lucide-react';
-import { isDisabled } from '@testing-library/user-event/dist/utils';
 
 const DataPointItem = ({ 
   item, 

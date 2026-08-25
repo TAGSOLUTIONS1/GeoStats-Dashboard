@@ -1,0 +1,81 @@
+{
+  "id": "median-age",
+  "label": "Median age (Dubai)",
+  "scope": "emirate",
+  "year": 2019,
+  "unit": "years",
+  "source": "UAE population by age via ArcGIS (Dubai_PopulationByAge_2019)",
+  "sourceUrl": "https://services5.arcgis.com/6A16OGWeO5n9jAWS/arcgis/rest/services/Dubai_PopulationByAge_2019/FeatureServer/0",
+  "retrieved": "2026-08-25",
+  "medianAge": 32.1,
+  "totalPopulation": 3355900,
+  "males": 2331800,
+  "females": 1024100,
+  "malePct": 69.5,
+  "bands": [
+    {
+      "label": "0-4",
+      "population": 176517
+    },
+    {
+      "label": "5-9",
+      "population": 170921
+    },
+    {
+      "label": "10-14",
+      "population": 146115
+    },
+    {
+      "label": "15-19",
+      "population": 111016
+    },
+    {
+      "label": "20-24",
+      "population": 263992
+    },
+    {
+      "label": "25-29",
+      "population": 558262
+    },
+    {
+      "label": "30-34",
+      "population": 602962
+    },
+    {
+      "label": "35-39",
+      "population": 448718
+    },
+    {
+      "label": "40-44",
+      "population": 357426
+    },
+    {
+      "label": "45-49",
+      "population": 228951
+    },
+    {
+      "label": "50-54",
+      "population": 120811
+    },
+    {
+      "label": "55-59",
+      "population": 89809
+    },
+    {
+      "label": "60-64",
+      "population": 41709
+    },
+    {
+      "label": "65-69",
+      "population": 18877
+    },
+    {
+      "label": "70-74",
+      "population": 8592
+    },
+    {
+      "label": "75-75+",
+      "population": 11222
+    }
+  ]
+}

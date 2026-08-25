@@ -1,0 +1,48 @@
+{
+  "id": "housing-units-growth-rate",
+  "label": "Housing units growth (annualised %)",
+  "scope": "emirate",
+  "unit": "percent",
+  "source": "UAE census series via ArcGIS (DubaiHousingBuildings_1975_2019)",
+  "sourceUrl": "https://services5.arcgis.com/6A16OGWeO5n9jAWS/arcgis/rest/services/DubaiHousingBuildings_1975_2019/FeatureServer/0",
+  "method": "Annualised CAGR between consecutive census years of Total_Housing",
+  "retrieved": "2026-08-25",
+  "yearRange": [
+    1985,
+    2019
+  ],
+  "series": [
+    {
+      "year": 1985,
+      "value": 1.69
+    },
+    {
+      "year": 1993,
+      "value": 5.26
+    },
+    {
+      "year": 1995,
+      "value": 2.98
+    },
+    {
+      "year": 2000,
+      "value": 5.41
+    },
+    {
+      "year": 2005,
+      "value": 7.17
+    },
+    {
+      "year": 2010,
+      "value": 12.26
+    },
+    {
+      "year": 2015,
+      "value": 6.53
+    },
+    {
+      "year": 2019,
+      "value": 8.09
+    }
+  ]
+}

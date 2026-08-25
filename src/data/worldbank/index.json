@@ -1,0 +1,107 @@
+{
+  "source": "World Bank Open Data",
+  "scope": "country (UAE-wide, not per-community)",
+  "retrieved": "2026-08-24",
+  "datasets": [
+    {
+      "id": "population",
+      "label": "Population, total",
+      "unit": "people",
+      "yearRange": [
+        2001,
+        2025
+      ],
+      "points": 25
+    },
+    {
+      "id": "population-growth",
+      "label": "Population growth (annual %)",
+      "unit": "percent",
+      "yearRange": [
+        2001,
+        2025
+      ],
+      "points": 25
+    },
+    {
+      "id": "gdp-per-capita",
+      "label": "GDP per capita (current US$)",
+      "unit": "usd",
+      "yearRange": [
+        2000,
+        2024
+      ],
+      "points": 25
+    },
+    {
+      "id": "unemployment-rate",
+      "label": "Unemployment, total (% of total labor force) (modeled ILO estimate)",
+      "unit": "percent",
+      "yearRange": [
+        2001,
+        2025
+      ],
+      "points": 25
+    },
+    {
+      "id": "life-expectancy",
+      "label": "Life expectancy at birth, total (years)",
+      "unit": "years",
+      "yearRange": [
+        2000,
+        2024
+      ],
+      "points": 25
+    },
+    {
+      "id": "urban-population-pct",
+      "label": "Urban population (% of total population)",
+      "unit": "percent",
+      "yearRange": [
+        2001,
+        2025
+      ],
+      "points": 25
+    },
+    {
+      "id": "inflation",
+      "label": "Inflation, consumer prices (annual %)",
+      "unit": "percent",
+      "yearRange": [
+        2008,
+        2025
+      ],
+      "points": 18
+    },
+    {
+      "id": "tertiary-enrollment",
+      "label": "School enrollment, tertiary (% gross)",
+      "unit": "percent",
+      "yearRange": [
+        2018,
+        2024
+      ],
+      "points": 7
+    },
+    {
+      "id": "co2-per-capita",
+      "label": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)",
+      "unit": "tonnes",
+      "yearRange": [
+        2000,
+        2024
+      ],
+      "points": 25
+    },
+    {
+      "id": "internet-users-pct",
+      "label": "Individuals using the Internet (% of population)",
+      "unit": "percent",
+      "yearRange": [
+        2000,
+        2024
+      ],
+      "points": 25
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "OpenStreetMap / Overpass API",
+  "license": "ODbL",
+  "scope": "per Dubai community (COMM_NUM)",
+  "retrieved": "2026-08-24",
+  "datasets": [
+    {
+      "id": "green-space",
+      "label": "Green Space per Capita",
+      "metric": "per10kPeople",
+      "communitiesWithData": 155,
+      "points": 3314
+    },
+    {
+      "id": "healthcare",
+      "label": "Healthcare Accessibility",
+      "metric": "perSqKm",
+      "communitiesWithData": 120,
+      "points": 796
+    },
+    {
+      "id": "transport",
+      "label": "Public Transportation Coverage",
+      "metric": "perSqKm",
+      "communitiesWithData": 136,
+      "points": 1153
+    }
+  ]
+}

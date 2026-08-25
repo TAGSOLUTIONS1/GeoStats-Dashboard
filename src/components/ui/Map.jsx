@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { dubaiGeoData, geojsonData } from '../../data/geoData';
+import { geojsonData } from '../../data/geoData';
 import { dubaiWEBDATA } from '../../data/DubaiData';
+import { mapDataPoints, getValuesByCommunity } from '../../services/communityData';
 import { New_Population } from '../../data/new_population';
 
 const Map = ({ selectedFilter, disableScrollZoom = false }) => {
@@ -17,6 +18,17 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
   const zoom = 7;
 
   const isMobile = () => window.innerWidth <= 780;
+
+  // Track the selected data point so the fill colour can follow it.
+  const [activeDataPoint, setActiveDataPoint] = useState(
+    typeof window !== 'undefined' ? window.selectedDataPoint : null
+  );
+
+  useEffect(() => {
+    const onChange = (e) => setActiveDataPoint(e.detail?.dataPointId || null);
+    window.addEventListener('sidebar:dataPointSelected', onChange);
+    return () => window.removeEventListener('sidebar:dataPointSelected', onChange);
+  }, []);
 
   // Optimized data processing with caching
   const addPopulation = useCallback((geojson, populationArray) => {
@@ -39,17 +51,32 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
       }
     });
 
+    // Per-community OSM metrics, resolved once rather than per feature.
+    const osmLayers = Object.keys(mapDataPoints)
+      .map((id) => ({
+        property: mapDataPoints[id].property,
+        values: getValuesByCommunity(id) || {},
+      }));
+
     const processedGeojson = {
       ...geojson,
       features: geojson.features.map(feature => {
-        const popData = popMap.get(feature.properties?.COMM_NUM);
-        if (!popData) return feature;
+        const code = feature.properties?.COMM_NUM;
+        const popData = popMap.get(code);
+        const osmData = {};
+        osmLayers.forEach(({ property, values }) => {
+          const value = values[code];
+          if (value != null) osmData[property] = value;
+        });
+
+        if (!popData && !osmLayers.length) return feature;
 
         return {
           ...feature,
           properties: {
             ...feature.properties,
-            ...popData
+            ...popData,
+            ...osmData
           }
         };
       })
@@ -60,6 +87,21 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
   }, [selectedFilter]);
 
   const getColorScheme = useCallback((filterType) => {
+    // If an OSM-backed data point is selected, colour by that metric instead.
+    const selected = typeof window !== 'undefined' ? window.selectedDataPoint : null;
+    const osmCfg = selected ? mapDataPoints[selected] : null;
+    if (osmCfg) {
+      const palette = osmCfg.palette;
+      const stops = [];
+      osmCfg.stops.forEach((stop, i) => stops.push(stop, palette[i]));
+      return [
+        'case',
+        ['has', osmCfg.property],
+        ['interpolate', ['linear'], ['get', osmCfg.property], ...stops],
+        '#e0e0e0'
+      ];
+    }
+
     const baseExpression = [
       'case',
       ['has', 'Population_New'],
@@ -191,6 +233,19 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
         let valueLabel = '';
         let valueLabel2 = '';
         let valueLabel3 = '';
+
+        const osmCfg = mapDataPoints[selected];
+        if (osmCfg) {
+          const value = props[osmCfg.property];
+          if (value == null) {
+            valueLabel = `<br/>${osmCfg.label}: no data`;
+          } else {
+            valueLabel = `<br/>${osmCfg.label}: ${Number(value).toFixed(2)}`;
+            valueLabel2 = `<br/>Area km²: ${props['Area Sq Km'] ? Number(props['Area Sq Km']).toFixed(1) : 'n/a'}`;
+            valueLabel3 = `<br/><span style="opacity:.7">Source: ${osmCfg.source}</span>`;
+          }
+          return { valueLabel, valueLabel2, valueLabel3 };
+        }
 
         if (selected === 'population') {
           const val = props['Population_New'] || props['Area_New'] || props['PopDensity_New'] || null;
@@ -359,6 +414,7 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
       if (map.current) map.current.remove();
       map.current = null;
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedFilter, addPopulation, getColorScheme]);
 
   // Update data when filter changes
@@ -378,7 +434,7 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
     if (layer) {
       map.current.setPaintProperty('dubai-communities-fill', 'fill-color', getColorScheme(selectedFilter));
     }
-  }, [selectedFilter, isMapLoaded, addPopulation, getColorScheme]);
+  }, [selectedFilter, isMapLoaded, addPopulation, getColorScheme, activeDataPoint]);
 
   const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
   const hasValidToken = token && token !== 'your_mapbox_access_token_here';

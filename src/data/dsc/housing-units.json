@@ -1,0 +1,98 @@
+{
+  "id": "housing-units",
+  "label": "Housing units (Dubai)",
+  "scope": "emirate",
+  "unit": "units",
+  "source": "UAE census series via ArcGIS (DubaiHousingBuildings_1975_2019)",
+  "sourceUrl": "https://services5.arcgis.com/6A16OGWeO5n9jAWS/arcgis/rest/services/DubaiHousingBuildings_1975_2019/FeatureServer/0",
+  "retrieved": "2026-08-25",
+  "yearRange": [
+    1980,
+    2019
+  ],
+  "series": [
+    {
+      "year": 1980,
+      "value": 64279
+    },
+    {
+      "year": 1985,
+      "value": 69909
+    },
+    {
+      "year": 1993,
+      "value": 105354
+    },
+    {
+      "year": 1995,
+      "value": 111722
+    },
+    {
+      "year": 2000,
+      "value": 145363
+    },
+    {
+      "year": 2005,
+      "value": 205518
+    },
+    {
+      "year": 2010,
+      "value": 366413
+    },
+    {
+      "year": 2015,
+      "value": 502830
+    },
+    {
+      "year": 2019,
+      "value": 686480
+    }
+  ],
+  "detail": [
+    {
+      "year": 1980,
+      "housingUnits": 64279,
+      "buildings": 36043
+    },
+    {
+      "year": 1985,
+      "housingUnits": 69909,
+      "buildings": 39064
+    },
+    {
+      "year": 1993,
+      "housingUnits": 105354,
+      "buildings": 48419
+    },
+    {
+      "year": 1995,
+      "housingUnits": 111722,
+      "buildings": 52151
+    },
+    {
+      "year": 2000,
+      "housingUnits": 145363,
+      "buildings": 55659
+    },
+    {
+      "year": 2005,
+      "housingUnits": 205518,
+      "buildings": 77886
+    },
+    {
+      "year": 2010,
+      "housingUnits": 366413,
+      "buildings": 107848
+    },
+    {
+      "year": 2015,
+      "housingUnits": 502830,
+      "buildings": 121584
+    },
+    {
+      "year": 2019,
+      "housingUnits": 686480,
+      "buildings": 160128
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "tertiary-enrollment",
+  "indicatorCode": "SE.TER.ENRR",
+  "label": "School enrollment, tertiary (% gross)",
+  "country": "United Arab Emirates",
+  "iso3": "ARE",
+  "unit": "percent",
+  "scope": "country",
+  "source": "World Bank Open Data",
+  "sourceUrl": "https://api.worldbank.org/v2/country/ARE/indicator/SE.TER.ENRR?format=json&mrv=25",
+  "lastUpdated": "2026-07-13",
+  "yearRange": [
+    2018,
+    2024
+  ],
+  "series": [
+    {
+      "year": 2018,
+      "value": 53.2113281680102
+    },
+    {
+      "year": 2019,
+      "value": 53.8814655213653
+    },
+    {
+      "year": 2020,
+      "value": 54.9746998074699
+    },
+    {
+      "year": 2021,
+      "value": 56.4520334436146
+    },
+    {
+      "year": 2022,
+      "value": 60.4188226013954
+    },
+    {
+      "year": 2023,
+      "value": 61.3456114422447
+    },
+    {
+      "year": 2024,
+      "value": 63.7384451086316
+    }
+  ]
+}

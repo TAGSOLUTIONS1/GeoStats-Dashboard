@@ -1,0 +1,118 @@
+{
+  "id": "life-expectancy",
+  "indicatorCode": "SP.DYN.LE00.IN",
+  "label": "Life expectancy at birth, total (years)",
+  "country": "United Arab Emirates",
+  "iso3": "ARE",
+  "unit": "years",
+  "scope": "country",
+  "source": "World Bank Open Data",
+  "sourceUrl": "https://api.worldbank.org/v2/country/ARE/indicator/SP.DYN.LE00.IN?format=json&mrv=25",
+  "lastUpdated": "2026-07-13",
+  "yearRange": [
+    2000,
+    2024
+  ],
+  "series": [
+    {
+      "year": 2000,
+      "value": 76.347
+    },
+    {
+      "year": 2001,
+      "value": 77.621
+    },
+    {
+      "year": 2002,
+      "value": 78.721
+    },
+    {
+      "year": 2003,
+      "value": 79.6
+    },
+    {
+      "year": 2004,
+      "value": 80.272
+    },
+    {
+      "year": 2005,
+      "value": 80.779
+    },
+    {
+      "year": 2006,
+      "value": 81.155
+    },
+    {
+      "year": 2007,
+      "value": 81.438
+    },
+    {
+      "year": 2008,
+      "value": 81.591
+    },
+    {
+      "year": 2009,
+      "value": 81.679
+    },
+    {
+      "year": 2010,
+      "value": 81.886
+    },
+    {
+      "year": 2011,
+      "value": 81.898
+    },
+    {
+      "year": 2012,
+      "value": 81.913
+    },
+    {
+      "year": 2013,
+      "value": 81.95
+    },
+    {
+      "year": 2014,
+      "value": 81.99
+    },
+    {
+      "year": 2015,
+      "value": 82.076
+    },
+    {
+      "year": 2016,
+      "value": 82.195
+    },
+    {
+      "year": 2017,
+      "value": 82.388
+    },
+    {
+      "year": 2018,
+      "value": 82.449
+    },
+    {
+      "year": 2019,
+      "value": 82.596
+    },
+    {
+      "year": 2020,
+      "value": 81.936
+    },
+    {
+      "year": 2021,
+      "value": 79.083
+    },
+    {
+      "year": 2022,
+      "value": 80.487
+    },
+    {
+      "year": 2023,
+      "value": 82.909
+    },
+    {
+      "year": 2024,
+      "value": 83.069
+    }
+  ]
+}

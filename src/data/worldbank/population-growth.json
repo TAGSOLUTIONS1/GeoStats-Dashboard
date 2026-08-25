@@ -1,0 +1,118 @@
+{
+  "id": "population-growth",
+  "indicatorCode": "SP.POP.GROW",
+  "label": "Population growth (annual %)",
+  "country": "United Arab Emirates",
+  "iso3": "ARE",
+  "unit": "percent",
+  "scope": "country",
+  "source": "World Bank Open Data",
+  "sourceUrl": "https://api.worldbank.org/v2/country/ARE/indicator/SP.POP.GROW?format=json&mrv=25",
+  "lastUpdated": "2026-07-13",
+  "yearRange": [
+    2001,
+    2025
+  ],
+  "series": [
+    {
+      "year": 2001,
+      "value": 6.37626894621745
+    },
+    {
+      "year": 2002,
+      "value": 6.07539320463732
+    },
+    {
+      "year": 2003,
+      "value": 5.78447695225097
+    },
+    {
+      "year": 2004,
+      "value": 5.48794157690806
+    },
+    {
+      "year": 2005,
+      "value": 5.18764431874288
+    },
+    {
+      "year": 2006,
+      "value": 7.12134410320015
+    },
+    {
+      "year": 2007,
+      "value": 11.5899798855336
+    },
+    {
+      "year": 2008,
+      "value": 11.3816344065238
+    },
+    {
+      "year": 2009,
+      "value": 6.2188003600278
+    },
+    {
+      "year": 2010,
+      "value": 2.39801204084647
+    },
+    {
+      "year": 2011,
+      "value": 3.35932096341285
+    },
+    {
+      "year": 2012,
+      "value": 3.95899214220379
+    },
+    {
+      "year": 2013,
+      "value": 3.99911978796443
+    },
+    {
+      "year": 2014,
+      "value": 4.65292210905658
+    },
+    {
+      "year": 2015,
+      "value": 5.38380162241984
+    },
+    {
+      "year": 2016,
+      "value": 4.93046894788046
+    },
+    {
+      "year": 2017,
+      "value": 3.17379785893425
+    },
+    {
+      "year": 2018,
+      "value": 1.32986873264335
+    },
+    {
+      "year": 2019,
+      "value": 1.0545163442516
+    },
+    {
+      "year": 2020,
+      "value": -0.474850154644905
+    },
+    {
+      "year": 2021,
+      "value": 1.83513009029147
+    },
+    {
+      "year": 2022,
+      "value": 5.08834153373914
+    },
+    {
+      "year": 2023,
+      "value": 3.97717097504667
+    },
+    {
+      "year": 2024,
+      "value": 4.68316095317394
+    },
+    {
+      "year": 2025,
+      "value": 4.68316292656212
+    }
+  ]
+}
