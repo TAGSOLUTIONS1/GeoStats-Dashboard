@@ -941,7 +941,7 @@ const Layout = ({ children }) => {
       
       {/* Attribution + scale hint for map-painted community data points */}
       {currentDataPoint && getMapDataPointMeta(currentDataPoint) && (
-        <div className="absolute left-4 bottom-24 z-30 pointer-events-none">
+        <div className="absolute left-4 bottom-24 z-30 pointer-events-none max-w-[calc(100vw-2rem)]">
           <div className="bg-white/95 backdrop-blur rounded-lg shadow border border-gray-200 px-3 py-2 max-w-[280px]">
             <div className="text-xs font-inter font-semibold text-blue">
               {getMapDataPointMeta(currentDataPoint).label}
@@ -987,7 +987,7 @@ const Layout = ({ children }) => {
 
       {/* World Bank (UAE nationwide) indicator trend, for data points backed by it */}
       {currentDataPoint && hasCard(currentDataPoint) && (
-        <div className="absolute right-4 bottom-24 z-30 pointer-events-none">
+        <div className="absolute right-4 bottom-64 z-30 pointer-events-none max-w-[calc(100vw-2rem)]">
           <IndicatorTrendCard dataPointId={currentDataPoint} />
         </div>
       )}

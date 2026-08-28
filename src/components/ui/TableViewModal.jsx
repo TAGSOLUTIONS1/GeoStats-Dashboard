@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { X, Download, ChevronDown, ArrowUpDown, ArrowDownUp, Crown } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { sampleData } from '../../data/TableViewData';
+import { tableRows } from '../../services/tableData';
 import { dataSections } from '../../data/sidebarData';
 
 const TableViewModal = ({ isOpen, onClose, data = [] }) => {
@@ -33,7 +33,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
 
   if (!isOpen) return null;
 
-  const tableData = data.length > 0 ? data : sampleData;
+  const tableData = data.length > 0 ? data : tableRows;
 
 
   const handleSort = (key) => {
@@ -157,17 +157,24 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
   };
 
   // Header configuration to reduce repetitive code
+// Data points the table actually holds values for. Selecting anything else would
+// relabel a column without changing its data, showing the wrong numbers.
+const TABLE_BACKED_IDS = new Set(['home-value', 'price-per-sqm', 'population']);
+
 const tableHeaders = [
   { key: 'rk', label: 'RK', sortable: true, format: 'number' },
   { key: 'area', label: 'Area', sortable: true, format: 'text' },
   { key: 'homeValue', label: 'Home Value', sortable: true, format: 'currency' },
-  { key: 'homeValueGrowth', label: 'Home Value Growth (YoY)', sortable: true, format: 'percentage' },
+  { key: 'pricePerSqm', label: 'Price per m² (AED)', sortable: true, format: 'currency' },
   { key: 'population', label: 'Population', sortable: true, format: 'number' }
 ];
 
 
   // Format cell value based on type
   const formatCellValue = (value, format) => {
+    // Not every community has every measurement. Render a dash rather than
+    // letting Intl format null into a misleading "AED 0".
+    if (value === null || value === undefined || value === '') return '—';
     switch (format) {
       case 'currency':
         return formatCurrency(value);
@@ -311,18 +318,24 @@ const tableHeaders = [
                                       key !== header.key && value?.sectionId === section.id
                                     );
                                     
-                                    const isUsedByOtherColumn = isNameUsedByOtherColumn || isSectionUsedByOtherColumn;
-                                    
+                                    const hasTableData = TABLE_BACKED_IDS.has(point.id);
+
                                     return (
                                       <div
                                         key={point.id}
-                                        onClick={() => handleColumnHeaderChange(header.key, point)}
-                                        className={`px-3 py-2 hover:bg-gray-100 cursor-pointer flex items-center justify-between ${
-                                          isUsedByOtherColumn ? '' : ''
+                                        onClick={hasTableData ? () => handleColumnHeaderChange(header.key, point) : undefined}
+                                        title={hasTableData ? undefined : 'No table data for this data point yet'}
+                                        className={`px-3 py-2 flex items-center justify-between ${
+                                          hasTableData
+                                            ? 'hover:bg-gray-100 cursor-pointer'
+                                            : 'opacity-40 cursor-not-allowed'
                                         }`}
                                       >
                                         <div className="flex items-center space-x-2">
                                           <span className="text-xs text-left text-gray-700">{point.label}</span>
+                                          {!hasTableData && (
+                                            <span className="text-[10px] text-gray-400">(no table data)</span>
+                                          )}
                                           {/* {isNameUsedByOtherColumn && (
                                             <span className="text-xs text-red-500">(Same name used)</span>
                                           )} */}

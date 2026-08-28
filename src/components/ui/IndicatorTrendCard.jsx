@@ -12,10 +12,13 @@ const fmt = (v, unit) => {
   return Math.round(v).toLocaleString('en-US');
 };
 
-const Shell = ({ label, scopeLabel, sub, isProxy, source, children }) => (
-  <div className="pointer-events-auto bg-white/95 backdrop-blur rounded-lg shadow-lg border border-gray-200 p-3 w-[300px]">
+const Shell = ({ label, scopeLabel, sub, isProxy, source, data, children }) => (
+  <div className="pointer-events-auto bg-white/95 backdrop-blur rounded-lg shadow-lg border border-gray-200 p-3 w-[300px] max-w-full">
     <div className="text-xs font-inter font-semibold text-blue">{label}</div>
     <div className="text-[10px] text-gray-500">{scopeLabel}{sub ? ` · ${sub}` : ''}</div>
+    {data && data.inverted && (
+      <div className="text-[10px] text-orange mt-0.5">Higher value = worse</div>
+    )}
     {isProxy && (
       <div className="text-[10px] text-orange mt-0.5">
         Proxy indicator &mdash; not the literal metric
@@ -125,6 +128,7 @@ const IndicatorTrendCard = ({ dataPointId }) => {
       sub={sub}
       isProxy={data.isProxy}
       source={data.source}
+      data={data}
     >
       {data.kind === 'series' && <TrendBody data={data} />}
       {data.kind === 'distribution' && <DistributionBody data={data} />}

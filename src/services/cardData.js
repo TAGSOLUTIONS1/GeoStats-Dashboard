@@ -118,6 +118,9 @@ export const getCardDataset = (dataPointId) => {
 
   const wb = getSeriesForDataPoint(dataPointId);
   if (!wb || !wb.series || !wb.series.length) return null;
+  // CO2 per capita stands in for environmental quality, but runs the opposite
+  // way: a rising line is worse, not better.
+  const inverted = dataPointId === 'environmental-quality-index';
   return {
     kind: 'series',
     label: wb.label,
@@ -127,6 +130,7 @@ export const getCardDataset = (dataPointId) => {
     yearRange: wb.yearRange,
     source: `World Bank Open Data${wb.lastUpdated ? ` · updated ${wb.lastUpdated}` : ''}`,
     isProxy: wb.isProxy,
+    inverted,
   };
 };
 
