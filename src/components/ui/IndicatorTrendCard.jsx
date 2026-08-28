@@ -8,6 +8,7 @@ const fmt = (v, unit) => {
   if (unit === 'aed') return `AED ${Math.round(v).toLocaleString('en-US')}`;
   if (unit === 'count') return Math.round(v).toLocaleString('en-US');
   if (unit === 'years') return `${v} yrs`;
+  if (unit === 'percent') return `${v}%`;
   return Math.round(v).toLocaleString('en-US');
 };
 
@@ -96,13 +97,26 @@ const DistributionBody = ({ data }) => {
   );
 };
 
+const ValueBody = ({ data }) => (
+  <>
+    <div className="flex items-baseline space-x-2 mb-1 mt-1">
+      <span className="text-lg font-semibold text-blue">{fmt(data.value, data.unit)}</span>
+      {data.areas ? (
+        <span className="text-[10px] text-gray-500">across {data.areas} areas</span>
+      ) : null}
+    </div>
+    {data.note && <div className="text-[10px] text-gray-500">{data.note}</div>}
+  </>
+);
+
 const IndicatorTrendCard = ({ dataPointId }) => {
   const data = getCardDataset(dataPointId);
   if (!data) return null;
 
-  const sub = data.kind === 'series'
-    ? `${data.yearRange[0]}–${data.yearRange[1]}`
-    : `${data.year}`;
+  let sub = '';
+  if (data.kind === 'series') sub = `${data.yearRange[0]}–${data.yearRange[1]}`;
+  else if (data.kind === 'distribution') sub = `${data.year}`;
+  else sub = data.period || '';
 
   return (
     <Shell
@@ -112,7 +126,9 @@ const IndicatorTrendCard = ({ dataPointId }) => {
       isProxy={data.isProxy}
       source={data.source}
     >
-      {data.kind === 'series' ? <TrendBody data={data} /> : <DistributionBody data={data} />}
+      {data.kind === 'series' && <TrendBody data={data} />}
+      {data.kind === 'distribution' && <DistributionBody data={data} />}
+      {data.kind === 'value' && <ValueBody data={data} />}
     </Shell>
   );
 };

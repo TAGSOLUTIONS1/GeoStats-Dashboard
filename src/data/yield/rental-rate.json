@@ -1,0 +1,15 @@
+{
+  "source": "Dubai property prices and rental yields by area (Kaggle: datahabibi/dubai-property-prices-and-rental-yields-by-area)",
+  "sourceUrl": "https://www.kaggle.com/datasets/datahabibi/dubai-property-prices-and-rental-yields-by-area",
+  "provenance": "Third-party dataset with UNSTATED origin. Validated structurally: median gross yield 5.72% matches published Dubai norms, luxury areas correctly yield lowest, and price-vs-yield correlation is negative (r=-0.33). Treat as indicative, not authoritative.",
+  "retrieved": "2026-08-28",
+  "period": "trailing 12 months as published",
+  "note": "Areas with gross yield above 12% excluded as implausible (3 of 92).",
+  "id": "rental-rate",
+  "label": "Median annual rent (AED)",
+  "unit": "aed",
+  "scope": "emirate",
+  "method": "Derived per area as median sale price x gross yield; the Dubai-wide figure is the median across areas.",
+  "value": 104904,
+  "areas": 89
+}

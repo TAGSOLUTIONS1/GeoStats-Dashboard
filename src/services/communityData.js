@@ -8,6 +8,7 @@ import populationByCommunity from '../data/dsc/population-by-community.json';
 import trafficSafety from '../data/dsc/traffic-safety.json';
 import homeValue from '../data/dld18/home-value-by-community.json';
 import ppsmByCommunity from '../data/amp/price-per-sqm-by-community.json';
+import capRate from '../data/yield/cap-rate-by-community.json';
 import schoolQuality from '../data/osm/school-quality.json';
 import jobDiversity from '../data/osm/job-diversity.json';
 import walkability from '../data/osm/walkability.json';
@@ -108,6 +109,15 @@ export const mapDataPoints = {
     stops: [2602, 4830, 13642, 19027, 28108, 43635],
     palette: BLUE,
     source: 'Dubai area price history (DLD-derived)',
+  },
+  'cap-rate': {
+    dataset: capRate,
+    property: 'CapRate_Gross',
+    metric: 'grossYieldPct',
+    label: 'Gross rental yield (%)',
+    stops: [4.44, 5.18, 5.93, 6.45, 7.28, 11.56],
+    palette: GREEN,
+    source: 'Dubai area yields dataset (origin unstated)',
   },
 };
 
