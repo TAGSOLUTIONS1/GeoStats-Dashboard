@@ -6,6 +6,64 @@ import { dubaiWEBDATA } from '../../data/DubaiData';
 import { mapDataPoints, getValuesByCommunity } from '../../services/communityData';
 import { New_Population } from '../../data/new_population';
 
+
+// The value printed under each community name. It follows the selected data
+// point so the number always matches what the fill colour is showing.
+const buildLabelExpression = (selected) => {
+  const cfg = selected ? mapDataPoints[selected] : null;
+
+  const valueExpr = cfg
+    ? [
+        'case',
+        ['has', cfg.property],
+        [
+          'concat',
+          [
+            'number-format',
+            cfg.labelDivisor
+              ? ['/', ['get', cfg.property], cfg.labelDivisor]
+              : ['get', cfg.property],
+            {
+              'locale': 'en-US',
+              'min-fraction-digits': cfg.labelDigits ?? 1,
+              'max-fraction-digits': cfg.labelDigits ?? 1,
+            },
+          ],
+          cfg.labelSuffix || '',
+        ],
+        'No Data',
+      ]
+    : [
+        'case',
+        ['has', 'Population_New'],
+        [
+          'case',
+          ['>', ['get', 'Population_New'], 0],
+          ['number-format', ['get', 'Population_New'], { 'locale': 'en-US' }],
+          'No Data',
+        ],
+        [
+          'case',
+          ['has', 'Population 2019'],
+          [
+            'case',
+            ['>', ['get', 'Population 2019'], 0],
+            ['number-format', ['get', 'Population 2019'], { 'locale': 'en-US' }],
+            'No Data',
+          ],
+          'No Data',
+        ],
+      ];
+
+  return [
+    'format',
+    ['get', 'CNAME_E'], { 'font-scale': 1.1, 'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'] },
+    '\n',
+    valueExpr,
+    { 'font-scale': 1.2, 'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'] },
+  ];
+};
+
 const Map = ({ selectedFilter, disableScrollZoom = false }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
@@ -178,33 +236,9 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
         type: 'symbol',
         source: 'dubai-communities',
         layout: {
-          'text-field': [
-            'format',
-            ['get', 'CNAME_E'], { 'font-scale': 1.1, 'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'] },
-            '\n',
-            [
-              'case',
-              ['has', 'Population_New'],
-              [
-                'case',
-                ['>', ['get', 'Population_New'], 0],
-                ['number-format', ['get', 'Population_New'], { 'locale': 'en-US' }],
-                'No Data'
-              ],
-              [
-                'case',
-                ['has', 'Population 2019'],
-                [
-                  'case',
-                  ['>', ['get', 'Population 2019'], 0],
-                  ['number-format', ['get', 'Population 2019'], { 'locale': 'en-US' }],
-                  'No Data'
-                ],
-                'No Data'
-              ]
-            ],
-            { 'font-scale': 1.2, 'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'] }
-          ],
+          'text-field': buildLabelExpression(
+            typeof window !== 'undefined' ? window.selectedDataPoint : null
+          ),
           'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
           'text-size': 10,
           'text-justify': 'center',
@@ -433,6 +467,15 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
     const layer = map.current.getLayer('dubai-communities-fill');
     if (layer) {
       map.current.setPaintProperty('dubai-communities-fill', 'fill-color', getColorScheme(selectedFilter));
+    }
+
+    // Keep the printed number in step with the fill colour.
+    if (map.current.getLayer('dubai-communities-name')) {
+      map.current.setLayoutProperty(
+        'dubai-communities-name',
+        'text-field',
+        buildLabelExpression(typeof window !== 'undefined' ? window.selectedDataPoint : null)
+      );
     }
   }, [selectedFilter, isMapLoaded, addPopulation, getColorScheme, activeDataPoint]);
 
