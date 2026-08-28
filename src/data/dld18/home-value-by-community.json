@@ -1,0 +1,1599 @@
+{
+  "source": "Dubai Land Department transactions, 1995-2023 export (Kaggle mirror alexefimik/dubai-real-estate-transactions-dataset)",
+  "sourceUrl": "https://www.kaggle.com/datasets/alexefimik/dubai-real-estate-transactions-dataset",
+  "provenance": "Third-party mirror of a DLD export. Official DLD schema and column names; yearly volumes reproduce Dubai’s documented market history. Not an official DLD feed.",
+  "scope": "community",
+  "period": "2008 to 2022 (2005-07 too sparse; 2023 partial in source)",
+  "retrieved": "2026-08-28",
+  "filter": "trans_group_en='Sales', property_type_en='Unit', property_usage_en='Residential', actual_worth>0",
+  "id": "home-value",
+  "label": "Median home sale price by community",
+  "joinKey": "COMM_NUM",
+  "method": "Median actual_worth of residential unit sales 2020-2022 pooled; communities with fewer than 10 sales left null. Joined via area_id -> Areas_id.json municipality_number.",
+  "minTransactions": 10,
+  "communitiesWithData": 57,
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "transactions": 8122,
+      "transactionsRecent": 1593,
+      "medianPrice": 453000
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "transactions": 10224,
+      "transactionsRecent": 5308,
+      "medianPrice": 1860208
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "transactions": 81,
+      "transactionsRecent": 11,
+      "medianPrice": 375000
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "transactions": 7992,
+      "transactionsRecent": 838,
+      "medianPrice": 550000
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "transactions": 6453,
+      "transactionsRecent": 760,
+      "medianPrice": 1100000
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "transactions": 749,
+      "transactionsRecent": 411,
+      "medianPrice": 497000
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "transactions": 700,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "transactions": 1084,
+      "transactionsRecent": 404,
+      "medianPrice": 1293400
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "transactions": 665,
+      "transactionsRecent": 665,
+      "medianPrice": 1529800
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "transactions": 87,
+      "transactionsRecent": 5,
+      "medianPrice": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "transactions": 5118,
+      "transactionsRecent": 1740,
+      "medianPrice": 799888
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "transactions": 1018,
+      "transactionsRecent": 517,
+      "medianPrice": 3218000
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "transactions": 21,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "transactions": 660,
+      "transactionsRecent": 54,
+      "medianPrice": 2150000
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "transactions": 15402,
+      "transactionsRecent": 2068,
+      "medianPrice": 435000
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "transactions": 268,
+      "transactionsRecent": 110,
+      "medianPrice": 11000000
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "transactions": 1559,
+      "transactionsRecent": 164,
+      "medianPrice": 850000
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "transactions": 1086,
+      "transactionsRecent": 392,
+      "medianPrice": 450000
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "transactions": 4209,
+      "transactionsRecent": 2390,
+      "medianPrice": 2566500
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "transactions": 1816,
+      "transactionsRecent": 1571,
+      "medianPrice": 1972000
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "transactions": 6142,
+      "transactionsRecent": 790,
+      "medianPrice": 374000
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "transactions": 68,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "transactions": 922,
+      "transactionsRecent": 319,
+      "medianPrice": 1967888
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "transactions": 1553,
+      "transactionsRecent": 468,
+      "medianPrice": 1061850
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "transactions": 619,
+      "transactionsRecent": 220,
+      "medianPrice": 400000
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "transactions": 1177,
+      "transactionsRecent": 25,
+      "medianPrice": 315000
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "transactions": 74346,
+      "transactionsRecent": 14508,
+      "medianPrice": 2049944
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "transactions": 18369,
+      "transactionsRecent": 4165,
+      "medianPrice": 3600000
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "transactions": 5049,
+      "transactionsRecent": 1093,
+      "medianPrice": 678000
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "transactions": 997,
+      "transactionsRecent": 628,
+      "medianPrice": 2129777
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "transactions": 831,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "transactions": 2390,
+      "transactionsRecent": 295,
+      "medianPrice": 442327
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "transactions": 22546,
+      "transactionsRecent": 2709,
+      "medianPrice": 418000
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "transactions": 1730,
+      "transactionsRecent": 689,
+      "medianPrice": 698530
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "transactions": 206,
+      "transactionsRecent": 27,
+      "medianPrice": 800000
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "transactions": 121,
+      "transactionsRecent": 101,
+      "medianPrice": 9148000
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "transactions": 33564,
+      "transactionsRecent": 13766,
+      "medianPrice": 1196573
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "transactions": 33510,
+      "transactionsRecent": 8020,
+      "medianPrice": 2200000
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "transactions": 12497,
+      "transactionsRecent": 1926,
+      "medianPrice": 683827
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "transactions": 4191,
+      "transactionsRecent": 800,
+      "medianPrice": 650000
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "transactions": 50,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "transactions": 1570,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "transactions": 121,
+      "transactionsRecent": 6,
+      "medianPrice": null
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "transactions": 2169,
+      "transactionsRecent": 471,
+      "medianPrice": 311788
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "transactions": 1241,
+      "transactionsRecent": 78,
+      "medianPrice": 460000
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "transactions": 3989,
+      "transactionsRecent": 185,
+      "medianPrice": 1025000
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "transactions": 36621,
+      "transactionsRecent": 3994,
+      "medianPrice": 300000
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "transactions": 14482,
+      "transactionsRecent": 1491,
+      "medianPrice": 1341888
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "transactions": 29388,
+      "transactionsRecent": 5073,
+      "medianPrice": 778882
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "transactions": 2307,
+      "transactionsRecent": 634,
+      "medianPrice": 2436630
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "transactions": 234,
+      "transactionsRecent": 28,
+      "medianPrice": 1010000
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "transactions": 1288,
+      "transactionsRecent": 372,
+      "medianPrice": 439000
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "transactions": 4643,
+      "transactionsRecent": 1858,
+      "medianPrice": 750790
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "transactions": 8714,
+      "transactionsRecent": 4377,
+      "medianPrice": 580277
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "transactions": 535,
+      "transactionsRecent": 93,
+      "medianPrice": 2325000
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "transactions": 4756,
+      "transactionsRecent": 2055,
+      "medianPrice": 710000
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "transactions": 189,
+      "transactionsRecent": 103,
+      "medianPrice": 1358000
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "transactions": 3522,
+      "transactionsRecent": 884,
+      "medianPrice": 816729
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "transactions": 607,
+      "transactionsRecent": 44,
+      "medianPrice": 1085000
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "transactions": 60,
+      "transactionsRecent": 60,
+      "medianPrice": 20130000
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "transactions": 12908,
+      "transactionsRecent": 9176,
+      "medianPrice": 1185000
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "transactions": 8395,
+      "transactionsRecent": 4550,
+      "medianPrice": 1222932
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "transactions": 1955,
+      "transactionsRecent": 1293,
+      "medianPrice": 2100000
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "transactions": 35223,
+      "transactionsRecent": 10464,
+      "medianPrice": 600000
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "transactions": 7,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "transactions": 0,
+      "transactionsRecent": 0,
+      "medianPrice": null
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "transactions": 16601,
+      "transactionsRecent": 3112,
+      "medianPrice": 525000
+    }
+  ]
+}

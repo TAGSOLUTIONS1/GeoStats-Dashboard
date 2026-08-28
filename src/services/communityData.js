@@ -6,7 +6,7 @@ import healthcare from '../data/osm/healthcare.json';
 import transport from '../data/osm/transport.json';
 import populationByCommunity from '../data/dsc/population-by-community.json';
 import trafficSafety from '../data/dsc/traffic-safety.json';
-import homeValue from '../data/dld/home-value.json';
+import homeValue from '../data/dld18/home-value-by-community.json';
 import ppsmByCommunity from '../data/amp/price-per-sqm-by-community.json';
 import schoolQuality from '../data/osm/school-quality.json';
 import jobDiversity from '../data/osm/job-diversity.json';
@@ -96,9 +96,9 @@ export const mapDataPoints = {
     property: 'HomeValue_Median',
     metric: 'medianPrice',
     label: 'Median home sale price (AED)',
-    stops: [771378, 924000, 1339500, 2480000, 3302500, 8000000],
+    stops: [400000, 525000, 850000, 1967888, 2436630, 8000000],
     palette: BLUE,
-    source: 'Dubai Land Department (unofficial mirror)',
+    source: 'Dubai Land Department 1995-2023 export (mirror)',
   },
   'price-per-sqm': {
     dataset: ppsmByCommunity,

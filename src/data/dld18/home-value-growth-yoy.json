@@ -1,0 +1,75 @@
+{
+  "source": "Dubai Land Department transactions, 1995-2023 export (Kaggle mirror alexefimik/dubai-real-estate-transactions-dataset)",
+  "sourceUrl": "https://www.kaggle.com/datasets/alexefimik/dubai-real-estate-transactions-dataset",
+  "provenance": "Third-party mirror of a DLD export. Official DLD schema and column names; yearly volumes reproduce Dubai’s documented market history. Not an official DLD feed.",
+  "scope": "emirate",
+  "period": "2008 to 2022 (2005-07 too sparse; 2023 partial in source)",
+  "retrieved": "2026-08-28",
+  "filter": "trans_group_en='Sales', property_type_en='Unit', property_usage_en='Residential', actual_worth>0",
+  "id": "home-value-growth-yoy",
+  "label": "Home value growth (year over year)",
+  "unit": "percent",
+  "method": "YoY % change in annual median sale price.",
+  "yearRange": [
+    2009,
+    2022
+  ],
+  "series": [
+    {
+      "year": 2009,
+      "value": 28.02
+    },
+    {
+      "year": 2010,
+      "value": 16.93
+    },
+    {
+      "year": 2011,
+      "value": -0.24
+    },
+    {
+      "year": 2012,
+      "value": -1.19
+    },
+    {
+      "year": 2013,
+      "value": 8.08
+    },
+    {
+      "year": 2014,
+      "value": 0.44
+    },
+    {
+      "year": 2015,
+      "value": -6.6
+    },
+    {
+      "year": 2016,
+      "value": -2.46
+    },
+    {
+      "year": 2017,
+      "value": 3.81
+    },
+    {
+      "year": 2018,
+      "value": -12.35
+    },
+    {
+      "year": 2019,
+      "value": 17.31
+    },
+    {
+      "year": 2020,
+      "value": -13.06
+    },
+    {
+      "year": 2021,
+      "value": 21.08
+    },
+    {
+      "year": 2022,
+      "value": 23
+    }
+  ]
+}

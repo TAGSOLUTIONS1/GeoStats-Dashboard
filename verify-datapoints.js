@@ -82,7 +82,7 @@ const layers = [
   ['public-school-quality-rating', 'src/data/osm/school-quality.json', 'avgRating'],
   ['job-market-diversity', 'src/data/osm/job-diversity.json', 'jobDiversity'],
   ['population-growth', 'src/data/dsc/population-by-community.json', 'growthCagrPct'],
-  ['home-value', 'src/data/dld/home-value.json', 'medianPrice'],
+  ['home-value', 'src/data/dld18/home-value-by-community.json', 'medianPrice'],
   ['price-per-sqm', 'src/data/amp/price-per-sqm-by-community.json', 'latestPricePerSqm'],
   ['community-safety-score', 'src/data/dsc/traffic-safety.json', 'per1kPeople'],
 ];
@@ -118,10 +118,10 @@ console.log('\n=== 4. Card data points ===');
 const cards = [
   ['housing-units', 'src/data/dsc/housing-units.json'],
   ['poverty-rate', 'src/data/hdx/poverty.json'],
-  ['home-sales', 'src/data/dld/home-sales.json'],
+  ['home-sales', 'src/data/dld18/home-sales-history.json'],
   ['offplan-share', 'src/data/dld/offplan-share.json'],
-  ['home-value-growth-yoy', 'src/data/amp/home-value-growth-yoy.json'],
-  ['home-value-growth-5year', 'src/data/amp/home-value-growth-5year.json'],
+  ['home-value-growth-yoy', 'src/data/dld18/home-value-growth-yoy.json'],
+  ['home-value-growth-5year', 'src/data/dld18/home-value-growth-5year.json'],
   ['mortgage-share', 'src/data/dld/mortgage-share.json'],
   ['home-value-growth-mom', 'src/data/dld/home-value-mom.json'],
   ['housing-units-growth-rate', 'src/data/dsc/housing-growth.json'],
