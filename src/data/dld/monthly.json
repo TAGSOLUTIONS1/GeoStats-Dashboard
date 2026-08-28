@@ -1,0 +1,110 @@
+{
+  "source": "Dubai Land Department transactions (2025 export, community-published mirror)",
+  "sourceUrl": "https://raw.githubusercontent.com/Nayil97/gulf-sql-portfolio/main/data/dld.csv",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD export. Schema matches DLD field names. Not an official DLD feed.",
+  "period": "2025-01 to 2025-08 (Sep excluded: partial month)",
+  "retrieved": "2026-08-28",
+  "basis": "Residential unit sales only",
+  "medianPrice": [
+    {
+      "year": "2025-01",
+      "value": 1352000
+    },
+    {
+      "year": "2025-02",
+      "value": 1280136
+    },
+    {
+      "year": "2025-03",
+      "value": 1319552
+    },
+    {
+      "year": "2025-04",
+      "value": 1288610
+    },
+    {
+      "year": "2025-05",
+      "value": 1296030
+    },
+    {
+      "year": "2025-06",
+      "value": 1287002
+    },
+    {
+      "year": "2025-07",
+      "value": 1285828
+    },
+    {
+      "year": "2025-08",
+      "value": 1290354
+    }
+  ],
+  "salesCount": [
+    {
+      "year": "2025-01",
+      "value": 10289
+    },
+    {
+      "year": "2025-02",
+      "value": 11782
+    },
+    {
+      "year": "2025-03",
+      "value": 12067
+    },
+    {
+      "year": "2025-04",
+      "value": 14169
+    },
+    {
+      "year": "2025-05",
+      "value": 14471
+    },
+    {
+      "year": "2025-06",
+      "value": 13254
+    },
+    {
+      "year": "2025-07",
+      "value": 16700
+    },
+    {
+      "year": "2025-08",
+      "value": 15881
+    }
+  ],
+  "medianPricePerSqm": [
+    {
+      "year": "2025-01",
+      "value": 17820
+    },
+    {
+      "year": "2025-02",
+      "value": 17592
+    },
+    {
+      "year": "2025-03",
+      "value": 18352
+    },
+    {
+      "year": "2025-04",
+      "value": 17840
+    },
+    {
+      "year": "2025-05",
+      "value": 18545
+    },
+    {
+      "year": "2025-06",
+      "value": 18632
+    },
+    {
+      "year": "2025-07",
+      "value": 18463
+    },
+    {
+      "year": "2025-08",
+      "value": 18829
+    }
+  ]
+}

@@ -5,6 +5,8 @@ const fmt = (v, unit) => {
   if (v == null) return 'n/a';
   if (unit === 'percent') return `${v.toFixed(2)}%`;
   if (unit === 'usd') return `$${Math.round(v).toLocaleString('en-US')}`;
+  if (unit === 'aed') return `AED ${Math.round(v).toLocaleString('en-US')}`;
+  if (unit === 'count') return Math.round(v).toLocaleString('en-US');
   if (unit === 'years') return `${v} yrs`;
   return Math.round(v).toLocaleString('en-US');
 };

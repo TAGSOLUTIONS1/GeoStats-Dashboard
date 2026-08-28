@@ -1,0 +1,376 @@
+{
+ "JUMEIRAH VILLAGE CIRCLE": {
+  "code": "681",
+  "community": "AL BARSHA SOUTH FOURTH",
+  "lat": 25.0565882,
+  "lon": 55.2079869,
+  "osmType": "place/suburb"
+ },
+ "DUBAI LAND RESIDENCE COMPLEX": {
+  "code": "648",
+  "community": "WADI AL SAFA 5",
+  "lat": 25.0853591,
+  "lon": 55.382978,
+  "osmType": "tourism/apartment"
+ },
+ "DUBAI MARINA": {
+  "code": "392",
+  "community": "MARSA DUBAI",
+  "lat": 25.0786415,
+  "lon": 55.1352524,
+  "osmType": "landuse/residential"
+ },
+ "DUBAI PRODUCTION CITY": {
+  "code": "685",
+  "community": "ME'AISEM FIRST",
+  "lat": 25.0321285,
+  "lon": 55.1912732,
+  "osmType": "boundary/administrative"
+ },
+ "JUMEIRAH LAKES TOWERS": {
+  "code": "393",
+  "community": "AL THANYAH FIFTH",
+  "lat": 25.0708766,
+  "lon": 55.1387113,
+  "osmType": "railway/station"
+ },
+ "MOTOR CITY": {
+  "code": "674",
+  "community": "AL HEBIAH FIRST",
+  "lat": 25.0476902,
+  "lon": 55.2382095,
+  "osmType": "place/neighbourhood"
+ },
+ "SILICON OASIS": {
+  "code": "626",
+  "community": "NADD HESSA",
+  "lat": 25.1217058,
+  "lon": 55.3855055,
+  "osmType": "place/neighbourhood"
+ },
+ "AL FURJAN": {
+  "code": "591",
+  "community": "JABAL ALI FIRST",
+  "lat": 25.0304736,
+  "lon": 55.1522307,
+  "osmType": "railway/station"
+ },
+ "Madinat Hind 4": {
+  "code": "914",
+  "community": "UMM NAHAD FOURTH",
+  "lat": 25.0077718,
+  "lon": 55.3681454,
+  "osmType": "boundary/administrative"
+ },
+ "JUMEIRAH VILLAGE TRIANGLE": {
+  "code": "684",
+  "community": "AL BARSHA SOUTH FIFTH",
+  "lat": 25.0498433,
+  "lon": 55.1907008,
+  "osmType": "place/neighbourhood"
+ },
+ "ARJAN": {
+  "code": "673",
+  "community": "AL BARSHA SOUTH THIRD",
+  "lat": 25.0603309,
+  "lon": 55.2354858,
+  "osmType": "landuse/residential"
+ },
+ "DUBAI SPORTS CITY": {
+  "code": "682",
+  "community": "AL HEBIAH FOURTH",
+  "lat": 25.0321379,
+  "lon": 55.219353,
+  "osmType": "place/neighbourhood"
+ },
+ "DUBAI SCIENCE PARK": {
+  "code": "672",
+  "community": "AL BARSHA SOUTH SECOND",
+  "lat": 25.0735423,
+  "lon": 55.2412462,
+  "osmType": "highway/bus_stop"
+ },
+ "MAJAN": {
+  "code": "645",
+  "community": "WADI AL SAFA 3",
+  "lat": 25.0929388,
+  "lon": 55.3184835,
+  "osmType": "landuse/residential"
+ },
+ "DUBAI HILLS": {
+  "code": "631",
+  "community": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+  "lat": 25.0974142,
+  "lon": 55.2684401,
+  "osmType": "place/suburb"
+ },
+ "DUBAI CREEK HARBOUR": {
+  "code": "415",
+  "community": "AL KHEERAN FIRST",
+  "lat": 25.197978,
+  "lon": 55.3603796,
+  "osmType": "landuse/residential"
+ },
+ "DUBAI SOUTH": {
+  "code": "521",
+  "community": "MADINAT AL MATAAR",
+  "lat": 24.9144391,
+  "lon": 55.1615128,
+  "osmType": "place/suburb"
+ },
+ "PALM JUMEIRAH": {
+  "code": "381",
+  "community": "NAKHLAT JUMEIRA",
+  "lat": 25.1173273,
+  "lon": 55.1350965,
+  "osmType": "place/suburb"
+ },
+ "MEYDAN ONE": {
+  "code": "347",
+  "community": "AL MERKADH",
+  "lat": 25.172536,
+  "lon": 55.2872772,
+  "osmType": "building/construction"
+ },
+ "DAMAC HILLS": {
+  "code": "676",
+  "community": "AL HEBIAH THIRD",
+  "lat": 25.0281607,
+  "lon": 55.2640652,
+  "osmType": "highway/tertiary"
+ },
+ "Palm Deira": {
+  "code": "101",
+  "community": "NAKHLAT DEIRA",
+  "lat": 25.2761408,
+  "lon": 55.3016752,
+  "osmType": "railway/station",
+  "corrected": "manual: Nakhlat = Palm; geocoder returned a mainland station"
+ },
+ "DUBAI MARITIME CITY": {
+  "code": "321",
+  "community": "MADINAT DUBAI AL MELAHEYAH",
+  "lat": 25.2496256,
+  "lon": 55.276165,
+  "osmType": "place/suburb"
+ },
+ "TOWN SQUARE": {
+  "code": "922",
+  "community": "AL YALAYIS 2",
+  "lat": 24.9958266,
+  "lon": 55.2959064,
+  "osmType": "landuse/residential"
+ },
+ "DUBAI STUDIO CITY": {
+  "code": "675",
+  "community": "AL HEBIAH SECOND",
+  "lat": 25.0415641,
+  "lon": 55.2522587,
+  "osmType": "place/neighbourhood"
+ },
+ "DISCOVERY GARDENS": {
+  "code": "591",
+  "community": "JABAL ALI FIRST",
+  "lat": 25.0352571,
+  "lon": 55.1454134,
+  "osmType": "railway/station"
+ },
+ "LIWAN": {
+  "code": "643",
+  "community": "WADI AL SAFA 2",
+  "lat": 25.1101209,
+  "lon": 55.3676993,
+  "osmType": "boundary/administrative"
+ },
+ "THE GREENS": {
+  "code": "388",
+  "community": "AL THANYAH THIRD",
+  "lat": 25.0928617,
+  "lon": 55.1706219,
+  "osmType": "landuse/residential"
+ },
+ "PALM DEIRA": {
+  "code": "101",
+  "community": "NAKHLAT DEIRA",
+  "lat": 25.2761408,
+  "lon": 55.3016752,
+  "osmType": "railway/station",
+  "corrected": "manual: Nakhlat = Palm; geocoder returned a mainland station"
+ },
+ "JADDAF WATERFRONT": {
+  "code": "326",
+  "community": "AL JADAF",
+  "lat": 25.2268312,
+  "lon": 55.3380861,
+  "osmType": "tourism/hotel"
+ },
+ "DUBAI INDUSTRIAL CITY": {
+  "code": "532",
+  "community": "SAIH SHUAIB 3",
+  "lat": 24.8399006,
+  "lon": 55.0662934,
+  "osmType": "place/suburb"
+ },
+ "Palm Jabal Ali": {
+  "code": "501",
+  "community": "NAKHLAT JABAL ALI",
+  "lat": 24.9876012,
+  "lon": 55.0220064,
+  "osmType": "building/yes",
+  "corrected": "manual: Nakhlat = Palm; geocoder returned a mainland station"
+ },
+ "BARSHA HEIGHTS": {
+  "code": "383",
+  "community": "AL THANYAH FIRST",
+  "lat": 25.0982842,
+  "lon": 55.1757823,
+  "osmType": "place/neighbourhood"
+ },
+ "MUDON": {
+  "code": "677",
+  "community": "AL HEBIAH SIXTH",
+  "lat": 25.0204108,
+  "lon": 55.2679936,
+  "osmType": "place/suburb"
+ },
+ "JUMEIRAH HEIGHTS": {
+  "code": "393",
+  "community": "AL THANYAH FIFTH",
+  "lat": 25.0655368,
+  "lon": 55.14557,
+  "osmType": "landuse/residential"
+ },
+ "MEYDAN AVENUE": {
+  "code": "618",
+  "community": "NADD AL SHIBA FIRST",
+  "lat": 25.1591416,
+  "lon": 55.2961356,
+  "osmType": "landuse/commercial"
+ },
+ "THE VILLA": {
+  "code": "648",
+  "community": "WADI AL SAFA 5",
+  "lat": 25.0843891,
+  "lon": 55.3611964,
+  "osmType": "boundary/administrative"
+ },
+ "AL BARARI": {
+  "code": "645",
+  "community": "WADI AL SAFA 3",
+  "lat": 25.1082771,
+  "lon": 55.31877,
+  "osmType": "boundary/administrative"
+ },
+ "Wadi Al Amardi": {
+  "code": "271",
+  "community": "WADI ALAMARDI",
+  "lat": 25.20929,
+  "lon": 55.4879092,
+  "osmType": "boundary/administrative"
+ },
+ "AL WAHA": {
+  "code": "521",
+  "community": "MADINAT AL MATAAR",
+  "lat": 24.9642111,
+  "lon": 55.151713,
+  "osmType": "landuse/construction"
+ },
+ "Al Suq Al Kabeer": {
+  "code": "312",
+  "community": "AL SOUQ AL KABEER",
+  "lat": 25.2639134,
+  "lon": 55.2922626,
+  "osmType": "highway/residential"
+ },
+ "Mushrif": {
+  "code": "252",
+  "community": "MUSHRAIF",
+  "lat": 25.2139744,
+  "lon": 55.450147,
+  "osmType": "boundary/administrative"
+ },
+ "DUBAI DESIGN DISTRICT": {
+  "code": "337",
+  "community": "ZAA'BEEL SECOND",
+  "lat": 25.1883375,
+  "lon": 55.2974839,
+  "osmType": "place/suburb"
+ },
+ "MINA RASHID": {
+  "code": "321",
+  "community": "MADINAT DUBAI AL MELAHEYAH",
+  "lat": 25.2711083,
+  "lon": 55.2659321,
+  "osmType": "place/suburb"
+ },
+ "DUBAI GOLF CITY": {
+  "code": "683",
+  "community": "AL HEBIAH FIFTH",
+  "lat": 25.0113159,
+  "lon": 55.2342667,
+  "osmType": "boundary/administrative"
+ },
+ "LIWAN 2": {
+  "code": "643",
+  "community": "WADI AL SAFA 2",
+  "lat": 25.1101209,
+  "lon": 55.3676993,
+  "osmType": "boundary/administrative"
+ },
+ "Island 2": {
+  "code": "304",
+  "community": "JUMEIRA ISLAND 2",
+  "lat": 25.197624,
+  "lon": 55.2258239,
+  "osmType": "place/suburb"
+ },
+ "DUBAI HEALTHCARE CITY - PHASE 1": {
+  "code": "315",
+  "community": "UMM HURAIR SECOND",
+  "lat": 25.2318195,
+  "lon": 55.3225039,
+  "osmType": "place/neighbourhood"
+ },
+ "Al Dhagaya": {
+  "code": "113",
+  "community": "AL DAGHAYA",
+  "lat": 25.2725277,
+  "lon": 55.3001158,
+  "osmType": "boundary/administrative"
+ },
+ "Madinat Latifa": {
+  "code": "961",
+  "community": "AL SELAL",
+  "lat": 24.8910512,
+  "lon": 55.2757454,
+  "osmType": "boundary/administrative"
+ },
+ "AL QUSAIS": {
+  "code": "233",
+  "community": "AL QUSAIS SECOND",
+  "lat": 25.2701436,
+  "lon": 55.3859389,
+  "osmType": "boundary/administrative"
+ },
+ "DUBAI LIFESTYLE CITY": {
+  "code": "665",
+  "community": "WADI AL SAFA 7",
+  "lat": 25.0426027,
+  "lon": 55.2821628,
+  "osmType": "boundary/administrative"
+ },
+ "THE BEACH": {
+  "code": "392",
+  "community": "MARSA DUBAI",
+  "lat": 25.0763584,
+  "lon": 55.1315356,
+  "osmType": "landuse/retail"
+ },
+ "Dubai International Airport": {
+  "code": "221",
+  "community": "DUBAI INT'L AIRPORT",
+  "lat": 25.2515424,
+  "lon": 55.3666519,
+  "osmType": "aeroway/aerodrome"
+ }
+}

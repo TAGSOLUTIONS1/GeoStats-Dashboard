@@ -1,0 +1,77 @@
+{
+  "source": "Dubai average price per m² by area (bundled with this project, DLD-derived)",
+  "sourceUrl": "src/data/average_meter_price/historical_data",
+  "scope": "emirate",
+  "retrieved": "2026-08-28",
+  "period": "2010-01 to 2025-08",
+  "method": "YoY % change in the annual median price per m².",
+  "id": "home-value-growth-yoy",
+  "label": "Home value growth (year over year)",
+  "unit": "percent",
+  "yearRange": [
+    2011,
+    2025
+  ],
+  "series": [
+    {
+      "year": 2011,
+      "value": -8.93
+    },
+    {
+      "year": 2012,
+      "value": 8.24
+    },
+    {
+      "year": 2013,
+      "value": 14.44
+    },
+    {
+      "year": 2014,
+      "value": 20.87
+    },
+    {
+      "year": 2015,
+      "value": 9.46
+    },
+    {
+      "year": 2016,
+      "value": 0.26
+    },
+    {
+      "year": 2017,
+      "value": -1.06
+    },
+    {
+      "year": 2018,
+      "value": -1.82
+    },
+    {
+      "year": 2019,
+      "value": -11.69
+    },
+    {
+      "year": 2020,
+      "value": -6.82
+    },
+    {
+      "year": 2021,
+      "value": 5.48
+    },
+    {
+      "year": 2022,
+      "value": 13.08
+    },
+    {
+      "year": 2023,
+      "value": 17.44
+    },
+    {
+      "year": 2024,
+      "value": 23.69
+    },
+    {
+      "year": 2025,
+      "value": 11.04
+    }
+  ]
+}

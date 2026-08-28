@@ -82,6 +82,8 @@ const layers = [
   ['public-school-quality-rating', 'src/data/osm/school-quality.json', 'avgRating'],
   ['job-market-diversity', 'src/data/osm/job-diversity.json', 'jobDiversity'],
   ['population-growth', 'src/data/dsc/population-by-community.json', 'growthCagrPct'],
+  ['home-value', 'src/data/dld/home-value.json', 'medianPrice'],
+  ['price-per-sqm', 'src/data/amp/price-per-sqm-by-community.json', 'latestPricePerSqm'],
   ['community-safety-score', 'src/data/dsc/traffic-safety.json', 'per1kPeople'],
 ];
 const cdSrc = src('src/services/communityData.js');
@@ -116,6 +118,12 @@ console.log('\n=== 4. Card data points ===');
 const cards = [
   ['housing-units', 'src/data/dsc/housing-units.json'],
   ['poverty-rate', 'src/data/hdx/poverty.json'],
+  ['home-sales', 'src/data/dld/home-sales.json'],
+  ['offplan-share', 'src/data/dld/offplan-share.json'],
+  ['home-value-growth-yoy', 'src/data/amp/home-value-growth-yoy.json'],
+  ['home-value-growth-5year', 'src/data/amp/home-value-growth-5year.json'],
+  ['mortgage-share', 'src/data/dld/mortgage-share.json'],
+  ['home-value-growth-mom', 'src/data/dld/home-value-mom.json'],
   ['housing-units-growth-rate', 'src/data/dsc/housing-growth.json'],
   ['unemployment-rate', 'src/data/worldbank/unemployment-rate.json'],
   ['median-household-income', 'src/data/worldbank/gdp-per-capita.json'],
@@ -126,7 +134,7 @@ const cards = [
 cards.forEach(([id, file]) => {
   const d = read(file);
   const s = d.series || [];
-  const ascending = s.every((p, i) => i === 0 || p.year > s[i - 1].year);
+  const ascending = s.every((p, i) => i === 0 || String(p.year) > String(s[i - 1].year));
   const nan = s.filter((p) => !isFinite(p.value)).length;
   (!s.length || !ascending || nan)
     ? bad(`${id}: ${!s.length ? 'empty series' : !ascending ? 'years not ascending' : nan + ' NaN'}`)

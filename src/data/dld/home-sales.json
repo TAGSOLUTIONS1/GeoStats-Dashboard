@@ -1,0 +1,50 @@
+{
+  "source": "Dubai Land Department transactions (2025 export, community-published mirror)",
+  "sourceUrl": "https://raw.githubusercontent.com/Nayil97/gulf-sql-portfolio/main/data/dld.csv",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD export. Schema matches DLD field names. Not an official DLD feed.",
+  "period": "2025-01 to 2025-08 (Sep excluded: partial month)",
+  "retrieved": "2026-08-28",
+  "id": "home-sales",
+  "label": "Residential unit sales per month",
+  "unit": "count",
+  "scope": "emirate",
+  "method": "Count of GROUP_EN=Sales, PROP_TYPE_EN=Unit per month.",
+  "yearRange": [
+    "2025-01",
+    "2025-08"
+  ],
+  "series": [
+    {
+      "year": "2025-01",
+      "value": 10289
+    },
+    {
+      "year": "2025-02",
+      "value": 11782
+    },
+    {
+      "year": "2025-03",
+      "value": 12067
+    },
+    {
+      "year": "2025-04",
+      "value": 14169
+    },
+    {
+      "year": "2025-05",
+      "value": 14471
+    },
+    {
+      "year": "2025-06",
+      "value": 13254
+    },
+    {
+      "year": "2025-07",
+      "value": 16700
+    },
+    {
+      "year": "2025-08",
+      "value": 15881
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "source": "Dubai Land Department transactions (2025 export, community-published mirror)",
+  "sourceUrl": "https://raw.githubusercontent.com/Nayil97/gulf-sql-portfolio/main/data/dld.csv",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD export. Schema matches DLD field names. Not an official DLD feed.",
+  "period": "2025-01 to 2025-08 (Sep excluded: partial month)",
+  "retrieved": "2026-08-28",
+  "id": "home-value-growth-mom",
+  "label": "Median home price change (month over month)",
+  "unit": "percent",
+  "scope": "emirate",
+  "method": "MoM % change in median residential unit sale price.",
+  "yearRange": [
+    "2025-02",
+    "2025-08"
+  ],
+  "series": [
+    {
+      "year": "2025-02",
+      "value": -5.32
+    },
+    {
+      "year": "2025-03",
+      "value": 3.08
+    },
+    {
+      "year": "2025-04",
+      "value": -2.34
+    },
+    {
+      "year": "2025-05",
+      "value": 0.58
+    },
+    {
+      "year": "2025-06",
+      "value": -0.7
+    },
+    {
+      "year": "2025-07",
+      "value": -0.09
+    },
+    {
+      "year": "2025-08",
+      "value": 0.35
+    }
+  ]
+}

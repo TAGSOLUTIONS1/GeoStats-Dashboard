@@ -6,6 +6,8 @@ import healthcare from '../data/osm/healthcare.json';
 import transport from '../data/osm/transport.json';
 import populationByCommunity from '../data/dsc/population-by-community.json';
 import trafficSafety from '../data/dsc/traffic-safety.json';
+import homeValue from '../data/dld/home-value.json';
+import ppsmByCommunity from '../data/amp/price-per-sqm-by-community.json';
 import schoolQuality from '../data/osm/school-quality.json';
 import jobDiversity from '../data/osm/job-diversity.json';
 import walkability from '../data/osm/walkability.json';
@@ -88,6 +90,24 @@ export const mapDataPoints = {
     stops: [0.27, 7.95, 34, 73.6, 116.9, 200],
     palette: GREEN,
     source: 'OpenStreetMap',
+  },
+  'home-value': {
+    dataset: homeValue,
+    property: 'HomeValue_Median',
+    metric: 'medianPrice',
+    label: 'Median home sale price (AED)',
+    stops: [771378, 924000, 1339500, 2480000, 3302500, 8000000],
+    palette: BLUE,
+    source: 'Dubai Land Department (unofficial mirror)',
+  },
+  'price-per-sqm': {
+    dataset: ppsmByCommunity,
+    property: 'PricePerSqm',
+    metric: 'latestPricePerSqm',
+    label: 'Price per m² (AED)',
+    stops: [2602, 4830, 13642, 19027, 28108, 43635],
+    palette: BLUE,
+    source: 'Dubai area price history (DLD-derived)',
   },
 };
 

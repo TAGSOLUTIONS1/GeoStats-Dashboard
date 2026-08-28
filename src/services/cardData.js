@@ -5,6 +5,12 @@ import housingUnits from '../data/dsc/housing-units.json';
 import ageDistribution from '../data/dsc/age-distribution.json';
 import housingGrowth from '../data/dsc/housing-growth.json';
 import poverty from '../data/hdx/poverty.json';
+import homeSales from '../data/dld/home-sales.json';
+import homeValueMom from '../data/dld/home-value-mom.json';
+import offplanShare from '../data/dld/offplan-share.json';
+import mortgageShare from '../data/dld/mortgage-share.json';
+import hvYoy from '../data/amp/home-value-growth-yoy.json';
+import hv5y from '../data/amp/home-value-growth-5year.json';
 
 const localDatasets = {
   'housing-units': {
@@ -36,6 +42,46 @@ const localDatasets = {
     yearRange: poverty.yearRange,
     source: 'World Bank via HDX',
     isProxy: false,
+  },
+  'home-sales': {
+    kind: 'series',
+    label: homeSales.label,
+    unit: homeSales.unit,
+    scopeLabel: 'Dubai emirate',
+    series: homeSales.series,
+    yearRange: homeSales.yearRange,
+    source: 'DLD transactions (unofficial mirror)',
+    isProxy: false,
+  },
+  'home-value-growth-mom': {
+    kind: 'series',
+    label: homeValueMom.label,
+    unit: homeValueMom.unit,
+    scopeLabel: 'Dubai emirate',
+    series: homeValueMom.series,
+    yearRange: homeValueMom.yearRange,
+    source: 'DLD transactions (unofficial mirror)',
+    isProxy: false,
+  },
+  'offplan-share': {
+    kind: 'series', label: offplanShare.label, unit: 'percent', scopeLabel: 'Dubai emirate',
+    series: offplanShare.series, yearRange: offplanShare.yearRange,
+    source: 'DLD transactions (unofficial mirror)', isProxy: false,
+  },
+  'mortgage-share': {
+    kind: 'series', label: mortgageShare.label, unit: 'percent', scopeLabel: 'Dubai emirate',
+    series: mortgageShare.series, yearRange: mortgageShare.yearRange,
+    source: 'DLD transactions (unofficial mirror)', isProxy: false,
+  },
+  'home-value-growth-yoy': {
+    kind: 'series', label: hvYoy.label, unit: 'percent', scopeLabel: 'Dubai emirate',
+    series: hvYoy.series, yearRange: hvYoy.yearRange,
+    source: 'Dubai area price history (DLD-derived)', isProxy: false,
+  },
+  'home-value-growth-5year': {
+    kind: 'series', label: hv5y.label, unit: 'percent', scopeLabel: 'Dubai emirate',
+    series: hv5y.series, yearRange: hv5y.yearRange,
+    source: 'Dubai area price history (DLD-derived)', isProxy: false,
   },
   'median-age': {
     kind: 'distribution',
