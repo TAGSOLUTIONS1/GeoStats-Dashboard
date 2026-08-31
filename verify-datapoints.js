@@ -84,7 +84,10 @@ const layers = [
   ['population-growth', 'src/data/dsc/population-by-community.json', 'growthCagrPct'],
   ['home-value', 'src/data/dld18/home-value-by-community.json', 'medianPrice'],
   ['price-per-sqm', 'src/data/amp/price-per-sqm-by-community.json', 'latestPricePerSqm'],
-  ['cap-rate', 'src/data/yield/cap-rate-by-community.json', 'grossYieldPct'],
+  ['cap-rate', 'src/data/dldx/cap-rate.json', 'capRatePct'],
+  ['rental-rate', 'src/data/dldx/rental-rate.json', 'flatRentAed'],
+  ['rent-for-houses', 'src/data/dldx/rent-for-houses.json', 'villaRentAed'],
+  ['home-value-to-rent-ratio', 'src/data/dldx/price-to-rent.json', 'priceToRentYears'],
   ['community-safety-score', 'src/data/dsc/traffic-safety.json', 'per1kPeople'],
 ];
 const cdSrc = src('src/services/communityData.js');

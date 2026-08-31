@@ -123,7 +123,7 @@ const dataPoints = [
     isSelected: false,
     isPremium: false,
     description: 'The unlevered annual return a real estate investor can expect if they were to buy a property at prevailing Home Values and rent it out at prevailing Rental Rates. Higher cap rates mean more cash flow returns to investors. Note that Cap Rate figures are estimates and could be subject to error, especially at the Community level.',
-    source: "Dubai area yields dataset (origin unstated)",
+    source: "DLD Exchange (Ejari + DLD, 2026 YTD)",
     Upcoming: false,
   },
   {
@@ -519,7 +519,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium: false, 
     description: "The area's typical monthly rent based on observed market listings and transactions in the UAE. Note that rental rates for smaller geographies (e.g., communities) may be estimated using available data.",
-    source: "Dubai area yields dataset (origin unstated)",
+    source: "DLD Exchange (Ejari, 2026 YTD)",
     Upcoming: false,
   },
   {
@@ -539,10 +539,10 @@ const dataPoints = [
     id:'rent-for-houses', 
     icon: DollarSign, 
     isSelected:false, 
-    isPremium:true, 
+    isPremium: false, 
     description: "The typical monthly rent for a medium- to large-sized house in the area. Rent for houses is estimated by adjusting base rental market data upward (around 25%) to account for larger unit sizes.",
-    source:'Zillow',
-    Upcoming: true,
+    source: "DLD Exchange (Ejari, 2026 YTD)",
+    Upcoming: false,
   },
   {
     count: 50,
@@ -563,7 +563,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium: false, 
     description:'The typical Home Value in an area divided by the Annual Rent for Houses. This metric gives an indication of how expensive it is for a homebuyer to buy compared to rent. This metric also gives an indication of how much rental revenue an investor can expect relative to their purchase price (lower Home Value to Rent Ratios indicate more affordable markets to buy from an investor perspective).',
-    source: "Dubai area yields dataset (origin unstated)",
+    source: "DLD Exchange (Ejari + DLD, 2026 YTD)",
     Upcoming: false,
   },
   {

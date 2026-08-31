@@ -9,8 +9,6 @@ import homeSales from '../data/dld18/home-sales-history.json';
 import homeValueMom from '../data/dld/home-value-mom.json';
 import offplanShare from '../data/dld/offplan-share.json';
 import mortgageShare from '../data/dld/mortgage-share.json';
-import rentalRate from '../data/yield/rental-rate.json';
-import priceToRent from '../data/yield/price-to-rent.json';
 import hvYoy from '../data/dld18/home-value-growth-yoy.json';
 import hv5y from '../data/dld18/home-value-growth-5year.json';
 
@@ -84,18 +82,6 @@ const localDatasets = {
     kind: 'series', label: hv5y.label, unit: 'percent', scopeLabel: 'Dubai emirate',
     series: hv5y.series, yearRange: hv5y.yearRange,
     source: 'DLD 1995-2023 transactions (mirror)', isProxy: false,
-  },
-  'rental-rate': {
-    kind: 'value', label: rentalRate.label, unit: 'aed', scopeLabel: 'Dubai emirate',
-    value: rentalRate.value, areas: rentalRate.areas, period: rentalRate.period,
-    note: 'Derived from sale price x gross yield',
-    source: 'Dubai area yields dataset (origin unstated)', isProxy: false,
-  },
-  'home-value-to-rent-ratio': {
-    kind: 'value', label: priceToRent.label, unit: 'years', scopeLabel: 'Dubai emirate',
-    value: priceToRent.value, areas: priceToRent.areas, period: priceToRent.period,
-    note: 'Years of rent equal to the purchase price',
-    source: 'Dubai area yields dataset (origin unstated)', isProxy: false,
   },
   'median-age': {
     kind: 'distribution',

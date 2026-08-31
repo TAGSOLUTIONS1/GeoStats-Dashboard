@@ -8,7 +8,10 @@ import populationByCommunity from '../data/dsc/population-by-community.json';
 import trafficSafety from '../data/dsc/traffic-safety.json';
 import homeValue from '../data/dld18/home-value-by-community.json';
 import ppsmByCommunity from '../data/amp/price-per-sqm-by-community.json';
-import capRate from '../data/yield/cap-rate-by-community.json';
+import capRate from '../data/dldx/cap-rate.json';
+import rentalRate from '../data/dldx/rental-rate.json';
+import rentForHouses from '../data/dldx/rent-for-houses.json';
+import priceToRent from '../data/dldx/price-to-rent.json';
 import schoolQuality from '../data/osm/school-quality.json';
 import jobDiversity from '../data/osm/job-diversity.json';
 import walkability from '../data/osm/walkability.json';
@@ -133,14 +136,47 @@ export const mapDataPoints = {
   },
   'cap-rate': {
     dataset: capRate,
-    property: 'CapRate_Net',
-    metric: 'netYieldPct',
-    labelDigits: 1,
+    property: 'CapRate_Gross',
+    metric: 'capRatePct',
+    labelDigits: 2,
     labelSuffix: '%',
-    label: 'Net rental yield (%)',
-    stops: [3.2, 3.8, 4.5, 5.0, 5.6, 8.8],
+    label: 'Gross rental yield (%)',
+    stops: [1.78, 2.67, 4.07, 5.2, 6.72, 9.09],
     palette: GREEN,
-    source: 'Dubai area yields dataset (origin unstated)',
+    source: 'DLD Exchange (Ejari + DLD, 2026 YTD)',
+  },
+  'rental-rate': {
+    dataset: rentalRate,
+    property: 'Rent_Flat',
+    metric: 'flatRentAed',
+    labelDigits: 0,
+    labelSuffix: ' AED',
+    label: 'Median annual flat rent (AED)',
+    stops: [40000, 50000, 60000, 79380, 115000, 205000],
+    palette: BLUE,
+    source: 'DLD Exchange (Ejari, 2026 YTD)',
+  },
+  'rent-for-houses': {
+    dataset: rentForHouses,
+    property: 'Rent_Villa',
+    metric: 'villaRentAed',
+    labelDigits: 0,
+    labelSuffix: ' AED',
+    label: 'Median annual villa rent (AED)',
+    stops: [110000, 150000, 190000, 280000, 310000, 1450000],
+    palette: BLUE,
+    source: 'DLD Exchange (Ejari, 2026 YTD)',
+  },
+  'home-value-to-rent-ratio': {
+    dataset: priceToRent,
+    property: 'PriceToRent_Years',
+    metric: 'priceToRentYears',
+    labelDigits: 1,
+    labelSuffix: ' yrs',
+    label: 'Home value to rent ratio (years)',
+    stops: [14.4, 19, 23, 37.4, 51.4, 75.3],
+    palette: SAFETY,
+    source: 'DLD Exchange (Ejari + DLD, 2026 YTD)',
   },
 };
 
