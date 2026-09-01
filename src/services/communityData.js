@@ -15,6 +15,7 @@ import priceToRent from '../data/dldx/price-to-rent.json';
 import schoolQuality from '../data/osm/school-quality.json';
 import jobDiversity from '../data/osm/job-diversity.json';
 import walkability from '../data/osm/walkability.json';
+import accessibility from '../data/osm/accessibility.json';
 
 const GREEN = ['#e8f5e9', '#c8e6c9', '#81c784', '#4caf50', '#2e7d32', '#1b5e20'];
 // Safety is inverted: many incidents = bad, so the scale runs green -> red.
@@ -177,6 +178,17 @@ export const mapDataPoints = {
     stops: [14.4, 19, 23, 37.4, 51.4, 75.3],
     palette: SAFETY,
     source: 'DLD Exchange (Ejari + DLD, 2026 YTD)',
+  },
+  'disability-accessibility-score': {
+    dataset: accessibility,
+    property: 'Access_Pct',
+    metric: 'accessiblePct',
+    labelDigits: 1,
+    labelSuffix: '%',
+    label: 'Wheelchair-accessible share of tagged places (%)',
+    stops: [8.1, 27.3, 43.2, 66.7, 83.8, 90.9],
+    palette: GREEN,
+    source: 'OpenStreetMap (wheelchair tag)',
   },
 };
 
