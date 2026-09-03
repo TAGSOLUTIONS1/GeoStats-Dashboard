@@ -1,0 +1,74 @@
+{
+  "id": "home-sales-growth-yoy",
+  "label": "Home sales growth (year over year)",
+  "unit": "percent",
+  "scope": "emirate",
+  "source": "Dubai Land Department transactions, 1995-2023 export (Kaggle mirror alexefimik/dubai-real-estate-transactions-dataset)",
+  "sourceUrl": "https://www.kaggle.com/datasets/alexefimik/dubai-real-estate-transactions-dataset",
+  "provenance": "Third-party mirror of a DLD export. Official DLD schema and column names; yearly volumes reproduce Dubai’s documented market history. Not an official DLD feed.",
+  "method": "YoY % change in annual residential unit sales count.",
+  "period": "2008 to 2022 (2005-07 too sparse; 2023 partial in source)",
+  "retrieved": "2026-08-28",
+  "yearRange": [
+    2009,
+    2022
+  ],
+  "series": [
+    {
+      "year": 2009,
+      "value": 437.23
+    },
+    {
+      "year": 2010,
+      "value": -47.23
+    },
+    {
+      "year": 2011,
+      "value": -38.77
+    },
+    {
+      "year": 2012,
+      "value": 14.47
+    },
+    {
+      "year": 2013,
+      "value": 63.69
+    },
+    {
+      "year": 2014,
+      "value": -13.44
+    },
+    {
+      "year": 2015,
+      "value": -18.33
+    },
+    {
+      "year": 2016,
+      "value": -10.72
+    },
+    {
+      "year": 2017,
+      "value": 13.09
+    },
+    {
+      "year": 2018,
+      "value": -25.31
+    },
+    {
+      "year": 2019,
+      "value": 14.61
+    },
+    {
+      "year": 2020,
+      "value": -15.94
+    },
+    {
+      "year": 2021,
+      "value": 76.52
+    },
+    {
+      "year": 2022,
+      "value": 75.27
+    }
+  ]
+}

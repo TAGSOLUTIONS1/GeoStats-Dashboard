@@ -1,0 +1,175 @@
+{
+  "id": "percent-change-from-june-2022",
+  "label": "% change in price per m2 since June 2022",
+  "unit": "percent",
+  "scope": "emirate",
+  "source": "Dubai average price per m² by area (bundled with this project, DLD-derived)",
+  "sourceUrl": "src/data/average_meter_price/historical_data",
+  "method": "% change in the Dubai-wide median price per m2 versus the June 2022 anchor month (8290 AED/m2). Positive values mean prices have risen since June 2022.",
+  "anchorMonth": "2022-06",
+  "anchorValueAed": 8290,
+  "period": "2022-06 to 2025-08",
+  "retrieved": "2026-09-03",
+  "yearRange": [
+    "2022-06",
+    "2025-08"
+  ],
+  "series": [
+    {
+      "year": "2022-06",
+      "value": 0
+    },
+    {
+      "year": "2022-07",
+      "value": 3.97
+    },
+    {
+      "year": "2022-08",
+      "value": 6.36
+    },
+    {
+      "year": "2022-09",
+      "value": 12.4
+    },
+    {
+      "year": "2022-10",
+      "value": 3.2
+    },
+    {
+      "year": "2022-11",
+      "value": 12.87
+    },
+    {
+      "year": "2022-12",
+      "value": 16.85
+    },
+    {
+      "year": "2023-01",
+      "value": 16.21
+    },
+    {
+      "year": "2023-02",
+      "value": 20.23
+    },
+    {
+      "year": "2023-03",
+      "value": 22.2
+    },
+    {
+      "year": "2023-04",
+      "value": 23.67
+    },
+    {
+      "year": "2023-05",
+      "value": 17.97
+    },
+    {
+      "year": "2023-06",
+      "value": 21.42
+    },
+    {
+      "year": "2023-07",
+      "value": 26.45
+    },
+    {
+      "year": "2023-08",
+      "value": 31.04
+    },
+    {
+      "year": "2023-09",
+      "value": 32.14
+    },
+    {
+      "year": "2023-10",
+      "value": 33.08
+    },
+    {
+      "year": "2023-11",
+      "value": 32.28
+    },
+    {
+      "year": "2023-12",
+      "value": 26.68
+    },
+    {
+      "year": "2024-01",
+      "value": 35.04
+    },
+    {
+      "year": "2024-02",
+      "value": 39.18
+    },
+    {
+      "year": "2024-03",
+      "value": 40.97
+    },
+    {
+      "year": "2024-04",
+      "value": 52.81
+    },
+    {
+      "year": "2024-05",
+      "value": 59.07
+    },
+    {
+      "year": "2024-06",
+      "value": 49.81
+    },
+    {
+      "year": "2024-07",
+      "value": 61.21
+    },
+    {
+      "year": "2024-08",
+      "value": 57.66
+    },
+    {
+      "year": "2024-09",
+      "value": 67.3
+    },
+    {
+      "year": "2024-10",
+      "value": 67.58
+    },
+    {
+      "year": "2024-11",
+      "value": 63.7
+    },
+    {
+      "year": "2024-12",
+      "value": 63.52
+    },
+    {
+      "year": "2025-01",
+      "value": 66.45
+    },
+    {
+      "year": "2025-02",
+      "value": 69.61
+    },
+    {
+      "year": "2025-03",
+      "value": 69.37
+    },
+    {
+      "year": "2025-04",
+      "value": 72.14
+    },
+    {
+      "year": "2025-05",
+      "value": 72.82
+    },
+    {
+      "year": "2025-06",
+      "value": 83.93
+    },
+    {
+      "year": "2025-07",
+      "value": 80.21
+    },
+    {
+      "year": "2025-08",
+      "value": 80.71
+    }
+  ]
+}

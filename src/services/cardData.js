@@ -5,11 +5,14 @@ import housingUnits from '../data/dsc/housing-units.json';
 import ageDistribution from '../data/dsc/age-distribution.json';
 import housingGrowth from '../data/dsc/housing-growth.json';
 import poverty from '../data/hdx/poverty.json';
+import twoBedRent from '../data/dldx/two-bed-rental-price.json';
 import homeSales from '../data/dld18/home-sales-history.json';
 import homeValueMom from '../data/dld/home-value-mom.json';
 import offplanShare from '../data/dld/offplan-share.json';
 import mortgageShare from '../data/dld/mortgage-share.json';
 import hvYoy from '../data/dld18/home-value-growth-yoy.json';
+import hsYoy from '../data/dld18/home-sales-growth-yoy.json';
+import pctJune2022 from '../data/amp/percent-change-from-june-2022.json';
 import hv5y from '../data/dld18/home-value-growth-5year.json';
 
 const localDatasets = {
@@ -82,6 +85,22 @@ const localDatasets = {
     kind: 'series', label: hv5y.label, unit: 'percent', scopeLabel: 'Dubai emirate',
     series: hv5y.series, yearRange: hv5y.yearRange,
     source: 'DLD 1995-2023 transactions (mirror)', isProxy: false,
+  },
+  'home-sales-growth-yoy': {
+    kind: 'series', label: hsYoy.label, unit: 'percent', scopeLabel: 'Dubai emirate',
+    series: hsYoy.series, yearRange: hsYoy.yearRange,
+    source: 'DLD 1995-2023 transactions (mirror)', isProxy: false,
+  },
+  'percent-change-from-june-2022': {
+    kind: 'series', label: pctJune2022.label, unit: 'percent', scopeLabel: 'Dubai emirate',
+    series: pctJune2022.series, yearRange: pctJune2022.yearRange,
+    source: 'Dubai area price history (DLD-derived)', isProxy: false,
+  },
+  'two-bed-rental-price': {
+    kind: 'value', label: twoBedRent.label, unit: 'aed', scopeLabel: 'Dubai emirate',
+    value: twoBedRent.value, period: twoBedRent.period,
+    note: 'Dubai-wide only -- the source ignores its own area filter on bedroom-level rents',
+    source: 'DLD Exchange (Ejari, 2026 YTD)', isProxy: false,
   },
   'median-age': {
     kind: 'distribution',

@@ -1,0 +1,39 @@
+{
+  "id": "two-bed-rental-price",
+  "label": "Median 2-bedroom annual rent (AED)",
+  "unit": "aed",
+  "scope": "emirate",
+  "source": "DLD Exchange (Ejari, 2026 YTD)",
+  "sourceUrl": "https://www.dldexchange.com/api",
+  "provenance": "Third-party site republishing Ejari rental contracts. Not an official DLD feed. This breakdown is Dubai-wide only: the API ignores its own area filter on bedroom-level statistics (verified: filtering by area returns an empty bedroomStats array), so this cannot be shown per community.",
+  "period": "2026-01-01 to 2026-08-28 (the API holds current-year data only)",
+  "retrieved": "2026-09-03",
+  "method": "Median Ejari annual rent across all 2-bedroom rental contracts, all property types, Dubai-wide.",
+  "value": 144323,
+  "totalRentsAllBedrooms": 745687,
+  "crossCheck": {
+    "allTypesMedianAnnualRent": 75000,
+    "bedroomSeries": [
+      {
+        "bedrooms": 1,
+        "medianAnnualRent": 92744
+      },
+      {
+        "bedrooms": 2,
+        "medianAnnualRent": 144323
+      },
+      {
+        "bedrooms": 3,
+        "medianAnnualRent": 168823
+      },
+      {
+        "bedrooms": 4,
+        "medianAnnualRent": 283446
+      },
+      {
+        "bedrooms": 5,
+        "medianAnnualRent": 538022
+      }
+    ]
+  }
+}

@@ -16,6 +16,7 @@ import schoolQuality from '../data/osm/school-quality.json';
 import jobDiversity from '../data/osm/job-diversity.json';
 import walkability from '../data/osm/walkability.json';
 import accessibility from '../data/osm/accessibility.json';
+import rentPctIncome from '../data/dldx/rent-as-percent-of-income.json';
 
 const GREEN = ['#e8f5e9', '#c8e6c9', '#81c784', '#4caf50', '#2e7d32', '#1b5e20'];
 // Safety is inverted: many incidents = bad, so the scale runs green -> red.
@@ -190,6 +191,17 @@ export const mapDataPoints = {
     palette: GREEN,
     source: 'OpenStreetMap (wheelchair tag)',
   },
+  'rent-as-percent-of-income': {
+    dataset: rentPctIncome,
+    property: 'RentPctIncome',
+    metric: 'pctOfIncome',
+    labelDigits: 1,
+    labelSuffix: '%',
+    label: 'Rent as % of income (proxy)',
+    stops: [21.7, 27.1, 32.5, 43, 62.3, 111],
+    palette: SAFETY,
+    source: 'DLD Exchange (Ejari, 2026 YTD) / World Bank GDP proxy',
+  },
 };
 
 /** COMM_NUM -> metric value for one sidebar data point (null values dropped). */
@@ -216,7 +228,7 @@ export const getMapDataPointMeta = (dataPointId) => {
     palette: cfg.palette,
     inverted: !!inverted,
     period: dataset.period || null,
-    note: dataset.note || null,
+    note: dataset.limitation || dataset.note || null,
     communities: Object.keys(getValuesByCommunity(dataPointId) || {}).length,
   };
 };

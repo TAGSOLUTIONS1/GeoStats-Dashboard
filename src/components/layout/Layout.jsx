@@ -957,6 +957,11 @@ const Layout = ({ children }) => {
                 Higher value = worse (scale inverted)
               </div>
             )}
+            {getMapDataPointMeta(currentDataPoint).note && (
+              <div className="text-[10px] text-orange mt-0.5 max-w-[260px]">
+                {getMapDataPointMeta(currentDataPoint).note}
+              </div>
+            )}
             {/* Colour scale */}
             <div className="mt-1.5">
               <div

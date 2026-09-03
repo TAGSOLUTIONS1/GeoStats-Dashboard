@@ -4,6 +4,7 @@ import population from '../data/worldbank/population.json';
 import populationGrowth from '../data/worldbank/population-growth.json';
 import gdpPerCapita from '../data/worldbank/gdp-per-capita.json';
 import incomeGrowth from '../data/worldbank/income-growth.json';
+import employmentGrowth from '../data/worldbank/employment-growth.json';
 import unemploymentRate from '../data/worldbank/unemployment-rate.json';
 import lifeExpectancy from '../data/worldbank/life-expectancy.json';
 import urbanPopulationPct from '../data/worldbank/urban-population-pct.json';
@@ -20,6 +21,7 @@ const datasets = {
   'population-growth': populationGrowth,
   'gdp-per-capita': gdpPerCapita,
   'income-growth': incomeGrowth,
+  'employment-growth': employmentGrowth,
   'unemployment-rate': unemploymentRate,
   'life-expectancy': lifeExpectancy,
   'urban-population-pct': urbanPopulationPct,
@@ -35,6 +37,7 @@ export const dataPointSources = {
   'unemployment-rate': { dataset: 'unemployment-rate', proxy: false },
   'median-household-income': { dataset: 'gdp-per-capita', proxy: true },
   'income-growth': { dataset: 'income-growth', proxy: true },
+  'employment-growth': { dataset: 'employment-growth', proxy: true },
   'college-degree-rate': { dataset: 'tertiary-enrollment', proxy: true },
   'digital-infrastructure-score': { dataset: 'internet-users-pct', proxy: true },
   'environmental-quality-index': { dataset: 'co2-per-capita', proxy: true },

@@ -80,6 +80,7 @@ const layers = [
   ['public-transportation-coverage', 'src/data/osm/transport.json', 'perSqKm'],
   ['walkability-score', 'src/data/osm/walkability.json', 'walkPerSqKm'],
   ['disability-accessibility-score', 'src/data/osm/accessibility.json', 'accessiblePct'],
+  ['rent-as-percent-of-income', 'src/data/dldx/rent-as-percent-of-income.json', 'pctOfIncome'],
   ['public-school-quality-rating', 'src/data/osm/school-quality.json', 'avgRating'],
   ['job-market-diversity', 'src/data/osm/job-diversity.json', 'jobDiversity'],
   ['population-growth', 'src/data/dsc/population-by-community.json', 'growthCagrPct'],
@@ -122,7 +123,11 @@ layers.forEach(([id, file, metric]) => {
 console.log('\n=== 4. Card data points ===');
 const cards = [
   ['housing-units', 'src/data/dsc/housing-units.json'],
+  ['two-bed-rental-price', 'src/data/dldx/two-bed-rental-price.json'],
   ['poverty-rate', 'src/data/hdx/poverty.json'],
+  ['home-sales-growth-yoy', 'src/data/dld18/home-sales-growth-yoy.json'],
+  ['employment-growth', 'src/data/worldbank/employment-growth.json'],
+  ['percent-change-from-june-2022', 'src/data/amp/percent-change-from-june-2022.json'],
   ['home-sales', 'src/data/dld18/home-sales-history.json'],
   ['offplan-share', 'src/data/dld/offplan-share.json'],
   ['home-value-growth-yoy', 'src/data/dld18/home-value-growth-yoy.json'],
@@ -138,6 +143,13 @@ const cards = [
 ];
 cards.forEach(([id, file]) => {
   const d = read(file);
+  if (d.value !== undefined) {
+    // single-value card (a scalar, not a time series)
+    isFinite(d.value)
+      ? ok(`${id}: single value ${d.value} (${d.period || 'no period'})`)
+      : bad(`${id}: value is not finite (${d.value})`);
+    return;
+  }
   const s = d.series || [];
   const ascending = s.every((p, i) => i === 0 || String(p.year) > String(s[i - 1].year));
   const nan = s.filter((p) => !isFinite(p.value)).length;
