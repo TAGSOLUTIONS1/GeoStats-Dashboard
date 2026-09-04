@@ -81,6 +81,7 @@ const layers = [
   ['walkability-score', 'src/data/osm/walkability.json', 'walkPerSqKm'],
   ['disability-accessibility-score', 'src/data/osm/accessibility.json', 'accessiblePct'],
   ['rent-as-percent-of-income', 'src/data/dldx/rent-as-percent-of-income.json', 'pctOfIncome'],
+  ['long-term-growth-score', 'src/data/composite/long-term-growth-score.json', 'score'],
   ['public-school-quality-rating', 'src/data/osm/school-quality.json', 'avgRating'],
   ['job-market-diversity', 'src/data/osm/job-diversity.json', 'jobDiversity'],
   ['population-growth', 'src/data/dsc/population-by-community.json', 'growthCagrPct'],

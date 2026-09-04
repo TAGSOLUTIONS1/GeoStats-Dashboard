@@ -17,6 +17,7 @@ import jobDiversity from '../data/osm/job-diversity.json';
 import walkability from '../data/osm/walkability.json';
 import accessibility from '../data/osm/accessibility.json';
 import rentPctIncome from '../data/dldx/rent-as-percent-of-income.json';
+import longTermGrowth from '../data/composite/long-term-growth-score.json';
 
 const GREEN = ['#e8f5e9', '#c8e6c9', '#81c784', '#4caf50', '#2e7d32', '#1b5e20'];
 // Safety is inverted: many incidents = bad, so the scale runs green -> red.
@@ -201,6 +202,17 @@ export const mapDataPoints = {
     stops: [21.7, 27.1, 32.5, 43, 62.3, 111],
     palette: SAFETY,
     source: 'DLD Exchange (Ejari, 2026 YTD) / World Bank GDP proxy',
+  },
+  'long-term-growth-score': {
+    dataset: longTermGrowth,
+    property: 'GrowthScore',
+    metric: 'score',
+    labelDigits: 0,
+    labelSuffix: '',
+    label: 'Long-term growth score (0-100)',
+    stops: [35, 44, 59, 75, 84, 90],
+    palette: BLUE,
+    source: 'In-house composite (population + home value + income growth)',
   },
 };
 
