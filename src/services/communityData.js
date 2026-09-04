@@ -18,6 +18,7 @@ import walkability from '../data/osm/walkability.json';
 import accessibility from '../data/osm/accessibility.json';
 import rentPctIncome from '../data/dldx/rent-as-percent-of-income.json';
 import longTermGrowth from '../data/composite/long-term-growth-score.json';
+import medianListing from '../data/pf/median-listing-price.json';
 
 const GREEN = ['#e8f5e9', '#c8e6c9', '#81c784', '#4caf50', '#2e7d32', '#1b5e20'];
 // Safety is inverted: many incidents = bad, so the scale runs green -> red.
@@ -213,6 +214,18 @@ export const mapDataPoints = {
     stops: [35, 44, 59, 75, 84, 90],
     palette: BLUE,
     source: 'In-house composite (population + home value + income growth)',
+  },
+  'median-listing-price': {
+    dataset: medianListing,
+    property: 'ListingPrice_Median',
+    metric: 'medianListingPrice',
+    labelDigits: 1,
+    labelDivisor: 1000000,
+    labelSuffix: 'M AED',
+    label: 'Median asking price (AED)',
+    stops: [992500, 1344876, 1760000, 2825000, 3490000, 5495000],
+    palette: BLUE,
+    source: 'Property Finder listings (Feb 2026 snapshot)',
   },
 };
 
