@@ -44,7 +44,12 @@ const TrendBody = ({ data }) => {
   const line = series.map((p, i) => `${i === 0 ? 'M' : 'L'}${x(i)},${y(p.value)}`).join(' ');
   const latest = series[series.length - 1];
   const first = series[0];
-  const change = first.value ? ((latest.value - first.value) / Math.abs(first.value)) * 100 : 0;
+  // A series that is already a percentage (rates, growth, % change) moves in
+  // percentage points; a relative change of a percentage is misleading.
+  const isPct = unit === 'percent';
+  const change = isPct
+    ? latest.value - first.value
+    : first.value ? ((latest.value - first.value) / Math.abs(first.value)) * 100 : 0;
 
   return (
     <>
@@ -52,7 +57,7 @@ const TrendBody = ({ data }) => {
         <span className="text-lg font-semibold text-blue">{fmt(latest.value, unit)}</span>
         <span className="text-[10px] text-gray-500">in {latest.year}</span>
         <span className={`text-[10px] ${change >= 0 ? 'text-green-600' : 'text-red-500'}`}>
-          {change >= 0 ? '+' : ''}{change.toFixed(1)}% since {first.year}
+          {change >= 0 ? '+' : ''}{change.toFixed(1)}{isPct ? ' pts' : '%'} since {first.year}
         </span>
       </div>
       <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-[90px]" preserveAspectRatio="none">

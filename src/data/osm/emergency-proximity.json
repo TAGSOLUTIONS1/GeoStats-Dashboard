@@ -1,0 +1,1836 @@
+{
+ "id": "emergency-services-response-time",
+ "label": "Distance to emergency services (km)",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "source": "OpenStreetMap via Overpass API (amenity=fire_station, amenity=police, amenity=hospital)",
+ "license": "ODbL",
+ "retrieved": "2026-09-07",
+ "period": "current OSM snapshot (no historical series)",
+ "facilities": {
+  "fire_station": 24,
+  "police": 58,
+  "hospital": 131
+ },
+ "method": "Straight-line distance from the community's area-weighted centroid to the nearest fire station, nearest police station and nearest hospital; the three distances are averaged. Lower is better.",
+ "limitation": "A proximity proxy, not a measured response time: no road routing, traffic or dispatch data. Depends on OSM completeness, so remote communities (Hatta, desert areas) may appear farther than the nearest real facility if it is not mapped.",
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "kmToFireStation": 21.26,
+   "kmToPolice": 34.75,
+   "kmToHospital": 27.31,
+   "avgKm": 27.77
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "kmToFireStation": 1.2,
+   "kmToPolice": 1.06,
+   "kmToHospital": 0.48,
+   "avgKm": 0.91
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "kmToFireStation": 0.86,
+   "kmToPolice": 0.66,
+   "kmToHospital": 0.64,
+   "avgKm": 0.72
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "kmToFireStation": 5.34,
+   "kmToPolice": 5.58,
+   "kmToHospital": 1.58,
+   "avgKm": 4.17
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "kmToFireStation": 14.73,
+   "kmToPolice": 4.87,
+   "kmToHospital": 5.96,
+   "avgKm": 8.52
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "kmToFireStation": 2.55,
+   "kmToPolice": 3.61,
+   "kmToHospital": 4.03,
+   "avgKm": 3.4
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "kmToFireStation": 3.4,
+   "kmToPolice": 4.33,
+   "kmToHospital": 3.68,
+   "avgKm": 3.8
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "kmToFireStation": 1.15,
+   "kmToPolice": 0.12,
+   "kmToHospital": 0.57,
+   "avgKm": 0.61
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "kmToFireStation": 21.76,
+   "kmToPolice": 22.9,
+   "kmToHospital": 26.44,
+   "avgKm": 23.7
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "kmToFireStation": 41.54,
+   "kmToPolice": 22.25,
+   "kmToHospital": 35.41,
+   "avgKm": 33.07
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "kmToFireStation": 2.83,
+   "kmToPolice": 2.55,
+   "kmToHospital": 1.44,
+   "avgKm": 2.27
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "kmToFireStation": 1.69,
+   "kmToPolice": 0.82,
+   "kmToHospital": 0.85,
+   "avgKm": 1.12
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "kmToFireStation": 10.16,
+   "kmToPolice": 12.59,
+   "kmToHospital": 7.39,
+   "avgKm": 10.05
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "kmToFireStation": 0.8,
+   "kmToPolice": 0.54,
+   "kmToHospital": 0.3,
+   "avgKm": 0.55
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "kmToFireStation": 1.58,
+   "kmToPolice": 1.78,
+   "kmToHospital": 0.21,
+   "avgKm": 1.19
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "kmToFireStation": 10.44,
+   "kmToPolice": 6.23,
+   "kmToHospital": 8.52,
+   "avgKm": 8.4
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "kmToFireStation": 45.34,
+   "kmToPolice": 9.98,
+   "kmToHospital": 41.07,
+   "avgKm": 32.13
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "kmToFireStation": 50.59,
+   "kmToPolice": 13.89,
+   "kmToHospital": 42.48,
+   "avgKm": 35.65
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "kmToFireStation": 6.85,
+   "kmToPolice": 3.47,
+   "kmToHospital": 6.79,
+   "avgKm": 5.7
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "kmToFireStation": 18.35,
+   "kmToPolice": 11.16,
+   "kmToHospital": 17.18,
+   "avgKm": 15.56
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "kmToFireStation": 5.39,
+   "kmToPolice": 4.03,
+   "kmToHospital": 4.2,
+   "avgKm": 4.54
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "kmToFireStation": 11.94,
+   "kmToPolice": 3.98,
+   "kmToHospital": 5.41,
+   "avgKm": 7.11
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "kmToFireStation": 11.19,
+   "kmToPolice": 2.33,
+   "kmToHospital": 8.65,
+   "avgKm": 7.39
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "kmToFireStation": 11.81,
+   "kmToPolice": 4.58,
+   "kmToHospital": 1.88,
+   "avgKm": 6.09
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "kmToFireStation": 2.23,
+   "kmToPolice": 4.14,
+   "kmToHospital": 0.76,
+   "avgKm": 2.38
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "kmToFireStation": 1.49,
+   "kmToPolice": 0.68,
+   "kmToHospital": 1.47,
+   "avgKm": 1.21
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "kmToFireStation": 0.88,
+   "kmToPolice": 5.27,
+   "kmToHospital": 2.23,
+   "avgKm": 2.79
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "kmToFireStation": 2.42,
+   "kmToPolice": 4.54,
+   "kmToHospital": 1.33,
+   "avgKm": 2.76
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "kmToFireStation": 7.65,
+   "kmToPolice": 2.4,
+   "kmToHospital": 2.46,
+   "avgKm": 4.17
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "kmToFireStation": 5.47,
+   "kmToPolice": 10.35,
+   "kmToHospital": 6.31,
+   "avgKm": 7.38
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "kmToFireStation": 1.11,
+   "kmToPolice": 0.94,
+   "kmToHospital": 1.22,
+   "avgKm": 1.09
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "kmToFireStation": 28.92,
+   "kmToPolice": 21.76,
+   "kmToHospital": 23.27,
+   "avgKm": 24.65
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "kmToFireStation": 4.21,
+   "kmToPolice": 1.95,
+   "kmToHospital": 3.36,
+   "avgKm": 3.17
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "kmToFireStation": 12.05,
+   "kmToPolice": 2.73,
+   "kmToHospital": 4.45,
+   "avgKm": 6.41
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "kmToFireStation": 1.17,
+   "kmToPolice": 0.4,
+   "kmToHospital": 0.87,
+   "avgKm": 0.81
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "kmToFireStation": 4.52,
+   "kmToPolice": 0.29,
+   "kmToHospital": 1.97,
+   "avgKm": 2.26
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "kmToFireStation": 0.91,
+   "kmToPolice": 4.35,
+   "kmToHospital": 0.71,
+   "avgKm": 1.99
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "kmToFireStation": 2.16,
+   "kmToPolice": 0.92,
+   "kmToHospital": 0.28,
+   "avgKm": 1.12
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "kmToFireStation": 0.75,
+   "kmToPolice": 1.07,
+   "kmToHospital": 1,
+   "avgKm": 0.94
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "kmToFireStation": 3.42,
+   "kmToPolice": 0.66,
+   "kmToHospital": 1.1,
+   "avgKm": 1.73
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "kmToFireStation": 3.44,
+   "kmToPolice": 2.32,
+   "kmToHospital": 0.39,
+   "avgKm": 2.05
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "kmToFireStation": 25.72,
+   "kmToPolice": 18.65,
+   "kmToHospital": 20.61,
+   "avgKm": 21.66
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "kmToFireStation": 1.72,
+   "kmToPolice": 1.58,
+   "kmToHospital": 1.63,
+   "avgKm": 1.64
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "kmToFireStation": 43.85,
+   "kmToPolice": 16.2,
+   "kmToHospital": 35.43,
+   "avgKm": 31.83
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "kmToFireStation": 2.53,
+   "kmToPolice": 0.49,
+   "kmToHospital": 0.48,
+   "avgKm": 1.17
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "kmToFireStation": 28.54,
+   "kmToPolice": 17.45,
+   "kmToHospital": 20.42,
+   "avgKm": 22.14
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "kmToFireStation": 1.29,
+   "kmToPolice": 1.57,
+   "kmToHospital": 0.72,
+   "avgKm": 1.19
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "kmToFireStation": 9.36,
+   "kmToPolice": 0.53,
+   "kmToHospital": 7.02,
+   "avgKm": 5.64
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "kmToFireStation": 24.69,
+   "kmToPolice": 18.03,
+   "kmToHospital": 21.8,
+   "avgKm": 21.51
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "kmToFireStation": 13.21,
+   "kmToPolice": 6.7,
+   "kmToHospital": 2.12,
+   "avgKm": 7.34
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "kmToFireStation": 14.49,
+   "kmToPolice": 6.8,
+   "kmToHospital": 13.3,
+   "avgKm": 11.53
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "kmToFireStation": 0.33,
+   "kmToPolice": 1.26,
+   "kmToHospital": 0.54,
+   "avgKm": 0.71
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "kmToFireStation": 1.73,
+   "kmToPolice": 5.16,
+   "kmToHospital": 0.1,
+   "avgKm": 2.33
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "kmToFireStation": 20.39,
+   "kmToPolice": 11.3,
+   "kmToHospital": 16.96,
+   "avgKm": 16.22
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "kmToFireStation": 35.49,
+   "kmToPolice": 18.28,
+   "kmToHospital": 32.23,
+   "avgKm": 28.67
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "kmToFireStation": 8.5,
+   "kmToPolice": 8.52,
+   "kmToHospital": 8.23,
+   "avgKm": 8.42
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "kmToFireStation": 13.37,
+   "kmToPolice": 11.16,
+   "kmToHospital": 18.53,
+   "avgKm": 14.35
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "kmToFireStation": 2.08,
+   "kmToPolice": 1.67,
+   "kmToHospital": 0.56,
+   "avgKm": 1.44
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "kmToFireStation": 14.18,
+   "kmToPolice": 9.29,
+   "kmToHospital": 11.76,
+   "avgKm": 11.74
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "kmToFireStation": 2.39,
+   "kmToPolice": 1.09,
+   "kmToHospital": 0.06,
+   "avgKm": 1.18
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "kmToFireStation": 4.8,
+   "kmToPolice": 2.62,
+   "kmToHospital": 2.78,
+   "avgKm": 3.4
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "kmToFireStation": 10.97,
+   "kmToPolice": 6.59,
+   "kmToHospital": 0.29,
+   "avgKm": 5.95
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "kmToFireStation": 5.04,
+   "kmToPolice": 2.39,
+   "kmToHospital": 2.11,
+   "avgKm": 3.18
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "kmToFireStation": 1.16,
+   "kmToPolice": 2.36,
+   "kmToHospital": 2.02,
+   "avgKm": 1.85
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "kmToFireStation": 1.61,
+   "kmToPolice": 4.23,
+   "kmToHospital": 0.81,
+   "avgKm": 2.22
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "kmToFireStation": 8.79,
+   "kmToPolice": 15.17,
+   "kmToHospital": 8.07,
+   "avgKm": 10.68
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "kmToFireStation": 8.38,
+   "kmToPolice": 3.42,
+   "kmToHospital": 7.87,
+   "avgKm": 6.56
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "kmToFireStation": 1.94,
+   "kmToPolice": 3.03,
+   "kmToHospital": 0.24,
+   "avgKm": 1.74
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "kmToFireStation": 4.97,
+   "kmToPolice": 1.44,
+   "kmToHospital": 1.41,
+   "avgKm": 2.61
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "kmToFireStation": 2.44,
+   "kmToPolice": 1.62,
+   "kmToHospital": 0.16,
+   "avgKm": 1.41
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "kmToFireStation": 29.08,
+   "kmToPolice": 18.37,
+   "kmToHospital": 19.18,
+   "avgKm": 22.21
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "kmToFireStation": 9.36,
+   "kmToPolice": 5.74,
+   "kmToHospital": 4.41,
+   "avgKm": 6.5
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "kmToFireStation": 0.84,
+   "kmToPolice": 2.28,
+   "kmToHospital": 1.3,
+   "avgKm": 1.47
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "kmToFireStation": 74.82,
+   "kmToPolice": 53.01,
+   "kmToHospital": 78.26,
+   "avgKm": 68.7
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "kmToFireStation": 2.99,
+   "kmToPolice": 2.08,
+   "kmToHospital": 0.24,
+   "avgKm": 1.77
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "kmToFireStation": 6.3,
+   "kmToPolice": 2.68,
+   "kmToHospital": 2.91,
+   "avgKm": 3.96
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "kmToFireStation": 13.06,
+   "kmToPolice": 27.2,
+   "kmToHospital": 18.02,
+   "avgKm": 19.43
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "kmToFireStation": 41.91,
+   "kmToPolice": 7.05,
+   "kmToHospital": 46.07,
+   "avgKm": 31.68
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "kmToFireStation": 1.51,
+   "kmToPolice": 2.93,
+   "kmToHospital": 0.49,
+   "avgKm": 1.64
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "kmToFireStation": 1.53,
+   "kmToPolice": 1.75,
+   "kmToHospital": 0.79,
+   "avgKm": 1.36
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "kmToFireStation": 2.71,
+   "kmToPolice": 1.78,
+   "kmToHospital": 0.33,
+   "avgKm": 1.61
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "kmToFireStation": 2.46,
+   "kmToPolice": 1.16,
+   "kmToHospital": 2,
+   "avgKm": 1.87
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "kmToFireStation": 29.8,
+   "kmToPolice": 20.19,
+   "kmToHospital": 35.91,
+   "avgKm": 28.63
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "kmToFireStation": 9.69,
+   "kmToPolice": 4.7,
+   "kmToHospital": 2.75,
+   "avgKm": 5.71
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "kmToFireStation": 13.47,
+   "kmToPolice": 6.01,
+   "kmToHospital": 4.1,
+   "avgKm": 7.86
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "kmToFireStation": 11,
+   "kmToPolice": 9.88,
+   "kmToHospital": 8.54,
+   "avgKm": 9.81
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "kmToFireStation": 3.8,
+   "kmToPolice": 5.36,
+   "kmToHospital": 3.88,
+   "avgKm": 4.35
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "kmToFireStation": 3.01,
+   "kmToPolice": 4.03,
+   "kmToHospital": 0.69,
+   "avgKm": 2.58
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "kmToFireStation": 4.36,
+   "kmToPolice": 2.45,
+   "kmToHospital": 2.89,
+   "avgKm": 3.23
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "kmToFireStation": 22.82,
+   "kmToPolice": 11.99,
+   "kmToHospital": 14.55,
+   "avgKm": 16.45
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "kmToFireStation": 24.4,
+   "kmToPolice": 14.16,
+   "kmToHospital": 17.23,
+   "avgKm": 18.6
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "kmToFireStation": 1.5,
+   "kmToPolice": 1.08,
+   "kmToHospital": 0.44,
+   "avgKm": 1.01
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "kmToFireStation": 11.67,
+   "kmToPolice": 1.76,
+   "kmToHospital": 8.42,
+   "avgKm": 7.28
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "kmToFireStation": 8.41,
+   "kmToPolice": 1.48,
+   "kmToHospital": 1.25,
+   "avgKm": 3.71
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "kmToFireStation": 1.3,
+   "kmToPolice": 2,
+   "kmToHospital": 0.98,
+   "avgKm": 1.43
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "kmToFireStation": 21.71,
+   "kmToPolice": 12.3,
+   "kmToHospital": 10.58,
+   "avgKm": 14.86
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "kmToFireStation": 9.61,
+   "kmToPolice": 6.73,
+   "kmToHospital": 11.68,
+   "avgKm": 9.34
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "kmToFireStation": 15.27,
+   "kmToPolice": 3.61,
+   "kmToHospital": 8.75,
+   "avgKm": 9.21
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "kmToFireStation": 14.54,
+   "kmToPolice": 5.61,
+   "kmToHospital": 11.88,
+   "avgKm": 10.68
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "kmToFireStation": 19.19,
+   "kmToPolice": 7.75,
+   "kmToHospital": 10.74,
+   "avgKm": 12.56
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "kmToFireStation": 19.17,
+   "kmToPolice": 12.3,
+   "kmToHospital": 16.34,
+   "avgKm": 15.94
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "kmToFireStation": 5.64,
+   "kmToPolice": 8.93,
+   "kmToHospital": 9.29,
+   "avgKm": 7.95
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "kmToFireStation": 14.95,
+   "kmToPolice": 3.88,
+   "kmToHospital": 8.14,
+   "avgKm": 8.99
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "kmToFireStation": 1.74,
+   "kmToPolice": 7.97,
+   "kmToHospital": 0.68,
+   "avgKm": 3.46
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "kmToFireStation": 4.22,
+   "kmToPolice": 7.85,
+   "kmToHospital": 3.89,
+   "avgKm": 5.32
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "kmToFireStation": 2.69,
+   "kmToPolice": 0.89,
+   "kmToHospital": 1.01,
+   "avgKm": 1.53
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "kmToFireStation": 2.91,
+   "kmToPolice": 0.53,
+   "kmToHospital": 1.48,
+   "avgKm": 1.64
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "kmToFireStation": 7.54,
+   "kmToPolice": 3.43,
+   "kmToHospital": 4.3,
+   "avgKm": 5.09
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "kmToFireStation": 10.03,
+   "kmToPolice": 1.55,
+   "kmToHospital": 3.29,
+   "avgKm": 4.96
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "kmToFireStation": 2.49,
+   "kmToPolice": 0.47,
+   "kmToHospital": 1.24,
+   "avgKm": 1.4
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "kmToFireStation": 1.67,
+   "kmToPolice": 10.44,
+   "kmToHospital": 3.63,
+   "avgKm": 5.25
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "kmToFireStation": 1.2,
+   "kmToPolice": 1.8,
+   "kmToHospital": 1.02,
+   "avgKm": 1.34
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "kmToFireStation": 3.69,
+   "kmToPolice": 2.82,
+   "kmToHospital": 2.19,
+   "avgKm": 2.9
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "kmToFireStation": 1.74,
+   "kmToPolice": 0.82,
+   "kmToHospital": 0.51,
+   "avgKm": 1.02
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "kmToFireStation": 2.12,
+   "kmToPolice": 0.13,
+   "kmToHospital": 0.54,
+   "avgKm": 0.93
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "kmToFireStation": 2.5,
+   "kmToPolice": 0.81,
+   "kmToHospital": 0.74,
+   "avgKm": 1.35
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "kmToFireStation": 28.36,
+   "kmToPolice": 27.62,
+   "kmToHospital": 34.69,
+   "avgKm": 30.22
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "kmToFireStation": 29.72,
+   "kmToPolice": 19.53,
+   "kmToHospital": 35.23,
+   "avgKm": 28.16
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "kmToFireStation": 19.77,
+   "kmToPolice": 9.56,
+   "kmToHospital": 9.81,
+   "avgKm": 13.05
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "kmToFireStation": 5.47,
+   "kmToPolice": 5.95,
+   "kmToHospital": 5.79,
+   "avgKm": 5.74
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "kmToFireStation": 23.99,
+   "kmToPolice": 13.23,
+   "kmToHospital": 14.47,
+   "avgKm": 17.23
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "kmToFireStation": 34.76,
+   "kmToPolice": 21.17,
+   "kmToHospital": 41.08,
+   "avgKm": 32.34
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "kmToFireStation": 1.54,
+   "kmToPolice": 2.17,
+   "kmToHospital": 0.55,
+   "avgKm": 1.42
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "kmToFireStation": 1,
+   "kmToPolice": 1.18,
+   "kmToHospital": 1.24,
+   "avgKm": 1.14
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "kmToFireStation": 9.41,
+   "kmToPolice": 22.75,
+   "kmToHospital": 15.68,
+   "avgKm": 15.95
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "kmToFireStation": 2.09,
+   "kmToPolice": 2.07,
+   "kmToHospital": 0.45,
+   "avgKm": 1.54
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "kmToFireStation": 12.2,
+   "kmToPolice": 1.61,
+   "kmToHospital": 7.5,
+   "avgKm": 7.1
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "kmToFireStation": 2.85,
+   "kmToPolice": 0.49,
+   "kmToHospital": 0.89,
+   "avgKm": 1.41
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "kmToFireStation": 7.59,
+   "kmToPolice": 5.21,
+   "kmToHospital": 3.78,
+   "avgKm": 5.53
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "kmToFireStation": 3,
+   "kmToPolice": 0.24,
+   "kmToHospital": 1.15,
+   "avgKm": 1.46
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "kmToFireStation": 1.13,
+   "kmToPolice": 2.39,
+   "kmToHospital": 0.24,
+   "avgKm": 1.25
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "kmToFireStation": 3.9,
+   "kmToPolice": 2.85,
+   "kmToHospital": 4.08,
+   "avgKm": 3.61
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "kmToFireStation": 1.92,
+   "kmToPolice": 1.75,
+   "kmToHospital": 0.53,
+   "avgKm": 1.4
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "kmToFireStation": 11.22,
+   "kmToPolice": 4.34,
+   "kmToHospital": 7,
+   "avgKm": 7.52
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "kmToFireStation": 17.57,
+   "kmToPolice": 26.2,
+   "kmToHospital": 23.52,
+   "avgKm": 22.43
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "kmToFireStation": 5.65,
+   "kmToPolice": 4.44,
+   "kmToHospital": 3.37,
+   "avgKm": 4.49
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "kmToFireStation": 9.2,
+   "kmToPolice": 21.68,
+   "kmToHospital": 12.83,
+   "avgKm": 14.57
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "kmToFireStation": 2.94,
+   "kmToPolice": 0.67,
+   "kmToHospital": 0.51,
+   "avgKm": 1.37
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "kmToFireStation": 5.73,
+   "kmToPolice": 3.71,
+   "kmToHospital": 5.06,
+   "avgKm": 4.83
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "kmToFireStation": 2.11,
+   "kmToPolice": 5.66,
+   "kmToHospital": 3.15,
+   "avgKm": 3.64
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "kmToFireStation": 28.44,
+   "kmToPolice": 17.99,
+   "kmToHospital": 17.46,
+   "avgKm": 21.3
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "kmToFireStation": 0.91,
+   "kmToPolice": 3.39,
+   "kmToHospital": 1.97,
+   "avgKm": 2.09
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "kmToFireStation": 7.18,
+   "kmToPolice": 5.12,
+   "kmToHospital": 5.53,
+   "avgKm": 5.94
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "kmToFireStation": 20.99,
+   "kmToPolice": 19.13,
+   "kmToHospital": 18.67,
+   "avgKm": 19.6
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "kmToFireStation": 2.93,
+   "kmToPolice": 3.26,
+   "kmToHospital": 3.23,
+   "avgKm": 3.14
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "kmToFireStation": 4.88,
+   "kmToPolice": 2.04,
+   "kmToHospital": 4.44,
+   "avgKm": 3.79
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "kmToFireStation": 5.97,
+   "kmToPolice": 2.51,
+   "kmToHospital": 3.04,
+   "avgKm": 3.84
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "kmToFireStation": 11.68,
+   "kmToPolice": 3.85,
+   "kmToHospital": 2.45,
+   "avgKm": 5.99
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "kmToFireStation": 0.74,
+   "kmToPolice": 1.78,
+   "kmToHospital": 0.62,
+   "avgKm": 1.05
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "kmToFireStation": 2.36,
+   "kmToPolice": 1.88,
+   "kmToHospital": 0.59,
+   "avgKm": 1.61
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "kmToFireStation": 29.81,
+   "kmToPolice": 23.06,
+   "kmToHospital": 25.99,
+   "avgKm": 26.29
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "kmToFireStation": 2.58,
+   "kmToPolice": 1.84,
+   "kmToHospital": 1.31,
+   "avgKm": 1.91
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "kmToFireStation": 0.96,
+   "kmToPolice": 2.21,
+   "kmToHospital": 0.84,
+   "avgKm": 1.34
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "kmToFireStation": 4.78,
+   "kmToPolice": 3.25,
+   "kmToHospital": 1.12,
+   "avgKm": 3.05
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "kmToFireStation": 2.04,
+   "kmToPolice": 0.82,
+   "kmToHospital": 0.12,
+   "avgKm": 0.99
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "kmToFireStation": 4.55,
+   "kmToPolice": 2.51,
+   "kmToHospital": 0.35,
+   "avgKm": 2.47
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "kmToFireStation": 7.77,
+   "kmToPolice": 2.94,
+   "kmToHospital": 3.91,
+   "avgKm": 4.87
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "kmToFireStation": 10.85,
+   "kmToPolice": 4.69,
+   "kmToHospital": 6.51,
+   "avgKm": 7.35
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "kmToFireStation": 0.35,
+   "kmToPolice": 2.11,
+   "kmToHospital": 0.12,
+   "avgKm": 0.86
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "kmToFireStation": 4.7,
+   "kmToPolice": 4.64,
+   "kmToHospital": 4.96,
+   "avgKm": 4.77
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "kmToFireStation": 5.61,
+   "kmToPolice": 2.87,
+   "kmToHospital": 1.24,
+   "avgKm": 3.24
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "kmToFireStation": 5.88,
+   "kmToPolice": 4.05,
+   "kmToHospital": 1.91,
+   "avgKm": 3.95
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "kmToFireStation": 0.72,
+   "kmToPolice": 1.54,
+   "kmToHospital": 0.74,
+   "avgKm": 1
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "kmToFireStation": 25.09,
+   "kmToPolice": 14.77,
+   "kmToHospital": 14,
+   "avgKm": 17.95
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "kmToFireStation": 5.07,
+   "kmToPolice": 4.58,
+   "kmToHospital": 1.94,
+   "avgKm": 3.86
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "kmToFireStation": 1.86,
+   "kmToPolice": 2.04,
+   "kmToHospital": 0.89,
+   "avgKm": 1.6
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "kmToFireStation": 7.24,
+   "kmToPolice": 2.13,
+   "kmToHospital": 2.38,
+   "avgKm": 3.92
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "kmToFireStation": 7.47,
+   "kmToPolice": 1.79,
+   "kmToHospital": 2.58,
+   "avgKm": 3.95
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "kmToFireStation": 7.79,
+   "kmToPolice": 4.45,
+   "kmToHospital": 16.77,
+   "avgKm": 9.67
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "kmToFireStation": 2.71,
+   "kmToPolice": 2.87,
+   "kmToHospital": 2.46,
+   "avgKm": 2.68
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "kmToFireStation": 1.99,
+   "kmToPolice": 3.12,
+   "kmToHospital": 0.43,
+   "avgKm": 1.85
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "kmToFireStation": 0.26,
+   "kmToPolice": 3.3,
+   "kmToHospital": 1.36,
+   "avgKm": 1.64
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "kmToFireStation": 9.32,
+   "kmToPolice": 1.17,
+   "kmToHospital": 6.46,
+   "avgKm": 5.65
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "kmToFireStation": 2.17,
+   "kmToPolice": 0.89,
+   "kmToHospital": 0.14,
+   "avgKm": 1.07
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "kmToFireStation": 9.06,
+   "kmToPolice": 2.25,
+   "kmToHospital": 6.3,
+   "avgKm": 5.87
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "kmToFireStation": 9.31,
+   "kmToPolice": 4.23,
+   "kmToHospital": 2.99,
+   "avgKm": 5.51
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "kmToFireStation": 1.83,
+   "kmToPolice": 1.13,
+   "kmToHospital": 0.87,
+   "avgKm": 1.28
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "kmToFireStation": 10.67,
+   "kmToPolice": 4.73,
+   "kmToHospital": 6.51,
+   "avgKm": 7.3
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "kmToFireStation": 52.42,
+   "kmToPolice": 6.93,
+   "kmToHospital": 48.84,
+   "avgKm": 36.06
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "kmToFireStation": 8.25,
+   "kmToPolice": 17.81,
+   "kmToHospital": 9.73,
+   "avgKm": 11.93
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "kmToFireStation": 9.24,
+   "kmToPolice": 1.32,
+   "kmToHospital": 1.97,
+   "avgKm": 4.18
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "kmToFireStation": 7.19,
+   "kmToPolice": 3.9,
+   "kmToHospital": 5.34,
+   "avgKm": 5.48
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "kmToFireStation": 1.5,
+   "kmToPolice": 4.88,
+   "kmToHospital": 1.88,
+   "avgKm": 2.75
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "kmToFireStation": 3.69,
+   "kmToPolice": 5.87,
+   "kmToHospital": 1.64,
+   "avgKm": 3.73
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "kmToFireStation": 0.82,
+   "kmToPolice": 2.35,
+   "kmToHospital": 0.56,
+   "avgKm": 1.24
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "kmToFireStation": 4.13,
+   "kmToPolice": 3.28,
+   "kmToHospital": 1.4,
+   "avgKm": 2.94
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "kmToFireStation": 0.94,
+   "kmToPolice": 0.76,
+   "kmToHospital": 1.25,
+   "avgKm": 0.98
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "kmToFireStation": 3.08,
+   "kmToPolice": 2.25,
+   "kmToHospital": 1.19,
+   "avgKm": 2.17
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "kmToFireStation": 3.19,
+   "kmToPolice": 6.34,
+   "kmToHospital": 5.26,
+   "avgKm": 4.93
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "kmToFireStation": 37.38,
+   "kmToPolice": 25.09,
+   "kmToHospital": 28.1,
+   "avgKm": 30.19
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "kmToFireStation": 10,
+   "kmToPolice": 4.04,
+   "kmToHospital": 9.16,
+   "avgKm": 7.73
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "kmToFireStation": 2.11,
+   "kmToPolice": 0.93,
+   "kmToHospital": 0.21,
+   "avgKm": 1.08
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "kmToFireStation": 11.66,
+   "kmToPolice": 15.84,
+   "kmToHospital": 15.92,
+   "avgKm": 14.47
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "kmToFireStation": 5.78,
+   "kmToPolice": 2.94,
+   "kmToHospital": 5.62,
+   "avgKm": 4.78
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "kmToFireStation": 7.46,
+   "kmToPolice": 2.98,
+   "kmToHospital": 2.94,
+   "avgKm": 4.46
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "kmToFireStation": 1.83,
+   "kmToPolice": 2.83,
+   "kmToHospital": 1.96,
+   "avgKm": 2.21
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "kmToFireStation": 3.93,
+   "kmToPolice": 4.2,
+   "kmToHospital": 1.04,
+   "avgKm": 3.06
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "kmToFireStation": 3.29,
+   "kmToPolice": 3.04,
+   "kmToHospital": 2.36,
+   "avgKm": 2.9
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "kmToFireStation": 11.31,
+   "kmToPolice": 4.29,
+   "kmToHospital": 10.59,
+   "avgKm": 8.73
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "kmToFireStation": 9.78,
+   "kmToPolice": 4.55,
+   "kmToHospital": 5.31,
+   "avgKm": 6.55
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "kmToFireStation": 0.84,
+   "kmToPolice": 1.42,
+   "kmToHospital": 0.68,
+   "avgKm": 0.98
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "kmToFireStation": 3.39,
+   "kmToPolice": 2.41,
+   "kmToHospital": 1.68,
+   "avgKm": 2.49
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "kmToFireStation": 4.76,
+   "kmToPolice": 3.26,
+   "kmToHospital": 1.12,
+   "avgKm": 3.05
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "kmToFireStation": 5.02,
+   "kmToPolice": 1.86,
+   "kmToHospital": 0.48,
+   "avgKm": 2.45
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "kmToFireStation": 2.5,
+   "kmToPolice": 0.7,
+   "kmToHospital": 1.12,
+   "avgKm": 1.44
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "kmToFireStation": 1.65,
+   "kmToPolice": 2.01,
+   "kmToHospital": 0.83,
+   "avgKm": 1.5
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "kmToFireStation": 6.12,
+   "kmToPolice": 3.46,
+   "kmToHospital": 2.28,
+   "avgKm": 3.95
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "kmToFireStation": 1.97,
+   "kmToPolice": 4.73,
+   "kmToHospital": 0.3,
+   "avgKm": 2.33
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "kmToFireStation": 2.81,
+   "kmToPolice": 4.29,
+   "kmToHospital": 2.48,
+   "avgKm": 3.19
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "kmToFireStation": 20.96,
+   "kmToPolice": 10.81,
+   "kmToHospital": 15.18,
+   "avgKm": 15.65
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "kmToFireStation": 2.17,
+   "kmToPolice": 0.34,
+   "kmToHospital": 0.25,
+   "avgKm": 0.92
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "kmToFireStation": 7.22,
+   "kmToPolice": 4.71,
+   "kmToHospital": 2.13,
+   "avgKm": 4.69
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "kmToFireStation": 17.54,
+   "kmToPolice": 8.12,
+   "kmToHospital": 6.3,
+   "avgKm": 10.65
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "kmToFireStation": 6.09,
+   "kmToPolice": 3.68,
+   "kmToHospital": 4.33,
+   "avgKm": 4.7
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "kmToFireStation": 14.45,
+   "kmToPolice": 7.2,
+   "kmToHospital": 10.14,
+   "avgKm": 10.6
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "kmToFireStation": 0.91,
+   "kmToPolice": 2.24,
+   "kmToHospital": 2.44,
+   "avgKm": 1.86
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "kmToFireStation": 2.57,
+   "kmToPolice": 2.28,
+   "kmToHospital": 1.56,
+   "avgKm": 2.14
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "kmToFireStation": 19.68,
+   "kmToPolice": 8.66,
+   "kmToHospital": 12.97,
+   "avgKm": 13.77
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "kmToFireStation": 0.68,
+   "kmToPolice": 1.11,
+   "kmToHospital": 0.64,
+   "avgKm": 0.81
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "kmToFireStation": 7.31,
+   "kmToPolice": 3.05,
+   "kmToHospital": 5.39,
+   "avgKm": 5.25
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "kmToFireStation": 12.04,
+   "kmToPolice": 6.7,
+   "kmToHospital": 3.32,
+   "avgKm": 7.35
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "kmToFireStation": 4.06,
+   "kmToPolice": 2.21,
+   "kmToHospital": 3.87,
+   "avgKm": 3.38
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "kmToFireStation": 10.06,
+   "kmToPolice": 10.08,
+   "kmToHospital": 10.01,
+   "avgKm": 10.05
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "kmToFireStation": 20.49,
+   "kmToPolice": 12.72,
+   "kmToHospital": 13.56,
+   "avgKm": 15.59
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "kmToFireStation": 3.41,
+   "kmToPolice": 4.35,
+   "kmToHospital": 1.01,
+   "avgKm": 2.92
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "kmToFireStation": 6.39,
+   "kmToPolice": 3.72,
+   "kmToHospital": 1.71,
+   "avgKm": 3.94
+  }
+ ],
+ "stops": [
+  0.55,
+  1.46,
+  3.05,
+  5.32,
+  10.68,
+  68.7
+ ],
+ "communitiesWithData": 226
+}

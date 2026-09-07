@@ -19,6 +19,10 @@ import accessibility from '../data/osm/accessibility.json';
 import rentPctIncome from '../data/dldx/rent-as-percent-of-income.json';
 import longTermGrowth from '../data/composite/long-term-growth-score.json';
 import medianListing from '../data/pf/median-listing-price.json';
+import affordability from '../data/derived/affordability.json';
+import schoolingCost from '../data/schools/schooling-cost-by-community.json';
+import emergencyProximity from '../data/osm/emergency-proximity.json';
+import livability from '../data/composite/livability-score.json';
 
 const GREEN = ['#e8f5e9', '#c8e6c9', '#81c784', '#4caf50', '#2e7d32', '#1b5e20'];
 // Safety is inverted: many incidents = bad, so the scale runs green -> red.
@@ -81,6 +85,41 @@ export const mapDataPoints = {
     palette: SAFETY,
     source: 'Dubai Traffic Incident Reports',
     inverted: true,
+  },
+  'emergency-services-response-time': {
+    dataset: emergencyProximity,
+    property: 'Emergency_AvgKm',
+    metric: 'avgKm',
+    labelDigits: 1,
+    labelSuffix: ' km',
+    label: 'Avg. distance to nearest fire station, police & hospital (km)',
+    stops: [0.55, 1.46, 3.05, 5.32, 10.68, 68.7],
+    palette: SAFETY,
+    source: 'OpenStreetMap (Overpass, Sep 2026)',
+    inverted: true,
+  },
+  'livability-score': {
+    dataset: livability,
+    property: 'Livability_Score',
+    metric: 'score',
+    labelDigits: 0,
+    labelSuffix: '',
+    label: 'Livability score (0–100, percentile composite)',
+    stops: [16.9, 42.4, 52.7, 61.9, 68.7, 84],
+    palette: GREEN,
+    source: 'Composite of 6 GeoStats layers (OSM, KHDA, Dubai Police)',
+  },
+  'average-schooling-cost': {
+    dataset: schoolingCost,
+    property: 'School_MeanFee',
+    metric: 'meanAnnualFee',
+    labelDigits: 0,
+    labelDivisor: 1000,
+    labelSuffix: 'K AED/yr',
+    label: 'Average annual school fee (AED)',
+    stops: [10099, 19785, 32342, 47969, 59105, 70689],
+    palette: BLUE,
+    source: 'KHDA fee schedules 2024/25 (bundled)',
   },
   'public-school-quality-rating': {
     dataset: schoolQuality,
@@ -226,6 +265,40 @@ export const mapDataPoints = {
     stops: [992500, 1344876, 1760000, 2825000, 3490000, 5495000],
     palette: BLUE,
     source: 'Property Finder listings (Feb 2026 snapshot)',
+  },
+  'mortgage-payment': {
+    dataset: affordability,
+    property: 'Mortgage_Monthly',
+    metric: 'mortgageMonthly',
+    labelDigits: 0,
+    labelSuffix: ' AED/mo',
+    label: 'Est. monthly mortgage payment (AED)',
+    stops: [4187, 5673, 7424, 11917, 14722, 23179],
+    palette: BLUE,
+    source: 'Derived: PF Feb-2026 asking x ENBD 3.99% / 25yr / 80% LTV',
+  },
+  'salary-to-afford-a-house': {
+    dataset: affordability,
+    property: 'Salary_ToAfford',
+    metric: 'salaryToAfford',
+    labelDigits: 0,
+    labelDivisor: 1000,
+    labelSuffix: 'K AED/yr',
+    label: 'Income needed to afford a home (AED/yr)',
+    stops: [167466, 226922, 296967, 476665, 588872, 927178],
+    palette: BLUE,
+    source: 'Derived: 30% of income to mortgage (ENBD 3.99% / 25yr / 80% LTV)',
+  },
+  'buy-v-rent-differential': {
+    dataset: affordability,
+    property: 'BuyVsRent_Monthly',
+    metric: 'buyVsRentMonthly',
+    labelDigits: 0,
+    labelSuffix: ' AED/mo',
+    label: 'Buy vs rent: mortgage minus rent (AED/mo)',
+    stops: [-1140, -177, 1061, 3072, 4722, 6096],
+    palette: SAFETY,
+    source: 'Derived: ENBD mortgage vs Ejari 2026 flat rent',
   },
 };
 

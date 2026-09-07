@@ -1,0 +1,83 @@
+{
+ "id": "percent-crash-from-2007-12",
+ "label": "% change in price per m² from the 2016 peak",
+ "unit": "percent",
+ "scope": "Dubai emirate",
+ "source": "Dubai average price per m² by area (bundled with this project, DLD-derived)",
+ "sourceUrl": "src/data/average_meter_price/historical_data",
+ "period": "2010-01 to 2025-08",
+ "retrieved": "2026-09-07",
+ "peakYear": 2016,
+ "peakValue": 9354,
+ "method": "Yearly median of area-level average price per m² (same series as the Price per m² history) expressed as % change from the pre-correction peak year (2016, 9354 AED/m², the highest year in 2013-2018). Dubai's bubble peak was 2014-16, not 2007, so the datapoint is relabelled accordingly.",
+ "yearRange": [
+  2010,
+  2025
+ ],
+ "series": [
+  {
+   "year": 2010,
+   "value": -33.2
+  },
+  {
+   "year": 2011,
+   "value": -39.1
+  },
+  {
+   "year": 2012,
+   "value": -34.1
+  },
+  {
+   "year": 2013,
+   "value": -24.6
+  },
+  {
+   "year": 2014,
+   "value": -8.9
+  },
+  {
+   "year": 2015,
+   "value": -0.3
+  },
+  {
+   "year": 2016,
+   "value": 0
+  },
+  {
+   "year": 2017,
+   "value": -1.1
+  },
+  {
+   "year": 2018,
+   "value": -2.9
+  },
+  {
+   "year": 2019,
+   "value": -14.2
+  },
+  {
+   "year": 2020,
+   "value": -20.1
+  },
+  {
+   "year": 2021,
+   "value": -15.7
+  },
+  {
+   "year": 2022,
+   "value": -4.6
+  },
+  {
+   "year": 2023,
+   "value": 12
+  },
+  {
+   "year": 2024,
+   "value": 38.5
+  },
+  {
+   "year": 2025,
+   "value": 53.8
+  }
+ ]
+}

@@ -1,0 +1,1607 @@
+{
+ "id": "average-schooling-cost",
+ "label": "Average annual school fee (AED)",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "source": "KHDA private-school fee schedules (bundled schools_with_fees.json, same file that drives the Fee Distribution chart)",
+ "provenance": "Per-school fee schedule by grade, 2024/25 academic year. Community assignment: KHDA location label when it names a community exactly (143 schools), otherwise lat/lon point-in-polygon (56 schools); 1 schools with no usable location and 26 with no published fees were excluded.",
+ "period": "2024/25 academic year",
+ "retrieved": "2026-01-01 (repo commit 0db96c9)",
+ "method": "For each school, the simple average of its published annual tuition across all grades it offers (Pre-primary and zero entries ignored). Community value = mean of those per-school averages. Communities with fewer than 3 schools are null.",
+ "limitation": "Private schools only (KHDA regulates private schools; public schools charge no tuition). An unweighted average across grades, so a K-12 school and a primary-only school count equally. Fee ranges within a community can be wide.",
+ "minSchools": 3,
+ "schoolsUsed": 199,
+ "communitiesWithData": 28,
+ "stats": {
+  "min": 10099,
+  "p20": 19785,
+  "p40": 32342,
+  "p60": 47969,
+  "p80": 59105,
+  "max": 70689
+ },
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "schools": 11,
+   "meanAnnualFee": 64854,
+   "medianAnnualFee": 65455
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "schools": 4,
+   "meanAnnualFee": 58708,
+   "medianAnnualFee": 58576
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "schools": 3,
+   "meanAnnualFee": 19785,
+   "medianAnnualFee": 23106
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "schools": 7,
+   "meanAnnualFee": 32342,
+   "medianAnnualFee": 22906
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "schools": 3,
+   "meanAnnualFee": 63662,
+   "medianAnnualFee": 67182
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "schools": 4,
+   "meanAnnualFee": 42329,
+   "medianAnnualFee": 51272
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "schools": 5,
+   "meanAnnualFee": 12613,
+   "medianAnnualFee": 12193
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "schools": 3,
+   "meanAnnualFee": 37993,
+   "medianAnnualFee": 38104
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "schools": 4,
+   "meanAnnualFee": 36885,
+   "medianAnnualFee": 40026
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "schools": 4,
+   "meanAnnualFee": 59105,
+   "medianAnnualFee": 60496
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "schools": 5,
+   "meanAnnualFee": 21006,
+   "medianAnnualFee": 21511
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "schools": 3,
+   "meanAnnualFee": 66244,
+   "medianAnnualFee": 73317
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "schools": 3,
+   "meanAnnualFee": 41915,
+   "medianAnnualFee": 38200
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "schools": 3,
+   "meanAnnualFee": 58365,
+   "medianAnnualFee": 50423
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "schools": 7,
+   "meanAnnualFee": 29820,
+   "medianAnnualFee": 30558
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "schools": 3,
+   "meanAnnualFee": 21980,
+   "medianAnnualFee": 20938
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "schools": 4,
+   "meanAnnualFee": 70689,
+   "medianAnnualFee": 91433
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "schools": 4,
+   "meanAnnualFee": 55760,
+   "medianAnnualFee": 74573
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "schools": 3,
+   "meanAnnualFee": 11908,
+   "medianAnnualFee": 10041
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "schools": 6,
+   "meanAnnualFee": 22898,
+   "medianAnnualFee": 28136
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "schools": 7,
+   "meanAnnualFee": 33113,
+   "medianAnnualFee": 32285
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "schools": 7,
+   "meanAnnualFee": 10099,
+   "medianAnnualFee": 6280
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "schools": 6,
+   "meanAnnualFee": 47969,
+   "medianAnnualFee": 49615
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "schools": 3,
+   "meanAnnualFee": 66228,
+   "medianAnnualFee": 72089
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "schools": 15,
+   "meanAnnualFee": 16023,
+   "medianAnnualFee": 14008
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "schools": 3,
+   "meanAnnualFee": 60568,
+   "medianAnnualFee": 65467
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "schools": 6,
+   "meanAnnualFee": 16436,
+   "medianAnnualFee": 17537
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "schools": 1,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "schools": 0,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "schools": 2,
+   "meanAnnualFee": null,
+   "medianAnnualFee": null
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "schools": 5,
+   "meanAnnualFee": 54390,
+   "medianAnnualFee": 47200
+  }
+ ]
+}

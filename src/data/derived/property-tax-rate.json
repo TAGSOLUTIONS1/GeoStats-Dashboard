@@ -1,0 +1,11 @@
+{
+ "id": "property-tax-rate",
+ "label": "Recurring property levy: housing fee (% of annual rent)",
+ "unit": "percent",
+ "scope": "Dubai emirate",
+ "value": 5,
+ "period": "Current rule (verified 2026-09-07)",
+ "source": "Dubai Land Department FAQ (dubailand.gov.ae/en/frequently-asked-questions): \"a municipality tax of 5% of the annual rent, which is shown separately in your electricity bill\". Transfer fee: DLD e-service page states seller 2% + purchaser 2% of sale value.",
+ "note": "Dubai levies no annual property tax on home value. The only recurring property levy is the Dubai Municipality housing fee of 5% of annual rent (billed monthly via DEWA). A one-off 4% DLD transfer fee applies at purchase.",
+ "oneOffTransferFeePct": 4
+}

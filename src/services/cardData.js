@@ -14,6 +14,8 @@ import hvYoy from '../data/dld18/home-value-growth-yoy.json';
 import hsYoy from '../data/dld18/home-sales-growth-yoy.json';
 import pctJune2022 from '../data/amp/percent-change-from-june-2022.json';
 import hv5y from '../data/dld18/home-value-growth-5year.json';
+import pctPeak from '../data/amp/percent-change-from-peak.json';
+import propertyTax from '../data/derived/property-tax-rate.json';
 
 const localDatasets = {
   'housing-units': {
@@ -95,6 +97,17 @@ const localDatasets = {
     kind: 'series', label: pctJune2022.label, unit: 'percent', scopeLabel: 'Dubai emirate',
     series: pctJune2022.series, yearRange: pctJune2022.yearRange,
     source: 'Dubai area price history (DLD-derived)', isProxy: false,
+  },
+  'percent-crash-from-2007-12': {
+    kind: 'series', label: pctPeak.label, unit: 'percent', scopeLabel: 'Dubai emirate',
+    series: pctPeak.series, yearRange: pctPeak.yearRange,
+    source: 'Dubai area price history (DLD-derived), 2016 peak', isProxy: false,
+  },
+  'property-tax-rate': {
+    kind: 'value', label: propertyTax.label, unit: 'percent', scopeLabel: 'Dubai emirate',
+    value: propertyTax.value, period: propertyTax.period,
+    note: propertyTax.note,
+    source: 'Dubai Land Department FAQ / DLD fee schedule', isProxy: false,
   },
   'two-bed-rental-price': {
     kind: 'value', label: twoBedRent.label, unit: 'aed', scopeLabel: 'Dubai emirate',
