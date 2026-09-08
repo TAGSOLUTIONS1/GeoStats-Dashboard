@@ -1,0 +1,2307 @@
+{
+  "id": "housing-market-health-score",
+  "label": "Housing market health score (0-100)",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "score",
+  "retrieved": "2026-09-08",
+  "source": "In-house composite: yield, transaction depth, rental depth and 5-year price growth",
+  "provenance": "NOT a third-party score. Computed from data verified elsewhere in this project.",
+  "period": "2026 YTD transactions with 5-year price growth to 2025",
+  "limitation": "Transaction and contract counts reward large, busy communities, so this partly measures market SIZE as well as health. High cap rates can signal weak capital values rather than a strong market -- read alongside price growth.",
+  "method": "Each component is percentile-ranked across the communities that have it (inverted components ranked so that \"better\" is always higher). The score is the unweighted mean of the available percentiles. Communities with fewer than 2 components are null.",
+  "components": {
+    "cap-rate": {
+      "source": "DLD Exchange 2026 YTD",
+      "inverted": false,
+      "communities": 49
+    },
+    "sale-transactions": {
+      "source": "DLD Exchange 2026 YTD",
+      "inverted": false,
+      "communities": 95
+    },
+    "rental-contracts": {
+      "source": "DLD Exchange Ejari 2026 YTD",
+      "inverted": false,
+      "communities": 81
+    },
+    "price-growth-5y": {
+      "source": "Dubai area price history (DLD-derived)",
+      "inverted": false,
+      "communities": 117
+    }
+  },
+  "minComponents": 2,
+  "communitiesWithData": 92,
+  "stops": [
+    9,
+    26,
+    43,
+    56,
+    67,
+    91
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 44.8,
+      "components": 1
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "score": 59,
+      "pct_cap-rate": 6.3,
+      "pct_sale-transactions": 95.7,
+      "pct_rental-contracts": 72.5,
+      "pct_price-growth-5y": 62.1,
+      "components": 4
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "score": 60,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 77.7,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 41.4,
+      "components": 2
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 5.2,
+      "components": 1
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "score": 37,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 37.2,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 37.1,
+      "components": 2
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "score": 49,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 22.3,
+      "pct_rental-contracts": 35,
+      "pct_price-growth-5y": 88.8,
+      "components": 3
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "score": 54,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 83.8,
+      "pct_price-growth-5y": 25,
+      "components": 2
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "score": 37,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 13.8,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 60.3,
+      "components": 2
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "score": 73,
+      "pct_cap-rate": 50,
+      "pct_sale-transactions": 92.6,
+      "pct_rental-contracts": 87.5,
+      "pct_price-growth-5y": 62.9,
+      "components": 4
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "score": 75,
+      "pct_cap-rate": 95.8,
+      "pct_sale-transactions": 83,
+      "pct_rental-contracts": 37.5,
+      "pct_price-growth-5y": 82.8,
+      "components": 4
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "score": 51,
+      "pct_cap-rate": 62.5,
+      "pct_sale-transactions": 53.2,
+      "pct_rental-contracts": 23.8,
+      "pct_price-growth-5y": 63.8,
+      "components": 4
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 46.6,
+      "components": 1
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 50,
+      "components": 1
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "score": 25,
+      "pct_cap-rate": 12.5,
+      "pct_sale-transactions": 38.3,
+      "pct_rental-contracts": 15,
+      "pct_price-growth-5y": 33.6,
+      "components": 4
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 22.5,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "score": 14,
+      "pct_cap-rate": 4.2,
+      "pct_sale-transactions": 28.7,
+      "pct_rental-contracts": 8.8,
+      "pct_price-growth-5y": 12.9,
+      "components": 4
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 36.2,
+      "components": 1
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 6,
+      "components": 1
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "score": 45,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 33,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 56.9,
+      "components": 2
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "score": 19,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 25.5,
+      "pct_rental-contracts": 12.5,
+      "pct_price-growth-5y": null,
+      "components": 2
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "score": 49,
+      "pct_cap-rate": 39.6,
+      "pct_sale-transactions": 46.8,
+      "pct_rental-contracts": 66.3,
+      "pct_price-growth-5y": 42.2,
+      "components": 4
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 75.9,
+      "components": 1
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "score": 15,
+      "pct_cap-rate": 14.6,
+      "pct_sale-transactions": 2.1,
+      "pct_rental-contracts": 16.3,
+      "pct_price-growth-5y": 26.7,
+      "components": 4
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "score": 51,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 19.1,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 81.9,
+      "components": 2
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 20.7,
+      "components": 1
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "score": 45,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 21.3,
+      "pct_rental-contracts": 68.8,
+      "pct_price-growth-5y": null,
+      "components": 2
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 3.8,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "score": 44,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 6.4,
+      "pct_rental-contracts": 82.5,
+      "pct_price-growth-5y": null,
+      "components": 2
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 93.1,
+      "components": 1
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "score": 57,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 67,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 47.4,
+      "components": 2
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 93.6,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "score": 62,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 45.7,
+      "pct_rental-contracts": 41.3,
+      "pct_price-growth-5y": 99.1,
+      "components": 3
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "score": 39,
+      "pct_cap-rate": 2.1,
+      "pct_sale-transactions": 40.4,
+      "pct_rental-contracts": 58.8,
+      "pct_price-growth-5y": 54.3,
+      "components": 4
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "score": 84,
+      "pct_cap-rate": 83.3,
+      "pct_sale-transactions": 78.7,
+      "pct_rental-contracts": 93.8,
+      "pct_price-growth-5y": 78.4,
+      "components": 4
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "score": 29,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 26.6,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 31.9,
+      "components": 2
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "score": 53,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 50,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 55.2,
+      "components": 2
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 58.5,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "score": 72,
+      "pct_cap-rate": 100,
+      "pct_sale-transactions": 71.3,
+      "pct_rental-contracts": 43.8,
+      "pct_price-growth-5y": 72.4,
+      "components": 4
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 94,
+      "components": 1
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "score": 64,
+      "pct_cap-rate": 72.9,
+      "pct_sale-transactions": 62.8,
+      "pct_rental-contracts": 36.3,
+      "pct_price-growth-5y": 84.5,
+      "components": 4
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "score": 23,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 0,
+      "pct_rental-contracts": 48.8,
+      "pct_price-growth-5y": 19.8,
+      "components": 3
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "score": 22,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 14.9,
+      "pct_rental-contracts": 30,
+      "pct_price-growth-5y": null,
+      "components": 2
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 8.6,
+      "components": 1
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 49.1,
+      "components": 1
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 83.6,
+      "components": 1
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "score": 28,
+      "pct_cap-rate": 10.4,
+      "pct_sale-transactions": 35.1,
+      "pct_rental-contracts": 40,
+      "pct_price-growth-5y": 25.9,
+      "components": 4
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 86.3,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 96.6,
+      "components": 1
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "score": 66,
+      "pct_cap-rate": 43.8,
+      "pct_sale-transactions": 66,
+      "pct_rental-contracts": 67.5,
+      "pct_price-growth-5y": 87.9,
+      "components": 4
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 4.3,
+      "components": 1
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 85.3,
+      "components": 1
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "score": 59,
+      "pct_cap-rate": 45.8,
+      "pct_sale-transactions": 81.9,
+      "pct_rental-contracts": 42.5,
+      "pct_price-growth-5y": 67.2,
+      "components": 4
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 7.8,
+      "components": 1
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "score": 40,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 61.3,
+      "pct_price-growth-5y": 19,
+      "components": 2
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "score": 64,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 47.9,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 79.3,
+      "components": 2
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 85,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "score": 51,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 52.1,
+      "pct_rental-contracts": 11.3,
+      "pct_price-growth-5y": 89.7,
+      "components": 3
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 80.2,
+      "components": 1
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "score": 43,
+      "pct_cap-rate": 41.7,
+      "pct_sale-transactions": 80.9,
+      "pct_rental-contracts": 20,
+      "pct_price-growth-5y": 29.3,
+      "components": 4
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 94.8,
+      "components": 1
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 1.3,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "score": 66,
+      "pct_cap-rate": 25,
+      "pct_sale-transactions": 91.5,
+      "pct_rental-contracts": 96.3,
+      "pct_price-growth-5y": 52.6,
+      "components": 4
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "score": 65,
+      "pct_cap-rate": 58.3,
+      "pct_sale-transactions": 75.5,
+      "pct_rental-contracts": 55,
+      "pct_price-growth-5y": 70.7,
+      "components": 4
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "score": 17,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 7.4,
+      "pct_rental-contracts": 26.3,
+      "pct_price-growth-5y": null,
+      "components": 2
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "score": 15,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 3.2,
+      "pct_rental-contracts": 27.5,
+      "pct_price-growth-5y": null,
+      "components": 2
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 1.7,
+      "components": 1
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 16.4,
+      "components": 1
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 13.8,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "score": 83,
+      "pct_cap-rate": 85.4,
+      "pct_sale-transactions": 100,
+      "pct_rental-contracts": 71.3,
+      "pct_price-growth-5y": 74.1,
+      "components": 4
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "score": 49,
+      "pct_cap-rate": 81.3,
+      "pct_sale-transactions": 48.9,
+      "pct_rental-contracts": 21.3,
+      "pct_price-growth-5y": 45.7,
+      "components": 4
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 69,
+      "components": 1
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "score": 24,
+      "pct_cap-rate": 0,
+      "pct_sale-transactions": 30.9,
+      "pct_rental-contracts": 46.3,
+      "pct_price-growth-5y": 17.2,
+      "components": 4
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "score": 36,
+      "pct_cap-rate": 35.4,
+      "pct_sale-transactions": 61.7,
+      "pct_rental-contracts": 2.5,
+      "pct_price-growth-5y": 44,
+      "components": 4
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 64.7,
+      "components": 1
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 56.3,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 59.5,
+      "components": 1
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "score": 46,
+      "pct_cap-rate": 37.5,
+      "pct_sale-transactions": 43.6,
+      "pct_rental-contracts": 57.5,
+      "pct_price-growth-5y": null,
+      "components": 3
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "score": 26,
+      "pct_cap-rate": 29.2,
+      "pct_sale-transactions": 55.3,
+      "pct_rental-contracts": 6.3,
+      "pct_price-growth-5y": 12.1,
+      "components": 4
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 14.7,
+      "components": 1
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 43.1,
+      "components": 1
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "score": 26,
+      "pct_cap-rate": 33.3,
+      "pct_sale-transactions": 1.1,
+      "pct_rental-contracts": 47.5,
+      "pct_price-growth-5y": 21.6,
+      "components": 4
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 5,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "score": 56,
+      "pct_cap-rate": 8.3,
+      "pct_sale-transactions": 87.2,
+      "pct_rental-contracts": 76.3,
+      "pct_price-growth-5y": 51.7,
+      "components": 4
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 97.4,
+      "components": 1
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "score": 58,
+      "pct_cap-rate": 89.6,
+      "pct_sale-transactions": 70.2,
+      "pct_rental-contracts": 31.3,
+      "pct_price-growth-5y": 39.7,
+      "components": 4
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "score": 34,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 39.4,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 28.4,
+      "components": 2
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 29.8,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "score": 23,
+      "pct_cap-rate": 31.3,
+      "pct_sale-transactions": 16,
+      "pct_rental-contracts": 45,
+      "pct_price-growth-5y": 0,
+      "components": 4
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "score": 46,
+      "pct_cap-rate": 27.1,
+      "pct_sale-transactions": 42.6,
+      "pct_rental-contracts": 90,
+      "pct_price-growth-5y": 22.4,
+      "components": 4
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 41.5,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "score": 53,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 31.9,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 75,
+      "components": 2
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "score": 80,
+      "pct_cap-rate": 66.7,
+      "pct_sale-transactions": 98.9,
+      "pct_rental-contracts": 100,
+      "pct_price-growth-5y": 53.4,
+      "components": 4
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "score": 25,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 12.8,
+      "pct_rental-contracts": 62.5,
+      "pct_price-growth-5y": 0.9,
+      "components": 3
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "score": 77,
+      "pct_cap-rate": 87.5,
+      "pct_sale-transactions": 84,
+      "pct_rental-contracts": 97.5,
+      "pct_price-growth-5y": 40.5,
+      "components": 4
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "score": 85,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 88.3,
+      "pct_rental-contracts": 88.8,
+      "pct_price-growth-5y": 76.7,
+      "components": 3
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 59.6,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "score": 64,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 23.4,
+      "pct_rental-contracts": 91.3,
+      "pct_price-growth-5y": 77.6,
+      "components": 3
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 15.5,
+      "components": 1
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "score": 24,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 36.2,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 11.2,
+      "components": 2
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 38.8,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "score": 67,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 68.1,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 65.5,
+      "components": 2
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "score": 83,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 85.1,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 81,
+      "components": 2
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "score": 71,
+      "pct_cap-rate": 79.2,
+      "pct_sale-transactions": 73.4,
+      "pct_rental-contracts": 63.7,
+      "pct_price-growth-5y": 66.4,
+      "components": 4
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "score": 43,
+      "pct_cap-rate": 54.2,
+      "pct_sale-transactions": 64.9,
+      "pct_rental-contracts": 10,
+      "pct_price-growth-5y": null,
+      "components": 3
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "score": 16,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 27.7,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 3.4,
+      "components": 2
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "score": 32,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 33.8,
+      "pct_price-growth-5y": 30.2,
+      "components": 2
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "score": 31,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 10.6,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 50.9,
+      "components": 2
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 98.3,
+      "components": 1
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "score": 31,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 52.5,
+      "pct_price-growth-5y": 9.5,
+      "components": 2
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "score": 64,
+      "pct_cap-rate": 70.8,
+      "pct_sale-transactions": 44.7,
+      "pct_rental-contracts": 81.3,
+      "pct_price-growth-5y": 57.8,
+      "components": 4
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "score": 11,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 8.5,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 13.8,
+      "components": 2
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "score": 75,
+      "pct_cap-rate": 68.8,
+      "pct_sale-transactions": 72.3,
+      "pct_rental-contracts": 65,
+      "pct_price-growth-5y": 95.7,
+      "components": 4
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "score": 14,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 17,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 10.3,
+      "components": 2
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "score": 80,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 79.8,
+      "pct_rental-contracts": 73.8,
+      "pct_price-growth-5y": 86.2,
+      "components": 3
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "score": 37,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 51.1,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 23.3,
+      "components": 2
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "score": 69,
+      "pct_cap-rate": 93.8,
+      "pct_sale-transactions": 57.4,
+      "pct_rental-contracts": 51.2,
+      "pct_price-growth-5y": 73.3,
+      "components": 4
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "score": 76,
+      "pct_cap-rate": 47.9,
+      "pct_sale-transactions": 90.4,
+      "pct_rental-contracts": 77.5,
+      "pct_price-growth-5y": 87.1,
+      "components": 4
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "score": 35,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 9.6,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 61.2,
+      "components": 2
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "score": 47,
+      "pct_cap-rate": 64.6,
+      "pct_sale-transactions": 60.6,
+      "pct_rental-contracts": 28.7,
+      "pct_price-growth-5y": 34.5,
+      "components": 4
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 27.6,
+      "components": 1
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "score": 58,
+      "pct_cap-rate": 91.7,
+      "pct_sale-transactions": 69.1,
+      "pct_rental-contracts": 32.5,
+      "pct_price-growth-5y": 38.8,
+      "components": 4
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "score": 47,
+      "pct_cap-rate": 22.9,
+      "pct_sale-transactions": 76.6,
+      "pct_rental-contracts": 50,
+      "pct_price-growth-5y": 37.9,
+      "components": 4
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "score": 33,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 18.1,
+      "pct_rental-contracts": 75,
+      "pct_price-growth-5y": 6.9,
+      "components": 3
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "score": 79,
+      "pct_cap-rate": 97.9,
+      "pct_sale-transactions": 89.4,
+      "pct_rental-contracts": 92.5,
+      "pct_price-growth-5y": 35.3,
+      "components": 4
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 4.3,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "score": 38,
+      "pct_cap-rate": 60.4,
+      "pct_sale-transactions": 34,
+      "pct_rental-contracts": 25,
+      "pct_price-growth-5y": 31,
+      "components": 4
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "score": 70,
+      "pct_cap-rate": 75,
+      "pct_sale-transactions": 54.3,
+      "pct_rental-contracts": 78.8,
+      "pct_price-growth-5y": 71.6,
+      "components": 4
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "score": 40,
+      "pct_cap-rate": 18.8,
+      "pct_sale-transactions": 63.8,
+      "pct_rental-contracts": 7.5,
+      "pct_price-growth-5y": 68.1,
+      "components": 4
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "score": 65,
+      "pct_cap-rate": 20.8,
+      "pct_sale-transactions": 94.7,
+      "pct_rental-contracts": 53.8,
+      "pct_price-growth-5y": 90.5,
+      "components": 4
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "score": 21,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 17.5,
+      "pct_price-growth-5y": 24.1,
+      "components": 2
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 5.3,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 100,
+      "components": 1
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": 18.8,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "score": 61,
+      "pct_cap-rate": 56.3,
+      "pct_sale-transactions": 74.5,
+      "pct_rental-contracts": 80,
+      "pct_price-growth-5y": 32.8,
+      "components": 4
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 56,
+      "components": 1
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "score": 47,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 24.5,
+      "pct_rental-contracts": 70,
+      "pct_price-growth-5y": null,
+      "components": 2
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "score": 67,
+      "pct_cap-rate": 52.1,
+      "pct_sale-transactions": 86.2,
+      "pct_rental-contracts": 60,
+      "pct_price-growth-5y": 69.8,
+      "components": 4
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "score": 9,
+      "pct_cap-rate": 16.7,
+      "pct_sale-transactions": 11.7,
+      "pct_rental-contracts": 0,
+      "pct_price-growth-5y": null,
+      "components": 3
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 48.3,
+      "components": 1
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "score": 39,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 20.2,
+      "pct_rental-contracts": 95,
+      "pct_price-growth-5y": 2.6,
+      "components": 3
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 18.1,
+      "components": 1
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "score": 78,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 97.9,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 58.6,
+      "components": 2
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": 56.4,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 1
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": null,
+      "components": 0
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "score": null,
+      "pct_cap-rate": null,
+      "pct_sale-transactions": null,
+      "pct_rental-contracts": null,
+      "pct_price-growth-5y": 92.2,
+      "components": 1
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "score": 91,
+      "pct_cap-rate": 77.1,
+      "pct_sale-transactions": 96.8,
+      "pct_rental-contracts": 98.8,
+      "pct_price-growth-5y": 91.4,
+      "components": 4
+    }
+  ]
+}

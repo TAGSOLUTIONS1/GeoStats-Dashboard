@@ -99,6 +99,16 @@ const layers = [
   ['rent-for-houses', 'src/data/dldx/rent-for-houses.json', 'villaRentAed'],
   ['home-value-to-rent-ratio', 'src/data/dldx/price-to-rent.json', 'priceToRentYears'],
   ['community-safety-score', 'src/data/dsc/traffic-safety.json', 'per1kPeople'],
+  // --- derived / composite layers built by build-datapoints.js ---
+  ['overvalued-percent', 'src/data/derived/overvalued-percent.json', 'overvaluedPct'],
+  ['value-income', 'src/data/derived/value-income.json', 'valueToIncome'],
+  ['mtg-payments-income-percent', 'src/data/derived/mtg-payments-income-percent.json', 'pctOfIncome'],
+  ['monthly-home-ownership-cost', 'src/data/derived/monthly-home-ownership-cost.json', 'monthlyCost'],
+  ['for-sale-inventory', 'src/data/pf/for-sale-inventory.json', 'listings'],
+  ['affordability-index', 'src/data/composite/affordability-index.json', 'score'],
+  ['housing-market-health-score', 'src/data/composite/housing-market-health-score.json', 'score'],
+  ['school-quality-score', 'src/data/composite/school-quality-score.json', 'score'],
+  ['economic-health-score', 'src/data/composite/economic-health-score.json', 'score'],
 ];
 const cdSrc = src('src/services/communityData.js');
 layers.forEach(([id, file, metric]) => {
@@ -150,6 +160,7 @@ const cards = [
   ['college-degree-rate', 'src/data/worldbank/tertiary-enrollment.json'],
   ['digital-infrastructure-score', 'src/data/worldbank/internet-users-pct.json'],
   ['environmental-quality-index', 'src/data/worldbank/co2-per-capita.json'],
+  ['income-plus-employment', 'src/data/composite/income-plus-employment.json'],
 ];
 cards.forEach(([id, file]) => {
   const d = read(file);
@@ -167,11 +178,39 @@ cards.forEach(([id, file]) => {
     ? bad(`${id}: ${!s.length ? 'empty series' : !ascending ? 'years not ascending' : nan + ' NaN'}`)
     : ok(`${id}: ${s.length} points, ${d.yearRange.join('-')}`);
 });
+const edu = read('src/data/composite/education-plus-age.json');
+const eduParts = [edu.inputs.tertiaryEnrolment.value, edu.inputs.workingAgeShare.value];
+const eduExpect = Math.round(((eduParts[0] + eduParts[1]) / 2) * 10) / 10;
+Math.abs(edu.value - eduExpect) < 0.05 && eduParts.every((v) => v > 0 && v <= 100)
+  ? ok(`education-plus-age: ${edu.value} = mean(${eduParts.map((v) => v.toFixed(1)).join(', ')})`)
+  : bad(`education-plus-age: stated ${edu.value} != mean of its own inputs ${eduExpect}`);
+
 const age = read('src/data/dsc/age-distribution.json');
 const bandSum = age.bands.reduce((t, b) => t + b.population, 0);
 bandSum === age.totalPopulation
   ? ok(`median-age: bands sum to stated total (${bandSum.toLocaleString()})`)
   : bad(`median-age: bands sum ${bandSum} != total ${age.totalPopulation}`);
+
+// ---- 4b. composites: no score without the declared minimum components ------
+console.log('\n=== 4b. Composite integrity ===');
+[
+  'src/data/composite/affordability-index.json',
+  'src/data/composite/housing-market-health-score.json',
+  'src/data/composite/school-quality-score.json',
+  'src/data/composite/economic-health-score.json',
+].forEach((f) => {
+  const d = read(f);
+  const bogus = d.rows.filter((r) => r.score != null && r.components < d.minComponents);
+  const orphanComponents = d.rows.filter((r) => r.score == null && r.components >= d.minComponents);
+  const outOfRange = d.rows.filter((r) => r.score != null && (r.score < 0 || r.score > 100));
+  const problems = [];
+  if (bogus.length) problems.push(`${bogus.length} scored below minComponents`);
+  if (orphanComponents.length) problems.push(`${orphanComponents.length} unscored despite enough components`);
+  if (outOfRange.length) problems.push(`${outOfRange.length} outside 0-100`);
+  problems.length
+    ? bad(`${d.id}: ${problems.join('; ')}`)
+    : ok(`${d.id}: ${d.communitiesWithData} scored, all >= ${d.minComponents} components, all within 0-100`);
+});
 
 // ---- 5. external cross-check ----------------------------------------------
 console.log('\n=== 5. Cross-check against known Dubai population ===');

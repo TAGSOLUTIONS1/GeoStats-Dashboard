@@ -1,0 +1,1155 @@
+{
+  "id": "value-income",
+  "label": "Home value to income ratio",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "valueToIncome",
+  "retrieved": "2026-09-08",
+  "source": "Derived: Property Finder Feb-2026 asking prices / UAE GDP per capita (World Bank 2024)",
+  "sourceUrl": "https://www.kaggle.com/datasets/mohammedhassan1112/uae-property-finder",
+  "period": "2026 snapshot (prices Feb 2026, income 2024)",
+  "method": "Median community asking price divided by AED 184,629 of annual income.",
+  "incomeProxyAed": 184629,
+  "limitation": "Prices are listing-side ASKING prices, not completed sales, and cover only the 34 communities with 10+ listings in the scrape. UAE GDP per capita (World Bank, 2024) converted at 3.6725 AED/USD. This is national output per person, not median household income, and understates real household earning power -- use for relative ranking between communities, not as an absolute affordability figure.",
+  "communitiesWithData": 34,
+  "stops": [
+    3.4,
+    6.5,
+    8.4,
+    11.9,
+    16.8,
+    29.8
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "valueToIncome": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "valueToIncome": null
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "valueToIncome": 3.9
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "valueToIncome": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "valueToIncome": 15.3
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "valueToIncome": null
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "valueToIncome": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "valueToIncome": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "valueToIncome": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "valueToIncome": null
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "valueToIncome": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "valueToIncome": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "valueToIncome": 7.3
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "valueToIncome": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "valueToIncome": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "valueToIncome": null
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "valueToIncome": null
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "valueToIncome": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "valueToIncome": null
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "valueToIncome": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "valueToIncome": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "valueToIncome": null
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "valueToIncome": null
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "valueToIncome": null
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "valueToIncome": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "valueToIncome": 6.8
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "valueToIncome": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "valueToIncome": null
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "valueToIncome": 15.4
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "valueToIncome": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "valueToIncome": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "valueToIncome": null
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "valueToIncome": 8.4
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "valueToIncome": null
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "valueToIncome": null
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "valueToIncome": 5
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "valueToIncome": 22.2
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "valueToIncome": null
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "valueToIncome": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "valueToIncome": null
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "valueToIncome": null
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "valueToIncome": null
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "valueToIncome": 19.4
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "valueToIncome": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "valueToIncome": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "valueToIncome": null
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "valueToIncome": null
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "valueToIncome": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "valueToIncome": null
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "valueToIncome": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "valueToIncome": 16.8
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "valueToIncome": null
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "valueToIncome": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "valueToIncome": null
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "valueToIncome": 7.3
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "valueToIncome": null
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "valueToIncome": null
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "valueToIncome": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "valueToIncome": 18.9
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "valueToIncome": 29.8
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "valueToIncome": null
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "valueToIncome": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "valueToIncome": null
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "valueToIncome": 8.5
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "valueToIncome": null
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "valueToIncome": null
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "valueToIncome": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "valueToIncome": null
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "valueToIncome": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "valueToIncome": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "valueToIncome": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "valueToIncome": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "valueToIncome": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "valueToIncome": null
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "valueToIncome": null
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "valueToIncome": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "valueToIncome": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "valueToIncome": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "valueToIncome": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "valueToIncome": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "valueToIncome": null
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "valueToIncome": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "valueToIncome": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "valueToIncome": null
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "valueToIncome": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "valueToIncome": 5.4
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "valueToIncome": null
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "valueToIncome": 7.3
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "valueToIncome": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "valueToIncome": null
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "valueToIncome": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "valueToIncome": 10.6
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "valueToIncome": null
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "valueToIncome": 17.9
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "valueToIncome": 12.2
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "valueToIncome": null
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "valueToIncome": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "valueToIncome": null
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "valueToIncome": null
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "valueToIncome": 7.3
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "valueToIncome": 8.8
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "valueToIncome": 9.9
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "valueToIncome": null
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "valueToIncome": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "valueToIncome": null
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "valueToIncome": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "valueToIncome": null
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "valueToIncome": 16.2
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "valueToIncome": 14.6
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "valueToIncome": null
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "valueToIncome": 24
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "valueToIncome": null
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "valueToIncome": 3.4
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "valueToIncome": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "valueToIncome": 6.5
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "valueToIncome": null
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "valueToIncome": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "valueToIncome": 5.6
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "valueToIncome": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "valueToIncome": null
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "valueToIncome": 11.9
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "valueToIncome": 10.3
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "valueToIncome": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "valueToIncome": null
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "valueToIncome": 9.5
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "valueToIncome": null
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "valueToIncome": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "valueToIncome": 12.2
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "valueToIncome": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "valueToIncome": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "valueToIncome": null
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "valueToIncome": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "valueToIncome": null
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "valueToIncome": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "valueToIncome": 6
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "valueToIncome": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "valueToIncome": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "valueToIncome": null
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "valueToIncome": 8
+    }
+  ]
+}

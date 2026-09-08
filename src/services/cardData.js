@@ -16,6 +16,8 @@ import pctJune2022 from '../data/amp/percent-change-from-june-2022.json';
 import hv5y from '../data/dld18/home-value-growth-5year.json';
 import pctPeak from '../data/amp/percent-change-from-peak.json';
 import propertyTax from '../data/derived/property-tax-rate.json';
+import educationAge from '../data/composite/education-plus-age.json';
+import incomeEmployment from '../data/composite/income-plus-employment.json';
 
 const localDatasets = {
   'housing-units': {
@@ -114,6 +116,28 @@ const localDatasets = {
     value: twoBedRent.value, period: twoBedRent.period,
     note: 'Dubai-wide only -- the source ignores its own area filter on bedroom-level rents',
     source: 'DLD Exchange (Ejari, 2026 YTD)', isProxy: false,
+  },
+  'education-plus-age': {
+    kind: 'value',
+    label: educationAge.label,
+    unit: 'score',
+    scopeLabel: 'UAE nationwide',
+    value: educationAge.value,
+    period: educationAge.period,
+    note: educationAge.note,
+    source: 'World Bank tertiary enrolment + DSC age distribution',
+    isProxy: true,
+  },
+  'income-plus-employment': {
+    kind: 'series',
+    label: incomeEmployment.label,
+    unit: 'score',
+    scopeLabel: 'UAE nationwide',
+    series: incomeEmployment.series,
+    yearRange: incomeEmployment.yearRange,
+    note: incomeEmployment.limitation,
+    source: 'World Bank: GDP per capita, employment growth, unemployment',
+    isProxy: true,
   },
   'median-age': {
     kind: 'distribution',

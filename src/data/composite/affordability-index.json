@@ -1,0 +1,2307 @@
+{
+  "id": "affordability-index",
+  "label": "Affordability index (0-100, higher = more affordable)",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "score",
+  "retrieved": "2026-09-08",
+  "source": "In-house composite of four affordability data points already in this dashboard",
+  "provenance": "NOT a third-party index. Computed from data verified elsewhere in this project.",
+  "period": "2026 (rents and prices 2026, income 2024)",
+  "limitation": "A relative ranking within Dubai, not an absolute affordability standard. Component coverage is uneven -- buy-v-rent reaches only 27 communities -- so a score built on 2 components is much less stable than one built on 4. Check the components count before reading a single score closely.",
+  "method": "Each component is percentile-ranked across the communities that have it (inverted components ranked so that \"better\" is always higher). The score is the unweighted mean of the available percentiles. Communities with fewer than 2 components are null.",
+  "components": {
+    "rent-as-percent-of-income": {
+      "source": "DLD Exchange Ejari 2026 YTD / GDP per capita",
+      "inverted": true,
+      "communities": 81
+    },
+    "home-value-to-rent-ratio": {
+      "source": "DLD Exchange 2026 YTD",
+      "inverted": true,
+      "communities": 50
+    },
+    "salary-to-afford-a-house": {
+      "source": "Derived: ENBD terms on PF asking prices",
+      "inverted": true,
+      "communities": 34
+    },
+    "buy-v-rent-differential": {
+      "source": "Derived: ENBD mortgage vs Ejari rent",
+      "inverted": true,
+      "communities": 27
+    }
+  },
+  "minComponents": 2,
+  "communitiesWithData": 51,
+  "stops": [
+    14,
+    30,
+    43,
+    51,
+    61,
+    91
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "score": 66,
+      "pct_rent-as-percent-of-income": 66.3,
+      "pct_home-value-to-rent-ratio": 6.1,
+      "pct_salary-to-afford-a-house": 97,
+      "pct_buy-v-rent-differential": 96.2,
+      "components": 4
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": 27.3,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "score": null,
+      "pct_rent-as-percent-of-income": 72.5,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": 81.3,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "score": 43,
+      "pct_rent-as-percent-of-income": 37.5,
+      "pct_home-value-to-rent-ratio": 49,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "score": 70,
+      "pct_rent-as-percent-of-income": 27.5,
+      "pct_home-value-to-rent-ratio": 93.9,
+      "pct_salary-to-afford-a-house": 75.8,
+      "pct_buy-v-rent-differential": 84.6,
+      "components": 4
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "score": 55,
+      "pct_rent-as-percent-of-income": 48.8,
+      "pct_home-value-to-rent-ratio": 61.2,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "score": 52,
+      "pct_rent-as-percent-of-income": 92.5,
+      "pct_home-value-to-rent-ratio": 12.2,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": 77.5,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "score": 35,
+      "pct_rent-as-percent-of-income": 65,
+      "pct_home-value-to-rent-ratio": 4.1,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": 100,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "score": 41,
+      "pct_rent-as-percent-of-income": 42.5,
+      "pct_home-value-to-rent-ratio": 38.8,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "score": 47,
+      "pct_rent-as-percent-of-income": 78.8,
+      "pct_home-value-to-rent-ratio": 14.3,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "score": null,
+      "pct_rent-as-percent-of-income": 91.3,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": 98.8,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "score": null,
+      "pct_rent-as-percent-of-income": 23.8,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": 78.8,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": 24.2,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": 12.5,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "score": 44,
+      "pct_rent-as-percent-of-income": 86.3,
+      "pct_home-value-to-rent-ratio": 2,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "score": 61,
+      "pct_rent-as-percent-of-income": 62.5,
+      "pct_home-value-to-rent-ratio": 81.6,
+      "pct_salary-to-afford-a-house": 60.6,
+      "pct_buy-v-rent-differential": 38.5,
+      "components": 4
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "score": 84,
+      "pct_rent-as-percent-of-income": 53.8,
+      "pct_home-value-to-rent-ratio": 98,
+      "pct_salary-to-afford-a-house": 93.9,
+      "pct_buy-v-rent-differential": 92.3,
+      "components": 4
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "score": 26,
+      "pct_rent-as-percent-of-income": 3.8,
+      "pct_home-value-to-rent-ratio": 71.4,
+      "pct_salary-to-afford-a-house": 6.1,
+      "pct_buy-v-rent-differential": 23.1,
+      "components": 4
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "score": null,
+      "pct_rent-as-percent-of-income": 97.5,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "score": null,
+      "pct_rent-as-percent-of-income": 90,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": 9.1,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "score": 52,
+      "pct_rent-as-percent-of-income": 93.8,
+      "pct_home-value-to-rent-ratio": 10.2,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "score": null,
+      "pct_rent-as-percent-of-income": 88.8,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "score": 53,
+      "pct_rent-as-percent-of-income": 63.8,
+      "pct_home-value-to-rent-ratio": 42.9,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "score": 22,
+      "pct_rent-as-percent-of-income": 20,
+      "pct_home-value-to-rent-ratio": 44.9,
+      "pct_salary-to-afford-a-house": 18.2,
+      "pct_buy-v-rent-differential": 3.8,
+      "components": 4
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "score": null,
+      "pct_rent-as-percent-of-income": 56.3,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": 72.7,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": 57.5,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "score": null,
+      "pct_rent-as-percent-of-income": 76.3,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "score": 64,
+      "pct_rent-as-percent-of-income": 87.5,
+      "pct_home-value-to-rent-ratio": 40.8,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": 85,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "score": 14,
+      "pct_rent-as-percent-of-income": 8.8,
+      "pct_home-value-to-rent-ratio": 24.5,
+      "pct_salary-to-afford-a-house": 12.1,
+      "pct_buy-v-rent-differential": 11.5,
+      "components": 4
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "score": 14,
+      "pct_rent-as-percent-of-income": 0,
+      "pct_home-value-to-rent-ratio": 57.1,
+      "pct_salary-to-afford-a-house": 0,
+      "pct_buy-v-rent-differential": 0,
+      "components": 4
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "score": null,
+      "pct_rent-as-percent-of-income": 55,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "score": null,
+      "pct_rent-as-percent-of-income": 82.5,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "score": null,
+      "pct_rent-as-percent-of-income": 52.5,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "score": 59,
+      "pct_rent-as-percent-of-income": 51.3,
+      "pct_home-value-to-rent-ratio": 83.7,
+      "pct_salary-to-afford-a-house": 57.6,
+      "pct_buy-v-rent-differential": 42.3,
+      "components": 4
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "score": 43,
+      "pct_rent-as-percent-of-income": 6.3,
+      "pct_home-value-to-rent-ratio": 79.6,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "score": 20,
+      "pct_rent-as-percent-of-income": 40,
+      "pct_home-value-to-rent-ratio": 0,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "score": 51,
+      "pct_rent-as-percent-of-income": 67.5,
+      "pct_home-value-to-rent-ratio": 34.7,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "score": null,
+      "pct_rent-as-percent-of-income": 22.5,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "score": 22,
+      "pct_rent-as-percent-of-income": 7.5,
+      "pct_home-value-to-rent-ratio": 36.7,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "score": 62,
+      "pct_rent-as-percent-of-income": 96.3,
+      "pct_home-value-to-rent-ratio": 28.6,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "score": 46,
+      "pct_rent-as-percent-of-income": 58.8,
+      "pct_home-value-to-rent-ratio": 32.7,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "score": null,
+      "pct_rent-as-percent-of-income": 61.3,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "score": 61,
+      "pct_rent-as-percent-of-income": 71.3,
+      "pct_home-value-to-rent-ratio": 8.2,
+      "pct_salary-to-afford-a-house": 90.9,
+      "pct_buy-v-rent-differential": 73.1,
+      "components": 4
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "score": 65,
+      "pct_rent-as-percent-of-income": 33.8,
+      "pct_home-value-to-rent-ratio": 87.8,
+      "pct_salary-to-afford-a-house": 69.7,
+      "pct_buy-v-rent-differential": 69.2,
+      "components": 4
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "score": 38,
+      "pct_rent-as-percent-of-income": 46.3,
+      "pct_home-value-to-rent-ratio": 30.6,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "score": 29,
+      "pct_rent-as-percent-of-income": 31.3,
+      "pct_home-value-to-rent-ratio": 26.5,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "score": 47,
+      "pct_rent-as-percent-of-income": 15,
+      "pct_home-value-to-rent-ratio": 65.3,
+      "pct_salary-to-afford-a-house": 42.4,
+      "pct_buy-v-rent-differential": 65.4,
+      "components": 4
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "score": null,
+      "pct_rent-as-percent-of-income": 70,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "score": 46,
+      "pct_rent-as-percent-of-income": 2.5,
+      "pct_home-value-to-rent-ratio": 85.7,
+      "pct_salary-to-afford-a-house": 15.2,
+      "pct_buy-v-rent-differential": 80.8,
+      "components": 4
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "score": 30,
+      "pct_rent-as-percent-of-income": 38.7,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": 36.4,
+      "pct_buy-v-rent-differential": 15.4,
+      "components": 3
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "score": null,
+      "pct_rent-as-percent-of-income": 36.3,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "score": null,
+      "pct_rent-as-percent-of-income": 35,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": 66.7,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "score": 55,
+      "pct_rent-as-percent-of-income": 25,
+      "pct_home-value-to-rent-ratio": 77.6,
+      "pct_salary-to-afford-a-house": 54.5,
+      "pct_buy-v-rent-differential": 61.5,
+      "components": 4
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "score": 49,
+      "pct_rent-as-percent-of-income": 16.3,
+      "pct_home-value-to-rent-ratio": 55.1,
+      "pct_salary-to-afford-a-house": 48.5,
+      "pct_buy-v-rent-differential": 76.9,
+      "components": 4
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "score": null,
+      "pct_rent-as-percent-of-income": 26.3,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "score": null,
+      "pct_rent-as-percent-of-income": 50,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "score": 77,
+      "pct_rent-as-percent-of-income": 83.8,
+      "pct_home-value-to-rent-ratio": 69.4,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "score": 44,
+      "pct_rent-as-percent-of-income": 21.3,
+      "pct_home-value-to-rent-ratio": 67.3,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "score": 51,
+      "pct_rent-as-percent-of-income": 1.3,
+      "pct_home-value-to-rent-ratio": 100,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "score": 37,
+      "pct_rent-as-percent-of-income": 10,
+      "pct_home-value-to-rent-ratio": 91.8,
+      "pct_salary-to-afford-a-house": 21.2,
+      "pct_buy-v-rent-differential": 26.9,
+      "components": 4
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "score": 29,
+      "pct_rent-as-percent-of-income": 18.8,
+      "pct_home-value-to-rent-ratio": 46.9,
+      "pct_salary-to-afford-a-house": 30.3,
+      "pct_buy-v-rent-differential": 19.2,
+      "components": 4
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "score": 20,
+      "pct_rent-as-percent-of-income": 5,
+      "pct_home-value-to-rent-ratio": 63.3,
+      "pct_salary-to-afford-a-house": 3,
+      "pct_buy-v-rent-differential": 7.7,
+      "components": 4
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "score": 91,
+      "pct_rent-as-percent-of-income": 75,
+      "pct_home-value-to-rent-ratio": 89.8,
+      "pct_salary-to-afford-a-house": 100,
+      "pct_buy-v-rent-differential": 100,
+      "components": 4
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "score": 55,
+      "pct_rent-as-percent-of-income": 60,
+      "pct_home-value-to-rent-ratio": 22.4,
+      "pct_salary-to-afford-a-house": 81.8,
+      "pct_buy-v-rent-differential": 53.8,
+      "components": 4
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "score": null,
+      "pct_rent-as-percent-of-income": 45,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "score": 79,
+      "pct_rent-as-percent-of-income": 43.8,
+      "pct_home-value-to-rent-ratio": 95.9,
+      "pct_salary-to-afford-a-house": 87.9,
+      "pct_buy-v-rent-differential": 88.5,
+      "components": 4
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "score": 36,
+      "pct_rent-as-percent-of-income": 13.8,
+      "pct_home-value-to-rent-ratio": 59.2,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "score": 43,
+      "pct_rent-as-percent-of-income": 28.8,
+      "pct_home-value-to-rent-ratio": 73.5,
+      "pct_salary-to-afford-a-house": 39.4,
+      "pct_buy-v-rent-differential": 30.8,
+      "components": 4
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "score": 25,
+      "pct_rent-as-percent-of-income": 32.5,
+      "pct_home-value-to-rent-ratio": 18.4,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "score": 35,
+      "pct_rent-as-percent-of-income": 41.3,
+      "pct_home-value-to-rent-ratio": 20.4,
+      "pct_salary-to-afford-a-house": 45.5,
+      "pct_buy-v-rent-differential": 34.6,
+      "components": 4
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": 17.5,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "score": null,
+      "pct_rent-as-percent-of-income": 73.8,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "score": 45,
+      "pct_rent-as-percent-of-income": 30,
+      "pct_home-value-to-rent-ratio": 53.1,
+      "pct_salary-to-afford-a-house": 51.5,
+      "pct_buy-v-rent-differential": 46.2,
+      "components": 4
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "score": null,
+      "pct_rent-as-percent-of-income": 80,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "score": 38,
+      "pct_rent-as-percent-of-income": 11.3,
+      "pct_home-value-to-rent-ratio": 51,
+      "pct_salary-to-afford-a-house": 33.3,
+      "pct_buy-v-rent-differential": 57.7,
+      "components": 4
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "score": 56,
+      "pct_rent-as-percent-of-income": 95,
+      "pct_home-value-to-rent-ratio": 16.3,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 2
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "score": null,
+      "pct_rent-as-percent-of-income": 68.8,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": 84.8,
+      "pct_buy-v-rent-differential": null,
+      "components": 1
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "score": null,
+      "pct_rent-as-percent-of-income": null,
+      "pct_home-value-to-rent-ratio": null,
+      "pct_salary-to-afford-a-house": null,
+      "pct_buy-v-rent-differential": null,
+      "components": 0
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "score": 59,
+      "pct_rent-as-percent-of-income": 47.5,
+      "pct_home-value-to-rent-ratio": 75.5,
+      "pct_salary-to-afford-a-house": 63.6,
+      "pct_buy-v-rent-differential": 50,
+      "components": 4
+    }
+  ]
+}

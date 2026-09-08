@@ -23,6 +23,15 @@ import affordability from '../data/derived/affordability.json';
 import schoolingCost from '../data/schools/schooling-cost-by-community.json';
 import emergencyProximity from '../data/osm/emergency-proximity.json';
 import livability from '../data/composite/livability-score.json';
+import valueIncome from '../data/derived/value-income.json';
+import mtgPctIncome from '../data/derived/mtg-payments-income-percent.json';
+import ownershipCost from '../data/derived/monthly-home-ownership-cost.json';
+import overvalued from '../data/derived/overvalued-percent.json';
+import forSaleInventory from '../data/pf/for-sale-inventory.json';
+import affordabilityIndex from '../data/composite/affordability-index.json';
+import marketHealth from '../data/composite/housing-market-health-score.json';
+import schoolScore from '../data/composite/school-quality-score.json';
+import economicHealth from '../data/composite/economic-health-score.json';
 
 const GREEN = ['#e8f5e9', '#c8e6c9', '#81c784', '#4caf50', '#2e7d32', '#1b5e20'];
 // Safety is inverted: many incidents = bad, so the scale runs green -> red.
@@ -300,7 +309,110 @@ export const mapDataPoints = {
     palette: SAFETY,
     source: 'Derived: ENBD mortgage vs Ejari 2026 flat rent',
   },
+  'overvalued-percent': {
+    dataset: overvalued,
+    property: 'Overvalued_Pct',
+    metric: 'overvaluedPct',
+    labelDigits: 0,
+    labelSuffix: '%',
+    label: 'Over / undervalued vs its own price-to-income history',
+    stops: [-38, 3, 24, 40, 66, 182],
+    palette: SAFETY,
+    inverted: true,
+    source: 'Derived: community price/m2 history / UAE GDP per capita',
+  },
+  'value-income': {
+    dataset: valueIncome,
+    property: 'ValueToIncome',
+    metric: 'valueToIncome',
+    labelDigits: 1,
+    labelSuffix: 'x income',
+    label: 'Home value as a multiple of annual income',
+    stops: [3.4, 6.5, 8.4, 11.9, 16.8, 29.8],
+    palette: SAFETY,
+    inverted: true,
+    source: 'Derived: PF Feb-2026 asking / UAE GDP per capita 2024',
+  },
+  'mtg-payments-income-percent': {
+    dataset: mtgPctIncome,
+    property: 'MtgPct_Income',
+    metric: 'pctOfIncome',
+    labelDigits: 0,
+    labelSuffix: '% of income',
+    label: 'Mortgage payments as % of income',
+    stops: [17.3, 32.9, 42.6, 60.3, 85, 150.7],
+    palette: SAFETY,
+    inverted: true,
+    source: 'Derived: ENBD 3.99% / 25yr / 80% LTV vs UAE GDP per capita',
+  },
+  'monthly-home-ownership-cost': {
+    dataset: ownershipCost,
+    property: 'Ownership_Monthly',
+    metric: 'monthlyCost',
+    labelDigits: 0,
+    labelSuffix: ' AED/mo',
+    label: 'Est. monthly ownership cost (AED)',
+    stops: [3236, 6162, 7981, 11297, 15919, 28216],
+    palette: BLUE,
+    source: 'Derived: ENBD mortgage + stated service-charge assumption',
+  },
+  'for-sale-inventory': {
+    dataset: forSaleInventory,
+    property: 'ForSale_Listings',
+    metric: 'listings',
+    labelDigits: 0,
+    labelSuffix: ' listings',
+    label: 'Residential listings on the market',
+    stops: [1, 2, 5, 18, 37, 158],
+    palette: BLUE,
+    source: 'Property Finder listings (Feb 2026 snapshot)',
+  },
+  'affordability-index': {
+    dataset: affordabilityIndex,
+    property: 'Affordability_Index',
+    metric: 'score',
+    labelDigits: 0,
+    labelSuffix: '',
+    label: 'Affordability index (0-100, higher = more affordable)',
+    stops: [14, 30, 43, 51, 61, 91],
+    palette: GREEN,
+    source: 'In-house composite of four affordability data points',
+  },
+  'housing-market-health-score': {
+    dataset: marketHealth,
+    property: 'MarketHealth_Score',
+    metric: 'score',
+    labelDigits: 0,
+    labelSuffix: '',
+    label: 'Housing market health score (0-100)',
+    stops: [9, 26, 43, 56, 67, 91],
+    palette: BLUE,
+    source: 'In-house composite: yield, transaction depth, price growth',
+  },
+  'school-quality-score': {
+    dataset: schoolScore,
+    property: 'SchoolQuality_Score',
+    metric: 'score',
+    labelDigits: 0,
+    labelSuffix: '',
+    label: 'School quality score (0-100)',
+    stops: [9, 29, 46, 54, 67, 87],
+    palette: GREEN,
+    source: 'In-house composite: DSIB ratings, density, curricula, fees',
+  },
+  'economic-health-score': {
+    dataset: economicHealth,
+    property: 'EconomicHealth_Score',
+    metric: 'score',
+    labelDigits: 0,
+    labelSuffix: '',
+    label: 'Economic health score (0-100)',
+    stops: [9, 34, 45, 55, 64, 90],
+    palette: GREEN,
+    source: 'In-house composite: business diversity, density, population growth',
+  },
 };
+
 
 /** COMM_NUM -> metric value for one sidebar data point (null values dropped). */
 export const getValuesByCommunity = (dataPointId) => {

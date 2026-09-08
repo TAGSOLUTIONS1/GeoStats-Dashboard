@@ -1,0 +1,110 @@
+{
+  "id": "income-plus-employment",
+  "label": "Income and employment index (0-100)",
+  "kind": "series",
+  "scope": "uae",
+  "unit": "score",
+  "retrieved": "2026-09-08",
+  "series": [
+    {
+      "year": 2002,
+      "value": 43
+    },
+    {
+      "year": 2003,
+      "value": 45
+    },
+    {
+      "year": 2004,
+      "value": 57
+    },
+    {
+      "year": 2005,
+      "value": 59
+    },
+    {
+      "year": 2006,
+      "value": 63
+    },
+    {
+      "year": 2007,
+      "value": 34
+    },
+    {
+      "year": 2008,
+      "value": 42
+    },
+    {
+      "year": 2009,
+      "value": 12
+    },
+    {
+      "year": 2010,
+      "value": 59
+    },
+    {
+      "year": 2011,
+      "value": 66
+    },
+    {
+      "year": 2012,
+      "value": 55
+    },
+    {
+      "year": 2013,
+      "value": 63
+    },
+    {
+      "year": 2014,
+      "value": 61
+    },
+    {
+      "year": 2015,
+      "value": 59
+    },
+    {
+      "year": 2016,
+      "value": 68
+    },
+    {
+      "year": 2017,
+      "value": 40
+    },
+    {
+      "year": 2018,
+      "value": 71
+    },
+    {
+      "year": 2019,
+      "value": 41
+    },
+    {
+      "year": 2020,
+      "value": 2
+    },
+    {
+      "year": 2021,
+      "value": 36
+    },
+    {
+      "year": 2022,
+      "value": 56
+    },
+    {
+      "year": 2023,
+      "value": 69
+    },
+    {
+      "year": 2024,
+      "value": 46
+    }
+  ],
+  "yearRange": [
+    2002,
+    2024
+  ],
+  "period": "2002 to 2024",
+  "source": "World Bank: GDP per capita growth, employment growth, unemployment rate",
+  "method": "Each of the three series is percentile-ranked against its own history (unemployment inverted so lower is better) and the three ranks averaged. The result shows which years were strong relative to the UAE's own record.",
+  "limitation": "UAE nationwide, not Dubai and not per community. GDP per capita growth is a proxy for household income growth and tracks oil revenue as much as wages. A relative index: 50 means a typical year for the UAE, not a neutral absolute."
+}

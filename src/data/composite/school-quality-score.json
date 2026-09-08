@@ -1,0 +1,2307 @@
+{
+  "id": "school-quality-score",
+  "label": "School quality score (0-100)",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "score",
+  "retrieved": "2026-09-08",
+  "source": "In-house composite of KHDA inspection ratings, school density, curricula choice and fees",
+  "provenance": "NOT a third-party score, and NOT based on test scores, graduation rates or parent reviews -- Dubai publishes DSIB inspection ratings instead.",
+  "period": "DSIB 2022/23 ratings, 2024/25 fee schedules",
+  "limitation": "Only communities that contain a school are scored -- a community with none is null, not zero, and families there may still be well served by schools next door. Fees are inverted, treating cheaper as better, which is a value judgement, not a quality measure.",
+  "method": "Each component is percentile-ranked across the communities that have it (inverted components ranked so that \"better\" is always higher). The score is the unweighted mean of the available percentiles. Communities with fewer than 2 components are null.",
+  "components": {
+    "public-school-quality-rating": {
+      "source": "KHDA DSIB inspection ratings 2022/23",
+      "inverted": false,
+      "communities": 72
+    },
+    "schools-per-sqkm": {
+      "source": "KHDA school locations",
+      "inverted": false,
+      "communities": 75
+    },
+    "curricula-choice": {
+      "source": "KHDA curricula per community",
+      "inverted": false,
+      "communities": 75
+    },
+    "average-schooling-cost": {
+      "source": "KHDA fee schedules 2024/25",
+      "inverted": true,
+      "communities": 28
+    }
+  },
+  "minComponents": 2,
+  "communitiesWithData": 75,
+  "stops": [
+    9,
+    29,
+    46,
+    54,
+    67,
+    87
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "score": 25,
+      "pct_public-school-quality-rating": 60.6,
+      "pct_schools-per-sqkm": 13.5,
+      "pct_curricula-choice": 0,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "score": 29,
+      "pct_public-school-quality-rating": 23.9,
+      "pct_schools-per-sqkm": 40.5,
+      "pct_curricula-choice": 40.5,
+      "pct_average-schooling-cost": 11.1,
+      "components": 4
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "score": 19,
+      "pct_public-school-quality-rating": 0,
+      "pct_schools-per-sqkm": 56.8,
+      "pct_curricula-choice": 1.4,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "score": 23,
+      "pct_public-school-quality-rating": 1.4,
+      "pct_schools-per-sqkm": 63.5,
+      "pct_curricula-choice": 2.7,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "score": 15,
+      "pct_public-school-quality-rating": 25.4,
+      "pct_schools-per-sqkm": 14.9,
+      "pct_curricula-choice": 4.1,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "score": 22,
+      "pct_public-school-quality-rating": 26.8,
+      "pct_schools-per-sqkm": 33.8,
+      "pct_curricula-choice": 5.4,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "score": 50,
+      "pct_public-school-quality-rating": 62,
+      "pct_schools-per-sqkm": 45.9,
+      "pct_curricula-choice": 41.9,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "score": 24,
+      "pct_public-school-quality-rating": 9.9,
+      "pct_schools-per-sqkm": 20.3,
+      "pct_curricula-choice": 43.2,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "score": 63,
+      "pct_public-school-quality-rating": 90.1,
+      "pct_schools-per-sqkm": 91.9,
+      "pct_curricula-choice": 44.6,
+      "pct_average-schooling-cost": 25.9,
+      "components": 4
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "score": 52,
+      "pct_public-school-quality-rating": 2.8,
+      "pct_schools-per-sqkm": 59.5,
+      "pct_curricula-choice": 66.2,
+      "pct_average-schooling-cost": 81.5,
+      "components": 4
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "score": 74,
+      "pct_public-school-quality-rating": 57.7,
+      "pct_schools-per-sqkm": 86.5,
+      "pct_curricula-choice": 89.2,
+      "pct_average-schooling-cost": 63,
+      "components": 4
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "score": 41,
+      "pct_public-school-quality-rating": 28.2,
+      "pct_schools-per-sqkm": 52.7,
+      "pct_curricula-choice": 67.6,
+      "pct_average-schooling-cost": 14.8,
+      "components": 4
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "score": 54,
+      "pct_public-school-quality-rating": 29.6,
+      "pct_schools-per-sqkm": 50,
+      "pct_curricula-choice": 90.5,
+      "pct_average-schooling-cost": 44.4,
+      "components": 4
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "score": 29,
+      "pct_public-school-quality-rating": 31,
+      "pct_schools-per-sqkm": 48.6,
+      "pct_curricula-choice": 6.8,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "score": 58,
+      "pct_public-school-quality-rating": 32.4,
+      "pct_schools-per-sqkm": 94.6,
+      "pct_curricula-choice": 45.9,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "score": 59,
+      "pct_public-school-quality-rating": 8.5,
+      "pct_schools-per-sqkm": 67.6,
+      "pct_curricula-choice": 68.9,
+      "pct_average-schooling-cost": 92.6,
+      "components": 4
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "score": 44,
+      "pct_public-school-quality-rating": 70.4,
+      "pct_schools-per-sqkm": 54.1,
+      "pct_curricula-choice": 8.1,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "score": 41,
+      "pct_public-school-quality-rating": 97.2,
+      "pct_schools-per-sqkm": 16.2,
+      "pct_curricula-choice": 9.5,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "score": 73,
+      "pct_public-school-quality-rating": 71.8,
+      "pct_schools-per-sqkm": 55.4,
+      "pct_curricula-choice": 91.9,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "score": 67,
+      "pct_public-school-quality-rating": 63.4,
+      "pct_schools-per-sqkm": 66.2,
+      "pct_curricula-choice": 70.3,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "score": 33,
+      "pct_public-school-quality-rating": 11.3,
+      "pct_schools-per-sqkm": 75.7,
+      "pct_curricula-choice": 10.8,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "score": 49,
+      "pct_public-school-quality-rating": 33.8,
+      "pct_schools-per-sqkm": 39.2,
+      "pct_curricula-choice": 71.6,
+      "pct_average-schooling-cost": 51.9,
+      "components": 4
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "score": 48,
+      "pct_public-school-quality-rating": 35.2,
+      "pct_schools-per-sqkm": 60.8,
+      "pct_curricula-choice": 47.3,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "score": 68,
+      "pct_public-school-quality-rating": 73.2,
+      "pct_schools-per-sqkm": 70.3,
+      "pct_curricula-choice": 73,
+      "pct_average-schooling-cost": 55.6,
+      "components": 4
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "score": 36,
+      "pct_public-school-quality-rating": 12.7,
+      "pct_schools-per-sqkm": 82.4,
+      "pct_curricula-choice": 12.2,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "score": 17,
+      "pct_public-school-quality-rating": 36.6,
+      "pct_schools-per-sqkm": 1.4,
+      "pct_curricula-choice": 13.5,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "score": 60,
+      "pct_public-school-quality-rating": 91.5,
+      "pct_schools-per-sqkm": 77,
+      "pct_curricula-choice": 48.6,
+      "pct_average-schooling-cost": 22.2,
+      "components": 4
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "score": 26,
+      "pct_public-school-quality-rating": 38,
+      "pct_schools-per-sqkm": 24.3,
+      "pct_curricula-choice": 14.9,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "score": 72,
+      "pct_public-school-quality-rating": 15.5,
+      "pct_schools-per-sqkm": 95.9,
+      "pct_curricula-choice": 97.3,
+      "pct_average-schooling-cost": 77.8,
+      "components": 4
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "score": 19,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": 21.6,
+      "pct_curricula-choice": 16.2,
+      "pct_average-schooling-cost": null,
+      "components": 2
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "score": 34,
+      "pct_public-school-quality-rating": 74.6,
+      "pct_schools-per-sqkm": 6.8,
+      "pct_curricula-choice": 50,
+      "pct_average-schooling-cost": 3.7,
+      "components": 4
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "score": 27,
+      "pct_public-school-quality-rating": 39.4,
+      "pct_schools-per-sqkm": 4.1,
+      "pct_curricula-choice": 17.6,
+      "pct_average-schooling-cost": 48.1,
+      "components": 4
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "score": 9,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": 0,
+      "pct_curricula-choice": 18.9,
+      "pct_average-schooling-cost": null,
+      "components": 2
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "score": 67,
+      "pct_public-school-quality-rating": 76.1,
+      "pct_schools-per-sqkm": 73,
+      "pct_curricula-choice": 51.4,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "score": 27,
+      "pct_public-school-quality-rating": 40.8,
+      "pct_schools-per-sqkm": 18.9,
+      "pct_curricula-choice": 20.3,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "score": 68,
+      "pct_public-school-quality-rating": 87.3,
+      "pct_schools-per-sqkm": 62.2,
+      "pct_curricula-choice": 93.2,
+      "pct_average-schooling-cost": 29.6,
+      "components": 4
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "score": 82,
+      "pct_public-school-quality-rating": 88.7,
+      "pct_schools-per-sqkm": 98.6,
+      "pct_curricula-choice": 74.3,
+      "pct_average-schooling-cost": 66.7,
+      "components": 4
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "score": 12,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": 2.7,
+      "pct_curricula-choice": 21.6,
+      "pct_average-schooling-cost": null,
+      "components": 2
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "score": 46,
+      "pct_public-school-quality-rating": 42.3,
+      "pct_schools-per-sqkm": 43.2,
+      "pct_curricula-choice": 52.7,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "score": 70,
+      "pct_public-school-quality-rating": 43.7,
+      "pct_schools-per-sqkm": 87.8,
+      "pct_curricula-choice": 75.7,
+      "pct_average-schooling-cost": 74.1,
+      "components": 4
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "score": 48,
+      "pct_public-school-quality-rating": 64.8,
+      "pct_schools-per-sqkm": 51.4,
+      "pct_curricula-choice": 77,
+      "pct_average-schooling-cost": 0,
+      "components": 4
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "score": 27,
+      "pct_public-school-quality-rating": 45.1,
+      "pct_schools-per-sqkm": 12.2,
+      "pct_curricula-choice": 23,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "score": 75,
+      "pct_public-school-quality-rating": 66.2,
+      "pct_schools-per-sqkm": 79.7,
+      "pct_curricula-choice": 78.4,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "score": 63,
+      "pct_public-school-quality-rating": 59.2,
+      "pct_schools-per-sqkm": 81.1,
+      "pct_curricula-choice": 79.7,
+      "pct_average-schooling-cost": 33.3,
+      "components": 4
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "score": 34,
+      "pct_public-school-quality-rating": 46.5,
+      "pct_schools-per-sqkm": 31.1,
+      "pct_curricula-choice": 24.3,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "score": 69,
+      "pct_public-school-quality-rating": 7,
+      "pct_schools-per-sqkm": 90.5,
+      "pct_curricula-choice": 81.1,
+      "pct_average-schooling-cost": 96.3,
+      "components": 4
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "score": 66,
+      "pct_public-school-quality-rating": 16.9,
+      "pct_schools-per-sqkm": 93.2,
+      "pct_curricula-choice": 82.4,
+      "pct_average-schooling-cost": 70.4,
+      "components": 4
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "score": 61,
+      "pct_public-school-quality-rating": 22.5,
+      "pct_schools-per-sqkm": 78.4,
+      "pct_curricula-choice": 83.8,
+      "pct_average-schooling-cost": 59.3,
+      "components": 4
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "score": 49,
+      "pct_public-school-quality-rating": 47.9,
+      "pct_schools-per-sqkm": 74.3,
+      "pct_curricula-choice": 25.7,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "score": 56,
+      "pct_public-school-quality-rating": 77.5,
+      "pct_schools-per-sqkm": 64.9,
+      "pct_curricula-choice": 27,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "score": 42,
+      "pct_public-school-quality-rating": 49.3,
+      "pct_schools-per-sqkm": 47.3,
+      "pct_curricula-choice": 28.4,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "score": 74,
+      "pct_public-school-quality-rating": 14.1,
+      "pct_schools-per-sqkm": 89.2,
+      "pct_curricula-choice": 94.6,
+      "pct_average-schooling-cost": 100,
+      "components": 4
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "score": 74,
+      "pct_public-school-quality-rating": 50.7,
+      "pct_schools-per-sqkm": 85.1,
+      "pct_curricula-choice": 85.1,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "score": 47,
+      "pct_public-school-quality-rating": 4.2,
+      "pct_schools-per-sqkm": 83.8,
+      "pct_curricula-choice": 54.1,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "score": 59,
+      "pct_public-school-quality-rating": 52.1,
+      "pct_schools-per-sqkm": 44.6,
+      "pct_curricula-choice": 98.6,
+      "pct_average-schooling-cost": 40.7,
+      "components": 4
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "score": 48,
+      "pct_public-school-quality-rating": 78.9,
+      "pct_schools-per-sqkm": 35.1,
+      "pct_curricula-choice": 29.7,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "score": 46,
+      "pct_public-school-quality-rating": 98.6,
+      "pct_schools-per-sqkm": 9.5,
+      "pct_curricula-choice": 31.1,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "score": 40,
+      "pct_public-school-quality-rating": 80.3,
+      "pct_schools-per-sqkm": 8.1,
+      "pct_curricula-choice": 32.4,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "score": 52,
+      "pct_public-school-quality-rating": 53.5,
+      "pct_schools-per-sqkm": 68.9,
+      "pct_curricula-choice": 33.8,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "score": 87,
+      "pct_public-school-quality-rating": 93,
+      "pct_schools-per-sqkm": 71.6,
+      "pct_curricula-choice": 95.9,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "score": 64,
+      "pct_public-school-quality-rating": 94.4,
+      "pct_schools-per-sqkm": 41.9,
+      "pct_curricula-choice": 55.4,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "score": 45,
+      "pct_public-school-quality-rating": 81.7,
+      "pct_schools-per-sqkm": 17.6,
+      "pct_curricula-choice": 35.1,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "score": 23,
+      "pct_public-school-quality-rating": 5.6,
+      "pct_schools-per-sqkm": 25.7,
+      "pct_curricula-choice": 36.5,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "score": 43,
+      "pct_public-school-quality-rating": 67.6,
+      "pct_schools-per-sqkm": 5.4,
+      "pct_curricula-choice": 56.8,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "score": 42,
+      "pct_public-school-quality-rating": 100,
+      "pct_schools-per-sqkm": 23,
+      "pct_curricula-choice": 37.8,
+      "pct_average-schooling-cost": 7.4,
+      "components": 4
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "score": 78,
+      "pct_public-school-quality-rating": 21.1,
+      "pct_schools-per-sqkm": 100,
+      "pct_curricula-choice": 100,
+      "pct_average-schooling-cost": 88.9,
+      "components": 4
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "score": 56,
+      "pct_public-school-quality-rating": 83.1,
+      "pct_schools-per-sqkm": 27,
+      "pct_curricula-choice": 58.1,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "score": 41,
+      "pct_public-school-quality-rating": 54.9,
+      "pct_schools-per-sqkm": 28.4,
+      "pct_curricula-choice": 39.2,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "score": 50,
+      "pct_public-school-quality-rating": 84.5,
+      "pct_schools-per-sqkm": 10.8,
+      "pct_curricula-choice": 86.5,
+      "pct_average-schooling-cost": 18.5,
+      "components": 4
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "score": 53,
+      "pct_public-school-quality-rating": 69,
+      "pct_schools-per-sqkm": 29.7,
+      "pct_curricula-choice": 59.5,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "score": 66,
+      "pct_public-school-quality-rating": 19.7,
+      "pct_schools-per-sqkm": 97.3,
+      "pct_curricula-choice": 60.8,
+      "pct_average-schooling-cost": 85.2,
+      "components": 4
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "score": 46,
+      "pct_public-school-quality-rating": 18.3,
+      "pct_schools-per-sqkm": 58.1,
+      "pct_curricula-choice": 62.2,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "score": 62,
+      "pct_public-school-quality-rating": 85.9,
+      "pct_schools-per-sqkm": 37.8,
+      "pct_curricula-choice": 63.5,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "score": null,
+      "pct_public-school-quality-rating": null,
+      "pct_schools-per-sqkm": null,
+      "pct_curricula-choice": null,
+      "pct_average-schooling-cost": null,
+      "components": 0
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "score": 73,
+      "pct_public-school-quality-rating": 95.8,
+      "pct_schools-per-sqkm": 36.5,
+      "pct_curricula-choice": 87.8,
+      "pct_average-schooling-cost": null,
+      "components": 3
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "score": 48,
+      "pct_public-school-quality-rating": 56.3,
+      "pct_schools-per-sqkm": 32.4,
+      "pct_curricula-choice": 64.9,
+      "pct_average-schooling-cost": 37,
+      "components": 4
+    }
+  ]
+}

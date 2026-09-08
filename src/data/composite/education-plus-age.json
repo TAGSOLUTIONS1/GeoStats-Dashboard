@@ -1,0 +1,31 @@
+{
+  "id": "education-plus-age",
+  "label": "Education and age profile (0-100)",
+  "kind": "value",
+  "scope": "uae",
+  "unit": "score",
+  "retrieved": "2026-09-08",
+  "value": 73.9,
+  "period": "Tertiary enrolment 2024, age structure 2019",
+  "source": "World Bank tertiary enrolment + Dubai Statistics Center age distribution",
+  "method": "The mean of two percentages: gross tertiary enrolment ratio, and the share of the population aged 15-64. Both are already 0-100 measures, so they are averaged directly rather than percentile-ranked.",
+  "note": "Tertiary enrolment 63.7% (2024); working-age 15-64 share 84.1%, median age 32.1 (2019).",
+  "limitation": "UAE / Dubai-wide, so it cannot vary by community. Dubai's working-age share is unusually high because of labour migration, not because of local ageing patterns, so this reads very differently from the same index elsewhere. The gross enrolment ratio can exceed the population it describes and is not a measure of degrees held.",
+  "inputs": {
+    "tertiaryEnrolment": {
+      "year": 2024,
+      "value": 63.7384451086316,
+      "source": "World Bank"
+    },
+    "workingAgeShare": {
+      "year": 2019,
+      "value": 84.1,
+      "source": "Dubai Statistics Center"
+    },
+    "medianAge": {
+      "year": 2019,
+      "value": 32.1,
+      "source": "Dubai Statistics Center"
+    }
+  }
+}

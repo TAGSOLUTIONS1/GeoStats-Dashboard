@@ -1,0 +1,1154 @@
+{
+  "id": "overvalued-percent",
+  "label": "Over / undervalued vs long-run price-to-income (%)",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "overvaluedPct",
+  "retrieved": "2026-09-08",
+  "source": "Derived: per-community price per m² history (DLD-derived) / UAE GDP per capita (World Bank)",
+  "period": "2010 to 2025, community-level monthly price history",
+  "method": "Each community's monthly average price per m² is divided by UAE GDP per capita for that year to give a price-to-income ratio. The mean ratio over the two most recent years is compared with the mean over that community's earlier history. Positive = currently expensive relative to its own long-run relationship with income; negative = cheap relative to it.",
+  "requires": "at least 36 monthly observations spanning 6 or more distinct years",
+  "limitation": "This measures a community against ITS OWN history, not against other communities or any external fair value. A long-established district and a newly built one are not comparable on this metric. The income denominator is Dubai-wide, so it shifts every community equally. UAE GDP per capita (World Bank, 2024) converted at 3.6725 AED/USD. This is national output per person, not median household income, and understates real household earning power -- use for relative ranking between communities, not as an absolute affordability figure.",
+  "communitiesWithData": 102,
+  "stops": [
+    -38,
+    3,
+    24,
+    40,
+    66,
+    182
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "overvaluedPct": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "overvaluedPct": -5.8
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "overvaluedPct": 69.4
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "overvaluedPct": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "overvaluedPct": 32.7
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "overvaluedPct": -13.3
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "overvaluedPct": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "overvaluedPct": 17.1
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "overvaluedPct": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "overvaluedPct": 83.7
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "overvaluedPct": 8.2
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "overvaluedPct": 53.3
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "overvaluedPct": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "overvaluedPct": 62.1
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "overvaluedPct": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "overvaluedPct": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "overvaluedPct": 29.4
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "overvaluedPct": -7.4
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "overvaluedPct": null
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "overvaluedPct": 29.6
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "overvaluedPct": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "overvaluedPct": 5.1
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "overvaluedPct": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "overvaluedPct": 31.6
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "overvaluedPct": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "overvaluedPct": 37.5
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "overvaluedPct": 37.7
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "overvaluedPct": 3.3
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "overvaluedPct": 4.6
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "overvaluedPct": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "overvaluedPct": 68.4
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "overvaluedPct": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "overvaluedPct": null
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "overvaluedPct": 32.7
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "overvaluedPct": 84.7
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "overvaluedPct": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "overvaluedPct": 32.5
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "overvaluedPct": 10.9
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "overvaluedPct": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "overvaluedPct": 16.1
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "overvaluedPct": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "overvaluedPct": -2
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "overvaluedPct": 44.6
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "overvaluedPct": 32.7
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "overvaluedPct": 7
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "overvaluedPct": null
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "overvaluedPct": 48
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "overvaluedPct": 71.6
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "overvaluedPct": 78.2
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "overvaluedPct": -3.8
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "overvaluedPct": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "overvaluedPct": null
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "overvaluedPct": -14.1
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "overvaluedPct": 70.6
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "overvaluedPct": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "overvaluedPct": 5.4
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "overvaluedPct": -15.9
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "overvaluedPct": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "overvaluedPct": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "overvaluedPct": 57.6
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "overvaluedPct": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "overvaluedPct": 77.6
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "overvaluedPct": 31.6
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "overvaluedPct": -21.2
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "overvaluedPct": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "overvaluedPct": -5.8
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "overvaluedPct": null
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "overvaluedPct": 62.7
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "overvaluedPct": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "overvaluedPct": 68.6
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "overvaluedPct": 65.9
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "overvaluedPct": 6.6
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "overvaluedPct": -18.9
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "overvaluedPct": null
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "overvaluedPct": 50.4
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "overvaluedPct": 58.1
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "overvaluedPct": null
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "overvaluedPct": 36.7
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "overvaluedPct": 73.1
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "overvaluedPct": null
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "overvaluedPct": 27.7
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "overvaluedPct": 57
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "overvaluedPct": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "overvaluedPct": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "overvaluedPct": -2.8
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "overvaluedPct": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "overvaluedPct": 34.7
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "overvaluedPct": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "overvaluedPct": 17
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "overvaluedPct": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "overvaluedPct": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "overvaluedPct": null
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "overvaluedPct": 29.1
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "overvaluedPct": 6
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "overvaluedPct": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "overvaluedPct": 33.6
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "overvaluedPct": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "overvaluedPct": 121.2
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "overvaluedPct": 44.2
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "overvaluedPct": -18.4
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "overvaluedPct": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "overvaluedPct": null
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "overvaluedPct": 22.8
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "overvaluedPct": 21.4
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "overvaluedPct": 39.7
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "overvaluedPct": -22.9
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "overvaluedPct": 28.1
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "overvaluedPct": 30.1
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "overvaluedPct": 44.7
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "overvaluedPct": 26.6
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "overvaluedPct": 0.1
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "overvaluedPct": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "overvaluedPct": 50.7
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "overvaluedPct": 78.1
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "overvaluedPct": 55.6
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "overvaluedPct": null
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "overvaluedPct": -5.8
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "overvaluedPct": null
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "overvaluedPct": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "overvaluedPct": -37.6
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "overvaluedPct": 40.2
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "overvaluedPct": -7.6
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "overvaluedPct": 69
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "overvaluedPct": null
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "overvaluedPct": 47.8
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "overvaluedPct": 0.8
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "overvaluedPct": 40.4
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "overvaluedPct": 82.1
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "overvaluedPct": 66
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "overvaluedPct": 23.7
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "overvaluedPct": -20.8
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "overvaluedPct": 11.6
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "overvaluedPct": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "overvaluedPct": 20.5
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "overvaluedPct": -12.5
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "overvaluedPct": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "overvaluedPct": 27.1
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "overvaluedPct": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "overvaluedPct": 9.7
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "overvaluedPct": 13.3
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "overvaluedPct": 33.5
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "overvaluedPct": 68.4
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "overvaluedPct": 23.9
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "overvaluedPct": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "overvaluedPct": 182.4
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "overvaluedPct": null
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "overvaluedPct": 18
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "overvaluedPct": 52.2
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "overvaluedPct": null
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "overvaluedPct": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "overvaluedPct": 69.3
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "overvaluedPct": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "overvaluedPct": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "overvaluedPct": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "overvaluedPct": 119.1
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "overvaluedPct": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "overvaluedPct": null
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "overvaluedPct": null
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "overvaluedPct": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "overvaluedPct": 47.3
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "overvaluedPct": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "overvaluedPct": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "overvaluedPct": 89.6
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "overvaluedPct": 44.9
+    }
+  ]
+}

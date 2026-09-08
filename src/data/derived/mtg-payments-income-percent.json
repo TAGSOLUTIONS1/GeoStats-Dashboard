@@ -1,0 +1,1155 @@
+{
+  "id": "mtg-payments-income-percent",
+  "label": "Mortgage payments as % of income",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "pctOfIncome",
+  "retrieved": "2026-09-08",
+  "source": "Derived: Emirates NBD mortgage terms on PF Feb-2026 asking prices / UAE GDP per capita",
+  "sourceUrl": "https://www.emiratesnbd.com/en/loans/home-loans",
+  "period": "2026 snapshot (prices Feb 2026, rate Jul 2026, income 2024)",
+  "method": "Annualised mortgage payment (principal and interest, 80% LTV over 25 years at 3.99% p.a.) as a percentage of AED 184,629 annual income.",
+  "incomeProxyAed": 184629,
+  "limitation": "Values above 100% mean the modelled payment exceeds the proxy income entirely, which reflects the proxy more than the community. UAE GDP per capita (World Bank, 2024) converted at 3.6725 AED/USD. This is national output per person, not median household income, and understates real household earning power -- use for relative ranking between communities, not as an absolute affordability figure.",
+  "communitiesWithData": 34,
+  "stops": [
+    17.3,
+    32.9,
+    42.6,
+    60.3,
+    85,
+    150.7
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "pctOfIncome": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "pctOfIncome": 19.5
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "pctOfIncome": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "pctOfIncome": 77.5
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "pctOfIncome": null
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "pctOfIncome": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "pctOfIncome": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "pctOfIncome": null
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "pctOfIncome": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "pctOfIncome": 36.9
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "pctOfIncome": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "pctOfIncome": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "pctOfIncome": null
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "pctOfIncome": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "pctOfIncome": null
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "pctOfIncome": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "pctOfIncome": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "pctOfIncome": null
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "pctOfIncome": null
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "pctOfIncome": null
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "pctOfIncome": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "pctOfIncome": 34.3
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "pctOfIncome": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "pctOfIncome": 77.9
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "pctOfIncome": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "pctOfIncome": null
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "pctOfIncome": 42.6
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "pctOfIncome": null
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "pctOfIncome": null
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "pctOfIncome": 25.1
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "pctOfIncome": 112.4
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "pctOfIncome": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "pctOfIncome": null
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "pctOfIncome": 98.3
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "pctOfIncome": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "pctOfIncome": null
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "pctOfIncome": null
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "pctOfIncome": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "pctOfIncome": null
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "pctOfIncome": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "pctOfIncome": 85
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "pctOfIncome": null
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "pctOfIncome": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "pctOfIncome": 37
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "pctOfIncome": null
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "pctOfIncome": null
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "pctOfIncome": 95.7
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "pctOfIncome": 150.7
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "pctOfIncome": null
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "pctOfIncome": 43
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "pctOfIncome": null
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "pctOfIncome": null
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "pctOfIncome": null
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "pctOfIncome": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "pctOfIncome": null
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "pctOfIncome": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "pctOfIncome": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "pctOfIncome": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "pctOfIncome": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "pctOfIncome": null
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "pctOfIncome": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "pctOfIncome": 27.2
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "pctOfIncome": null
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "pctOfIncome": 37
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "pctOfIncome": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "pctOfIncome": null
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "pctOfIncome": 53.5
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "pctOfIncome": 90.5
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "pctOfIncome": 61.6
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "pctOfIncome": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "pctOfIncome": null
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "pctOfIncome": 37
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "pctOfIncome": 44.6
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "pctOfIncome": 49.9
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "pctOfIncome": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "pctOfIncome": null
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "pctOfIncome": 82.3
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "pctOfIncome": 74
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "pctOfIncome": 121.5
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "pctOfIncome": null
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "pctOfIncome": 17.3
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "pctOfIncome": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "pctOfIncome": 32.9
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "pctOfIncome": null
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "pctOfIncome": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "pctOfIncome": 28.5
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "pctOfIncome": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "pctOfIncome": null
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "pctOfIncome": 60.3
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "pctOfIncome": 52
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "pctOfIncome": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "pctOfIncome": null
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "pctOfIncome": 48.3
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "pctOfIncome": null
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "pctOfIncome": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "pctOfIncome": 61.7
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "pctOfIncome": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "pctOfIncome": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "pctOfIncome": null
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "pctOfIncome": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "pctOfIncome": null
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "pctOfIncome": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "pctOfIncome": 30.2
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "pctOfIncome": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "pctOfIncome": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "pctOfIncome": null
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "pctOfIncome": 40.5
+    }
+  ]
+}

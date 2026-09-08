@@ -1,0 +1,2076 @@
+{
+  "id": "economic-health-score",
+  "label": "Economic health score (0-100)",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "score",
+  "retrieved": "2026-09-08",
+  "source": "In-house composite of local business diversity, business density and population growth",
+  "provenance": "NOT a third-party score. Computed from data verified elsewhere in this project.",
+  "period": "OSM snapshot 2026, population 2011-2022",
+  "limitation": "Business counts come from OpenStreetMap, whose coverage is richer in central districts than in outlying ones, so this favours established commercial areas. It captures local economic ACTIVITY, not resident incomes or employment -- no per-community income or unemployment data exists for Dubai.",
+  "method": "Each component is percentile-ranked across the communities that have it (inverted components ranked so that \"better\" is always higher). The score is the unweighted mean of the available percentiles. Communities with fewer than 2 components are null.",
+  "components": {
+    "job-market-diversity": {
+      "source": "OpenStreetMap business categories",
+      "inverted": false,
+      "communities": 96
+    },
+    "business-count": {
+      "source": "OpenStreetMap shop/office tags",
+      "inverted": false,
+      "communities": 186
+    },
+    "population-growth": {
+      "source": "Dubai Statistics Center 2011-2022",
+      "inverted": false,
+      "communities": 188
+    }
+  },
+  "minComponents": 2,
+  "communitiesWithData": 172,
+  "stops": [
+    9,
+    34,
+    45,
+    55,
+    64,
+    90
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "score": 64,
+      "pct_job-market-diversity": 66.3,
+      "pct_business-count": 72.4,
+      "pct_population-growth": 53.5,
+      "components": 3
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "score": 33,
+      "pct_job-market-diversity": 14.7,
+      "pct_business-count": 54.1,
+      "pct_population-growth": 29.4,
+      "components": 3
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "score": 14,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 22.7,
+      "pct_population-growth": 5.3,
+      "components": 2
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "score": 65,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 46.5,
+      "pct_population-growth": 83.4,
+      "components": 2
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "score": 27,
+      "pct_job-market-diversity": 9.5,
+      "pct_business-count": 71.4,
+      "pct_population-growth": 1.6,
+      "components": 3
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 17.3,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "score": 66,
+      "pct_job-market-diversity": 72.6,
+      "pct_business-count": 96.2,
+      "pct_population-growth": 30.5,
+      "components": 3
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 2.7,
+      "components": 1
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "score": 54,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 23.2,
+      "pct_population-growth": 85.6,
+      "components": 2
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "score": 69,
+      "pct_job-market-diversity": 76.8,
+      "pct_business-count": 69.7,
+      "pct_population-growth": 59.4,
+      "components": 3
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "score": 65,
+      "pct_job-market-diversity": 89.5,
+      "pct_business-count": 89.7,
+      "pct_population-growth": 16.6,
+      "components": 3
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "score": 33,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 17.8,
+      "pct_population-growth": 48.1,
+      "components": 2
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "score": 48,
+      "pct_job-market-diversity": 61.1,
+      "pct_business-count": 71.9,
+      "pct_population-growth": 12.3,
+      "components": 3
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "score": 25,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 18.4,
+      "pct_population-growth": 31,
+      "components": 2
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "score": 63,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 27,
+      "pct_population-growth": 98.4,
+      "components": 2
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "score": 24,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 0,
+      "pct_population-growth": 47.1,
+      "components": 2
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "score": 45,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 0.5,
+      "pct_population-growth": 89.8,
+      "components": 2
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "score": 56,
+      "pct_job-market-diversity": 43.2,
+      "pct_business-count": 61.1,
+      "pct_population-growth": 64.7,
+      "components": 3
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 5.9,
+      "components": 1
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "score": 57,
+      "pct_job-market-diversity": 28.4,
+      "pct_business-count": 74.1,
+      "pct_population-growth": 68.4,
+      "components": 3
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "score": 52,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 12.4,
+      "pct_population-growth": 92,
+      "components": 2
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "score": 60,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 37.8,
+      "pct_population-growth": 81.8,
+      "components": 2
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "score": 34,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 1.1,
+      "pct_population-growth": 67.4,
+      "components": 2
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "score": 34,
+      "pct_job-market-diversity": 31.6,
+      "pct_business-count": 49.2,
+      "pct_population-growth": 20.3,
+      "components": 3
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "score": 45,
+      "pct_job-market-diversity": 48.4,
+      "pct_business-count": 73.5,
+      "pct_population-growth": 13.4,
+      "components": 3
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "score": 75,
+      "pct_job-market-diversity": 87.4,
+      "pct_business-count": 94.6,
+      "pct_population-growth": 43.9,
+      "components": 3
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "score": 63,
+      "pct_job-market-diversity": 82.1,
+      "pct_business-count": 82.7,
+      "pct_population-growth": 23,
+      "components": 3
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "score": 34,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 13,
+      "pct_population-growth": 54.5,
+      "components": 2
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 23.8,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "score": 19,
+      "pct_job-market-diversity": 3.2,
+      "pct_business-count": 49.7,
+      "pct_population-growth": 4.8,
+      "components": 3
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "score": 26,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 18.9,
+      "pct_population-growth": 32.1,
+      "components": 2
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "score": 56,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 38.4,
+      "pct_population-growth": 73.8,
+      "components": 2
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "score": 16,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 24.3,
+      "pct_population-growth": 8.6,
+      "components": 2
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "score": 61,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 47,
+      "pct_population-growth": 74.9,
+      "components": 2
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "score": 67,
+      "pct_job-market-diversity": 64.2,
+      "pct_business-count": 76.8,
+      "pct_population-growth": 58.8,
+      "components": 3
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "score": 56,
+      "pct_job-market-diversity": 85.3,
+      "pct_business-count": 58.9,
+      "pct_population-growth": 22.5,
+      "components": 3
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "score": 27,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 40.5,
+      "pct_population-growth": 13.9,
+      "components": 2
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "score": 20,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 31.4,
+      "pct_population-growth": 9.1,
+      "components": 2
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "score": 35,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 13.5,
+      "pct_population-growth": 56.1,
+      "components": 2
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "score": 34,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 34.6,
+      "pct_population-growth": 32.6,
+      "components": 2
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "score": 24,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 1.6,
+      "pct_population-growth": 46.5,
+      "components": 2
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "score": 39,
+      "pct_job-market-diversity": 4.2,
+      "pct_business-count": 56.8,
+      "pct_population-growth": 55.1,
+      "components": 3
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 87.7,
+      "components": 1
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "score": 70,
+      "pct_job-market-diversity": 94.7,
+      "pct_business-count": 99.5,
+      "pct_population-growth": 16,
+      "components": 3
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "score": 25,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 8.6,
+      "pct_population-growth": 42.2,
+      "components": 2
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "score": 51,
+      "pct_job-market-diversity": 50.5,
+      "pct_business-count": 79.5,
+      "pct_population-growth": 24.1,
+      "components": 3
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "score": 27,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 27.6,
+      "pct_population-growth": 25.7,
+      "components": 2
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 97.3,
+      "components": 1
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "score": 31,
+      "pct_job-market-diversity": 0,
+      "pct_business-count": 61.6,
+      "pct_population-growth": null,
+      "components": 2
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "score": 60,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 19.5,
+      "pct_population-growth": 100,
+      "components": 2
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "score": 65,
+      "pct_job-market-diversity": 44.2,
+      "pct_business-count": 91.9,
+      "pct_population-growth": 59.9,
+      "components": 3
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "score": 48,
+      "pct_job-market-diversity": 26.3,
+      "pct_business-count": 77.3,
+      "pct_population-growth": 39.6,
+      "components": 3
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 2.2,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "score": 49,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 20,
+      "pct_population-growth": 77,
+      "components": 2
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 31.9,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "score": 59,
+      "pct_job-market-diversity": 62.1,
+      "pct_business-count": 64.9,
+      "pct_population-growth": 51.3,
+      "components": 3
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 90.9,
+      "components": 1
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "score": 68,
+      "pct_job-market-diversity": 74.7,
+      "pct_business-count": 98.4,
+      "pct_population-growth": 29.9,
+      "components": 3
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "score": 79,
+      "pct_job-market-diversity": 65.3,
+      "pct_business-count": 88.6,
+      "pct_population-growth": 84,
+      "components": 3
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "score": 64,
+      "pct_job-market-diversity": 45.3,
+      "pct_business-count": 74.6,
+      "pct_population-growth": 71.1,
+      "components": 3
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 32.4,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "score": 11,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 2.7,
+      "pct_population-growth": 19.8,
+      "components": 2
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "score": 40,
+      "pct_job-market-diversity": 47.4,
+      "pct_business-count": 56.2,
+      "pct_population-growth": 17.1,
+      "components": 3
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "score": 62,
+      "pct_job-market-diversity": 96.8,
+      "pct_business-count": 82.2,
+      "pct_population-growth": 7,
+      "components": 3
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "score": 41,
+      "pct_job-market-diversity": 25.3,
+      "pct_business-count": 70.3,
+      "pct_population-growth": 27.8,
+      "components": 3
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 93.6,
+      "components": 1
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "score": 51,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 3.2,
+      "pct_population-growth": 98.9,
+      "components": 2
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "score": 23,
+      "pct_job-market-diversity": 5.3,
+      "pct_business-count": 50.8,
+      "pct_population-growth": 12.8,
+      "components": 3
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 34.2,
+      "components": 1
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "score": 31,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 44.3,
+      "pct_population-growth": 17.6,
+      "components": 2
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "score": 47,
+      "pct_job-market-diversity": 12.6,
+      "pct_business-count": 62.7,
+      "pct_population-growth": 66.8,
+      "components": 3
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 34.8,
+      "components": 1
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "score": 54,
+      "pct_job-market-diversity": 60,
+      "pct_business-count": 65.9,
+      "pct_population-growth": 35.8,
+      "components": 3
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "score": 28,
+      "pct_job-market-diversity": 16.8,
+      "pct_business-count": 63.2,
+      "pct_population-growth": 3.7,
+      "components": 3
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "score": 38,
+      "pct_job-market-diversity": 10.5,
+      "pct_business-count": 51.9,
+      "pct_population-growth": 50.3,
+      "components": 3
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "score": 59,
+      "pct_job-market-diversity": 68.4,
+      "pct_business-count": 96.8,
+      "pct_population-growth": 10.7,
+      "components": 3
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 33.7,
+      "components": 1
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "score": 49,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 9.2,
+      "pct_population-growth": 88.2,
+      "components": 2
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "score": 54,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 28.1,
+      "pct_population-growth": 80.2,
+      "components": 2
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "score": 41,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 3.8,
+      "pct_population-growth": 77.5,
+      "components": 2
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "score": 54,
+      "pct_job-market-diversity": 70.5,
+      "pct_business-count": 66.5,
+      "pct_population-growth": 24.6,
+      "components": 3
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "score": 30,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 44.9,
+      "pct_population-growth": 14.4,
+      "components": 2
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "score": 42,
+      "pct_job-market-diversity": 27.4,
+      "pct_business-count": 67,
+      "pct_population-growth": 31.6,
+      "components": 3
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "score": 32,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 36.2,
+      "pct_population-growth": 27.3,
+      "components": 2
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "score": 60,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 47.6,
+      "pct_population-growth": 72.2,
+      "components": 2
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "score": 54,
+      "pct_job-market-diversity": 18.9,
+      "pct_business-count": 76.2,
+      "pct_population-growth": 65.8,
+      "components": 3
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 4.3,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "score": 61,
+      "pct_job-market-diversity": 36.8,
+      "pct_business-count": 53,
+      "pct_population-growth": 92.5,
+      "components": 3
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 4.9,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 5.4,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "score": 46,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 28.6,
+      "pct_population-growth": 64.2,
+      "components": 2
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "score": 43,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 9.7,
+      "pct_population-growth": 75.9,
+      "components": 2
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "score": 79,
+      "pct_job-market-diversity": 80,
+      "pct_business-count": 95.7,
+      "pct_population-growth": 62,
+      "components": 3
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "score": 55,
+      "pct_job-market-diversity": 46.3,
+      "pct_business-count": 54.6,
+      "pct_population-growth": 63.6,
+      "components": 3
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "score": 41,
+      "pct_job-market-diversity": 35.8,
+      "pct_business-count": 83.2,
+      "pct_population-growth": 4.3,
+      "components": 3
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "score": 44,
+      "pct_job-market-diversity": 30.5,
+      "pct_business-count": 90.8,
+      "pct_population-growth": 9.6,
+      "components": 3
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "score": 55,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 29.2,
+      "pct_population-growth": 81.3,
+      "components": 2
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "score": 57,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 35.1,
+      "pct_population-growth": 78.6,
+      "components": 2
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "score": 29,
+      "pct_job-market-diversity": 21.1,
+      "pct_business-count": 55.1,
+      "pct_population-growth": 11.2,
+      "components": 3
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "score": 72,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 45.4,
+      "pct_population-growth": 97.9,
+      "components": 2
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "score": 42,
+      "pct_job-market-diversity": 20,
+      "pct_business-count": 81.6,
+      "pct_population-growth": 25.1,
+      "components": 3
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "score": 55,
+      "pct_job-market-diversity": 52.6,
+      "pct_business-count": 85.4,
+      "pct_population-growth": 26.7,
+      "components": 3
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 29.7,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "score": 62,
+      "pct_job-market-diversity": 91.6,
+      "pct_business-count": 83.8,
+      "pct_population-growth": 10.2,
+      "components": 3
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "score": 41,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 42.7,
+      "pct_population-growth": 40.1,
+      "components": 2
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 94.7,
+      "components": 1
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "score": 35,
+      "pct_job-market-diversity": 7.4,
+      "pct_business-count": 57.8,
+      "pct_population-growth": 39,
+      "components": 3
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 89.3,
+      "components": 1
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "score": 80,
+      "pct_job-market-diversity": 97.9,
+      "pct_business-count": 97.3,
+      "pct_population-growth": 46,
+      "components": 3
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "score": 33,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 24.9,
+      "pct_population-growth": 41.2,
+      "components": 2
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 95.7,
+      "components": 1
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 10.3,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "score": 35,
+      "pct_job-market-diversity": 17.9,
+      "pct_business-count": 52.4,
+      "pct_population-growth": null,
+      "components": 2
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "score": 11,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 20.5,
+      "pct_population-growth": 2.1,
+      "components": 2
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "score": 60,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 25.4,
+      "pct_population-growth": 94.1,
+      "components": 2
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "score": 48,
+      "pct_job-market-diversity": 42.1,
+      "pct_business-count": 94.1,
+      "pct_population-growth": 7.5,
+      "components": 3
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "score": 48,
+      "pct_job-market-diversity": 23.2,
+      "pct_business-count": 75.1,
+      "pct_population-growth": 44.9,
+      "components": 3
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "score": 52,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 41.1,
+      "pct_population-growth": 63.1,
+      "components": 2
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "score": 52,
+      "pct_job-market-diversity": 54.7,
+      "pct_business-count": 60.5,
+      "pct_population-growth": 40.6,
+      "components": 3
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "score": 38,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 14.1,
+      "pct_population-growth": 62.6,
+      "components": 2
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "score": 50,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 14.6,
+      "pct_population-growth": 85,
+      "components": 2
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "score": 34,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 15.1,
+      "pct_population-growth": 52.9,
+      "components": 2
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "score": 59,
+      "pct_job-market-diversity": 57.9,
+      "pct_business-count": 100,
+      "pct_population-growth": 18.2,
+      "components": 3
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "score": 57,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 36.8,
+      "pct_population-growth": 76.5,
+      "components": 2
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "score": 53,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 48.1,
+      "pct_population-growth": 57.8,
+      "components": 2
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 1.1,
+      "components": 1
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "score": 58,
+      "pct_job-market-diversity": 63.2,
+      "pct_business-count": 91.4,
+      "pct_population-growth": 18.7,
+      "components": 3
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "score": 60,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 33,
+      "pct_population-growth": 86.6,
+      "components": 2
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 0.5,
+      "components": 1
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "score": 67,
+      "pct_job-market-diversity": 90.5,
+      "pct_business-count": 67.6,
+      "pct_population-growth": 44.4,
+      "components": 3
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "score": 63,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 38.9,
+      "pct_population-growth": 87.2,
+      "components": 2
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "score": 45,
+      "pct_job-market-diversity": 22.1,
+      "pct_business-count": 65.4,
+      "pct_population-growth": 48.7,
+      "components": 3
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "score": 40,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 21.1,
+      "pct_population-growth": 58.3,
+      "components": 2
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "score": 70,
+      "pct_job-market-diversity": 78.9,
+      "pct_business-count": 95.1,
+      "pct_population-growth": 36.4,
+      "components": 3
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "score": 90,
+      "pct_job-market-diversity": 93.7,
+      "pct_business-count": 97.8,
+      "pct_population-growth": 79.1,
+      "components": 3
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 50.8,
+      "components": 1
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "score": 18,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 15.7,
+      "pct_population-growth": 20.9,
+      "components": 2
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "score": 50,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 45.9,
+      "pct_population-growth": 54,
+      "components": 2
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "score": 87,
+      "pct_job-market-diversity": 83.2,
+      "pct_business-count": 90.3,
+      "pct_population-growth": null,
+      "components": 2
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "score": 50,
+      "pct_job-market-diversity": 32.6,
+      "pct_business-count": 81.1,
+      "pct_population-growth": 35.3,
+      "components": 3
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "score": 80,
+      "pct_job-market-diversity": 86.3,
+      "pct_business-count": 80.5,
+      "pct_population-growth": 72.7,
+      "components": 3
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "score": 62,
+      "pct_job-market-diversity": 40,
+      "pct_business-count": 53.5,
+      "pct_population-growth": 93,
+      "components": 3
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "score": 71,
+      "pct_job-market-diversity": 100,
+      "pct_business-count": 98.9,
+      "pct_population-growth": 15.5,
+      "components": 3
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "score": 50,
+      "pct_job-market-diversity": 11.6,
+      "pct_business-count": 58.4,
+      "pct_population-growth": 79.7,
+      "components": 3
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "score": 49,
+      "pct_job-market-diversity": 49.5,
+      "pct_business-count": 55.7,
+      "pct_population-growth": 43.3,
+      "components": 3
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 0,
+      "components": 1
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "score": 61,
+      "pct_job-market-diversity": 69.5,
+      "pct_business-count": 70.8,
+      "pct_population-growth": 41.7,
+      "components": 3
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 96.3,
+      "components": 1
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "score": 46,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 16.2,
+      "pct_population-growth": 75.4,
+      "components": 2
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "score": 60,
+      "pct_job-market-diversity": 71.6,
+      "pct_business-count": 92.4,
+      "pct_population-growth": 15,
+      "components": 3
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "score": 44,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 5.9,
+      "pct_population-growth": 82.4,
+      "components": 2
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "score": 36,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 35.7,
+      "pct_population-growth": 36.9,
+      "components": 2
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "score": 53,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 6.5,
+      "pct_population-growth": 99.5,
+      "components": 2
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "score": 68,
+      "pct_job-market-diversity": 77.9,
+      "pct_business-count": 87.6,
+      "pct_population-growth": 37.4,
+      "components": 3
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "score": 40,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 41.6,
+      "pct_population-growth": 38,
+      "components": 2
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "score": 34,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 25.9,
+      "pct_population-growth": 42.8,
+      "components": 2
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "score": 39,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 30.3,
+      "pct_population-growth": 47.6,
+      "components": 2
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "score": 71,
+      "pct_job-market-diversity": 95.8,
+      "pct_business-count": 93,
+      "pct_population-growth": 23.5,
+      "components": 3
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 26.5,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "score": 57,
+      "pct_job-market-diversity": 24.2,
+      "pct_business-count": 59.5,
+      "pct_population-growth": 86.1,
+      "components": 3
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "score": 42,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 33.5,
+      "pct_population-growth": 49.7,
+      "components": 2
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "score": 66,
+      "pct_job-market-diversity": 56.8,
+      "pct_business-count": 68.1,
+      "pct_population-growth": 73.3,
+      "components": 3
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "score": 48,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 10.8,
+      "pct_population-growth": 84.5,
+      "components": 2
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "score": 45,
+      "pct_job-market-diversity": 38.9,
+      "pct_business-count": 68.6,
+      "pct_population-growth": 28.9,
+      "components": 3
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "score": 81,
+      "pct_job-market-diversity": 92.6,
+      "pct_business-count": 78.9,
+      "pct_population-growth": 70.1,
+      "components": 3
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "score": 58,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 42.2,
+      "pct_population-growth": 74.3,
+      "components": 2
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "score": 74,
+      "pct_job-market-diversity": 67.4,
+      "pct_business-count": 86.5,
+      "pct_population-growth": 67.9,
+      "components": 3
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "score": 31,
+      "pct_job-market-diversity": 8.4,
+      "pct_business-count": 51.4,
+      "pct_population-growth": 33.2,
+      "components": 3
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "score": 69,
+      "pct_job-market-diversity": 75.8,
+      "pct_business-count": 64.3,
+      "pct_population-growth": 66.3,
+      "components": 3
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "score": 60,
+      "pct_job-market-diversity": 53.7,
+      "pct_business-count": 69.2,
+      "pct_population-growth": 57.2,
+      "components": 3
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "score": 65,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 34.1,
+      "pct_population-growth": 96.8,
+      "components": 2
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "score": 41,
+      "pct_job-market-diversity": 13.7,
+      "pct_business-count": 48.6,
+      "pct_population-growth": 61,
+      "components": 3
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "score": 28,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 7,
+      "pct_population-growth": 49.2,
+      "components": 2
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 21.6,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "score": 72,
+      "pct_job-market-diversity": 88.4,
+      "pct_business-count": 88.1,
+      "pct_population-growth": 38.5,
+      "components": 3
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 95.2,
+      "components": 1
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "score": 63,
+      "pct_job-market-diversity": 34.7,
+      "pct_business-count": 63.8,
+      "pct_population-growth": 90.4,
+      "components": 3
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "score": 9,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 11.4,
+      "pct_population-growth": 6.4,
+      "components": 2
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "score": 58,
+      "pct_job-market-diversity": 29.5,
+      "pct_business-count": 73,
+      "pct_population-growth": 71.7,
+      "components": 3
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "score": 61,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 39.5,
+      "pct_population-growth": 82.9,
+      "components": 2
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "score": 28,
+      "pct_job-market-diversity": 1.1,
+      "pct_business-count": 75.7,
+      "pct_population-growth": 8,
+      "components": 3
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "score": 37,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 11.9,
+      "pct_population-growth": 61.5,
+      "components": 2
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "score": 50,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 22.2,
+      "pct_population-growth": 78.1,
+      "components": 2
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "score": 37,
+      "pct_job-market-diversity": 6.3,
+      "pct_business-count": 60,
+      "pct_population-growth": 45.5,
+      "components": 3
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "score": 48,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 40,
+      "pct_population-growth": 56.7,
+      "components": 2
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "score": 35,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 43.2,
+      "pct_population-growth": 26.2,
+      "components": 2
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "score": 42,
+      "pct_job-market-diversity": 37.9,
+      "pct_business-count": 84.9,
+      "pct_population-growth": 3.2,
+      "components": 3
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "score": 52,
+      "pct_job-market-diversity": 55.8,
+      "pct_business-count": 78.4,
+      "pct_population-growth": 21.9,
+      "components": 3
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 30.8,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "score": 34,
+      "pct_job-market-diversity": 41.1,
+      "pct_business-count": 50.3,
+      "pct_population-growth": 11.8,
+      "components": 3
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "score": 43,
+      "pct_job-market-diversity": 15.8,
+      "pct_business-count": 85.9,
+      "pct_population-growth": 28.3,
+      "components": 3
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 7.6,
+      "pct_population-growth": null,
+      "components": 1
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "score": 57,
+      "pct_job-market-diversity": 58.9,
+      "pct_business-count": 93.5,
+      "pct_population-growth": 19.3,
+      "components": 3
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "score": 62,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 43.8,
+      "pct_population-growth": 80.7,
+      "components": 2
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "score": 32,
+      "pct_job-market-diversity": 2.1,
+      "pct_business-count": 62.2,
+      "pct_population-growth": null,
+      "components": 2
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 65.2,
+      "components": 1
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "score": 32,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 8.1,
+      "pct_population-growth": 55.6,
+      "components": 2
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "score": 81,
+      "pct_job-market-diversity": 81.1,
+      "pct_business-count": 80,
+      "pct_population-growth": null,
+      "components": 2
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "score": 70,
+      "pct_job-market-diversity": 98.9,
+      "pct_business-count": 89.2,
+      "pct_population-growth": 21.4,
+      "components": 3
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 91.4,
+      "components": 1
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "score": 69,
+      "pct_job-market-diversity": 51.6,
+      "pct_business-count": 84.3,
+      "pct_population-growth": 70.6,
+      "components": 3
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "score": 53,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 37.3,
+      "pct_population-growth": 69,
+      "components": 2
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "score": 34,
+      "pct_job-market-diversity": null,
+      "pct_business-count": 16.8,
+      "pct_population-growth": 51.9,
+      "components": 2
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "score": 67,
+      "pct_job-market-diversity": 33.7,
+      "pct_business-count": 77.8,
+      "pct_population-growth": 88.8,
+      "components": 3
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": 60.4,
+      "components": 1
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "score": null,
+      "pct_job-market-diversity": null,
+      "pct_business-count": null,
+      "pct_population-growth": null,
+      "components": 0
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "score": 67,
+      "pct_job-market-diversity": 73.7,
+      "pct_business-count": 57.3,
+      "pct_population-growth": 69.5,
+      "components": 3
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "score": 75,
+      "pct_job-market-diversity": 84.2,
+      "pct_business-count": 87,
+      "pct_population-growth": 52.4,
+      "components": 3
+    }
+  ]
+}
