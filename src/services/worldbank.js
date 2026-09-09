@@ -12,6 +12,9 @@ import inflation from '../data/worldbank/inflation.json';
 import tertiaryEnrollment from '../data/worldbank/tertiary-enrollment.json';
 import co2PerCapita from '../data/worldbank/co2-per-capita.json';
 import internetUsersPct from '../data/worldbank/internet-users-pct.json';
+import cpiIndex from '../data/worldbank/cpi-index.json';
+import healthExpPerCapita from '../data/worldbank/health-expenditure-per-capita.json';
+import netMigration from '../data/worldbank/net-migration.json';
 
 // World Bank UAE indicators. NOTE: this data is country-level (one value per
 // year for the whole UAE), so it cannot be used to colour the community map
@@ -29,6 +32,9 @@ const datasets = {
   'tertiary-enrollment': tertiaryEnrollment,
   'co2-per-capita': co2PerCapita,
   'internet-users-pct': internetUsersPct,
+  'cpi-index': cpiIndex,
+  'health-expenditure-per-capita': healthExpPerCapita,
+  'net-migration': netMigration,
 };
 
 // Maps a sidebar data point id -> the World Bank dataset backing it.
@@ -41,6 +47,9 @@ export const dataPointSources = {
   'college-degree-rate': { dataset: 'tertiary-enrollment', proxy: true },
   'digital-infrastructure-score': { dataset: 'internet-users-pct', proxy: true },
   'environmental-quality-index': { dataset: 'co2-per-capita', proxy: true },
+  'average-living-cost': { dataset: 'cpi-index', proxy: true },
+  'average-healthcare-cost': { dataset: 'health-expenditure-per-capita', proxy: true },
+  'domestic-migration': { dataset: 'net-migration', proxy: true },
 };
 
 export const getCatalog = () => catalog;

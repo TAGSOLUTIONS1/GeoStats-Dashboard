@@ -24,6 +24,11 @@ import schoolingCost from '../data/schools/schooling-cost-by-community.json';
 import emergencyProximity from '../data/osm/emergency-proximity.json';
 import livability from '../data/composite/livability-score.json';
 import culturalDiversity from '../data/schools/cultural-diversity-index.json';
+import communityFacilities from '../data/osm/community-facilities.json';
+import youthFacilities from '../data/osm/youth-facilities.json';
+import daysOnMarket from '../data/bayut/days-on-market.json';
+import newListings from '../data/bayut/new-listings-count.json';
+import mortgageRegs from '../data/dld/mortgage-registrations-by-community.json';
 import valueIncome from '../data/derived/value-income.json';
 import mtgPctIncome from '../data/derived/mtg-payments-income-percent.json';
 import ownershipCost from '../data/derived/monthly-home-ownership-cost.json';
@@ -118,6 +123,62 @@ export const mapDataPoints = {
     stops: [16.9, 42.4, 52.7, 61.9, 68.7, 84],
     palette: GREEN,
     source: 'Composite of 6 GeoStats layers (OSM, KHDA, Dubai Police)',
+  },
+  'days-on-market': {
+    dataset: daysOnMarket,
+    property: 'Listings_MedianDays',
+    metric: 'medianDaysListed',
+    labelDigits: 0,
+    labelSuffix: ' days',
+    label: 'Median days listed, active for-sale listings (Apr 2024)',
+    stops: [9, 38, 44, 48, 51, 82],
+    palette: SAFETY,
+    source: 'Bayut listings snapshot, Apr 2024 (Hugging Face mirror)',
+    inverted: true,
+  },
+  'new-listings-count': {
+    dataset: newListings,
+    property: 'Listings_New30d',
+    metric: 'newListings30d',
+    labelDigits: 0,
+    labelSuffix: '',
+    label: 'New for-sale listings in 30 days (Apr 2024)',
+    stops: [3, 17, 57, 107, 264, 1130],
+    palette: BLUE,
+    source: 'Bayut listings snapshot, Apr 2024 (Hugging Face mirror)',
+  },
+  'mortgaged-home-percent': {
+    dataset: mortgageRegs,
+    property: 'Mortgage_Per100Sales',
+    metric: 'mortgagesPer100Sales',
+    labelDigits: 0,
+    labelSuffix: ' /100',
+    label: 'Mortgage registrations per 100 home sales (2023–24)',
+    stops: [0, 5.5, 13.5, 20.6, 30.6, 100],
+    palette: BLUE,
+    source: 'DLD transactions 2023–Aug 2024 (Hugging Face mirror)',
+  },
+  'community-engagement-index': {
+    dataset: communityFacilities,
+    property: 'Community_FacilitiesPer10k',
+    metric: 'per10kPeople',
+    labelDigits: 1,
+    labelSuffix: ' /10k',
+    label: 'Community facilities per 10k residents',
+    stops: [0.12, 0.9, 1.3, 2.68, 5.04, 14.71],
+    palette: GREEN,
+    source: 'OpenStreetMap (Overpass, Sep 2026) + DSC population',
+  },
+  'youth-development-programs': {
+    dataset: youthFacilities,
+    property: 'Youth_FacilitiesPer10k',
+    metric: 'per10kPeople',
+    labelDigits: 1,
+    labelSuffix: ' /10k',
+    label: 'Youth & sports facilities per 10k residents',
+    stops: [0.05, 0.95, 2.27, 4.54, 9.71, 32.01],
+    palette: GREEN,
+    source: 'OpenStreetMap (Overpass, Sep 2026) + DSC population',
   },
   'cultural-diversity-index': {
     dataset: culturalDiversity,

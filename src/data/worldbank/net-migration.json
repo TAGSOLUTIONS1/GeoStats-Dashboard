@@ -1,0 +1,138 @@
+{
+ "id": "net-migration",
+ "indicatorCode": "SM.POP.NETM",
+ "label": "Net migration",
+ "country": "United Arab Emirates",
+ "iso3": "ARE",
+ "unit": "people",
+ "scope": "country",
+ "source": "World Bank Open Data",
+ "sourceUrl": "https://api.worldbank.org/v2/country/ARE/indicator/SM.POP.NETM?format=json&mrv=30",
+ "lastUpdated": "2026-07-13",
+ "yearRange": [
+  1996,
+  2025
+ ],
+ "series": [
+  {
+   "year": 1996,
+   "value": 180296
+  },
+  {
+   "year": 1997,
+   "value": 183310
+  },
+  {
+   "year": 1998,
+   "value": 183329
+  },
+  {
+   "year": 1999,
+   "value": 180469
+  },
+  {
+   "year": 2000,
+   "value": 178469
+  },
+  {
+   "year": 2001,
+   "value": 178779
+  },
+  {
+   "year": 2002,
+   "value": 178988
+  },
+  {
+   "year": 2003,
+   "value": 177237
+  },
+  {
+   "year": 2004,
+   "value": 176319
+  },
+  {
+   "year": 2005,
+   "value": 174926
+  },
+  {
+   "year": 2006,
+   "value": 399306
+  },
+  {
+   "year": 2007,
+   "value": 722380
+  },
+  {
+   "year": 2008,
+   "value": 523207
+  },
+  {
+   "year": 2009,
+   "value": 163643
+  },
+  {
+   "year": 2010,
+   "value": 161842
+  },
+  {
+   "year": 2011,
+   "value": 215183
+  },
+  {
+   "year": 2012,
+   "value": 225921
+  },
+  {
+   "year": 2013,
+   "value": 279269
+  },
+  {
+   "year": 2014,
+   "value": 360174
+  },
+  {
+   "year": 2015,
+   "value": 342468
+  },
+  {
+   "year": 2016,
+   "value": 195317
+  },
+  {
+   "year": 2017,
+   "value": 34155
+  },
+  {
+   "year": 2018,
+   "value": 14611
+  },
+  {
+   "year": 2019,
+   "value": -125186
+  },
+  {
+   "year": 2020,
+   "value": 92541
+  },
+  {
+   "year": 2021,
+   "value": 421663
+  },
+  {
+   "year": 2022,
+   "value": 322773
+  },
+  {
+   "year": 2023,
+   "value": 300004
+  },
+  {
+   "year": 2024,
+   "value": 278439
+  },
+  {
+   "year": 2025,
+   "value": 158634
+  }
+ ]
+}

@@ -1,0 +1,2060 @@
+{
+ "id": "mortgaged-home-percent",
+ "label": "Mortgage registrations per 100 home sales (2023 to Aug 2024)",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "metric": "mortgagesPer100Sales",
+ "source": "Dubai Land Department transactions, Jan 2023 to Aug 2024 (Hugging Face mirror viewit-ai/full-dubai-pulse, Transactions_clean.csv), residential units and villas",
+ "sourceUrl": "https://huggingface.co/datasets/viewit-ai/full-dubai-pulse",
+ "provenance": "UNOFFICIAL third-party mirror of a Dubai Pulse DLD export (1,276,960 rows). Schema matches DLD field names.",
+ "period": "2023-01 to 2024-08",
+ "retrieved": "2026-09-09",
+ "method": "Mortgage Registration and Delayed Mortgage procedures divided by all residential sales (Sell, Sell - Pre registration, Delayed Sell) in the same community and period, times 100. Areas joined to communities by DLD area name. Communities with fewer than 50 sales are null; values are capped at 100.",
+ "limitation": "A PROXY for how mortgaged a community is: it counts mortgages registered against homes bought in the period, not the share of all existing homes carrying a mortgage (that census figure is not published). Mortgages registered at off-plan handover or on refinancing inflate the numerator, so a few communities reach the 100 cap. Off-plan-heavy communities read low because pre-registration sales rarely carry a mortgage at purchase.",
+ "minSales": 50,
+ "communitiesWithData": 61,
+ "stops": [
+  0,
+  5.5,
+  13.5,
+  20.6,
+  30.6,
+  100
+ ],
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "readySales": 7,
+   "offplanSales": 0,
+   "totalSales": 7,
+   "mortgageRegistrations": 2,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "readySales": 1425,
+   "offplanSales": 6640,
+   "totalSales": 8065,
+   "mortgageRegistrations": 1659,
+   "mortgagesPer100Sales": 20.6
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "readySales": 957,
+   "offplanSales": 6244,
+   "totalSales": 7201,
+   "mortgageRegistrations": 886,
+   "mortgagesPer100Sales": 12.3
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "readySales": 22,
+   "offplanSales": 0,
+   "totalSales": 22,
+   "mortgageRegistrations": 43,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "readySales": 230,
+   "offplanSales": 5,
+   "totalSales": 235,
+   "mortgageRegistrations": 102,
+   "mortgagesPer100Sales": 43.4
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "readySales": 12,
+   "offplanSales": 0,
+   "totalSales": 12,
+   "mortgageRegistrations": 11,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "readySales": 691,
+   "offplanSales": 972,
+   "totalSales": 1663,
+   "mortgageRegistrations": 292,
+   "mortgagesPer100Sales": 17.6
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "readySales": 689,
+   "offplanSales": 402,
+   "totalSales": 1091,
+   "mortgageRegistrations": 527,
+   "mortgagesPer100Sales": 48.3
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "readySales": 671,
+   "offplanSales": 1033,
+   "totalSales": 1704,
+   "mortgageRegistrations": 1075,
+   "mortgagesPer100Sales": 63.1
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 1,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "readySales": 5,
+   "offplanSales": 0,
+   "totalSales": 5,
+   "mortgageRegistrations": 5,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "readySales": 75,
+   "offplanSales": 0,
+   "totalSales": 75,
+   "mortgageRegistrations": 10,
+   "mortgagesPer100Sales": 13.3
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "readySales": 20,
+   "offplanSales": 0,
+   "totalSales": 20,
+   "mortgageRegistrations": 16,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "readySales": 16,
+   "offplanSales": 0,
+   "totalSales": 16,
+   "mortgageRegistrations": 5,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "readySales": 4,
+   "offplanSales": 0,
+   "totalSales": 4,
+   "mortgageRegistrations": 36,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "readySales": 269,
+   "offplanSales": 228,
+   "totalSales": 497,
+   "mortgageRegistrations": 103,
+   "mortgagesPer100Sales": 20.7
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "readySales": 11,
+   "offplanSales": 0,
+   "totalSales": 11,
+   "mortgageRegistrations": 11,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "readySales": 13,
+   "offplanSales": 0,
+   "totalSales": 13,
+   "mortgageRegistrations": 2,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "readySales": 4,
+   "offplanSales": 0,
+   "totalSales": 4,
+   "mortgageRegistrations": 2,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "readySales": 37,
+   "offplanSales": 110,
+   "totalSales": 147,
+   "mortgageRegistrations": 31,
+   "mortgagesPer100Sales": 21.1
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "readySales": 3,
+   "offplanSales": 0,
+   "totalSales": 3,
+   "mortgageRegistrations": 1,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "readySales": 5,
+   "offplanSales": 0,
+   "totalSales": 5,
+   "mortgageRegistrations": 1,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "readySales": 660,
+   "offplanSales": 14,
+   "totalSales": 674,
+   "mortgageRegistrations": 746,
+   "mortgagesPer100Sales": 100
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "readySales": 1121,
+   "offplanSales": 3981,
+   "totalSales": 5102,
+   "mortgageRegistrations": 1112,
+   "mortgagesPer100Sales": 21.8
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "readySales": 36,
+   "offplanSales": 486,
+   "totalSales": 522,
+   "mortgageRegistrations": 5,
+   "mortgagesPer100Sales": 1
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "readySales": 0,
+   "offplanSales": 779,
+   "totalSales": 779,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": 0
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "readySales": 27,
+   "offplanSales": 0,
+   "totalSales": 27,
+   "mortgageRegistrations": 1,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "readySales": 85,
+   "offplanSales": 742,
+   "totalSales": 827,
+   "mortgageRegistrations": 35,
+   "mortgagesPer100Sales": 4.2
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "readySales": 59,
+   "offplanSales": 35,
+   "totalSales": 94,
+   "mortgageRegistrations": 30,
+   "mortgagesPer100Sales": 31.9
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "readySales": 161,
+   "offplanSales": 21,
+   "totalSales": 182,
+   "mortgageRegistrations": 48,
+   "mortgagesPer100Sales": 26.4
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "readySales": 241,
+   "offplanSales": 987,
+   "totalSales": 1228,
+   "mortgageRegistrations": 102,
+   "mortgagesPer100Sales": 8.3
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "readySales": 26,
+   "offplanSales": 0,
+   "totalSales": 26,
+   "mortgageRegistrations": 15,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "readySales": 461,
+   "offplanSales": 2120,
+   "totalSales": 2581,
+   "mortgageRegistrations": 207,
+   "mortgagesPer100Sales": 8
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "readySales": 1,
+   "offplanSales": 0,
+   "totalSales": 1,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "readySales": 32,
+   "offplanSales": 0,
+   "totalSales": 32,
+   "mortgageRegistrations": 3,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "readySales": 172,
+   "offplanSales": 1365,
+   "totalSales": 1537,
+   "mortgageRegistrations": 48,
+   "mortgagesPer100Sales": 3.1
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "readySales": 0,
+   "offplanSales": 2182,
+   "totalSales": 2182,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": 0
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "readySales": 9,
+   "offplanSales": 0,
+   "totalSales": 9,
+   "mortgageRegistrations": 1,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "readySales": 32,
+   "offplanSales": 0,
+   "totalSales": 32,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "readySales": 1,
+   "offplanSales": 0,
+   "totalSales": 1,
+   "mortgageRegistrations": 8,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "readySales": 588,
+   "offplanSales": 822,
+   "totalSales": 1410,
+   "mortgageRegistrations": 190,
+   "mortgagesPer100Sales": 13.5
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "readySales": 0,
+   "offplanSales": 22,
+   "totalSales": 22,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "readySales": 4,
+   "offplanSales": 0,
+   "totalSales": 4,
+   "mortgageRegistrations": 12,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "readySales": 23,
+   "offplanSales": 0,
+   "totalSales": 23,
+   "mortgageRegistrations": 12,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "readySales": 65,
+   "offplanSales": 5160,
+   "totalSales": 5225,
+   "mortgageRegistrations": 48,
+   "mortgagesPer100Sales": 0.9
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "readySales": 19,
+   "offplanSales": 3,
+   "totalSales": 22,
+   "mortgageRegistrations": 1,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "readySales": 501,
+   "offplanSales": 788,
+   "totalSales": 1289,
+   "mortgageRegistrations": 289,
+   "mortgagesPer100Sales": 22.4
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "readySales": 511,
+   "offplanSales": 93,
+   "totalSales": 604,
+   "mortgageRegistrations": 629,
+   "mortgagesPer100Sales": 100
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "readySales": 81,
+   "offplanSales": 479,
+   "totalSales": 560,
+   "mortgageRegistrations": 25,
+   "mortgagesPer100Sales": 4.5
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "readySales": 39,
+   "offplanSales": 0,
+   "totalSales": 39,
+   "mortgageRegistrations": 15,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "readySales": 6378,
+   "offplanSales": 6708,
+   "totalSales": 13086,
+   "mortgageRegistrations": 2496,
+   "mortgagesPer100Sales": 19.1
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "readySales": 1739,
+   "offplanSales": 1063,
+   "totalSales": 2802,
+   "mortgageRegistrations": 842,
+   "mortgagesPer100Sales": 30
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 17,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "readySales": 3,
+   "offplanSales": 0,
+   "totalSales": 3,
+   "mortgageRegistrations": 16,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "readySales": 986,
+   "offplanSales": 4721,
+   "totalSales": 5707,
+   "mortgageRegistrations": 1154,
+   "mortgagesPer100Sales": 20.2
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "readySales": 128,
+   "offplanSales": 779,
+   "totalSales": 907,
+   "mortgageRegistrations": 490,
+   "mortgagesPer100Sales": 54
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "readySales": 21,
+   "offplanSales": 1,
+   "totalSales": 22,
+   "mortgageRegistrations": 8,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "readySales": 42,
+   "offplanSales": 0,
+   "totalSales": 42,
+   "mortgageRegistrations": 1,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "readySales": 23,
+   "offplanSales": 696,
+   "totalSales": 719,
+   "mortgageRegistrations": 10,
+   "mortgagesPer100Sales": 1.4
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "readySales": 4,
+   "offplanSales": 0,
+   "totalSales": 4,
+   "mortgageRegistrations": 37,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "readySales": 7,
+   "offplanSales": 0,
+   "totalSales": 7,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "readySales": 7,
+   "offplanSales": 0,
+   "totalSales": 7,
+   "mortgageRegistrations": 59,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "readySales": 217,
+   "offplanSales": 1,
+   "totalSales": 218,
+   "mortgageRegistrations": 103,
+   "mortgagesPer100Sales": 47.2
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "readySales": 2318,
+   "offplanSales": 2554,
+   "totalSales": 4872,
+   "mortgageRegistrations": 811,
+   "mortgagesPer100Sales": 16.6
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "readySales": 37,
+   "offplanSales": 0,
+   "totalSales": 37,
+   "mortgageRegistrations": 62,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "readySales": 387,
+   "offplanSales": 1862,
+   "totalSales": 2249,
+   "mortgageRegistrations": 303,
+   "mortgagesPer100Sales": 13.5
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "readySales": 1,
+   "offplanSales": 0,
+   "totalSales": 1,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "readySales": 37,
+   "offplanSales": 1,
+   "totalSales": 38,
+   "mortgageRegistrations": 15,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "readySales": 14,
+   "offplanSales": 1854,
+   "totalSales": 1868,
+   "mortgageRegistrations": 23,
+   "mortgagesPer100Sales": 1.2
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "readySales": 19,
+   "offplanSales": 0,
+   "totalSales": 19,
+   "mortgageRegistrations": 45,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "readySales": 4326,
+   "offplanSales": 10420,
+   "totalSales": 14746,
+   "mortgageRegistrations": 1560,
+   "mortgagesPer100Sales": 10.6
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "readySales": 3,
+   "offplanSales": 0,
+   "totalSales": 3,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "readySales": 3163,
+   "offplanSales": 3568,
+   "totalSales": 6731,
+   "mortgageRegistrations": 1389,
+   "mortgagesPer100Sales": 20.6
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "readySales": 1363,
+   "offplanSales": 1727,
+   "totalSales": 3090,
+   "mortgageRegistrations": 932,
+   "mortgagesPer100Sales": 30.2
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "readySales": 19,
+   "offplanSales": 0,
+   "totalSales": 19,
+   "mortgageRegistrations": 46,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "readySales": 15,
+   "offplanSales": 3364,
+   "totalSales": 3379,
+   "mortgageRegistrations": 97,
+   "mortgagesPer100Sales": 2.9
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "readySales": 813,
+   "offplanSales": 2060,
+   "totalSales": 2873,
+   "mortgageRegistrations": 536,
+   "mortgagesPer100Sales": 18.7
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "readySales": 42,
+   "offplanSales": 96,
+   "totalSales": 138,
+   "mortgageRegistrations": 6,
+   "mortgagesPer100Sales": 4.3
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "readySales": 0,
+   "offplanSales": 1641,
+   "totalSales": 1641,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": 0
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "readySales": 14,
+   "offplanSales": 0,
+   "totalSales": 14,
+   "mortgageRegistrations": 33,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "readySales": 6,
+   "offplanSales": 0,
+   "totalSales": 6,
+   "mortgageRegistrations": 2,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "readySales": 12,
+   "offplanSales": 0,
+   "totalSales": 12,
+   "mortgageRegistrations": 2,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "readySales": 8,
+   "offplanSales": 0,
+   "totalSales": 8,
+   "mortgageRegistrations": 1,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "readySales": 474,
+   "offplanSales": 242,
+   "totalSales": 716,
+   "mortgageRegistrations": 219,
+   "mortgagesPer100Sales": 30.6
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "readySales": 5,
+   "offplanSales": 0,
+   "totalSales": 5,
+   "mortgageRegistrations": 14,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "readySales": 0,
+   "offplanSales": 1,
+   "totalSales": 1,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "readySales": 3038,
+   "offplanSales": 496,
+   "totalSales": 3534,
+   "mortgageRegistrations": 234,
+   "mortgagesPer100Sales": 6.6
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "readySales": 1302,
+   "offplanSales": 69,
+   "totalSales": 1371,
+   "mortgageRegistrations": 933,
+   "mortgagesPer100Sales": 68.1
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "readySales": 2534,
+   "offplanSales": 4233,
+   "totalSales": 6767,
+   "mortgageRegistrations": 1126,
+   "mortgagesPer100Sales": 16.6
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "readySales": 9,
+   "offplanSales": 0,
+   "totalSales": 9,
+   "mortgageRegistrations": 9,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "readySales": 268,
+   "offplanSales": 903,
+   "totalSales": 1171,
+   "mortgageRegistrations": 158,
+   "mortgagesPer100Sales": 13.5
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "readySales": 14,
+   "offplanSales": 1,
+   "totalSales": 15,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "readySales": 133,
+   "offplanSales": 342,
+   "totalSales": 475,
+   "mortgageRegistrations": 36,
+   "mortgagesPer100Sales": 7.6
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "readySales": 1083,
+   "offplanSales": 1685,
+   "totalSales": 2768,
+   "mortgageRegistrations": 624,
+   "mortgagesPer100Sales": 22.5
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "readySales": 1359,
+   "offplanSales": 6264,
+   "totalSales": 7623,
+   "mortgageRegistrations": 420,
+   "mortgagesPer100Sales": 5.5
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "readySales": 62,
+   "offplanSales": 21,
+   "totalSales": 83,
+   "mortgageRegistrations": 47,
+   "mortgagesPer100Sales": 56.6
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "readySales": 724,
+   "offplanSales": 1312,
+   "totalSales": 2036,
+   "mortgageRegistrations": 306,
+   "mortgagesPer100Sales": 15
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "readySales": 248,
+   "offplanSales": 1223,
+   "totalSales": 1471,
+   "mortgageRegistrations": 380,
+   "mortgagesPer100Sales": 25.8
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "readySales": 669,
+   "offplanSales": 3064,
+   "totalSales": 3733,
+   "mortgageRegistrations": 493,
+   "mortgagesPer100Sales": 13.2
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "readySales": 129,
+   "offplanSales": 47,
+   "totalSales": 176,
+   "mortgageRegistrations": 68,
+   "mortgagesPer100Sales": 38.6
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "readySales": 24,
+   "offplanSales": 65,
+   "totalSales": 89,
+   "mortgageRegistrations": 6,
+   "mortgagesPer100Sales": 6.7
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "readySales": 1742,
+   "offplanSales": 11967,
+   "totalSales": 13709,
+   "mortgageRegistrations": 1123,
+   "mortgagesPer100Sales": 8.2
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "readySales": 38,
+   "offplanSales": 0,
+   "totalSales": 38,
+   "mortgageRegistrations": 7,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "readySales": 11,
+   "offplanSales": 1,
+   "totalSales": 12,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "readySales": 1499,
+   "offplanSales": 7967,
+   "totalSales": 9466,
+   "mortgageRegistrations": 1318,
+   "mortgagesPer100Sales": 13.9
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "readySales": 1,
+   "offplanSales": 0,
+   "totalSales": 1,
+   "mortgageRegistrations": 3,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "readySales": 270,
+   "offplanSales": 149,
+   "totalSales": 419,
+   "mortgageRegistrations": 72,
+   "mortgagesPer100Sales": 17.2
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 39,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "readySales": 5666,
+   "offplanSales": 17925,
+   "totalSales": 23591,
+   "mortgageRegistrations": 2407,
+   "mortgagesPer100Sales": 10.2
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "readySales": 0,
+   "offplanSales": 0,
+   "totalSales": 0,
+   "mortgageRegistrations": 0,
+   "mortgagesPer100Sales": null
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "readySales": 735,
+   "offplanSales": 1,
+   "totalSales": 736,
+   "mortgageRegistrations": 652,
+   "mortgagesPer100Sales": 88.6
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "readySales": 2468,
+   "offplanSales": 3388,
+   "totalSales": 5856,
+   "mortgageRegistrations": 1773,
+   "mortgagesPer100Sales": 30.3
+  }
+ ]
+}

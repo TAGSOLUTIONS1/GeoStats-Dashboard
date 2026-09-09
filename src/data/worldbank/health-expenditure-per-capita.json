@@ -1,0 +1,114 @@
+{
+ "id": "health-expenditure-per-capita",
+ "indicatorCode": "SH.XPD.CHEX.PC.CD",
+ "label": "Current health expenditure per capita (current US$)",
+ "country": "United Arab Emirates",
+ "iso3": "ARE",
+ "unit": "usd",
+ "scope": "country",
+ "source": "World Bank Open Data",
+ "sourceUrl": "https://api.worldbank.org/v2/country/ARE/indicator/SH.XPD.CHEX.PC.CD?format=json&mrv=30",
+ "lastUpdated": "2026-07-13",
+ "yearRange": [
+  2000,
+  2023
+ ],
+ "series": [
+  {
+   "year": 2000,
+   "value": 706.03112793
+  },
+  {
+   "year": 2001,
+   "value": 689.29278564
+  },
+  {
+   "year": 2002,
+   "value": 754.26220703
+  },
+  {
+   "year": 2003,
+   "value": 784.89343262
+  },
+  {
+   "year": 2004,
+   "value": 821.74920654
+  },
+  {
+   "year": 2005,
+   "value": 898.36480713
+  },
+  {
+   "year": 2006,
+   "value": 1031.14904785
+  },
+  {
+   "year": 2007,
+   "value": 1176.49328613
+  },
+  {
+   "year": 2008,
+   "value": 1465.82446289
+  },
+  {
+   "year": 2009,
+   "value": 1531.02209473
+  },
+  {
+   "year": 2010,
+   "value": 1619.98864746
+  },
+  {
+   "year": 2011,
+   "value": 1787.59997559
+  },
+  {
+   "year": 2012,
+   "value": 1711.38525391
+  },
+  {
+   "year": 2013,
+   "value": 1789.68579102
+  },
+  {
+   "year": 2014,
+   "value": 1776.7310791
+  },
+  {
+   "year": 2015,
+   "value": 1479.49743652
+  },
+  {
+   "year": 2016,
+   "value": 1592.91906738
+  },
+  {
+   "year": 2017,
+   "value": 1695.203125
+  },
+  {
+   "year": 2018,
+   "value": 1872.58422852
+  },
+  {
+   "year": 2019,
+   "value": 1962.46728516
+  },
+  {
+   "year": 2020,
+   "value": 2154.41113281
+  },
+  {
+   "year": 2021,
+   "value": 2249.96313477
+  },
+  {
+   "year": 2022,
+   "value": 2240.9050293
+  },
+  {
+   "year": 2023,
+   "value": 2401.52026367
+  }
+ ]
+}

@@ -1,0 +1,2285 @@
+{
+ "id": "community-engagement-index",
+ "label": "Community facilities per 10,000 residents",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "source": "OpenStreetMap via Overpass API (amenity=community_centre, social_centre, library, place_of_worship), joined to communities by point-in-polygon; population from Dubai Statistics Center (2022)",
+ "license": "ODbL",
+ "retrieved": "2026-09-09",
+ "period": "current OSM snapshot (no historical series)",
+ "method": "Count of mapped community centres, libraries and places of worship inside the community boundary, per 10,000 residents. Communities with fewer than 5,000 residents or no mapped facility are null.",
+ "limitation": "A PROXY for community infrastructure, not a measure of participation or volunteering (no such survey is published by community). Places of worship, mostly mosques, dominate the count. Depends on OpenStreetMap completeness; newer master-plan communities may be under-mapped.",
+ "minPopulation": 5000,
+ "facilitiesMatched": 707,
+ "communitiesWithData": 122,
+ "stops": [
+  0.12,
+  0.9,
+  1.3,
+  2.68,
+  5.04,
+  14.71
+ ],
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "population": 12,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "population": 9627,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 1.04
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "population": 25365,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 7,
+   "facilities": 7,
+   "per10kPeople": 2.76
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "population": 1011,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "population": 20704,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 0.97
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "population": 9527,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 11,
+   "facilities": 11,
+   "per10kPeople": 11.55
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "population": 2529,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "population": 73879,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 7,
+   "facilities": 7,
+   "per10kPeople": 0.95
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "population": 616,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "population": 206,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "population": 16759,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 6,
+   "facilities": 6,
+   "per10kPeople": 3.58
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "population": 2042,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "population": 12699,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 0.79
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "population": 13137,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 6,
+   "facilities": 6,
+   "per10kPeople": 4.57
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "population": 11439,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 8,
+   "facilities": 8,
+   "per10kPeople": 6.99
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "population": 10412,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 2,
+   "per10kPeople": 1.92
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "population": 671,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "population": 195,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "population": 11279,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 1.77
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "population": 8,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "population": 1851,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "population": 90,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "population": 9358,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 3,
+   "per10kPeople": 3.21
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "population": 6031,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 1.66
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "population": 9228,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 5,
+   "facilities": 6,
+   "per10kPeople": 6.5
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "population": 38408,
+   "communityCentres": 2,
+   "libraries": 1,
+   "placesOfWorship": 11,
+   "facilities": 14,
+   "per10kPeople": 3.65
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "population": 50697,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 0.2
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "population": 21751,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 0.92
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "population": 2613,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 4,
+   "facilities": 4,
+   "per10kPeople": null
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "population": 0,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "population": 7685,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 10,
+   "facilities": 10,
+   "per10kPeople": 13.01
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "population": 3017,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "population": 14761,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 7,
+   "facilities": 7,
+   "per10kPeople": 4.74
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "population": 3283,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "population": 2838,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "population": 68346,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 7,
+   "facilities": 8,
+   "per10kPeople": 1.17
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "population": 7207,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 5,
+   "facilities": 5,
+   "per10kPeople": 6.94
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "population": 12403,
+   "communityCentres": 0,
+   "libraries": 1,
+   "placesOfWorship": 8,
+   "facilities": 9,
+   "per10kPeople": 7.26
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "population": 5184,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 6,
+   "facilities": 6,
+   "per10kPeople": 11.57
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "population": 2670,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "population": 8809,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 6,
+   "facilities": 6,
+   "per10kPeople": 6.81
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "population": 3425,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "population": 2932,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "population": 218,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "population": 53403,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 3,
+   "per10kPeople": 0.56
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "population": 1617,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "population": 42056,
+   "communityCentres": 0,
+   "libraries": 1,
+   "placesOfWorship": 6,
+   "facilities": 7,
+   "per10kPeople": 1.66
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "population": 19268,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 1.04
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "population": 775,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "population": 0,
+   "communityCentres": 1,
+   "libraries": 1,
+   "placesOfWorship": 0,
+   "facilities": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "population": 5292,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "population": 11068,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 0.9
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "population": 6609,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 1.51
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "population": 4,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "population": 58,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "population": 2,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "population": 4,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "population": 13787,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "population": 85,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "population": 85080,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 9,
+   "facilities": 9,
+   "per10kPeople": 1.06
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "population": 2,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "population": 50559,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 7,
+   "facilities": 7,
+   "per10kPeople": 1.38
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "population": 50,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "population": 0,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "population": 26279,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 0.76
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "population": 4684,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "population": 1798,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "population": 13502,
+   "communityCentres": 0,
+   "libraries": 1,
+   "placesOfWorship": 2,
+   "facilities": 3,
+   "per10kPeople": 2.22
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "population": 12227,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 10,
+   "facilities": 10,
+   "per10kPeople": 8.18
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "population": 26115,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 7,
+   "facilities": 7,
+   "per10kPeople": 2.68
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "population": 170,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "population": 10660,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 1,
+   "per10kPeople": 0.94
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "population": 21686,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 8,
+   "facilities": 8,
+   "per10kPeople": 3.69
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "population": 13295,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "population": 7935,
+   "communityCentres": 0,
+   "libraries": 1,
+   "placesOfWorship": 3,
+   "facilities": 4,
+   "per10kPeople": 5.04
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "population": 2176,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "population": 0,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "population": 447,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "population": 16901,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 14,
+   "facilities": 14,
+   "per10kPeople": 8.28
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "population": 18116,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 10,
+   "facilities": 11,
+   "per10kPeople": 6.07
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "population": 36338,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 10,
+   "facilities": 10,
+   "per10kPeople": 2.75
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "population": 17526,
+   "communityCentres": 0,
+   "libraries": 1,
+   "placesOfWorship": 1,
+   "facilities": 2,
+   "per10kPeople": 1.14
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "population": 3,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "population": 3968,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 4,
+   "facilities": 4,
+   "per10kPeople": null
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "population": 11010,
+   "communityCentres": 2,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 3,
+   "per10kPeople": 2.72
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "population": 7,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "population": 5655,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 5,
+   "facilities": 5,
+   "per10kPeople": 8.84
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "population": 14476,
+   "communityCentres": 0,
+   "libraries": 1,
+   "placesOfWorship": 11,
+   "facilities": 12,
+   "per10kPeople": 8.29
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "population": 8440,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 4,
+   "facilities": 4,
+   "per10kPeople": 4.74
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "population": 2008,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "population": 3,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "population": 38611,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 3,
+   "per10kPeople": 0.78
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "population": 12638,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 1.58
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "population": 6872,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 8,
+   "facilities": 8,
+   "per10kPeople": 11.64
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "population": 33484,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 0.6
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "population": 3633,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "population": 90,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 8,
+   "facilities": 9,
+   "per10kPeople": null
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "population": 2,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "population": 2494,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "population": 4,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "population": 47,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "population": 3365,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "population": 4938,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 3,
+   "per10kPeople": null
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "population": 63804,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 4,
+   "facilities": 4,
+   "per10kPeople": 0.63
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "population": 25550,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 0.39
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "population": 8143,
+   "communityCentres": 0,
+   "libraries": 2,
+   "placesOfWorship": 3,
+   "facilities": 5,
+   "per10kPeople": 6.14
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "population": 16873,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 0.59
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "population": 5953,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 3,
+   "facilities": 3,
+   "per10kPeople": 5.04
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "population": 13946,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 11,
+   "facilities": 11,
+   "per10kPeople": 7.89
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "population": 4291,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "population": 5885,
+   "communityCentres": 3,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 4,
+   "per10kPeople": 6.8
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "population": 3119,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "population": 39092,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 0.26
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "population": 1317,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "population": 11318,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 1.77
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "population": 4715,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 4,
+   "facilities": 4,
+   "per10kPeople": null
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "population": 3,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "population": 37,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "population": 301,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "population": 22442,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 11,
+   "facilities": 11,
+   "per10kPeople": 4.9
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "population": 56,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "population": 0,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "population": 58965,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 3,
+   "facilities": 3,
+   "per10kPeople": 0.51
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "population": 3378,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "population": 348,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "population": 15,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "population": 169,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 3,
+   "facilities": 3,
+   "per10kPeople": null
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "population": 7,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "population": 1259,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "population": 20139,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 0.99
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "population": 15874,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 6,
+   "facilities": 7,
+   "per10kPeople": 4.41
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "population": 11530,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 0.87
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "population": 18014,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "population": 4997,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 3,
+   "facilities": 3,
+   "per10kPeople": null
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "population": 29,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "population": 15867,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 6,
+   "facilities": 6,
+   "per10kPeople": 3.78
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "population": 300,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "population": 40456,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 5,
+   "facilities": 5,
+   "per10kPeople": 1.24
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "population": 15901,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 10,
+   "facilities": 10,
+   "per10kPeople": 6.29
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "population": 21942,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 5,
+   "facilities": 5,
+   "per10kPeople": 2.28
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "population": 143,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "population": 28561,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 2,
+   "per10kPeople": 0.7
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "population": 21842,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 3,
+   "per10kPeople": 1.37
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "population": 218,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "population": 18520,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 14,
+   "facilities": 14,
+   "per10kPeople": 7.56
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "population": 7350,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 2.72
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "population": 199780,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 4,
+   "facilities": 4,
+   "per10kPeople": 0.2
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "population": 3645,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "population": 14425,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 4,
+   "facilities": 4,
+   "per10kPeople": 2.77
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "population": 42332,
+   "communityCentres": 0,
+   "libraries": 2,
+   "placesOfWorship": 5,
+   "facilities": 7,
+   "per10kPeople": 1.65
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "population": 595,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "population": 3519,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 5,
+   "facilities": 5,
+   "per10kPeople": null
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "population": 15716,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 7,
+   "facilities": 7,
+   "per10kPeople": 4.45
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "population": 24410,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 1,
+   "per10kPeople": 0.41
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "population": 49276,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 9,
+   "facilities": 9,
+   "per10kPeople": 1.83
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "population": 22291,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 3,
+   "facilities": 3,
+   "per10kPeople": 1.35
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "population": 18664,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 1.07
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "population": 13,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "population": 77139,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 6,
+   "facilities": 7,
+   "per10kPeople": 0.91
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "population": 26803,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 0.75
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "population": 17898,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 20,
+   "facilities": 20,
+   "per10kPeople": 11.17
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "population": 2,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "population": 14789,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 3,
+   "facilities": 3,
+   "per10kPeople": 2.03
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "population": 403,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "population": 7997,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 1.25
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "population": 40958,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 5,
+   "facilities": 5,
+   "per10kPeople": 1.22
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "population": 113,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "population": 12239,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 6,
+   "facilities": 6,
+   "per10kPeople": 4.9
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "population": 10418,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "population": 20168,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 7,
+   "facilities": 7,
+   "per10kPeople": 3.47
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "population": 5746,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 7,
+   "facilities": 7,
+   "per10kPeople": 12.18
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "population": 507,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 6,
+   "facilities": 6,
+   "per10kPeople": null
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "population": 1415,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "population": 22143,
+   "communityCentres": 0,
+   "libraries": 1,
+   "placesOfWorship": 5,
+   "facilities": 6,
+   "per10kPeople": 2.71
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "population": 0,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 5,
+   "facilities": 5,
+   "per10kPeople": null
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "population": 10205,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 0.98
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "population": 7024,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 4,
+   "facilities": 4,
+   "per10kPeople": 5.69
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "population": 80537,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 0.12
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "population": 101,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "population": 10806,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 0.93
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "population": 63591,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 3,
+   "facilities": 3,
+   "per10kPeople": 0.47
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "population": 108637,
+   "communityCentres": 2,
+   "libraries": 1,
+   "placesOfWorship": 9,
+   "facilities": 12,
+   "per10kPeople": 1.1
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "population": 22829,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 0.88
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "population": 41745,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 4,
+   "facilities": 5,
+   "per10kPeople": 1.2
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "population": 8923,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 3,
+   "facilities": 3,
+   "per10kPeople": 3.36
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "population": 8842,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 6,
+   "facilities": 6,
+   "per10kPeople": 6.79
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "population": 7687,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 1.3
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "population": 7032,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 1.42
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "population": 28152,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 3,
+   "facilities": 3,
+   "per10kPeople": 1.07
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "population": 1230,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "population": 7419,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "population": 49440,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": 0.4
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "population": 685,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "population": 8660,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "population": 81,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "population": 5333,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 1,
+   "per10kPeople": 1.88
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "population": 7477,
+   "communityCentres": 1,
+   "libraries": 1,
+   "placesOfWorship": 9,
+   "facilities": 11,
+   "per10kPeople": 14.71
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "population": 150710,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 3,
+   "facilities": 3,
+   "per10kPeople": 0.2
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "population": 2483,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "population": 10475,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 0.95
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "population": 6611,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 1.51
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "population": 4779,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 3,
+   "per10kPeople": null
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "population": 3,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "population": 10876,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 4,
+   "facilities": 4,
+   "per10kPeople": 3.68
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "population": 3081,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "population": 49504,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 5,
+   "facilities": 5,
+   "per10kPeople": 1.01
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "population": 3875,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "population": 12720,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 3,
+   "facilities": 3,
+   "per10kPeople": 2.36
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "population": 129757,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 8,
+   "facilities": 8,
+   "per10kPeople": 0.62
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "population": 1754,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "population": 53055,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 9,
+   "facilities": 10,
+   "per10kPeople": 1.88
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "population": 4692,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "population": 8,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "population": 7222,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 1.38
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "population": 6060,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 1.65
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "population": 121,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 3,
+   "facilities": 3,
+   "per10kPeople": null
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "population": 21914,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 8,
+   "facilities": 8,
+   "per10kPeople": 3.65
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "population": 425,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "population": 65947,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 5,
+   "facilities": 5,
+   "per10kPeople": 0.76
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "population": 14575,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 5,
+   "facilities": 5,
+   "per10kPeople": 3.43
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "population": 1858,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": null
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "population": 29373,
+   "communityCentres": 1,
+   "libraries": 0,
+   "placesOfWorship": 2,
+   "facilities": 3,
+   "per10kPeople": 1.02
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "population": 5,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "population": 2,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 0,
+   "facilities": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "population": 28990,
+   "communityCentres": 0,
+   "libraries": 0,
+   "placesOfWorship": 1,
+   "facilities": 1,
+   "per10kPeople": 0.34
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "population": 78243,
+   "communityCentres": 3,
+   "libraries": 0,
+   "placesOfWorship": 18,
+   "facilities": 21,
+   "per10kPeople": 2.68
+  }
+ ]
+}

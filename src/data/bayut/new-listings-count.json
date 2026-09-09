@@ -1,0 +1,2571 @@
+{
+ "id": "new-listings-count",
+ "label": "New for-sale listings in the last 30 days",
+ "metric": "newListings30d",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "source": "Bayut residential for-sale listings snapshot (Hugging Face: pelegelraz/DubaiRealEstateSalesInsights), matched to communities by Bayut area name",
+ "sourceUrl": "https://huggingface.co/datasets/pelegelraz/DubaiRealEstateSalesInsights",
+ "provenance": "Third-party scrape of Bayut. Listing-side data, not transactions. 41,381 for-sale listings with posting dates; 27,228 belong to a Bayut area that maps to a Dubai community (the rest are in other emirates or in umbrella districts too broad to place).",
+ "period": "snapshot as of 2024-04-25 (listings posted Dec 2021 to Apr 2024)",
+ "retrieved": "2026-09-09",
+ "join": "Bayut publishes one placeholder coordinate per marketing area rather than per listing, so listings are assigned by area name. Each area was placed in the community containing its placeholder point, with three hand corrections (Downtown Dubai to Burj Khalifa, International City to Warsan First, Dubai Islands to Nakhlat Deira) and ten umbrella districts excluded. Several Bayut areas can map to one community (e.g. Dubai Marina, JBR, Bluewaters and Dubai Harbour all sit in Marsa Dubai).",
+ "areaMapping": [
+  {
+   "area": "Al Badaa",
+   "community": "AL SATWA",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Barari",
+   "community": "WADI AL SAFA 3",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Barsha",
+   "community": null,
+   "how": "excluded: umbrella district spanning several communities"
+  },
+  {
+   "area": "Al Furjan",
+   "community": "JABAL ALI FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Jaddaf",
+   "community": "AL JADAF",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Karama",
+   "community": "AL KARAMA",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Khawaneej",
+   "community": "AL KHWANEEJ SECOND",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Manara",
+   "community": "AL MANARA",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Mina",
+   "community": "MADINAT DUBAI AL MELAHEYAH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Mizhar",
+   "community": "AL MIZHAR FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Quoz",
+   "community": null,
+   "how": "excluded: umbrella district spanning several communities"
+  },
+  {
+   "area": "Al Qusais",
+   "community": "AL QUSAIS SECOND",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Safa",
+   "community": "AL SAFA FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Satwa",
+   "community": "AL SATWA",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Sufouh",
+   "community": "AL SAFOUH FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Twar",
+   "community": "AL TWAR SECOND",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Warqaa",
+   "community": "AL WARQA'A FOURTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Al Wasl",
+   "community": "AL WASL",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Arabian Ranches",
+   "community": "WADI AL SAFA 6",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Arabian Ranches 2",
+   "community": "WADI AL SAFA 7",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Arabian Ranches 3",
+   "community": "WADI AL SAFA 5",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Arjan",
+   "community": "AL BARSHA SOUTH THIRD",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Barsha Heights (Tecom)",
+   "community": "AL THANYAH FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Bluewaters Island",
+   "community": "MARSA DUBAI",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Bukadra",
+   "community": "BU KADRA",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Bur Dubai",
+   "community": null,
+   "how": "excluded: umbrella district spanning several communities"
+  },
+  {
+   "area": "Business Bay",
+   "community": "BUSINESS BAY",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "City of Arabia",
+   "community": "WADI AL SAFA 2",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Culture Village",
+   "community": "AL JADAF",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "DAMAC Hills",
+   "community": "AL HEBIAH THIRD",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "DAMAC Hills 2 (Akoya by DAMAC)",
+   "community": "AL YUFRAH 2",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "DAMAC Lagoons",
+   "community": "AL HEBIAH FIFTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Deira",
+   "community": "NAIF",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "DIFC",
+   "community": null,
+   "how": "excluded: umbrella district spanning several communities"
+  },
+  {
+   "area": "Discovery Gardens",
+   "community": "JABAL ALI FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Downtown Dubai",
+   "community": "BURJ KHALIFA",
+   "how": "manual correction"
+  },
+  {
+   "area": "Dubai Creek Harbour",
+   "community": "AL KHEERAN FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Design District",
+   "community": "ZAA'BEEL SECOND",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Festival City",
+   "community": "AL KHEERAN",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Harbour",
+   "community": "MARSA DUBAI",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Hills Estate",
+   "community": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Industrial City",
+   "community": "SAIH SHUAIB 3",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Internet City",
+   "community": "AL SAFOUH SECOND",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Investment Park (DIP)",
+   "community": "DUBAI INVESTMENT PARK FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Islands",
+   "community": "NAKHLAT DEIRA",
+   "how": "manual correction"
+  },
+  {
+   "area": "Dubai Marina",
+   "community": "MARSA DUBAI",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Maritime City",
+   "community": "MADINAT DUBAI AL MELAHEYAH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Media City",
+   "community": "AL SAFOUH SECOND",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Production City (IMPZ)",
+   "community": "ME'AISEM FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Residence Complex",
+   "community": "WADI AL SAFA 5",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Science Park",
+   "community": "AL BARSHA SOUTH SECOND",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Silicon Oasis (DSO)",
+   "community": "NADD HESSA",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai South",
+   "community": "MADINAT AL MATAAR",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Sports City",
+   "community": "AL HEBIAH FOURTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Studio City",
+   "community": "AL HEBIAH SECOND",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubai Waterfront",
+   "community": "HESSYAN SECOND",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Dubailand",
+   "community": null,
+   "how": "excluded: umbrella district spanning several communities"
+  },
+  {
+   "area": "Emirates Hills",
+   "community": "AL THANYAH  FOURTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Expo City",
+   "community": "MADINAT AL MATAAR",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Falcon City of Wonders",
+   "community": "WADI AL SAFA 2",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Green Community",
+   "community": "DUBAI INVESTMENT PARK FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "International City",
+   "community": "WARSAN FIRST",
+   "how": "manual correction"
+  },
+  {
+   "area": "Jebel Ali",
+   "community": null,
+   "how": "excluded: umbrella district spanning several communities"
+  },
+  {
+   "area": "Jumeirah",
+   "community": null,
+   "how": "excluded: umbrella district spanning several communities"
+  },
+  {
+   "area": "Jumeirah Beach Residence (JBR)",
+   "community": "MARSA DUBAI",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Jumeirah Golf Estates",
+   "community": "ME'AISEM FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Jumeirah Heights",
+   "community": "AL THANYAH FIFTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Jumeirah Islands",
+   "community": "AL THANYAH FIFTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Jumeirah Lake Towers (JLT)",
+   "community": "AL THANYAH FIFTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Jumeirah Park",
+   "community": "AL THANYAH FIFTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Jumeirah Village Circle (JVC)",
+   "community": "AL BARSHA SOUTH FOURTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Jumeirah Village Triangle (JVT)",
+   "community": "AL BARSHA SOUTH FIFTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Living Legends",
+   "community": "WADI AL SAFA 3",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Liwan",
+   "community": "WADI AL SAFA 2",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Liwan 2",
+   "community": "WADI AL SAFA 2",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Majan",
+   "community": "WADI AL SAFA 3",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Meydan City",
+   "community": "NADD AL SHIBA FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Mina Rashid",
+   "community": "MADINAT DUBAI AL MELAHEYAH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Mirdif",
+   "community": "MIRDIF",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Mohammed Bin Rashid City",
+   "community": "AL MERKADH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Motor City",
+   "community": "AL HEBIAH FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Mudon",
+   "community": "AL HEBIAH SIXTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Muhaisnah",
+   "community": null,
+   "how": "excluded: umbrella district spanning several communities"
+  },
+  {
+   "area": "Nad Al Hamar",
+   "community": "UMM RAMOOL",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Nad Al Sheba",
+   "community": null,
+   "how": "excluded: umbrella district spanning several communities"
+  },
+  {
+   "area": "Palm Jebel Ali",
+   "community": "NAKHLAT JABAL ALI",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Palm Jumeirah",
+   "community": "NAKHLAT JUMEIRA",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Pearl Jumeirah",
+   "community": "JUMEIRA FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Ras Al Khor",
+   "community": "RAS AL KHOR",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Reem",
+   "community": "WADI AL SAFA 7",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Remraam",
+   "community": "AL HEBIAH FIFTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Serena",
+   "community": "WADI AL SAFA 7",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Sheikh Zayed Road",
+   "community": "TRADE CENTER FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Sobha Hartland",
+   "community": "AL MERKADH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "The Acres",
+   "community": "WADI AL SAFA 7",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "The Greens",
+   "community": "AL THANYAH THIRD",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "The Hills",
+   "community": "AL THANYAH THIRD",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "The Lakes",
+   "community": "AL THANYAH THIRD",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "The Meadows",
+   "community": "AL THANYAH  FOURTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "The Oasis by Emaar",
+   "community": "ME'AISEM SECOND",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "The Springs",
+   "community": "AL THANYAH  FOURTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "The Sustainable City",
+   "community": "WADI AL SAFA 7",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "The Valley",
+   "community": "AL YUFRAH 1",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "The Views",
+   "community": "AL THANYAH THIRD",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "The Villa",
+   "community": "WADI AL SAFA 5",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "The World Islands",
+   "community": "WORLD ISLANDS",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Tilal Al Ghaf",
+   "community": "AL HEBIAH FOURTH",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Town Square",
+   "community": "AL YALAYIS 2",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Umm Suqeim",
+   "community": null,
+   "how": "excluded: umbrella district spanning several communities"
+  },
+  {
+   "area": "Wadi Al Safa 2",
+   "community": "WADI AL SAFA 2",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Wasl Gate",
+   "community": "JABAL ALI FIRST",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "World Trade Centre",
+   "community": "TRADE CENTER SECOND",
+   "how": "placeholder coordinate inside community"
+  },
+  {
+   "area": "Za'abeel",
+   "community": "ZAA'BEEL SECOND",
+   "how": "placeholder coordinate inside community"
+  }
+ ],
+ "minListings": 10,
+ "method": "Count of for-sale listings posted in the 30 days before the snapshot date, per community. Communities with fewer than 10 matched listings are null.",
+ "limitation": "A single April 2024 snapshot from one portal, so this is relative volume rather than a complete count and has no history (no month-over-month or year-over-year growth). Re-posted listings count as new. Correlates strongly with total active listings.",
+ "communitiesWithData": 54,
+ "stops": [
+  3,
+  17,
+  57,
+  107,
+  264,
+  1130
+ ],
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "bayutAreas": [
+    "Arabian Ranches 3",
+    "Dubai Residence Complex",
+    "The Villa"
+   ],
+   "activeListings": 596,
+   "newListings30d": 223,
+   "medianDaysListed": 42
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "bayutAreas": [
+    "Dubai Creek Harbour"
+   ],
+   "activeListings": 954,
+   "newListings30d": 300,
+   "medianDaysListed": 51
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "bayutAreas": [
+    "Al Qusais"
+   ],
+   "activeListings": 4,
+   "newListings30d": null,
+   "medianDaysListed": 31
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "bayutAreas": [
+    "DAMAC Lagoons",
+    "Remraam"
+   ],
+   "activeListings": 441,
+   "newListings30d": 187,
+   "medianDaysListed": 38
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "bayutAreas": [
+    "Motor City"
+   ],
+   "activeListings": 131,
+   "newListings30d": 46,
+   "medianDaysListed": 52
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "bayutAreas": [
+    "Reem",
+    "Arabian Ranches 2",
+    "Serena",
+    "The Acres",
+    "The Sustainable City"
+   ],
+   "activeListings": 280,
+   "newListings30d": 122,
+   "medianDaysListed": 36
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "bayutAreas": [
+    "Al Khawaneej"
+   ],
+   "activeListings": 4,
+   "newListings30d": null,
+   "medianDaysListed": 164
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "bayutAreas": [
+    "Al Safa"
+   ],
+   "activeListings": 2,
+   "newListings30d": null,
+   "medianDaysListed": 38
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "bayutAreas": [
+    "Mirdif"
+   ],
+   "activeListings": 48,
+   "newListings30d": 17,
+   "medianDaysListed": 50
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "bayutAreas": [
+    "Al Twar"
+   ],
+   "activeListings": 1,
+   "newListings30d": null,
+   "medianDaysListed": 154
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "bayutAreas": [
+    "Deira"
+   ],
+   "activeListings": 9,
+   "newListings30d": null,
+   "medianDaysListed": 78
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "bayutAreas": [
+    "Arabian Ranches"
+   ],
+   "activeListings": 137,
+   "newListings30d": 46,
+   "medianDaysListed": 48
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "bayutAreas": [
+    "Town Square"
+   ],
+   "activeListings": 330,
+   "newListings30d": 88,
+   "medianDaysListed": 51
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "bayutAreas": [
+    "Dubai Media City",
+    "Dubai Internet City"
+   ],
+   "activeListings": 39,
+   "newListings30d": 17,
+   "medianDaysListed": 38
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "bayutAreas": [
+    "Dubai Islands"
+   ],
+   "activeListings": 26,
+   "newListings30d": 10,
+   "medianDaysListed": 50
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "bayutAreas": [
+    "World Trade Centre"
+   ],
+   "activeListings": 26,
+   "newListings30d": 7,
+   "medianDaysListed": 82
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "bayutAreas": [
+    "Dubai Silicon Oasis (DSO)"
+   ],
+   "activeListings": 142,
+   "newListings30d": 50,
+   "medianDaysListed": 48
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "bayutAreas": [
+    "Barsha Heights (Tecom)"
+   ],
+   "activeListings": 53,
+   "newListings30d": 8,
+   "medianDaysListed": 73
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "bayutAreas": [
+    "Dubai Industrial City"
+   ],
+   "activeListings": 13,
+   "newListings30d": 3,
+   "medianDaysListed": 79
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "bayutAreas": [
+    "Dubai Studio City"
+   ],
+   "activeListings": 114,
+   "newListings30d": 39,
+   "medianDaysListed": 45
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "bayutAreas": [
+    "Al Wasl"
+   ],
+   "activeListings": 404,
+   "newListings30d": 107,
+   "medianDaysListed": 58
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "bayutAreas": [
+    "Liwan",
+    "City of Arabia",
+    "Falcon City of Wonders",
+    "Liwan 2",
+    "Wadi Al Safa 2"
+   ],
+   "activeListings": 107,
+   "newListings30d": 49,
+   "medianDaysListed": 36
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "bayutAreas": [
+    "The World Islands"
+   ],
+   "activeListings": 24,
+   "newListings30d": 8,
+   "medianDaysListed": 47
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "bayutAreas": [
+    "Dubai Maritime City",
+    "Mina Rashid",
+    "Al Mina"
+   ],
+   "activeListings": 160,
+   "newListings30d": 74,
+   "medianDaysListed": 35
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "bayutAreas": [
+    "DAMAC Hills 2 (Akoya by DAMAC)"
+   ],
+   "activeListings": 558,
+   "newListings30d": 219,
+   "medianDaysListed": 42
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "bayutAreas": [
+    "Meydan City"
+   ],
+   "activeListings": 542,
+   "newListings30d": 186,
+   "medianDaysListed": 43
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "bayutAreas": [
+    "Dubai Marina",
+    "Dubai Harbour",
+    "Bluewaters Island",
+    "Jumeirah Beach Residence (JBR)"
+   ],
+   "activeListings": 3552,
+   "newListings30d": 1130,
+   "medianDaysListed": 50
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "bayutAreas": [
+    "Palm Jumeirah"
+   ],
+   "activeListings": 1346,
+   "newListings30d": 423,
+   "medianDaysListed": 50
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "bayutAreas": [
+    "Dubai South",
+    "Expo City"
+   ],
+   "activeListings": 499,
+   "newListings30d": 171,
+   "medianDaysListed": 43
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "bayutAreas": [
+    "Nad Al Hamar"
+   ],
+   "activeListings": 6,
+   "newListings30d": null,
+   "medianDaysListed": 100
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "bayutAreas": [
+    "Sheikh Zayed Road"
+   ],
+   "activeListings": 1,
+   "newListings30d": null,
+   "medianDaysListed": 44
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "bayutAreas": [
+    "Tilal Al Ghaf",
+    "Dubai Sports City"
+   ],
+   "activeListings": 688,
+   "newListings30d": 215,
+   "medianDaysListed": 51
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "bayutAreas": [
+    "Dubai Science Park"
+   ],
+   "activeListings": 103,
+   "newListings30d": 45,
+   "medianDaysListed": 43
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "bayutAreas": [
+    "Business Bay"
+   ],
+   "activeListings": 2423,
+   "newListings30d": 713,
+   "medianDaysListed": 52
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "bayutAreas": [
+    "Downtown Dubai"
+   ],
+   "activeListings": 2064,
+   "newListings30d": 612,
+   "medianDaysListed": 56
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "bayutAreas": [
+    "Jumeirah Golf Estates",
+    "Dubai Production City (IMPZ)"
+   ],
+   "activeListings": 446,
+   "newListings30d": 158,
+   "medianDaysListed": 50
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "bayutAreas": [
+    "The Oasis by Emaar"
+   ],
+   "activeListings": 32,
+   "newListings30d": 20,
+   "medianDaysListed": 20
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "bayutAreas": [
+    "Al Karama"
+   ],
+   "activeListings": 1,
+   "newListings30d": null,
+   "medianDaysListed": 9
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "bayutAreas": [
+    "Al Mizhar"
+   ],
+   "activeListings": 7,
+   "newListings30d": null,
+   "medianDaysListed": 66
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "bayutAreas": [
+    "Ras Al Khor"
+   ],
+   "activeListings": 36,
+   "newListings30d": 31,
+   "medianDaysListed": 10
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "bayutAreas": [
+    "The Valley"
+   ],
+   "activeListings": 197,
+   "newListings30d": 91,
+   "medianDaysListed": 34
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "bayutAreas": [
+    "Jumeirah Village Triangle (JVT)"
+   ],
+   "activeListings": 424,
+   "newListings30d": 229,
+   "medianDaysListed": 28
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "bayutAreas": [
+    "Al Satwa",
+    "Al Badaa"
+   ],
+   "activeListings": 32,
+   "newListings30d": 18,
+   "medianDaysListed": 30
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "bayutAreas": [
+    "Bukadra"
+   ],
+   "activeListings": 49,
+   "newListings30d": 22,
+   "medianDaysListed": 34
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "bayutAreas": [
+    "Dubai Waterfront"
+   ],
+   "activeListings": 5,
+   "newListings30d": null,
+   "medianDaysListed": 26
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "bayutAreas": [
+    "Dubai Investment Park (DIP)",
+    "Green Community"
+   ],
+   "activeListings": 448,
+   "newListings30d": 370,
+   "medianDaysListed": 9
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "bayutAreas": [
+    "International City"
+   ],
+   "activeListings": 145,
+   "newListings30d": 57,
+   "medianDaysListed": 42
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "bayutAreas": [
+    "The Views",
+    "The Greens",
+    "The Hills",
+    "The Lakes"
+   ],
+   "activeListings": 298,
+   "newListings30d": 107,
+   "medianDaysListed": 48
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "bayutAreas": [
+    "Jumeirah Lake Towers (JLT)",
+    "Jumeirah Park",
+    "Jumeirah Islands",
+    "Jumeirah Heights"
+   ],
+   "activeListings": 1122,
+   "newListings30d": 401,
+   "medianDaysListed": 48
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "bayutAreas": [
+    "Al Manara"
+   ],
+   "activeListings": 1,
+   "newListings30d": null,
+   "medianDaysListed": 57
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "bayutAreas": [
+    "Dubai Design District",
+    "Za'abeel"
+   ],
+   "activeListings": 282,
+   "newListings30d": 93,
+   "medianDaysListed": 50
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "bayutAreas": [
+    "DAMAC Hills"
+   ],
+   "activeListings": 565,
+   "newListings30d": 207,
+   "medianDaysListed": 45
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "bayutAreas": [
+    "Arjan"
+   ],
+   "activeListings": 766,
+   "newListings30d": 281,
+   "medianDaysListed": 44
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "bayutAreas": [
+    "Dubai Festival City"
+   ],
+   "activeListings": 31,
+   "newListings30d": 10,
+   "medianDaysListed": 51
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "bayutAreas": [
+    "Al Jaddaf",
+    "Culture Village"
+   ],
+   "activeListings": 270,
+   "newListings30d": 57,
+   "medianDaysListed": 63
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "bayutAreas": [
+    "Mudon"
+   ],
+   "activeListings": 214,
+   "newListings30d": 57,
+   "medianDaysListed": 50
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "bayutAreas": [
+    "Al Barari",
+    "Majan",
+    "Living Legends"
+   ],
+   "activeListings": 243,
+   "newListings30d": 86,
+   "medianDaysListed": 42
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "bayutAreas": [
+    "Al Sufouh"
+   ],
+   "activeListings": 28,
+   "newListings30d": 10,
+   "medianDaysListed": 45
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "bayutAreas": [
+    "Mohammed Bin Rashid City",
+    "Sobha Hartland"
+   ],
+   "activeListings": 1361,
+   "newListings30d": 388,
+   "medianDaysListed": 51
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "bayutAreas": [
+    "Dubai Hills Estate"
+   ],
+   "activeListings": 880,
+   "newListings30d": 282,
+   "medianDaysListed": 45
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "bayutAreas": [
+    "Pearl Jumeirah"
+   ],
+   "activeListings": 32,
+   "newListings30d": 12,
+   "medianDaysListed": 78
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "bayutAreas": [
+    "Al Warqaa"
+   ],
+   "activeListings": 4,
+   "newListings30d": null,
+   "medianDaysListed": 66
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "bayutAreas": [
+    "Jumeirah Village Circle (JVC)"
+   ],
+   "activeListings": 2477,
+   "newListings30d": 848,
+   "medianDaysListed": 47
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "bayutAreas": [
+    "Palm Jebel Ali"
+   ],
+   "activeListings": 14,
+   "newListings30d": 3,
+   "medianDaysListed": 50
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "bayutAreas": [],
+   "activeListings": null,
+   "newListings30d": null,
+   "medianDaysListed": null
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "bayutAreas": [
+    "The Springs",
+    "The Meadows",
+    "Emirates Hills"
+   ],
+   "activeListings": 237,
+   "newListings30d": 83,
+   "medianDaysListed": 43
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "bayutAreas": [
+    "Al Furjan",
+    "Discovery Gardens",
+    "Wasl Gate"
+   ],
+   "activeListings": 754,
+   "newListings30d": 264,
+   "medianDaysListed": 44
+  }
+ ]
+}
