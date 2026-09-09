@@ -4,19 +4,23 @@ import { X, Calendar, ZoomIn, ZoomOut, Maximize2, TrendingUp } from "lucide-reac
 import { motion } from "framer-motion";
 import DraggableBar from "./DraggableBar";
 
-const mockForecastData = Array.from({ length: 24 }, (_, i) => ({
-  ds: new Date(2024, i, 1).toISOString(),
-  yhat: 45 + Math.random() * 10 + i * 0.5,
-  name_en: "Demo Area",
-  area_id: "464"
-}));
+// Minimum observations before a fitted trend line is meaningful, and the gap
+// (in months) beyond which the line is broken rather than drawn across
+// missing months. Both are shown to the user in the data-quality panel.
+const MIN_TREND_POINTS = 12;
+const GAP_MONTHS = 3;
+const SPARSE_POINTS = 12;
 
-const mockHistoricalData = Array.from({ length: 36 }, (_, i) => ({
-  ds: new Date(2021, i, 1).toISOString(),
-  y: 40 + Math.random() * 8 + i * 0.3,
-  name_en: "Demo Area",
-  area_id: "464"
-}));
+// Source dates are "YYYY-MM-DD ..." strings. Parse the parts as a local date
+// so the calendar day is never shifted by a UTC conversion.
+const parseLocalDate = (str) => {
+  const m = String(str).match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!m) return new Date(str);
+  return new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+};
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const fmtMonth = (d) => `${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
+const monthsBetween = (a, b) => (b.getFullYear() - a.getFullYear()) * 12 + (b.getMonth() - a.getMonth());
 
 const GraphModal = ({ 
   isOpen = true, 
@@ -43,8 +47,11 @@ const GraphModal = ({
   // Memoised so the useCallback hooks below keep a stable dependency.
   const margin = useMemo(() => ({ top: 20, right: 20, bottom: 40, left: 50 }), []);
 
-  const activeSeries = series.length > 0 ? series : mockForecastData;
-  const activeHistorical = pastSeries.length > 0 ? pastSeries : mockHistoricalData;
+  // Only real data is drawn. An area with no forecast file simply has no
+  // forecast; nothing is substituted for it.
+  const activeSeries = series;
+  const activeHistorical = pastSeries;
+  const hasForecast = activeSeries.length > 0;
   
   // Combine and sort data
   const allData = useMemo(() => {
@@ -52,8 +59,8 @@ const GraphModal = ({
     
     activeHistorical?.forEach((item) => {
       combined.push({
-        x: new Date(item.instance_date || item.ds),
-        y: parseFloat(item.avg_meter_price || item.y || item.yhat),
+        x: parseLocalDate(item.instance_date || item.ds),
+        y: parseFloat(item.avg_meter_price ?? item.y ?? item.yhat),
         date: item.instance_date || item.ds,
         type: 'historical'
       });
@@ -61,7 +68,7 @@ const GraphModal = ({
     
     activeSeries.forEach((item) => {
       combined.push({
-        x: new Date(item.ds),
+        x: parseLocalDate(item.ds),
         y: parseFloat(item.yhat),
         date: item.ds,
         type: 'forecast'
@@ -70,6 +77,43 @@ const GraphModal = ({
     
     return combined.sort((a, b) => a.x - b.x);
   }, [activeSeries, activeHistorical]);
+
+  // Data-quality facts shown to the user: how many months were actually
+  // observed, where the gaps are, and whether a value repeats suspiciously.
+  const quality = useMemo(() => {
+    const hist = allData.filter((d) => d.type === 'historical');
+    if (hist.length === 0) return null;
+    const first = hist[0].x;
+    const last = hist[hist.length - 1].x;
+    const spanMonths = monthsBetween(first, last) + 1;
+    const gaps = [];
+    for (let i = 1; i < hist.length; i++) {
+      const g = monthsBetween(hist[i - 1].x, hist[i].x);
+      if (g > GAP_MONTHS) gaps.push({ from: hist[i - 1].x, to: hist[i].x, months: g - 1 });
+    }
+    const counts = {};
+    hist.forEach((d) => { const k = d.y.toFixed(4); counts[k] = (counts[k] || 0) + 1; });
+    const repeated = Object.entries(counts).filter(([, n]) => n >= 3).map(([v, n]) => ({ value: Number(v), times: n }));
+    const forecastStart = hasForecast ? allData.find((d) => d.type === 'forecast')?.x : null;
+    return {
+      observations: hist.length,
+      first,
+      last,
+      spanMonths,
+      coveragePct: Math.round((hist.length / spanMonths) * 100),
+      gaps,
+      largestGap: gaps.reduce((m, g) => Math.max(m, g.months), 0),
+      repeated,
+      sparse: hist.length < SPARSE_POINTS,
+      forecastStart,
+      forecastEnd: hasForecast ? allData[allData.length - 1].x : null,
+    };
+  }, [allData, hasForecast]);
+
+  // Sparse areas open as scatter so the eye is not led along an invented line.
+  useEffect(() => {
+    if (quality) setChartType(quality.sparse ? 'scatter' : 'line');
+  }, [quality]);
 
   // Initialize date range
   useEffect(() => {
@@ -183,36 +227,45 @@ const GraphModal = ({
     return Array.from({ length: 6 }, (_, i) => yMin + i * step);
   }, [yMin, yMax]);
 
-  // Line path
-  const pathD = useMemo(() => {
-    if (dataPoints.length === 0) return "";
-    if (dataPoints.length === 1) {
-      const p = dataPoints[0];
-      return `M ${xScale(p.x)} ${yScale(p.y)}`;
-    }
-    
-    let path = `M ${xScale(dataPoints[0].x)} ${yScale(dataPoints[0].y)}`;
+  // Line path: straight segments between observed points, and no segment at
+  // all where more than GAP_MONTHS months passed with nothing recorded.
+  const buildPath = useCallback((pts) => {
+    let path = "";
+    pts.forEach((p, i) => {
+      const prev = pts[i - 1];
+      const startNew = i === 0 || monthsBetween(prev.x, p.x) > GAP_MONTHS;
+      path += `${startNew ? ' M' : ' L'} ${xScale(p.x)} ${yScale(p.y)}`;
+    });
+    return path.trim();
+  }, [xScale, yScale]);
+  const pathD = useMemo(() => buildPath(dataPoints.filter((p) => p.type !== 'forecast')), [dataPoints, buildPath]);
+  const forecastPathD = useMemo(() => buildPath(dataPoints.filter((p) => p.type === 'forecast')), [dataPoints, buildPath]);
+
+  // Spans with no observations, drawn as a hatched band so a gap reads as a
+  // gap rather than as a flat price.
+  const gapBands = useMemo(() => {
+    const bands = [];
     for (let i = 1; i < dataPoints.length; i++) {
-      const curr = dataPoints[i];
-      const prev = dataPoints[i - 1];
-      const x1 = xScale(prev.x);
-      const y1 = yScale(prev.y);
-      const x2 = xScale(curr.x);
-      const y2 = yScale(curr.y);
-      const mx = (x1 + x2) / 2;
-      path += ` C ${mx} ${y1}, ${mx} ${y2}, ${x2} ${y2}`;
+      const a = dataPoints[i - 1], b = dataPoints[i];
+      if (a.type === 'historical' && b.type === 'historical' && monthsBetween(a.x, b.x) > GAP_MONTHS) {
+        bands.push({ x1: xScale(a.x), x2: xScale(b.x), months: monthsBetween(a.x, b.x) - 1 });
+      }
     }
-    return path;
-  }, [dataPoints, xScale, yScale]);
+    return bands;
+  }, [dataPoints, xScale]);
 
   // Trend line
   const trendLine = useMemo(() => {
-    if (dataPoints.length < 2) return null;
+    // Fit to recorded sales only; a line through model output would describe
+    // the model, not the market.
+    const basis = dataView === 'forecast' ? dataPoints : dataPoints.filter((p) => p.type !== 'forecast');
+    if (basis.length < MIN_TREND_POINTS) return null;
+    if (quality && quality.largestGap >= 24 && dataView !== 'forecast') return null;
 
-    const n = dataPoints.length;
+    const n = basis.length;
     let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
     
-    dataPoints.forEach(p => {
+    basis.forEach(p => {
       const xVal = p.x.getTime();
       sumX += xVal;
       sumY += p.y;
@@ -225,17 +278,32 @@ const GraphModal = ({
 
     if (!isFinite(slope)) return null;
 
-    const y1 = slope * xMin + intercept;
-    const y2 = slope * xMax + intercept;
+    const bMin = basis[0].x.getTime();
+    const bMax = basis[basis.length - 1].x.getTime();
+    const by1 = slope * bMin + intercept;
+    const by2 = slope * bMax + intercept;
+    const years = (bMax - bMin) / (365.25 * 24 * 3600 * 1000);
+    const meanY = sumY / n;
+    const perYearPct = years > 0 && meanY ? ((by2 - by1) / years / meanY) * 100 : 0;
 
     return {
-      x1: xScale(new Date(xMin)),
-      y1: yScale(y1),
-      x2: xScale(new Date(xMax)),
-      y2: yScale(y2),
-      slope
+      x1: xScale(new Date(bMin)),
+      y1: yScale(by1),
+      x2: xScale(new Date(bMax)),
+      y2: yScale(by2),
+      slope,
+      perYearPct,
+      n
     };
-  }, [dataPoints, xMin, xMax, xScale, yScale]);
+  }, [dataPoints, xScale, yScale, quality, dataView]);
+
+  const observedInView = dataPoints.filter((p) => p.type !== 'forecast').length;
+  const forecastInView = dataPoints.length - observedInView;
+  const trendUnavailableReason = !trendLine && showTrend
+    ? observedInView < MIN_TREND_POINTS
+      ? `Trend needs at least ${MIN_TREND_POINTS} observed months (this view has ${observedInView})`
+      : 'Trend hidden: the series has a gap of 2+ years'
+    : null;
 
   // Zoom handlers
   const handleZoomIn = () => setZoom(prev => Math.min(prev * 1.3, 10));
@@ -301,9 +369,12 @@ const GraphModal = ({
         <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-gradient-to-r from-blue-50 to-white">
           <div>
             <h2 className="text-xl font-bold text-gray-900">
-              Average Meter Price
+              Average Price per m² (AED)
               {placeName && <span className="text-blue-600"> — {placeName}</span>}
             </h2>
+            <p className="text-xs text-gray-600 mt-0.5">
+              Monthly average of residential sale prices per square metre, Dubai Land Department transactions (bundled export, Jan 2010 to Aug 2025). Months with no sales are not shown.
+            </p>
             {/* {stats && (
               <div className="flex gap-4 mt-1 text-xs text-gray-600">
                 <span>Avg: <strong className="text-gray-900">{stats.avg.toFixed(2)}</strong></span>
@@ -388,16 +459,18 @@ const GraphModal = ({
                       Historical
                     </button>
                   )}
-                  <button
-                    className={`px-3 py-1.5 text-xs sm:text-sm border-l border-gray-300 transition-all ${
-                      dataView === "forecast"
-                        ? "bg-azure text-white"
-                        : "bg-white hover:bg-gray-50"
-                    }`}
-                    onClick={() => setDataView("forecast")}
-                  >
-                    Forecast
-                  </button>
+                  {hasForecast && (
+                    <button
+                      className={`px-3 py-1.5 text-xs sm:text-sm border-l border-gray-300 transition-all ${
+                        dataView === "forecast"
+                          ? "bg-azure text-white"
+                          : "bg-white hover:bg-gray-50"
+                      }`}
+                      onClick={() => setDataView("forecast")}
+                    >
+                      Forecast
+                    </button>
+                  )}
                 </div>
               </div>
 
@@ -514,8 +587,9 @@ const GraphModal = ({
 
               {/* Data Summary */}
               <div className="text-xs text-gray-600 ml-auto bg-gray-50 px-3 py-1.5 rounded-lg">
-                <strong>{dataPoints.length}</strong> data points
-                {timePeriod !== "all" && <span className="ml-1">({timePeriod} aggregation)</span>}
+                <strong>{observedInView}</strong> observed {timePeriod === "yearly" ? "years" : "months"}
+                {forecastInView > 0 && <span className="ml-1">+ <strong>{forecastInView}</strong> forecast</span>}
+                {timePeriod !== "all" && <span className="ml-1">({timePeriod} average)</span>}
               </div>
             </div>
 
@@ -585,6 +659,65 @@ const GraphModal = ({
                       strokeWidth="1"
                     />
                   ))}
+
+                  {/* Months with no recorded sales */}
+                  {chartType === "line" && gapBands.map((g, i) => (
+                    <g key={`gap-${i}`}>
+                      <rect
+                        x={Math.min(g.x1, g.x2)}
+                        y={margin.top}
+                        width={Math.abs(g.x2 - g.x1)}
+                        height={svgHeight - margin.top - margin.bottom}
+                        fill="#f3f4f6"
+                        opacity="0.9"
+                      />
+                      {Math.abs(g.x2 - g.x1) > 70 && (
+                        <text
+                          x={(g.x1 + g.x2) / 2}
+                          y={margin.top + 30}
+                          textAnchor="middle"
+                          fontSize="10"
+                          fill="#9ca3af"
+                        >
+                          no sales recorded ({g.months} months)
+                        </text>
+                      )}
+                    </g>
+                  ))}
+
+                  {/* Where the forecast begins */}
+                  {quality?.forecastStart && dataView === "all" && (
+                    <>
+                      <line
+                        x1={xScale(quality.forecastStart)}
+                        x2={xScale(quality.forecastStart)}
+                        y1={margin.top}
+                        y2={svgHeight - margin.bottom}
+                        stroke="#10b981"
+                        strokeWidth="1"
+                        strokeDasharray="3,3"
+                      />
+                      <text
+                        x={xScale(quality.forecastStart) + 4}
+                        y={svgHeight - margin.bottom - 6}
+                        fontSize="10"
+                        fill="#059669"
+                      >
+                        forecast →
+                      </text>
+                    </>
+                  )}
+
+                  {/* Y-axis unit */}
+                  <text
+                    x={12}
+                    y={margin.top - 6}
+                    fontSize="10"
+                    fill="#6b7280"
+                    fontWeight="500"
+                  >
+                    AED / m²
+                  </text>
 
                   {/* Cursor line */}
                     {cursor && (
@@ -669,14 +802,25 @@ const GraphModal = ({
                   <g clipPath="url(#chart-area-clip)">
                     {/* Line chart with gradient */}
                     {chartType === "line" && (
-                      <path 
-                        d={pathD} 
-                        fill="none" 
-                        stroke="url(#lineGradient)" 
-                        strokeWidth="3" 
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
+                      <>
+                        <path
+                          d={pathD}
+                          fill="none"
+                          stroke="#3b82f6"
+                          strokeWidth="2.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d={forecastPathD}
+                          fill="none"
+                          stroke="#10b981"
+                          strokeWidth="2"
+                          strokeDasharray="5,4"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </>
                     )}
 
                     {/* Scatter points */}
@@ -732,7 +876,7 @@ const GraphModal = ({
                           fill="#f59e0b"
                           fontWeight="600"
                         >
-                          {trendLine.slope > 0 ? '↗ Upward' : '↘ Downward'} Trend
+                          {trendLine.slope > 0 ? '↗ Upward' : '↘ Downward'} trend, {trendLine.perYearPct >= 0 ? '+' : ''}{trendLine.perYearPct.toFixed(1)}%/yr over {trendLine.n} points
                         </text>
                       </>
                     )}
@@ -748,8 +892,12 @@ const GraphModal = ({
                     top: yScale(cursor.point.y) - 40,
                   }}
                 >
-                  <div><strong>{cursor.point.x.toISOString().split("T")[0]}</strong></div>
-                  <div>Value: {cursor.point.y.toFixed(2)}</div>
+                  <div><strong>{timePeriod === "yearly" ? cursor.point.x.getFullYear() : fmtMonth(cursor.point.x)}</strong></div>
+                  <div>{Math.round(cursor.point.y).toLocaleString('en-US')} AED/m²</div>
+                  <div className="text-[10px] text-gray-300">
+                    {cursor.point.type === 'forecast' ? 'Model forecast' : cursor.point.type === 'mixed' ? 'Historical + forecast average' : 'Recorded sales'}
+                    {cursor.point.aggregated ? ` · avg of ${cursor.point.count}` : ''}
+                  </div>
                 </div>
               )}
 
@@ -803,12 +951,20 @@ const GraphModal = ({
                 <div className="flex items-center justify-center gap-6 mt-4 text-xs bg-white rounded-lg py-3 px-4 border border-gray-200">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-[#3b82f6] ring-2 ring-blue-200"></div>
-                    <span className="font-medium text-xs sm:text-sm text-gray-700">Historical Data</span>
+                    <span className="font-medium text-xs sm:text-sm text-gray-700">Recorded sales (DLD)</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-green-500 ring-2 ring-green-200"></div>
-                    <span className="font-medium text-xs sm:text-sm text-gray-700">Forecast Data</span>
-                  </div>
+                  {hasForecast && (
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-green-500 ring-2 ring-green-200"></div>
+                      <span className="font-medium text-xs sm:text-sm text-gray-700">Model forecast</span>
+                    </div>
+                  )}
+                  {gapBands.length > 0 && chartType === "line" && (
+                    <div className="flex items-center gap-2">
+                      <div className="w-3 h-3 rounded-sm bg-gray-200 border border-gray-300"></div>
+                      <span className="font-medium text-xs sm:text-sm text-gray-700">No sales recorded</span>
+                    </div>
+                  )}
                   {/* {timePeriod !== "all" && (
                     <div className="flex items-center gap-2">
                       <div className="w-3 h-3 rounded-full bg-purple-500 ring-2 ring-purple-200"></div>
@@ -817,6 +973,46 @@ const GraphModal = ({
                   )} */}
                 </div>
               )}
+            </div>
+          )}
+
+          {/* About this data */}
+          {quality && (
+            <div className="mt-4 text-xs text-gray-700 bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 space-y-1">
+              <div className="font-semibold text-gray-800">About this data</div>
+              <div>
+                <strong>{quality.observations}</strong> months with recorded sales between {fmtMonth(quality.first)} and {fmtMonth(quality.last)}
+                {' '}({quality.coveragePct}% of the {quality.spanMonths} months in that span).
+              </div>
+              {quality.gaps.length > 0 && (
+                <div>
+                  No sales recorded for {quality.gaps.map((g) => `${fmtMonth(g.from)} to ${fmtMonth(g.to)} (${g.months} months)`).join('; ')}. The chart leaves these spans blank rather than drawing a line across them.
+                </div>
+              )}
+              {quality.sparse && (
+                <div className="text-amber-700">
+                  Sparse series: fewer than {SPARSE_POINTS} observed months, so the view opens as scatter and no trend is fitted. Values reflect the few sales that occurred and may be single transactions.
+                </div>
+              )}
+              {quality.repeated.length > 0 && (
+                <div className="text-amber-700">
+                  The value {quality.repeated.map((r) => `${Math.round(r.value).toLocaleString('en-US')} AED/m² appears ${r.times} times`).join(', ')} on different dates, which suggests the same property or a placeholder in the source rather than independent sales.
+                </div>
+              )}
+              {trendUnavailableReason && <div className="text-gray-600">{trendUnavailableReason}.</div>}
+              {trendLine && (
+                <div className="text-gray-600">
+                  Trend: ordinary least-squares line through the {trendLine.n} points in view, {trendLine.perYearPct >= 0 ? '+' : ''}{trendLine.perYearPct.toFixed(1)}% a year relative to the average level. A summary of direction, not a prediction.
+                </div>
+              )}
+              {hasForecast ? (
+                <div>
+                  Forecast: bundled gradient-boosting (XGBoost) model projection, monthly from {fmtMonth(quality.forecastStart)} to {fmtMonth(quality.forecastEnd)}, shown in green. A model output for orientation only, not a prediction of actual sales, and unvalidated against outcomes.
+                </div>
+              ) : (
+                <div>No forecast is available for this area, so only recorded sales are shown.</div>
+              )}
+              <div className="text-gray-500">Source: Dubai Land Department transaction export bundled with GeoStats, monthly average sale price per m² by area.</div>
             </div>
           )}
         </div>

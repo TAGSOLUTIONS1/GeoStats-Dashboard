@@ -354,7 +354,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:false, 
     description:'The area\'s population according to the most recent year of official UAE statistics and surveys.',
-    source:'Zillow',
+    source:'Dubai Statistics Center (2011-2022, ArcGIS)',
     Upcoming: false,
   },
   {
@@ -1013,10 +1013,10 @@ const dataPoints = [
     id: "cultural-diversity-index",
     icon: Users,
     isSelected: false,
-    isPremium: true,
-    description: "Measures cultural diversity and inclusion in the community. Promotes social cohesion and celebrates multicultural society.",
-    source: 'UAE Statistics Center',
-    Upcoming: true,
+    isPremium: false,
+    description: 'Proxy index (0-100): how evenly the private schools in a community are spread across curriculum families (UK, American, Indian, IB, MoE, French, Iranian, Pakistani and others), from the KHDA school list. A wider curriculum mix indicates a more mixed expatriate population. Communities with fewer than 3 schools are not scored. Not an official measure of residents by nationality.',
+    source: 'KHDA school curricula, 2024/25 (proxy)',
+    Upcoming: false,
   },
   {
     count: 95,

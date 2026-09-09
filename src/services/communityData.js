@@ -23,6 +23,7 @@ import affordability from '../data/derived/affordability.json';
 import schoolingCost from '../data/schools/schooling-cost-by-community.json';
 import emergencyProximity from '../data/osm/emergency-proximity.json';
 import livability from '../data/composite/livability-score.json';
+import culturalDiversity from '../data/schools/cultural-diversity-index.json';
 import valueIncome from '../data/derived/value-income.json';
 import mtgPctIncome from '../data/derived/mtg-payments-income-percent.json';
 import ownershipCost from '../data/derived/monthly-home-ownership-cost.json';
@@ -117,6 +118,17 @@ export const mapDataPoints = {
     stops: [16.9, 42.4, 52.7, 61.9, 68.7, 84],
     palette: GREEN,
     source: 'Composite of 6 GeoStats layers (OSM, KHDA, Dubai Police)',
+  },
+  'cultural-diversity-index': {
+    dataset: culturalDiversity,
+    property: 'CulturalDiversity_Index',
+    metric: 'index',
+    labelDigits: 0,
+    labelSuffix: '',
+    label: 'Cultural diversity index (school-curriculum proxy, 0–100)',
+    stops: [14.8, 23, 35.1, 39.2, 45.9, 54.5],
+    palette: BLUE,
+    source: 'KHDA school curricula 2024/25 (proxy)',
   },
   'average-schooling-cost': {
     dataset: schoolingCost,

@@ -819,6 +819,9 @@ const Layout = ({ children }) => {
     }
 
     const areaId = areaEntry.area_id;
+    // Clear the previous area's data so it is never shown under the new name.
+    setSeries([]);
+    setPastSeries([]);
 
     // dynamic import forecast JSON using the area_id
     import(
@@ -827,10 +830,12 @@ const Layout = ({ children }) => {
       .then((module) => {
         setSeries(module.default);
       })
-      .catch((err) =>
-        console.error("Error loading forecast for area:", areaId, err),
-        setSeries([]),
-      );
+      .catch((err) => {
+        // No forecast file for this area: leave the series empty. The modal
+        // says so instead of substituting anything.
+        console.warn("No forecast for area:", areaId, err?.message);
+        setSeries([]);
+      });
 
     //past series
      import(
@@ -839,10 +844,10 @@ const Layout = ({ children }) => {
       .then((module) => {
         setPastSeries(module.default);
       })
-      .catch((err) =>
-        console.error("Error loading historical data for area:", areaId, err),
-        setPastSeries([]),
-      );
+      .catch((err) => {
+        console.warn("No historical data for area:", areaId, err?.message);
+        setPastSeries([]);
+      });
   }, [graphPlace]);
 
 

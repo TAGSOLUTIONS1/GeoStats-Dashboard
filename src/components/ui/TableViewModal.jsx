@@ -1,16 +1,27 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { X, Download, ChevronDown, ArrowUpDown, ArrowDownUp, Crown } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { tableRows } from '../../services/tableData';
+import {
+  tableBackedIds,
+  defaultColumnIds,
+  buildRows,
+  formatCell,
+  getColumnLabel,
+  toCsv,
+} from '../../services/tableData';
 import { dataSections } from '../../data/sidebarData';
 
-const TableViewModal = ({ isOpen, onClose, data = [] }) => {
-  const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' });
+const TableViewModal = ({ isOpen, onClose }) => {
+  // Open ranked by the first value column, highest first, so the top of the
+  // table is the part with data rather than the map's polygon order.
+  const [sortConfig, setSortConfig] = useState({ key: defaultColumnIds[0], direction: 'desc' });
   const [currentPage, setCurrentPage] = useState(1);
   const [rowsPerPage, setRowsPerPage] = useState(10);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [hoveredSort, setHoveredSort] = useState(null);
-  const [columnHeaders, setColumnHeaders] = useState({});
+  // Which data point each of the three value columns shows. Any map data
+  // point can be picked; the cells follow the choice.
+  const [columnIds, setColumnIds] = useState(defaultColumnIds);
   const [expandedSections, setExpandedSections] = useState({});
   const dropdownRef = useRef(null);
 
@@ -31,10 +42,30 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
     };
   }, [activeDropdown]);
 
+  const rows = useMemo(() => buildRows(columnIds), [columnIds]);
+
+  const sortedData = useMemo(() => {
+    const list = [...rows];
+    if (sortConfig.key) {
+      const { key, direction } = sortConfig;
+      const dir = direction === 'asc' ? 1 : -1;
+      list.sort((a, b) => {
+        const av = a[key];
+        const bv = b[key];
+        // Blanks always sink to the bottom, whichever way the sort runs.
+        if (av == null && bv == null) return 0;
+        if (av == null) return 1;
+        if (bv == null) return -1;
+        if (typeof av === 'string' || typeof bv === 'string') {
+          return String(av).localeCompare(String(bv)) * dir;
+        }
+        return (av - bv) * dir;
+      });
+    }
+    return list.map((r, i) => ({ ...r, rk: i + 1 }));
+  }, [rows, sortConfig]);
+
   if (!isOpen) return null;
-
-  const tableData = data.length > 0 ? data : tableRows;
-
 
   const handleSort = (key) => {
     let direction = 'asc';
@@ -45,6 +76,7 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
       return;
     }
     setSortConfig({ key, direction });
+    setCurrentPage(1);
   };
 
   const handleDropdownToggle = (headerKey) => {
@@ -62,129 +94,58 @@ const TableViewModal = ({ isOpen, onClose, data = [] }) => {
     return 'Click to sort ascending';
   };
 
-  const handleColumnHeaderChange = (columnKey, selectedDataPoint) => {
-    // Check if any other column is already using this exact data point name
-    const isDataPointAlreadyUsed = Object.entries(columnHeaders).some(([key, value]) => 
-      key !== columnKey && value?.label === selectedDataPoint.label
-    );
-    
-    // Check if any other column is already using this section
-    const isSectionAlreadyUsed = Object.entries(columnHeaders).some(([key, value]) => 
-      key !== columnKey && value?.sectionId === selectedDataPoint.sectionId
-    );
-    
-    if (isDataPointAlreadyUsed) {
-      // If same data point name is already used, swap the columns
-      const existingColumn = Object.entries(columnHeaders).find(([key, value]) => 
-        value?.label === selectedDataPoint.label
-      );
-      
-      if (existingColumn) {
-        const [existingKey] = existingColumn;
-        setColumnHeaders(prev => ({
-          ...prev,
-          [existingKey]: prev[columnKey] || null, // Move current column's data to existing column
-          [columnKey]: selectedDataPoint // Set new data to current column
-        }));
+  // Put a data point in a column. If another column already shows it, the
+  // two columns swap so the same data never appears twice.
+  const handleColumnChange = (columnIndex, pointId) => {
+    setColumnIds((prev) => {
+      const next = [...prev];
+      const existing = next.indexOf(pointId);
+      if (existing !== -1 && existing !== columnIndex) {
+        next[existing] = prev[columnIndex];
       }
-    } else if (isSectionAlreadyUsed) {
-      // If section is already used, swap the columns
-      const existingColumn = Object.entries(columnHeaders).find(([key, value]) => 
-        value?.sectionId === selectedDataPoint.sectionId
-      );
-      
-      if (existingColumn) {
-        const [existingKey] = existingColumn;
-        setColumnHeaders(prev => ({
-          ...prev,
-          [existingKey]: prev[columnKey] || null, // Move current column's data to existing column
-          [columnKey]: selectedDataPoint // Set new data to current column
-        }));
-      }
-    } else {
-      // Normal assignment
-      setColumnHeaders(prev => ({
-        ...prev,
-        [columnKey]: selectedDataPoint
-      }));
-    }
+      next[columnIndex] = pointId;
+      return next;
+    });
+    setSortConfig({ key: pointId, direction: 'desc' });
+    setCurrentPage(1);
     setActiveDropdown(null);
   };
 
-  const getColumnHeaderLabel = (columnKey) => {
-    return columnHeaders[columnKey]?.label || tableHeaders.find(h => h.key === columnKey)?.label || 'Select Data Point';
-  };
-
   const toggleSection = (sectionId) => {
-    setExpandedSections(prev => ({
+    setExpandedSections((prev) => ({
       ...prev,
-      [sectionId]: !prev[sectionId]
+      [sectionId]: !prev[sectionId],
     }));
   };
 
-  const sortedData = [...tableData].sort((a, b) => {
-    if (sortConfig.key) {
-      if (a[sortConfig.key] < b[sortConfig.key]) {
-        return sortConfig.direction === 'asc' ? -1 : 1;
-      }
-      if (a[sortConfig.key] > b[sortConfig.key]) {
-        return sortConfig.direction === 'asc' ? 1 : -1;
-      }
-    }
-    return 0;
-  });
+  const handleDownload = () => {
+    const csv = toCsv(columnIds, sortedData);
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'geostats-community-table.csv';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
 
-  const totalPages = Math.ceil(sortedData.length / rowsPerPage);
+  const totalPages = Math.max(1, Math.ceil(sortedData.length / rowsPerPage));
   const startIndex = (currentPage - 1) * rowsPerPage;
   const endIndex = startIndex + rowsPerPage;
   const currentData = sortedData.slice(startIndex, endIndex);
 
-  const formatCurrency = (value) => {
-    return new Intl.NumberFormat('en-AE', {
-      style: 'currency',
-      currency: 'AED',
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0,
-    }).format(value);
-  };
+  const tableHeaders = [
+    { key: 'rk', label: 'RK', sortable: true, fixed: true },
+    { key: 'area', label: 'Area', sortable: true, fixed: true },
+    ...columnIds.map((id, i) => ({ key: id, label: getColumnLabel(id), sortable: true, columnIndex: i })),
+  ];
 
-  const formatPercentage = (value) => {
-    return `${value}%`;
-  };
-
-  const formatNumber = (value) => {
-    return new Intl.NumberFormat('en-AE').format(value);
-  };
-
-  // Header configuration to reduce repetitive code
-// Data points the table actually holds values for. Selecting anything else would
-// relabel a column without changing its data, showing the wrong numbers.
-const TABLE_BACKED_IDS = new Set(['home-value', 'price-per-sqm', 'population']);
-
-const tableHeaders = [
-  { key: 'rk', label: 'RK', sortable: true, format: 'number' },
-  { key: 'area', label: 'Area', sortable: true, format: 'text' },
-  { key: 'homeValue', label: 'Home Value', sortable: true, format: 'currency' },
-  { key: 'pricePerSqm', label: 'Price per m² (AED)', sortable: true, format: 'currency' },
-  { key: 'population', label: 'Population', sortable: true, format: 'number' }
-];
-
-
-  // Format cell value based on type
-  const formatCellValue = (value, format) => {
-    // Not every community has every measurement. Render a dash rather than
-    // letting Intl format null into a misleading "AED 0".
-    if (value === null || value === undefined || value === '') return '—';
-    switch (format) {
-      case 'currency':
-        return formatCurrency(value);
-      case 'percentage':
-        return formatPercentage(value);
-      case 'number':
-        return formatNumber(value);
-      default:
-        return value;
-    }
+  const renderCell = (row, header) => {
+    if (header.key === 'rk') return row.rk;
+    if (header.key === 'area') return row.area;
+    return formatCell(row[header.key], header.key);
   };
 
   return (
@@ -201,7 +162,10 @@ const tableHeaders = [
             <h2 className="text-sm md:text-base lg:text-lg font-bold text-gray-900 font-tomorrow">GeoStats Table View - Community</h2>
           </div>
           <div className="flex items-center space-x-3">
-            <button className="px-2 sm:px-3 py-1.5 bg-azure text-white text-[8px] sm:text-xs font-medium rounded-lg hover:bg-azure-dark transition-colors flex items-center space-x-2">
+            <button
+              onClick={handleDownload}
+              className="px-2 sm:px-3 py-1.5 bg-azure text-white text-[8px] sm:text-xs font-medium rounded-lg hover:bg-azure-dark transition-colors flex items-center space-x-2"
+            >
               <Download className="w-3 h-3" />
               <span>Download Report</span>
             </button>
@@ -220,42 +184,41 @@ const tableHeaders = [
             <table className="w-full border-collapse">
               <thead>
                 <tr className=" text-center">
-                  {tableHeaders.map((header, index) => (
-                    <th 
+                  {tableHeaders.map((header) => (
+                    <th
                       key={header.key}
                       className="border-l border-gray-200 py-2 px-3 font-medium text-sm text-blue-light relative font-inter"
-
                       style={{
                         background: `linear-gradient(135deg, rgba(168, 85, 247, 0.05) 0%, rgba(59, 130, 246, 0.05) 100%)`,
                         borderBottom: `3px solid #2A7A8A`,
                       }}
                     >
                       <div className="flex items-center justify-between w-full">
-                        {/* Header Label - No dropdown for first 3 columns */}
-                        {['rk', 'zip', 'area'].includes(header.key) ? (
+                        {/* Header Label - No dropdown for the fixed columns */}
+                        {header.fixed ? (
                           <div className="flex-1">
                             <span className="text-sm font-medium text-center block">
                               {header.label}
                             </span>
                           </div>
                         ) : (
-                          /* Dropdown Button with Text for other columns */
+                          /* Dropdown Button with Text for value columns */
                           <div className="flex-1">
                             <button
                               onClick={() => handleDropdownToggle(header.key)}
                               className="w-full text-left px-2 py-1 hover:bg-gray-200 rounded flex items-center justify-between"
                             >
                               <span className="text-sm font-medium truncate">
-                                {getColumnHeaderLabel(header.key)}
+                                {header.label}
                               </span>
                               <ChevronDown className="w-3 h-3 flex-shrink-0 ml-1" />
                             </button>
                           </div>
                         )}
-                        
+
                         {/* Sort Button */}
                         {header.sortable && (
-                          <div 
+                          <div
                             className="relative ml-2"
                             onMouseEnter={() => setHoveredSort(header.key)}
                             onMouseLeave={() => setHoveredSort(null)}
@@ -283,64 +246,63 @@ const tableHeaders = [
                           </div>
                         )}
                       </div>
-                      
+
                       {/* Dropdown Menu */}
                       {activeDropdown === header.key && (
                         <div className="absolute top-full left-0 right-0 bg-white border border-gray-200 rounded shadow-lg z-50 mt-1 max-h-60 overflow-y-auto">
                           <div className="py-2">
                             {dataSections.map((section) => {
                               const isExpanded = expandedSections[section.id];
-                              
+
                               return (
                                 <div key={section.id}>
                                   {/* Section Header - Clickable */}
-                                  <div 
+                                  <div
                                     className="px-3 py-2 border-b border-gray-100 cursor-pointer hover:bg-gray-300 flex items-center justify-between"
                                     onClick={() => toggleSection(section.id)}
                                   >
                                     <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wide text-left">
                                       {section.label}
                                     </h4>
-                                    <ChevronDown 
+                                    <ChevronDown
                                       className={`w-3 h-3 text-gray-500 transition-transform ${
                                         isExpanded ? 'rotate-180' : ''
-                                      }`} 
+                                      }`}
                                     />
                                   </div>
-                                  
+
                                   {/* Section Items - Only show if expanded */}
-                                  {isExpanded && section.items.map((point) => {
-                                    const isNameUsedByOtherColumn = Object.entries(columnHeaders).some(([key, value]) => 
-                                      key !== header.key && value?.label === point.label
-                                    );
-                                    
-                                    const isSectionUsedByOtherColumn = Object.entries(columnHeaders).some(([key, value]) => 
-                                      key !== header.key && value?.sectionId === section.id
-                                    );
-                                    
-                                    const hasTableData = TABLE_BACKED_IDS.has(point.id);
+                                  {isExpanded && section.items.filter(Boolean).map((point) => {
+                                    // Locked points and Dubai-wide cards have no
+                                    // per-community rows to show.
+                                    const hasTableData = !point.isPremium && tableBackedIds.has(point.id);
+                                    const isCurrent = point.id === header.key;
+                                    const usedElsewhere = !isCurrent && columnIds.includes(point.id);
 
                                     return (
                                       <div
                                         key={point.id}
-                                        onClick={hasTableData ? () => handleColumnHeaderChange(header.key, point) : undefined}
-                                        title={hasTableData ? undefined : 'No table data for this data point yet'}
+                                        onClick={hasTableData ? () => handleColumnChange(header.columnIndex, point.id) : undefined}
+                                        title={
+                                          hasTableData
+                                            ? undefined
+                                            : point.isPremium
+                                              ? 'Locked data point'
+                                              : 'Dubai-wide data point: no per-community table'
+                                        }
                                         className={`px-3 py-2 flex items-center justify-between ${
                                           hasTableData
-                                            ? 'hover:bg-gray-100 cursor-pointer'
+                                            ? `hover:bg-gray-100 cursor-pointer ${isCurrent ? 'bg-gray-100' : ''}`
                                             : 'opacity-40 cursor-not-allowed'
                                         }`}
                                       >
                                         <div className="flex items-center space-x-2">
                                           <span className="text-xs text-left text-gray-700">{point.label}</span>
-                                          {!hasTableData && (
-                                            <span className="text-[10px] text-gray-400">(no table data)</span>
+                                          {!hasTableData && !point.isPremium && (
+                                            <span className="text-[10px] text-gray-400">(Dubai-wide)</span>
                                           )}
-                                          {/* {isNameUsedByOtherColumn && (
-                                            <span className="text-xs text-red-500">(Same name used)</span>
-                                          )} */}
-                                          {isSectionUsedByOtherColumn && !isNameUsedByOtherColumn && (
-                                            <span className="text-xs text-orange">(Section used)</span>
+                                          {usedElsewhere && (
+                                            <span className="text-[10px] text-orange">(in another column)</span>
                                           )}
                                         </div>
                                         {point.isPremium && (
@@ -352,7 +314,6 @@ const tableHeaders = [
                                 </div>
                               );
                             })}
-                            
                           </div>
                         </div>
                       )}
@@ -361,14 +322,14 @@ const tableHeaders = [
                 </tr>
               </thead>
               <tbody>
-                {currentData.map((row, index) => (
-                  <tr key={row.rk} className="border-b border-gray-100 hover:bg-gray-50 text-center">
+                {currentData.map((row) => (
+                  <tr key={row.code} className="border-b border-gray-100 hover:bg-gray-50 text-center">
                     {tableHeaders.map((header) => (
-                      <td 
+                      <td
                         key={header.key}
-                        className={`px-1 py-1 md:px-2 md:py-2 lg:py-3 lg:px-3 text-center text-xs sm:text-sm text-blue ${header.className || ''} font-inter`}
+                        className="px-1 py-1 md:px-2 md:py-2 lg:py-3 lg:px-3 text-center text-xs sm:text-sm text-blue font-inter"
                       >
-                        {formatCellValue(row[header.key], header.format)}
+                        {renderCell(row, header)}
                       </td>
                     ))}
                   </tr>
@@ -383,7 +344,7 @@ const tableHeaders = [
           <div className="flex items-center justify-between">
               <div className="flex items-center space-x-4">
                 <span className="text-[10px] sm:text-xs md:text-sm text-blue font-inter">
-                  Showing {startIndex + 1} to {Math.min(endIndex, sortedData.length)} of {sortedData.length}
+                  Showing {sortedData.length === 0 ? 0 : startIndex + 1} to {Math.min(endIndex, sortedData.length)} of {sortedData.length}
                 </span>
                 <div className="flex items-center space-x-2">
                   <label className="text-[10px] sm:text-xs md:text-sm text-blue font-inter">Rows per Page:</label>
@@ -402,7 +363,7 @@ const tableHeaders = [
                   </select>
                 </div>
               </div>
-            
+
             <div className="flex items-center space-x-2">
               <button
                 onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
@@ -411,7 +372,7 @@ const tableHeaders = [
               >
                 &lt;
               </button>
-              
+
               {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
                 const pageNum = Math.max(1, Math.min(totalPages - 4, currentPage - 2)) + i;
                 return (
@@ -428,7 +389,7 @@ const tableHeaders = [
                   </button>
                 );
               })}
-              
+
               <button
                 onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
                 disabled={currentPage === totalPages}

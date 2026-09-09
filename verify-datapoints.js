@@ -90,6 +90,7 @@ const layers = [
   ['average-schooling-cost', 'src/data/schools/schooling-cost-by-community.json', 'meanAnnualFee'],
   ['emergency-services-response-time', 'src/data/osm/emergency-proximity.json', 'avgKm'],
   ['livability-score', 'src/data/composite/livability-score.json', 'score'],
+  ['cultural-diversity-index', 'src/data/schools/cultural-diversity-index.json', 'index'],
   ['job-market-diversity', 'src/data/osm/job-diversity.json', 'jobDiversity'],
   ['population-growth', 'src/data/dsc/population-by-community.json', 'growthCagrPct'],
   ['home-value', 'src/data/dld18/home-value-by-community.json', 'medianPrice'],
