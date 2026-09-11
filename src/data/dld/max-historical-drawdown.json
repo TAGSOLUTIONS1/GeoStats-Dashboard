@@ -1,0 +1,1392 @@
+{
+  "id": "max-historical-drawdown",
+  "label": "Worst peak-to-trough price fall this community has suffered",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "maxDrawdownPct",
+  "sourceUrl": "https://www.kaggle.com/datasets/zainabhejairi/dubai-real-estates-1969-2023",
+  "retrieved": "2026-09-11",
+  "source": "Dubai Land Department transactions export (Kaggle mirror zainabhejairi/dubai-real-estates-1969-2023, DLD_Transactions.csv)",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD export. The file is exactly 1,048,575 rows, which is Excel's 1,048,576-row ceiling, so it is a TRUNCATED copy of the registry. Coverage ends in 2023.",
+  "period": "2000–2023",
+  "minSalesPerYear": 30,
+  "method": "For each community the annual median price per m2 is computed for every year with at least 30 priced residential sales. The layer reports the deepest fall from any running annual peak to a later year — the worst drawdown that community has actually experienced. Requires at least 6 scored years.",
+  "limitation": "A volatility and downside-risk measure, not a forecast, and it says nothing about where prices sit today. Annual medians are affected by shifts in the mix of units sold, so part of a measured fall can be composition rather than price. Only the years the truncated export covers are searched.",
+  "communitiesWithData": 59,
+  "stops": [
+    -87.3,
+    -50.4,
+    -41.0,
+    -29.4,
+    -17.6,
+    0.0
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "worstPeakYear": 2009,
+      "worstTroughYear": 2010,
+      "yearsScored": 16,
+      "latestMedianPerM2": 10389,
+      "maxDrawdownPct": -47.7
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "worstPeakYear": 2015,
+      "worstTroughYear": 2016,
+      "yearsScored": 9,
+      "latestMedianPerM2": 22194,
+      "maxDrawdownPct": -6.4
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "worstPeakYear": 2007,
+      "worstTroughYear": 2011,
+      "yearsScored": 8,
+      "latestMedianPerM2": 2180,
+      "maxDrawdownPct": -4.7
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "worstPeakYear": 2018,
+      "worstTroughYear": 2021,
+      "yearsScored": 15,
+      "latestMedianPerM2": 13931,
+      "maxDrawdownPct": -50.4
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "worstPeakYear": 2009,
+      "worstTroughYear": 2011,
+      "yearsScored": 15,
+      "latestMedianPerM2": 9085,
+      "maxDrawdownPct": -38.7
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "worstPeakYear": 2011,
+      "worstTroughYear": 2012,
+      "yearsScored": 13,
+      "latestMedianPerM2": 9786,
+      "maxDrawdownPct": -54.7
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "worstPeakYear": 2017,
+      "worstTroughYear": 2023,
+      "yearsScored": 15,
+      "latestMedianPerM2": 2733,
+      "maxDrawdownPct": -28.9
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "worstPeakYear": 2008,
+      "worstTroughYear": 2011,
+      "yearsScored": 26,
+      "latestMedianPerM2": 12009,
+      "maxDrawdownPct": -50.3
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "worstPeakYear": 2014,
+      "worstTroughYear": 2019,
+      "yearsScored": 17,
+      "latestMedianPerM2": 9509,
+      "maxDrawdownPct": -37.7
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "worstPeakYear": 2016,
+      "worstTroughYear": 2019,
+      "yearsScored": 9,
+      "latestMedianPerM2": 11009,
+      "maxDrawdownPct": -31.2
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "worstPeakYear": 2008,
+      "worstTroughYear": 2013,
+      "yearsScored": 15,
+      "latestMedianPerM2": 8218,
+      "maxDrawdownPct": -44.7
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "worstPeakYear": 2016,
+      "worstTroughYear": 2021,
+      "yearsScored": 15,
+      "latestMedianPerM2": 7448,
+      "maxDrawdownPct": -29.8
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "worstPeakYear": 2015,
+      "worstTroughYear": 2023,
+      "yearsScored": 13,
+      "latestMedianPerM2": 8750,
+      "maxDrawdownPct": -42.0
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "worstPeakYear": 2015,
+      "worstTroughYear": 2019,
+      "yearsScored": 10,
+      "latestMedianPerM2": 13256,
+      "maxDrawdownPct": -21.4
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "worstPeakYear": 2019,
+      "worstTroughYear": 2020,
+      "yearsScored": 8,
+      "latestMedianPerM2": 25350,
+      "maxDrawdownPct": -23.7
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "worstPeakYear": 2004,
+      "worstTroughYear": 2004,
+      "yearsScored": 6,
+      "latestMedianPerM2": 25514,
+      "maxDrawdownPct": 0.0
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "worstPeakYear": 1998,
+      "worstTroughYear": 2003,
+      "yearsScored": 6,
+      "latestMedianPerM2": 7258,
+      "maxDrawdownPct": -16.9
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "worstPeakYear": 2012,
+      "worstTroughYear": 2023,
+      "yearsScored": 15,
+      "latestMedianPerM2": 1216,
+      "maxDrawdownPct": -87.3
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "worstPeakYear": 2019,
+      "worstTroughYear": 2020,
+      "yearsScored": 10,
+      "latestMedianPerM2": 7708,
+      "maxDrawdownPct": -33.5
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "worstPeakYear": 2016,
+      "worstTroughYear": 2018,
+      "yearsScored": 10,
+      "latestMedianPerM2": 15240,
+      "maxDrawdownPct": -71.6
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "worstPeakYear": 2017,
+      "worstTroughYear": 2020,
+      "yearsScored": 11,
+      "latestMedianPerM2": 9110,
+      "maxDrawdownPct": -23.4
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "worstPeakYear": 2014,
+      "worstTroughYear": 2020,
+      "yearsScored": 17,
+      "latestMedianPerM2": 32110,
+      "maxDrawdownPct": -17.6
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "worstPeakYear": 2014,
+      "worstTroughYear": 2020,
+      "yearsScored": 15,
+      "latestMedianPerM2": 30861,
+      "maxDrawdownPct": -41.3
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "worstPeakYear": 2015,
+      "worstTroughYear": 2022,
+      "yearsScored": 10,
+      "latestMedianPerM2": 9790,
+      "maxDrawdownPct": -55.8
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "worstPeakYear": 2019,
+      "worstTroughYear": 2020,
+      "yearsScored": 6,
+      "latestMedianPerM2": 18975,
+      "maxDrawdownPct": -11.8
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "worstPeakYear": 2002,
+      "worstTroughYear": 2002,
+      "yearsScored": 6,
+      "latestMedianPerM2": 1496,
+      "maxDrawdownPct": 0.0
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "worstPeakYear": 2015,
+      "worstTroughYear": 2020,
+      "yearsScored": 10,
+      "latestMedianPerM2": 6967,
+      "maxDrawdownPct": -38.9
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "worstPeakYear": 2011,
+      "worstTroughYear": 2019,
+      "yearsScored": 16,
+      "latestMedianPerM2": 9410,
+      "maxDrawdownPct": -26.9
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "worstPeakYear": 2001,
+      "worstTroughYear": 2001,
+      "yearsScored": 8,
+      "latestMedianPerM2": 2012,
+      "maxDrawdownPct": 0.0
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "worstPeakYear": 2019,
+      "worstTroughYear": 2022,
+      "yearsScored": 10,
+      "latestMedianPerM2": 12663,
+      "maxDrawdownPct": -22.7
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "worstPeakYear": 2008,
+      "worstTroughYear": 2012,
+      "yearsScored": 9,
+      "latestMedianPerM2": 3444,
+      "maxDrawdownPct": -44.8
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "worstPeakYear": 2009,
+      "worstTroughYear": 2010,
+      "yearsScored": 15,
+      "latestMedianPerM2": 23006,
+      "maxDrawdownPct": -25.9
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "worstPeakYear": 2016,
+      "worstTroughYear": 2020,
+      "yearsScored": 17,
+      "latestMedianPerM2": 26640,
+      "maxDrawdownPct": -18.2
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "worstPeakYear": 2015,
+      "worstTroughYear": 2020,
+      "yearsScored": 15,
+      "latestMedianPerM2": 11815,
+      "maxDrawdownPct": -41.2
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "worstPeakYear": 2002,
+      "worstTroughYear": 2002,
+      "yearsScored": 6,
+      "latestMedianPerM2": 1938,
+      "maxDrawdownPct": 0.0
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "worstPeakYear": 2009,
+      "worstTroughYear": 2011,
+      "yearsScored": 16,
+      "latestMedianPerM2": 12206,
+      "maxDrawdownPct": -74.6
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "worstPeakYear": 2007,
+      "worstTroughYear": 2012,
+      "yearsScored": 13,
+      "latestMedianPerM2": 14192,
+      "maxDrawdownPct": -46.0
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "worstPeakYear": 2012,
+      "worstTroughYear": 2016,
+      "yearsScored": 12,
+      "latestMedianPerM2": 7681,
+      "maxDrawdownPct": -71.4
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "worstPeakYear": 2015,
+      "worstTroughYear": 2022,
+      "yearsScored": 9,
+      "latestMedianPerM2": 4923,
+      "maxDrawdownPct": -51.9
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "worstPeakYear": 2011,
+      "worstTroughYear": 2013,
+      "yearsScored": 14,
+      "latestMedianPerM2": 8759,
+      "maxDrawdownPct": -58.5
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "worstPeakYear": 2007,
+      "worstTroughYear": 2011,
+      "yearsScored": 17,
+      "latestMedianPerM2": 5506,
+      "maxDrawdownPct": -47.4
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "worstPeakYear": 2014,
+      "worstTroughYear": 2020,
+      "yearsScored": 17,
+      "latestMedianPerM2": 14254,
+      "maxDrawdownPct": -43.0
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "worstPeakYear": 2014,
+      "worstTroughYear": 2020,
+      "yearsScored": 16,
+      "latestMedianPerM2": 16794,
+      "maxDrawdownPct": -25.9
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "worstPeakYear": 2021,
+      "worstTroughYear": 2022,
+      "yearsScored": 9,
+      "latestMedianPerM2": 26682,
+      "maxDrawdownPct": -3.8
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "worstPeakYear": 2018,
+      "worstTroughYear": 2021,
+      "yearsScored": 11,
+      "latestMedianPerM2": 12263,
+      "maxDrawdownPct": -29.4
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "worstPeakYear": 2018,
+      "worstTroughYear": 2020,
+      "yearsScored": 11,
+      "latestMedianPerM2": 13187,
+      "maxDrawdownPct": -19.0
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "worstPeakYear": 2009,
+      "worstTroughYear": 2010,
+      "yearsScored": 14,
+      "latestMedianPerM2": 13153,
+      "maxDrawdownPct": -44.9
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "worstPeakYear": 2014,
+      "worstTroughYear": 2021,
+      "yearsScored": 9,
+      "latestMedianPerM2": 12450,
+      "maxDrawdownPct": -34.7
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "worstPeakYear": 2009,
+      "worstTroughYear": 2020,
+      "yearsScored": 14,
+      "latestMedianPerM2": 15839,
+      "maxDrawdownPct": -61.3
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "worstPeakYear": 2017,
+      "worstTroughYear": 2020,
+      "yearsScored": 6,
+      "latestMedianPerM2": 12314,
+      "maxDrawdownPct": -41.0
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "worstPeakYear": 2009,
+      "worstTroughYear": 2020,
+      "yearsScored": 14,
+      "latestMedianPerM2": 15303,
+      "maxDrawdownPct": -53.1
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "worstPeakYear": 2014,
+      "worstTroughYear": 2018,
+      "yearsScored": 7,
+      "latestMedianPerM2": 11905,
+      "maxDrawdownPct": -52.5
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "worstPeakYear": 2016,
+      "worstTroughYear": 2017,
+      "yearsScored": 9,
+      "latestMedianPerM2": 19644,
+      "maxDrawdownPct": -0.8
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "worstPeakYear": 2019,
+      "worstTroughYear": 2020,
+      "yearsScored": 8,
+      "latestMedianPerM2": 7350,
+      "maxDrawdownPct": -30.6
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "worstPeakYear": 2014,
+      "worstTroughYear": 2016,
+      "yearsScored": 10,
+      "latestMedianPerM2": 21003,
+      "maxDrawdownPct": -29.9
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "worstPeakYear": 2018,
+      "worstTroughYear": 2020,
+      "yearsScored": 9,
+      "latestMedianPerM2": 27507,
+      "maxDrawdownPct": -17.9
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "worstPeakYear": 2009,
+      "worstTroughYear": 2010,
+      "yearsScored": 16,
+      "latestMedianPerM2": 12326,
+      "maxDrawdownPct": -17.2
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "maxDrawdownPct": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "worstPeakYear": 2014,
+      "worstTroughYear": 2020,
+      "yearsScored": 17,
+      "latestMedianPerM2": 11400,
+      "maxDrawdownPct": -33.2
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "worstPeakYear": 2016,
+      "worstTroughYear": 2020,
+      "yearsScored": 15,
+      "latestMedianPerM2": 10764,
+      "maxDrawdownPct": -39.0
+    }
+  ]
+}

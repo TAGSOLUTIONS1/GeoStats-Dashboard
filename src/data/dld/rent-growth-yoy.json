@@ -1,0 +1,1744 @@
+{
+  "id": "rent-growth-yoy",
+  "label": "Median residential rent change, 2023 vs 2022",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "rentGrowthPct",
+  "sourceUrl": "https://www.kaggle.com/datasets/zainabhejairi/dubai-real-estates-1969-2023",
+  "retrieved": "2026-09-11",
+  "source": "Dubai Land Department Ejari rental contracts export (Kaggle mirror zainabhejairi/dubai-real-estates-1969-2023, DLD_Rents.csv, 6,585,210 contracts)",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD Ejari export, 6,585,210 registered tenancy contracts. Contract volume is substantial through 2023; 2024 is partial (22,913 contracts) and is excluded. A handful of rows carry implausible years (2107+) and are discarded.",
+  "period": "2022 vs 2023",
+  "minContracts": 150,
+  "method": "Percentage change in the median annual contract rent of residential Ejari tenancies starting in 2023 versus 2022, per community. Requires at least 150 contracts in each year and a result inside -40% to 60%.",
+  "limitation": "Registered contract rents mix new lettings with renewals, and renewals are capped by the RERA rental increase calculator, so this understates the rate asked of a new tenant. Unit-mix shifts between years also affect the median, and results outside -40%–60% are discarded as artefacts.",
+  "communitiesWithData": 109,
+  "stops": [
+    -10.5,
+    4.4,
+    8.0,
+    12.5,
+    16.7,
+    35.7
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "contracts2022": 721,
+      "contracts2023": 780,
+      "medianRent2022": 78000,
+      "medianRent2023": 78000,
+      "rentGrowthPct": 0.0
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "contracts2022": 9372,
+      "contracts2023": 10222,
+      "medianRent2022": 37000,
+      "medianRent2023": 43000,
+      "rentGrowthPct": 16.2
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "contracts2022": 0,
+      "contracts2023": 0,
+      "medianRent2022": null,
+      "medianRent2023": null,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "contracts2022": 2323,
+      "contracts2023": 3442,
+      "medianRent2022": 87000,
+      "medianRent2023": 110000,
+      "rentGrowthPct": 26.4
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "contracts2022": 10634,
+      "contracts2023": 10522,
+      "medianRent2022": 58000,
+      "medianRent2023": 63000,
+      "rentGrowthPct": 8.6
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "contracts2022": 4,
+      "contracts2023": 3,
+      "medianRent2022": 21600,
+      "medianRent2023": 19200,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "contracts2022": 336,
+      "contracts2023": 296,
+      "medianRent2022": 200000,
+      "medianRent2023": 230000,
+      "rentGrowthPct": 15.0
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "contracts2022": 3012,
+      "contracts2023": 3099,
+      "medianRent2022": 171360,
+      "medianRent2023": 78000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "contracts2022": 2366,
+      "contracts2023": 2496,
+      "medianRent2022": 40000,
+      "medianRent2023": 42000,
+      "rentGrowthPct": 5.0
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "contracts2022": 73,
+      "contracts2023": 55,
+      "medianRent2022": 150000,
+      "medianRent2023": 165000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "contracts2022": 3014,
+      "contracts2023": 2504,
+      "medianRent2022": 45000,
+      "medianRent2023": 47000,
+      "rentGrowthPct": 4.4
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "contracts2022": 2893,
+      "contracts2023": 2475,
+      "medianRent2022": 55000,
+      "medianRent2023": 64338,
+      "rentGrowthPct": 17.0
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "contracts2022": 5,
+      "contracts2023": 16,
+      "medianRent2022": 145000,
+      "medianRent2023": 157500,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "contracts2022": 3017,
+      "contracts2023": 2643,
+      "medianRent2022": 130000,
+      "medianRent2023": 136500,
+      "rentGrowthPct": 5.0
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "contracts2022": 130,
+      "contracts2023": 135,
+      "medianRent2022": 130175,
+      "medianRent2023": 140000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "contracts2022": 1247,
+      "contracts2023": 1170,
+      "medianRent2022": 76800,
+      "medianRent2023": 80000,
+      "rentGrowthPct": 4.2
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "contracts2022": 11399,
+      "contracts2023": 10614,
+      "medianRent2022": 150000,
+      "medianRent2023": 169200,
+      "rentGrowthPct": 12.8
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "contracts2022": 314,
+      "contracts2023": 271,
+      "medianRent2022": 79000,
+      "medianRent2023": 100000,
+      "rentGrowthPct": 26.6
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "contracts2022": 33,
+      "contracts2023": 28,
+      "medianRent2022": 50000,
+      "medianRent2023": 51400,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "contracts2022": 155,
+      "contracts2023": 150,
+      "medianRent2022": 210000,
+      "medianRent2023": 235000,
+      "rentGrowthPct": 11.9
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "contracts2022": 558,
+      "contracts2023": 1,
+      "medianRent2022": 18000,
+      "medianRent2023": 18500,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "contracts2022": 12552,
+      "contracts2023": 12220,
+      "medianRent2022": 77000,
+      "medianRent2023": 80000,
+      "rentGrowthPct": 3.9
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "contracts2022": 610,
+      "contracts2023": 577,
+      "medianRent2022": 45000,
+      "medianRent2023": 45000,
+      "rentGrowthPct": 0.0
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "contracts2022": 45,
+      "contracts2023": 37,
+      "medianRent2022": 130000,
+      "medianRent2023": 140000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "contracts2022": 467,
+      "contracts2023": 404,
+      "medianRent2022": 75600,
+      "medianRent2023": 82196,
+      "rentGrowthPct": 8.7
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "contracts2022": 24,
+      "contracts2023": 22,
+      "medianRent2022": 20000,
+      "medianRent2023": 20000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "contracts2022": 6704,
+      "contracts2023": 6683,
+      "medianRent2022": 30000,
+      "medianRent2023": 32000,
+      "rentGrowthPct": 6.7
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "contracts2022": 18,
+      "contracts2023": 16,
+      "medianRent2022": 25423,
+      "medianRent2023": 24500,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "contracts2022": 10304,
+      "contracts2023": 10400,
+      "medianRent2022": 62000,
+      "medianRent2023": 67100,
+      "rentGrowthPct": 8.2
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "contracts2022": 1657,
+      "contracts2023": 1377,
+      "medianRent2022": 165000,
+      "medianRent2023": 195000,
+      "rentGrowthPct": 18.2
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "contracts2022": 5271,
+      "contracts2023": 4884,
+      "medianRent2022": 55000,
+      "medianRent2023": 65000,
+      "rentGrowthPct": 18.2
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "contracts2022": 992,
+      "contracts2023": 952,
+      "medianRent2022": 130000,
+      "medianRent2023": 140695,
+      "rentGrowthPct": 8.2
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "contracts2022": 52,
+      "contracts2023": 49,
+      "medianRent2022": 813000,
+      "medianRent2023": 813000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "contracts2022": 3048,
+      "contracts2023": 2782,
+      "medianRent2022": 86000,
+      "medianRent2023": 92400,
+      "rentGrowthPct": 7.4
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "contracts2022": 4183,
+      "contracts2023": 4164,
+      "medianRent2022": 36000,
+      "medianRent2023": 38000,
+      "rentGrowthPct": 5.6
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "contracts2022": 18408,
+      "contracts2023": 17314,
+      "medianRent2022": 38000,
+      "medianRent2023": 44000,
+      "rentGrowthPct": 15.8
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "contracts2022": 0,
+      "contracts2023": 0,
+      "medianRent2022": null,
+      "medianRent2023": null,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "contracts2022": 6827,
+      "contracts2023": 6417,
+      "medianRent2022": 57600,
+      "medianRent2023": 66550,
+      "rentGrowthPct": 15.5
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "contracts2022": 703,
+      "contracts2023": 1656,
+      "medianRent2022": 844200,
+      "medianRent2023": 1050482,
+      "rentGrowthPct": 24.4
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "contracts2022": 931,
+      "contracts2023": 734,
+      "medianRent2022": 55000,
+      "medianRent2023": 58900,
+      "rentGrowthPct": 7.1
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "contracts2022": 1015,
+      "contracts2023": 913,
+      "medianRent2022": 175000,
+      "medianRent2023": 189000,
+      "rentGrowthPct": 8.0
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "contracts2022": 2020,
+      "contracts2023": 1867,
+      "medianRent2022": 144375,
+      "medianRent2023": 155000,
+      "rentGrowthPct": 7.4
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "contracts2022": 3135,
+      "contracts2023": 3411,
+      "medianRent2022": 20000,
+      "medianRent2023": 22000,
+      "rentGrowthPct": 10.0
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "contracts2022": 1455,
+      "contracts2023": 1168,
+      "medianRent2022": 810811,
+      "medianRent2023": 384000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "contracts2022": 382,
+      "contracts2023": 286,
+      "medianRent2022": 80000,
+      "medianRent2023": 90000,
+      "rentGrowthPct": 12.5
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "contracts2022": 27,
+      "contracts2023": 12,
+      "medianRent2022": 25000,
+      "medianRent2023": 30000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "contracts2022": 609,
+      "contracts2023": 661,
+      "medianRent2022": 184000,
+      "medianRent2023": 190000,
+      "rentGrowthPct": 3.3
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "contracts2022": 0,
+      "contracts2023": 0,
+      "medianRent2022": null,
+      "medianRent2023": null,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "contracts2022": 3657,
+      "contracts2023": 3467,
+      "medianRent2022": 55000,
+      "medianRent2023": 58000,
+      "rentGrowthPct": 5.5
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "contracts2022": 1024,
+      "contracts2023": 997,
+      "medianRent2022": 69777,
+      "medianRent2023": 72000,
+      "rentGrowthPct": 3.2
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "contracts2022": 11193,
+      "contracts2023": 11522,
+      "medianRent2022": 32000,
+      "medianRent2023": 34500,
+      "rentGrowthPct": 7.8
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "contracts2022": 97,
+      "contracts2023": 85,
+      "medianRent2022": 260000,
+      "medianRent2023": 300000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "contracts2022": 3274,
+      "contracts2023": 3858,
+      "medianRent2022": 34000,
+      "medianRent2023": 39000,
+      "rentGrowthPct": 14.7
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "contracts2022": 86,
+      "contracts2023": 82,
+      "medianRent2022": 180000,
+      "medianRent2023": 212500,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "contracts2022": 1119,
+      "contracts2023": 995,
+      "medianRent2022": 170999,
+      "medianRent2023": 195000,
+      "rentGrowthPct": 14.0
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "contracts2022": 1615,
+      "contracts2023": 1736,
+      "medianRent2022": 67000,
+      "medianRent2023": 69000,
+      "rentGrowthPct": 3.0
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "contracts2022": 2,
+      "contracts2023": 1,
+      "medianRent2022": 67568,
+      "medianRent2023": 90259,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "contracts2022": 5017,
+      "contracts2023": 4913,
+      "medianRent2022": 43000,
+      "medianRent2023": 48000,
+      "rentGrowthPct": 11.6
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "contracts2022": 720,
+      "contracts2023": 852,
+      "medianRent2022": 563540,
+      "medianRent2023": 1390207,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "contracts2022": 1770,
+      "contracts2023": 1646,
+      "medianRent2022": 83500,
+      "medianRent2023": 89250,
+      "rentGrowthPct": 6.9
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "contracts2022": 11092,
+      "contracts2023": 10489,
+      "medianRent2022": 46000,
+      "medianRent2023": 49000,
+      "rentGrowthPct": 6.5
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "contracts2022": 122,
+      "contracts2023": 136,
+      "medianRent2022": 32000,
+      "medianRent2023": 34000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "contracts2022": 2104,
+      "contracts2023": 1797,
+      "medianRent2022": 110000,
+      "medianRent2023": 126500,
+      "rentGrowthPct": 15.0
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "contracts2022": 497,
+      "contracts2023": 561,
+      "medianRent2022": 48000,
+      "medianRent2023": 58000,
+      "rentGrowthPct": 20.8
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "contracts2022": 79,
+      "contracts2023": 108,
+      "medianRent2022": 54000,
+      "medianRent2023": 54000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "contracts2022": 20062,
+      "contracts2023": 18187,
+      "medianRent2022": 90000,
+      "medianRent2023": 105000,
+      "rentGrowthPct": 16.7
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "contracts2022": 5172,
+      "contracts2023": 4355,
+      "medianRent2022": 148750,
+      "medianRent2023": 170000,
+      "rentGrowthPct": 14.3
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "contracts2022": 956,
+      "contracts2023": 910,
+      "medianRent2022": 40000,
+      "medianRent2023": 43000,
+      "rentGrowthPct": 7.5
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "contracts2022": 170,
+      "contracts2023": 168,
+      "medianRent2022": 190000,
+      "medianRent2023": 210000,
+      "rentGrowthPct": 10.5
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "contracts2022": 306,
+      "contracts2023": 255,
+      "medianRent2022": 52000,
+      "medianRent2023": 51000,
+      "rentGrowthPct": -1.9
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "contracts2022": 4459,
+      "contracts2023": 5962,
+      "medianRent2022": 35077,
+      "medianRent2023": 45000,
+      "rentGrowthPct": 28.3
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "contracts2022": 515,
+      "contracts2023": 820,
+      "medianRent2022": 120000,
+      "medianRent2023": 288000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "contracts2022": 257,
+      "contracts2023": 586,
+      "medianRent2022": 110000,
+      "medianRent2023": 120000,
+      "rentGrowthPct": 9.1
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "contracts2022": 248,
+      "contracts2023": 231,
+      "medianRent2022": 180000,
+      "medianRent2023": 175976,
+      "rentGrowthPct": -2.2
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "contracts2022": 4005,
+      "contracts2023": 3964,
+      "medianRent2022": 64900,
+      "medianRent2023": 66150,
+      "rentGrowthPct": 1.9
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "contracts2022": 19,
+      "contracts2023": 22,
+      "medianRent2022": 130000,
+      "medianRent2023": 155000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "contracts2022": 8,
+      "contracts2023": 34,
+      "medianRent2022": 33000,
+      "medianRent2023": 258500,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "contracts2022": 782,
+      "contracts2023": 746,
+      "medianRent2022": 155000,
+      "medianRent2023": 175000,
+      "rentGrowthPct": 12.9
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "contracts2022": 3845,
+      "contracts2023": 4618,
+      "medianRent2022": 63000,
+      "medianRent2023": 70000,
+      "rentGrowthPct": 11.1
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "contracts2022": 90,
+      "contracts2023": 77,
+      "medianRent2022": 155000,
+      "medianRent2023": 160000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "contracts2022": 4983,
+      "contracts2023": 5074,
+      "medianRent2022": 88000,
+      "medianRent2023": 93712,
+      "rentGrowthPct": 6.5
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "contracts2022": 77,
+      "contracts2023": 110,
+      "medianRent2022": 90000,
+      "medianRent2023": 130000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "contracts2022": 10,
+      "contracts2023": 5,
+      "medianRent2022": 79889,
+      "medianRent2023": 95000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "contracts2022": 5458,
+      "contracts2023": 5246,
+      "medianRent2022": 25000,
+      "medianRent2023": 27000,
+      "rentGrowthPct": 8.0
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "contracts2022": 208,
+      "contracts2023": 174,
+      "medianRent2022": 150000,
+      "medianRent2023": 170000,
+      "rentGrowthPct": 13.3
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "contracts2022": 3276,
+      "contracts2023": 3942,
+      "medianRent2022": 42000,
+      "medianRent2023": 50400,
+      "rentGrowthPct": 20.0
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "contracts2022": 0,
+      "contracts2023": 1,
+      "medianRent2022": null,
+      "medianRent2023": 37000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "contracts2022": 8160,
+      "contracts2023": 8538,
+      "medianRent2022": 36000,
+      "medianRent2023": 42000,
+      "rentGrowthPct": 16.7
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "contracts2022": 3238,
+      "contracts2023": 3273,
+      "medianRent2022": 43000,
+      "medianRent2023": 49000,
+      "rentGrowthPct": 14.0
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "contracts2022": 1361,
+      "contracts2023": 1005,
+      "medianRent2022": 72600,
+      "medianRent2023": 65000,
+      "rentGrowthPct": -10.5
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "contracts2022": 23239,
+      "contracts2023": 25342,
+      "medianRent2022": 550000,
+      "medianRent2023": 672000,
+      "rentGrowthPct": 22.2
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "contracts2022": 2250,
+      "contracts2023": 2163,
+      "medianRent2022": 58098,
+      "medianRent2023": 65000,
+      "rentGrowthPct": 11.9
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "contracts2022": 13905,
+      "contracts2023": 13458,
+      "medianRent2022": 56000,
+      "medianRent2023": 65000,
+      "rentGrowthPct": 16.1
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "contracts2022": 1,
+      "contracts2023": 0,
+      "medianRent2022": 500000,
+      "medianRent2023": null,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "contracts2022": 319,
+      "contracts2023": 276,
+      "medianRent2022": 200000,
+      "medianRent2023": 250000,
+      "rentGrowthPct": 25.0
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "contracts2022": 14113,
+      "contracts2023": 14795,
+      "medianRent2022": 74000,
+      "medianRent2023": 85000,
+      "rentGrowthPct": 14.9
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "contracts2022": 5457,
+      "contracts2023": 5500,
+      "medianRent2022": 40000,
+      "medianRent2023": 45000,
+      "rentGrowthPct": 12.5
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "contracts2022": 8896,
+      "contracts2023": 8830,
+      "medianRent2022": 110000,
+      "medianRent2023": 125000,
+      "rentGrowthPct": 13.6
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "contracts2022": 7545,
+      "contracts2023": 7491,
+      "medianRent2022": 33000,
+      "medianRent2023": 38710,
+      "rentGrowthPct": 17.3
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "contracts2022": 12491,
+      "contracts2023": 13754,
+      "medianRent2022": 51000,
+      "medianRent2023": 57000,
+      "rentGrowthPct": 11.8
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "contracts2022": 10114,
+      "contracts2023": 9859,
+      "medianRent2022": 40000,
+      "medianRent2023": 45000,
+      "rentGrowthPct": 12.5
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "contracts2022": 148,
+      "contracts2023": 123,
+      "medianRent2022": 150000,
+      "medianRent2023": 155000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "contracts2022": 1971,
+      "contracts2023": 2060,
+      "medianRent2022": 61500,
+      "medianRent2023": 61950,
+      "rentGrowthPct": 0.7
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "contracts2022": 2900,
+      "contracts2023": 2692,
+      "medianRent2022": 48000,
+      "medianRent2023": 54000,
+      "rentGrowthPct": 12.5
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "contracts2022": 4738,
+      "contracts2023": 4901,
+      "medianRent2022": 55000,
+      "medianRent2023": 65000,
+      "rentGrowthPct": 18.2
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "contracts2022": 68,
+      "contracts2023": 65,
+      "medianRent2022": 140000,
+      "medianRent2023": 150000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "contracts2022": 1203,
+      "contracts2023": 1849,
+      "medianRent2022": 445668,
+      "medianRent2023": 463183,
+      "rentGrowthPct": 3.9
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "contracts2022": 2009,
+      "contracts2023": 2450,
+      "medianRent2022": 100000,
+      "medianRent2023": 93250,
+      "rentGrowthPct": -6.8
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "contracts2022": 471,
+      "contracts2023": 462,
+      "medianRent2022": 71500,
+      "medianRent2023": 78750,
+      "rentGrowthPct": 10.1
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "contracts2022": 702,
+      "contracts2023": 547,
+      "medianRent2022": 900000,
+      "medianRent2023": 320000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "contracts2022": 3977,
+      "contracts2023": 3712,
+      "medianRent2022": 48000,
+      "medianRent2023": 50000,
+      "rentGrowthPct": 4.2
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "contracts2022": 7066,
+      "contracts2023": 7821,
+      "medianRent2022": 32000,
+      "medianRent2023": 35097,
+      "rentGrowthPct": 9.7
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "contracts2022": 52,
+      "contracts2023": 44,
+      "medianRent2022": 120000,
+      "medianRent2023": 127500,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "contracts2022": 9804,
+      "contracts2023": 9033,
+      "medianRent2022": 108000,
+      "medianRent2023": 120000,
+      "rentGrowthPct": 11.1
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "contracts2022": 760,
+      "contracts2023": 662,
+      "medianRent2022": 558000,
+      "medianRent2023": 662400,
+      "rentGrowthPct": 18.7
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "contracts2022": 8861,
+      "contracts2023": 9794,
+      "medianRent2022": 148838,
+      "medianRent2023": 134400,
+      "rentGrowthPct": -9.7
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "contracts2022": 22700,
+      "contracts2023": 22410,
+      "medianRent2022": 28000,
+      "medianRent2023": 31000,
+      "rentGrowthPct": 10.7
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "contracts2022": 5156,
+      "contracts2023": 4551,
+      "medianRent2022": 90000,
+      "medianRent2023": 102000,
+      "rentGrowthPct": 13.3
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "contracts2022": 10324,
+      "contracts2023": 9384,
+      "medianRent2022": 70000,
+      "medianRent2023": 80000,
+      "rentGrowthPct": 14.3
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "contracts2022": 531,
+      "contracts2023": 454,
+      "medianRent2022": 189000,
+      "medianRent2023": 200000,
+      "rentGrowthPct": 5.8
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "contracts2022": 245,
+      "contracts2023": 565,
+      "medianRent2022": 150000,
+      "medianRent2023": 150000,
+      "rentGrowthPct": 0.0
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "contracts2022": 525,
+      "contracts2023": 597,
+      "medianRent2022": 32000,
+      "medianRent2023": 41000,
+      "rentGrowthPct": 28.1
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "contracts2022": 4,
+      "contracts2023": 3,
+      "medianRent2022": 35000,
+      "medianRent2023": 30000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "contracts2022": 3500,
+      "contracts2023": 3933,
+      "medianRent2022": 53550,
+      "medianRent2023": 56227,
+      "rentGrowthPct": 5.0
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "contracts2022": 8229,
+      "contracts2023": 8003,
+      "medianRent2022": 48000,
+      "medianRent2023": 50000,
+      "rentGrowthPct": 4.2
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "contracts2022": 9721,
+      "contracts2023": 9687,
+      "medianRent2022": 43000,
+      "medianRent2023": 48000,
+      "rentGrowthPct": 11.6
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "contracts2022": 574,
+      "contracts2023": 537,
+      "medianRent2022": 110000,
+      "medianRent2023": 120750,
+      "rentGrowthPct": 9.8
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "contracts2022": 6808,
+      "contracts2023": 7035,
+      "medianRent2022": 59000,
+      "medianRent2023": 64900,
+      "rentGrowthPct": 10.0
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "contracts2022": 5989,
+      "contracts2023": 6345,
+      "medianRent2022": 171567,
+      "medianRent2023": 221430,
+      "rentGrowthPct": 29.1
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "contracts2022": 1102,
+      "contracts2023": 926,
+      "medianRent2022": 125000,
+      "medianRent2023": 145000,
+      "rentGrowthPct": 16.0
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "contracts2022": 3301,
+      "contracts2023": 4173,
+      "medianRent2022": 42000,
+      "medianRent2023": 57000,
+      "rentGrowthPct": 35.7
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "contracts2022": 1309,
+      "contracts2023": 1372,
+      "medianRent2022": 55000,
+      "medianRent2023": 60682,
+      "rentGrowthPct": 10.3
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "contracts2022": 1324,
+      "contracts2023": 1137,
+      "medianRent2022": 74000,
+      "medianRent2023": 75900,
+      "rentGrowthPct": 2.6
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "contracts2022": 932,
+      "contracts2023": 854,
+      "medianRent2022": 155000,
+      "medianRent2023": 165000,
+      "rentGrowthPct": 6.5
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "contracts2022": 499,
+      "contracts2023": 511,
+      "medianRent2022": 40000,
+      "medianRent2023": 40250,
+      "rentGrowthPct": 0.6
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "contracts2022": 11883,
+      "contracts2023": 11438,
+      "medianRent2022": 37000,
+      "medianRent2023": 39900,
+      "rentGrowthPct": 7.8
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "contracts2022": 1486,
+      "contracts2023": 3659,
+      "medianRent2022": 70000,
+      "medianRent2023": 72000,
+      "rentGrowthPct": 2.9
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "contracts2022": 941,
+      "contracts2023": 818,
+      "medianRent2022": 175000,
+      "medianRent2023": 187000,
+      "rentGrowthPct": 6.9
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "contracts2022": 1,
+      "contracts2023": 0,
+      "medianRent2022": 70000,
+      "medianRent2023": null,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "contracts2022": 5163,
+      "contracts2023": 5074,
+      "medianRent2022": 105000,
+      "medianRent2023": 127454,
+      "rentGrowthPct": 21.4
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "contracts2022": 45,
+      "contracts2023": 51,
+      "medianRent2022": 26000,
+      "medianRent2023": 26000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "contracts2022": 2553,
+      "contracts2023": 2572,
+      "medianRent2022": 145000,
+      "medianRent2023": 152250,
+      "rentGrowthPct": 5.0
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "contracts2022": 16048,
+      "contracts2023": 15820,
+      "medianRent2022": 40000,
+      "medianRent2023": 43000,
+      "rentGrowthPct": 7.5
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "contracts2022": 83,
+      "contracts2023": 79,
+      "medianRent2022": 145000,
+      "medianRent2023": 180000,
+      "rentGrowthPct": null
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "contracts2022": 19892,
+      "contracts2023": 20168,
+      "medianRent2022": 45000,
+      "medianRent2023": 52910,
+      "rentGrowthPct": 17.6
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "rentGrowthPct": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "contracts2022": 3328,
+      "contracts2023": 2809,
+      "medianRent2022": 136500,
+      "medianRent2023": 160000,
+      "rentGrowthPct": 17.2
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "contracts2022": 25897,
+      "contracts2023": 25690,
+      "medianRent2022": 41800,
+      "medianRent2023": 47518,
+      "rentGrowthPct": 13.7
+    }
+  ]
+}

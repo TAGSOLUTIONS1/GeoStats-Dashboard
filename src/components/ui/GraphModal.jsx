@@ -115,7 +115,24 @@ const GraphModal = ({
     if (quality) setChartType(quality.sparse ? 'scatter' : 'line');
   }, [quality]);
 
-  // Initialize date range
+  // The modal returns null when closed rather than unmounting, so its view state
+  // outlives a single opening. Without this reset the date window, zoom and pan
+  // captured for the first area stay pinned for the rest of the session: a later
+  // area draws a new trend line inside the previous area's axes.
+  const lastPlace = useRef(null);
+  useEffect(() => {
+    if (placeName === lastPlace.current) return;
+    lastPlace.current = placeName;
+    setCustomRange(false);
+    setStartDate("");
+    setEndDate("");
+    setZoom(1);
+    setPanValue(50);
+    setCursor(null);
+  }, [placeName]);
+
+  // Initialize date range. startDate is cleared above whenever the area changes,
+  // so this re-seeds the window from each new area's own first and last dates.
   useEffect(() => {
     if (allData.length > 0 && !startDate) {
       const dates = allData.map(d => d.x);

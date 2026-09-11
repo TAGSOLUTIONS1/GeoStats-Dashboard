@@ -29,6 +29,17 @@ import youthFacilities from '../data/osm/youth-facilities.json';
 import daysOnMarket from '../data/bayut/days-on-market.json';
 import newListings from '../data/bayut/new-listings-count.json';
 import mortgageRegs from '../data/dld/mortgage-registrations-by-community.json';
+import affordableSales from '../data/dld/affordable-housing-units.json';
+import familySized from '../data/dld/family-sized-homes.json';
+import medianPriceYoY from '../data/dld/median-price-yoy.json';
+import grossYield from '../data/dld/gross-rental-yield.json';
+import rentGrowth from '../data/dld/rent-growth-yoy.json';
+import freeholdShare from '../data/dld/freehold-share.json';
+import leaseRenewal from '../data/dld/lease-renewal-rate.json';
+import offplanGap from '../data/dld/offplan-price-gap.json';
+import txLiquidity from '../data/dld/transaction-liquidity.json';
+import maxDrawdown from '../data/dld/max-historical-drawdown.json';
+import priceVsHistory from '../data/dld/price-vs-own-history.json';
 import valueIncome from '../data/derived/value-income.json';
 import mtgPctIncome from '../data/derived/mtg-payments-income-percent.json';
 import ownershipCost from '../data/derived/monthly-home-ownership-cost.json';
@@ -157,6 +168,131 @@ export const mapDataPoints = {
     stops: [0, 5.5, 13.5, 20.6, 30.6, 100],
     palette: BLUE,
     source: 'DLD transactions 2023–Aug 2024 (Hugging Face mirror)',
+  },
+  'affordable-housing-units': {
+    dataset: affordableSales,
+    property: 'Affordable_SalesPct',
+    metric: 'affordableSalesPct',
+    labelDigits: 0,
+    labelSuffix: '%',
+    label: 'Residential sales at or below AED 1m (2019–2023)',
+    stops: [0, 1.5, 9.1, 26.1, 59, 96.2],
+    palette: GREEN,
+    source: 'DLD transactions 2019–2023 (Kaggle mirror)',
+  },
+  'family-household-percent': {
+    dataset: familySized,
+    property: 'FamilySized_Pct',
+    metric: 'familySizedPct',
+    labelDigits: 0,
+    labelSuffix: '%',
+    label: 'Family-sized homes (3+ bedrooms) as a share of sales (2019–2023)',
+    stops: [0, 6.6, 13.6, 24.9, 53.6, 100],
+    palette: BLUE,
+    source: 'DLD transactions 2019–2023 (Kaggle mirror)',
+  },
+  'median-listing-price-yoy': {
+    dataset: medianPriceYoY,
+    property: 'MedianPrice_YoYPct',
+    metric: 'medianPriceYoYPct',
+    labelDigits: 1,
+    labelSuffix: '%',
+    label: 'Median transacted price change, 2023 vs 2022',
+    stops: [-42, 3.1, 9.5, 15.9, 20, 78.4],
+    palette: BLUE,
+    source: 'DLD transactions, 2022 vs 2023 (Kaggle mirror)',
+  },
+  'gross-rental-yield': {
+    dataset: grossYield,
+    property: 'Gross_YieldPct',
+    metric: 'grossYieldPct',
+    labelDigits: 1,
+    labelSuffix: '%',
+    label: 'Gross rental yield (registered rents vs registered sale prices)',
+    stops: [0.71, 4.32, 5.19, 6.17, 8.79, 21.98],
+    palette: GREEN,
+    source: 'DLD Ejari contracts + DLD sales, 2021–2023 (Kaggle mirror)',
+  },
+  'rent-growth-yoy': {
+    dataset: rentGrowth,
+    property: 'Rent_GrowthPct',
+    metric: 'rentGrowthPct',
+    labelDigits: 1,
+    labelSuffix: '%',
+    label: 'Median registered rent change, 2023 vs 2022',
+    stops: [-10.5, 4.4, 8, 12.5, 16.7, 35.7],
+    palette: BLUE,
+    source: 'DLD Ejari contracts, 2022 vs 2023 (Kaggle mirror)',
+  },
+  'freehold-share': {
+    dataset: freeholdShare,
+    property: 'Freehold_Pct',
+    metric: 'freeholdPct',
+    labelDigits: 0,
+    labelSuffix: '%',
+    label: 'Freehold share of residential tenancies',
+    stops: [0, 0.1, 0.2, 30.1, 99.5, 100],
+    palette: BLUE,
+    source: 'DLD Ejari contracts, 2008–2023 (Kaggle mirror)',
+  },
+  'lease-renewal-rate': {
+    dataset: leaseRenewal,
+    property: 'Renewal_RatePct',
+    metric: 'renewalRatePct',
+    labelDigits: 0,
+    labelSuffix: '%',
+    label: 'Tenancies that are renewals rather than new lets',
+    stops: [15.6, 34.2, 42.1, 49.4, 57.4, 70.3],
+    palette: GREEN,
+    source: 'DLD Ejari contracts, 2008–2023 (Kaggle mirror)',
+  },
+  'offplan-price-gap': {
+    dataset: offplanGap,
+    property: 'Offplan_PremiumPct',
+    metric: 'offplanPremiumPct',
+    labelDigits: 0,
+    labelSuffix: '%',
+    label: 'Off-plan price premium vs ready homes (2021–2023)',
+    stops: [-12.2, 7.8, 24.3, 37.6, 59.6, 122.2],
+    palette: BLUE,
+    source: 'DLD transactions 2021–2023 (Kaggle mirror)',
+  },
+  'transaction-liquidity': {
+    dataset: txLiquidity,
+    property: 'Sales_PerYear',
+    metric: 'salesPerYear',
+    labelDigits: 0,
+    labelSuffix: '/yr',
+    label: 'Residential sales per year (2021–2023 average)',
+    stops: [20, 44, 360, 709, 1709, 6904],
+    palette: GREEN,
+    source: 'DLD transactions 2021–2023 (Kaggle mirror)',
+  },
+  // Values run from about -87 (deepest fall) up to 0 (never fell), so the GREEN
+  // ramp puts the resilient communities at the dark end. Higher is better here,
+  // which is why this one is not flagged inverted.
+  'max-historical-drawdown': {
+    dataset: maxDrawdown,
+    property: 'Max_DrawdownPct',
+    metric: 'maxDrawdownPct',
+    labelDigits: 0,
+    labelSuffix: '%',
+    label: 'Worst peak-to-trough price fall on record',
+    stops: [-87.3, -50.4, -41, -29.4, -17.6, 0],
+    palette: GREEN,
+    source: 'DLD transactions 2000–2023 (Kaggle mirror)',
+  },
+  'price-vs-own-history': {
+    dataset: priceVsHistory,
+    property: 'VsOwnHistory_Pct',
+    metric: 'vsOwnHistoryPct',
+    labelDigits: 0,
+    labelSuffix: '%',
+    label: 'Price per m² vs the community’s own long-run average',
+    stops: [-34.1, 0.7, 20.1, 31.3, 55.3, 107.8],
+    palette: SAFETY,
+    inverted: true,
+    source: 'DLD transactions 2010–2023 (Kaggle mirror)',
   },
   'community-engagement-index': {
     dataset: communityFacilities,

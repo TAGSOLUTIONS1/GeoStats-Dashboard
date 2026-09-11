@@ -1,0 +1,1309 @@
+{
+  "id": "price-vs-own-history",
+  "label": "Price per m² vs that community's own long-run average",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "vsOwnHistoryPct",
+  "sourceUrl": "https://www.kaggle.com/datasets/zainabhejairi/dubai-real-estates-1969-2023",
+  "retrieved": "2026-09-11",
+  "source": "Dubai Land Department transactions export (Kaggle mirror zainabhejairi/dubai-real-estates-1969-2023, DLD_Transactions.csv)",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD export. The file is exactly 1,048,575 rows, which is Excel's 1,048,576-row ceiling, so it is a TRUNCATED copy of the registry. Coverage ends in 2023.",
+  "period": "2010–2023",
+  "minSalesPerYear": 30,
+  "method": "2023 median price per m2 against the mean of that community's annual medians from 2010 to 2022. Positive means the community is trading above its own long-run norm. Requires at least 6 scored years.",
+  "limitation": "Measures a community against its OWN history only — it carries no income or rent anchor, so it says nothing about affordability, and a structurally improving area can sit permanently above its own past. Results outside -60%–150% are discarded as unit-mix artefacts.",
+  "communitiesWithData": 50,
+  "stops": [
+    -34.1,
+    0.7,
+    20.1,
+    31.3,
+    55.3,
+    107.8
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "longRunAvgPerM2": 7362,
+      "latestMedianPerM2": 10389,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 41.1
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "longRunAvgPerM2": 16510,
+      "latestMedianPerM2": 22194,
+      "yearsInAverage": 8,
+      "vsOwnHistoryPct": 34.4
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "longRunAvgPerM2": 8968,
+      "latestMedianPerM2": 13931,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 55.3
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "longRunAvgPerM2": 8368,
+      "latestMedianPerM2": 9085,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 8.6
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "longRunAvgPerM2": 8335,
+      "latestMedianPerM2": 9786,
+      "yearsInAverage": 12,
+      "vsOwnHistoryPct": 17.4
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "longRunAvgPerM2": 3270,
+      "latestMedianPerM2": 2733,
+      "yearsInAverage": 8,
+      "vsOwnHistoryPct": -16.4
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "longRunAvgPerM2": 6634,
+      "latestMedianPerM2": 12009,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 81.0
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "longRunAvgPerM2": 6233,
+      "latestMedianPerM2": 9509,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 52.6
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "longRunAvgPerM2": 8054,
+      "latestMedianPerM2": 11009,
+      "yearsInAverage": 8,
+      "vsOwnHistoryPct": 36.7
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "longRunAvgPerM2": 10464,
+      "latestMedianPerM2": 8218,
+      "yearsInAverage": 7,
+      "vsOwnHistoryPct": -21.5
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "longRunAvgPerM2": 7934,
+      "latestMedianPerM2": 7448,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": -6.1
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "longRunAvgPerM2": 11179,
+      "latestMedianPerM2": 8750,
+      "yearsInAverage": 11,
+      "vsOwnHistoryPct": -21.7
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "longRunAvgPerM2": 10144,
+      "latestMedianPerM2": 13256,
+      "yearsInAverage": 9,
+      "vsOwnHistoryPct": 30.7
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "longRunAvgPerM2": 17075,
+      "latestMedianPerM2": 25350,
+      "yearsInAverage": 7,
+      "vsOwnHistoryPct": 48.5
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "longRunAvgPerM2": 6603,
+      "latestMedianPerM2": 1216,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "longRunAvgPerM2": 8614,
+      "latestMedianPerM2": 7708,
+      "yearsInAverage": 9,
+      "vsOwnHistoryPct": -10.5
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "longRunAvgPerM2": 10338,
+      "latestMedianPerM2": 15240,
+      "yearsInAverage": 9,
+      "vsOwnHistoryPct": 47.4
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "longRunAvgPerM2": 6977,
+      "latestMedianPerM2": 9110,
+      "yearsInAverage": 10,
+      "vsOwnHistoryPct": 30.6
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "longRunAvgPerM2": 15450,
+      "latestMedianPerM2": 32110,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 107.8
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "longRunAvgPerM2": 16699,
+      "latestMedianPerM2": 30861,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 84.8
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "longRunAvgPerM2": 9720,
+      "latestMedianPerM2": 9790,
+      "yearsInAverage": 9,
+      "vsOwnHistoryPct": 0.7
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "longRunAvgPerM2": 14950,
+      "latestMedianPerM2": 18975,
+      "yearsInAverage": 5,
+      "vsOwnHistoryPct": 26.9
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "longRunAvgPerM2": 6733,
+      "latestMedianPerM2": 6967,
+      "yearsInAverage": 9,
+      "vsOwnHistoryPct": 3.5
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "longRunAvgPerM2": 9323,
+      "latestMedianPerM2": 9410,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 0.9
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "longRunAvgPerM2": 11341,
+      "latestMedianPerM2": 12663,
+      "yearsInAverage": 9,
+      "vsOwnHistoryPct": 11.7
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "longRunAvgPerM2": 15302,
+      "latestMedianPerM2": 23006,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 50.3
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "longRunAvgPerM2": 20292,
+      "latestMedianPerM2": 26640,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 31.3
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "longRunAvgPerM2": 9836,
+      "latestMedianPerM2": 11815,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 20.1
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "longRunAvgPerM2": 6925,
+      "latestMedianPerM2": 12206,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 76.3
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "longRunAvgPerM2": 6176,
+      "latestMedianPerM2": 7681,
+      "yearsInAverage": 11,
+      "vsOwnHistoryPct": 24.4
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "longRunAvgPerM2": 7473,
+      "latestMedianPerM2": 4923,
+      "yearsInAverage": 8,
+      "vsOwnHistoryPct": -34.1
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "longRunAvgPerM2": 7040,
+      "latestMedianPerM2": 8759,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 24.4
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "longRunAvgPerM2": 6022,
+      "latestMedianPerM2": 5506,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": -8.6
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "longRunAvgPerM2": 12290,
+      "latestMedianPerM2": 14254,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 16.0
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "longRunAvgPerM2": 10534,
+      "latestMedianPerM2": 16794,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 59.4
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "longRunAvgPerM2": 20490,
+      "latestMedianPerM2": 26682,
+      "yearsInAverage": 8,
+      "vsOwnHistoryPct": 30.2
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "longRunAvgPerM2": 11790,
+      "latestMedianPerM2": 12263,
+      "yearsInAverage": 9,
+      "vsOwnHistoryPct": 4.0
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "longRunAvgPerM2": 10106,
+      "latestMedianPerM2": 13187,
+      "yearsInAverage": 10,
+      "vsOwnHistoryPct": 30.5
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "longRunAvgPerM2": 10624,
+      "latestMedianPerM2": 13153,
+      "yearsInAverage": 12,
+      "vsOwnHistoryPct": 23.8
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "longRunAvgPerM2": 12369,
+      "latestMedianPerM2": 12450,
+      "yearsInAverage": 8,
+      "vsOwnHistoryPct": 0.7
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "longRunAvgPerM2": 15107,
+      "latestMedianPerM2": 15839,
+      "yearsInAverage": 12,
+      "vsOwnHistoryPct": 4.9
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "longRunAvgPerM2": 9181,
+      "latestMedianPerM2": 12314,
+      "yearsInAverage": 5,
+      "vsOwnHistoryPct": 34.1
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "longRunAvgPerM2": 7725,
+      "latestMedianPerM2": 15303,
+      "yearsInAverage": 12,
+      "vsOwnHistoryPct": 98.1
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "longRunAvgPerM2": 13466,
+      "latestMedianPerM2": 11905,
+      "yearsInAverage": 6,
+      "vsOwnHistoryPct": -11.6
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "longRunAvgPerM2": 16415,
+      "latestMedianPerM2": 19644,
+      "yearsInAverage": 8,
+      "vsOwnHistoryPct": 19.7
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "longRunAvgPerM2": 8252,
+      "latestMedianPerM2": 7350,
+      "yearsInAverage": 7,
+      "vsOwnHistoryPct": -10.9
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "longRunAvgPerM2": 12859,
+      "latestMedianPerM2": 21003,
+      "yearsInAverage": 9,
+      "vsOwnHistoryPct": 63.3
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "longRunAvgPerM2": 15976,
+      "latestMedianPerM2": 27507,
+      "yearsInAverage": 8,
+      "vsOwnHistoryPct": 72.2
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "longRunAvgPerM2": 9022,
+      "latestMedianPerM2": 12326,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 36.6
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "vsOwnHistoryPct": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "longRunAvgPerM2": 7343,
+      "latestMedianPerM2": 11400,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 55.3
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "longRunAvgPerM2": 8242,
+      "latestMedianPerM2": 10764,
+      "yearsInAverage": 13,
+      "vsOwnHistoryPct": 30.6
+    }
+  ]
+}

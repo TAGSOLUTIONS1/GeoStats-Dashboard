@@ -1,0 +1,1450 @@
+{
+  "id": "freehold-share",
+  "label": "Freehold share of residential tenancies",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "freeholdPct",
+  "sourceUrl": "https://www.kaggle.com/datasets/zainabhejairi/dubai-real-estates-1969-2023",
+  "retrieved": "2026-09-11",
+  "source": "Dubai Land Department Ejari rental contracts export (Kaggle mirror zainabhejairi/dubai-real-estates-1969-2023, DLD_Rents.csv, 6,585,210 contracts)",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD Ejari export, 6,585,210 registered tenancy contracts. Contract volume is substantial through 2023; 2024 is partial (22,913 contracts) and is excluded. A handful of rows carry implausible years (2107+) and are discarded.",
+  "period": "2008–2023",
+  "minContracts": 50,
+  "method": "Share of registered residential tenancy contracts in the community flagged is_free_hold = 1, across all years held in the export.",
+  "limitation": "Derived from TENANCY records, so it reflects the freehold share of rented homes in a community rather than an official designation of the community's land status. Use it as a strong indicator of where non-GCC buyers can purchase, not as legal confirmation for a specific plot. Dubai land law makes this effectively BIMODAL: a community is either freehold or it is not, so about half of scored communities sit at 0% and most of the rest near 100%, and the map reads as two tones rather than a gradient. That is the shape of the underlying law, not a broken colour scale.",
+  "communitiesWithData": 136,
+  "stops": [
+    0.0,
+    0.1,
+    0.2,
+    30.1,
+    99.5,
+    100.0
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "freeholdPct": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "freeholdPct": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "residentialContracts": 7678,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "freeholdPct": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "residentialContracts": 54228,
+      "freeholdContracts": 53627,
+      "freeholdPct": 98.9
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "residentialContracts": 1,
+      "freeholdContracts": 0,
+      "freeholdPct": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "residentialContracts": 7978,
+      "freeholdContracts": 7978,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "residentialContracts": 104655,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "freeholdPct": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "residentialContracts": 14,
+      "freeholdContracts": 0,
+      "freeholdPct": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "residentialContracts": 3486,
+      "freeholdContracts": 24,
+      "freeholdPct": 0.7
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "freeholdPct": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "residentialContracts": 27535,
+      "freeholdContracts": 4507,
+      "freeholdPct": 16.4
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "residentialContracts": 24728,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "residentialContracts": 660,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "residentialContracts": 24829,
+      "freeholdContracts": 24829,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "freeholdPct": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "freeholdPct": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "residentialContracts": 24666,
+      "freeholdContracts": 24656,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "freeholdPct": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "freeholdPct": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "residentialContracts": 23,
+      "freeholdContracts": 0,
+      "freeholdPct": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "residentialContracts": 19748,
+      "freeholdContracts": 19738,
+      "freeholdPct": 99.9
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "residentialContracts": 686,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "freeholdPct": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "residentialContracts": 10117,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "residentialContracts": 87974,
+      "freeholdContracts": 847,
+      "freeholdPct": 1.0
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "residentialContracts": 2660,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "residentialContracts": 147,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "freeholdPct": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "freeholdPct": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "freeholdPct": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "residentialContracts": 1331,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "residentialContracts": 2258,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "freeholdPct": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "residentialContracts": 128759,
+      "freeholdContracts": 62950,
+      "freeholdPct": 48.9
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "freeholdPct": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "residentialContracts": 7075,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "residentialContracts": 423,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "freeholdPct": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "residentialContracts": 1630,
+      "freeholdContracts": 1031,
+      "freeholdPct": 63.3
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "residentialContracts": 141,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "freeholdPct": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "freeholdPct": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "residentialContracts": 64972,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "residentialContracts": 126,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "residentialContracts": 106842,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "residentialContracts": 18955,
+      "freeholdContracts": 18953,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "freeholdPct": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "freeholdPct": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "residentialContracts": 22785,
+      "freeholdContracts": 22782,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "freeholdPct": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "residentialContracts": 10141,
+      "freeholdContracts": 6946,
+      "freeholdPct": 68.5
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "freeholdPct": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "residentialContracts": 222,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "freeholdPct": null
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "freeholdPct": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "residentialContracts": 28794,
+      "freeholdContracts": 1177,
+      "freeholdPct": 4.1
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "freeholdPct": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "residentialContracts": 41906,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "freeholdPct": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "residentialContracts": 132939,
+      "freeholdContracts": 131127,
+      "freeholdPct": 98.6
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "freeholdPct": null
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "residentialContracts": 1,
+      "freeholdContracts": 0,
+      "freeholdPct": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "residentialContracts": 60305,
+      "freeholdContracts": 55378,
+      "freeholdPct": 91.8
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "residentialContracts": 4744,
+      "freeholdContracts": 4272,
+      "freeholdPct": 90.1
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "residentialContracts": 4861,
+      "freeholdContracts": 4858,
+      "freeholdPct": 99.9
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "residentialContracts": 10204,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "residentialContracts": 16317,
+      "freeholdContracts": 6196,
+      "freeholdPct": 38.0
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "residentialContracts": 30692,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "freeholdPct": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "residentialContracts": 7833,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "residentialContracts": 3043,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "residentialContracts": 183,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "residentialContracts": 5728,
+      "freeholdContracts": 349,
+      "freeholdPct": 6.1
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "freeholdPct": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "freeholdPct": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "residentialContracts": 2,
+      "freeholdContracts": 0,
+      "freeholdPct": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "residentialContracts": 31442,
+      "freeholdContracts": 1,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "residentialContracts": 10048,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "residentialContracts": 101554,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "freeholdPct": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "freeholdPct": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "residentialContracts": 531,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "residentialContracts": 22454,
+      "freeholdContracts": 22388,
+      "freeholdPct": 99.7
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "freeholdPct": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "residentialContracts": 743,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "residentialContracts": 12364,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "residentialContracts": 7279,
+      "freeholdContracts": 160,
+      "freeholdPct": 2.2
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "residentialContracts": 3,
+      "freeholdContracts": 3,
+      "freeholdPct": null
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "freeholdPct": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "residentialContracts": 52540,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "residentialContracts": 2854,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "residentialContracts": 8602,
+      "freeholdContracts": 8590,
+      "freeholdPct": 99.9
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "residentialContracts": 91039,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "freeholdPct": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "residentialContracts": 374,
+      "freeholdContracts": 374,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "freeholdPct": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "residentialContracts": 11970,
+      "freeholdContracts": 11970,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "freeholdPct": null
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "freeholdPct": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "residentialContracts": 3170,
+      "freeholdContracts": 3170,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "residentialContracts": 1281,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "residentialContracts": 173379,
+      "freeholdContracts": 172016,
+      "freeholdPct": 99.2
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "residentialContracts": 47640,
+      "freeholdContracts": 47484,
+      "freeholdPct": 99.7
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "residentialContracts": 7598,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "freeholdPct": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "freeholdPct": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "residentialContracts": 1337,
+      "freeholdContracts": 15,
+      "freeholdPct": 1.1
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "residentialContracts": 2550,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "residentialContracts": 17266,
+      "freeholdContracts": 16189,
+      "freeholdPct": 93.8
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "residentialContracts": 3283,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "freeholdPct": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "residentialContracts": 1052,
+      "freeholdContracts": 1028,
+      "freeholdPct": 97.7
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "freeholdPct": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "residentialContracts": 2621,
+      "freeholdContracts": 1,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "freeholdPct": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "freeholdPct": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "freeholdPct": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "freeholdPct": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "freeholdPct": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "freeholdPct": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "residentialContracts": 37164,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "residentialContracts": 146,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "freeholdPct": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "freeholdPct": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "residentialContracts": 42,
+      "freeholdContracts": 42,
+      "freeholdPct": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "freeholdPct": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "residentialContracts": 3025,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "freeholdPct": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "residentialContracts": 41928,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "residentialContracts": 983,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "residentialContracts": 46919,
+      "freeholdContracts": 2667,
+      "freeholdPct": 5.7
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "residentialContracts": 815,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "freeholdPct": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "residentialContracts": 60,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "freeholdPct": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "residentialContracts": 54578,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "residentialContracts": 1753,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "residentialContracts": 21485,
+      "freeholdContracts": 6955,
+      "freeholdPct": 32.4
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "residentialContracts": 1,
+      "freeholdContracts": 0,
+      "freeholdPct": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "freeholdPct": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "residentialContracts": 61704,
+      "freeholdContracts": 61482,
+      "freeholdPct": 99.6
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "freeholdPct": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "residentialContracts": 12563,
+      "freeholdContracts": 11146,
+      "freeholdPct": 88.7
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "residentialContracts": 6461,
+      "freeholdContracts": 4922,
+      "freeholdPct": 76.2
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "residentialContracts": 151615,
+      "freeholdContracts": 45592,
+      "freeholdPct": 30.1
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "freeholdPct": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "residentialContracts": 21316,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "residentialContracts": 113457,
+      "freeholdContracts": 1584,
+      "freeholdPct": 1.4
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "freeholdPct": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "residentialContracts": 11,
+      "freeholdContracts": 0,
+      "freeholdPct": null
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "residentialContracts": 3207,
+      "freeholdContracts": 5,
+      "freeholdPct": 0.2
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "residentialContracts": 86049,
+      "freeholdContracts": 72458,
+      "freeholdPct": 84.2
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "residentialContracts": 46879,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "residentialContracts": 65780,
+      "freeholdContracts": 64029,
+      "freeholdPct": 97.3
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "residentialContracts": 51130,
+      "freeholdContracts": 51118,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "freeholdPct": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "residentialContracts": 141975,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "residentialContracts": 72253,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "residentialContracts": 1446,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "freeholdPct": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "residentialContracts": 20594,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "freeholdPct": null
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "residentialContracts": 17080,
+      "freeholdContracts": 17077,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "residentialContracts": 21507,
+      "freeholdContracts": 7887,
+      "freeholdPct": 36.7
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "freeholdPct": null
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "residentialContracts": 606,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "residentialContracts": 10857,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "residentialContracts": 18218,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "residentialContracts": 6303,
+      "freeholdContracts": 1253,
+      "freeholdPct": 19.9
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "freeholdPct": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "residentialContracts": 2709,
+      "freeholdContracts": 1356,
+      "freeholdPct": 50.1
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "residentialContracts": 41988,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "freeholdPct": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "residentialContracts": 38272,
+      "freeholdContracts": 37451,
+      "freeholdPct": 97.9
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "residentialContracts": 537,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "residentialContracts": 89924,
+      "freeholdContracts": 89769,
+      "freeholdPct": 99.8
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "freeholdPct": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "residentialContracts": 4413,
+      "freeholdContracts": 188,
+      "freeholdPct": 4.3
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "residentialContracts": 80962,
+      "freeholdContracts": 80546,
+      "freeholdPct": 99.5
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "residentialContracts": 212565,
+      "freeholdContracts": 212224,
+      "freeholdPct": 99.8
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "residentialContracts": 46993,
+      "freeholdContracts": 46042,
+      "freeholdPct": 98.0
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "residentialContracts": 91299,
+      "freeholdContracts": 91216,
+      "freeholdPct": 99.9
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "residentialContracts": 5566,
+      "freeholdContracts": 1,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "residentialContracts": 990,
+      "freeholdContracts": 935,
+      "freeholdPct": 94.4
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "freeholdPct": null
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "freeholdPct": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "residentialContracts": 2798,
+      "freeholdContracts": 2798,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "residentialContracts": 28,
+      "freeholdContracts": 0,
+      "freeholdPct": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "residentialContracts": 16263,
+      "freeholdContracts": 16260,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "residentialContracts": 82988,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "freeholdPct": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "residentialContracts": 37255,
+      "freeholdContracts": 33582,
+      "freeholdPct": 90.1
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "freeholdPct": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "residentialContracts": 8007,
+      "freeholdContracts": 3188,
+      "freeholdPct": 39.8
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "residentialContracts": 28298,
+      "freeholdContracts": 11705,
+      "freeholdPct": 41.4
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "residentialContracts": 62606,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "residentialContracts": 6082,
+      "freeholdContracts": 6081,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "residentialContracts": 17738,
+      "freeholdContracts": 17688,
+      "freeholdPct": 99.7
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "residentialContracts": 12780,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "residentialContracts": 8759,
+      "freeholdContracts": 6597,
+      "freeholdPct": 75.3
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "freeholdPct": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "residentialContracts": 9396,
+      "freeholdContracts": 1,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "residentialContracts": 4583,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "residentialContracts": 113039,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "residentialContracts": 6861,
+      "freeholdContracts": 6861,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "residentialContracts": 9538,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "freeholdPct": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "residentialContracts": 1,
+      "freeholdContracts": 1,
+      "freeholdPct": null
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "freeholdPct": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "residentialContracts": 16942,
+      "freeholdContracts": 16942,
+      "freeholdPct": 100.0
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "freeholdPct": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "freeholdPct": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "residentialContracts": 524,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "freeholdPct": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "residentialContracts": 19942,
+      "freeholdContracts": 560,
+      "freeholdPct": 2.8
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "freeholdPct": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "residentialContracts": 151702,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "residentialContracts": 757,
+      "freeholdContracts": 0,
+      "freeholdPct": 0.0
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "freeholdPct": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "residentialContracts": 102846,
+      "freeholdContracts": 102669,
+      "freeholdPct": 99.8
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "freeholdPct": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "freeholdPct": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "residentialContracts": 36543,
+      "freeholdContracts": 36515,
+      "freeholdPct": 99.9
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "residentialContracts": 232734,
+      "freeholdContracts": 230675,
+      "freeholdPct": 99.1
+    }
+  ]
+}
