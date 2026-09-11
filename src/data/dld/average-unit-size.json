@@ -1,0 +1,1382 @@
+{
+  "id": "average-unit-size",
+  "label": "Median apartment size, m² (2019–2023)",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "medianAreaSqm",
+  "source": "Dubai Land Department transactions export (Kaggle mirror zainabhejairi/dubai-real-estates-1969-2023, DLD_Transactions.csv)",
+  "sourceUrl": "https://www.kaggle.com/datasets/zainabhejairi/dubai-real-estates-1969-2023",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD export, truncated at Excel's 1,048,576-row ceiling. Coverage ends in 2023.",
+  "retrieved": "2026-09-11",
+  "period": "2019–2023",
+  "minSales": 30,
+  "method": "Median procedure_area in square metres for residential APARTMENT (property_type Unit) sales per community. Villas are deliberately excluded: for a villa the registry records the PLOT area, not the floor area, so including them would mix two different quantities in one number. Records outside 15–800 m² are discarded.",
+  "limitation": "Apartments only, and it describes the size of units SOLD in the window rather than the community's whole housing stock. Villa districts are therefore unscored or reflect only their apartment stock.",
+  "communitiesWithData": 53,
+  "stops": [
+    34.0,
+    67.0,
+    75.0,
+    101.0,
+    124.0,
+    301.0
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "sizedSales": 3391,
+      "medianAreaSqm": 68.2
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "sizedSales": 10579,
+      "medianAreaSqm": 101.9
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "sizedSales": 18,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "sizedSales": 1249,
+      "medianAreaSqm": 88.3
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "sizedSales": 1504,
+      "medianAreaSqm": 132.4
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "sizedSales": 522,
+      "medianAreaSqm": 48.0
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "sizedSales": 646,
+      "medianAreaSqm": 135.7
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "sizedSales": 728,
+      "medianAreaSqm": 124.8
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "sizedSales": 3747,
+      "medianAreaSqm": 84.0
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "sizedSales": 631,
+      "medianAreaSqm": 127.0
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "sizedSales": 110,
+      "medianAreaSqm": 196.0
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "sizedSales": 3975,
+      "medianAreaSqm": 74.8
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "sizedSales": 285,
+      "medianAreaSqm": 97.7
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "sizedSales": 1047,
+      "medianAreaSqm": 43.2
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "sizedSales": 3548,
+      "medianAreaSqm": 123.4
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "sizedSales": 2488,
+      "medianAreaSqm": 100.8
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "sizedSales": 1572,
+      "medianAreaSqm": 68.4
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "sizedSales": 1965,
+      "medianAreaSqm": 107.6
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "sizedSales": 796,
+      "medianAreaSqm": 84.4
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "sizedSales": 49,
+      "medianAreaSqm": 66.3
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "sizedSales": 24065,
+      "medianAreaSqm": 113.3
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "sizedSales": 5961,
+      "medianAreaSqm": 165.0
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "sizedSales": 2765,
+      "medianAreaSqm": 91.1
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "sizedSales": 1249,
+      "medianAreaSqm": 127.1
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "sizedSales": 10,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "sizedSales": 618,
+      "medianAreaSqm": 92.1
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "sizedSales": 4742,
+      "medianAreaSqm": 70.4
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "sizedSales": 1333,
+      "medianAreaSqm": 66.8
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "sizedSales": 41,
+      "medianAreaSqm": 78.2
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "sizedSales": 221,
+      "medianAreaSqm": 187.2
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "sizedSales": 21428,
+      "medianAreaSqm": 73.9
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "sizedSales": 13134,
+      "medianAreaSqm": 103.2
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "sizedSales": 3389,
+      "medianAreaSqm": 64.3
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "sizedSales": 2118,
+      "medianAreaSqm": 68.2
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "sizedSales": 13,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "sizedSales": 871,
+      "medianAreaSqm": 59.3
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "sizedSales": 155,
+      "medianAreaSqm": 90.0
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "sizedSales": 332,
+      "medianAreaSqm": 97.0
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "sizedSales": 6702,
+      "medianAreaSqm": 60.1
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "sizedSales": 2388,
+      "medianAreaSqm": 114.8
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "sizedSales": 9432,
+      "medianAreaSqm": 74.3
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "sizedSales": 1670,
+      "medianAreaSqm": 108.5
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "sizedSales": 529,
+      "medianAreaSqm": 34.7
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "sizedSales": 3465,
+      "medianAreaSqm": 62.6
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "sizedSales": 8547,
+      "medianAreaSqm": 52.2
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "sizedSales": 177,
+      "medianAreaSqm": 209.5
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "sizedSales": 2954,
+      "medianAreaSqm": 70.1
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "sizedSales": 110,
+      "medianAreaSqm": 104.6
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "sizedSales": 1275,
+      "medianAreaSqm": 107.6
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "sizedSales": 166,
+      "medianAreaSqm": 123.8
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "sizedSales": 51,
+      "medianAreaSqm": 300.5
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "sizedSales": 17478,
+      "medianAreaSqm": 68.9
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "sizedSales": 10026,
+      "medianAreaSqm": 69.8
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "sizedSales": 1994,
+      "medianAreaSqm": 111.9
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "sizedSales": 22738,
+      "medianAreaSqm": 66.9
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "sizedSales": 0,
+      "medianAreaSqm": null
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "sizedSales": 5277,
+      "medianAreaSqm": 74.0
+    }
+  ]
+}

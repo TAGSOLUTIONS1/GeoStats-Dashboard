@@ -126,6 +126,8 @@ const layers = [
   ['transaction-liquidity', 'src/data/dld/transaction-liquidity.json', 'salesPerYear'],
   ['max-historical-drawdown', 'src/data/dld/max-historical-drawdown.json', 'maxDrawdownPct'],
   ['price-vs-own-history', 'src/data/dld/price-vs-own-history.json', 'vsOwnHistoryPct'],
+  ['average-unit-size', 'src/data/dld/average-unit-size.json', 'medianAreaSqm'],
+  ['corporate-tenancy-share', 'src/data/dld/corporate-tenancy-share.json', 'corporateTenancyPct'],
 ];
 const cdSrc = src('src/services/communityData.js');
 layers.forEach(([id, file, metric]) => {

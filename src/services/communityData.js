@@ -40,6 +40,8 @@ import offplanGap from '../data/dld/offplan-price-gap.json';
 import txLiquidity from '../data/dld/transaction-liquidity.json';
 import maxDrawdown from '../data/dld/max-historical-drawdown.json';
 import priceVsHistory from '../data/dld/price-vs-own-history.json';
+import unitSize from '../data/dld/average-unit-size.json';
+import corporateTenancy from '../data/dld/corporate-tenancy-share.json';
 import valueIncome from '../data/derived/value-income.json';
 import mtgPctIncome from '../data/derived/mtg-payments-income-percent.json';
 import ownershipCost from '../data/derived/monthly-home-ownership-cost.json';
@@ -293,6 +295,28 @@ export const mapDataPoints = {
     palette: SAFETY,
     inverted: true,
     source: 'DLD transactions 2010–2023 (Kaggle mirror)',
+  },
+  'average-unit-size': {
+    dataset: unitSize,
+    property: 'Median_AreaSqm',
+    metric: 'medianAreaSqm',
+    labelDigits: 0,
+    labelSuffix: ' m²',
+    label: 'Median apartment size, m² (2019–2023)',
+    stops: [34, 67, 75, 101, 124, 301],
+    palette: BLUE,
+    source: 'DLD transactions 2019–2023 (Kaggle mirror)',
+  },
+  'corporate-tenancy-share': {
+    dataset: corporateTenancy,
+    property: 'Corporate_TenancyPct',
+    metric: 'corporateTenancyPct',
+    labelDigits: 0,
+    labelSuffix: '%',
+    label: 'Tenancies leased by a company rather than an individual (2019–2023)',
+    stops: [0, 3.5, 6.7, 10.2, 18.5, 100],
+    palette: BLUE,
+    source: 'DLD Ejari contracts 2019–2023 (Kaggle mirror)',
   },
   'community-engagement-index': {
     dataset: communityFacilities,
