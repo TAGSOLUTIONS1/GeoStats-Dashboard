@@ -115,6 +115,19 @@ const layers = [
   ['housing-market-health-score', 'src/data/composite/housing-market-health-score.json', 'score'],
   ['school-quality-score', 'src/data/composite/school-quality-score.json', 'score'],
   ['economic-health-score', 'src/data/composite/economic-health-score.json', 'score'],
+  ['affordable-housing-units', 'src/data/dld/affordable-housing-units.json', 'affordableSalesPct'],
+  ['family-household-percent', 'src/data/dld/family-sized-homes.json', 'familySizedPct'],
+  ['median-listing-price-yoy', 'src/data/dld/median-price-yoy.json', 'medianPriceYoYPct'],
+  ['gross-rental-yield', 'src/data/dld/gross-rental-yield.json', 'grossYieldPct'],
+  ['rent-growth-yoy', 'src/data/dld/rent-growth-yoy.json', 'rentGrowthPct'],
+  ['freehold-share', 'src/data/dld/freehold-share.json', 'freeholdPct'],
+  ['lease-renewal-rate', 'src/data/dld/lease-renewal-rate.json', 'renewalRatePct'],
+  ['offplan-price-gap', 'src/data/dld/offplan-price-gap.json', 'offplanPremiumPct'],
+  ['transaction-liquidity', 'src/data/dld/transaction-liquidity.json', 'salesPerYear'],
+  ['max-historical-drawdown', 'src/data/dld/max-historical-drawdown.json', 'maxDrawdownPct'],
+  ['price-vs-own-history', 'src/data/dld/price-vs-own-history.json', 'vsOwnHistoryPct'],
+  ['average-unit-size', 'src/data/dld/average-unit-size.json', 'medianAreaSqm'],
+  ['corporate-tenancy-share', 'src/data/dld/corporate-tenancy-share.json', 'corporateTenancyPct'],
 ];
 const cdSrc = src('src/services/communityData.js');
 layers.forEach(([id, file, metric]) => {

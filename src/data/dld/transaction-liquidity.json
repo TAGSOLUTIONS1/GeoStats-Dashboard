@@ -1,0 +1,1156 @@
+{
+  "id": "transaction-liquidity",
+  "label": "Residential sales per year (2021–2023 average)",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "salesPerYear",
+  "sourceUrl": "https://www.kaggle.com/datasets/zainabhejairi/dubai-real-estates-1969-2023",
+  "retrieved": "2026-09-11",
+  "source": "Dubai Land Department transactions export (Kaggle mirror zainabhejairi/dubai-real-estates-1969-2023, DLD_Transactions.csv)",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD export. The file is exactly 1,048,575 rows, which is Excel's 1,048,576-row ceiling, so it is a TRUNCATED copy of the registry. Coverage ends in 2023.",
+  "period": "2021–2023",
+  "minSales": 60,
+  "method": "Mean number of registered residential sale transactions per year per community over 2021–2023. A measure of how actively a community trades.",
+  "limitation": "Absolute turnover, not turnover relative to the size of the community's housing stock, because the registry records transaction flows and not standing stock. Large communities will rank high partly because they are large.",
+  "communitiesWithData": 67,
+  "stops": [
+    20,
+    44.0,
+    360.0,
+    709.0,
+    1709.0,
+    6904
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "salesPerYear": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "salesPerYear": null
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "salesPerYear": 3351.3
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "salesPerYear": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "salesPerYear": 2742.0
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "salesPerYear": null
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "salesPerYear": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "salesPerYear": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "salesPerYear": 20.3
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "salesPerYear": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "salesPerYear": null
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "salesPerYear": 3002.3
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "salesPerYear": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "salesPerYear": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "salesPerYear": 462.7
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "salesPerYear": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "salesPerYear": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "salesPerYear": 1018.3
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "salesPerYear": 43.7
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "salesPerYear": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "salesPerYear": 325.3
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "salesPerYear": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "salesPerYear": 237.3
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "salesPerYear": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "salesPerYear": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "salesPerYear": null
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "salesPerYear": null
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "salesPerYear": 387.3
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "salesPerYear": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "salesPerYear": 1522.3
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "salesPerYear": 211.0
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "salesPerYear": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "salesPerYear": null
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "salesPerYear": null
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "salesPerYear": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "salesPerYear": 31.7
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "salesPerYear": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "salesPerYear": 31.7
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "salesPerYear": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "salesPerYear": 988.0
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "salesPerYear": null
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "salesPerYear": 75.0
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "salesPerYear": null
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "salesPerYear": 320.0
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "salesPerYear": 20.3
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "salesPerYear": 1170.0
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "salesPerYear": null
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "salesPerYear": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "salesPerYear": null
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "salesPerYear": null
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "salesPerYear": null
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "salesPerYear": 709.3
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "salesPerYear": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "salesPerYear": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "salesPerYear": null
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "salesPerYear": null
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "salesPerYear": null
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "salesPerYear": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "salesPerYear": null
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "salesPerYear": 585.7
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "salesPerYear": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "salesPerYear": 149.0
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "salesPerYear": 649.3
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "salesPerYear": 426.3
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "salesPerYear": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "salesPerYear": null
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "salesPerYear": 605.3
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "salesPerYear": null
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "salesPerYear": 299.3
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "salesPerYear": null
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "salesPerYear": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "salesPerYear": 6395.7
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "salesPerYear": 1709.3
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "salesPerYear": null
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "salesPerYear": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "salesPerYear": 20.3
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "salesPerYear": null
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "salesPerYear": 1582.0
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "salesPerYear": null
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "salesPerYear": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "salesPerYear": 381.3
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "salesPerYear": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "salesPerYear": 37.7
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "salesPerYear": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "salesPerYear": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "salesPerYear": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "salesPerYear": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "salesPerYear": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "salesPerYear": 20.3
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "salesPerYear": null
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "salesPerYear": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "salesPerYear": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "salesPerYear": 36.0
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "salesPerYear": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "salesPerYear": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "salesPerYear": null
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "salesPerYear": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "salesPerYear": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "salesPerYear": null
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "salesPerYear": 90.3
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "salesPerYear": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "salesPerYear": 2034.0
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "salesPerYear": null
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "salesPerYear": 360.0
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "salesPerYear": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "salesPerYear": null
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "salesPerYear": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "salesPerYear": 74.0
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "salesPerYear": 6242.3
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "salesPerYear": null
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "salesPerYear": 3378.3
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "salesPerYear": 1134.7
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "salesPerYear": null
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "salesPerYear": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "salesPerYear": null
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "salesPerYear": 998.3
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "salesPerYear": 779.0
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "salesPerYear": 28.7
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "salesPerYear": null
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "salesPerYear": null
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "salesPerYear": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "salesPerYear": null
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "salesPerYear": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "salesPerYear": 237.3
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "salesPerYear": 41.3
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "salesPerYear": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "salesPerYear": null
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "salesPerYear": 372.7
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "salesPerYear": 1602.0
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "salesPerYear": 692.7
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "salesPerYear": 2625.3
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "salesPerYear": null
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "salesPerYear": 415.7
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "salesPerYear": null
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "salesPerYear": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "salesPerYear": 141.3
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "salesPerYear": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "salesPerYear": 1565.0
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "salesPerYear": null
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "salesPerYear": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "salesPerYear": 2464.3
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "salesPerYear": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "salesPerYear": 39.0
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "salesPerYear": 838.7
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "salesPerYear": 621.3
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "salesPerYear": 966.7
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "salesPerYear": 44.3
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "salesPerYear": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "salesPerYear": 29.7
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "salesPerYear": null
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "salesPerYear": 5163.0
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "salesPerYear": 265.7
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "salesPerYear": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "salesPerYear": 3749.7
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "salesPerYear": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "salesPerYear": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "salesPerYear": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "salesPerYear": 475.7
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "salesPerYear": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "salesPerYear": null
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "salesPerYear": null
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "salesPerYear": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "salesPerYear": 6903.3
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "salesPerYear": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "salesPerYear": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "salesPerYear": 398.7
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "salesPerYear": 1940.3
+    }
+  ]
+}

@@ -1,0 +1,1450 @@
+{
+  "id": "lease-renewal-rate",
+  "label": "Share of tenancies that are renewals rather than new lets",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "renewalRatePct",
+  "sourceUrl": "https://www.kaggle.com/datasets/zainabhejairi/dubai-real-estates-1969-2023",
+  "retrieved": "2026-09-11",
+  "source": "Dubai Land Department Ejari rental contracts export (Kaggle mirror zainabhejairi/dubai-real-estates-1969-2023, DLD_Rents.csv, 6,585,210 contracts)",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD Ejari export, 6,585,210 registered tenancy contracts. Contract volume is substantial through 2023; 2024 is partial (22,913 contracts) and is excluded. A handful of rows carry implausible years (2107+) and are discarded.",
+  "period": "2008–2023",
+  "minContracts": 50,
+  "method": "Share of registered residential tenancy contracts with contract_reg_type_en = Renew, against all residential contracts in the community.",
+  "limitation": "A tenant-retention indicator, NOT a vacancy rate: it says how often sitting tenants stay, but cannot say how many homes sit empty, because the registry records contracts and not dwelling stock.",
+  "communitiesWithData": 136,
+  "stops": [
+    15.6,
+    34.2,
+    42.1,
+    49.4,
+    57.4,
+    70.3
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "renewalRatePct": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "renewalRatePct": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "residentialContracts": 7678,
+      "renewals": 4412,
+      "renewalRatePct": 57.5
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "renewalRatePct": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "residentialContracts": 54228,
+      "renewals": 20570,
+      "renewalRatePct": 37.9
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "residentialContracts": 1,
+      "renewals": 0,
+      "renewalRatePct": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "residentialContracts": 7978,
+      "renewals": 2326,
+      "renewalRatePct": 29.2
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "residentialContracts": 104655,
+      "renewals": 60966,
+      "renewalRatePct": 58.3
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "renewalRatePct": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "residentialContracts": 14,
+      "renewals": 0,
+      "renewalRatePct": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "residentialContracts": 3486,
+      "renewals": 1613,
+      "renewalRatePct": 46.3
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "renewalRatePct": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "residentialContracts": 27535,
+      "renewals": 16529,
+      "renewalRatePct": 60.0
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "residentialContracts": 24728,
+      "renewals": 15191,
+      "renewalRatePct": 61.4
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "residentialContracts": 660,
+      "renewals": 346,
+      "renewalRatePct": 52.4
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "residentialContracts": 24829,
+      "renewals": 10272,
+      "renewalRatePct": 41.4
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "renewalRatePct": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "residentialContracts": 24666,
+      "renewals": 10624,
+      "renewalRatePct": 43.1
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "renewalRatePct": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "renewalRatePct": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "residentialContracts": 23,
+      "renewals": 1,
+      "renewalRatePct": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "residentialContracts": 19748,
+      "renewals": 10318,
+      "renewalRatePct": 52.2
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "residentialContracts": 686,
+      "renewals": 204,
+      "renewalRatePct": 29.7
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "renewalRatePct": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "residentialContracts": 10117,
+      "renewals": 5511,
+      "renewalRatePct": 54.5
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "residentialContracts": 87974,
+      "renewals": 24503,
+      "renewalRatePct": 27.9
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "residentialContracts": 2660,
+      "renewals": 1239,
+      "renewalRatePct": 46.6
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "residentialContracts": 147,
+      "renewals": 72,
+      "renewalRatePct": 49.0
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "renewalRatePct": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "renewalRatePct": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "renewalRatePct": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "residentialContracts": 1331,
+      "renewals": 544,
+      "renewalRatePct": 40.9
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "residentialContracts": 2258,
+      "renewals": 588,
+      "renewalRatePct": 26.0
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "renewalRatePct": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "residentialContracts": 128759,
+      "renewals": 78160,
+      "renewalRatePct": 60.7
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "renewalRatePct": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "residentialContracts": 7075,
+      "renewals": 4648,
+      "renewalRatePct": 65.7
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "residentialContracts": 423,
+      "renewals": 170,
+      "renewalRatePct": 40.2
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "renewalRatePct": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "residentialContracts": 1630,
+      "renewals": 541,
+      "renewalRatePct": 33.2
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "residentialContracts": 141,
+      "renewals": 48,
+      "renewalRatePct": 34.0
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "renewalRatePct": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "residentialContracts": 64972,
+      "renewals": 32472,
+      "renewalRatePct": 50.0
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "residentialContracts": 126,
+      "renewals": 38,
+      "renewalRatePct": 30.2
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "residentialContracts": 106842,
+      "renewals": 66697,
+      "renewalRatePct": 62.4
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "residentialContracts": 18955,
+      "renewals": 8269,
+      "renewalRatePct": 43.6
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "renewalRatePct": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "renewalRatePct": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "residentialContracts": 22785,
+      "renewals": 9483,
+      "renewalRatePct": 41.6
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "renewalRatePct": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "residentialContracts": 10141,
+      "renewals": 7040,
+      "renewalRatePct": 69.4
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "renewalRatePct": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "residentialContracts": 222,
+      "renewals": 96,
+      "renewalRatePct": 43.2
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "renewalRatePct": null
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "residentialContracts": 28794,
+      "renewals": 16955,
+      "renewalRatePct": 58.9
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "renewalRatePct": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "residentialContracts": 41906,
+      "renewals": 20931,
+      "renewalRatePct": 49.9
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "residentialContracts": 132939,
+      "renewals": 55921,
+      "renewalRatePct": 42.1
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "renewalRatePct": null
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "residentialContracts": 1,
+      "renewals": 0,
+      "renewalRatePct": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "residentialContracts": 60305,
+      "renewals": 29106,
+      "renewalRatePct": 48.3
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "residentialContracts": 4744,
+      "renewals": 1385,
+      "renewalRatePct": 29.2
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "residentialContracts": 4861,
+      "renewals": 2232,
+      "renewalRatePct": 45.9
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "residentialContracts": 10204,
+      "renewals": 6132,
+      "renewalRatePct": 60.1
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "residentialContracts": 16317,
+      "renewals": 9016,
+      "renewalRatePct": 55.3
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "residentialContracts": 30692,
+      "renewals": 13481,
+      "renewalRatePct": 43.9
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "renewalRatePct": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "residentialContracts": 7833,
+      "renewals": 2825,
+      "renewalRatePct": 36.1
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "residentialContracts": 3043,
+      "renewals": 1292,
+      "renewalRatePct": 42.5
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "residentialContracts": 183,
+      "renewals": 30,
+      "renewalRatePct": 16.4
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "residentialContracts": 5728,
+      "renewals": 3083,
+      "renewalRatePct": 53.8
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "renewalRatePct": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "renewalRatePct": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "residentialContracts": 2,
+      "renewals": 0,
+      "renewalRatePct": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "residentialContracts": 31442,
+      "renewals": 17496,
+      "renewalRatePct": 55.6
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "residentialContracts": 10048,
+      "renewals": 5136,
+      "renewalRatePct": 51.1
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "residentialContracts": 101554,
+      "renewals": 66663,
+      "renewalRatePct": 65.6
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "renewalRatePct": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "renewalRatePct": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "residentialContracts": 531,
+      "renewals": 160,
+      "renewalRatePct": 30.1
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "residentialContracts": 22454,
+      "renewals": 7638,
+      "renewalRatePct": 34.0
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "renewalRatePct": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "residentialContracts": 743,
+      "renewals": 308,
+      "renewalRatePct": 41.5
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "residentialContracts": 12364,
+      "renewals": 7693,
+      "renewalRatePct": 62.2
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "residentialContracts": 7279,
+      "renewals": 4145,
+      "renewalRatePct": 56.9
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "residentialContracts": 3,
+      "renewals": 1,
+      "renewalRatePct": null
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "renewalRatePct": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "residentialContracts": 52540,
+      "renewals": 30228,
+      "renewalRatePct": 57.5
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "residentialContracts": 2854,
+      "renewals": 908,
+      "renewalRatePct": 31.8
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "residentialContracts": 8602,
+      "renewals": 3361,
+      "renewalRatePct": 39.1
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "residentialContracts": 91039,
+      "renewals": 53322,
+      "renewalRatePct": 58.6
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "renewalRatePct": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "residentialContracts": 374,
+      "renewals": 96,
+      "renewalRatePct": 25.7
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "renewalRatePct": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "residentialContracts": 11970,
+      "renewals": 5914,
+      "renewalRatePct": 49.4
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "residentialContracts": 3170,
+      "renewals": 1450,
+      "renewalRatePct": 45.7
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "residentialContracts": 1281,
+      "renewals": 901,
+      "renewalRatePct": 70.3
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "residentialContracts": 173379,
+      "renewals": 66301,
+      "renewalRatePct": 38.2
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "residentialContracts": 47640,
+      "renewals": 19606,
+      "renewalRatePct": 41.2
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "residentialContracts": 7598,
+      "renewals": 4089,
+      "renewalRatePct": 53.8
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "renewalRatePct": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "renewalRatePct": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "residentialContracts": 1337,
+      "renewals": 520,
+      "renewalRatePct": 38.9
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "residentialContracts": 2550,
+      "renewals": 1395,
+      "renewalRatePct": 54.7
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "residentialContracts": 17266,
+      "renewals": 3992,
+      "renewalRatePct": 23.1
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "residentialContracts": 3283,
+      "renewals": 1769,
+      "renewalRatePct": 53.9
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "residentialContracts": 1052,
+      "renewals": 242,
+      "renewalRatePct": 23.0
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "renewalRatePct": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "residentialContracts": 2621,
+      "renewals": 1521,
+      "renewalRatePct": 58.0
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "renewalRatePct": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "renewalRatePct": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "renewalRatePct": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "residentialContracts": 37164,
+      "renewals": 20839,
+      "renewalRatePct": 56.1
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "residentialContracts": 146,
+      "renewals": 50,
+      "renewalRatePct": 34.2
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "renewalRatePct": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "residentialContracts": 42,
+      "renewals": 3,
+      "renewalRatePct": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "renewalRatePct": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "residentialContracts": 3025,
+      "renewals": 1416,
+      "renewalRatePct": 46.8
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "renewalRatePct": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "residentialContracts": 41928,
+      "renewals": 25990,
+      "renewalRatePct": 62.0
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "residentialContracts": 983,
+      "renewals": 423,
+      "renewalRatePct": 43.0
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "residentialContracts": 46919,
+      "renewals": 25525,
+      "renewalRatePct": 54.4
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "residentialContracts": 815,
+      "renewals": 424,
+      "renewalRatePct": 52.0
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "renewalRatePct": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "residentialContracts": 60,
+      "renewals": 15,
+      "renewalRatePct": 25.0
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "renewalRatePct": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "residentialContracts": 54578,
+      "renewals": 25933,
+      "renewalRatePct": 47.5
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "residentialContracts": 1753,
+      "renewals": 694,
+      "renewalRatePct": 39.6
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "residentialContracts": 21485,
+      "renewals": 9591,
+      "renewalRatePct": 44.6
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "residentialContracts": 1,
+      "renewals": 0,
+      "renewalRatePct": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "renewalRatePct": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "residentialContracts": 61704,
+      "renewals": 19391,
+      "renewalRatePct": 31.4
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "renewalRatePct": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "residentialContracts": 12563,
+      "renewals": 5589,
+      "renewalRatePct": 44.5
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "residentialContracts": 6461,
+      "renewals": 2407,
+      "renewalRatePct": 37.3
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "residentialContracts": 151615,
+      "renewals": 37166,
+      "renewalRatePct": 24.5
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "renewalRatePct": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "residentialContracts": 21316,
+      "renewals": 12022,
+      "renewalRatePct": 56.4
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "residentialContracts": 113457,
+      "renewals": 60743,
+      "renewalRatePct": 53.5
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "residentialContracts": 11,
+      "renewals": 0,
+      "renewalRatePct": null
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "residentialContracts": 3207,
+      "renewals": 1418,
+      "renewalRatePct": 44.2
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "residentialContracts": 86049,
+      "renewals": 33314,
+      "renewalRatePct": 38.7
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "residentialContracts": 46879,
+      "renewals": 24400,
+      "renewalRatePct": 52.0
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "residentialContracts": 65780,
+      "renewals": 23585,
+      "renewalRatePct": 35.9
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "residentialContracts": 51130,
+      "renewals": 18224,
+      "renewalRatePct": 35.6
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "renewalRatePct": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "residentialContracts": 141975,
+      "renewals": 92012,
+      "renewalRatePct": 64.8
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "residentialContracts": 72253,
+      "renewals": 36875,
+      "renewalRatePct": 51.0
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "residentialContracts": 1446,
+      "renewals": 671,
+      "renewalRatePct": 46.4
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "renewalRatePct": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "residentialContracts": 20594,
+      "renewals": 13190,
+      "renewalRatePct": 64.0
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "renewalRatePct": null
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "residentialContracts": 17080,
+      "renewals": 6290,
+      "renewalRatePct": 36.8
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "residentialContracts": 21507,
+      "renewals": 9391,
+      "renewalRatePct": 43.7
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "renewalRatePct": null
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "residentialContracts": 606,
+      "renewals": 255,
+      "renewalRatePct": 42.1
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "residentialContracts": 10857,
+      "renewals": 3195,
+      "renewalRatePct": 29.4
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "residentialContracts": 18218,
+      "renewals": 10595,
+      "renewalRatePct": 58.2
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "residentialContracts": 6303,
+      "renewals": 3550,
+      "renewalRatePct": 56.3
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "renewalRatePct": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "residentialContracts": 2709,
+      "renewals": 1157,
+      "renewalRatePct": 42.7
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "residentialContracts": 41988,
+      "renewals": 26210,
+      "renewalRatePct": 62.4
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "residentialContracts": 38272,
+      "renewals": 14055,
+      "renewalRatePct": 36.7
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "residentialContracts": 537,
+      "renewals": 252,
+      "renewalRatePct": 46.9
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "residentialContracts": 89924,
+      "renewals": 22589,
+      "renewalRatePct": 25.1
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "residentialContracts": 4413,
+      "renewals": 1124,
+      "renewalRatePct": 25.5
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "residentialContracts": 80962,
+      "renewals": 26131,
+      "renewalRatePct": 32.3
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "residentialContracts": 212565,
+      "renewals": 92538,
+      "renewalRatePct": 43.5
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "residentialContracts": 46993,
+      "renewals": 19012,
+      "renewalRatePct": 40.5
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "residentialContracts": 91299,
+      "renewals": 33534,
+      "renewalRatePct": 36.7
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "residentialContracts": 5566,
+      "renewals": 3308,
+      "renewalRatePct": 59.4
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "residentialContracts": 990,
+      "renewals": 154,
+      "renewalRatePct": 15.6
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "renewalRatePct": null
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "renewalRatePct": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "residentialContracts": 2798,
+      "renewals": 751,
+      "renewalRatePct": 26.8
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "residentialContracts": 28,
+      "renewals": 7,
+      "renewalRatePct": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "residentialContracts": 16263,
+      "renewals": 5068,
+      "renewalRatePct": 31.2
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "residentialContracts": 82988,
+      "renewals": 48824,
+      "renewalRatePct": 58.8
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "renewalRatePct": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "residentialContracts": 37255,
+      "renewals": 12737,
+      "renewalRatePct": 34.2
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "renewalRatePct": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "residentialContracts": 8007,
+      "renewals": 4595,
+      "renewalRatePct": 57.4
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "residentialContracts": 28298,
+      "renewals": 12102,
+      "renewalRatePct": 42.8
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "residentialContracts": 62606,
+      "renewals": 23364,
+      "renewalRatePct": 37.3
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "residentialContracts": 6082,
+      "renewals": 2819,
+      "renewalRatePct": 46.3
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "residentialContracts": 17738,
+      "renewals": 6088,
+      "renewalRatePct": 34.3
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "residentialContracts": 12780,
+      "renewals": 7379,
+      "renewalRatePct": 57.7
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "residentialContracts": 8759,
+      "renewals": 4486,
+      "renewalRatePct": 51.2
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "renewalRatePct": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "residentialContracts": 9396,
+      "renewals": 5812,
+      "renewalRatePct": 61.9
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "residentialContracts": 4583,
+      "renewals": 2391,
+      "renewalRatePct": 52.2
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "residentialContracts": 113039,
+      "renewals": 70484,
+      "renewalRatePct": 62.4
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "residentialContracts": 6861,
+      "renewals": 1234,
+      "renewalRatePct": 18.0
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "residentialContracts": 9538,
+      "renewals": 5729,
+      "renewalRatePct": 60.1
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "renewalRatePct": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "residentialContracts": 1,
+      "renewals": 0,
+      "renewalRatePct": null
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "renewalRatePct": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "residentialContracts": 16942,
+      "renewals": 6088,
+      "renewalRatePct": 35.9
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "renewalRatePct": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "renewalRatePct": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "residentialContracts": 524,
+      "renewals": 237,
+      "renewalRatePct": 45.2
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "renewalRatePct": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "residentialContracts": 19942,
+      "renewals": 11255,
+      "renewalRatePct": 56.4
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "renewalRatePct": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "residentialContracts": 151702,
+      "renewals": 83426,
+      "renewalRatePct": 55.0
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "residentialContracts": 757,
+      "renewals": 303,
+      "renewalRatePct": 40.0
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "renewalRatePct": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "residentialContracts": 102846,
+      "renewals": 31408,
+      "renewalRatePct": 30.5
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "renewalRatePct": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "renewalRatePct": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "residentialContracts": 36543,
+      "renewals": 16742,
+      "renewalRatePct": 45.8
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "residentialContracts": 232734,
+      "renewals": 126399,
+      "renewalRatePct": 54.3
+    }
+  ]
+}

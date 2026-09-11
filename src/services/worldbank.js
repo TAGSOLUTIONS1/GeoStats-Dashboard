@@ -50,6 +50,12 @@ export const dataPointSources = {
   'average-living-cost': { dataset: 'cpi-index', proxy: true },
   'average-healthcare-cost': { dataset: 'health-expenditure-per-capita', proxy: true },
   'domestic-migration': { dataset: 'net-migration', proxy: true },
+  // These three datasets were already bundled and registered above but had no
+  // sidebar data point pointing at them, so they shipped unused. Each is the
+  // literal metric rather than a stand-in, hence proxy: false.
+  'life-expectancy': { dataset: 'life-expectancy', proxy: false },
+  'urban-population-pct': { dataset: 'urban-population-pct', proxy: false },
+  'inflation-rate': { dataset: 'inflation', proxy: false },
 };
 
 export const getCatalog = () => catalog;

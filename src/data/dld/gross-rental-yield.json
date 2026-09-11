@@ -1,0 +1,1597 @@
+{
+  "id": "gross-rental-yield",
+  "label": "Gross rental yield from registered rents and sales (2021–2023)",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "grossYieldPct",
+  "sourceUrl": "https://www.kaggle.com/datasets/zainabhejairi/dubai-real-estates-1969-2023",
+  "retrieved": "2026-09-11",
+  "source": "Dubai Land Department Ejari rental contracts export (Kaggle mirror zainabhejairi/dubai-real-estates-1969-2023, DLD_Rents.csv, 6,585,210 contracts) + Dubai Land Department transactions export (Kaggle mirror zainabhejairi/dubai-real-estates-1969-2023, DLD_Transactions.csv)",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD Ejari export, 6,585,210 registered tenancy contracts. Contract volume is substantial through 2023; 2024 is partial (22,913 contracts) and is excluded. A handful of rows carry implausible years (2107+) and are discarded.",
+  "period": "2021–2023",
+  "minContracts": 50,
+  "method": "Median annual Ejari rent per m2 divided by median registered sale price per m2 for the same community over the same window. Both sides come from registered DLD records rather than asking prices.",
+  "limitation": "GROSS yield: service charges, vacancy, management and transaction costs are not deducted, and net yield is materially lower. Rent and sale samples are different properties, so unit-mix differences between the two sides add noise. Values outside 0.5–25% are discarded as bad area data.",
+  "communitiesWithData": 106,
+  "stops": [
+    0.71,
+    4.32,
+    5.19,
+    6.17,
+    8.79,
+    21.98
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "grossYieldPct": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "grossYieldPct": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "rentPerM2Year": 491.9,
+      "salePricePerM2": 4310,
+      "rentContractsScored": 1809,
+      "grossYieldPct": 11.41
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "grossYieldPct": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "rentPerM2Year": 451.0,
+      "salePricePerM2": 9405,
+      "rentContractsScored": 26852,
+      "grossYieldPct": 4.8
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "rentPerM2Year": null,
+      "salePricePerM2": null,
+      "rentContractsScored": 0,
+      "grossYieldPct": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "rentPerM2Year": 922.3,
+      "salePricePerM2": 20706,
+      "rentContractsScored": 7077,
+      "grossYieldPct": 4.45
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "rentPerM2Year": 608.7,
+      "salePricePerM2": 19397,
+      "rentContractsScored": 24989,
+      "grossYieldPct": 3.14
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "grossYieldPct": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "rentPerM2Year": null,
+      "salePricePerM2": null,
+      "rentContractsScored": 0,
+      "grossYieldPct": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "rentPerM2Year": 287.2,
+      "salePricePerM2": 3646,
+      "rentContractsScored": 541,
+      "grossYieldPct": 7.88
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "grossYieldPct": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "rentPerM2Year": 4172.7,
+      "salePricePerM2": 6332,
+      "rentContractsScored": 7611,
+      "grossYieldPct": null
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "rentPerM2Year": 492.5,
+      "salePricePerM2": 2512,
+      "rentContractsScored": 5576,
+      "grossYieldPct": 19.61
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "rentPerM2Year": 196.2,
+      "salePricePerM2": 2494,
+      "rentContractsScored": 98,
+      "grossYieldPct": 7.87
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "rentPerM2Year": 546.7,
+      "salePricePerM2": 12237,
+      "rentContractsScored": 8755,
+      "grossYieldPct": 4.47
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "grossYieldPct": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "rentPerM2Year": 505.1,
+      "salePricePerM2": 8191,
+      "rentContractsScored": 8039,
+      "grossYieldPct": 6.17
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "grossYieldPct": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "grossYieldPct": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "rentPerM2Year": 509.1,
+      "salePricePerM2": 2252,
+      "rentContractsScored": 13,
+      "grossYieldPct": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "rentPerM2Year": 491.3,
+      "salePricePerM2": 8950,
+      "rentContractsScored": 8357,
+      "grossYieldPct": 5.49
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "rentPerM2Year": 599.8,
+      "salePricePerM2": 2729,
+      "rentContractsScored": 242,
+      "grossYieldPct": 21.98
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "grossYieldPct": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "rentPerM2Year": 459.8,
+      "salePricePerM2": 3122,
+      "rentContractsScored": 2635,
+      "grossYieldPct": 14.72
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "rentPerM2Year": 7753.8,
+      "salePricePerM2": null,
+      "rentContractsScored": 32048,
+      "grossYieldPct": null
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "rentPerM2Year": 444.4,
+      "salePricePerM2": 3478,
+      "rentContractsScored": 573,
+      "grossYieldPct": 12.78
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "rentPerM2Year": 401.8,
+      "salePricePerM2": 3166,
+      "rentContractsScored": 89,
+      "grossYieldPct": 12.69
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "grossYieldPct": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "grossYieldPct": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "grossYieldPct": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "rentPerM2Year": 272.9,
+      "salePricePerM2": 3236,
+      "rentContractsScored": 196,
+      "grossYieldPct": 8.43
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "rentPerM2Year": 750.0,
+      "salePricePerM2": 1668,
+      "rentContractsScored": 946,
+      "grossYieldPct": null
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "grossYieldPct": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "rentPerM2Year": 470.9,
+      "salePricePerM2": 10996,
+      "rentContractsScored": 28044,
+      "grossYieldPct": 4.28
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "grossYieldPct": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "rentPerM2Year": 451.6,
+      "salePricePerM2": 2260,
+      "rentContractsScored": 1649,
+      "grossYieldPct": 19.98
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "rentPerM2Year": 183.3,
+      "salePricePerM2": 3075,
+      "rentContractsScored": 54,
+      "grossYieldPct": 5.96
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "grossYieldPct": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "rentPerM2Year": 615.4,
+      "salePricePerM2": 12400,
+      "rentContractsScored": 1083,
+      "grossYieldPct": 4.96
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "rentPerM2Year": 530.6,
+      "salePricePerM2": null,
+      "rentContractsScored": 52,
+      "grossYieldPct": null
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "grossYieldPct": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "rentPerM2Year": 739.1,
+      "salePricePerM2": 104639,
+      "rentContractsScored": 17892,
+      "grossYieldPct": 0.71
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "rentPerM2Year": 486.5,
+      "salePricePerM2": null,
+      "rentContractsScored": 45,
+      "grossYieldPct": null
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "rentPerM2Year": 605.0,
+      "salePricePerM2": 4587,
+      "rentContractsScored": 25533,
+      "grossYieldPct": 13.19
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "rentPerM2Year": 409.2,
+      "salePricePerM2": 8034,
+      "rentContractsScored": 4894,
+      "grossYieldPct": 5.09
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "grossYieldPct": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "grossYieldPct": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "rentPerM2Year": 555.6,
+      "salePricePerM2": 10186,
+      "rentContractsScored": 15382,
+      "grossYieldPct": 5.45
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "grossYieldPct": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "rentPerM2Year": 515.7,
+      "salePricePerM2": 26449,
+      "rentContractsScored": 2902,
+      "grossYieldPct": 1.95
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "grossYieldPct": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "rentPerM2Year": 23228.6,
+      "salePricePerM2": null,
+      "rentContractsScored": 159,
+      "grossYieldPct": null
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "grossYieldPct": null
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "rentPerM2Year": 733.1,
+      "salePricePerM2": 11634,
+      "rentContractsScored": 8343,
+      "grossYieldPct": 6.3
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "grossYieldPct": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "rentPerM2Year": 533.3,
+      "salePricePerM2": 8517,
+      "rentContractsScored": 9887,
+      "grossYieldPct": 6.26
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "rentPerM2Year": 513.5,
+      "salePricePerM2": 6921,
+      "rentContractsScored": 53000,
+      "grossYieldPct": 7.42
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "grossYieldPct": null
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "rentPerM2Year": null,
+      "salePricePerM2": null,
+      "rentContractsScored": 0,
+      "grossYieldPct": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "rentPerM2Year": 632.7,
+      "salePricePerM2": 8807,
+      "rentContractsScored": 18814,
+      "grossYieldPct": 7.18
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "rentPerM2Year": 40405.0,
+      "salePricePerM2": null,
+      "rentContractsScored": 3644,
+      "grossYieldPct": null
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "rentPerM2Year": 679.0,
+      "salePricePerM2": 12585,
+      "rentContractsScored": 2577,
+      "grossYieldPct": 5.4
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "rentPerM2Year": 510.3,
+      "salePricePerM2": 8502,
+      "rentContractsScored": 2264,
+      "grossYieldPct": 6.0
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "rentPerM2Year": 825.0,
+      "salePricePerM2": 22511,
+      "rentContractsScored": 5603,
+      "grossYieldPct": 3.66
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "rentPerM2Year": 572.7,
+      "salePricePerM2": 28241,
+      "rentContractsScored": 8051,
+      "grossYieldPct": 2.03
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "grossYieldPct": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "rentPerM2Year": 48558.1,
+      "salePricePerM2": null,
+      "rentContractsScored": 4045,
+      "grossYieldPct": null
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "rentPerM2Year": 240.0,
+      "salePricePerM2": 3531,
+      "rentContractsScored": 495,
+      "grossYieldPct": 6.8
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "rentPerM2Year": 272.0,
+      "salePricePerM2": null,
+      "rentContractsScored": 44,
+      "grossYieldPct": null
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "rentPerM2Year": 560.1,
+      "salePricePerM2": 22925,
+      "rentContractsScored": 1350,
+      "grossYieldPct": 2.44
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "grossYieldPct": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "grossYieldPct": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "rentPerM2Year": null,
+      "salePricePerM2": null,
+      "rentContractsScored": 0,
+      "grossYieldPct": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "rentPerM2Year": 463.2,
+      "salePricePerM2": 4022,
+      "rentContractsScored": 9262,
+      "grossYieldPct": 11.51
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "rentPerM2Year": 371.2,
+      "salePricePerM2": 6458,
+      "rentContractsScored": 2347,
+      "grossYieldPct": 5.75
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "rentPerM2Year": 418.0,
+      "salePricePerM2": 4376,
+      "rentContractsScored": 30642,
+      "grossYieldPct": 9.55
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "grossYieldPct": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "grossYieldPct": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "rentPerM2Year": 250.9,
+      "salePricePerM2": 3501,
+      "rentContractsScored": 139,
+      "grossYieldPct": 7.17
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "rentPerM2Year": 448.7,
+      "salePricePerM2": 4394,
+      "rentContractsScored": 10319,
+      "grossYieldPct": 10.21
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "grossYieldPct": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "rentPerM2Year": 244.4,
+      "salePricePerM2": 16990,
+      "rentContractsScored": 133,
+      "grossYieldPct": 1.44
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "rentPerM2Year": 538.1,
+      "salePricePerM2": 7729,
+      "rentContractsScored": 2412,
+      "grossYieldPct": 6.96
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "rentPerM2Year": 574.4,
+      "salePricePerM2": 19863,
+      "rentContractsScored": 4117,
+      "grossYieldPct": 2.89
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "rentPerM2Year": 485.7,
+      "salePricePerM2": 7540,
+      "rentContractsScored": 3,
+      "grossYieldPct": null
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "grossYieldPct": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "rentPerM2Year": 625.4,
+      "salePricePerM2": null,
+      "rentContractsScored": 11220,
+      "grossYieldPct": null
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "rentPerM2Year": 26676.9,
+      "salePricePerM2": null,
+      "rentContractsScored": 1918,
+      "grossYieldPct": null
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "rentPerM2Year": 662.7,
+      "salePricePerM2": 13071,
+      "rentContractsScored": 5015,
+      "grossYieldPct": 5.07
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "rentPerM2Year": 473.0,
+      "salePricePerM2": 6428,
+      "rentContractsScored": 28120,
+      "grossYieldPct": 7.36
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "grossYieldPct": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "rentPerM2Year": 310.7,
+      "salePricePerM2": 5245,
+      "rentContractsScored": 337,
+      "grossYieldPct": 5.92
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "grossYieldPct": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "rentPerM2Year": 416.7,
+      "salePricePerM2": 8025,
+      "rentContractsScored": 6092,
+      "grossYieldPct": 5.19
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "rentPerM2Year": 425.0,
+      "salePricePerM2": 5058,
+      "rentContractsScored": 1579,
+      "grossYieldPct": 8.4
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "rentPerM2Year": 360.0,
+      "salePricePerM2": null,
+      "rentContractsScored": 183,
+      "grossYieldPct": null
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "rentPerM2Year": 825.2,
+      "salePricePerM2": 23847,
+      "rentContractsScored": 58264,
+      "grossYieldPct": 3.46
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "rentPerM2Year": 878.5,
+      "salePricePerM2": 29469,
+      "rentContractsScored": 15029,
+      "grossYieldPct": 2.98
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "rentPerM2Year": 717.9,
+      "salePricePerM2": 50549,
+      "rentContractsScored": 2538,
+      "grossYieldPct": 1.42
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "grossYieldPct": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "grossYieldPct": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "rentPerM2Year": 200.0,
+      "salePricePerM2": 4107,
+      "rentContractsScored": 248,
+      "grossYieldPct": 4.87
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "rentPerM2Year": 783.8,
+      "salePricePerM2": null,
+      "rentContractsScored": 776,
+      "grossYieldPct": null
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "rentPerM2Year": 500.0,
+      "salePricePerM2": 7942,
+      "rentContractsScored": 13691,
+      "grossYieldPct": 6.3
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "rentPerM2Year": 13500.0,
+      "salePricePerM2": 4713,
+      "rentContractsScored": 1455,
+      "grossYieldPct": null
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "rentPerM2Year": 868.2,
+      "salePricePerM2": 18114,
+      "rentContractsScored": 1028,
+      "grossYieldPct": 4.79
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "grossYieldPct": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "rentPerM2Year": 719.0,
+      "salePricePerM2": 7739,
+      "rentContractsScored": 703,
+      "grossYieldPct": 9.29
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "grossYieldPct": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "grossYieldPct": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "grossYieldPct": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "rentPerM2Year": 608.6,
+      "salePricePerM2": 13186,
+      "rentContractsScored": 10102,
+      "grossYieldPct": 4.62
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "rentPerM2Year": 262.5,
+      "salePricePerM2": 2547,
+      "rentContractsScored": 30,
+      "grossYieldPct": null
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "grossYieldPct": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "rentPerM2Year": 466.7,
+      "salePricePerM2": 9587,
+      "rentContractsScored": 42,
+      "grossYieldPct": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "grossYieldPct": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "rentPerM2Year": 341.4,
+      "salePricePerM2": 5110,
+      "rentContractsScored": 2207,
+      "grossYieldPct": 6.68
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "grossYieldPct": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "rentPerM2Year": 591.0,
+      "salePricePerM2": null,
+      "rentContractsScored": 10595,
+      "grossYieldPct": null
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "rentPerM2Year": 215.6,
+      "salePricePerM2": 2809,
+      "rentContractsScored": 106,
+      "grossYieldPct": 7.67
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "rentPerM2Year": 669.1,
+      "salePricePerM2": null,
+      "rentContractsScored": 14247,
+      "grossYieldPct": null
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "rentPerM2Year": 379.4,
+      "salePricePerM2": 1742,
+      "rentContractsScored": 169,
+      "grossYieldPct": 21.78
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "grossYieldPct": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "rentPerM2Year": 124.4,
+      "salePricePerM2": 2808,
+      "rentContractsScored": 10,
+      "grossYieldPct": null
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "grossYieldPct": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "rentPerM2Year": 741.9,
+      "salePricePerM2": 39210,
+      "rentContractsScored": 14238,
+      "grossYieldPct": 1.89
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "rentPerM2Year": 199.0,
+      "salePricePerM2": 2651,
+      "rentContractsScored": 272,
+      "grossYieldPct": 7.51
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "rentPerM2Year": 561.4,
+      "salePricePerM2": 6080,
+      "rentContractsScored": 9357,
+      "grossYieldPct": 9.23
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "rentPerM2Year": 770.8,
+      "salePricePerM2": null,
+      "rentContractsScored": 1,
+      "grossYieldPct": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "grossYieldPct": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "rentPerM2Year": 534.4,
+      "salePricePerM2": 9119,
+      "rentContractsScored": 24252,
+      "grossYieldPct": 5.86
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "grossYieldPct": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "rentPerM2Year": 464.9,
+      "salePricePerM2": 3132,
+      "rentContractsScored": 8774,
+      "grossYieldPct": 14.84
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "rentPerM2Year": 577.6,
+      "salePricePerM2": 12356,
+      "rentContractsScored": 3219,
+      "grossYieldPct": 4.67
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "rentPerM2Year": 32625.0,
+      "salePricePerM2": null,
+      "rentContractsScored": 65674,
+      "grossYieldPct": null
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "grossYieldPct": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "rentPerM2Year": 612.4,
+      "salePricePerM2": 12046,
+      "rentContractsScored": 5840,
+      "grossYieldPct": 5.08
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "rentPerM2Year": 610.2,
+      "salePricePerM2": 10584,
+      "rentContractsScored": 37202,
+      "grossYieldPct": 5.77
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "rentPerM2Year": 239.2,
+      "salePricePerM2": 41511,
+      "rentContractsScored": 1,
+      "grossYieldPct": null
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "rentPerM2Year": 250.0,
+      "salePricePerM2": 3839,
+      "rentContractsScored": 507,
+      "grossYieldPct": 6.51
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "rentPerM2Year": 800.0,
+      "salePricePerM2": 19242,
+      "rentContractsScored": 41296,
+      "grossYieldPct": 4.16
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "rentPerM2Year": 588.2,
+      "salePricePerM2": 11183,
+      "rentContractsScored": 14152,
+      "grossYieldPct": 5.26
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "rentPerM2Year": 992.0,
+      "salePricePerM2": 24999,
+      "rentContractsScored": 26672,
+      "grossYieldPct": 3.97
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "rentPerM2Year": 537.0,
+      "salePricePerM2": 11258,
+      "rentContractsScored": 22620,
+      "grossYieldPct": 4.77
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "grossYieldPct": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "rentPerM2Year": 578.3,
+      "salePricePerM2": 19280,
+      "rentContractsScored": 33417,
+      "grossYieldPct": 3.0
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "rentPerM2Year": 466.0,
+      "salePricePerM2": 5301,
+      "rentContractsScored": 27350,
+      "grossYieldPct": 8.79
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "rentPerM2Year": 150.7,
+      "salePricePerM2": 2903,
+      "rentContractsScored": 158,
+      "grossYieldPct": 5.19
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "grossYieldPct": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "rentPerM2Year": 539.3,
+      "salePricePerM2": null,
+      "rentContractsScored": 5206,
+      "grossYieldPct": null
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "grossYieldPct": null
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "rentPerM2Year": 537.0,
+      "salePricePerM2": 10593,
+      "rentContractsScored": 7808,
+      "grossYieldPct": 5.07
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "rentPerM2Year": 666.7,
+      "salePricePerM2": 12927,
+      "rentContractsScored": 13066,
+      "grossYieldPct": 5.16
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "grossYieldPct": null
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "rentPerM2Year": 193.7,
+      "salePricePerM2": 2570,
+      "rentContractsScored": 116,
+      "grossYieldPct": 7.54
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "rentPerM2Year": 30002.7,
+      "salePricePerM2": 3022,
+      "rentContractsScored": 4082,
+      "grossYieldPct": null
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "rentPerM2Year": 636.4,
+      "salePricePerM2": 4898,
+      "rentContractsScored": 5407,
+      "grossYieldPct": 12.99
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "rentPerM2Year": 504.6,
+      "salePricePerM2": 15120,
+      "rentContractsScored": 1448,
+      "grossYieldPct": 3.34
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "grossYieldPct": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "rentPerM2Year": 27183.7,
+      "salePricePerM2": null,
+      "rentContractsScored": 1766,
+      "grossYieldPct": null
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "rentPerM2Year": 491.1,
+      "salePricePerM2": 2525,
+      "rentContractsScored": 10020,
+      "grossYieldPct": 19.44
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "rentPerM2Year": 493.5,
+      "salePricePerM2": 5577,
+      "rentContractsScored": 21707,
+      "grossYieldPct": 8.85
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "rentPerM2Year": 179.3,
+      "salePricePerM2": 1832,
+      "rentContractsScored": 53,
+      "grossYieldPct": 9.79
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "rentPerM2Year": 6545.5,
+      "salePricePerM2": 4923,
+      "rentContractsScored": 27191,
+      "grossYieldPct": null
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "rentPerM2Year": 21461.5,
+      "salePricePerM2": null,
+      "rentContractsScored": 1783,
+      "grossYieldPct": null
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "rentPerM2Year": 4914.6,
+      "salePricePerM2": 8669,
+      "rentContractsScored": 27577,
+      "grossYieldPct": null
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "rentPerM2Year": 447.2,
+      "salePricePerM2": 4954,
+      "rentContractsScored": 67809,
+      "grossYieldPct": 9.03
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "rentPerM2Year": 802.1,
+      "salePricePerM2": 13284,
+      "rentContractsScored": 14930,
+      "grossYieldPct": 6.04
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "rentPerM2Year": 689.7,
+      "salePricePerM2": 11698,
+      "rentContractsScored": 30309,
+      "grossYieldPct": 5.9
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "rentPerM2Year": 457.3,
+      "salePricePerM2": 7176,
+      "rentContractsScored": 1177,
+      "grossYieldPct": 6.37
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "rentPerM2Year": 1441.4,
+      "salePricePerM2": 24984,
+      "rentContractsScored": 935,
+      "grossYieldPct": 5.77
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "grossYieldPct": null
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "grossYieldPct": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "rentPerM2Year": 632.4,
+      "salePricePerM2": 11788,
+      "rentContractsScored": 1629,
+      "grossYieldPct": 5.36
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "rentPerM2Year": 496.2,
+      "salePricePerM2": null,
+      "rentContractsScored": 4,
+      "grossYieldPct": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "rentPerM2Year": 679.3,
+      "salePricePerM2": 11856,
+      "rentContractsScored": 9940,
+      "grossYieldPct": 5.73
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "rentPerM2Year": 591.4,
+      "salePricePerM2": 11695,
+      "rentContractsScored": 20374,
+      "grossYieldPct": 5.06
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "grossYieldPct": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "rentPerM2Year": 590.0,
+      "salePricePerM2": 12263,
+      "rentContractsScored": 25407,
+      "grossYieldPct": 4.81
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "grossYieldPct": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "rentPerM2Year": 588.2,
+      "salePricePerM2": 11777,
+      "rentContractsScored": 1697,
+      "grossYieldPct": 4.99
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "rentPerM2Year": 635.8,
+      "salePricePerM2": 12115,
+      "rentContractsScored": 19012,
+      "grossYieldPct": 5.25
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "rentPerM2Year": 11071.5,
+      "salePricePerM2": null,
+      "rentContractsScored": 18322,
+      "grossYieldPct": null
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "rentPerM2Year": 485.3,
+      "salePricePerM2": 11235,
+      "rentContractsScored": 3182,
+      "grossYieldPct": 4.32
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "rentPerM2Year": 527.8,
+      "salePricePerM2": 12763,
+      "rentContractsScored": 10339,
+      "grossYieldPct": 4.14
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "rentPerM2Year": 630.4,
+      "salePricePerM2": null,
+      "rentContractsScored": 3612,
+      "grossYieldPct": null
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "rentPerM2Year": 666.7,
+      "salePricePerM2": 11552,
+      "rentContractsScored": 3708,
+      "grossYieldPct": 5.77
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "grossYieldPct": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "rentPerM2Year": 661.8,
+      "salePricePerM2": 51117,
+      "rentContractsScored": 2335,
+      "grossYieldPct": 1.29
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "rentPerM2Year": 750.0,
+      "salePricePerM2": null,
+      "rentContractsScored": 1424,
+      "grossYieldPct": null
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "rentPerM2Year": 500.0,
+      "salePricePerM2": 16951,
+      "rentContractsScored": 29828,
+      "grossYieldPct": 2.95
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "rentPerM2Year": 1126.8,
+      "salePricePerM2": 18814,
+      "rentContractsScored": 5885,
+      "grossYieldPct": 5.99
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "rentPerM2Year": 561.6,
+      "salePricePerM2": 7770,
+      "rentContractsScored": 2078,
+      "grossYieldPct": 7.23
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "grossYieldPct": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "rentPerM2Year": 378.4,
+      "salePricePerM2": 7439,
+      "rentContractsScored": 1,
+      "grossYieldPct": null
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "grossYieldPct": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "rentPerM2Year": 816.5,
+      "salePricePerM2": 17933,
+      "rentContractsScored": 14066,
+      "grossYieldPct": 4.55
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "grossYieldPct": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "grossYieldPct": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "rentPerM2Year": 266.7,
+      "salePricePerM2": 2040,
+      "rentContractsScored": 105,
+      "grossYieldPct": 13.07
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "grossYieldPct": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "rentPerM2Year": 625.0,
+      "salePricePerM2": 23755,
+      "rentContractsScored": 6759,
+      "grossYieldPct": 2.63
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "grossYieldPct": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "rentPerM2Year": 460.5,
+      "salePricePerM2": null,
+      "rentContractsScored": 39293,
+      "grossYieldPct": null
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "rentPerM2Year": 166.7,
+      "salePricePerM2": 140,
+      "rentContractsScored": 107,
+      "grossYieldPct": null
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "grossYieldPct": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "rentPerM2Year": 620.5,
+      "salePricePerM2": 11056,
+      "rentContractsScored": 56106,
+      "grossYieldPct": 5.61
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "grossYieldPct": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "grossYieldPct": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "rentPerM2Year": 451.1,
+      "salePricePerM2": 9538,
+      "rentContractsScored": 9749,
+      "grossYieldPct": 4.73
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "rentPerM2Year": 541.7,
+      "salePricePerM2": 10043,
+      "rentContractsScored": 75211,
+      "grossYieldPct": 5.39
+    }
+  ]
+}

@@ -1,0 +1,2301 @@
+{
+  "id": "median-listing-price-yoy",
+  "label": "Median transacted price change, 2023 vs 2022",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "medianPriceYoYPct",
+  "source": "Dubai Land Department transactions export (Kaggle mirror zainabhejairi/dubai-real-estates-1969-2023, DLD_Transactions.csv)",
+  "sourceUrl": "https://www.kaggle.com/datasets/zainabhejairi/dubai-real-estates-1969-2023",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD export. Schema matches DLD field names (trans_group_en, procedure_name_en, reg_type_en, rooms_en, actual_worth). The file is exactly 1,048,575 rows, which is Excel's 1,048,576-row ceiling, so it is a TRUNCATED copy of the registry rather than the complete one. 132 rows carry Hijri-calendar years (<1990) and are discarded.",
+  "retrieved": "2026-09-11",
+  "period": "2022 vs 2023",
+  "minSales": 25,
+  "method": "Percentage change in the median residential sale price (actual_worth) between 2022 and 2023, per community. Requires at least 25 priced residential sales in EACH year.",
+  "limitation": "Based on TRANSACTED prices from the DLD registry, not on listing/asking prices, so it is not directly comparable to a listing-price index. Annual, not most-recent-month. Median price is sensitive to the mix of unit sizes and types sold in each year, so it is not a like-for-like appreciation measure. The export ends in 2023.",
+  "communitiesWithData": 58,
+  "areaMapping": [
+    {
+      "dldArea": "Abu Hail",
+      "community": "ABU HAIL",
+      "code": "126"
+    },
+    {
+      "dldArea": "Al Aweer First",
+      "community": "AL AWIR FIRST",
+      "code": "711"
+    },
+    {
+      "dldArea": "Al Aweer Second",
+      "community": "AL AWIR SECOND",
+      "code": "721"
+    },
+    {
+      "dldArea": "Al Bada",
+      "community": "AL BADA'",
+      "code": "333"
+    },
+    {
+      "dldArea": "Al Baraha",
+      "community": "AL BARAHA",
+      "code": "122"
+    },
+    {
+      "dldArea": "Al Barsha First",
+      "community": "AL BARSHA FIRST",
+      "code": "373"
+    },
+    {
+      "dldArea": "Al Barsha Second",
+      "community": "AL BARSHA SECOND",
+      "code": "376"
+    },
+    {
+      "dldArea": "Al Barsha South Fifth",
+      "community": "AL BARSHA SOUTH FIFTH",
+      "code": "684"
+    },
+    {
+      "dldArea": "Al Barsha South Fourth",
+      "community": "AL BARSHA SOUTH FOURTH",
+      "code": "681"
+    },
+    {
+      "dldArea": "Al Barsha Third",
+      "community": "AL BARSHA THIRD",
+      "code": "375"
+    },
+    {
+      "dldArea": "Al Barshaa South First",
+      "community": "AL BARSHA SOUTH FIRST",
+      "code": "671"
+    },
+    {
+      "dldArea": "Al Barshaa South Second",
+      "community": "AL BARSHA SOUTH SECOND",
+      "code": "672"
+    },
+    {
+      "dldArea": "Al Barshaa South Third",
+      "community": "AL BARSHA SOUTH THIRD",
+      "code": "673"
+    },
+    {
+      "dldArea": "Al Garhoud",
+      "community": "AL GARHOUD",
+      "code": "214"
+    },
+    {
+      "dldArea": "Al Goze First",
+      "community": "AL QOUZ FIRST",
+      "code": "354"
+    },
+    {
+      "dldArea": "Al Goze Fourth",
+      "community": "AL QOUZ FOURTH",
+      "code": "359"
+    },
+    {
+      "dldArea": "Al Goze Second",
+      "community": "AL QOUZ SECOND",
+      "code": "355"
+    },
+    {
+      "dldArea": "Al Hebiah Fifth",
+      "community": "AL HEBIAH FIFTH",
+      "code": "683"
+    },
+    {
+      "dldArea": "Al Hebiah First",
+      "community": "AL HEBIAH FIRST",
+      "code": "674"
+    },
+    {
+      "dldArea": "Al Hebiah Fourth",
+      "community": "AL HEBIAH FOURTH",
+      "code": "682"
+    },
+    {
+      "dldArea": "Al Hebiah Second",
+      "community": "AL HEBIAH SECOND",
+      "code": "675"
+    },
+    {
+      "dldArea": "Al Hebiah Sixth",
+      "community": "AL HEBIAH SIXTH",
+      "code": "677"
+    },
+    {
+      "dldArea": "Al Hebiah Third",
+      "community": "AL HEBIAH THIRD",
+      "code": "676"
+    },
+    {
+      "dldArea": "Al Hudaiba",
+      "community": "AL HUDAIBA",
+      "code": "322"
+    },
+    {
+      "dldArea": "Al Jadaf",
+      "community": "AL JADAF",
+      "code": "326"
+    },
+    {
+      "dldArea": "Al Jafliya",
+      "community": "AL JAFILIYA",
+      "code": "323"
+    },
+    {
+      "dldArea": "Al Karama",
+      "community": "AL KARAMA",
+      "code": "318"
+    },
+    {
+      "dldArea": "Al Khairan First",
+      "community": "AL KHEERAN FIRST",
+      "code": "415"
+    },
+    {
+      "dldArea": "Al Khawaneej First",
+      "community": "AL KHWANEEJ FIRST",
+      "code": "281"
+    },
+    {
+      "dldArea": "Al Khawaneej Second",
+      "community": "AL KHWANEEJ SECOND",
+      "code": "282"
+    },
+    {
+      "dldArea": "Al Kheeran",
+      "community": "AL KHEERAN",
+      "code": "412"
+    },
+    {
+      "dldArea": "Al Kifaf",
+      "community": "AL KIFAF",
+      "code": "324"
+    },
+    {
+      "dldArea": "Al Mamzer",
+      "community": "AL MAMZAR",
+      "code": "134"
+    },
+    {
+      "dldArea": "Al Manara",
+      "community": "AL MANARA",
+      "code": "363"
+    },
+    {
+      "dldArea": "Al Mararr",
+      "community": "AL MURAR",
+      "code": "117"
+    },
+    {
+      "dldArea": "Al Merkadh",
+      "community": "AL MERKADH",
+      "code": "347"
+    },
+    {
+      "dldArea": "Al Mizhar First",
+      "community": "AL MIZHAR FIRST",
+      "code": "262"
+    },
+    {
+      "dldArea": "Al Mizhar Second",
+      "community": "AL MIZHAR SECOND",
+      "code": "263"
+    },
+    {
+      "dldArea": "Al Murqabat",
+      "community": "AL MURAQQABAT",
+      "code": "124"
+    },
+    {
+      "dldArea": "Al Muteena",
+      "community": "AL MUTEENA",
+      "code": "123"
+    },
+    {
+      "dldArea": "Al Nahda First",
+      "community": "AL NAHDA FIRST",
+      "code": "231"
+    },
+    {
+      "dldArea": "Al Qusais First",
+      "community": "AL QUSAIS FIRST",
+      "code": "232"
+    },
+    {
+      "dldArea": "Al Qusais Second",
+      "community": "AL QUSAIS SECOND",
+      "code": "233"
+    },
+    {
+      "dldArea": "Al Raffa",
+      "community": "AL RAFFA",
+      "code": "316"
+    },
+    {
+      "dldArea": "Al Ras",
+      "community": "AL RAS",
+      "code": "112"
+    },
+    {
+      "dldArea": "Al Rashidiya",
+      "community": "AL RASHIDIYA",
+      "code": "216"
+    },
+    {
+      "dldArea": "Al Rowaiyah First",
+      "community": "AL ROWAIYAH FIRST",
+      "code": "812"
+    },
+    {
+      "dldArea": "Al Safouh First",
+      "community": "AL SAFOUH FIRST",
+      "code": "372"
+    },
+    {
+      "dldArea": "Al Safouh Second",
+      "community": "AL SAFOUH SECOND",
+      "code": "382"
+    },
+    {
+      "dldArea": "Al Satwa",
+      "community": "AL SATWA",
+      "code": "334"
+    },
+    {
+      "dldArea": "Al Thanayah Fourth",
+      "community": "AL THANYAH  FOURTH",
+      "code": "394"
+    },
+    {
+      "dldArea": "Al Thanyah Fifth",
+      "community": "AL THANYAH FIFTH",
+      "code": "393"
+    },
+    {
+      "dldArea": "Al Thanyah First",
+      "community": "AL THANYAH FIRST",
+      "code": "383"
+    },
+    {
+      "dldArea": "Al Thanyah Third",
+      "community": "AL THANYAH THIRD",
+      "code": "388"
+    },
+    {
+      "dldArea": "Al Twar First",
+      "community": "AL TWAR FIRST",
+      "code": "226"
+    },
+    {
+      "dldArea": "Al Twar Second",
+      "community": "AL TWAR SECOND",
+      "code": "227"
+    },
+    {
+      "dldArea": "Al Twar Third",
+      "community": "AL TWAR THIRD",
+      "code": "228"
+    },
+    {
+      "dldArea": "Al Waheda",
+      "community": "AL WUHEIDA",
+      "code": "132"
+    },
+    {
+      "dldArea": "Al Warqa First",
+      "community": "AL WARQA'A FIRST",
+      "code": "421"
+    },
+    {
+      "dldArea": "Al Warqa Fourth",
+      "community": "AL WARQA'A FOURTH",
+      "code": "424"
+    },
+    {
+      "dldArea": "Al Warqa Second",
+      "community": "AL WARQA'A SECOND",
+      "code": "422"
+    },
+    {
+      "dldArea": "Al Warqa Third",
+      "community": "AL WARQA'A THIRD",
+      "code": "423"
+    },
+    {
+      "dldArea": "Al Warsan First",
+      "community": "WARSAN FIRST",
+      "code": "621"
+    },
+    {
+      "dldArea": "Al Wasl",
+      "community": "AL WASL",
+      "code": "343"
+    },
+    {
+      "dldArea": "Al Yelayiss 1",
+      "community": "AL YALAYIS 1",
+      "code": "921"
+    },
+    {
+      "dldArea": "Al Yelayiss 2",
+      "community": "AL YALAYIS 2",
+      "code": "922"
+    },
+    {
+      "dldArea": "Al Yufrah 1",
+      "community": "AL YUFRAH 1",
+      "code": "915"
+    },
+    {
+      "dldArea": "Al Yufrah 2",
+      "community": "AL YUFRAH 2",
+      "code": "916"
+    },
+    {
+      "dldArea": "Al Yufrah 3",
+      "community": "AL YUFRAH 3",
+      "code": "918"
+    },
+    {
+      "dldArea": "Al Yufrah 4",
+      "community": "AL YUFRAH 4",
+      "code": "919"
+    },
+    {
+      "dldArea": "Burj Khalifa",
+      "community": "BURJ KHALIFA",
+      "code": "345"
+    },
+    {
+      "dldArea": "Business Bay",
+      "community": "BUSINESS BAY",
+      "code": "346"
+    },
+    {
+      "dldArea": "Dubai Investment Park First",
+      "community": "DUBAI INVESTMENT PARK FIRST",
+      "code": "598"
+    },
+    {
+      "dldArea": "Dubai Investment Park Second",
+      "community": "DUBAI INVESTMENT PARK SECOND",
+      "code": "597"
+    },
+    {
+      "dldArea": "Hadaeq Sheikh Mohammed Bin Rashid",
+      "community": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "code": "631"
+    },
+    {
+      "dldArea": "Hessyan First",
+      "community": "HESSYAN FIRST",
+      "code": "511"
+    },
+    {
+      "dldArea": "Hessyan Second",
+      "community": "HESSYAN SECOND",
+      "code": "512"
+    },
+    {
+      "dldArea": "Hor Al Anz",
+      "community": "HOR AL ANZ",
+      "code": "127"
+    },
+    {
+      "dldArea": "Hor Al Anz East",
+      "community": "HOR AL ANZ EAST",
+      "code": "133"
+    },
+    {
+      "dldArea": "Jabal Ali First",
+      "community": "JABAL ALI FIRST",
+      "code": "591"
+    },
+    {
+      "dldArea": "Jabal Ali Industrial Second",
+      "community": "JABAL ALI INDUSTRIAL SECOND",
+      "code": "518"
+    },
+    {
+      "dldArea": "Jabal Ali Industrial Third",
+      "community": "JABAL ALI INDUSTRIAL THIRD",
+      "code": "516"
+    },
+    {
+      "dldArea": "Jumeirah First",
+      "community": "JUMEIRA FIRST",
+      "code": "332"
+    },
+    {
+      "dldArea": "Jumeirah Second",
+      "community": "JUMEIRA SECOND",
+      "code": "342"
+    },
+    {
+      "dldArea": "Jumeirah Third",
+      "community": "JUMEIRA THIRD",
+      "code": "352"
+    },
+    {
+      "dldArea": "Lehbab Second",
+      "community": "LEHBAB SECOND",
+      "code": "831"
+    },
+    {
+      "dldArea": "Madinat Al Mataar",
+      "community": "MADINAT AL MATAAR",
+      "code": "521"
+    },
+    {
+      "dldArea": "Madinat Dubai Almelaheyah",
+      "community": "MADINAT DUBAI AL MELAHEYAH",
+      "code": "321"
+    },
+    {
+      "dldArea": "Mankhool",
+      "community": "MANKHOOL",
+      "code": "317"
+    },
+    {
+      "dldArea": "Marsa Dubai",
+      "community": "MARSA DUBAI",
+      "code": "392"
+    },
+    {
+      "dldArea": "Me'Aisem First",
+      "community": "ME'AISEM FIRST",
+      "code": "685"
+    },
+    {
+      "dldArea": "Mirdif",
+      "community": "MIRDIF",
+      "code": "251"
+    },
+    {
+      "dldArea": "Muhaisanah First",
+      "community": "MUHAISNAH FIRST",
+      "code": "261"
+    },
+    {
+      "dldArea": "Muhaisanah Fourth",
+      "community": "MUHAISANAH FOURTH",
+      "code": "245"
+    },
+    {
+      "dldArea": "Muhaisanah Third",
+      "community": "MUHAISANAH THIRD",
+      "code": "244"
+    },
+    {
+      "dldArea": "Nad Al Hamar",
+      "community": "NADD AL HAMAR",
+      "code": "416"
+    },
+    {
+      "dldArea": "Nad Al Shiba First",
+      "community": "NADD AL SHIBA FIRST",
+      "code": "618"
+    },
+    {
+      "dldArea": "Nad Al Shiba Fourth",
+      "community": "NADD AL SHIBA FOURTH",
+      "code": "617"
+    },
+    {
+      "dldArea": "Nad Al Shiba Second",
+      "community": "NADD AL SHIBA SECOND",
+      "code": "615"
+    },
+    {
+      "dldArea": "Nad Al Shiba Third",
+      "community": "NADD AL SHIBA THIRD",
+      "code": "616"
+    },
+    {
+      "dldArea": "Nad Shamma",
+      "community": "NADD SHAMMA",
+      "code": "213"
+    },
+    {
+      "dldArea": "Nadd Hessa",
+      "community": "NADD HESSA",
+      "code": "626"
+    },
+    {
+      "dldArea": "Naif",
+      "community": "NAIF",
+      "code": "118"
+    },
+    {
+      "dldArea": "Oud Al Muteena First",
+      "community": "OUD AL MUTEENA FIRST",
+      "code": "265"
+    },
+    {
+      "dldArea": "Oud Metha",
+      "community": "OUD METHA",
+      "code": "319"
+    },
+    {
+      "dldArea": "Palm Jumeirah",
+      "community": "NAKHLAT JUMEIRA",
+      "code": "381"
+    },
+    {
+      "dldArea": "Port Saeed",
+      "community": "PORT SAEED",
+      "code": "129"
+    },
+    {
+      "dldArea": "Saih Shuaib 1",
+      "community": "SAIH SHUAIB 1",
+      "code": "513"
+    },
+    {
+      "dldArea": "Saih Shuaib 2",
+      "community": "SAIH SHUAIB 2",
+      "code": "531"
+    },
+    {
+      "dldArea": "Trade Center Second",
+      "community": "TRADE CENTER SECOND",
+      "code": "336"
+    },
+    {
+      "dldArea": "Um Al Sheif",
+      "community": "UMM AL SHEIF",
+      "code": "367"
+    },
+    {
+      "dldArea": "Um Hurair Second",
+      "community": "UMM HURAIR SECOND",
+      "code": "315"
+    },
+    {
+      "dldArea": "Um Ramool",
+      "community": "UMM RAMOOL",
+      "code": "215"
+    },
+    {
+      "dldArea": "Um Suqaim First",
+      "community": "UMM SUQEIM FIRST",
+      "code": "356"
+    },
+    {
+      "dldArea": "Um Suqaim Second",
+      "community": "UMM SUQEIM SECOND",
+      "code": "362"
+    },
+    {
+      "dldArea": "Um Suqaim Third",
+      "community": "UMM SUQEIM THIRD",
+      "code": "366"
+    },
+    {
+      "dldArea": "Wadi Al Safa 2",
+      "community": "WADI AL SAFA 2",
+      "code": "643"
+    },
+    {
+      "dldArea": "Wadi Al Safa 3",
+      "community": "WADI AL SAFA 3",
+      "code": "645"
+    },
+    {
+      "dldArea": "Wadi Al Safa 4",
+      "community": "WADI AL SAFA 4",
+      "code": "646"
+    },
+    {
+      "dldArea": "Wadi Al Safa 5",
+      "community": "WADI AL SAFA 5",
+      "code": "648"
+    },
+    {
+      "dldArea": "Wadi Al Safa 6",
+      "community": "WADI AL SAFA 6",
+      "code": "664"
+    },
+    {
+      "dldArea": "Wadi Al Safa 7",
+      "community": "WADI AL SAFA 7",
+      "code": "665"
+    },
+    {
+      "dldArea": "Wadi Alshabak",
+      "community": "WADI ALSHABAK",
+      "code": "431"
+    },
+    {
+      "dldArea": "Warsan Fourth",
+      "community": "WARSAN FOURTH",
+      "code": "624"
+    },
+    {
+      "dldArea": "World Islands",
+      "community": "WORLD ISLANDS",
+      "code": "303"
+    },
+    {
+      "dldArea": "Zaabeel First",
+      "community": "ZAA'BEEL FIRST",
+      "code": "325"
+    },
+    {
+      "dldArea": "Zaabeel Second",
+      "community": "ZAA'BEEL SECOND",
+      "code": "337"
+    }
+  ],
+  "stops": [
+    -42.0,
+    3.1,
+    9.5,
+    15.9,
+    20.0,
+    78.4
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "sales2022": 8,
+      "sales2023": 8,
+      "medianPrice2022": 1676000,
+      "medianPrice2023": 1500000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "sales2022": 2981,
+      "sales2023": 4376,
+      "medianPrice2022": 1845000,
+      "medianPrice2023": 1850000,
+      "medianPriceYoYPct": 0.3
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "sales2022": 3222,
+      "sales2023": 4167,
+      "medianPrice2022": 1858598,
+      "medianPrice2023": 2153888,
+      "medianPriceYoYPct": 15.9
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "sales2022": 3,
+      "sales2023": 0,
+      "medianPrice2022": 2000000,
+      "medianPrice2023": null,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "sales2022": 19,
+      "sales2023": 22,
+      "medianPrice2022": 5500000,
+      "medianPrice2023": 5403463,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "sales2022": 11,
+      "sales2023": 26,
+      "medianPrice2022": 700000,
+      "medianPrice2023": 787500,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "sales2022": 5,
+      "sales2023": 0,
+      "medianPrice2022": 1679995,
+      "medianPrice2023": null,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "sales2022": 6,
+      "sales2023": 7,
+      "medianPrice2022": 2309126,
+      "medianPrice2023": 3500000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "sales2022": 5223,
+      "sales2023": 3507,
+      "medianPrice2022": 1789000,
+      "medianPrice2023": 2473000,
+      "medianPriceYoYPct": 38.2
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "sales2022": 308,
+      "sales2023": 672,
+      "medianPrice2022": 1114400,
+      "medianPrice2023": 799888,
+      "medianPriceYoYPct": -28.2
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "sales2022": 1,
+      "sales2023": 1,
+      "medianPrice2022": 2748000,
+      "medianPrice2023": 3000000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "sales2022": 1384,
+      "sales2023": 808,
+      "medianPrice2022": 1196300,
+      "medianPrice2023": 1775000,
+      "medianPriceYoYPct": 48.4
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "sales2022": 2,
+      "sales2023": 2,
+      "medianPrice2022": 2400000,
+      "medianPrice2023": 2586950,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "sales2022": 41,
+      "sales2023": 50,
+      "medianPrice2022": 1570000,
+      "medianPrice2023": 1700000,
+      "medianPriceYoYPct": 8.3
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "sales2022": 11,
+      "sales2023": 17,
+      "medianPrice2022": 1700000,
+      "medianPrice2023": 2646000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "sales2022": 3,
+      "sales2023": 1,
+      "medianPrice2022": 16000000,
+      "medianPrice2023": 7300000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "sales2022": 0,
+      "sales2023": 0,
+      "medianPrice2022": null,
+      "medianPrice2023": null,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "sales2022": 5,
+      "sales2023": 10,
+      "medianPrice2022": 3400000,
+      "medianPrice2023": 4262500,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "sales2022": 1,
+      "sales2023": 1,
+      "medianPrice2022": 308520,
+      "medianPrice2023": 6507295,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "sales2022": 417,
+      "sales2023": 388,
+      "medianPrice2022": 1776510,
+      "medianPrice2023": 1997975,
+      "medianPriceYoYPct": 12.5
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "sales2022": 10,
+      "sales2023": 7,
+      "medianPrice2022": 1885000,
+      "medianPrice2023": 2500000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "sales2022": 5,
+      "sales2023": 1,
+      "medianPrice2022": 3000000,
+      "medianPrice2023": 3700000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "sales2022": 381,
+      "sales2023": 118,
+      "medianPrice2022": 1573740,
+      "medianPrice2023": 1756022,
+      "medianPriceYoYPct": 11.6
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "sales2022": 1,
+      "sales2023": 0,
+      "medianPrice2022": 90000000,
+      "medianPrice2023": null,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "sales2022": 0,
+      "sales2023": 0,
+      "medianPrice2022": null,
+      "medianPrice2023": null,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "sales2022": 5,
+      "sales2023": 5,
+      "medianPrice2022": 4100000,
+      "medianPrice2023": 6000000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "sales2022": 373,
+      "sales2023": 378,
+      "medianPrice2022": 4200000,
+      "medianPrice2023": 4886500,
+      "medianPriceYoYPct": 16.3
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "sales2022": 767,
+      "sales2023": 2700,
+      "medianPrice2022": 1690000,
+      "medianPrice2023": 980888,
+      "medianPriceYoYPct": -42.0
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "sales2022": 284,
+      "sales2023": 161,
+      "medianPrice2022": 3436500,
+      "medianPrice2023": 5923170,
+      "medianPriceYoYPct": 72.4
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "sales2022": 25,
+      "sales2023": 49,
+      "medianPrice2022": 2300000,
+      "medianPrice2023": 2500000,
+      "medianPriceYoYPct": 8.7
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "sales2022": 36,
+      "sales2023": 34,
+      "medianPrice2022": 2091000,
+      "medianPrice2023": 1500000,
+      "medianPriceYoYPct": -28.3
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "sales2022": 871,
+      "sales2023": 1531,
+      "medianPrice2022": 450000,
+      "medianPrice2023": 483039,
+      "medianPriceYoYPct": 7.3
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "sales2022": 98,
+      "sales2023": 102,
+      "medianPrice2022": 830000,
+      "medianPrice2023": 990000,
+      "medianPriceYoYPct": 19.3
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "sales2022": 122,
+      "sales2023": 662,
+      "medianPrice2022": 587500,
+      "medianPrice2023": 666582,
+      "medianPriceYoYPct": 13.5
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "sales2022": 23,
+      "sales2023": 28,
+      "medianPrice2022": 8000000,
+      "medianPrice2023": 9600000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "sales2022": 2050,
+      "sales2023": 1288,
+      "medianPrice2022": 2637000,
+      "medianPrice2023": 3179229,
+      "medianPriceYoYPct": 20.6
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "sales2022": 3,
+      "sales2023": 1,
+      "medianPrice2022": 7785203,
+      "medianPrice2023": 5200000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "sales2022": 16,
+      "sales2023": 12,
+      "medianPrice2022": 1342500,
+      "medianPrice2023": 1467500,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "sales2022": 909,
+      "sales2023": 880,
+      "medianPrice2022": 2162000,
+      "medianPrice2023": 2576000,
+      "medianPriceYoYPct": 19.1
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "sales2022": 11,
+      "sales2023": 17,
+      "medianPrice2022": 5668000,
+      "medianPrice2023": 7300000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "sales2022": 21,
+      "sales2023": 26,
+      "medianPrice2022": 1300000,
+      "medianPrice2023": 1400000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "sales2022": 1,
+      "sales2023": 2,
+      "medianPrice2022": 1475976,
+      "medianPrice2023": 4694000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "sales2022": 6,
+      "sales2023": 4,
+      "medianPrice2022": 5106012,
+      "medianPrice2023": 8500000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "sales2022": 241,
+      "sales2023": 1235,
+      "medianPrice2022": 450000,
+      "medianPrice2023": 575000,
+      "medianPriceYoYPct": 27.8
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "sales2022": 2,
+      "sales2023": 18,
+      "medianPrice2022": 8700000,
+      "medianPrice2023": 61911388,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "sales2022": 6,
+      "sales2023": 438,
+      "medianPrice2022": 2925000,
+      "medianPrice2023": 13702000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "sales2022": 12,
+      "sales2023": 16,
+      "medianPrice2022": 6200000,
+      "medianPrice2023": 7050000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "sales2022": 296,
+      "sales2023": 1643,
+      "medianPrice2022": 1973388,
+      "medianPrice2023": 2123653,
+      "medianPriceYoYPct": 7.6
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "sales2022": 762,
+      "sales2023": 63,
+      "medianPrice2022": 1227500,
+      "medianPrice2023": 1150000,
+      "medianPriceYoYPct": -6.3
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "sales2022": 1,
+      "sales2023": 1,
+      "medianPrice2022": 16107900,
+      "medianPrice2023": 51000000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "sales2022": 533,
+      "sales2023": 715,
+      "medianPrice2022": 3750000,
+      "medianPrice2023": 4057000,
+      "medianPriceYoYPct": 8.2
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "sales2022": 0,
+      "sales2023": 0,
+      "medianPrice2022": null,
+      "medianPrice2023": null,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "sales2022": 1,
+      "sales2023": 0,
+      "medianPrice2022": 2500000,
+      "medianPrice2023": null,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "sales2022": 237,
+      "sales2023": 342,
+      "medianPrice2022": 2100000,
+      "medianPrice2023": 2350000,
+      "medianPriceYoYPct": 11.9
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "sales2022": 14,
+      "sales2023": 23,
+      "medianPrice2022": 385000,
+      "medianPrice2023": 497400,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "sales2022": 6082,
+      "sales2023": 8088,
+      "medianPrice2022": 2220454,
+      "medianPrice2023": 3100000,
+      "medianPriceYoYPct": 39.6
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "sales2022": 2341,
+      "sales2023": 1677,
+      "medianPrice2022": 4269000,
+      "medianPrice2023": 4400000,
+      "medianPriceYoYPct": 3.1
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "sales2022": 2,
+      "sales2023": 1,
+      "medianPrice2022": 314494,
+      "medianPrice2023": 200000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "sales2022": 21,
+      "sales2023": 29,
+      "medianPrice2022": 3850000,
+      "medianPrice2023": 3950000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "sales2022": 1877,
+      "sales2023": 2234,
+      "medianPrice2022": 1500000,
+      "medianPrice2023": 1675000,
+      "medianPriceYoYPct": 11.7
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "sales2022": 1,
+      "sales2023": 0,
+      "medianPrice2022": 1400000,
+      "medianPrice2023": null,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "sales2022": 419,
+      "sales2023": 629,
+      "medianPrice2022": 2165815,
+      "medianPrice2023": 2144207,
+      "medianPriceYoYPct": -1.0
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "sales2022": 77,
+      "sales2023": 24,
+      "medianPrice2022": 10557000,
+      "medianPrice2023": 13500000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "sales2022": 23,
+      "sales2023": 26,
+      "medianPrice2022": 5000000,
+      "medianPrice2023": 5361000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "sales2022": 1,
+      "sales2023": 1,
+      "medianPrice2022": 3100000,
+      "medianPrice2023": 2050000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "sales2022": 1,
+      "sales2023": 105,
+      "medianPrice2022": 70418000,
+      "medianPrice2023": 2450000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "sales2022": 1,
+      "sales2023": 2,
+      "medianPrice2022": 3400000,
+      "medianPrice2023": 4494400,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "sales2022": 0,
+      "sales2023": 0,
+      "medianPrice2022": null,
+      "medianPrice2023": null,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "sales2022": 1,
+      "sales2023": 7,
+      "medianPrice2022": 3000000,
+      "medianPrice2023": 3000000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "sales2022": 2,
+      "sales2023": 5,
+      "medianPrice2022": 3469000,
+      "medianPrice2023": 180000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "sales2022": 0,
+      "sales2023": 3,
+      "medianPrice2022": null,
+      "medianPrice2023": 2200000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "sales2022": 1,
+      "sales2023": 2,
+      "medianPrice2022": 6500000,
+      "medianPrice2023": 4198334,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "sales2022": 8,
+      "sales2023": 6,
+      "medianPrice2022": 2865500,
+      "medianPrice2023": 3125000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "sales2022": 74,
+      "sales2023": 119,
+      "medianPrice2022": 570000,
+      "medianPrice2023": 675000,
+      "medianPriceYoYPct": 18.4
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "sales2022": 1465,
+      "sales2023": 2322,
+      "medianPrice2022": 650000,
+      "medianPrice2023": 700000,
+      "medianPriceYoYPct": 7.7
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "sales2022": 16,
+      "sales2023": 13,
+      "medianPrice2022": 4182500,
+      "medianPrice2023": 4300000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "sales2022": 120,
+      "sales2023": 825,
+      "medianPrice2022": 706500,
+      "medianPrice2023": 773878,
+      "medianPriceYoYPct": 9.5
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "sales2022": 0,
+      "sales2023": 3,
+      "medianPrice2022": null,
+      "medianPrice2023": 4300000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "sales2022": 20,
+      "sales2023": 18,
+      "medianPrice2022": 522655,
+      "medianPrice2023": 1020000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "sales2022": 89,
+      "sales2023": 133,
+      "medianPrice2022": 9145000,
+      "medianPrice2023": 6950000,
+      "medianPriceYoYPct": -24.0
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "sales2022": 13,
+      "sales2023": 17,
+      "medianPrice2022": 4700000,
+      "medianPrice2023": 5300000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "sales2022": 7463,
+      "sales2023": 7501,
+      "medianPrice2022": 1250300,
+      "medianPrice2023": 1450000,
+      "medianPriceYoYPct": 16.0
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "sales2022": 3,
+      "sales2023": 2,
+      "medianPrice2022": 3000000,
+      "medianPrice2023": 4650000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "sales2022": 4099,
+      "sales2023": 4075,
+      "medianPrice2022": 2295888,
+      "medianPrice2023": 2391131,
+      "medianPriceYoYPct": 4.1
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "sales2022": 963,
+      "sales2023": 1632,
+      "medianPrice2022": 768507,
+      "medianPrice2023": 900000,
+      "medianPriceYoYPct": 17.1
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "sales2022": 1,
+      "sales2023": 2,
+      "medianPrice2022": 42000000,
+      "medianPrice2023": 3725000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "sales2022": 5,
+      "sales2023": 2,
+      "medianPrice2022": 8970500,
+      "medianPrice2023": 12541425,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "sales2022": 17,
+      "sales2023": 13,
+      "medianPrice2022": 2046277,
+      "medianPrice2023": 3850000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "sales2022": 0,
+      "sales2023": 0,
+      "medianPrice2022": null,
+      "medianPrice2023": null,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "sales2022": 693,
+      "sales2023": 1755,
+      "medianPrice2022": 1568888,
+      "medianPrice2023": 2798888,
+      "medianPriceYoYPct": 78.4
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "sales2022": 606,
+      "sales2023": 1503,
+      "medianPrice2022": 868111,
+      "medianPrice2023": 929000,
+      "medianPriceYoYPct": 7.0
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "sales2022": 26,
+      "sales2023": 39,
+      "medianPrice2022": 3000000,
+      "medianPrice2023": 3600000,
+      "medianPriceYoYPct": 20.0
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "sales2022": 8,
+      "sales2023": 9,
+      "medianPrice2022": 4775000,
+      "medianPrice2023": 4404994,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "sales2022": 3,
+      "sales2023": 3,
+      "medianPrice2022": 30000000,
+      "medianPrice2023": 25956169,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "sales2022": 3,
+      "sales2023": 4,
+      "medianPrice2022": 2700000,
+      "medianPrice2023": 12074987,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "sales2022": 2,
+      "sales2023": 8,
+      "medianPrice2022": 1798500,
+      "medianPrice2023": 1236500,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "sales2022": 1,
+      "sales2023": 3,
+      "medianPrice2022": 2970000,
+      "medianPrice2023": 2100000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "sales2022": 142,
+      "sales2023": 324,
+      "medianPrice2022": 398500,
+      "medianPrice2023": 452500,
+      "medianPriceYoYPct": 13.6
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "sales2022": 6,
+      "sales2023": 8,
+      "medianPrice2022": 2500000,
+      "medianPrice2023": 2500000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "sales2022": 30,
+      "sales2023": 65,
+      "medianPrice2022": 403000,
+      "medianPrice2023": 475000,
+      "medianPriceYoYPct": 17.9
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "sales2022": 388,
+      "sales2023": 311,
+      "medianPrice2022": 1225249,
+      "medianPrice2023": 1327900,
+      "medianPriceYoYPct": 8.4
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "sales2022": 1548,
+      "sales2023": 2041,
+      "medianPrice2022": 295000,
+      "medianPrice2023": 333000,
+      "medianPriceYoYPct": 12.9
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "sales2022": 810,
+      "sales2023": 802,
+      "medianPrice2022": 1673311,
+      "medianPrice2023": 1600000,
+      "medianPriceYoYPct": -4.4
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "sales2022": 1678,
+      "sales2023": 3913,
+      "medianPrice2022": 1094986,
+      "medianPrice2023": 1326000,
+      "medianPriceYoYPct": 21.1
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "sales2022": 17,
+      "sales2023": 10,
+      "medianPrice2022": 9600000,
+      "medianPrice2023": 10125000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "sales2022": 234,
+      "sales2023": 781,
+      "medianPrice2022": 2400000,
+      "medianPrice2023": 2600000,
+      "medianPriceYoYPct": 8.3
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "sales2022": 150,
+      "sales2023": 163,
+      "medianPrice2022": 429500,
+      "medianPrice2023": 439000,
+      "medianPriceYoYPct": 2.2
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "sales2022": 1212,
+      "sales2023": 1952,
+      "medianPrice2022": 1111000,
+      "medianPrice2023": 1121550,
+      "medianPriceYoYPct": 0.9
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "sales2022": 0,
+      "sales2023": 2,
+      "medianPrice2022": null,
+      "medianPrice2023": 9537512,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "sales2022": 2411,
+      "sales2023": 4110,
+      "medianPrice2022": 619000,
+      "medianPrice2023": 723042,
+      "medianPriceYoYPct": 16.8
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "sales2022": 38,
+      "sales2023": 47,
+      "medianPrice2022": 3040500,
+      "medianPrice2023": 2333000,
+      "medianPriceYoYPct": -23.3
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "sales2022": 961,
+      "sales2023": 895,
+      "medianPrice2022": 759039,
+      "medianPrice2023": 1305600,
+      "medianPriceYoYPct": 72.0
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "sales2022": 759,
+      "sales2023": 806,
+      "medianPrice2022": 2347000,
+      "medianPrice2023": 2677000,
+      "medianPriceYoYPct": 14.1
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "sales2022": 567,
+      "sales2023": 1899,
+      "medianPrice2022": 3440561,
+      "medianPrice2023": 4011660,
+      "medianPriceYoYPct": 16.6
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "sales2022": 10,
+      "sales2023": 101,
+      "medianPrice2022": 1500000,
+      "medianPrice2023": 1250000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "sales2022": 56,
+      "sales2023": 13,
+      "medianPrice2022": 18525646,
+      "medianPrice2023": 9425000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "sales2022": 0,
+      "sales2023": 0,
+      "medianPrice2022": null,
+      "medianPrice2023": null,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "sales2022": 4965,
+      "sales2023": 8177,
+      "medianPrice2022": 1218828,
+      "medianPrice2023": 1370000,
+      "medianPriceYoYPct": 12.4
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "sales2022": 18,
+      "sales2023": 16,
+      "medianPrice2022": 7500000,
+      "medianPrice2023": 7000000,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "sales2022": 310,
+      "sales2023": 32,
+      "medianPrice2022": 1127500,
+      "medianPrice2023": 1190000,
+      "medianPriceYoYPct": 5.5
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "sales2022": 3395,
+      "sales2023": 4949,
+      "medianPrice2022": 1711888,
+      "medianPrice2023": 1890000,
+      "medianPriceYoYPct": 10.4
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "sales2022": 4,
+      "sales2023": 1,
+      "medianPrice2022": 1595450,
+      "medianPrice2023": 13096549,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "sales2022": 662,
+      "sales2023": 284,
+      "medianPrice2022": 2657000,
+      "medianPrice2023": 3080000,
+      "medianPriceYoYPct": 15.9
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "sales2022": 1,
+      "sales2023": 4,
+      "medianPrice2022": 2600000,
+      "medianPrice2023": 164533,
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "sales2022": 5191,
+      "sales2023": 12415,
+      "medianPrice2022": 654552,
+      "medianPrice2023": 771300,
+      "medianPriceYoYPct": 17.8
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "medianPriceYoYPct": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "sales2022": 427,
+      "sales2023": 415,
+      "medianPrice2022": 2440000,
+      "medianPrice2023": 2975000,
+      "medianPriceYoYPct": 21.9
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "sales2022": 2439,
+      "sales2023": 2597,
+      "medianPrice2022": 783108,
+      "medianPrice2023": 950000,
+      "medianPriceYoYPct": 21.3
+    }
+  ]
+}

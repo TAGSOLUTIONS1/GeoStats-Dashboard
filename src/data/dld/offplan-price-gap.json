@@ -1,0 +1,1712 @@
+{
+  "id": "offplan-price-gap",
+  "label": "Off-plan price premium vs ready homes (2021–2023)",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "offplanPremiumPct",
+  "sourceUrl": "https://www.kaggle.com/datasets/zainabhejairi/dubai-real-estates-1969-2023",
+  "retrieved": "2026-09-11",
+  "source": "Dubai Land Department transactions export (Kaggle mirror zainabhejairi/dubai-real-estates-1969-2023, DLD_Transactions.csv)",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD export. The file is exactly 1,048,575 rows, which is Excel's 1,048,576-row ceiling, so it is a TRUNCATED copy of the registry. Coverage ends in 2023.",
+  "period": "2021–2023",
+  "minSales": 60,
+  "method": "Median off-plan price per m2 versus median ready (existing-property) price per m2, per community, 2021–2023. Positive means off-plan sold at a premium. Requires at least 60 sales on each side, and a result inside -50% to 150%.",
+  "limitation": "Off-plan and ready stock are not like-for-like: off-plan skews to newer towers and different unit mixes, so part of any gap is quality and vintage rather than a pure launch premium or discount. Results outside -50%–150% are discarded as non-comparable samples rather than plotted. Uniquely Dubai — there is no US equivalent.",
+  "communitiesWithData": 42,
+  "stops": [
+    -12.2,
+    7.8,
+    24.3,
+    37.6,
+    59.6,
+    122.2
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "offplanSales": 0,
+      "readySales": 23,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 4310,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "offplanSales": 6624,
+      "readySales": 3430,
+      "offplanMedianPerM2": 10117,
+      "readyMedianPerM2": 8142,
+      "offplanPremiumPct": 24.3
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "offplanSales": 5810,
+      "readySales": 2416,
+      "offplanMedianPerM2": 20919,
+      "readyMedianPerM2": 20062,
+      "offplanPremiumPct": 4.3
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "offplanSales": 0,
+      "readySales": 5,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 19397,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "offplanSales": 0,
+      "readySales": 61,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 3646,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "offplanSales": 5,
+      "readySales": 41,
+      "offplanMedianPerM2": 8969,
+      "readyMedianPerM2": 5929,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "offplanSales": 0,
+      "readySales": 7,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2512,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "offplanSales": 0,
+      "readySales": 16,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2494,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "offplanSales": 70,
+      "readySales": 8937,
+      "offplanMedianPerM2": 11473,
+      "readyMedianPerM2": 12242,
+      "offplanPremiumPct": -6.3
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "offplanSales": 314,
+      "readySales": 1074,
+      "offplanMedianPerM2": 12021,
+      "readyMedianPerM2": 7532,
+      "offplanPremiumPct": 59.6
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "offplanSales": 0,
+      "readySales": 2,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2252,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "offplanSales": 1464,
+      "readySales": 1591,
+      "offplanMedianPerM2": 8428,
+      "readyMedianPerM2": 9416,
+      "offplanPremiumPct": -10.5
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "offplanSales": 0,
+      "readySales": 6,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2729,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "offplanSales": 0,
+      "readySales": 131,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 3122,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "offplanSales": 0,
+      "readySales": 37,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 3478,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "offplanSales": 0,
+      "readySales": 5,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 3166,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "offplanSales": 0,
+      "readySales": 20,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 3236,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "offplanSales": 0,
+      "readySales": 2,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 1668,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "offplanSales": 41,
+      "readySales": 935,
+      "offplanMedianPerM2": 13387,
+      "readyMedianPerM2": 10951,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "offplanSales": 0,
+      "readySales": 30,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2260,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "offplanSales": 0,
+      "readySales": 9,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 3075,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "offplanSales": 0,
+      "readySales": 712,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 12400,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "offplanSales": 0,
+      "readySales": 1,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 104639,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "offplanSales": 0,
+      "readySales": 13,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 4587,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "offplanSales": 0,
+      "readySales": 1162,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 8034,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "offplanSales": 2713,
+      "readySales": 1854,
+      "offplanMedianPerM2": 10798,
+      "readyMedianPerM2": 9037,
+      "offplanPremiumPct": 19.5
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "offplanSales": 561,
+      "readySales": 72,
+      "offplanMedianPerM2": 26923,
+      "readyMedianPerM2": 23056,
+      "offplanPremiumPct": 16.8
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "offplanSales": 0,
+      "readySales": 95,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 11634,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "offplanSales": 0,
+      "readySales": 95,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 8517,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "offplanSales": 729,
+      "readySales": 2235,
+      "offplanMedianPerM2": 10791,
+      "readyMedianPerM2": 6566,
+      "offplanPremiumPct": 64.3
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "offplanSales": 0,
+      "readySales": 225,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 8807,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "offplanSales": 781,
+      "readySales": 179,
+      "offplanMedianPerM2": 13023,
+      "readyMedianPerM2": 7257,
+      "offplanPremiumPct": 79.5
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "offplanSales": 0,
+      "readySales": 61,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 8502,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "offplanSales": 2969,
+      "readySales": 541,
+      "offplanMedianPerM2": 23259,
+      "readyMedianPerM2": 18077,
+      "offplanPremiumPct": 28.7
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "offplanSales": 0,
+      "readySales": 7,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 28241,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "offplanSales": 0,
+      "readySales": 46,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 3531,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "offplanSales": 1811,
+      "readySales": 317,
+      "offplanMedianPerM2": 22707,
+      "readyMedianPerM2": 25862,
+      "offplanPremiumPct": -12.2
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "offplanSales": 0,
+      "readySales": 32,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 4022,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "offplanSales": 0,
+      "readySales": 57,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 6458,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "offplanSales": 0,
+      "readySales": 5,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 4376,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "offplanSales": 0,
+      "readySales": 12,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 3501,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "offplanSales": 313,
+      "readySales": 1444,
+      "offplanMedianPerM2": 9640,
+      "readyMedianPerM2": 2824,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "offplanSales": 20,
+      "readySales": 0,
+      "offplanMedianPerM2": 26363,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "offplanSales": 0,
+      "readySales": 447,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 16990,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "offplanSales": 0,
+      "readySales": 34,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 7729,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "offplanSales": 1807,
+      "readySales": 141,
+      "offplanMedianPerM2": 20017,
+      "readyMedianPerM2": 18721,
+      "offplanPremiumPct": 6.9
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "offplanSales": 0,
+      "readySales": 1279,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 7540,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "offplanSales": 0,
+      "readySales": 2,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2418,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "offplanSales": 251,
+      "readySales": 1565,
+      "offplanMedianPerM2": 15721,
+      "readyMedianPerM2": 12328,
+      "offplanPremiumPct": 27.5
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "offplanSales": 0,
+      "readySales": 4,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 6428,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "offplanSales": 0,
+      "readySales": 1,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 5245,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "offplanSales": 125,
+      "readySales": 773,
+      "offplanMedianPerM2": 9028,
+      "readyMedianPerM2": 7870,
+      "offplanPremiumPct": 14.7
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "offplanSales": 0,
+      "readySales": 43,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 5058,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "offplanSales": 8674,
+      "readySales": 10513,
+      "offplanMedianPerM2": 33204,
+      "readyMedianPerM2": 14941,
+      "offplanPremiumPct": 122.2
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "offplanSales": 2047,
+      "readySales": 3081,
+      "offplanMedianPerM2": 38995,
+      "readyMedianPerM2": 18665,
+      "offplanPremiumPct": 108.9
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "offplanSales": 0,
+      "readySales": 3,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 50549,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "offplanSales": 0,
+      "readySales": 61,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 4107,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "offplanSales": 2896,
+      "readySales": 1850,
+      "offplanMedianPerM2": 8131,
+      "readyMedianPerM2": 7749,
+      "offplanPremiumPct": 4.9
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "offplanSales": 0,
+      "readySales": 1,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 4713,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "offplanSales": 164,
+      "readySales": 980,
+      "offplanMedianPerM2": 20226,
+      "readyMedianPerM2": 17898,
+      "offplanPremiumPct": 13.0
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "offplanSales": 0,
+      "readySales": 113,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 7739,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "offplanSales": 0,
+      "readySales": 61,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 13186,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "offplanSales": 0,
+      "readySales": 4,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2547,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "offplanSales": 89,
+      "readySales": 19,
+      "offplanMedianPerM2": 9588,
+      "readyMedianPerM2": 7591,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "offplanSales": 0,
+      "readySales": 5,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 5110,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "offplanSales": 0,
+      "readySales": 10,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2809,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "offplanSales": 0,
+      "readySales": 8,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 1742,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "offplanSales": 0,
+      "readySales": 4,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2808,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "offplanSales": 0,
+      "readySales": 4,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 39210,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "offplanSales": 0,
+      "readySales": 23,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2651,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "offplanSales": 0,
+      "readySales": 271,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 6080,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "offplanSales": 1944,
+      "readySales": 4158,
+      "offplanMedianPerM2": 12193,
+      "readyMedianPerM2": 7986,
+      "offplanPremiumPct": 52.7
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "offplanSales": 0,
+      "readySales": 41,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 3132,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "offplanSales": 525,
+      "readySales": 555,
+      "offplanMedianPerM2": 13254,
+      "readyMedianPerM2": 9688,
+      "offplanPremiumPct": 36.8
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "offplanSales": 0,
+      "readySales": 5,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 12046,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "offplanSales": 0,
+      "readySales": 42,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 10584,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "offplanSales": 217,
+      "readySales": 5,
+      "offplanMedianPerM2": 41501,
+      "readyMedianPerM2": 51692,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "offplanSales": 0,
+      "readySales": 38,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 3839,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "offplanSales": 11464,
+      "readySales": 7263,
+      "offplanMedianPerM2": 21456,
+      "readyMedianPerM2": 15070,
+      "offplanPremiumPct": 42.4
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "offplanSales": 0,
+      "readySales": 7,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 11183,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "offplanSales": 5273,
+      "readySales": 4862,
+      "offplanMedianPerM2": 28104,
+      "readyMedianPerM2": 19550,
+      "offplanPremiumPct": 43.8
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "offplanSales": 853,
+      "readySales": 2551,
+      "offplanMedianPerM2": 13041,
+      "readyMedianPerM2": 10154,
+      "offplanPremiumPct": 28.4
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "offplanSales": 0,
+      "readySales": 6,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 19280,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "offplanSales": 0,
+      "readySales": 14,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 5301,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "offplanSales": 0,
+      "readySales": 36,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2903,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "offplanSales": 2845,
+      "readySales": 150,
+      "offplanMedianPerM2": 9123,
+      "readyMedianPerM2": 6744,
+      "offplanPremiumPct": 35.3
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "offplanSales": 1246,
+      "readySales": 1091,
+      "offplanMedianPerM2": 13112,
+      "readyMedianPerM2": 7396,
+      "offplanPremiumPct": 77.3
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "offplanSales": 0,
+      "readySales": 86,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 12927,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "offplanSales": 0,
+      "readySales": 26,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2570,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "offplanSales": 0,
+      "readySales": 6,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 3022,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "offplanSales": 0,
+      "readySales": 8,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 4898,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "offplanSales": 0,
+      "readySales": 11,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 15120,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "offplanSales": 0,
+      "readySales": 9,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2525,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "offplanSales": 109,
+      "readySales": 603,
+      "offplanMedianPerM2": 8581,
+      "readyMedianPerM2": 5181,
+      "offplanPremiumPct": 65.6
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "offplanSales": 0,
+      "readySales": 19,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 1832,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "offplanSales": 0,
+      "readySales": 124,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 4923,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "offplanSales": 407,
+      "readySales": 711,
+      "offplanMedianPerM2": 11203,
+      "readyMedianPerM2": 7981,
+      "offplanPremiumPct": 40.4
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "offplanSales": 548,
+      "readySales": 4258,
+      "offplanMedianPerM2": 10526,
+      "readyMedianPerM2": 4834,
+      "offplanPremiumPct": 117.7
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "offplanSales": 261,
+      "readySales": 1817,
+      "offplanMedianPerM2": 23227,
+      "readyMedianPerM2": 12543,
+      "offplanPremiumPct": 85.2
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "offplanSales": 4211,
+      "readySales": 3665,
+      "offplanMedianPerM2": 14791,
+      "readyMedianPerM2": 10707,
+      "offplanPremiumPct": 38.1
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "offplanSales": 0,
+      "readySales": 31,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 7176,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "offplanSales": 808,
+      "readySales": 439,
+      "offplanMedianPerM2": 25340,
+      "readyMedianPerM2": 24356,
+      "offplanPremiumPct": 4.0
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "offplanSales": 259,
+      "readySales": 165,
+      "offplanMedianPerM2": 12537,
+      "readyMedianPerM2": 10891,
+      "offplanPremiumPct": 15.1
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "offplanSales": 1082,
+      "readySales": 3613,
+      "offplanMedianPerM2": 13722,
+      "readyMedianPerM2": 11094,
+      "offplanPremiumPct": 23.7
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "offplanSales": 0,
+      "readySales": 2,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 11695,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "offplanSales": 5658,
+      "readySales": 1735,
+      "offplanMedianPerM2": 13002,
+      "readyMedianPerM2": 9112,
+      "offplanPremiumPct": 42.7
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "offplanSales": 0,
+      "readySales": 117,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 11777,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "offplanSales": 1684,
+      "readySales": 832,
+      "offplanMedianPerM2": 12554,
+      "readyMedianPerM2": 11644,
+      "offplanPremiumPct": 7.8
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "offplanSales": 1128,
+      "readySales": 736,
+      "offplanMedianPerM2": 12083,
+      "readyMedianPerM2": 9384,
+      "offplanPremiumPct": 28.8
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "offplanSales": 1471,
+      "readySales": 1429,
+      "offplanMedianPerM2": 16541,
+      "readyMedianPerM2": 10400,
+      "offplanPremiumPct": 59.1
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "offplanSales": 24,
+      "readySales": 109,
+      "offplanMedianPerM2": 51432,
+      "readyMedianPerM2": 11098,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "offplanSales": 55,
+      "readySales": 34,
+      "offplanMedianPerM2": 61862,
+      "readyMedianPerM2": 8280,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "offplanSales": 0,
+      "readySales": 1,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 16951,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "offplanSales": 12932,
+      "readySales": 2557,
+      "offplanMedianPerM2": 19106,
+      "readyMedianPerM2": 17336,
+      "offplanPremiumPct": 10.2
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "offplanSales": 0,
+      "readySales": 48,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 7770,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "offplanSales": 0,
+      "readySales": 797,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 7439,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "offplanSales": 6705,
+      "readySales": 4543,
+      "offplanMedianPerM2": 19372,
+      "readyMedianPerM2": 15200,
+      "offplanPremiumPct": 27.4
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "offplanSales": 0,
+      "readySales": 7,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 2040,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "offplanSales": 927,
+      "readySales": 500,
+      "offplanMedianPerM2": 23450,
+      "readyMedianPerM2": 24734,
+      "offplanPremiumPct": -5.2
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "offplanSales": 0,
+      "readySales": 0,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": null,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "offplanSales": 0,
+      "readySales": 5,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 140,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "offplanSales": 12921,
+      "readySales": 7789,
+      "offplanMedianPerM2": 12064,
+      "readyMedianPerM2": 9592,
+      "offplanPremiumPct": 25.8
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "offplanSales": 0,
+      "readySales": 1196,
+      "offplanMedianPerM2": null,
+      "readyMedianPerM2": 9538,
+      "offplanPremiumPct": null
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "offplanSales": 1815,
+      "readySales": 4006,
+      "offplanMedianPerM2": 11678,
+      "readyMedianPerM2": 8489,
+      "offplanPremiumPct": 37.6
+    }
+  ]
+}

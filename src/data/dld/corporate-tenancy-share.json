@@ -1,0 +1,1444 @@
+{
+  "id": "corporate-tenancy-share",
+  "label": "Tenancies held by a company rather than an individual (2019–2023)",
+  "scope": "community",
+  "joinKey": "COMM_NUM",
+  "metric": "corporateTenancyPct",
+  "sourceUrl": "https://www.kaggle.com/datasets/zainabhejairi/dubai-real-estates-1969-2023",
+  "retrieved": "2026-09-11",
+  "source": "Dubai Land Department Ejari rental contracts export (Kaggle mirror zainabhejairi/dubai-real-estates-1969-2023, DLD_Rents.csv)",
+  "provenance": "UNOFFICIAL third-party mirror of a DLD Ejari export. Contract volume is substantial through 2023; 2024 is partial and excluded.",
+  "period": "2019–2023",
+  "minContracts": 50,
+  "method": "Share of residential Ejari contracts whose tenant_type_en is Authority rather than Person — that is, leased by a company or institution. Dubai-wide the split is about 21% corporate.",
+  "limitation": "Indicates company-leased and staff housing, which is a real feature of several Dubai districts. It says who signed the lease, not who lives there, and 'Authority' covers a range of non-individual lessees.",
+  "communitiesWithData": 135,
+  "stops": [
+    0.0,
+    3.5,
+    6.7,
+    10.2,
+    18.5,
+    100.0
+  ],
+  "rows": [
+    {
+      "code": "991",
+      "name": "HEFAIR",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "243",
+      "name": "AL QUSAIS IND. SECOND",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "323",
+      "name": "AL JAFILIYA",
+      "residentialContracts": 3619,
+      "corporateContracts": 390,
+      "corporateTenancyPct": 10.8
+    },
+    {
+      "code": "592",
+      "name": "JABAL ALI SECOND",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "648",
+      "name": "WADI AL SAFA 5",
+      "residentialContracts": 37849,
+      "corporateContracts": 3560,
+      "corporateTenancyPct": 9.4
+    },
+    {
+      "code": "594",
+      "name": "MENA JABAL ALI",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "415",
+      "name": "AL KHEERAN FIRST",
+      "residentialContracts": 7978,
+      "corporateContracts": 197,
+      "corporateTenancyPct": 2.5
+    },
+    {
+      "code": "124",
+      "name": "AL MURAQQABAT",
+      "residentialContracts": 47893,
+      "corporateContracts": 3683,
+      "corporateTenancyPct": 7.7
+    },
+    {
+      "code": "951",
+      "name": "SAIH AL SALAM",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "845",
+      "name": "AL MAHA",
+      "residentialContracts": 14,
+      "corporateContracts": 3,
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "376",
+      "name": "AL BARSHA SECOND",
+      "residentialContracts": 1667,
+      "corporateContracts": 100,
+      "corporateTenancyPct": 6.0
+    },
+    {
+      "code": "128",
+      "name": "AL KHABAISI",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "531",
+      "name": "SAIH SHUAIB 2",
+      "residentialContracts": 13847,
+      "corporateContracts": 12561,
+      "corporateTenancyPct": 90.7
+    },
+    {
+      "code": "233",
+      "name": "AL QUSAIS SECOND",
+      "residentialContracts": 11251,
+      "corporateContracts": 1503,
+      "corporateTenancyPct": 13.4
+    },
+    {
+      "code": "228",
+      "name": "AL TWAR THIRD",
+      "residentialContracts": 356,
+      "corporateContracts": 25,
+      "corporateTenancyPct": 7.0
+    },
+    {
+      "code": "683",
+      "name": "AL HEBIAH FIFTH",
+      "residentialContracts": 14336,
+      "corporateContracts": 2601,
+      "corporateTenancyPct": 18.1
+    },
+    {
+      "code": "857",
+      "name": "MARGAB",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "851",
+      "name": "REMAH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "674",
+      "name": "AL HEBIAH FIRST",
+      "residentialContracts": 12733,
+      "corporateContracts": 541,
+      "corporateTenancyPct": 4.2
+    },
+    {
+      "code": "924",
+      "name": "AL YALAYIS 4",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "613",
+      "name": "RAS AL KHOR IND. SECOND",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "431",
+      "name": "WADI ALSHABAK",
+      "residentialContracts": 23,
+      "corporateContracts": 0,
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "665",
+      "name": "WADI AL SAFA 7",
+      "residentialContracts": 12912,
+      "corporateContracts": 498,
+      "corporateTenancyPct": 3.9
+    },
+    {
+      "code": "282",
+      "name": "AL KHWANEEJ SECOND",
+      "residentialContracts": 571,
+      "corporateContracts": 58,
+      "corporateTenancyPct": 10.2
+    },
+    {
+      "code": "353",
+      "name": "AL SAFA FIRST",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "216",
+      "name": "AL RASHIDIYA",
+      "residentialContracts": 5307,
+      "corporateContracts": 152,
+      "corporateTenancyPct": 2.9
+    },
+    {
+      "code": "358",
+      "name": "AL QOUZ THIRD",
+      "residentialContracts": 50520,
+      "corporateContracts": 48880,
+      "corporateTenancyPct": 96.8
+    },
+    {
+      "code": "354",
+      "name": "AL QOUZ FIRST",
+      "residentialContracts": 1461,
+      "corporateContracts": 105,
+      "corporateTenancyPct": 7.2
+    },
+    {
+      "code": "615",
+      "name": "NADD AL SHIBA SECOND",
+      "residentialContracts": 138,
+      "corporateContracts": 0,
+      "corporateTenancyPct": 0.0
+    },
+    {
+      "code": "516",
+      "name": "JABAL ALI INDUSTRIAL THIRD",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "234",
+      "name": "AL QUSAIS THIRD",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "931",
+      "name": "AL LESAILY",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "671",
+      "name": "AL BARSHA SOUTH FIRST",
+      "residentialContracts": 727,
+      "corporateContracts": 29,
+      "corporateTenancyPct": 4.0
+    },
+    {
+      "code": "812",
+      "name": "AL ROWAIYAH FIRST",
+      "residentialContracts": 1691,
+      "corporateContracts": 230,
+      "corporateTenancyPct": 13.6
+    },
+    {
+      "code": "246",
+      "name": "AL QUSAIS IND. THIRD",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "251",
+      "name": "MIRDIF",
+      "residentialContracts": 58477,
+      "corporateContracts": 3545,
+      "corporateTenancyPct": 6.1
+    },
+    {
+      "code": "357",
+      "name": "AL SAFA SECOND",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "226",
+      "name": "AL TWAR FIRST",
+      "residentialContracts": 2971,
+      "corporateContracts": 145,
+      "corporateTenancyPct": 4.9
+    },
+    {
+      "code": "227",
+      "name": "AL TWAR SECOND",
+      "residentialContracts": 207,
+      "corporateContracts": 6,
+      "corporateTenancyPct": 2.9
+    },
+    {
+      "code": "111",
+      "name": "AL CORNICHE",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "261",
+      "name": "MUHAISNAH FIRST",
+      "residentialContracts": 1346,
+      "corporateContracts": 23,
+      "corporateTenancyPct": 1.7
+    },
+    {
+      "code": "731",
+      "name": "LEHBAB FIRST",
+      "residentialContracts": 104,
+      "corporateContracts": 43,
+      "corporateTenancyPct": 41.3
+    },
+    {
+      "code": "247",
+      "name": "AL QUSAIS IND. FOURTH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "847",
+      "name": "UMM ESELAY",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "118",
+      "name": "NAIF",
+      "residentialContracts": 30999,
+      "corporateContracts": 5902,
+      "corporateTenancyPct": 19.0
+    },
+    {
+      "code": "831",
+      "name": "LEHBAB SECOND",
+      "residentialContracts": 87,
+      "corporateContracts": 32,
+      "corporateTenancyPct": 36.8
+    },
+    {
+      "code": "317",
+      "name": "MANKHOOL",
+      "residentialContracts": 47706,
+      "corporateContracts": 2804,
+      "corporateTenancyPct": 5.9
+    },
+    {
+      "code": "664",
+      "name": "WADI AL SAFA 6",
+      "residentialContracts": 8751,
+      "corporateContracts": 467,
+      "corporateTenancyPct": 5.3
+    },
+    {
+      "code": "735",
+      "name": "AL MERYAL",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "813",
+      "name": "AL ROWAIYAH SECOND",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "922",
+      "name": "AL YALAYIS 2",
+      "residentialContracts": 22003,
+      "corporateContracts": 2285,
+      "corporateTenancyPct": 10.4
+    },
+    {
+      "code": "242",
+      "name": "AL QUSAIS IND. FIRST",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "382",
+      "name": "AL SAFOUH SECOND",
+      "residentialContracts": 4489,
+      "corporateContracts": 373,
+      "corporateTenancyPct": 8.3
+    },
+    {
+      "code": "923",
+      "name": "AL YALAYIS 3",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "941",
+      "name": "GRAYTEESAH",
+      "residentialContracts": 222,
+      "corporateContracts": 198,
+      "corporateTenancyPct": 89.2
+    },
+    {
+      "code": "101",
+      "name": "NAKHLAT DEIRA",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "502",
+      "name": "AL WAJEHA AL BAHRIAH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "336",
+      "name": "TRADE CENTER SECOND",
+      "residentialContracts": 13744,
+      "corporateContracts": 2316,
+      "corporateTenancyPct": 16.9
+    },
+    {
+      "code": "925",
+      "name": "AL YALAYIS 5",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "127",
+      "name": "HOR AL ANZ",
+      "residentialContracts": 19873,
+      "corporateContracts": 2848,
+      "corporateTenancyPct": 14.3
+    },
+    {
+      "code": "267",
+      "name": "MUHAISANAH FIFTH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "626",
+      "name": "NADD HESSA",
+      "residentialContracts": 83287,
+      "corporateContracts": 5536,
+      "corporateTenancyPct": 6.6
+    },
+    {
+      "code": "302",
+      "name": "JUMEIRA BAY",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "384",
+      "name": "AL THANYAH SECOND",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "383",
+      "name": "AL THANYAH FIRST",
+      "residentialContracts": 29261,
+      "corporateContracts": 3618,
+      "corporateTenancyPct": 12.4
+    },
+    {
+      "code": "532",
+      "name": "SAIH SHUAIB 3",
+      "residentialContracts": 4362,
+      "corporateContracts": 4362,
+      "corporateTenancyPct": 100.0
+    },
+    {
+      "code": "675",
+      "name": "AL HEBIAH SECOND",
+      "residentialContracts": 3838,
+      "corporateContracts": 914,
+      "corporateTenancyPct": 23.8
+    },
+    {
+      "code": "362",
+      "name": "UMM SUQEIM SECOND",
+      "residentialContracts": 4824,
+      "corporateContracts": 333,
+      "corporateTenancyPct": 6.9
+    },
+    {
+      "code": "343",
+      "name": "AL WASL",
+      "residentialContracts": 9442,
+      "corporateContracts": 753,
+      "corporateTenancyPct": 8.0
+    },
+    {
+      "code": "122",
+      "name": "AL BARAHA",
+      "residentialContracts": 14864,
+      "corporateContracts": 1645,
+      "corporateTenancyPct": 11.1
+    },
+    {
+      "code": "835",
+      "name": "UMM AL MO'MENEEN",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "284",
+      "name": "AL TTAY",
+      "residentialContracts": 6383,
+      "corporateContracts": 6383,
+      "corporateTenancyPct": 100.0
+    },
+    {
+      "code": "132",
+      "name": "AL WUHEIDA",
+      "residentialContracts": 1678,
+      "corporateContracts": 69,
+      "corporateTenancyPct": 4.1
+    },
+    {
+      "code": "891",
+      "name": "HATTA",
+      "residentialContracts": 103,
+      "corporateContracts": 11,
+      "corporateTenancyPct": 10.7
+    },
+    {
+      "code": "366",
+      "name": "UMM SUQEIM THIRD",
+      "residentialContracts": 2734,
+      "corporateContracts": 201,
+      "corporateTenancyPct": 7.4
+    },
+    {
+      "code": "612",
+      "name": "RAS AL KHOR IND. FIRST",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "988",
+      "name": "AL LAYAN 2",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "945",
+      "name": "AL FAGAA",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "134",
+      "name": "AL MAMZAR",
+      "residentialContracts": 16232,
+      "corporateContracts": 1359,
+      "corporateTenancyPct": 8.4
+    },
+    {
+      "code": "126",
+      "name": "ABU HAIL",
+      "residentialContracts": 4841,
+      "corporateContracts": 480,
+      "corporateTenancyPct": 9.9
+    },
+    {
+      "code": "245",
+      "name": "MUHAISANAH FOURTH",
+      "residentialContracts": 52780,
+      "corporateContracts": 3083,
+      "corporateTenancyPct": 5.8
+    },
+    {
+      "code": "368",
+      "name": "AL QOUZ IND.THIRD",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "971",
+      "name": "SAIH AL DAHAL",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "617",
+      "name": "NADD AL SHIBA FOURTH",
+      "residentialContracts": 422,
+      "corporateContracts": 7,
+      "corporateTenancyPct": 1.7
+    },
+    {
+      "code": "643",
+      "name": "WADI AL SAFA 2",
+      "residentialContracts": 15630,
+      "corporateContracts": 494,
+      "corporateTenancyPct": 3.2
+    },
+    {
+      "code": "303",
+      "name": "WORLD ISLANDS",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "355",
+      "name": "AL QOUZ SECOND",
+      "residentialContracts": 427,
+      "corporateContracts": 14,
+      "corporateTenancyPct": 3.3
+    },
+    {
+      "code": "352",
+      "name": "JUMEIRA THIRD",
+      "residentialContracts": 5346,
+      "corporateContracts": 396,
+      "corporateTenancyPct": 7.4
+    },
+    {
+      "code": "321",
+      "name": "MADINAT DUBAI AL MELAHEYAH",
+      "residentialContracts": 5293,
+      "corporateContracts": 344,
+      "corporateTenancyPct": 6.5
+    },
+    {
+      "code": "916",
+      "name": "AL YUFRAH 2",
+      "residentialContracts": 3,
+      "corporateContracts": 0,
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "919",
+      "name": "AL YUFRAH 4",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "313",
+      "name": "AL HAMRIYA",
+      "residentialContracts": 23760,
+      "corporateContracts": 2159,
+      "corporateTenancyPct": 9.1
+    },
+    {
+      "code": "811",
+      "name": "WARSAN THIRD",
+      "residentialContracts": 2718,
+      "corporateContracts": 2718,
+      "corporateTenancyPct": 100.0
+    },
+    {
+      "code": "618",
+      "name": "NADD AL SHIBA FIRST",
+      "residentialContracts": 7254,
+      "corporateContracts": 307,
+      "corporateTenancyPct": 4.2
+    },
+    {
+      "code": "231",
+      "name": "AL NAHDA FIRST",
+      "residentialContracts": 48814,
+      "corporateContracts": 2570,
+      "corporateTenancyPct": 5.3
+    },
+    {
+      "code": "913",
+      "name": "UMM NAHAD THIRD",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "513",
+      "name": "SAIH SHUAIB 1",
+      "residentialContracts": 374,
+      "corporateContracts": 7,
+      "corporateTenancyPct": 1.9
+    },
+    {
+      "code": "912",
+      "name": "UMM NAHAD SECOND",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "921",
+      "name": "AL YALAYIS 1",
+      "residentialContracts": 9728,
+      "corporateContracts": 197,
+      "corporateTenancyPct": 2.0
+    },
+    {
+      "code": "914",
+      "name": "UMM NAHAD FOURTH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "727",
+      "name": "AL WOHOOSH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "511",
+      "name": "HESSYAN FIRST",
+      "residentialContracts": 2355,
+      "corporateContracts": 435,
+      "corporateTenancyPct": 18.5
+    },
+    {
+      "code": "814",
+      "name": "AL ROWAIYAH THIRD",
+      "residentialContracts": 462,
+      "corporateContracts": 217,
+      "corporateTenancyPct": 47.0
+    },
+    {
+      "code": "392",
+      "name": "MARSA DUBAI",
+      "residentialContracts": 94325,
+      "corporateContracts": 7183,
+      "corporateTenancyPct": 7.6
+    },
+    {
+      "code": "381",
+      "name": "NAKHLAT JUMEIRA",
+      "residentialContracts": 25477,
+      "corporateContracts": 1414,
+      "corporateTenancyPct": 5.6
+    },
+    {
+      "code": "112",
+      "name": "AL RAS",
+      "residentialContracts": 3977,
+      "corporateContracts": 864,
+      "corporateTenancyPct": 21.7
+    },
+    {
+      "code": "113",
+      "name": "AL DAGHAYA",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "266",
+      "name": "OUD AL MUTEENA SECOND",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "281",
+      "name": "AL KHWANEEJ FIRST",
+      "residentialContracts": 817,
+      "corporateContracts": 8,
+      "corporateTenancyPct": 1.0
+    },
+    {
+      "code": "115",
+      "name": "AL SABKHA",
+      "residentialContracts": 1246,
+      "corporateContracts": 265,
+      "corporateTenancyPct": 21.3
+    },
+    {
+      "code": "521",
+      "name": "MADINAT AL MATAAR",
+      "residentialContracts": 16313,
+      "corporateContracts": 1964,
+      "corporateTenancyPct": 12.0
+    },
+    {
+      "code": "215",
+      "name": "UMM RAMOOL",
+      "residentialContracts": 2169,
+      "corporateContracts": 1150,
+      "corporateTenancyPct": 53.0
+    },
+    {
+      "code": "369",
+      "name": "AL QOUZ IND.FOURTH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "324",
+      "name": "AL KIFAF",
+      "residentialContracts": 1028,
+      "corporateContracts": 46,
+      "corporateTenancyPct": 4.5
+    },
+    {
+      "code": "119",
+      "name": "AL RIGGA",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "367",
+      "name": "UMM AL SHEIF",
+      "residentialContracts": 1252,
+      "corporateContracts": 84,
+      "corporateTenancyPct": 6.7
+    },
+    {
+      "code": "975",
+      "name": "AL O'SHOOSH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "956",
+      "name": "AL HATHMAH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "824",
+      "name": "UMM AL DAMAN",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "614",
+      "name": "RAS AL KHOR IND. THIRD",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "826",
+      "name": "LE HEMAIRA",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "978",
+      "name": "SAIH SHUA'ALAH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "333",
+      "name": "AL BADA'",
+      "residentialContracts": 18214,
+      "corporateContracts": 1655,
+      "corporateTenancyPct": 9.1
+    },
+    {
+      "code": "213",
+      "name": "NADD SHAMMA",
+      "residentialContracts": 90,
+      "corporateContracts": 5,
+      "corporateTenancyPct": 5.6
+    },
+    {
+      "code": "981",
+      "name": "MUGATRAH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "121",
+      "name": "CORNICHE DEIRA",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "646",
+      "name": "WADI AL SAFA 4",
+      "residentialContracts": 42,
+      "corporateContracts": 1,
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "311",
+      "name": "AL SHINDAGHA",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "616",
+      "name": "NADD AL SHIBA THIRD",
+      "residentialContracts": 3016,
+      "corporateContracts": 99,
+      "corporateTenancyPct": 3.3
+    },
+    {
+      "code": "116",
+      "name": "AYAL NASIR",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "319",
+      "name": "OUD METHA",
+      "residentialContracts": 18944,
+      "corporateContracts": 1585,
+      "corporateTenancyPct": 8.4
+    },
+    {
+      "code": "422",
+      "name": "AL WARQA'A SECOND",
+      "residentialContracts": 471,
+      "corporateContracts": 9,
+      "corporateTenancyPct": 1.9
+    },
+    {
+      "code": "335",
+      "name": "TRADE CENTER FIRST",
+      "residentialContracts": 21670,
+      "corporateContracts": 3225,
+      "corporateTenancyPct": 14.9
+    },
+    {
+      "code": "711",
+      "name": "AL AWIR FIRST",
+      "residentialContracts": 372,
+      "corporateContracts": 69,
+      "corporateTenancyPct": 18.5
+    },
+    {
+      "code": "967",
+      "name": "GHADEER BARASHY",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "265",
+      "name": "OUD AL MUTEENA FIRST",
+      "residentialContracts": 31,
+      "corporateContracts": 1,
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "987",
+      "name": "AL LAYAN 1",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "117",
+      "name": "AL MURAR",
+      "residentialContracts": 24076,
+      "corporateContracts": 4257,
+      "corporateTenancyPct": 17.7
+    },
+    {
+      "code": "423",
+      "name": "AL WARQA'A THIRD",
+      "residentialContracts": 956,
+      "corporateContracts": 24,
+      "corporateTenancyPct": 2.5
+    },
+    {
+      "code": "359",
+      "name": "AL QOUZ FOURTH",
+      "residentialContracts": 16046,
+      "corporateContracts": 4807,
+      "corporateTenancyPct": 30.0
+    },
+    {
+      "code": "917",
+      "name": "AL MARMOOM",
+      "residentialContracts": 1,
+      "corporateContracts": 1,
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "364",
+      "name": "AL QOUZ IND.FIRST",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "682",
+      "name": "AL HEBIAH FOURTH",
+      "residentialContracts": 37584,
+      "corporateContracts": 2198,
+      "corporateTenancyPct": 5.8
+    },
+    {
+      "code": "593",
+      "name": "JABAL ALI THIRD",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "416",
+      "name": "NADD AL HAMAR",
+      "residentialContracts": 11342,
+      "corporateContracts": 178,
+      "corporateTenancyPct": 1.6
+    },
+    {
+      "code": "672",
+      "name": "AL BARSHA SOUTH SECOND",
+      "residentialContracts": 4850,
+      "corporateContracts": 424,
+      "corporateTenancyPct": 8.7
+    },
+    {
+      "code": "599",
+      "name": "JABAL ALI INDUSTRIAL FIRST",
+      "residentialContracts": 103503,
+      "corporateContracts": 102293,
+      "corporateTenancyPct": 98.8
+    },
+    {
+      "code": "271",
+      "name": "WADI ALAMARDI",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "129",
+      "name": "PORT SAEED",
+      "residentialContracts": 10148,
+      "corporateContracts": 1170,
+      "corporateTenancyPct": 11.5
+    },
+    {
+      "code": "373",
+      "name": "AL BARSHA FIRST",
+      "residentialContracts": 60703,
+      "corporateContracts": 6212,
+      "corporateTenancyPct": 10.2
+    },
+    {
+      "code": "736",
+      "name": "NAZWAH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "325",
+      "name": "ZAA'BEEL FIRST",
+      "residentialContracts": 1,
+      "corporateContracts": 0,
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "375",
+      "name": "AL BARSHA THIRD",
+      "residentialContracts": 1569,
+      "corporateContracts": 105,
+      "corporateTenancyPct": 6.7
+    },
+    {
+      "code": "346",
+      "name": "BUSINESS BAY",
+      "residentialContracts": 58208,
+      "corporateContracts": 4710,
+      "corporateTenancyPct": 8.1
+    },
+    {
+      "code": "123",
+      "name": "AL MUTEENA",
+      "residentialContracts": 24194,
+      "corporateContracts": 2348,
+      "corporateTenancyPct": 9.7
+    },
+    {
+      "code": "345",
+      "name": "BURJ KHALIFA",
+      "residentialContracts": 40423,
+      "corporateContracts": 3411,
+      "corporateTenancyPct": 8.4
+    },
+    {
+      "code": "685",
+      "name": "ME'AISEM FIRST",
+      "residentialContracts": 33857,
+      "corporateContracts": 4451,
+      "corporateTenancyPct": 13.1
+    },
+    {
+      "code": "686",
+      "name": "ME'AISEM SECOND",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "318",
+      "name": "AL KARAMA",
+      "residentialContracts": 62522,
+      "corporateContracts": 6530,
+      "corporateTenancyPct": 10.4
+    },
+    {
+      "code": "421",
+      "name": "AL WARQA'A FIRST",
+      "residentialContracts": 44522,
+      "corporateContracts": 3178,
+      "corporateTenancyPct": 7.1
+    },
+    {
+      "code": "262",
+      "name": "AL MIZHAR FIRST",
+      "residentialContracts": 702,
+      "corporateContracts": 6,
+      "corporateTenancyPct": 0.9
+    },
+    {
+      "code": "413",
+      "name": "RAS AL KHOR",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "322",
+      "name": "AL HUDAIBA",
+      "residentialContracts": 8989,
+      "corporateContracts": 929,
+      "corporateTenancyPct": 10.3
+    },
+    {
+      "code": "915",
+      "name": "AL YUFRAH 1",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "684",
+      "name": "AL BARSHA SOUTH FIFTH",
+      "residentialContracts": 11220,
+      "corporateContracts": 377,
+      "corporateTenancyPct": 3.4
+    },
+    {
+      "code": "334",
+      "name": "AL SATWA",
+      "residentialContracts": 16284,
+      "corporateContracts": 1066,
+      "corporateTenancyPct": 6.5
+    },
+    {
+      "code": "611",
+      "name": "BU KADRA",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "263",
+      "name": "AL MIZHAR SECOND",
+      "residentialContracts": 328,
+      "corporateContracts": 5,
+      "corporateTenancyPct": 1.5
+    },
+    {
+      "code": "512",
+      "name": "HESSYAN SECOND",
+      "residentialContracts": 6785,
+      "corporateContracts": 6785,
+      "corporateTenancyPct": 100.0
+    },
+    {
+      "code": "214",
+      "name": "AL GARHOUD",
+      "residentialContracts": 10088,
+      "corporateContracts": 2079,
+      "corporateTenancyPct": 20.6
+    },
+    {
+      "code": "315",
+      "name": "UMM HURAIR SECOND",
+      "residentialContracts": 2374,
+      "corporateContracts": 77,
+      "corporateTenancyPct": 3.2
+    },
+    {
+      "code": "131",
+      "name": "AL HAMRIYA PORT",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "622",
+      "name": "WARSAN SECOND",
+      "residentialContracts": 2033,
+      "corporateContracts": 1692,
+      "corporateTenancyPct": 83.2
+    },
+    {
+      "code": "133",
+      "name": "HOR AL ANZ EAST",
+      "residentialContracts": 18506,
+      "corporateContracts": 1304,
+      "corporateTenancyPct": 7.0
+    },
+    {
+      "code": "425",
+      "name": "AL WARQA'A FIFTH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "624",
+      "name": "WARSAN FOURTH",
+      "residentialContracts": 30978,
+      "corporateContracts": 3334,
+      "corporateTenancyPct": 10.8
+    },
+    {
+      "code": "244",
+      "name": "MUHAISANAH THIRD",
+      "residentialContracts": 245,
+      "corporateContracts": 3,
+      "corporateTenancyPct": 1.2
+    },
+    {
+      "code": "597",
+      "name": "DUBAI INVESTMENT PARK SECOND",
+      "residentialContracts": 47139,
+      "corporateContracts": 38775,
+      "corporateTenancyPct": 82.3
+    },
+    {
+      "code": "861",
+      "name": "YARAAH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "533",
+      "name": "SAIH SHUAIB 4",
+      "residentialContracts": 3058,
+      "corporateContracts": 3057,
+      "corporateTenancyPct": 100.0
+    },
+    {
+      "code": "598",
+      "name": "DUBAI INVESTMENT PARK FIRST",
+      "residentialContracts": 42465,
+      "corporateContracts": 31379,
+      "corporateTenancyPct": 73.9
+    },
+    {
+      "code": "621",
+      "name": "WARSAN FIRST",
+      "residentialContracts": 107390,
+      "corporateContracts": 23180,
+      "corporateTenancyPct": 21.6
+    },
+    {
+      "code": "388",
+      "name": "AL THANYAH THIRD",
+      "residentialContracts": 24887,
+      "corporateContracts": 843,
+      "corporateTenancyPct": 3.4
+    },
+    {
+      "code": "393",
+      "name": "AL THANYAH FIFTH",
+      "residentialContracts": 49602,
+      "corporateContracts": 3607,
+      "corporateTenancyPct": 7.3
+    },
+    {
+      "code": "363",
+      "name": "AL MANARA",
+      "residentialContracts": 2497,
+      "corporateContracts": 215,
+      "corporateTenancyPct": 8.6
+    },
+    {
+      "code": "337",
+      "name": "ZAA'BEEL SECOND",
+      "residentialContracts": 935,
+      "corporateContracts": 142,
+      "corporateTenancyPct": 15.2
+    },
+    {
+      "code": "125",
+      "name": "RIGGAT AL BUTEEN",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "248",
+      "name": "AL QUSAIS IND. FIFTH",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "518",
+      "name": "JABAL ALI INDUSTRIAL SECOND",
+      "residentialContracts": 2065,
+      "corporateContracts": 126,
+      "corporateTenancyPct": 6.1
+    },
+    {
+      "code": "841",
+      "name": "MARGHAM",
+      "residentialContracts": 18,
+      "corporateContracts": 4,
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "676",
+      "name": "AL HEBIAH THIRD",
+      "residentialContracts": 14099,
+      "corporateContracts": 655,
+      "corporateTenancyPct": 4.6
+    },
+    {
+      "code": "316",
+      "name": "AL RAFFA",
+      "residentialContracts": 38246,
+      "corporateContracts": 4140,
+      "corporateTenancyPct": 10.8
+    },
+    {
+      "code": "961",
+      "name": "AL SELAL",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "673",
+      "name": "AL BARSHA SOUTH THIRD",
+      "residentialContracts": 31896,
+      "corporateContracts": 3830,
+      "corporateTenancyPct": 12.0
+    },
+    {
+      "code": "252",
+      "name": "MUSHRAIF",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "412",
+      "name": "AL KHEERAN",
+      "residentialContracts": 2738,
+      "corporateContracts": 278,
+      "corporateTenancyPct": 10.2
+    },
+    {
+      "code": "326",
+      "name": "AL JADAF",
+      "residentialContracts": 25179,
+      "corporateContracts": 779,
+      "corporateTenancyPct": 3.1
+    },
+    {
+      "code": "264",
+      "name": "MUHAISANAH SECOND",
+      "residentialContracts": 32056,
+      "corporateContracts": 31749,
+      "corporateTenancyPct": 99.0
+    },
+    {
+      "code": "677",
+      "name": "AL HEBIAH SIXTH",
+      "residentialContracts": 4869,
+      "corporateContracts": 97,
+      "corporateTenancyPct": 2.0
+    },
+    {
+      "code": "645",
+      "name": "WADI AL SAFA 3",
+      "residentialContracts": 14140,
+      "corporateContracts": 3774,
+      "corporateTenancyPct": 26.7
+    },
+    {
+      "code": "314",
+      "name": "UMM HURAIR FIRST",
+      "residentialContracts": 6105,
+      "corporateContracts": 1215,
+      "corporateTenancyPct": 19.9
+    },
+    {
+      "code": "372",
+      "name": "AL SAFOUH FIRST",
+      "residentialContracts": 5510,
+      "corporateContracts": 107,
+      "corporateTenancyPct": 1.9
+    },
+    {
+      "code": "304",
+      "name": "JUMEIRA ISLAND 2",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "342",
+      "name": "JUMEIRA SECOND",
+      "residentialContracts": 4162,
+      "corporateContracts": 368,
+      "corporateTenancyPct": 8.8
+    },
+    {
+      "code": "114",
+      "name": "AL BUTEEN",
+      "residentialContracts": 2247,
+      "corporateContracts": 263,
+      "corporateTenancyPct": 11.7
+    },
+    {
+      "code": "232",
+      "name": "AL QUSAIS FIRST",
+      "residentialContracts": 52728,
+      "corporateContracts": 1866,
+      "corporateTenancyPct": 3.5
+    },
+    {
+      "code": "347",
+      "name": "AL MERKADH",
+      "residentialContracts": 6698,
+      "corporateContracts": 174,
+      "corporateTenancyPct": 2.6
+    },
+    {
+      "code": "356",
+      "name": "UMM SUQEIM FIRST",
+      "residentialContracts": 4411,
+      "corporateContracts": 287,
+      "corporateTenancyPct": 6.5
+    },
+    {
+      "code": "365",
+      "name": "AL QOUZ IND.SECOND",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "918",
+      "name": "AL YUFRAH 3",
+      "residentialContracts": 1,
+      "corporateContracts": 0,
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "312",
+      "name": "AL SOUQ AL KABEER",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "631",
+      "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+      "residentialContracts": 16942,
+      "corporateContracts": 330,
+      "corporateTenancyPct": 1.9
+    },
+    {
+      "code": "911",
+      "name": "UMM NAHAD FIRST",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "268",
+      "name": "OUD AL MUTEENA THIRD",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "721",
+      "name": "AL AWIR SECOND",
+      "residentialContracts": 248,
+      "corporateContracts": 13,
+      "corporateTenancyPct": 5.2
+    },
+    {
+      "code": "221",
+      "name": "DUBAI INT'L AIRPORT",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "332",
+      "name": "JUMEIRA FIRST",
+      "residentialContracts": 10933,
+      "corporateContracts": 816,
+      "corporateTenancyPct": 7.5
+    },
+    {
+      "code": "821",
+      "name": "MEREIYEEL",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "241",
+      "name": "AL NAHDA SECOND",
+      "residentialContracts": 74713,
+      "corporateContracts": 4147,
+      "corporateTenancyPct": 5.6
+    },
+    {
+      "code": "424",
+      "name": "AL WARQA'A FOURTH",
+      "residentialContracts": 416,
+      "corporateContracts": 6,
+      "corporateTenancyPct": 1.4
+    },
+    {
+      "code": "283",
+      "name": "ALEYAS",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "681",
+      "name": "AL BARSHA SOUTH FOURTH",
+      "residentialContracts": 78969,
+      "corporateContracts": 6116,
+      "corporateTenancyPct": 7.7
+    },
+    {
+      "code": "501",
+      "name": "NAKHLAT JABAL ALI",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "724",
+      "name": "ENKHALI",
+      "corporateTenancyPct": null
+    },
+    {
+      "code": "394",
+      "name": "AL THANYAH  FOURTH",
+      "residentialContracts": 17079,
+      "corporateContracts": 794,
+      "corporateTenancyPct": 4.6
+    },
+    {
+      "code": "591",
+      "name": "JABAL ALI FIRST",
+      "residentialContracts": 115054,
+      "corporateContracts": 13556,
+      "corporateTenancyPct": 11.8
+    }
+  ]
+}
