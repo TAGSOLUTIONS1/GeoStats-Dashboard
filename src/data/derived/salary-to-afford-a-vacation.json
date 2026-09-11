@@ -1,0 +1,12 @@
+{
+  "id": "salary-to-afford-a-vacation",
+  "label": "Gross annual income needed to afford a typical annual holiday",
+  "unit": "aed",
+  "scope": "Dubai emirate",
+  "value": 163500.0,
+  "period": "2026 assumptions",
+  "source": "Average annual travel spend per UAE resident, AED 8,174 (Gulf News, citing a UAE travel spending survey). Corroborating scale: UAE summer holidays commonly run AED 3,000-8,000+ per person once flights, visas, hotels and transfers are counted.",
+  "note": "Assumes an annual holiday costing AED 8,174 and that discretionary travel should not exceed 5% of gross income. A DERIVED figure resting on those stated assumptions, not a measured statistic, and the 5% rule is a personal-finance convention rather than an official standard. Dubai-wide: it does not vary by community, and holiday cost varies enormously by destination and party size.",
+  "method": "annual holiday cost divided by the share of gross income allocated to travel",
+  "retrieved": "2026-09-11"
+}

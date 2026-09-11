@@ -1,0 +1,12 @@
+{
+  "id": "salary-to-afford-a-car",
+  "label": "Gross annual income needed to afford an average new car",
+  "unit": "aed",
+  "scope": "Dubai emirate",
+  "value": 166700.0,
+  "period": "2026 assumptions",
+  "source": "Average new car price in the UAE, AED 137,788 (YallaMotor UAE car price guide 2026). Loan terms from Emirates NBD Fixed Rate Auto Loan: 20% minimum down payment, maximum 60-month tenure, 5.06% p.a. reducing rate.",
+  "note": "Assumes a AED 137,788 car bought with a 20% down payment and the balance financed over 5 years at 5.06% p.a. reducing, giving a monthly payment of about AED 2,083, and that the payment should not exceed 15% of gross income. A DERIVED figure resting on those stated assumptions, not a measured statistic. Dubai-wide: a car costs the same in every community, so this does not vary by area. The UAE average is pulled upward by luxury models; economy cars start near AED 48,000.",
+  "method": "car price x (1 - down payment), amortised over the loan term, divided by the income share",
+  "retrieved": "2026-09-11"
+}

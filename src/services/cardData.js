@@ -16,6 +16,8 @@ import pctJune2022 from '../data/amp/percent-change-from-june-2022.json';
 import hv5y from '../data/dld18/home-value-growth-5year.json';
 import pctPeak from '../data/amp/percent-change-from-peak.json';
 import propertyTax from '../data/derived/property-tax-rate.json';
+import salaryCar from '../data/derived/salary-to-afford-a-car.json';
+import salaryVacation from '../data/derived/salary-to-afford-a-vacation.json';
 import educationAge from '../data/composite/education-plus-age.json';
 import incomeEmployment from '../data/composite/income-plus-employment.json';
 
@@ -110,6 +112,18 @@ const localDatasets = {
     value: propertyTax.value, period: propertyTax.period,
     note: propertyTax.note,
     source: 'Dubai Land Department FAQ / DLD fee schedule', isProxy: false,
+  },
+  'salary-to-afford-a-car': {
+    kind: 'value', label: salaryCar.label, unit: 'aed', scopeLabel: 'Dubai emirate',
+    value: salaryCar.value, period: salaryCar.period,
+    note: salaryCar.note,
+    source: salaryCar.source, isProxy: true,
+  },
+  'salary-to-afford-a-vacation': {
+    kind: 'value', label: salaryVacation.label, unit: 'aed', scopeLabel: 'Dubai emirate',
+    value: salaryVacation.value, period: salaryVacation.period,
+    note: salaryVacation.note,
+    source: salaryVacation.source, isProxy: true,
   },
   'two-bed-rental-price': {
     kind: 'value', label: twoBedRent.label, unit: 'aed', scopeLabel: 'Dubai emirate',

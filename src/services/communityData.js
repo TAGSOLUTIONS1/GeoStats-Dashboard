@@ -51,6 +51,7 @@ import affordabilityIndex from '../data/composite/affordability-index.json';
 import marketHealth from '../data/composite/housing-market-health-score.json';
 import schoolScore from '../data/composite/school-quality-score.json';
 import economicHealth from '../data/composite/economic-health-score.json';
+import neighborhoodAmenity from '../data/composite/neighborhood-quality-score.json';
 
 const GREEN = ['#e8f5e9', '#c8e6c9', '#81c784', '#4caf50', '#2e7d32', '#1b5e20'];
 // Safety is inverted: many incidents = bad, so the scale runs green -> red.
@@ -306,6 +307,17 @@ export const mapDataPoints = {
     stops: [34, 67, 75, 101, 124, 301],
     palette: BLUE,
     source: 'DLD transactions 2019–2023 (Kaggle mirror)',
+  },
+  'neighborhood-quality-score': {
+    dataset: neighborhoodAmenity,
+    property: 'Neighborhood_AmenityScore',
+    metric: 'score',
+    labelDigits: 0,
+    labelSuffix: '',
+    label: 'Neighbourhood amenity score (0–100, percentile composite)',
+    stops: [0, 28, 42, 57, 75, 96],
+    palette: GREEN,
+    source: 'OpenStreetMap (Overpass, Sep 2026)',
   },
   'corporate-tenancy-share': {
     dataset: corporateTenancy,
