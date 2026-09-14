@@ -18,6 +18,7 @@ import pctPeak from '../data/amp/percent-change-from-peak.json';
 import propertyTax from '../data/derived/property-tax-rate.json';
 import salaryCar from '../data/derived/salary-to-afford-a-car.json';
 import salaryVacation from '../data/derived/salary-to-afford-a-vacation.json';
+import transportCost from '../data/derived/transport-cost.json';
 import educationAge from '../data/composite/education-plus-age.json';
 import incomeEmployment from '../data/composite/income-plus-employment.json';
 
@@ -124,6 +125,12 @@ const localDatasets = {
     value: salaryVacation.value, period: salaryVacation.period,
     note: salaryVacation.note,
     source: salaryVacation.source, isProxy: true,
+  },
+  'average-transportation-cost': {
+    kind: 'value', label: transportCost.label, unit: 'aed', scopeLabel: 'Dubai emirate',
+    value: transportCost.value, period: transportCost.period,
+    note: transportCost.note,
+    source: 'RTA Nol fare table (official)', isProxy: false,
   },
   'two-bed-rental-price': {
     kind: 'value', label: twoBedRent.label, unit: 'aed', scopeLabel: 'Dubai emirate',

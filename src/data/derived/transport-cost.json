@@ -1,0 +1,25 @@
+{
+ "id": "average-transportation-cost",
+ "label": "Monthly public transport pass, all zones (AED)",
+ "unit": "aed",
+ "scope": "Dubai emirate",
+ "value": 350,
+ "period": "RTA fare table as published, retrieved 2026-09-14",
+ "source": "Roads and Transport Authority, Nol Fares page (rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares)",
+ "fares": {
+  "singleTrip": {
+   "oneZone": 4,
+   "twoZones": 6,
+   "moreThanTwoZones": 8.5
+  },
+  "pass30Day": {
+   "oneZone": 140,
+   "twoZones": 230,
+   "allZones": 350
+  },
+  "pass7DayAllZones": 110,
+  "pass365DayAllZones": 2670,
+  "cardType": "silver (standard) Nol card; gold class is double; students and seniors 50% off"
+ },
+ "note": "The RTA 30-day Nol pass for all zones on a standard silver card. Single trips cost 4, 6 or 8.50 AED depending on zones crossed. A Dubai-wide public transport reference cost, not a per-community figure and not a car-ownership cost (fuel, Salik tolls, insurance are excluded)."
+}

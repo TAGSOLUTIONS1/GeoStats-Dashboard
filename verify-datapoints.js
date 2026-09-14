@@ -164,6 +164,7 @@ const cards = [
   ['two-bed-rental-price', 'src/data/dldx/two-bed-rental-price.json'],
   ['percent-crash-from-2007-12', 'src/data/amp/percent-change-from-peak.json'],
   ['property-tax-rate', 'src/data/derived/property-tax-rate.json'],
+  ['average-transportation-cost', 'src/data/derived/transport-cost.json'],
   ['poverty-rate', 'src/data/hdx/poverty.json'],
   ['home-sales-growth-yoy', 'src/data/dld18/home-sales-growth-yoy.json'],
   ['employment-growth', 'src/data/worldbank/employment-growth.json'],
