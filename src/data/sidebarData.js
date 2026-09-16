@@ -57,7 +57,7 @@ const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'A forecast of the future direction of home prices in the area based on the most recent trends in the local housing market. The Home Price Forecast is calculated by using a proprietary algorithm that analyzes the most recent trends in the local housing market.',
-    source: 'Zillow',
+    source: 'In-house models (bundled, held: 77% predict a fall against live growth)',
     Upcoming: true,
   },
   {
@@ -101,7 +101,7 @@ const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'The percentage of total listings that had a price reduction in each month. If more sellers are cutting the price compared to historical norms, it could be a signal that home prices will drop in future months.',
-    source: 'Zillow',
+    source: 'Listings change-history feed (pending purchase)',
     Upcoming: true,
   },
   {
@@ -244,7 +244,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The year-over-year growth rate in the area\'s For Sale Inventory. If an area has big inventory increases, it could mean greater likelihood of home price declines, while sharply lower inventory could mean that home prices will continue to go up.',
-    source:'Zillow',
+    source:'Listings change-history feed (pending purchase)',
     Upcoming: true,
   },
   {
@@ -255,7 +255,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'Comparing the inventory of active listings in the most recent month compared to the long-term average for that month. This metric will you help you understand if inventory in your area is "high" or "low" compared to the long-run norm. Areas with more inventory than normal could be more exposed to price declines in the future. While areas with less inventory could experience more stable prices, or prices going up.',
-    source:'Zillow',
+    source:'Listings change-history feed (pending purchase)',
     Upcoming: true,
   },
   {
@@ -277,7 +277,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The year-over-year growth rate in the area\'s median Days on the Market.',
-    source:'Zillow',
+    source:'Listings change-history feed (pending purchase)',
     Upcoming: true,
   },
   {
@@ -288,7 +288,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The number of Homes currently For Sale divided by the total numbers of owned Homes in the area.',
-    source:'Zillow',
+    source:'DLD Units/Buildings via Dubai Pulse (pending API credentials)',
     Upcoming: true,
   },
   {
@@ -321,7 +321,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium: false, 
     description: "Number of for-sale listings posted in the 30 days before the snapshot date (25 April 2024), per community, from Bayut listings matched to communities by Bayut area name (Bayut publishes one placeholder coordinate per area, not per listing). A single snapshot from one portal, so read it as relative volume, not a complete count, and it carries no history for growth rates. Re-posted listings count as new. Communities with fewer than 10 listings are not shown.",
-    source: "Bayut listings snapshot, Apr 2024 (Hugging Face mirror)",
+    source: 'Listings change-history feed (pending purchase)',
     Upcoming: false,
   },
   {
@@ -332,7 +332,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The year-over-year growth rate in new seller listings in a given geographic area. The higher the growth rate in New Listings, the more likely it is that inventory will increase and prices decline. Moreover, if New Listings are on a sharp decline, that could eventually translate into a lack of inventory and more stable or growing prices.',
-    source:'Zillow',
+    source:'Listings change-history feed (pending purchase)',
     Upcoming: true,
   },
   {
@@ -343,7 +343,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The month-over-month growth rate in the area\'s For Sale Inventory. Note that the monthly growth rate in inventory is heavily influenced by seasonality in the local Housing Market.',
-    source:'Zillow',
+    source:'Listings change-history feed (pending purchase)',
     Upcoming: true,
   },
   {
@@ -387,7 +387,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The percentage of the workforce in the area that works remotely, which can influence housing demand and market dynamics.',
-    source:'Zillow',
+    source:'DSC Household Income & Expenditure Survey (emirate-level only)',
     Upcoming: true,
   },
   {
@@ -420,7 +420,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The percentage of Households that own their homes in the local area according to official UAE statistics.',
-    source:'Zillow',
+    source:'DSC Household Income & Expenditure Survey (emirate-level only)',
     Upcoming: true,
   },
   {
@@ -431,7 +431,7 @@ const dataPoints = [
     isSelected:false,
     isPremium:true,
     description:'The percentage of Housing Units in the area that are vacant, indicating housing market conditions and availability.',
-    source:'Zillow',
+    source:'No source: no official Dubai vacancy statistic is published',
     Upcoming: true,
   },
   {
@@ -530,7 +530,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The percentage of rental housing units in the area that are vacant, indicating rental market conditions and availability.',
-    source:'Zillow',
+    source:'No source: no official Dubai vacancy statistic is published',
     Upcoming: true,
   },
   {
@@ -552,7 +552,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The number of vacant housing units in the area divided by total housing units.',
-    source:'Zillow',
+    source:'No source: no official Dubai vacancy statistic is published',
     Upcoming: true,
   },
   {
@@ -585,7 +585,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The share of owned-houses that are seasonally vacant and/or owned by absentee owners. Areas with higher Shadow Inventory could be more prone to home price volatility and declines during a Recession. Shadow Inventory tends to be higher in vacation and 2nd homes destinations.',
-    source:'Zillow',
+    source:'No UAE equivalent of this metric',
     Upcoming: true,
   },
   {
@@ -596,7 +596,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The percentage of homes in the area that are in foreclosure, providing insight into local economic conditions and housing market stress.',
-    source:'Zillow',
+    source:'No source at scale: DLD eMart auctions ~15-20 properties per quarter',
     Upcoming: true,
   },
   {
@@ -607,7 +607,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description: "Projected change in home values for the coming year in the UAE housing market, based on historical and current market conditions.",
-    source:'Zillow',
+    source:'DUPLICATE DEFINITION - dead code, getDataPointById returns the first',
     Upcoming: true,
   },
   {
@@ -629,7 +629,7 @@ const dataPoints = [
     isSelected:false, 
     isPremium:true, 
     description:'The average debt-to-income ratio for residents in the area, indicating overall financial health and borrowing capacity.',
-    source:'Zillow',
+    source:'No source: Al Etihad Credit Bureau publishes no aggregate statistics',
     Upcoming: true,
   },
   {
@@ -772,7 +772,7 @@ const dataPoints = [
     isSelected: false, 
     isPremium: true, 
     description: 'Count of new listings added in the most recent month.', 
-    source: 'Zillow',
+    source: 'Listings change-history feed (pending purchase)',
     Upcoming: true,
   },
   {
@@ -805,7 +805,7 @@ const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'The average cost of transportation in the area.',
-    source: 'Zillow',
+    source: "Roads and Transport Authority (RTA) Nol fare table",
     Upcoming: true,
   },
   {
@@ -827,7 +827,7 @@ const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'The average cost of groceries in the area.',
-    source: 'Zillow',
+    source: 'No source: World Bank has no food CPI sub-index for the UAE',
     Upcoming: true,
   },
   {
@@ -838,7 +838,7 @@ const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: 'The average cost of clothing in the area.',
-    source: 'Zillow',
+    source: 'No source: World Bank has no clothing CPI sub-index for the UAE',
     Upcoming: true,
   },
   {
@@ -982,7 +982,7 @@ const dataPoints = [
     isSelected: false,
     isPremium: true,
     description: "Availability of elderly care services, nursing homes, and senior community centers. Ensures quality of life for aging population.",
-    source: 'UAE Health & Social Services',
+    source: 'No source: OSM holds ~17 mis-tagged records; CDA publishes no facility list',
     Upcoming: true,
   },
   {
