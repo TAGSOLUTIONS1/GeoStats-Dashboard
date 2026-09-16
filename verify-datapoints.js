@@ -91,6 +91,7 @@ const layers = [
   ['emergency-services-response-time', 'src/data/osm/emergency-proximity.json', 'avgKm'],
   ['livability-score', 'src/data/composite/livability-score.json', 'score'],
   ['cultural-diversity-index', 'src/data/schools/cultural-diversity-index.json', 'index'],
+  ['senior-care-facilities', 'src/data/dha/senior-care-facilities.json', 'count'],
   ['community-engagement-index', 'src/data/osm/community-facilities.json', 'per10kPeople'],
   ['days-on-market', 'src/data/bayut/days-on-market.json', 'medianDaysListed'],
   ['mortgaged-home-percent', 'src/data/dld/mortgage-registrations-by-community.json', 'mortgagesPer100Sales'],

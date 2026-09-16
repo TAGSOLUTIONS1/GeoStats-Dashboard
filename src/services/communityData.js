@@ -52,6 +52,7 @@ import marketHealth from '../data/composite/housing-market-health-score.json';
 import schoolScore from '../data/composite/school-quality-score.json';
 import economicHealth from '../data/composite/economic-health-score.json';
 import neighborhoodAmenity from '../data/composite/neighborhood-quality-score.json';
+import seniorCare from '../data/dha/senior-care-facilities.json';
 
 const GREEN = ['#e8f5e9', '#c8e6c9', '#81c784', '#4caf50', '#2e7d32', '#1b5e20'];
 // Safety is inverted: many incidents = bad, so the scale runs green -> red.
@@ -351,6 +352,17 @@ export const mapDataPoints = {
     stops: [0.05, 0.95, 2.27, 4.54, 9.71, 32.01],
     palette: GREEN,
     source: 'OpenStreetMap (Overpass, Sep 2026) + DSC population',
+  },
+  'senior-care-facilities': {
+    dataset: seniorCare,
+    property: 'SeniorCare_Providers',
+    metric: 'count',
+    labelDigits: 0,
+    labelSuffix: '',
+    label: 'Senior & home-care providers based in the community (DHA-licensed)',
+    stops: [1, 2, 3, 5, 10, 44],
+    palette: BLUE,
+    source: 'Dubai Health Authority licensed-facility register, Sep 2026',
   },
   'cultural-diversity-index': {
     dataset: culturalDiversity,

@@ -1,0 +1,2307 @@
+{
+ "id": "senior-care-facilities",
+ "label": "Senior and home-care providers (DHA-licensed)",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "metric": "count",
+ "source": "Dubai Health Authority, Sheryan medical directory (public licensed-facility register): categories \"Home Healthcare Center\" and \"Convalescence House\"",
+ "sourceUrl": "https://services.dha.gov.ae/sheryan/wps/portal/home/medical-directory",
+ "retrieved": "2026-09-16",
+ "period": "current licence register (Sep 2026 snapshot)",
+ "method": "Count of DHA-licensed home healthcare centres and convalescence houses (residential long-term care) located in the community. Facilities were placed by their registered coordinates, or by their DHA area name where coordinates were missing. Communities with no such facility are null.",
+ "limitation": "Home healthcare centres deliver care across Dubai from an office, so the count shows where providers are BASED, not where care is available; a community with none is still served. Only 6 convalescence houses are licensed in Dubai (WADI AL SAFA 7 (1), AL SAFA SECOND (2), AL MAMZAR (1), ABU HAIL (1), MUHAISANAH SECOND (1)). Dedicated elderly day-care and senior community centres are not a DHA licence category and are not counted. 37 registered providers with neither usable coordinates nor a recognisable area name are excluded.",
+ "facilitiesTotal": 212,
+ "homeHealthcareCentres": 206,
+ "convalescenceHouses": 6,
+ "communitiesWithData": 52,
+ "stops": [
+  1,
+  2,
+  3,
+  5,
+  10,
+  44
+ ],
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 12,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 9627,
+   "per10kPeople": 1.04,
+   "count": 1
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 25365,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 1011,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 20704,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 9527,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2529,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "homeHealthcareCentres": 3,
+   "convalescenceHouses": 0,
+   "facilities": 3,
+   "population": 73879,
+   "per10kPeople": 0.41,
+   "count": 3
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 616,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 206,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 16759,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "homeHealthcareCentres": 4,
+   "convalescenceHouses": 0,
+   "facilities": 4,
+   "population": 2042,
+   "per10kPeople": null,
+   "count": 4
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 12699,
+   "per10kPeople": 0.79,
+   "count": 1
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "homeHealthcareCentres": 3,
+   "convalescenceHouses": 0,
+   "facilities": 3,
+   "population": 13137,
+   "per10kPeople": 2.28,
+   "count": 3
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 11439,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 10412,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 671,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 195,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 11279,
+   "per10kPeople": 0.89,
+   "count": 1
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 8,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 1851,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 90,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 1,
+   "facilities": 1,
+   "population": 9358,
+   "per10kPeople": 1.07,
+   "count": 1,
+   "convalescenceNames": [
+    "Qaryat sanad rehabilitation resort"
+   ]
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 6031,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 9228,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 38408,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "homeHealthcareCentres": 3,
+   "convalescenceHouses": 0,
+   "facilities": 3,
+   "population": 50697,
+   "per10kPeople": 0.59,
+   "count": 3
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "homeHealthcareCentres": 2,
+   "convalescenceHouses": 0,
+   "facilities": 2,
+   "population": 21751,
+   "per10kPeople": 0.92,
+   "count": 2
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2613,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 0,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 7685,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3017,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 14761,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3283,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2838,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 68346,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 2,
+   "facilities": 2,
+   "population": 7207,
+   "per10kPeople": 2.78,
+   "count": 2,
+   "convalescenceNames": [
+    "Dubai Physiotherapy and Rehabilitation center- Dubai Health",
+    "Emirates Hospitals Rehabilitation And Homecare Services Llc Branch"
+   ]
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 12403,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 5184,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2670,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 8809,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3425,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2932,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 218,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "homeHealthcareCentres": 2,
+   "convalescenceHouses": 0,
+   "facilities": 2,
+   "population": 53403,
+   "per10kPeople": 0.37,
+   "count": 2
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 1617,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "homeHealthcareCentres": 2,
+   "convalescenceHouses": 0,
+   "facilities": 2,
+   "population": 42056,
+   "per10kPeople": 0.48,
+   "count": 2
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 19268,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 775,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 0,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 5292,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "homeHealthcareCentres": 5,
+   "convalescenceHouses": 0,
+   "facilities": 5,
+   "population": 11068,
+   "per10kPeople": 4.52,
+   "count": 5
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 6609,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 4,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 58,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 4,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 13787,
+   "per10kPeople": 0.73,
+   "count": 1
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 85,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "homeHealthcareCentres": 2,
+   "convalescenceHouses": 0,
+   "facilities": 2,
+   "population": 85080,
+   "per10kPeople": 0.24,
+   "count": 2
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "homeHealthcareCentres": 4,
+   "convalescenceHouses": 0,
+   "facilities": 4,
+   "population": 50559,
+   "per10kPeople": 0.79,
+   "count": 4
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 50,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 0,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "homeHealthcareCentres": 8,
+   "convalescenceHouses": 0,
+   "facilities": 8,
+   "population": 26279,
+   "per10kPeople": 3.04,
+   "count": 8
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 4684,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 1798,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 13502,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "homeHealthcareCentres": 2,
+   "convalescenceHouses": 0,
+   "facilities": 2,
+   "population": 12227,
+   "per10kPeople": 1.64,
+   "count": 2
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 26115,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 170,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 10660,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 21686,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 13295,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 7935,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2176,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 0,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 447,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "homeHealthcareCentres": 3,
+   "convalescenceHouses": 1,
+   "facilities": 4,
+   "population": 16901,
+   "per10kPeople": 2.37,
+   "count": 4,
+   "convalescenceNames": [
+    "Americare LLC Dubai Branch",
+    "TOP ROYAL HOME HEALTH CARE CENTER L L C",
+    "TRUSTMEDICAL HOME HEALTH CARE CENTER"
+   ]
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 1,
+   "facilities": 2,
+   "population": 18116,
+   "per10kPeople": 1.1,
+   "count": 2,
+   "convalescenceNames": [
+    "Emirates Hospitals Rehabilitation And Homecare Services LLC",
+    "Emirates Hospitals Rehabilitation And Homcare Services L L C Convalescence House"
+   ]
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 36338,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 17526,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3968,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 11010,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 7,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 5655,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 14476,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "homeHealthcareCentres": 2,
+   "convalescenceHouses": 0,
+   "facilities": 2,
+   "population": 8440,
+   "per10kPeople": 2.37,
+   "count": 2
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2008,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 38611,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 12638,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 6872,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 33484,
+   "per10kPeople": 0.3,
+   "count": 1
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3633,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 90,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2494,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 4,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 47,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3365,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 4938,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 63804,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 25550,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 8143,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 16873,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 5953,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 13946,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 4291,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 5885,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3119,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 39092,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 1317,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 11318,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "homeHealthcareCentres": 2,
+   "convalescenceHouses": 0,
+   "facilities": 2,
+   "population": 4715,
+   "per10kPeople": null,
+   "count": 2
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 37,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 301,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 22442,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 56,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 0,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "homeHealthcareCentres": 2,
+   "convalescenceHouses": 0,
+   "facilities": 2,
+   "population": 58965,
+   "per10kPeople": 0.34,
+   "count": 2
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3378,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 348,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 15,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 169,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 7,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 1259,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 20139,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "homeHealthcareCentres": 4,
+   "convalescenceHouses": 0,
+   "facilities": 4,
+   "population": 15874,
+   "per10kPeople": 2.52,
+   "count": 4
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 11530,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "homeHealthcareCentres": 9,
+   "convalescenceHouses": 0,
+   "facilities": 9,
+   "population": 18014,
+   "per10kPeople": 5,
+   "count": 9
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 4997,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 29,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 15867,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 300,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "homeHealthcareCentres": 4,
+   "convalescenceHouses": 0,
+   "facilities": 4,
+   "population": 40456,
+   "per10kPeople": 0.99,
+   "count": 4
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 15901,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 21942,
+   "per10kPeople": 0.46,
+   "count": 1
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 143,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "homeHealthcareCentres": 3,
+   "convalescenceHouses": 0,
+   "facilities": 3,
+   "population": 28561,
+   "per10kPeople": 1.05,
+   "count": 3
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 21842,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 218,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 18520,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 7350,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 199780,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 3645,
+   "per10kPeople": null,
+   "count": 1
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "homeHealthcareCentres": 18,
+   "convalescenceHouses": 0,
+   "facilities": 18,
+   "population": 14425,
+   "per10kPeople": 12.48,
+   "count": 18
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "homeHealthcareCentres": 44,
+   "convalescenceHouses": 0,
+   "facilities": 44,
+   "population": 42332,
+   "per10kPeople": 10.39,
+   "count": 44
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 595,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3519,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 15716,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "homeHealthcareCentres": 15,
+   "convalescenceHouses": 0,
+   "facilities": 15,
+   "population": 24410,
+   "per10kPeople": 6.15,
+   "count": 15
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "homeHealthcareCentres": 5,
+   "convalescenceHouses": 0,
+   "facilities": 5,
+   "population": 49276,
+   "per10kPeople": 1.01,
+   "count": 5
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 22291,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 18664,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 13,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "homeHealthcareCentres": 6,
+   "convalescenceHouses": 0,
+   "facilities": 6,
+   "population": 77139,
+   "per10kPeople": 0.78,
+   "count": 6
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 26803,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 17898,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 14789,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 403,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 7997,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 40958,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 113,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 12239,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 10418,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "homeHealthcareCentres": 9,
+   "convalescenceHouses": 0,
+   "facilities": 9,
+   "population": 20168,
+   "per10kPeople": 4.46,
+   "count": 9
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 5746,
+   "per10kPeople": 1.74,
+   "count": 1
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 507,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 1415,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "homeHealthcareCentres": 3,
+   "convalescenceHouses": 0,
+   "facilities": 3,
+   "population": 22143,
+   "per10kPeople": 1.35,
+   "count": 3
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 0,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 10205,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 7024,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 80537,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 101,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 10806,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "homeHealthcareCentres": 5,
+   "convalescenceHouses": 0,
+   "facilities": 5,
+   "population": 63591,
+   "per10kPeople": 0.79,
+   "count": 5
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "homeHealthcareCentres": 3,
+   "convalescenceHouses": 0,
+   "facilities": 3,
+   "population": 108637,
+   "per10kPeople": 0.28,
+   "count": 3
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 22829,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 41745,
+   "per10kPeople": 0.24,
+   "count": 1
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 8923,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 8842,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 7687,
+   "per10kPeople": 1.3,
+   "count": 1
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 7032,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 28152,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 1230,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 7419,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "homeHealthcareCentres": 2,
+   "convalescenceHouses": 0,
+   "facilities": 2,
+   "population": 49440,
+   "per10kPeople": 0.4,
+   "count": 2
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 685,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "homeHealthcareCentres": 3,
+   "convalescenceHouses": 0,
+   "facilities": 3,
+   "population": 8660,
+   "per10kPeople": 3.46,
+   "count": 3
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 81,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 5333,
+   "per10kPeople": 1.88,
+   "count": 1
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 7477,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 1,
+   "facilities": 1,
+   "population": 150710,
+   "per10kPeople": 0.07,
+   "count": 1,
+   "convalescenceNames": [
+    "Muhaisnah Monitoring Medical Center – Dubai Health"
+   ]
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2483,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 10475,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 6611,
+   "per10kPeople": 1.51,
+   "count": 1
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 4779,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 10876,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3081,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 49504,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 3875,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 12720,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 129757,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 1754,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "homeHealthcareCentres": 2,
+   "convalescenceHouses": 0,
+   "facilities": 2,
+   "population": 53055,
+   "per10kPeople": 0.38,
+   "count": 2
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 4692,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 8,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 7222,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 6060,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 121,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "homeHealthcareCentres": 2,
+   "convalescenceHouses": 0,
+   "facilities": 2,
+   "population": 21914,
+   "per10kPeople": 0.91,
+   "count": 2
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 425,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 65947,
+   "per10kPeople": 0.15,
+   "count": 1
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 14575,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 1858,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "homeHealthcareCentres": 1,
+   "convalescenceHouses": 0,
+   "facilities": 1,
+   "population": 29373,
+   "per10kPeople": 0.34,
+   "count": 1
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 5,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 2,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "homeHealthcareCentres": 0,
+   "convalescenceHouses": 0,
+   "facilities": 0,
+   "population": 28990,
+   "per10kPeople": null,
+   "count": null
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "homeHealthcareCentres": 5,
+   "convalescenceHouses": 0,
+   "facilities": 5,
+   "population": 78243,
+   "per10kPeople": 0.64,
+   "count": 5
+  }
+ ],
+ "droppedNoLocation": 37
+}
