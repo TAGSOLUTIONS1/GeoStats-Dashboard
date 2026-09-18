@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { X, Download, ChevronDown, ArrowUpDown, ArrowDownUp, Crown } from 'lucide-react';
+import { X, Download, ChevronDown, ArrowUpDown, ArrowDownUp, Crown, FileText, Loader2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import {
   tableBackedIds,
@@ -10,6 +10,7 @@ import {
   toCsv,
 } from '../../services/tableData';
 import { dataSections } from '../../data/sidebarData';
+import { downloadReportPdf } from '../../services/exportData';
 
 const TableViewModal = ({ isOpen, onClose }) => {
   // Open ranked by the first value column, highest first, so the top of the
@@ -23,7 +24,11 @@ const TableViewModal = ({ isOpen, onClose }) => {
   // point can be picked; the cells follow the choice.
   const [columnIds, setColumnIds] = useState(defaultColumnIds);
   const [expandedSections, setExpandedSections] = useState({});
+  // PDF generation walks every data point, so it needs a progress state.
+  const [pdfBusy, setPdfBusy] = useState(null);
+  const [exportMenuOpen, setExportMenuOpen] = useState(false);
   const dropdownRef = useRef(null);
+  const exportRef = useRef(null);
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -41,6 +46,15 @@ const TableViewModal = ({ isOpen, onClose }) => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [activeDropdown]);
+
+  // Same for the export menu.
+  useEffect(() => {
+    const onOutside = (e) => {
+      if (exportRef.current && !exportRef.current.contains(e.target)) setExportMenuOpen(false);
+    };
+    if (exportMenuOpen) document.addEventListener('mousedown', onOutside);
+    return () => document.removeEventListener('mousedown', onOutside);
+  }, [exportMenuOpen]);
 
   const rows = useMemo(() => buildRows(columnIds), [columnIds]);
 
@@ -124,11 +138,30 @@ const TableViewModal = ({ isOpen, onClose }) => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'geostats-community-table.csv';
+    a.download = `geostats-community-table-${new Date().toISOString().slice(0, 10)}.csv`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
+    setExportMenuOpen(false);
+  };
+
+  // scope 'current' = just the chosen columns; 'full' = every live data point.
+  const handlePdf = async (scope) => {
+    setExportMenuOpen(false);
+    setPdfBusy({ scope, done: 0, total: 0, label: 'Preparing' });
+    try {
+      await downloadReportPdf({
+        scope,
+        columnIds,
+        onProgress: (done, total, label) => setPdfBusy({ scope, done, total, label }),
+      });
+    } catch (err) {
+      console.error('PDF export failed', err);
+      window.alert('The PDF could not be generated. Please try again.');
+    } finally {
+      setPdfBusy(null);
+    }
   };
 
   const totalPages = Math.max(1, Math.ceil(sortedData.length / rowsPerPage));
@@ -162,13 +195,76 @@ const TableViewModal = ({ isOpen, onClose }) => {
             <h2 className="text-sm md:text-base lg:text-lg font-bold text-gray-900 font-tomorrow">GeoStats Table View - Community</h2>
           </div>
           <div className="flex items-center space-x-3">
-            <button
-              onClick={handleDownload}
-              className="px-2 sm:px-3 py-1.5 bg-azure text-white text-[8px] sm:text-xs font-medium rounded-lg hover:bg-azure-dark transition-colors flex items-center space-x-2"
-            >
-              <Download className="w-3 h-3" />
-              <span>Download Report</span>
-            </button>
+            <div className="relative" ref={exportRef}>
+              <button
+                onClick={() => setExportMenuOpen((v) => !v)}
+                disabled={!!pdfBusy}
+                aria-haspopup="menu"
+                aria-expanded={exportMenuOpen}
+                className="px-2 sm:px-3 py-1.5 bg-azure text-white text-[8px] sm:text-xs font-medium rounded-lg hover:bg-azure-dark disabled:opacity-60 disabled:cursor-wait transition-colors flex items-center space-x-2"
+              >
+                {pdfBusy ? (
+                  <Loader2 className="w-3 h-3 animate-spin" />
+                ) : (
+                  <Download className="w-3 h-3" />
+                )}
+                <span>
+                  {pdfBusy
+                    ? pdfBusy.total
+                      ? `Building PDF ${pdfBusy.done}/${pdfBusy.total}`
+                      : 'Preparing PDF'
+                    : 'Download Report'}
+                </span>
+                {!pdfBusy && <ChevronDown className="w-3 h-3" />}
+              </button>
+
+              {exportMenuOpen && !pdfBusy && (
+                <div
+                  role="menu"
+                  className="absolute right-0 mt-1 w-72 bg-white border border-gray-200 rounded-lg shadow-xl z-50 overflow-hidden"
+                >
+                  <button
+                    role="menuitem"
+                    onClick={handleDownload}
+                    className="w-full text-left px-3 py-2.5 hover:bg-gray-50 flex items-start gap-2.5 border-b border-gray-100"
+                  >
+                    <Download className="w-3.5 h-3.5 text-azure mt-0.5 shrink-0" />
+                    <span>
+                      <span className="block text-xs font-semibold text-blue">CSV — this table</span>
+                      <span className="block text-[10px] text-gray-500 leading-snug">
+                        The {columnIds.length} chosen columns, {sortedData.length} rows, with a source line per column.
+                      </span>
+                    </span>
+                  </button>
+                  <button
+                    role="menuitem"
+                    onClick={() => handlePdf('current')}
+                    className="w-full text-left px-3 py-2.5 hover:bg-gray-50 flex items-start gap-2.5 border-b border-gray-100"
+                  >
+                    <FileText className="w-3.5 h-3.5 text-azure mt-0.5 shrink-0" />
+                    <span>
+                      <span className="block text-xs font-semibold text-blue">PDF — this table</span>
+                      <span className="block text-[10px] text-gray-500 leading-snug">
+                        The chosen columns as a ranked report, each with its source, period and limitation.
+                      </span>
+                    </span>
+                  </button>
+                  <button
+                    role="menuitem"
+                    onClick={() => handlePdf('full')}
+                    className="w-full text-left px-3 py-2.5 hover:bg-gray-50 flex items-start gap-2.5"
+                  >
+                    <FileText className="w-3.5 h-3.5 text-orange mt-0.5 shrink-0" />
+                    <span>
+                      <span className="block text-xs font-semibold text-blue">PDF — full data report</span>
+                      <span className="block text-[10px] text-gray-500 leading-snug">
+                        Every live data point with its provenance and full ranked table. Large file, takes a few seconds.
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              )}
+            </div>
             <button
               onClick={onClose}
               className="p-2 hover:bg-gray-200 bg-gray-100 rounded-lg transition-colors"

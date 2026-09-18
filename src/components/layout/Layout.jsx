@@ -3,6 +3,7 @@ import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, Graduatio
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
 import TableViewModal from '../ui/TableViewModal';
+import MapExportMenu from '../ui/MapExportMenu';
 import DatePicker from '../ui/DatePicker';
 import FeedbackModal from '../ui/FeedbackModal';
 import ShareModal from '../ui/ShareModal';
@@ -1177,6 +1178,11 @@ const Layout = ({ children }) => {
               <Table className="w-4 h-4 text-gray-600" />
               <span className="text-sm text-gray-700 ">Table View</span>
             </button>
+          </div>
+
+          {/* Export the painted layer, every layer, or the full PDF report */}
+          <div className="flex items-center">
+            <MapExportMenu dataPointId={currentDataPoint} />
           </div>
           <div className="">
               <DatePicker 
