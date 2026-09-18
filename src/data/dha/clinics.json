@@ -1,0 +1,1608 @@
+{
+ "id": "clinics-per-10k",
+ "label": "Licensed clinics per 10,000 residents",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "metric": "per10kPeople",
+ "source": "Dubai Health Authority Sheryan licensed-facility register, categories \"Polyclinic (Multiple Specialties)\", \"General Clinic\" and \"General Dental Clinic\"; population from Dubai Statistics Center 2022",
+ "sourceUrl": "https://services.dha.gov.ae/sheryan/wps/portal/home/medical-directory",
+ "retrieved": "2026-09-18",
+ "period": "current licence register (Sep 2026 snapshot)",
+ "method": "Count of DHA-licensed polyclinics, general clinics and general dental clinics in the community (placed by registered coordinates, or by DHA area name where coordinates were missing) per 10,000 residents. Communities with fewer than 5,000 residents or no clinic are null.",
+ "limitation": "Specialty clinics, hospitals and pharmacies are excluded (hospitals have their own layer). Commercial districts with few residents show high ratios because clinics serve workers and visitors too.",
+ "facilitiesPlaced": 1838,
+ "facilitiesDropped": 238,
+ "communitiesWithData": 119,
+ "stops": [
+  0.52,
+  1.49,
+  2.45,
+  4.97,
+  11.5,
+  121.82
+ ],
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "clinics": 0,
+   "population": 12,
+   "per10kPeople": null
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "clinics": 5,
+   "population": 9627,
+   "per10kPeople": 5.19
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "clinics": 3,
+   "population": 25365,
+   "per10kPeople": 1.18
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "clinics": 2,
+   "population": 1011,
+   "per10kPeople": null
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "clinics": 5,
+   "population": 20704,
+   "per10kPeople": 2.41
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "clinics": 7,
+   "population": 9527,
+   "per10kPeople": 7.35
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "clinics": 1,
+   "population": 2529,
+   "per10kPeople": null
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "clinics": 56,
+   "population": 73879,
+   "per10kPeople": 7.58
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "clinics": 0,
+   "population": 616,
+   "per10kPeople": null
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "clinics": 0,
+   "population": 206,
+   "per10kPeople": null
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "clinics": 8,
+   "population": 16759,
+   "per10kPeople": 4.77
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "clinics": 2,
+   "population": 2042,
+   "per10kPeople": null
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "clinics": 3,
+   "population": 12699,
+   "per10kPeople": 2.36
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "clinics": 13,
+   "population": 13137,
+   "per10kPeople": 9.9
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "clinics": 0,
+   "population": 11439,
+   "per10kPeople": null
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "clinics": 1,
+   "population": 10412,
+   "per10kPeople": 0.96
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "clinics": 0,
+   "population": 671,
+   "per10kPeople": null
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "clinics": 0,
+   "population": 195,
+   "per10kPeople": null
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "clinics": 17,
+   "population": 11279,
+   "per10kPeople": 15.07
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "clinics": 0,
+   "population": 8,
+   "per10kPeople": null
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "clinics": 0,
+   "population": 1851,
+   "per10kPeople": null
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "clinics": 0,
+   "population": 90,
+   "per10kPeople": null
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "clinics": 2,
+   "population": 9358,
+   "per10kPeople": 2.14
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "clinics": 1,
+   "population": 6031,
+   "per10kPeople": 1.66
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "clinics": 21,
+   "population": 9228,
+   "per10kPeople": 22.76
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "clinics": 6,
+   "population": 38408,
+   "per10kPeople": 1.56
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "clinics": 17,
+   "population": 50697,
+   "per10kPeople": 3.35
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "clinics": 9,
+   "population": 21751,
+   "per10kPeople": 4.14
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "clinics": 3,
+   "population": 2613,
+   "per10kPeople": null
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "clinics": 1,
+   "population": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "clinics": 1,
+   "population": 7685,
+   "per10kPeople": 1.3
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "clinics": 3,
+   "population": 3017,
+   "per10kPeople": null
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "clinics": 2,
+   "population": 14761,
+   "per10kPeople": 1.35
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "clinics": 0,
+   "population": 3283,
+   "per10kPeople": null
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "clinics": 1,
+   "population": 2838,
+   "per10kPeople": null
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "clinics": 58,
+   "population": 68346,
+   "per10kPeople": 8.49
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "clinics": 15,
+   "population": 7207,
+   "per10kPeople": 20.81
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "clinics": 5,
+   "population": 12403,
+   "per10kPeople": 4.03
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "clinics": 1,
+   "population": 5184,
+   "per10kPeople": 1.93
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "clinics": 2,
+   "population": 2670,
+   "per10kPeople": null
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "clinics": 4,
+   "population": 8809,
+   "per10kPeople": 4.54
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "clinics": 1,
+   "population": 3425,
+   "per10kPeople": null
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "clinics": 0,
+   "population": 2932,
+   "per10kPeople": null
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "clinics": 0,
+   "population": 218,
+   "per10kPeople": null
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "clinics": 17,
+   "population": 53403,
+   "per10kPeople": 3.18
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "clinics": 0,
+   "population": 1617,
+   "per10kPeople": null
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "clinics": 19,
+   "population": 42056,
+   "per10kPeople": 4.52
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "clinics": 1,
+   "population": 19268,
+   "per10kPeople": 0.52
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "clinics": 0,
+   "population": 775,
+   "per10kPeople": null
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "clinics": 0,
+   "population": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "clinics": 1,
+   "population": 5292,
+   "per10kPeople": 1.89
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "clinics": 3,
+   "population": 11068,
+   "per10kPeople": 2.71
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "clinics": 15,
+   "population": 6609,
+   "per10kPeople": 22.7
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "clinics": 0,
+   "population": 4,
+   "per10kPeople": null
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "clinics": 0,
+   "population": 58,
+   "per10kPeople": null
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "clinics": 0,
+   "population": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "clinics": 0,
+   "population": 4,
+   "per10kPeople": null
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "clinics": 13,
+   "population": 13787,
+   "per10kPeople": 9.43
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "clinics": 0,
+   "population": 85,
+   "per10kPeople": null
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "clinics": 12,
+   "population": 85080,
+   "per10kPeople": 1.41
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "clinics": 0,
+   "population": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "clinics": 35,
+   "population": 50559,
+   "per10kPeople": 6.92
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "clinics": 0,
+   "population": 50,
+   "per10kPeople": null
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "clinics": 0,
+   "population": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "clinics": 25,
+   "population": 26279,
+   "per10kPeople": 9.51
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "clinics": 1,
+   "population": 4684,
+   "per10kPeople": null
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "clinics": 1,
+   "population": 1798,
+   "per10kPeople": null
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "clinics": 35,
+   "population": 13502,
+   "per10kPeople": 25.92
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "clinics": 29,
+   "population": 12227,
+   "per10kPeople": 23.72
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "clinics": 0,
+   "population": 26115,
+   "per10kPeople": null
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "clinics": 0,
+   "population": 170,
+   "per10kPeople": null
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "clinics": 0,
+   "population": 10660,
+   "per10kPeople": null
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "clinics": 0,
+   "population": 21686,
+   "per10kPeople": null
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "clinics": 5,
+   "population": 13295,
+   "per10kPeople": 3.76
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "clinics": 18,
+   "population": 7935,
+   "per10kPeople": 22.68
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "clinics": 1,
+   "population": 2176,
+   "per10kPeople": null
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "clinics": 0,
+   "population": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "clinics": 0,
+   "population": 447,
+   "per10kPeople": null
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "clinics": 6,
+   "population": 16901,
+   "per10kPeople": 3.55
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "clinics": 1,
+   "population": 18116,
+   "per10kPeople": 0.55
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "clinics": 10,
+   "population": 36338,
+   "per10kPeople": 2.75
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "clinics": 3,
+   "population": 17526,
+   "per10kPeople": 1.71
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "clinics": 0,
+   "population": 3,
+   "per10kPeople": null
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "clinics": 0,
+   "population": 3968,
+   "per10kPeople": null
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "clinics": 2,
+   "population": 11010,
+   "per10kPeople": 1.82
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "clinics": 0,
+   "population": 7,
+   "per10kPeople": null
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "clinics": 1,
+   "population": 5655,
+   "per10kPeople": 1.77
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "clinics": 32,
+   "population": 14476,
+   "per10kPeople": 22.11
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "clinics": 19,
+   "population": 8440,
+   "per10kPeople": 22.51
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "clinics": 1,
+   "population": 2008,
+   "per10kPeople": null
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "clinics": 0,
+   "population": 3,
+   "per10kPeople": null
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "clinics": 4,
+   "population": 38611,
+   "per10kPeople": 1.04
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "clinics": 3,
+   "population": 12638,
+   "per10kPeople": 2.37
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "clinics": 3,
+   "population": 6872,
+   "per10kPeople": 4.37
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "clinics": 8,
+   "population": 33484,
+   "per10kPeople": 2.39
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "clinics": 0,
+   "population": 3633,
+   "per10kPeople": null
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "clinics": 0,
+   "population": 90,
+   "per10kPeople": null
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "clinics": 0,
+   "population": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "clinics": 1,
+   "population": 2494,
+   "per10kPeople": null
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "clinics": 0,
+   "population": 4,
+   "per10kPeople": null
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "clinics": 0,
+   "population": 47,
+   "per10kPeople": null
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "clinics": 0,
+   "population": 3365,
+   "per10kPeople": null
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "clinics": 0,
+   "population": 4938,
+   "per10kPeople": null
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "clinics": 40,
+   "population": 63804,
+   "per10kPeople": 6.27
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "clinics": 18,
+   "population": 25550,
+   "per10kPeople": 7.05
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "clinics": 1,
+   "population": 8143,
+   "per10kPeople": 1.23
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "clinics": 3,
+   "population": 16873,
+   "per10kPeople": 1.78
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "clinics": 0,
+   "population": 5953,
+   "per10kPeople": null
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "clinics": 2,
+   "population": 13946,
+   "per10kPeople": 1.43
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "clinics": 3,
+   "population": 4291,
+   "per10kPeople": null
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "clinics": 5,
+   "population": 5885,
+   "per10kPeople": 8.5
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "clinics": 1,
+   "population": 3119,
+   "per10kPeople": null
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "clinics": 4,
+   "population": 39092,
+   "per10kPeople": 1.02
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "clinics": 0,
+   "population": 1317,
+   "per10kPeople": null
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "clinics": 13,
+   "population": 11318,
+   "per10kPeople": 11.49
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "clinics": 18,
+   "population": 4715,
+   "per10kPeople": null
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "clinics": 0,
+   "population": 3,
+   "per10kPeople": null
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "clinics": 0,
+   "population": 37,
+   "per10kPeople": null
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "clinics": 0,
+   "population": 301,
+   "per10kPeople": null
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "clinics": 6,
+   "population": 22442,
+   "per10kPeople": 2.67
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "clinics": 0,
+   "population": 56,
+   "per10kPeople": null
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "clinics": 0,
+   "population": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "clinics": 68,
+   "population": 58965,
+   "per10kPeople": 11.53
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "clinics": 0,
+   "population": 3378,
+   "per10kPeople": null
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "clinics": 0,
+   "population": 348,
+   "per10kPeople": null
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "clinics": 0,
+   "population": 15,
+   "per10kPeople": null
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "clinics": 3,
+   "population": 169,
+   "per10kPeople": null
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "clinics": 0,
+   "population": 7,
+   "per10kPeople": null
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "clinics": 2,
+   "population": 1259,
+   "per10kPeople": null
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "clinics": 3,
+   "population": 20139,
+   "per10kPeople": 1.49
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "clinics": 15,
+   "population": 15874,
+   "per10kPeople": 9.45
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "clinics": 1,
+   "population": 11530,
+   "per10kPeople": 0.87
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "clinics": 35,
+   "population": 18014,
+   "per10kPeople": 19.43
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "clinics": 0,
+   "population": 4997,
+   "per10kPeople": null
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "clinics": 0,
+   "population": 29,
+   "per10kPeople": null
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "clinics": 1,
+   "population": 15867,
+   "per10kPeople": 0.63
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "clinics": 0,
+   "population": 300,
+   "per10kPeople": null
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "clinics": 5,
+   "population": 40456,
+   "per10kPeople": 1.24
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "clinics": 2,
+   "population": 15901,
+   "per10kPeople": 1.26
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "clinics": 6,
+   "population": 21942,
+   "per10kPeople": 2.73
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "clinics": 0,
+   "population": 143,
+   "per10kPeople": null
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "clinics": 7,
+   "population": 28561,
+   "per10kPeople": 2.45
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "clinics": 4,
+   "population": 21842,
+   "per10kPeople": 1.83
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "clinics": 1,
+   "population": 218,
+   "per10kPeople": null
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "clinics": 11,
+   "population": 18520,
+   "per10kPeople": 5.94
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "clinics": 5,
+   "population": 7350,
+   "per10kPeople": 6.8
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "clinics": 28,
+   "population": 199780,
+   "per10kPeople": 1.4
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "clinics": 1,
+   "population": 3645,
+   "per10kPeople": null
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "clinics": 39,
+   "population": 14425,
+   "per10kPeople": 27.04
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "clinics": 51,
+   "population": 42332,
+   "per10kPeople": 12.05
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "clinics": 0,
+   "population": 595,
+   "per10kPeople": null
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "clinics": 4,
+   "population": 3519,
+   "per10kPeople": null
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "clinics": 5,
+   "population": 15716,
+   "per10kPeople": 3.18
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "clinics": 68,
+   "population": 24410,
+   "per10kPeople": 27.86
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "clinics": 15,
+   "population": 49276,
+   "per10kPeople": 3.04
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "clinics": 16,
+   "population": 22291,
+   "per10kPeople": 7.18
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "clinics": 5,
+   "population": 18664,
+   "per10kPeople": 2.68
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "clinics": 0,
+   "population": 13,
+   "per10kPeople": null
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "clinics": 49,
+   "population": 77139,
+   "per10kPeople": 6.35
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "clinics": 9,
+   "population": 26803,
+   "per10kPeople": 3.36
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "clinics": 12,
+   "population": 17898,
+   "per10kPeople": 6.7
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "clinics": 0,
+   "population": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "clinics": 17,
+   "population": 14789,
+   "per10kPeople": 11.5
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "clinics": 1,
+   "population": 403,
+   "per10kPeople": null
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "clinics": 1,
+   "population": 7997,
+   "per10kPeople": 1.25
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "clinics": 13,
+   "population": 40958,
+   "per10kPeople": 3.17
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "clinics": 0,
+   "population": 113,
+   "per10kPeople": null
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "clinics": 0,
+   "population": 12239,
+   "per10kPeople": null
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "clinics": 0,
+   "population": 10418,
+   "per10kPeople": null
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "clinics": 34,
+   "population": 20168,
+   "per10kPeople": 16.86
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "clinics": 70,
+   "population": 5746,
+   "per10kPeople": 121.82
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "clinics": 0,
+   "population": 507,
+   "per10kPeople": null
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "clinics": 1,
+   "population": 1415,
+   "per10kPeople": null
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "clinics": 11,
+   "population": 22143,
+   "per10kPeople": 4.97
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "clinics": 0,
+   "population": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "clinics": 1,
+   "population": 10205,
+   "per10kPeople": 0.98
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "clinics": 0,
+   "population": 7024,
+   "per10kPeople": null
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "clinics": 12,
+   "population": 80537,
+   "per10kPeople": 1.49
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "clinics": 0,
+   "population": 101,
+   "per10kPeople": null
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "clinics": 2,
+   "population": 10806,
+   "per10kPeople": 1.85
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "clinics": 15,
+   "population": 63591,
+   "per10kPeople": 2.36
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "clinics": 33,
+   "population": 108637,
+   "per10kPeople": 3.04
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "clinics": 5,
+   "population": 22829,
+   "per10kPeople": 2.19
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "clinics": 53,
+   "population": 41745,
+   "per10kPeople": 12.7
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "clinics": 38,
+   "population": 8923,
+   "per10kPeople": 42.59
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "clinics": 14,
+   "population": 8842,
+   "per10kPeople": 15.83
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "clinics": 6,
+   "population": 7687,
+   "per10kPeople": 7.81
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "clinics": 3,
+   "population": 7032,
+   "per10kPeople": 4.27
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "clinics": 4,
+   "population": 28152,
+   "per10kPeople": 1.42
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "clinics": 0,
+   "population": 1230,
+   "per10kPeople": null
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "clinics": 3,
+   "population": 7419,
+   "per10kPeople": 4.04
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "clinics": 8,
+   "population": 49440,
+   "per10kPeople": 1.62
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "clinics": 0,
+   "population": 685,
+   "per10kPeople": null
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "clinics": 7,
+   "population": 8660,
+   "per10kPeople": 8.08
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "clinics": 0,
+   "population": 81,
+   "per10kPeople": null
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "clinics": 12,
+   "population": 5333,
+   "per10kPeople": 22.5
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "clinics": 15,
+   "population": 7477,
+   "per10kPeople": 20.06
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "clinics": 18,
+   "population": 150710,
+   "per10kPeople": 1.19
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "clinics": 1,
+   "population": 2483,
+   "per10kPeople": null
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "clinics": 8,
+   "population": 10475,
+   "per10kPeople": 7.64
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "clinics": 6,
+   "population": 6611,
+   "per10kPeople": 9.08
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "clinics": 3,
+   "population": 4779,
+   "per10kPeople": null
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "clinics": 0,
+   "population": 3,
+   "per10kPeople": null
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "clinics": 26,
+   "population": 10876,
+   "per10kPeople": 23.91
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "clinics": 1,
+   "population": 3081,
+   "per10kPeople": null
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "clinics": 7,
+   "population": 49504,
+   "per10kPeople": 1.41
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "clinics": 6,
+   "population": 3875,
+   "per10kPeople": null
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "clinics": 34,
+   "population": 12720,
+   "per10kPeople": 26.73
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "clinics": 8,
+   "population": 129757,
+   "per10kPeople": 0.62
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "clinics": 0,
+   "population": 1754,
+   "per10kPeople": null
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "clinics": 13,
+   "population": 53055,
+   "per10kPeople": 2.45
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "clinics": 9,
+   "population": 4692,
+   "per10kPeople": null
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "clinics": 0,
+   "population": 8,
+   "per10kPeople": null
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "clinics": 0,
+   "population": 7222,
+   "per10kPeople": null
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "clinics": 0,
+   "population": 6060,
+   "per10kPeople": null
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "clinics": 5,
+   "population": 121,
+   "per10kPeople": null
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "clinics": 70,
+   "population": 21914,
+   "per10kPeople": 31.94
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "clinics": 0,
+   "population": 425,
+   "per10kPeople": null
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "clinics": 14,
+   "population": 65947,
+   "per10kPeople": 2.12
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "clinics": 1,
+   "population": 14575,
+   "per10kPeople": 0.69
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "clinics": 0,
+   "population": 1858,
+   "per10kPeople": null
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "clinics": 18,
+   "population": 29373,
+   "per10kPeople": 6.13
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "clinics": 0,
+   "population": 5,
+   "per10kPeople": null
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "clinics": 0,
+   "population": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "clinics": 7,
+   "population": 28990,
+   "per10kPeople": 2.41
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "clinics": 18,
+   "population": 78243,
+   "per10kPeople": 2.3
+  }
+ ]
+}

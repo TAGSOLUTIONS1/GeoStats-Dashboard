@@ -1,0 +1,2306 @@
+{
+ "id": "price-per-sqm-by-type",
+ "label": "Sale price per m² by property type",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "source": "Dubai Land Department transactions, Jan 2023 to Aug 2024 (Hugging Face mirror viewit-ai/full-dubai-pulse), residential sales of units (apartments) and villas",
+ "sourceUrl": "https://huggingface.co/datasets/viewit-ai/full-dubai-pulse",
+ "provenance": "UNOFFICIAL third-party mirror of a Dubai Pulse DLD export (1,276,960 rows). Schema matches DLD field names.",
+ "period": "2023-01 to 2024-08",
+ "retrieved": "2026-09-18",
+ "method": "For each residential sale (Sell, Sell - Pre registration, Delayed Sell) the price is divided by built-up area converted from sq ft to m². The community value is the median across sales of that property type; apartments and villas are reported separately. Communities with fewer than 30 sales of a type are null for that type. Villa share = villa sales as a percentage of all residential sales.",
+ "limitation": "Median of a mixed basket within each type (off-plan and ready, all sizes). Built-up area as registered by DLD. Sales with implausible area or price are excluded.",
+ "minSales": 30,
+ "salesUsed": 196105,
+ "communitiesFlat": 58,
+ "communitiesVilla": 35,
+ "communitiesShare": 68,
+ "stops": {
+  "flatAedPerSqm": [
+   5597,
+   11136,
+   13149,
+   16093,
+   25510,
+   108641
+  ],
+  "villaAedPerSqm": [
+   2838,
+   8948,
+   10836,
+   12956,
+   16131,
+   25288
+  ],
+  "villaSharePct": [
+   0,
+   1,
+   1.1,
+   12.8,
+   46.4,
+   100
+  ]
+ },
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "flatSales": 0,
+   "villaSales": 7,
+   "totalSales": 7,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "flatSales": 3918,
+   "villaSales": 4147,
+   "totalSales": 8065,
+   "flatAedPerSqm": 9865,
+   "villaAedPerSqm": 13862,
+   "villaSharePct": 51.4
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "flatSales": 7198,
+   "villaSales": 0,
+   "totalSales": 7198,
+   "flatAedPerSqm": 23287,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "flatSales": 0,
+   "villaSales": 22,
+   "totalSales": 22,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "flatSales": 198,
+   "villaSales": 37,
+   "totalSales": 235,
+   "flatAedPerSqm": 10764,
+   "villaAedPerSqm": 6273,
+   "villaSharePct": 15.7
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "flatSales": 0,
+   "villaSales": 12,
+   "totalSales": 12,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "flatSales": 1592,
+   "villaSales": 61,
+   "totalSales": 1653,
+   "flatAedPerSqm": 16093,
+   "villaAedPerSqm": 13387,
+   "villaSharePct": 3.7
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "flatSales": 1015,
+   "villaSales": 76,
+   "totalSales": 1091,
+   "flatAedPerSqm": 9002,
+   "villaAedPerSqm": 11559,
+   "villaSharePct": 7
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "flatSales": 272,
+   "villaSales": 1432,
+   "totalSales": 1704,
+   "flatAedPerSqm": 9690,
+   "villaAedPerSqm": 10564,
+   "villaSharePct": 84
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "flatSales": 0,
+   "villaSales": 5,
+   "totalSales": 5,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "flatSales": 0,
+   "villaSales": 75,
+   "totalSales": 75,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": 2838,
+   "villaSharePct": 100
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "flatSales": 0,
+   "villaSales": 20,
+   "totalSales": 20,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "flatSales": 0,
+   "villaSales": 16,
+   "totalSales": 16,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "flatSales": 0,
+   "villaSales": 4,
+   "totalSales": 4,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "flatSales": 329,
+   "villaSales": 168,
+   "totalSales": 497,
+   "flatAedPerSqm": 12626,
+   "villaAedPerSqm": 9415,
+   "villaSharePct": 33.8
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "flatSales": 0,
+   "villaSales": 11,
+   "totalSales": 11,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "flatSales": 0,
+   "villaSales": 13,
+   "totalSales": 13,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "flatSales": 0,
+   "villaSales": 4,
+   "totalSales": 4,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "flatSales": 135,
+   "villaSales": 12,
+   "totalSales": 147,
+   "flatAedPerSqm": 13978,
+   "villaAedPerSqm": null,
+   "villaSharePct": 8.2
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "flatSales": 3,
+   "villaSales": 0,
+   "totalSales": 3,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "flatSales": 0,
+   "villaSales": 5,
+   "totalSales": 5,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "flatSales": 0,
+   "villaSales": 674,
+   "totalSales": 674,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": 10541,
+   "villaSharePct": 100
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "flatSales": 4047,
+   "villaSales": 1055,
+   "totalSales": 5102,
+   "flatAedPerSqm": 12139,
+   "villaAedPerSqm": 10374,
+   "villaSharePct": 20.7
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "flatSales": 522,
+   "villaSales": 0,
+   "totalSales": 522,
+   "flatAedPerSqm": 33622,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "flatSales": 779,
+   "villaSales": 0,
+   "totalSales": 779,
+   "flatAedPerSqm": 26231,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "flatSales": 0,
+   "villaSales": 27,
+   "totalSales": 27,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "flatSales": 826,
+   "villaSales": 0,
+   "totalSales": 826,
+   "flatAedPerSqm": 11136,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "flatSales": 81,
+   "villaSales": 13,
+   "totalSales": 94,
+   "flatAedPerSqm": 108641,
+   "villaAedPerSqm": null,
+   "villaSharePct": 13.8
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "flatSales": 182,
+   "villaSales": 0,
+   "totalSales": 182,
+   "flatAedPerSqm": 10139,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "flatSales": 1214,
+   "villaSales": 14,
+   "totalSales": 1228,
+   "flatAedPerSqm": 13827,
+   "villaAedPerSqm": null,
+   "villaSharePct": 1.1
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "flatSales": 0,
+   "villaSales": 26,
+   "totalSales": 26,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "flatSales": 2555,
+   "villaSales": 25,
+   "totalSales": 2580,
+   "flatAedPerSqm": 28058,
+   "villaAedPerSqm": null,
+   "villaSharePct": 1
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "flatSales": 0,
+   "villaSales": 1,
+   "totalSales": 1,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "flatSales": 0,
+   "villaSales": 32,
+   "totalSales": 32,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": 3444,
+   "villaSharePct": 100
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "flatSales": 1518,
+   "villaSales": 18,
+   "totalSales": 1536,
+   "flatAedPerSqm": 26923,
+   "villaAedPerSqm": null,
+   "villaSharePct": 1.2
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "flatSales": 2182,
+   "villaSales": 0,
+   "totalSales": 2182,
+   "flatAedPerSqm": 23143,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "flatSales": 0,
+   "villaSales": 9,
+   "totalSales": 9,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "flatSales": 0,
+   "villaSales": 31,
+   "totalSales": 31,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": 6280,
+   "villaSharePct": 100
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "flatSales": 0,
+   "villaSales": 1,
+   "totalSales": 1,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "flatSales": 814,
+   "villaSales": 594,
+   "totalSales": 1408,
+   "flatAedPerSqm": 9611,
+   "villaAedPerSqm": 9963,
+   "villaSharePct": 42.2
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "flatSales": 0,
+   "villaSales": 22,
+   "totalSales": 22,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "flatSales": 0,
+   "villaSales": 4,
+   "totalSales": 4,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "flatSales": 0,
+   "villaSales": 22,
+   "totalSales": 22,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "flatSales": 5225,
+   "villaSales": 0,
+   "totalSales": 5225,
+   "flatAedPerSqm": 23440,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "flatSales": 0,
+   "villaSales": 22,
+   "totalSales": 22,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "flatSales": 691,
+   "villaSales": 598,
+   "totalSales": 1289,
+   "flatAedPerSqm": 14729,
+   "villaAedPerSqm": 19493,
+   "villaSharePct": 46.4
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "flatSales": 0,
+   "villaSales": 604,
+   "totalSales": 604,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": 9754,
+   "villaSharePct": 100
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "flatSales": 560,
+   "villaSales": 0,
+   "totalSales": 560,
+   "flatAedPerSqm": 11773,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "flatSales": 38,
+   "villaSales": 1,
+   "totalSales": 39,
+   "flatAedPerSqm": 5614,
+   "villaAedPerSqm": null,
+   "villaSharePct": 2.6
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "flatSales": 13036,
+   "villaSales": 6,
+   "totalSales": 13042,
+   "flatAedPerSqm": 27605,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "flatSales": 2781,
+   "villaSales": 21,
+   "totalSales": 2802,
+   "flatAedPerSqm": 29525,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0.7
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "flatSales": 0,
+   "villaSales": 3,
+   "totalSales": 3,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "flatSales": 2671,
+   "villaSales": 3036,
+   "totalSales": 5707,
+   "flatAedPerSqm": 12500,
+   "villaAedPerSqm": 11522,
+   "villaSharePct": 53.2
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "flatSales": 907,
+   "villaSales": 0,
+   "totalSales": 907,
+   "flatAedPerSqm": 19515,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "flatSales": 0,
+   "villaSales": 22,
+   "totalSales": 22,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "flatSales": 0,
+   "villaSales": 42,
+   "totalSales": 42,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": 7027,
+   "villaSharePct": 100
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "flatSales": 501,
+   "villaSales": 218,
+   "totalSales": 719,
+   "flatAedPerSqm": 13652,
+   "villaAedPerSqm": 10836,
+   "villaSharePct": 30.3
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "flatSales": 0,
+   "villaSales": 4,
+   "totalSales": 4,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "flatSales": 0,
+   "villaSales": 6,
+   "totalSales": 6,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "flatSales": 0,
+   "villaSales": 7,
+   "totalSales": 7,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "flatSales": 194,
+   "villaSales": 24,
+   "totalSales": 218,
+   "flatAedPerSqm": 7437,
+   "villaAedPerSqm": null,
+   "villaSharePct": 11
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "flatSales": 4060,
+   "villaSales": 803,
+   "totalSales": 4863,
+   "flatAedPerSqm": 9779,
+   "villaAedPerSqm": 18199,
+   "villaSharePct": 16.5
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "flatSales": 15,
+   "villaSales": 22,
+   "totalSales": 37,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": 59.5
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "flatSales": 2189,
+   "villaSales": 60,
+   "totalSales": 2249,
+   "flatAedPerSqm": 14421,
+   "villaAedPerSqm": 14181,
+   "villaSharePct": 2.7
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "flatSales": 0,
+   "villaSales": 1,
+   "totalSales": 1,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "flatSales": 38,
+   "villaSales": 0,
+   "totalSales": 38,
+   "flatAedPerSqm": 11339,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "flatSales": 1868,
+   "villaSales": 0,
+   "totalSales": 1868,
+   "flatAedPerSqm": 29075,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "flatSales": 0,
+   "villaSales": 19,
+   "totalSales": 19,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "flatSales": 14740,
+   "villaSales": 0,
+   "totalSales": 14740,
+   "flatAedPerSqm": 23748,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "flatSales": 0,
+   "villaSales": 3,
+   "totalSales": 3,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "flatSales": 6724,
+   "villaSales": 0,
+   "totalSales": 6724,
+   "flatAedPerSqm": 27161,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "flatSales": 2791,
+   "villaSales": 294,
+   "totalSales": 3085,
+   "flatAedPerSqm": 11839,
+   "villaAedPerSqm": 25288,
+   "villaSharePct": 9.5
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "flatSales": 0,
+   "villaSales": 19,
+   "totalSales": 19,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "flatSales": 0,
+   "villaSales": 3379,
+   "totalSales": 3379,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": 11582,
+   "villaSharePct": 100
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "flatSales": 2505,
+   "villaSales": 368,
+   "totalSales": 2873,
+   "flatAedPerSqm": 13961,
+   "villaAedPerSqm": 5758,
+   "villaSharePct": 12.8
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "flatSales": 98,
+   "villaSales": 40,
+   "totalSales": 138,
+   "flatAedPerSqm": 25119,
+   "villaAedPerSqm": 13778,
+   "villaSharePct": 29
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "flatSales": 1641,
+   "villaSales": 0,
+   "totalSales": 1641,
+   "flatAedPerSqm": 25510,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "flatSales": 0,
+   "villaSales": 14,
+   "totalSales": 14,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "flatSales": 0,
+   "villaSales": 6,
+   "totalSales": 6,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "flatSales": 11,
+   "villaSales": 0,
+   "totalSales": 11,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "flatSales": 0,
+   "villaSales": 8,
+   "totalSales": 8,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "flatSales": 716,
+   "villaSales": 0,
+   "totalSales": 716,
+   "flatAedPerSqm": 8369,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "flatSales": 0,
+   "villaSales": 5,
+   "totalSales": 5,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "flatSales": 1,
+   "villaSales": 0,
+   "totalSales": 1,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "flatSales": 3532,
+   "villaSales": 0,
+   "totalSales": 3532,
+   "flatAedPerSqm": 5597,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "flatSales": 1242,
+   "villaSales": 127,
+   "totalSales": 1369,
+   "flatAedPerSqm": 15361,
+   "villaAedPerSqm": 16131,
+   "villaSharePct": 9.3
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "flatSales": 6728,
+   "villaSales": 30,
+   "totalSales": 6758,
+   "flatAedPerSqm": 17126,
+   "villaAedPerSqm": 16103,
+   "villaSharePct": 0.4
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "flatSales": 0,
+   "villaSales": 9,
+   "totalSales": 9,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "flatSales": 1170,
+   "villaSales": 0,
+   "totalSales": 1170,
+   "flatAedPerSqm": 27122,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "flatSales": 15,
+   "villaSales": 0,
+   "totalSales": 15,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "flatSales": 474,
+   "villaSales": 1,
+   "totalSales": 475,
+   "flatAedPerSqm": 13149,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0.2
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "flatSales": 2412,
+   "villaSales": 356,
+   "totalSales": 2768,
+   "flatAedPerSqm": 14278,
+   "villaAedPerSqm": 10909,
+   "villaSharePct": 12.9
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "flatSales": 7623,
+   "villaSales": 0,
+   "totalSales": 7623,
+   "flatAedPerSqm": 13758,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "flatSales": 79,
+   "villaSales": 4,
+   "totalSales": 83,
+   "flatAedPerSqm": 12571,
+   "villaAedPerSqm": null,
+   "villaSharePct": 4.8
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "flatSales": 2036,
+   "villaSales": 0,
+   "totalSales": 2036,
+   "flatAedPerSqm": 17419,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "flatSales": 34,
+   "villaSales": 1437,
+   "totalSales": 1471,
+   "flatAedPerSqm": 13159,
+   "villaAedPerSqm": 13328,
+   "villaSharePct": 97.7
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "flatSales": 2207,
+   "villaSales": 1526,
+   "totalSales": 3733,
+   "flatAedPerSqm": 13265,
+   "villaAedPerSqm": 18160,
+   "villaSharePct": 40.9
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "flatSales": 175,
+   "villaSales": 1,
+   "totalSales": 176,
+   "flatAedPerSqm": 13109,
+   "villaAedPerSqm": null,
+   "villaSharePct": 0.6
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "flatSales": 70,
+   "villaSales": 19,
+   "totalSales": 89,
+   "flatAedPerSqm": 50379,
+   "villaAedPerSqm": null,
+   "villaSharePct": 21.3
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "flatSales": 12848,
+   "villaSales": 127,
+   "totalSales": 12975,
+   "flatAedPerSqm": 19644,
+   "villaAedPerSqm": 23828,
+   "villaSharePct": 1
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "flatSales": 0,
+   "villaSales": 38,
+   "totalSales": 38,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": 8948,
+   "villaSharePct": 100
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "flatSales": 0,
+   "villaSales": 12,
+   "totalSales": 12,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "flatSales": 8825,
+   "villaSales": 640,
+   "totalSales": 9465,
+   "flatAedPerSqm": 22619,
+   "villaAedPerSqm": 16696,
+   "villaSharePct": 6.8
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "flatSales": 0,
+   "villaSales": 1,
+   "totalSales": 1,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "flatSales": 350,
+   "villaSales": 69,
+   "totalSales": 419,
+   "flatAedPerSqm": 29055,
+   "villaAedPerSqm": 22078,
+   "villaSharePct": 16.5
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "flatSales": 22917,
+   "villaSales": 647,
+   "totalSales": 23564,
+   "flatAedPerSqm": 13009,
+   "villaAedPerSqm": 12772,
+   "villaSharePct": 2.7
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "flatSales": 0,
+   "villaSales": 0,
+   "totalSales": 0,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": null,
+   "villaSharePct": null
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "flatSales": 0,
+   "villaSales": 736,
+   "totalSales": 736,
+   "flatAedPerSqm": null,
+   "villaAedPerSqm": 12063,
+   "villaSharePct": 100
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "flatSales": 5171,
+   "villaSales": 685,
+   "totalSales": 5856,
+   "flatAedPerSqm": 11472,
+   "villaAedPerSqm": 12956,
+   "villaSharePct": 11.7
+  }
+ ]
+}

@@ -1,0 +1,1605 @@
+{
+ "id": "schools-per-10k-residents",
+ "label": "Private schools per 10,000 residents",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "metric": "schoolsPer10k",
+ "source": "KHDA private-school list (bundled schools.json, geocoded per community) and Dubai Statistics Center population, 2022",
+ "period": "schools 2024/25, population 2022",
+ "retrieved": "2026-09-18",
+ "method": "Number of KHDA-listed private schools located in the community per 10,000 residents. Communities with fewer than 5,000 residents or no school are null.",
+ "limitation": "Private schools only (KHDA regulates private schools); public schools are not counted. Schools draw pupils from neighbouring communities, so this shows where schools are located rather than where pupils live.",
+ "communitiesWithData": 66,
+ "stops": [
+  0.07,
+  0.64,
+  0.92,
+  1.75,
+  3.23,
+  8.7
+ ],
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "schools": 0,
+   "population": 12,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "schools": 0,
+   "population": 9627,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "schools": 0,
+   "population": 25365,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "schools": 0,
+   "population": 1011,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "schools": 2,
+   "population": 20704,
+   "schoolsPer10k": 0.97
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "schools": 0,
+   "population": 9527,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "schools": 0,
+   "population": 2529,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "schools": 0,
+   "population": 73879,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "schools": 0,
+   "population": 616,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "schools": 0,
+   "population": 206,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "schools": 2,
+   "population": 16759,
+   "schoolsPer10k": 1.19
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "schools": 0,
+   "population": 2042,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "schools": 0,
+   "population": 12699,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "schools": 1,
+   "population": 13137,
+   "schoolsPer10k": 0.76
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "schools": 2,
+   "population": 11439,
+   "schoolsPer10k": 1.75
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "schools": 1,
+   "population": 10412,
+   "schoolsPer10k": 0.96
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "schools": 0,
+   "population": 671,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "schools": 0,
+   "population": 195,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "schools": 1,
+   "population": 11279,
+   "schoolsPer10k": 0.89
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "schools": 0,
+   "population": 8,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "schools": 0,
+   "population": 1851,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "schools": 0,
+   "population": 90,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "schools": 3,
+   "population": 9358,
+   "schoolsPer10k": 3.21
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "schools": 2,
+   "population": 6031,
+   "schoolsPer10k": 3.32
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "schools": 6,
+   "population": 9228,
+   "schoolsPer10k": 6.5
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "schools": 3,
+   "population": 38408,
+   "schoolsPer10k": 0.78
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "schools": 0,
+   "population": 50697,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "schools": 6,
+   "population": 21751,
+   "schoolsPer10k": 2.76
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "schools": 0,
+   "population": 2613,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "schools": 0,
+   "population": 0,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "schools": 0,
+   "population": 7685,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "schools": 0,
+   "population": 3017,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "schools": 3,
+   "population": 14761,
+   "schoolsPer10k": 2.03
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "schools": 0,
+   "population": 3283,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "schools": 0,
+   "population": 2838,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "schools": 4,
+   "population": 68346,
+   "schoolsPer10k": 0.59
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "schools": 0,
+   "population": 7207,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "schools": 1,
+   "population": 12403,
+   "schoolsPer10k": 0.81
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "schools": 3,
+   "population": 5184,
+   "schoolsPer10k": 5.79
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "schools": 0,
+   "population": 2670,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "schools": 4,
+   "population": 8809,
+   "schoolsPer10k": 4.54
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "schools": 0,
+   "population": 3425,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "schools": 0,
+   "population": 2932,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "schools": 0,
+   "population": 218,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "schools": 0,
+   "population": 53403,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "schools": 0,
+   "population": 1617,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "schools": 1,
+   "population": 42056,
+   "schoolsPer10k": 0.24
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "schools": 1,
+   "population": 19268,
+   "schoolsPer10k": 0.52
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "schools": 0,
+   "population": 775,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "schools": 4,
+   "population": 0,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "schools": 0,
+   "population": 5292,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "schools": 0,
+   "population": 11068,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "schools": 3,
+   "population": 6609,
+   "schoolsPer10k": 4.54
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "schools": 0,
+   "population": 4,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "schools": 0,
+   "population": 58,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "schools": 0,
+   "population": 2,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "schools": 0,
+   "population": 4,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "schools": 0,
+   "population": 13787,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "schools": 0,
+   "population": 85,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "schools": 2,
+   "population": 85080,
+   "schoolsPer10k": 0.24
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "schools": 0,
+   "population": 2,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "schools": 3,
+   "population": 50559,
+   "schoolsPer10k": 0.59
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "schools": 0,
+   "population": 50,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "schools": 0,
+   "population": 0,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "schools": 0,
+   "population": 26279,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "schools": 0,
+   "population": 4684,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "schools": 0,
+   "population": 1798,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "schools": 2,
+   "population": 13502,
+   "schoolsPer10k": 1.48
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "schools": 4,
+   "population": 12227,
+   "schoolsPer10k": 3.27
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "schools": 0,
+   "population": 26115,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "schools": 0,
+   "population": 170,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "schools": 0,
+   "population": 10660,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "schools": 2,
+   "population": 21686,
+   "schoolsPer10k": 0.92
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "schools": 1,
+   "population": 13295,
+   "schoolsPer10k": 0.75
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "schools": 3,
+   "population": 7935,
+   "schoolsPer10k": 3.78
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "schools": 0,
+   "population": 2176,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "schools": 0,
+   "population": 0,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "schools": 0,
+   "population": 447,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "schools": 1,
+   "population": 16901,
+   "schoolsPer10k": 0.59
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "schools": 0,
+   "population": 18116,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "schools": 7,
+   "population": 36338,
+   "schoolsPer10k": 1.93
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "schools": 0,
+   "population": 17526,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "schools": 0,
+   "population": 3,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "schools": 1,
+   "population": 3968,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "schools": 0,
+   "population": 11010,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "schools": 0,
+   "population": 7,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "schools": 0,
+   "population": 5655,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "schools": 0,
+   "population": 14476,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "schools": 0,
+   "population": 8440,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "schools": 0,
+   "population": 2008,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "schools": 0,
+   "population": 3,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "schools": 0,
+   "population": 38611,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "schools": 0,
+   "population": 12638,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "schools": 2,
+   "population": 6872,
+   "schoolsPer10k": 2.91
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "schools": 0,
+   "population": 33484,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "schools": 0,
+   "population": 3633,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "schools": 0,
+   "population": 90,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "schools": 0,
+   "population": 2,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "schools": 0,
+   "population": 2494,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "schools": 0,
+   "population": 4,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "schools": 0,
+   "population": 47,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "schools": 0,
+   "population": 3365,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "schools": 0,
+   "population": 4938,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "schools": 0,
+   "population": 63804,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "schools": 0,
+   "population": 25550,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "schools": 0,
+   "population": 8143,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "schools": 0,
+   "population": 16873,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "schools": 0,
+   "population": 5953,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "schools": 1,
+   "population": 13946,
+   "schoolsPer10k": 0.72
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "schools": 0,
+   "population": 4291,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "schools": 1,
+   "population": 5885,
+   "schoolsPer10k": 1.7
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "schools": 0,
+   "population": 3119,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "schools": 0,
+   "population": 39092,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "schools": 0,
+   "population": 1317,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "schools": 0,
+   "population": 11318,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "schools": 2,
+   "population": 4715,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "schools": 0,
+   "population": 3,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "schools": 0,
+   "population": 37,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "schools": 0,
+   "population": 301,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "schools": 0,
+   "population": 22442,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "schools": 0,
+   "population": 56,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "schools": 0,
+   "population": 0,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "schools": 0,
+   "population": 58965,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "schools": 0,
+   "population": 3378,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "schools": 0,
+   "population": 348,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "schools": 0,
+   "population": 15,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "schools": 1,
+   "population": 169,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "schools": 0,
+   "population": 7,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "schools": 4,
+   "population": 1259,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "schools": 0,
+   "population": 20139,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "schools": 5,
+   "population": 15874,
+   "schoolsPer10k": 3.15
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "schools": 0,
+   "population": 11530,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "schools": 0,
+   "population": 18014,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "schools": 1,
+   "population": 4997,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "schools": 0,
+   "population": 29,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "schools": 0,
+   "population": 15867,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "schools": 0,
+   "population": 300,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "schools": 0,
+   "population": 40456,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "schools": 2,
+   "population": 15901,
+   "schoolsPer10k": 1.26
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "schools": 4,
+   "population": 21942,
+   "schoolsPer10k": 1.82
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "schools": 0,
+   "population": 143,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "schools": 0,
+   "population": 28561,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "schools": 4,
+   "population": 21842,
+   "schoolsPer10k": 1.83
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "schools": 0,
+   "population": 218,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "schools": 1,
+   "population": 18520,
+   "schoolsPer10k": 0.54
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "schools": 6,
+   "population": 7350,
+   "schoolsPer10k": 8.16
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "schools": 0,
+   "population": 199780,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "schools": 0,
+   "population": 3645,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "schools": 0,
+   "population": 14425,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "schools": 5,
+   "population": 42332,
+   "schoolsPer10k": 1.18
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "schools": 0,
+   "population": 595,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "schools": 0,
+   "population": 3519,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "schools": 1,
+   "population": 15716,
+   "schoolsPer10k": 0.64
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "schools": 0,
+   "population": 24410,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "schools": 0,
+   "population": 49276,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "schools": 0,
+   "population": 22291,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "schools": 0,
+   "population": 18664,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "schools": 0,
+   "population": 13,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "schools": 5,
+   "population": 77139,
+   "schoolsPer10k": 0.65
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "schools": 6,
+   "population": 26803,
+   "schoolsPer10k": 2.24
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "schools": 8,
+   "population": 17898,
+   "schoolsPer10k": 4.47
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "schools": 0,
+   "population": 2,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "schools": 1,
+   "population": 14789,
+   "schoolsPer10k": 0.68
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "schools": 0,
+   "population": 403,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "schools": 2,
+   "population": 7997,
+   "schoolsPer10k": 2.5
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "schools": 1,
+   "population": 40958,
+   "schoolsPer10k": 0.24
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "schools": 0,
+   "population": 113,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "schools": 0,
+   "population": 12239,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "schools": 0,
+   "population": 10418,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "schools": 8,
+   "population": 20168,
+   "schoolsPer10k": 3.97
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "schools": 5,
+   "population": 5746,
+   "schoolsPer10k": 8.7
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "schools": 0,
+   "population": 507,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "schools": 0,
+   "population": 1415,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "schools": 2,
+   "population": 22143,
+   "schoolsPer10k": 0.9
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "schools": 0,
+   "population": 0,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "schools": 0,
+   "population": 10205,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "schools": 0,
+   "population": 7024,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "schools": 0,
+   "population": 80537,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "schools": 0,
+   "population": 101,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "schools": 0,
+   "population": 10806,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "schools": 6,
+   "population": 63591,
+   "schoolsPer10k": 0.94
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "schools": 0,
+   "population": 108637,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "schools": 1,
+   "population": 22829,
+   "schoolsPer10k": 0.44
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "schools": 1,
+   "population": 41745,
+   "schoolsPer10k": 0.24
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "schools": 0,
+   "population": 8923,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "schools": 1,
+   "population": 8842,
+   "schoolsPer10k": 1.13
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "schools": 0,
+   "population": 7687,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "schools": 0,
+   "population": 7032,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "schools": 0,
+   "population": 28152,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "schools": 0,
+   "population": 1230,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "schools": 0,
+   "population": 7419,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "schools": 1,
+   "population": 49440,
+   "schoolsPer10k": 0.2
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "schools": 0,
+   "population": 685,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "schools": 4,
+   "population": 8660,
+   "schoolsPer10k": 4.62
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "schools": 0,
+   "population": 81,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "schools": 2,
+   "population": 5333,
+   "schoolsPer10k": 3.75
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "schools": 1,
+   "population": 7477,
+   "schoolsPer10k": 1.34
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "schools": 1,
+   "population": 150710,
+   "schoolsPer10k": 0.07
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "schools": 0,
+   "population": 2483,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "schools": 2,
+   "population": 10475,
+   "schoolsPer10k": 1.91
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "schools": 0,
+   "population": 6611,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "schools": 1,
+   "population": 4779,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "schools": 0,
+   "population": 3,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "schools": 0,
+   "population": 10876,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "schools": 0,
+   "population": 3081,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "schools": 16,
+   "population": 49504,
+   "schoolsPer10k": 3.23
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "schools": 2,
+   "population": 3875,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "schools": 0,
+   "population": 12720,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "schools": 1,
+   "population": 129757,
+   "schoolsPer10k": 0.08
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "schools": 0,
+   "population": 1754,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "schools": 0,
+   "population": 53055,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "schools": 4,
+   "population": 4692,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "schools": 0,
+   "population": 8,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "schools": 0,
+   "population": 7222,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "schools": 0,
+   "population": 6060,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "schools": 0,
+   "population": 121,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "schools": 2,
+   "population": 21914,
+   "schoolsPer10k": 0.91
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "schools": 0,
+   "population": 425,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "schools": 7,
+   "population": 65947,
+   "schoolsPer10k": 1.06
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "schools": 3,
+   "population": 14575,
+   "schoolsPer10k": 2.06
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "schools": 0,
+   "population": 1858,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "schools": 2,
+   "population": 29373,
+   "schoolsPer10k": 0.68
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "schools": 0,
+   "population": 5,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "schools": 0,
+   "population": 2,
+   "schoolsPer10k": null
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "schools": 3,
+   "population": 28990,
+   "schoolsPer10k": 1.03
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "schools": 5,
+   "population": 78243,
+   "schoolsPer10k": 0.64
+  }
+ ]
+}

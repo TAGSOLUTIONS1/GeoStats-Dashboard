@@ -1,0 +1,1831 @@
+{
+ "id": "population-growth-recent",
+ "label": "Population change 2018 to 2022 (%)",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "metric": "growth2018to2022Pct",
+ "source": "Dubai Statistics Center + Dubai Communities 2022 (ArcGIS)",
+ "period": "2018 to 2022",
+ "retrieved": "2026-09-18",
+ "method": "Percentage change in resident population between the 2018 and 2022 DSC estimates. Communities with fewer than 1,000 residents in 2018 are null because small bases produce extreme percentages.",
+ "limitation": "Four-year window only; the long-run 2011-2022 rate is a separate datapoint. New master-plan communities that were nearly empty in 2018 can show very large percentages on a small base.",
+ "communitiesWithData": 158,
+ "stops": [
+  -100,
+  7.1,
+  12.8,
+  15.5,
+  19.2,
+  446.8
+ ],
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "population2018": 0,
+   "population2022": 12,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "population2018": 8063,
+   "population2022": 9627,
+   "growth2018to2022Pct": 19.4,
+   "cagrPct": 4.53
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "population2018": 21957,
+   "population2022": 25365,
+   "growth2018to2022Pct": 15.5,
+   "cagrPct": 3.67
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "population2018": 1561,
+   "population2022": 1011,
+   "growth2018to2022Pct": -35.2,
+   "cagrPct": -10.29
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "population2018": 19550,
+   "population2022": 20704,
+   "growth2018to2022Pct": 5.9,
+   "cagrPct": 1.44
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "population2018": 28600,
+   "population2022": 9527,
+   "growth2018to2022Pct": -66.7,
+   "cagrPct": -24.03
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "population2018": 2,
+   "population2022": 2529,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "population2018": 68717,
+   "population2022": 73879,
+   "growth2018to2022Pct": 7.5,
+   "cagrPct": 1.83
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "population2018": 589,
+   "population2022": 616,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "population2018": 175,
+   "population2022": 206,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "population2018": 14815,
+   "population2022": 16759,
+   "growth2018to2022Pct": 13.1,
+   "cagrPct": 3.13
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "population2018": 1952,
+   "population2022": 2042,
+   "growth2018to2022Pct": 4.6,
+   "cagrPct": 1.13
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "population2018": 13665,
+   "population2022": 12699,
+   "growth2018to2022Pct": -7.1,
+   "cagrPct": -1.82
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "population2018": 11442,
+   "population2022": 13137,
+   "growth2018to2022Pct": 14.8,
+   "cagrPct": 3.51
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "population2018": 10217,
+   "population2022": 11439,
+   "growth2018to2022Pct": 12,
+   "cagrPct": 2.86
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "population2018": 8919,
+   "population2022": 10412,
+   "growth2018to2022Pct": 16.7,
+   "cagrPct": 3.95
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "population2018": 570,
+   "population2022": 671,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "population2018": 232,
+   "population2022": 195,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "population2018": 9672,
+   "population2022": 11279,
+   "growth2018to2022Pct": 16.6,
+   "cagrPct": 3.92
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "population2018": 8,
+   "population2022": 8,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "population2018": 2352,
+   "population2022": 1851,
+   "growth2018to2022Pct": -21.3,
+   "cagrPct": -5.81
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "population2018": 55,
+   "population2022": 90,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "population2018": 7740,
+   "population2022": 9358,
+   "growth2018to2022Pct": 20.9,
+   "cagrPct": 4.86
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "population2018": 3865,
+   "population2022": 6031,
+   "growth2018to2022Pct": 56,
+   "cagrPct": 11.77
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "population2018": 7893,
+   "population2022": 9228,
+   "growth2018to2022Pct": 16.9,
+   "cagrPct": 3.98
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "population2018": 34594,
+   "population2022": 38408,
+   "growth2018to2022Pct": 11,
+   "cagrPct": 2.65
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "population2018": 40541,
+   "population2022": 50697,
+   "growth2018to2022Pct": 25.1,
+   "cagrPct": 5.75
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "population2018": 18845,
+   "population2022": 21751,
+   "growth2018to2022Pct": 15.4,
+   "cagrPct": 3.65
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "population2018": 2258,
+   "population2022": 2613,
+   "growth2018to2022Pct": 15.7,
+   "cagrPct": 3.72
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "population2018": 2462,
+   "population2022": 0,
+   "growth2018to2022Pct": -100,
+   "cagrPct": -100
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "population2018": 6812,
+   "population2022": 7685,
+   "growth2018to2022Pct": 12.8,
+   "cagrPct": 3.06
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "population2018": 2633,
+   "population2022": 3017,
+   "growth2018to2022Pct": 14.6,
+   "cagrPct": 3.46
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "population2018": 13267,
+   "population2022": 14761,
+   "growth2018to2022Pct": 11.3,
+   "cagrPct": 2.7
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "population2018": 2923,
+   "population2022": 3283,
+   "growth2018to2022Pct": 12.3,
+   "cagrPct": 2.95
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "population2018": 2559,
+   "population2022": 2838,
+   "growth2018to2022Pct": 10.9,
+   "cagrPct": 2.62
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "population2018": 60288,
+   "population2022": 68346,
+   "growth2018to2022Pct": 13.4,
+   "cagrPct": 3.19
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "population2018": 6247,
+   "population2022": 7207,
+   "growth2018to2022Pct": 15.4,
+   "cagrPct": 3.64
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "population2018": 10957,
+   "population2022": 12403,
+   "growth2018to2022Pct": 13.2,
+   "cagrPct": 3.15
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "population2018": 4577,
+   "population2022": 5184,
+   "growth2018to2022Pct": 13.3,
+   "cagrPct": 3.16
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "population2018": 1655,
+   "population2022": 2670,
+   "growth2018to2022Pct": 61.3,
+   "cagrPct": 12.7
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "population2018": 7375,
+   "population2022": 8809,
+   "growth2018to2022Pct": 19.4,
+   "cagrPct": 4.54
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "population2018": 2921,
+   "population2022": 3425,
+   "growth2018to2022Pct": 17.3,
+   "cagrPct": 4.06
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "population2018": 2476,
+   "population2022": 2932,
+   "growth2018to2022Pct": 18.4,
+   "cagrPct": 4.32
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "population2018": 187,
+   "population2022": 218,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "population2018": 48804,
+   "population2022": 53403,
+   "growth2018to2022Pct": 9.4,
+   "cagrPct": 2.28
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "population2018": 1363,
+   "population2022": 1617,
+   "growth2018to2022Pct": 18.6,
+   "cagrPct": 4.36
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "population2018": 37400,
+   "population2022": 42056,
+   "growth2018to2022Pct": 12.4,
+   "cagrPct": 2.98
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "population2018": 16179,
+   "population2022": 19268,
+   "growth2018to2022Pct": 19.1,
+   "cagrPct": 4.47
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "population2018": 727,
+   "population2022": 775,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "population2018": 25,
+   "population2022": 0,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "population2018": 217,
+   "population2022": 5292,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "population2018": 8362,
+   "population2022": 11068,
+   "growth2018to2022Pct": 32.4,
+   "cagrPct": 7.26
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "population2018": 5592,
+   "population2022": 6609,
+   "growth2018to2022Pct": 18.2,
+   "cagrPct": 4.27
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "population2018": 4,
+   "population2022": 4,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "population2018": 55,
+   "population2022": 58,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "population2018": 2,
+   "population2022": 2,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "population2018": 4,
+   "population2022": 4,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "population2018": 12155,
+   "population2022": 13787,
+   "growth2018to2022Pct": 13.4,
+   "cagrPct": 3.2
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "population2018": 100,
+   "population2022": 85,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "population2018": 81741,
+   "population2022": 85080,
+   "growth2018to2022Pct": 4.1,
+   "cagrPct": 1.01
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "population2018": 2,
+   "population2022": 2,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "population2018": 35361,
+   "population2022": 50559,
+   "growth2018to2022Pct": 43,
+   "cagrPct": 9.35
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "population2018": 39,
+   "population2022": 50,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "population2018": 115,
+   "population2022": 0,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "population2018": 22638,
+   "population2022": 26279,
+   "growth2018to2022Pct": 16.1,
+   "cagrPct": 3.8
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "population2018": 11144,
+   "population2022": 4684,
+   "growth2018to2022Pct": -58,
+   "cagrPct": -19.48
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "population2018": 1032,
+   "population2022": 1798,
+   "growth2018to2022Pct": 74.2,
+   "cagrPct": 14.89
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "population2018": 11456,
+   "population2022": 13502,
+   "growth2018to2022Pct": 17.9,
+   "cagrPct": 4.19
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "population2018": 11156,
+   "population2022": 12227,
+   "growth2018to2022Pct": 9.6,
+   "cagrPct": 2.32
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "population2018": 24373,
+   "population2022": 26115,
+   "growth2018to2022Pct": 7.1,
+   "cagrPct": 1.74
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "population2018": 309,
+   "population2022": 170,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "population2018": 805,
+   "population2022": 10660,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "population2018": 20392,
+   "population2022": 21686,
+   "growth2018to2022Pct": 6.3,
+   "cagrPct": 1.55
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "population2018": 13295,
+   "population2022": null,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "population2018": 7021,
+   "population2022": 7935,
+   "growth2018to2022Pct": 13,
+   "cagrPct": 3.11
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "population2018": 2393,
+   "population2022": 2176,
+   "growth2018to2022Pct": -9.1,
+   "cagrPct": -2.35
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "population2018": 0,
+   "population2022": 0,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "population2018": 395,
+   "population2022": 447,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "population2018": 14178,
+   "population2022": 16901,
+   "growth2018to2022Pct": 19.2,
+   "cagrPct": 4.49
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "population2018": 16905,
+   "population2022": 18116,
+   "growth2018to2022Pct": 7.2,
+   "cagrPct": 1.74
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "population2018": 32346,
+   "population2022": 36338,
+   "growth2018to2022Pct": 12.3,
+   "cagrPct": 2.95
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "population2018": 25360,
+   "population2022": 17526,
+   "growth2018to2022Pct": -30.9,
+   "cagrPct": -8.82
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "population2018": 16,
+   "population2022": 3,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "population2018": 3505,
+   "population2022": 3968,
+   "growth2018to2022Pct": 13.2,
+   "cagrPct": 3.15
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "population2018": 9623,
+   "population2022": 11010,
+   "growth2018to2022Pct": 14.4,
+   "cagrPct": 3.42
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "population2018": 7,
+   "population2022": 7,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "population2018": 4551,
+   "population2022": 5655,
+   "growth2018to2022Pct": 24.3,
+   "cagrPct": 5.58
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "population2018": 12493,
+   "population2022": 14476,
+   "growth2018to2022Pct": 15.9,
+   "cagrPct": 3.75
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "population2018": 14129,
+   "population2022": 8440,
+   "growth2018to2022Pct": -40.3,
+   "cagrPct": -12.09
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "population2018": 2,
+   "population2022": 2008,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "population2018": 3,
+   "population2022": 3,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "population2018": 33421,
+   "population2022": 38611,
+   "growth2018to2022Pct": 15.5,
+   "cagrPct": 3.67
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "population2018": 13316,
+   "population2022": 12638,
+   "growth2018to2022Pct": -5.1,
+   "cagrPct": -1.3
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "population2018": 5485,
+   "population2022": 6872,
+   "growth2018to2022Pct": 25.3,
+   "cagrPct": 5.8
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "population2018": 29011,
+   "population2022": 33484,
+   "growth2018to2022Pct": 15.4,
+   "cagrPct": 3.65
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "population2018": 2329,
+   "population2022": 3633,
+   "growth2018to2022Pct": 56,
+   "cagrPct": 11.76
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "population2018": 9,
+   "population2022": 90,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "population2018": 2,
+   "population2022": 2,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "population2018": 0,
+   "population2022": 2494,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "population2018": 4,
+   "population2022": 4,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "population2018": 46,
+   "population2022": 47,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "population2018": 3300,
+   "population2022": 3365,
+   "growth2018to2022Pct": 2,
+   "cagrPct": 0.49
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "population2018": 4036,
+   "population2022": 4938,
+   "growth2018to2022Pct": 22.3,
+   "cagrPct": 5.17
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "population2018": 55052,
+   "population2022": 63804,
+   "growth2018to2022Pct": 15.9,
+   "cagrPct": 3.76
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "population2018": 22333,
+   "population2022": 25550,
+   "growth2018to2022Pct": 14.4,
+   "cagrPct": 3.42
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "population2018": 7314,
+   "population2022": 8143,
+   "growth2018to2022Pct": 11.3,
+   "cagrPct": 2.72
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "population2018": 15453,
+   "population2022": 16873,
+   "growth2018to2022Pct": 9.2,
+   "cagrPct": 2.22
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "population2018": 5047,
+   "population2022": 5953,
+   "growth2018to2022Pct": 18,
+   "cagrPct": 4.21
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "population2018": 12241,
+   "population2022": 13946,
+   "growth2018to2022Pct": 13.9,
+   "cagrPct": 3.31
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "population2018": 3861,
+   "population2022": 4291,
+   "growth2018to2022Pct": 11.1,
+   "cagrPct": 2.67
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "population2018": 2183,
+   "population2022": 5885,
+   "growth2018to2022Pct": 169.6,
+   "cagrPct": 28.14
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "population2018": 3545,
+   "population2022": 3119,
+   "growth2018to2022Pct": -12,
+   "cagrPct": -3.15
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "population2018": 38280,
+   "population2022": 39092,
+   "growth2018to2022Pct": 2.1,
+   "cagrPct": 0.53
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "population2018": 2,
+   "population2022": 1317,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "population2018": 10279,
+   "population2022": 11318,
+   "growth2018to2022Pct": 10.1,
+   "cagrPct": 2.44
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "population2018": 4097,
+   "population2022": 4715,
+   "growth2018to2022Pct": 15.1,
+   "cagrPct": 3.57
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "population2018": 0,
+   "population2022": 3,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "population2018": 35,
+   "population2022": 37,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "population2018": 258,
+   "population2022": 301,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "population2018": 21500,
+   "population2022": 22442,
+   "growth2018to2022Pct": 4.4,
+   "cagrPct": 1.08
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "population2018": 53,
+   "population2022": 56,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "population2018": 3,
+   "population2022": 0,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "population2018": 54338,
+   "population2022": 58965,
+   "growth2018to2022Pct": 8.5,
+   "cagrPct": 2.06
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "population2018": 2964,
+   "population2022": 3378,
+   "growth2018to2022Pct": 14,
+   "cagrPct": 3.32
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "population2018": 804,
+   "population2022": 348,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "population2018": 14,
+   "population2022": 15,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "population2018": 2,
+   "population2022": 169,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "population2018": 2,
+   "population2022": 7,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "population2018": 137,
+   "population2022": 1259,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "population2018": 18925,
+   "population2022": 20139,
+   "growth2018to2022Pct": 6.4,
+   "cagrPct": 1.57
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "population2018": 13616,
+   "population2022": 15874,
+   "growth2018to2022Pct": 16.6,
+   "cagrPct": 3.91
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "population2018": 10237,
+   "population2022": 11530,
+   "growth2018to2022Pct": 12.6,
+   "cagrPct": 3.02
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "population2018": 15355,
+   "population2022": 18014,
+   "growth2018to2022Pct": 17.3,
+   "cagrPct": 4.07
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "population2018": 3587,
+   "population2022": 4997,
+   "growth2018to2022Pct": 39.3,
+   "cagrPct": 8.64
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "population2018": 7,
+   "population2022": 29,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "population2018": 12510,
+   "population2022": 15867,
+   "growth2018to2022Pct": 26.8,
+   "cagrPct": 6.12
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "population2018": 10,
+   "population2022": 300,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "population2018": 38294,
+   "population2022": 40456,
+   "growth2018to2022Pct": 5.6,
+   "cagrPct": 1.38
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "population2018": 14208,
+   "population2022": 15901,
+   "growth2018to2022Pct": 11.9,
+   "cagrPct": 2.85
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "population2018": 21788,
+   "population2022": 21942,
+   "growth2018to2022Pct": 0.7,
+   "cagrPct": 0.18
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "population2018": 79,
+   "population2022": 143,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "population2018": 26569,
+   "population2022": 28561,
+   "growth2018to2022Pct": 7.5,
+   "cagrPct": 1.82
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "population2018": 18789,
+   "population2022": 21842,
+   "growth2018to2022Pct": 16.2,
+   "cagrPct": 3.84
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "population2018": 1513,
+   "population2022": 218,
+   "growth2018to2022Pct": -85.6,
+   "cagrPct": -38.39
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "population2018": 13589,
+   "population2022": 18520,
+   "growth2018to2022Pct": 36.3,
+   "cagrPct": 8.05
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "population2018": 7057,
+   "population2022": 7350,
+   "growth2018to2022Pct": 4.2,
+   "cagrPct": 1.02
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "population2018": 129024,
+   "population2022": 199780,
+   "growth2018to2022Pct": 54.8,
+   "cagrPct": 11.55
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "population2018": 3193,
+   "population2022": 3645,
+   "growth2018to2022Pct": 14.2,
+   "cagrPct": 3.37
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "population2018": 13266,
+   "population2022": 14425,
+   "growth2018to2022Pct": 8.7,
+   "cagrPct": 2.12
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "population2018": 35469,
+   "population2022": 42332,
+   "growth2018to2022Pct": 19.3,
+   "cagrPct": 4.52
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "population2018": 504,
+   "population2022": 595,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "population2018": 3062,
+   "population2022": 3519,
+   "growth2018to2022Pct": 14.9,
+   "cagrPct": 3.54
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "population2018": 13990,
+   "population2022": 15716,
+   "growth2018to2022Pct": 12.3,
+   "cagrPct": 2.95
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "population2018": 19715,
+   "population2022": 24410,
+   "growth2018to2022Pct": 23.8,
+   "cagrPct": 5.49
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "population2018": 43473,
+   "population2022": 49276,
+   "growth2018to2022Pct": 13.3,
+   "cagrPct": 3.18
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "population2018": 18698,
+   "population2022": 22291,
+   "growth2018to2022Pct": 19.2,
+   "cagrPct": 4.49
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "population2018": 17413,
+   "population2022": 18664,
+   "growth2018to2022Pct": 7.2,
+   "cagrPct": 1.75
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "population2018": 11,
+   "population2022": 13,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "population2018": 70558,
+   "population2022": 77139,
+   "growth2018to2022Pct": 9.3,
+   "cagrPct": 2.25
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "population2018": 21696,
+   "population2022": 26803,
+   "growth2018to2022Pct": 23.5,
+   "cagrPct": 5.43
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "population2018": 15806,
+   "population2022": 17898,
+   "growth2018to2022Pct": 13.2,
+   "cagrPct": 3.16
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "population2018": 2,
+   "population2022": 2,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "population2018": 13034,
+   "population2022": 14789,
+   "growth2018to2022Pct": 13.5,
+   "cagrPct": 3.21
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "population2018": 403,
+   "population2022": 403,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "population2018": 6753,
+   "population2022": 7997,
+   "growth2018to2022Pct": 18.4,
+   "cagrPct": 4.32
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "population2018": 41048,
+   "population2022": 40958,
+   "growth2018to2022Pct": -0.2,
+   "cagrPct": -0.05
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "population2018": 15,
+   "population2022": 113,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "population2018": 10781,
+   "population2022": 12239,
+   "growth2018to2022Pct": 13.5,
+   "cagrPct": 3.22
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "population2018": 45,
+   "population2022": 10418,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "population2018": 18424,
+   "population2022": 20168,
+   "growth2018to2022Pct": 9.5,
+   "cagrPct": 2.29
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "population2018": 4867,
+   "population2022": 5746,
+   "growth2018to2022Pct": 18.1,
+   "cagrPct": 4.24
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "population2018": 468,
+   "population2022": 507,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "population2018": 1524,
+   "population2022": 1415,
+   "growth2018to2022Pct": -7.2,
+   "cagrPct": -1.84
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "population2018": 20847,
+   "population2022": 22143,
+   "growth2018to2022Pct": 6.2,
+   "cagrPct": 1.52
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "population2018": 60,
+   "population2022": 0,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "population2018": 8359,
+   "population2022": 10205,
+   "growth2018to2022Pct": 22.1,
+   "cagrPct": 5.11
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "population2018": 6129,
+   "population2022": 7024,
+   "growth2018to2022Pct": 14.6,
+   "cagrPct": 3.47
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "population2018": 59763,
+   "population2022": 80537,
+   "growth2018to2022Pct": 34.8,
+   "cagrPct": 7.74
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "population2018": 94,
+   "population2022": 101,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "population2018": 11170,
+   "population2022": 10806,
+   "growth2018to2022Pct": -3.3,
+   "cagrPct": -0.82
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "population2018": 69000,
+   "population2022": 63591,
+   "growth2018to2022Pct": -7.8,
+   "cagrPct": -2.02
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "population2018": 97159,
+   "population2022": 108637,
+   "growth2018to2022Pct": 11.8,
+   "cagrPct": 2.83
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "population2018": 17737,
+   "population2022": 22829,
+   "growth2018to2022Pct": 28.7,
+   "cagrPct": 6.51
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "population2018": 37067,
+   "population2022": 41745,
+   "growth2018to2022Pct": 12.6,
+   "cagrPct": 3.02
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "population2018": 7709,
+   "population2022": 8923,
+   "growth2018to2022Pct": 15.7,
+   "cagrPct": 3.72
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "population2018": 7509,
+   "population2022": 8842,
+   "growth2018to2022Pct": 17.8,
+   "cagrPct": 4.17
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "population2018": 6984,
+   "population2022": 7687,
+   "growth2018to2022Pct": 10.1,
+   "cagrPct": 2.43
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "population2018": 1286,
+   "population2022": 7032,
+   "growth2018to2022Pct": 446.8,
+   "cagrPct": 52.92
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "population2018": 23000,
+   "population2022": 28152,
+   "growth2018to2022Pct": 22.4,
+   "cagrPct": 5.18
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "population2018": 930,
+   "population2022": 1230,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "population2018": 6250,
+   "population2022": 7419,
+   "growth2018to2022Pct": 18.7,
+   "cagrPct": 4.38
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "population2018": 42904,
+   "population2022": 49440,
+   "growth2018to2022Pct": 15.2,
+   "cagrPct": 3.61
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "population2018": 660,
+   "population2022": 685,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "population2018": 4566,
+   "population2022": 8660,
+   "growth2018to2022Pct": 89.7,
+   "cagrPct": 17.35
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "population2018": 63,
+   "population2022": 81,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "population2018": 4641,
+   "population2022": 5333,
+   "growth2018to2022Pct": 14.9,
+   "cagrPct": 3.54
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "population2018": 4197,
+   "population2022": 7477,
+   "growth2018to2022Pct": 78.2,
+   "cagrPct": 15.53
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "population2018": 197838,
+   "population2022": 150710,
+   "growth2018to2022Pct": -23.8,
+   "cagrPct": -6.58
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "population2018": 1759,
+   "population2022": 2483,
+   "growth2018to2022Pct": 41.2,
+   "cagrPct": 9
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "population2018": 9599,
+   "population2022": 10475,
+   "growth2018to2022Pct": 9.1,
+   "cagrPct": 2.21
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "population2018": 5351,
+   "population2022": 6611,
+   "growth2018to2022Pct": 23.5,
+   "cagrPct": 5.43
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "population2018": 4112,
+   "population2022": 4779,
+   "growth2018to2022Pct": 16.2,
+   "cagrPct": 3.83
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "population2018": 3,
+   "population2022": 3,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "population2018": 9380,
+   "population2022": 10876,
+   "growth2018to2022Pct": 15.9,
+   "cagrPct": 3.77
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "population2018": 2766,
+   "population2022": 3081,
+   "growth2018to2022Pct": 11.4,
+   "cagrPct": 2.73
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "population2018": 41818,
+   "population2022": 49504,
+   "growth2018to2022Pct": 18.4,
+   "cagrPct": 4.31
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "population2018": 819,
+   "population2022": 3875,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "population2018": 10867,
+   "population2022": 12720,
+   "growth2018to2022Pct": 17.1,
+   "cagrPct": 4.01
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "population2018": 158543,
+   "population2022": 129757,
+   "growth2018to2022Pct": -18.2,
+   "cagrPct": -4.89
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "population2018": 4,
+   "population2022": 1754,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "population2018": 46929,
+   "population2022": 53055,
+   "growth2018to2022Pct": 13.1,
+   "cagrPct": 3.11
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "population2018": 68,
+   "population2022": 4692,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "population2018": 8,
+   "population2022": 8,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "population2018": 6344,
+   "population2022": 7222,
+   "growth2018to2022Pct": 13.8,
+   "cagrPct": 3.29
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "population2018": 4870,
+   "population2022": 6060,
+   "growth2018to2022Pct": 24.4,
+   "cagrPct": 5.62
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "population2018": 22,
+   "population2022": 121,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "population2018": 18843,
+   "population2022": 21914,
+   "growth2018to2022Pct": 16.3,
+   "cagrPct": 3.85
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "population2018": 1119,
+   "population2022": 425,
+   "growth2018to2022Pct": -62,
+   "cagrPct": -21.5
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "population2018": 56489,
+   "population2022": 65947,
+   "growth2018to2022Pct": 16.7,
+   "cagrPct": 3.95
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "population2018": 12910,
+   "population2022": 14575,
+   "growth2018to2022Pct": 12.9,
+   "cagrPct": 3.08
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "population2018": 1706,
+   "population2022": 1858,
+   "growth2018to2022Pct": 8.9,
+   "cagrPct": 2.16
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "population2018": 25297,
+   "population2022": 29373,
+   "growth2018to2022Pct": 16.1,
+   "cagrPct": 3.81
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "population2018": 5,
+   "population2022": 5,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "population2018": 26,
+   "population2022": 2,
+   "growth2018to2022Pct": null,
+   "cagrPct": null
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "population2018": 23488,
+   "population2022": 28990,
+   "growth2018to2022Pct": 23.4,
+   "cagrPct": 5.4
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "population2018": 69115,
+   "population2022": 78243,
+   "growth2018to2022Pct": 13.2,
+   "cagrPct": 3.15
+  }
+ ]
+}

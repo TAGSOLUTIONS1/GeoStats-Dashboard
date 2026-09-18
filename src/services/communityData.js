@@ -53,6 +53,14 @@ import schoolScore from '../data/composite/school-quality-score.json';
 import economicHealth from '../data/composite/economic-health-score.json';
 import neighborhoodAmenity from '../data/composite/neighborhood-quality-score.json';
 import seniorCare from '../data/dha/senior-care-facilities.json';
+import priceByType from '../data/dld/price-per-sqm-by-type.json';
+import metroProximity from '../data/osm/metro-proximity.json';
+import hospitalProximity from '../data/dha/hospital-proximity.json';
+import clinics from '../data/dha/clinics.json';
+import pharmacies from '../data/dha/pharmacies.json';
+import schoolsPer10k from '../data/schools/schools-per-10k.json';
+import populationGrowthRecent from '../data/dsc/population-growth-recent.json';
+import populationDensity from '../data/dsc/population-density.json';
 
 const GREEN = ['#e8f5e9', '#c8e6c9', '#81c784', '#4caf50', '#2e7d32', '#1b5e20'];
 // Safety is inverted: many incidents = bad, so the scale runs green -> red.
@@ -352,6 +360,118 @@ export const mapDataPoints = {
     stops: [0.05, 0.95, 2.27, 4.54, 9.71, 32.01],
     palette: GREEN,
     source: 'OpenStreetMap (Overpass, Sep 2026) + DSC population',
+  },
+  'population-density': {
+    dataset: populationDensity,
+    property: 'Population_DensityKm2',
+    metric: 'densityPerKm2',
+    labelDigits: 0,
+    labelSuffix: ' /km²',
+    label: 'Residents per km² (2022)',
+    stops: [1, 199, 1269, 3704, 9800, 116410],
+    palette: BLUE,
+    source: 'Dubai Statistics Center population 2022 / community polygon area',
+  },
+  'population-growth-recent': {
+    dataset: populationGrowthRecent,
+    property: 'Population_Change1822',
+    metric: 'growth2018to2022Pct',
+    labelDigits: 0,
+    labelSuffix: '%',
+    label: 'Population change 2018 to 2022 (%)',
+    stops: [-100, 7.1, 12.8, 15.5, 19.2, 446.8],
+    palette: GREEN,
+    source: 'Dubai Statistics Center population estimates 2018 and 2022',
+  },
+  'schools-per-10k-residents': {
+    dataset: schoolsPer10k,
+    property: 'Schools_Per10k',
+    metric: 'schoolsPer10k',
+    labelDigits: 1,
+    labelSuffix: ' /10k',
+    label: 'Private schools per 10k residents',
+    stops: [0.07, 0.64, 0.92, 1.75, 3.23, 8.7],
+    palette: GREEN,
+    source: 'KHDA school list 2024/25 + DSC population 2022',
+  },
+  'pharmacies-per-10k': {
+    dataset: pharmacies,
+    property: 'Pharmacies_Per10k',
+    metric: 'per10kPeople',
+    labelDigits: 1,
+    labelSuffix: ' /10k',
+    label: 'Licensed pharmacies per 10k residents (DHA)',
+    stops: [0.63, 1.92, 3.47, 4.83, 6.97, 33.07],
+    palette: GREEN,
+    source: 'DHA licensed-facility register, Sep 2026 + DSC population',
+  },
+  'clinics-per-10k': {
+    dataset: clinics,
+    property: 'Clinics_Per10k',
+    metric: 'per10kPeople',
+    labelDigits: 1,
+    labelSuffix: ' /10k',
+    label: 'Licensed clinics per 10k residents (DHA)',
+    stops: [0.52, 1.49, 2.45, 4.97, 11.5, 121.82],
+    palette: GREEN,
+    source: 'DHA licensed-facility register, Sep 2026 + DSC population',
+  },
+  'hospital-proximity': {
+    dataset: hospitalProximity,
+    property: 'Hospital_NearestKm',
+    metric: 'kmToNearestHospital',
+    labelDigits: 1,
+    labelSuffix: ' km',
+    label: 'Distance to nearest DHA-licensed hospital (km)',
+    stops: [0.21, 1.25, 2.22, 5.05, 10.55, 83.07],
+    palette: SAFETY,
+    source: 'DHA licensed-facility register, Sep 2026 (50 hospitals)',
+    inverted: true,
+  },
+  'metro-proximity': {
+    dataset: metroProximity,
+    property: 'Metro_NearestKm',
+    metric: 'kmToNearestStation',
+    labelDigits: 1,
+    labelSuffix: ' km',
+    label: 'Distance to nearest Metro, Tram or monorail station (km)',
+    stops: [0.2, 0.78, 2.2, 4.56, 12.52, 81.3],
+    palette: SAFETY,
+    source: 'OpenStreetMap (Overpass), Sep 2026: 95 stations',
+    inverted: true,
+  },
+  'apartment-price-per-sqm': {
+    dataset: priceByType,
+    property: 'Flat_AedPerSqm',
+    metric: 'flatAedPerSqm',
+    labelDigits: 0,
+    labelSuffix: ' AED',
+    label: 'Median apartment sale price per m² (2023 to Aug 2024)',
+    stops: [5597, 11136, 13149, 16093, 25510, 108641],
+    palette: BLUE,
+    source: 'DLD transactions 2023-Aug 2024 (Hugging Face mirror)',
+  },
+  'villa-price-per-sqm': {
+    dataset: priceByType,
+    property: 'Villa_AedPerSqm',
+    metric: 'villaAedPerSqm',
+    labelDigits: 0,
+    labelSuffix: ' AED',
+    label: 'Median villa sale price per m² (2023 to Aug 2024)',
+    stops: [2838, 8948, 10836, 12956, 16131, 25288],
+    palette: BLUE,
+    source: 'DLD transactions 2023-Aug 2024 (Hugging Face mirror)',
+  },
+  'villa-share-of-sales': {
+    dataset: priceByType,
+    property: 'Villa_SharePct',
+    metric: 'villaSharePct',
+    labelDigits: 0,
+    labelSuffix: '%',
+    label: 'Villas as % of residential sales (2023 to Aug 2024)',
+    stops: [0, 1, 1.1, 12.8, 46.4, 100],
+    palette: GREEN,
+    source: 'DLD transactions 2023-Aug 2024 (Hugging Face mirror)',
   },
   'senior-care-facilities': {
     dataset: seniorCare,

@@ -1,0 +1,1605 @@
+{
+ "id": "population-density",
+ "label": "Population density (residents per km²)",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "metric": "densityPerKm2",
+ "source": "Dubai Statistics Center + Dubai Communities 2022 (ArcGIS)",
+ "period": "2022",
+ "retrieved": "2026-09-18",
+ "method": "Latest population (2022) divided by the community polygon area in km². Communities with fewer than 100 residents are null.",
+ "limitation": "Polygon areas include undeveloped desert, water and industrial land, so large mixed communities read as sparser than their built-up part. Labour-camp populations are included where DSC counts them.",
+ "communitiesWithData": 190,
+ "stops": [
+  1,
+  199,
+  1269,
+  3704,
+  9800,
+  116410
+ ],
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "population2022": 12,
+   "areaSqKm": 143.565,
+   "densityPerKm2": null
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "population2022": 9627,
+   "areaSqKm": 1.728,
+   "densityPerKm2": 5571
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "population2022": 25365,
+   "areaSqKm": 1.669,
+   "densityPerKm2": 15198
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "population2022": 1011,
+   "areaSqKm": 5.06,
+   "densityPerKm2": 200
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "population2022": 20704,
+   "areaSqKm": 16.319,
+   "densityPerKm2": 1269
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "population2022": 9527,
+   "areaSqKm": 34.841,
+   "densityPerKm2": 273
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "population2022": 2529,
+   "areaSqKm": 7.334,
+   "densityPerKm2": 345
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "population2022": 73879,
+   "areaSqKm": 1.505,
+   "densityPerKm2": 49089
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "population2022": 616,
+   "areaSqKm": 88.696,
+   "densityPerKm2": 7
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "population2022": 206,
+   "areaSqKm": 41.727,
+   "densityPerKm2": 5
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "population2022": 16759,
+   "areaSqKm": 6.411,
+   "densityPerKm2": 2614
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "population2022": 2042,
+   "areaSqKm": 1.227,
+   "densityPerKm2": 1664
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "population2022": 12699,
+   "areaSqKm": 22.28,
+   "densityPerKm2": 570
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "population2022": 13137,
+   "areaSqKm": 1.791,
+   "densityPerKm2": 7335
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "population2022": 11439,
+   "areaSqKm": 2.967,
+   "densityPerKm2": 3855
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "population2022": 10412,
+   "areaSqKm": 8.093,
+   "densityPerKm2": 1287
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "population2022": 671,
+   "areaSqKm": 34.631,
+   "densityPerKm2": 19
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "population2022": 195,
+   "areaSqKm": 82.866,
+   "densityPerKm2": 2
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "population2022": 11279,
+   "areaSqKm": 4.177,
+   "densityPerKm2": 2700
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "population2022": 8,
+   "areaSqKm": 13.236,
+   "densityPerKm2": null
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "population2022": 1851,
+   "areaSqKm": 4.174,
+   "densityPerKm2": 443
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "population2022": 90,
+   "areaSqKm": 10.541,
+   "densityPerKm2": null
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "population2022": 9358,
+   "areaSqKm": 8.408,
+   "densityPerKm2": 1113
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "population2022": 6031,
+   "areaSqKm": 12.694,
+   "densityPerKm2": 475
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "population2022": 9228,
+   "areaSqKm": 2.43,
+   "densityPerKm2": 3798
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "population2022": 38408,
+   "areaSqKm": 4.841,
+   "densityPerKm2": 7934
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "population2022": 50697,
+   "areaSqKm": 2.423,
+   "densityPerKm2": 20923
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "population2022": 21751,
+   "areaSqKm": 3.571,
+   "densityPerKm2": 6091
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "population2022": 2613,
+   "areaSqKm": 7.486,
+   "densityPerKm2": 349
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "population2022": 0,
+   "areaSqKm": 30.004,
+   "densityPerKm2": null
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "population2022": 7685,
+   "areaSqKm": 2.258,
+   "densityPerKm2": 3403
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "population2022": 3017,
+   "areaSqKm": 112.701,
+   "densityPerKm2": 27
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "population2022": 14761,
+   "areaSqKm": 5.9,
+   "densityPerKm2": 2502
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "population2022": 3283,
+   "areaSqKm": 11.49,
+   "densityPerKm2": 286
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "population2022": 2838,
+   "areaSqKm": 0.925,
+   "densityPerKm2": 3068
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "population2022": 68346,
+   "areaSqKm": 9.35,
+   "densityPerKm2": 7310
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "population2022": 7207,
+   "areaSqKm": 1.893,
+   "densityPerKm2": 3807
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "population2022": 12403,
+   "areaSqKm": 2.564,
+   "densityPerKm2": 4837
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "population2022": 5184,
+   "areaSqKm": 1.111,
+   "densityPerKm2": 4666
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "population2022": 2670,
+   "areaSqKm": 0.611,
+   "densityPerKm2": 4370
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "population2022": 8809,
+   "areaSqKm": 4.973,
+   "densityPerKm2": 1771
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "population2022": 3425,
+   "areaSqKm": 34.652,
+   "densityPerKm2": 99
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "population2022": 2932,
+   "areaSqKm": 0.728,
+   "densityPerKm2": 4027
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "population2022": 218,
+   "areaSqKm": 35.161,
+   "densityPerKm2": 6
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "population2022": 53403,
+   "areaSqKm": 0.747,
+   "densityPerKm2": 71490
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "population2022": 1617,
+   "areaSqKm": 62.308,
+   "densityPerKm2": 26
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "population2022": 42056,
+   "areaSqKm": 1.96,
+   "densityPerKm2": 21457
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "population2022": 19268,
+   "areaSqKm": 7.812,
+   "densityPerKm2": 2466
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "population2022": 775,
+   "areaSqKm": 15.458,
+   "densityPerKm2": 50
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "population2022": 0,
+   "areaSqKm": 7.486,
+   "densityPerKm2": null
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "population2022": 5292,
+   "areaSqKm": 14.349,
+   "densityPerKm2": 369
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "population2022": 11068,
+   "areaSqKm": 1.438,
+   "densityPerKm2": 7697
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "population2022": 6609,
+   "areaSqKm": 4.279,
+   "densityPerKm2": 1545
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "population2022": 4,
+   "areaSqKm": 12.34,
+   "densityPerKm2": null
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "population2022": 58,
+   "areaSqKm": 91.818,
+   "densityPerKm2": null
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "population2022": 2,
+   "areaSqKm": 99.847,
+   "densityPerKm2": null
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "population2022": 4,
+   "areaSqKm": 124.731,
+   "densityPerKm2": null
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "population2022": 13787,
+   "areaSqKm": 1.38,
+   "densityPerKm2": 9991
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "population2022": 85,
+   "areaSqKm": 25.164,
+   "densityPerKm2": null
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "population2022": 85080,
+   "areaSqKm": 1.751,
+   "densityPerKm2": 48589
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "population2022": 2,
+   "areaSqKm": 1.962,
+   "densityPerKm2": null
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "population2022": 50559,
+   "areaSqKm": 9.804,
+   "densityPerKm2": 5157
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "population2022": 50,
+   "areaSqKm": 0.991,
+   "densityPerKm2": null
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "population2022": 0,
+   "areaSqKm": 6.228,
+   "densityPerKm2": null
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "population2022": 26279,
+   "areaSqKm": 1.07,
+   "densityPerKm2": 24560
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "population2022": 4684,
+   "areaSqKm": 16.041,
+   "densityPerKm2": 292
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "population2022": 1798,
+   "areaSqKm": 3.261,
+   "densityPerKm2": 551
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "population2022": 13502,
+   "areaSqKm": 3.19,
+   "densityPerKm2": 4233
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "population2022": 12227,
+   "areaSqKm": 4.873,
+   "densityPerKm2": 2509
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "population2022": 26115,
+   "areaSqKm": 1.025,
+   "densityPerKm2": 25478
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "population2022": 170,
+   "areaSqKm": 32.692,
+   "densityPerKm2": 5
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "population2022": 10660,
+   "areaSqKm": 3.294,
+   "densityPerKm2": 3236
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "population2022": 21686,
+   "areaSqKm": 1.432,
+   "densityPerKm2": 15144
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "population2022": 13295,
+   "areaSqKm": 128.71,
+   "densityPerKm2": 103
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "population2022": 7935,
+   "areaSqKm": 2.606,
+   "densityPerKm2": 3045
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "population2022": 2176,
+   "areaSqKm": 2.645,
+   "densityPerKm2": 823
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "population2022": 0,
+   "areaSqKm": 36.997,
+   "densityPerKm2": null
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "population2022": 447,
+   "areaSqKm": 140.528,
+   "densityPerKm2": 3
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "population2022": 16901,
+   "areaSqKm": 5.799,
+   "densityPerKm2": 2914
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "population2022": 18116,
+   "areaSqKm": 1.274,
+   "densityPerKm2": 14220
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "population2022": 36338,
+   "areaSqKm": 2.324,
+   "densityPerKm2": 15636
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "population2022": 17526,
+   "areaSqKm": 4.403,
+   "densityPerKm2": 3980
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "population2022": 3,
+   "areaSqKm": 190.173,
+   "densityPerKm2": null
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "population2022": 3968,
+   "areaSqKm": 6.169,
+   "densityPerKm2": 643
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "population2022": 11010,
+   "areaSqKm": 10.532,
+   "densityPerKm2": 1045
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "population2022": 7,
+   "areaSqKm": 74.097,
+   "densityPerKm2": null
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "population2022": 5655,
+   "areaSqKm": 5.325,
+   "densityPerKm2": 1062
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "population2022": 14476,
+   "areaSqKm": 3.443,
+   "densityPerKm2": 4204
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "population2022": 8440,
+   "areaSqKm": 22.091,
+   "densityPerKm2": 382
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "population2022": 2008,
+   "areaSqKm": 4.332,
+   "densityPerKm2": 464
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "population2022": 3,
+   "areaSqKm": 11.785,
+   "densityPerKm2": null
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "population2022": 38611,
+   "areaSqKm": 0.828,
+   "densityPerKm2": 46632
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "population2022": 12638,
+   "areaSqKm": 10.442,
+   "densityPerKm2": 1210
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "population2022": 6872,
+   "areaSqKm": 21.673,
+   "densityPerKm2": 317
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "population2022": 33484,
+   "areaSqKm": 1.696,
+   "densityPerKm2": 19743
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "population2022": 3633,
+   "areaSqKm": 15.29,
+   "densityPerKm2": 238
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "population2022": 90,
+   "areaSqKm": 41.618,
+   "densityPerKm2": null
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "population2022": 2,
+   "areaSqKm": 8.524,
+   "densityPerKm2": null
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "population2022": 2494,
+   "areaSqKm": 17.795,
+   "densityPerKm2": 140
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "population2022": 4,
+   "areaSqKm": 46.008,
+   "densityPerKm2": null
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "population2022": 47,
+   "areaSqKm": 26.514,
+   "densityPerKm2": null
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "population2022": 3365,
+   "areaSqKm": 23.847,
+   "densityPerKm2": 141
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "population2022": 4938,
+   "areaSqKm": 59.998,
+   "densityPerKm2": 82
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "population2022": 63804,
+   "areaSqKm": 8.881,
+   "densityPerKm2": 7184
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "population2022": 25550,
+   "areaSqKm": 26.742,
+   "densityPerKm2": 955
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "population2022": 8143,
+   "areaSqKm": 0.303,
+   "densityPerKm2": 26875
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "population2022": 16873,
+   "areaSqKm": 0.177,
+   "densityPerKm2": 95328
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "population2022": 5953,
+   "areaSqKm": 2.426,
+   "densityPerKm2": 2454
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "population2022": 13946,
+   "areaSqKm": 16.411,
+   "densityPerKm2": 850
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "population2022": 4291,
+   "areaSqKm": 0.073,
+   "densityPerKm2": 58781
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "population2022": 5885,
+   "areaSqKm": 141.835,
+   "densityPerKm2": 41
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "population2022": 3119,
+   "areaSqKm": 3.647,
+   "densityPerKm2": 855
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "population2022": 39092,
+   "areaSqKm": 4.689,
+   "densityPerKm2": 8337
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "population2022": 1317,
+   "areaSqKm": 0.796,
+   "densityPerKm2": 1655
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "population2022": 11318,
+   "areaSqKm": 0.654,
+   "densityPerKm2": 17306
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "population2022": 4715,
+   "areaSqKm": 1.848,
+   "densityPerKm2": 2551
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "population2022": 3,
+   "areaSqKm": 58.952,
+   "densityPerKm2": null
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "population2022": 37,
+   "areaSqKm": 82.253,
+   "densityPerKm2": null
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "population2022": 301,
+   "areaSqKm": 35.222,
+   "densityPerKm2": 9
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "population2022": 22442,
+   "areaSqKm": 5.448,
+   "densityPerKm2": 4119
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "population2022": 56,
+   "areaSqKm": 36.413,
+   "densityPerKm2": null
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "population2022": 0,
+   "areaSqKm": 69.541,
+   "densityPerKm2": null
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "population2022": 58965,
+   "areaSqKm": 1.985,
+   "densityPerKm2": 29705
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "population2022": 3378,
+   "areaSqKm": 1.093,
+   "densityPerKm2": 3091
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "population2022": 348,
+   "areaSqKm": 139.917,
+   "densityPerKm2": 2
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "population2022": 15,
+   "areaSqKm": 0.871,
+   "densityPerKm2": null
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "population2022": 169,
+   "areaSqKm": 6.855,
+   "densityPerKm2": 25
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "population2022": 7,
+   "areaSqKm": 0.311,
+   "densityPerKm2": null
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "population2022": 1259,
+   "areaSqKm": 6.32,
+   "densityPerKm2": 199
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "population2022": 20139,
+   "areaSqKm": 0.173,
+   "densityPerKm2": 116410
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "population2022": 15874,
+   "areaSqKm": 1.516,
+   "densityPerKm2": 10471
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "population2022": 11530,
+   "areaSqKm": 3.563,
+   "densityPerKm2": 3236
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "population2022": 18014,
+   "areaSqKm": 0.835,
+   "densityPerKm2": 21574
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "population2022": 4997,
+   "areaSqKm": 39.715,
+   "densityPerKm2": 126
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "population2022": 29,
+   "areaSqKm": 70.859,
+   "densityPerKm2": null
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "population2022": 15867,
+   "areaSqKm": 3.628,
+   "densityPerKm2": 4373
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "population2022": 300,
+   "areaSqKm": 28.335,
+   "densityPerKm2": 11
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "population2022": 40456,
+   "areaSqKm": 0.388,
+   "densityPerKm2": 104268
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "population2022": 15901,
+   "areaSqKm": 6.22,
+   "densityPerKm2": 2556
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "population2022": 21942,
+   "areaSqKm": 2.239,
+   "densityPerKm2": 9800
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "population2022": 143,
+   "areaSqKm": 27.326,
+   "densityPerKm2": 5
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "population2022": 28561,
+   "areaSqKm": 4.825,
+   "densityPerKm2": 5919
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "population2022": 21842,
+   "areaSqKm": 9.146,
+   "densityPerKm2": 2388
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "population2022": 218,
+   "areaSqKm": 364.951,
+   "densityPerKm2": 1
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "population2022": 18520,
+   "areaSqKm": 8.312,
+   "densityPerKm2": 2228
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "population2022": 7350,
+   "areaSqKm": 4.767,
+   "densityPerKm2": 1542
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "population2022": 199780,
+   "areaSqKm": 22.065,
+   "densityPerKm2": 9054
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "population2022": 3645,
+   "areaSqKm": 24.184,
+   "densityPerKm2": 151
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "population2022": 14425,
+   "areaSqKm": 2.702,
+   "densityPerKm2": 5339
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "population2022": 42332,
+   "areaSqKm": 3.954,
+   "densityPerKm2": 10706
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "population2022": 595,
+   "areaSqKm": 13.058,
+   "densityPerKm2": 46
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "population2022": 3519,
+   "areaSqKm": 4.12,
+   "densityPerKm2": 854
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "population2022": 15716,
+   "areaSqKm": 4.947,
+   "densityPerKm2": 3177
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "population2022": 24410,
+   "areaSqKm": 6.586,
+   "densityPerKm2": 3706
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "population2022": 49276,
+   "areaSqKm": 1.113,
+   "densityPerKm2": 44273
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "population2022": 22291,
+   "areaSqKm": 2.66,
+   "densityPerKm2": 8380
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "population2022": 18664,
+   "areaSqKm": 16.424,
+   "densityPerKm2": 1136
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "population2022": 13,
+   "areaSqKm": 10.43,
+   "densityPerKm2": null
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "population2022": 77139,
+   "areaSqKm": 2.107,
+   "densityPerKm2": 36611
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "population2022": 26803,
+   "areaSqKm": 2.357,
+   "densityPerKm2": 11372
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "population2022": 17898,
+   "areaSqKm": 6.865,
+   "densityPerKm2": 2607
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "population2022": 2,
+   "areaSqKm": 7.794,
+   "densityPerKm2": null
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "population2022": 14789,
+   "areaSqKm": 0.882,
+   "densityPerKm2": 16768
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "population2022": 403,
+   "areaSqKm": 17.5,
+   "densityPerKm2": 23
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "population2022": 7997,
+   "areaSqKm": 2.951,
+   "densityPerKm2": 2710
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "population2022": 40958,
+   "areaSqKm": 2.693,
+   "densityPerKm2": 15209
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "population2022": 113,
+   "areaSqKm": 1.745,
+   "densityPerKm2": 65
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "population2022": 12239,
+   "areaSqKm": 4.306,
+   "densityPerKm2": 2842
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "population2022": 10418,
+   "areaSqKm": 51.897,
+   "densityPerKm2": 201
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "population2022": 20168,
+   "areaSqKm": 4.043,
+   "densityPerKm2": 4988
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "population2022": 5746,
+   "areaSqKm": 3.397,
+   "densityPerKm2": 1691
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "population2022": 507,
+   "areaSqKm": 0.921,
+   "densityPerKm2": 550
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "population2022": 1415,
+   "areaSqKm": 8.626,
+   "densityPerKm2": 164
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "population2022": 22143,
+   "areaSqKm": 1.377,
+   "densityPerKm2": 16081
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "population2022": 0,
+   "areaSqKm": 4.252,
+   "densityPerKm2": null
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "population2022": 10205,
+   "areaSqKm": 7.865,
+   "densityPerKm2": 1298
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "population2022": 7024,
+   "areaSqKm": 1.753,
+   "densityPerKm2": 4007
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "population2022": 80537,
+   "areaSqKm": 18.774,
+   "densityPerKm2": 4290
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "population2022": 101,
+   "areaSqKm": 76.47,
+   "densityPerKm2": 1
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "population2022": 10806,
+   "areaSqKm": 19.366,
+   "densityPerKm2": 558
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "population2022": 63591,
+   "areaSqKm": 17.167,
+   "densityPerKm2": 3704
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "population2022": 108637,
+   "areaSqKm": 8.427,
+   "densityPerKm2": 12892
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "population2022": 22829,
+   "areaSqKm": 3.842,
+   "densityPerKm2": 5942
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "population2022": 41745,
+   "areaSqKm": 9.714,
+   "densityPerKm2": 4297
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "population2022": 8923,
+   "areaSqKm": 2.195,
+   "densityPerKm2": 4065
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "population2022": 8842,
+   "areaSqKm": 10.792,
+   "densityPerKm2": 819
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "population2022": 7687,
+   "areaSqKm": 0.807,
+   "densityPerKm2": 9525
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "population2022": 7032,
+   "areaSqKm": 2.396,
+   "densityPerKm2": 2935
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "population2022": 28152,
+   "areaSqKm": 32.565,
+   "densityPerKm2": 864
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "population2022": 1230,
+   "areaSqKm": 152.59,
+   "densityPerKm2": 8
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "population2022": 7419,
+   "areaSqKm": 4.305,
+   "densityPerKm2": 1723
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "population2022": 49440,
+   "areaSqKm": 1.228,
+   "densityPerKm2": 40261
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "population2022": 685,
+   "areaSqKm": 170.671,
+   "densityPerKm2": 4
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "population2022": 8660,
+   "areaSqKm": 3.744,
+   "densityPerKm2": 2313
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "population2022": 81,
+   "areaSqKm": 10.473,
+   "densityPerKm2": null
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "population2022": 5333,
+   "areaSqKm": 6.314,
+   "densityPerKm2": 845
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "population2022": 7477,
+   "areaSqKm": 7.24,
+   "densityPerKm2": 1033
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "population2022": 150710,
+   "areaSqKm": 5.578,
+   "densityPerKm2": 27019
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "population2022": 2483,
+   "areaSqKm": 3.268,
+   "densityPerKm2": 760
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "population2022": 10475,
+   "areaSqKm": 30.192,
+   "densityPerKm2": 347
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "population2022": 6611,
+   "areaSqKm": 0.985,
+   "densityPerKm2": 6712
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "population2022": 4779,
+   "areaSqKm": 5.872,
+   "densityPerKm2": 814
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "population2022": 3,
+   "areaSqKm": 0.117,
+   "densityPerKm2": null
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "population2022": 10876,
+   "areaSqKm": 3.342,
+   "densityPerKm2": 3254
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "population2022": 3081,
+   "areaSqKm": 0.148,
+   "densityPerKm2": 20818
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "population2022": 49504,
+   "areaSqKm": 2.731,
+   "densityPerKm2": 18127
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "population2022": 3875,
+   "areaSqKm": 10.355,
+   "densityPerKm2": 374
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "population2022": 12720,
+   "areaSqKm": 2.814,
+   "densityPerKm2": 4520
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "population2022": 129757,
+   "areaSqKm": 5.051,
+   "densityPerKm2": 25689
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "population2022": 1754,
+   "areaSqKm": 11.11,
+   "densityPerKm2": 158
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "population2022": 53055,
+   "areaSqKm": 0.875,
+   "densityPerKm2": 60634
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "population2022": 4692,
+   "areaSqKm": 38.677,
+   "densityPerKm2": 121
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "population2022": 8,
+   "areaSqKm": 14.127,
+   "densityPerKm2": null
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "population2022": 7222,
+   "areaSqKm": 1.37,
+   "densityPerKm2": 5272
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "population2022": 6060,
+   "areaSqKm": 54.944,
+   "densityPerKm2": 110
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "population2022": 121,
+   "areaSqKm": 14.181,
+   "densityPerKm2": 9
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "population2022": 21914,
+   "areaSqKm": 9.96,
+   "densityPerKm2": 2200
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "population2022": 425,
+   "areaSqKm": 30.688,
+   "densityPerKm2": 14
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "population2022": 65947,
+   "areaSqKm": 2.212,
+   "densityPerKm2": 29813
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "population2022": 14575,
+   "areaSqKm": 5.145,
+   "densityPerKm2": 2833
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "population2022": 1858,
+   "areaSqKm": 10.519,
+   "densityPerKm2": 177
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "population2022": 29373,
+   "areaSqKm": 6.803,
+   "densityPerKm2": 4318
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "population2022": 5,
+   "areaSqKm": 58.1,
+   "densityPerKm2": null
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "population2022": 2,
+   "areaSqKm": 44.497,
+   "densityPerKm2": null
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "population2022": 28990,
+   "areaSqKm": 11.079,
+   "densityPerKm2": 2617
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "population2022": 78243,
+   "areaSqKm": 21.324,
+   "densityPerKm2": 3669
+  }
+ ]
+}

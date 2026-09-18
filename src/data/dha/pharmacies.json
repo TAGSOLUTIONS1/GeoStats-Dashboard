@@ -1,0 +1,1608 @@
+{
+ "id": "pharmacies-per-10k",
+ "label": "Licensed pharmacies per 10,000 residents",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "metric": "per10kPeople",
+ "source": "Dubai Health Authority Sheryan licensed-facility register, category \"Community/Retail Pharmacy\"; population from Dubai Statistics Center 2022",
+ "sourceUrl": "https://services.dha.gov.ae/sheryan/wps/portal/home/medical-directory",
+ "retrieved": "2026-09-18",
+ "period": "current licence register (Sep 2026 snapshot)",
+ "method": "Count of DHA-licensed community and retail pharmacies in the community (placed by registered coordinates, or by DHA area name where coordinates were missing) per 10,000 residents. Communities with fewer than 5,000 residents or no pharmacy are null.",
+ "limitation": "Licensed outlets, not opening hours or stock. Commercial districts with few residents show high ratios because pharmacies serve workers and visitors too.",
+ "facilitiesPlaced": 1525,
+ "facilitiesDropped": 79,
+ "communitiesWithData": 124,
+ "stops": [
+  0.63,
+  1.92,
+  3.47,
+  4.83,
+  6.97,
+  33.07
+ ],
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "pharmacies": 0,
+   "population": 12,
+   "per10kPeople": null
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "pharmacies": 4,
+   "population": 9627,
+   "per10kPeople": 4.15
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "pharmacies": 3,
+   "population": 25365,
+   "per10kPeople": 1.18
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "pharmacies": 0,
+   "population": 1011,
+   "per10kPeople": null
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "pharmacies": 10,
+   "population": 20704,
+   "per10kPeople": 4.83
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "pharmacies": 3,
+   "population": 9527,
+   "per10kPeople": 3.15
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "pharmacies": 4,
+   "population": 2529,
+   "per10kPeople": null
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "pharmacies": 21,
+   "population": 73879,
+   "per10kPeople": 2.84
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "pharmacies": 0,
+   "population": 616,
+   "per10kPeople": null
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "pharmacies": 0,
+   "population": 206,
+   "per10kPeople": null
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "pharmacies": 11,
+   "population": 16759,
+   "per10kPeople": 6.56
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "pharmacies": 0,
+   "population": 2042,
+   "per10kPeople": null
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "pharmacies": 2,
+   "population": 12699,
+   "per10kPeople": 1.57
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "pharmacies": 10,
+   "population": 13137,
+   "per10kPeople": 7.61
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "pharmacies": 2,
+   "population": 11439,
+   "per10kPeople": 1.75
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "pharmacies": 2,
+   "population": 10412,
+   "per10kPeople": 1.92
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "pharmacies": 0,
+   "population": 671,
+   "per10kPeople": null
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "pharmacies": 0,
+   "population": 195,
+   "per10kPeople": null
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "pharmacies": 14,
+   "population": 11279,
+   "per10kPeople": 12.41
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "pharmacies": 0,
+   "population": 8,
+   "per10kPeople": null
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "pharmacies": 2,
+   "population": 1851,
+   "per10kPeople": null
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "pharmacies": 0,
+   "population": 90,
+   "per10kPeople": null
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "pharmacies": 7,
+   "population": 9358,
+   "per10kPeople": 7.48
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "pharmacies": 7,
+   "population": 6031,
+   "per10kPeople": 11.61
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "pharmacies": 5,
+   "population": 9228,
+   "per10kPeople": 5.42
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "pharmacies": 11,
+   "population": 38408,
+   "per10kPeople": 2.86
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "pharmacies": 15,
+   "population": 50697,
+   "per10kPeople": 2.96
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "pharmacies": 10,
+   "population": 21751,
+   "per10kPeople": 4.6
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "pharmacies": 3,
+   "population": 2613,
+   "per10kPeople": null
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "pharmacies": 0,
+   "population": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "pharmacies": 3,
+   "population": 7685,
+   "per10kPeople": 3.9
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "pharmacies": 6,
+   "population": 3017,
+   "per10kPeople": null
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "pharmacies": 4,
+   "population": 14761,
+   "per10kPeople": 2.71
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "pharmacies": 0,
+   "population": 3283,
+   "per10kPeople": null
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "pharmacies": 2,
+   "population": 2838,
+   "per10kPeople": null
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "pharmacies": 32,
+   "population": 68346,
+   "per10kPeople": 4.68
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "pharmacies": 1,
+   "population": 7207,
+   "per10kPeople": 1.39
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "pharmacies": 3,
+   "population": 12403,
+   "per10kPeople": 2.42
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "pharmacies": 1,
+   "population": 5184,
+   "per10kPeople": 1.93
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "pharmacies": 4,
+   "population": 2670,
+   "per10kPeople": null
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "pharmacies": 6,
+   "population": 8809,
+   "per10kPeople": 6.81
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "pharmacies": 2,
+   "population": 3425,
+   "per10kPeople": null
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "pharmacies": 1,
+   "population": 2932,
+   "per10kPeople": null
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "pharmacies": 0,
+   "population": 218,
+   "per10kPeople": null
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "pharmacies": 35,
+   "population": 53403,
+   "per10kPeople": 6.55
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "pharmacies": 2,
+   "population": 1617,
+   "per10kPeople": null
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "pharmacies": 19,
+   "population": 42056,
+   "per10kPeople": 4.52
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "pharmacies": 2,
+   "population": 19268,
+   "per10kPeople": 1.04
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "pharmacies": 0,
+   "population": 775,
+   "per10kPeople": null
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "pharmacies": 0,
+   "population": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "pharmacies": 4,
+   "population": 5292,
+   "per10kPeople": 7.56
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "pharmacies": 4,
+   "population": 11068,
+   "per10kPeople": 3.61
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "pharmacies": 5,
+   "population": 6609,
+   "per10kPeople": 7.57
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "pharmacies": 0,
+   "population": 4,
+   "per10kPeople": null
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "pharmacies": 2,
+   "population": 58,
+   "per10kPeople": null
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "pharmacies": 0,
+   "population": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "pharmacies": 0,
+   "population": 4,
+   "per10kPeople": null
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "pharmacies": 13,
+   "population": 13787,
+   "per10kPeople": 9.43
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "pharmacies": 0,
+   "population": 85,
+   "per10kPeople": null
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "pharmacies": 33,
+   "population": 85080,
+   "per10kPeople": 3.88
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "pharmacies": 0,
+   "population": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "pharmacies": 27,
+   "population": 50559,
+   "per10kPeople": 5.34
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "pharmacies": 0,
+   "population": 50,
+   "per10kPeople": null
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "pharmacies": 0,
+   "population": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "pharmacies": 13,
+   "population": 26279,
+   "per10kPeople": 4.95
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "pharmacies": 1,
+   "population": 4684,
+   "per10kPeople": null
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "pharmacies": 2,
+   "population": 1798,
+   "per10kPeople": null
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "pharmacies": 8,
+   "population": 13502,
+   "per10kPeople": 5.93
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "pharmacies": 9,
+   "population": 12227,
+   "per10kPeople": 7.36
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "pharmacies": 6,
+   "population": 26115,
+   "per10kPeople": 2.3
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "pharmacies": 0,
+   "population": 170,
+   "per10kPeople": null
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "pharmacies": 1,
+   "population": 10660,
+   "per10kPeople": 0.94
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "pharmacies": 0,
+   "population": 21686,
+   "per10kPeople": null
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "pharmacies": 7,
+   "population": 13295,
+   "per10kPeople": 5.27
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "pharmacies": 1,
+   "population": 7935,
+   "per10kPeople": 1.26
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "pharmacies": 2,
+   "population": 2176,
+   "per10kPeople": null
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "pharmacies": 0,
+   "population": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "pharmacies": 0,
+   "population": 447,
+   "per10kPeople": null
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "pharmacies": 4,
+   "population": 16901,
+   "per10kPeople": 2.37
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "pharmacies": 5,
+   "population": 18116,
+   "per10kPeople": 2.76
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "pharmacies": 15,
+   "population": 36338,
+   "per10kPeople": 4.13
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "pharmacies": 4,
+   "population": 17526,
+   "per10kPeople": 2.28
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "pharmacies": 0,
+   "population": 3,
+   "per10kPeople": null
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "pharmacies": 1,
+   "population": 3968,
+   "per10kPeople": null
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "pharmacies": 6,
+   "population": 11010,
+   "per10kPeople": 5.45
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "pharmacies": 0,
+   "population": 7,
+   "per10kPeople": null
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "pharmacies": 1,
+   "population": 5655,
+   "per10kPeople": 1.77
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "pharmacies": 7,
+   "population": 14476,
+   "per10kPeople": 4.84
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "pharmacies": 7,
+   "population": 8440,
+   "per10kPeople": 8.29
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "pharmacies": 3,
+   "population": 2008,
+   "per10kPeople": null
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "pharmacies": 0,
+   "population": 3,
+   "per10kPeople": null
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "pharmacies": 4,
+   "population": 38611,
+   "per10kPeople": 1.04
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "pharmacies": 4,
+   "population": 12638,
+   "per10kPeople": 3.17
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "pharmacies": 5,
+   "population": 6872,
+   "per10kPeople": 7.28
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "pharmacies": 10,
+   "population": 33484,
+   "per10kPeople": 2.99
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "pharmacies": 0,
+   "population": 3633,
+   "per10kPeople": null
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "pharmacies": 1,
+   "population": 90,
+   "per10kPeople": null
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "pharmacies": 0,
+   "population": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "pharmacies": 1,
+   "population": 2494,
+   "per10kPeople": null
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "pharmacies": 0,
+   "population": 4,
+   "per10kPeople": null
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "pharmacies": 0,
+   "population": 47,
+   "per10kPeople": null
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "pharmacies": 0,
+   "population": 3365,
+   "per10kPeople": null
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "pharmacies": 1,
+   "population": 4938,
+   "per10kPeople": null
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "pharmacies": 54,
+   "population": 63804,
+   "per10kPeople": 8.46
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "pharmacies": 16,
+   "population": 25550,
+   "per10kPeople": 6.26
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "pharmacies": 3,
+   "population": 8143,
+   "per10kPeople": 3.68
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "pharmacies": 6,
+   "population": 16873,
+   "per10kPeople": 3.56
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "pharmacies": 1,
+   "population": 5953,
+   "per10kPeople": 1.68
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "pharmacies": 4,
+   "population": 13946,
+   "per10kPeople": 2.87
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "pharmacies": 1,
+   "population": 4291,
+   "per10kPeople": null
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "pharmacies": 9,
+   "population": 5885,
+   "per10kPeople": 15.29
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "pharmacies": 1,
+   "population": 3119,
+   "per10kPeople": null
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "pharmacies": 7,
+   "population": 39092,
+   "per10kPeople": 1.79
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "pharmacies": 1,
+   "population": 1317,
+   "per10kPeople": null
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "pharmacies": 15,
+   "population": 11318,
+   "per10kPeople": 13.25
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "pharmacies": 4,
+   "population": 4715,
+   "per10kPeople": null
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "pharmacies": 0,
+   "population": 3,
+   "per10kPeople": null
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "pharmacies": 0,
+   "population": 37,
+   "per10kPeople": null
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "pharmacies": 0,
+   "population": 301,
+   "per10kPeople": null
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "pharmacies": 9,
+   "population": 22442,
+   "per10kPeople": 4.01
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "pharmacies": 0,
+   "population": 56,
+   "per10kPeople": null
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "pharmacies": 0,
+   "population": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "pharmacies": 26,
+   "population": 58965,
+   "per10kPeople": 4.41
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "pharmacies": 0,
+   "population": 3378,
+   "per10kPeople": null
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "pharmacies": 0,
+   "population": 348,
+   "per10kPeople": null
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "pharmacies": 1,
+   "population": 15,
+   "per10kPeople": null
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "pharmacies": 3,
+   "population": 169,
+   "per10kPeople": null
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "pharmacies": 0,
+   "population": 7,
+   "per10kPeople": null
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "pharmacies": 1,
+   "population": 1259,
+   "per10kPeople": null
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "pharmacies": 6,
+   "population": 20139,
+   "per10kPeople": 2.98
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "pharmacies": 11,
+   "population": 15874,
+   "per10kPeople": 6.93
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "pharmacies": 2,
+   "population": 11530,
+   "per10kPeople": 1.73
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "pharmacies": 15,
+   "population": 18014,
+   "per10kPeople": 8.33
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "pharmacies": 1,
+   "population": 4997,
+   "per10kPeople": null
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "pharmacies": 0,
+   "population": 29,
+   "per10kPeople": null
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "pharmacies": 1,
+   "population": 15867,
+   "per10kPeople": 0.63
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "pharmacies": 0,
+   "population": 300,
+   "per10kPeople": null
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "pharmacies": 16,
+   "population": 40456,
+   "per10kPeople": 3.95
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "pharmacies": 3,
+   "population": 15901,
+   "per10kPeople": 1.89
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "pharmacies": 9,
+   "population": 21942,
+   "per10kPeople": 4.1
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "pharmacies": 0,
+   "population": 143,
+   "per10kPeople": null
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "pharmacies": 3,
+   "population": 28561,
+   "per10kPeople": 1.05
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "pharmacies": 9,
+   "population": 21842,
+   "per10kPeople": 4.12
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "pharmacies": 0,
+   "population": 218,
+   "per10kPeople": null
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "pharmacies": 11,
+   "population": 18520,
+   "per10kPeople": 5.94
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "pharmacies": 4,
+   "population": 7350,
+   "per10kPeople": 5.44
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "pharmacies": 34,
+   "population": 199780,
+   "per10kPeople": 1.7
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "pharmacies": 2,
+   "population": 3645,
+   "per10kPeople": null
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "pharmacies": 19,
+   "population": 14425,
+   "per10kPeople": 13.17
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "pharmacies": 35,
+   "population": 42332,
+   "per10kPeople": 8.27
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "pharmacies": 0,
+   "population": 595,
+   "per10kPeople": null
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "pharmacies": 2,
+   "population": 3519,
+   "per10kPeople": null
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "pharmacies": 6,
+   "population": 15716,
+   "per10kPeople": 3.82
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "pharmacies": 25,
+   "population": 24410,
+   "per10kPeople": 10.24
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "pharmacies": 17,
+   "population": 49276,
+   "per10kPeople": 3.45
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "pharmacies": 30,
+   "population": 22291,
+   "per10kPeople": 13.46
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "pharmacies": 13,
+   "population": 18664,
+   "per10kPeople": 6.97
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "pharmacies": 0,
+   "population": 13,
+   "per10kPeople": null
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "pharmacies": 33,
+   "population": 77139,
+   "per10kPeople": 4.28
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "pharmacies": 15,
+   "population": 26803,
+   "per10kPeople": 5.6
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "pharmacies": 11,
+   "population": 17898,
+   "per10kPeople": 6.15
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "pharmacies": 0,
+   "population": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "pharmacies": 9,
+   "population": 14789,
+   "per10kPeople": 6.09
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "pharmacies": 0,
+   "population": 403,
+   "per10kPeople": null
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "pharmacies": 5,
+   "population": 7997,
+   "per10kPeople": 6.25
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "pharmacies": 19,
+   "population": 40958,
+   "per10kPeople": 4.64
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "pharmacies": 0,
+   "population": 113,
+   "per10kPeople": null
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "pharmacies": 0,
+   "population": 12239,
+   "per10kPeople": null
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "pharmacies": 0,
+   "population": 10418,
+   "per10kPeople": null
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "pharmacies": 7,
+   "population": 20168,
+   "per10kPeople": 3.47
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "pharmacies": 19,
+   "population": 5746,
+   "per10kPeople": 33.07
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "pharmacies": 0,
+   "population": 507,
+   "per10kPeople": null
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "pharmacies": 0,
+   "population": 1415,
+   "per10kPeople": null
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "pharmacies": 15,
+   "population": 22143,
+   "per10kPeople": 6.77
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "pharmacies": 0,
+   "population": 0,
+   "per10kPeople": null
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "pharmacies": 4,
+   "population": 10205,
+   "per10kPeople": 3.92
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "pharmacies": 0,
+   "population": 7024,
+   "per10kPeople": null
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "pharmacies": 10,
+   "population": 80537,
+   "per10kPeople": 1.24
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "pharmacies": 0,
+   "population": 101,
+   "per10kPeople": null
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "pharmacies": 2,
+   "population": 10806,
+   "per10kPeople": 1.85
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "pharmacies": 19,
+   "population": 63591,
+   "per10kPeople": 2.99
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "pharmacies": 64,
+   "population": 108637,
+   "per10kPeople": 5.89
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "pharmacies": 3,
+   "population": 22829,
+   "per10kPeople": 1.31
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "pharmacies": 18,
+   "population": 41745,
+   "per10kPeople": 4.31
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "pharmacies": 4,
+   "population": 8923,
+   "per10kPeople": 4.48
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "pharmacies": 11,
+   "population": 8842,
+   "per10kPeople": 12.44
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "pharmacies": 2,
+   "population": 7687,
+   "per10kPeople": 2.6
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "pharmacies": 4,
+   "population": 7032,
+   "per10kPeople": 5.69
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "pharmacies": 5,
+   "population": 28152,
+   "per10kPeople": 1.78
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "pharmacies": 0,
+   "population": 1230,
+   "per10kPeople": null
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "pharmacies": 3,
+   "population": 7419,
+   "per10kPeople": 4.04
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "pharmacies": 13,
+   "population": 49440,
+   "per10kPeople": 2.63
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "pharmacies": 0,
+   "population": 685,
+   "per10kPeople": null
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "pharmacies": 20,
+   "population": 8660,
+   "per10kPeople": 23.09
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "pharmacies": 0,
+   "population": 81,
+   "per10kPeople": null
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "pharmacies": 12,
+   "population": 5333,
+   "per10kPeople": 22.5
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "pharmacies": 21,
+   "population": 7477,
+   "per10kPeople": 28.09
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "pharmacies": 32,
+   "population": 150710,
+   "per10kPeople": 2.12
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "pharmacies": 1,
+   "population": 2483,
+   "per10kPeople": null
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "pharmacies": 8,
+   "population": 10475,
+   "per10kPeople": 7.64
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "pharmacies": 2,
+   "population": 6611,
+   "per10kPeople": 3.03
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "pharmacies": 4,
+   "population": 4779,
+   "per10kPeople": null
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "pharmacies": 0,
+   "population": 3,
+   "per10kPeople": null
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "pharmacies": 1,
+   "population": 10876,
+   "per10kPeople": 0.92
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "pharmacies": 4,
+   "population": 3081,
+   "per10kPeople": null
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "pharmacies": 14,
+   "population": 49504,
+   "per10kPeople": 2.83
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "pharmacies": 17,
+   "population": 3875,
+   "per10kPeople": null
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "pharmacies": 7,
+   "population": 12720,
+   "per10kPeople": 5.5
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "pharmacies": 11,
+   "population": 129757,
+   "per10kPeople": 0.85
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "pharmacies": 0,
+   "population": 1754,
+   "per10kPeople": null
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "pharmacies": 28,
+   "population": 53055,
+   "per10kPeople": 5.28
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "pharmacies": 12,
+   "population": 4692,
+   "per10kPeople": null
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "pharmacies": 3,
+   "population": 8,
+   "per10kPeople": null
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "pharmacies": 1,
+   "population": 7222,
+   "per10kPeople": 1.38
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "pharmacies": 1,
+   "population": 6060,
+   "per10kPeople": 1.65
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "pharmacies": 3,
+   "population": 121,
+   "per10kPeople": null
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "pharmacies": 15,
+   "population": 21914,
+   "per10kPeople": 6.84
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "pharmacies": 0,
+   "population": 425,
+   "per10kPeople": null
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "pharmacies": 19,
+   "population": 65947,
+   "per10kPeople": 2.88
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "pharmacies": 0,
+   "population": 14575,
+   "per10kPeople": null
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "pharmacies": 0,
+   "population": 1858,
+   "per10kPeople": null
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "pharmacies": 28,
+   "population": 29373,
+   "per10kPeople": 9.53
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "pharmacies": 0,
+   "population": 5,
+   "per10kPeople": null
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "pharmacies": 0,
+   "population": 2,
+   "per10kPeople": null
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "pharmacies": 8,
+   "population": 28990,
+   "per10kPeople": 2.76
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "pharmacies": 36,
+   "population": 78243,
+   "per10kPeople": 4.6
+  }
+ ]
+}

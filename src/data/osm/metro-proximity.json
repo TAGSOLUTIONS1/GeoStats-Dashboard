@@ -1,0 +1,1833 @@
+{
+ "id": "metro-proximity",
+ "label": "Distance to nearest Metro or Tram station (km)",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "metric": "kmToNearestStation",
+ "source": "OpenStreetMap via Overpass API (railway=station and railway=tram_stop within Dubai): 95 Dubai Metro, Tram and monorail stations",
+ "license": "ODbL",
+ "retrieved": "2026-09-18",
+ "period": "current OSM snapshot (no historical series)",
+ "method": "Straight-line distance from the community's area-weighted centroid to the nearest Metro, Tram or monorail station. Lower is better. Also records the number of stations inside the community boundary.",
+ "limitation": "Straight-line distance, not walking or road distance, and measured from the community centre rather than from each home. Bus stops are excluded (see Public Transportation Coverage). Depends on OpenStreetMap completeness.",
+ "stationsTotal": 95,
+ "communitiesWithData": 226,
+ "stops": [
+  0.2,
+  0.78,
+  2.2,
+  4.56,
+  12.52,
+  81.3
+ ],
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "kmToNearestStation": 31.74,
+   "nearestStation": "Expo City Dubai",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "kmToNearestStation": 2.18,
+   "nearestStation": "Al Qusais",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "kmToNearestStation": 0.7,
+   "nearestStation": "max",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "kmToNearestStation": 0.84,
+   "nearestStation": "Ibn Battuta",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "kmToNearestStation": 5.98,
+   "nearestStation": "واحة دبي السيليكون",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "kmToNearestStation": 2.99,
+   "nearestStation": "Life Pharmacy",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "kmToNearestStation": 0.75,
+   "nearestStation": "إعمار العقارية",
+   "nearestType": "subway",
+   "stationsInCommunity": 2
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "kmToNearestStation": 0.25,
+   "nearestStation": "Al Rigga",
+   "nearestType": "subway",
+   "stationsInCommunity": 2
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "kmToNearestStation": 25.44,
+   "nearestStation": "Expo City Dubai",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "kmToNearestStation": 33.46,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "kmToNearestStation": 2.69,
+   "nearestStation": "Mall of the Emirates",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "kmToNearestStation": 0.54,
+   "nearestStation": "Abu Baker Al Siddique",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "kmToNearestStation": 12.38,
+   "nearestStation": "Life Pharmacy",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "kmToNearestStation": 0.73,
+   "nearestStation": "Al Qusais",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "kmToNearestStation": 0.79,
+   "nearestStation": "e&",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "kmToNearestStation": 7.16,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "kmToNearestStation": 39.15,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "kmToNearestStation": 40.53,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "kmToNearestStation": 7.7,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "kmToNearestStation": 16.3,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "kmToNearestStation": 1.24,
+   "nearestStation": "سوق السيارات",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "kmToNearestStation": 7.36,
+   "nearestStation": "سوق التنبن",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "kmToNearestStation": 12.05,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "kmToNearestStation": 11.37,
+   "nearestStation": "City Centre Mirdif",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "kmToNearestStation": 2.43,
+   "nearestStation": "ONPASSIVE",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "kmToNearestStation": 0.69,
+   "nearestStation": "Centrepoint",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "kmToNearestStation": 1.38,
+   "nearestStation": "ONPASSIVE",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "kmToNearestStation": 2.62,
+   "nearestStation": "Business Bay",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "kmToNearestStation": 2.89,
+   "nearestStation": "سوق السيارات",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "kmToNearestStation": 7.17,
+   "nearestStation": "Life Pharmacy",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "kmToNearestStation": 0.78,
+   "nearestStation": "e&",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "kmToNearestStation": 21.59,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "kmToNearestStation": 4.91,
+   "nearestStation": "Mall of the Emirates",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "kmToNearestStation": 3.4,
+   "nearestStation": "مدينة العالمية 2",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "kmToNearestStation": 3.39,
+   "nearestStation": "Al Nahda",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "kmToNearestStation": 1.62,
+   "nearestStation": "City Centre Mirdif",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "kmToNearestStation": 0.54,
+   "nearestStation": "ONPASSIVE",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "kmToNearestStation": 0.69,
+   "nearestStation": "Al Nahda",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "kmToNearestStation": 0.56,
+   "nearestStation": "Al Qusais",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "kmToNearestStation": 0.21,
+   "nearestStation": "Gold Souq",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "kmToNearestStation": 1.96,
+   "nearestStation": "e&",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "kmToNearestStation": 21.58,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "kmToNearestStation": 3.65,
+   "nearestStation": "Dubai Airport Free Zone",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "kmToNearestStation": 33.49,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "kmToNearestStation": 0.43,
+   "nearestStation": "Baniyas Square",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "kmToNearestStation": 18.54,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "kmToNearestStation": 0.6,
+   "nearestStation": "ADCB",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "kmToNearestStation": 10.55,
+   "nearestStation": "Equiti",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "kmToNearestStation": 25,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "kmToNearestStation": 0.49,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "kmToNearestStation": 12.46,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "kmToNearestStation": 2.2,
+   "nearestStation": "Dubai Airport Free Zone",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "kmToNearestStation": 0.27,
+   "nearestStation": "Knowledge Village",
+   "nearestType": "tram",
+   "stationsInCommunity": 8
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "kmToNearestStation": 16.03,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "kmToNearestStation": 30.4,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "kmToNearestStation": 7.98,
+   "nearestStation": "Gold Souq",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "kmToNearestStation": 18.77,
+   "nearestStation": "Life Pharmacy",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "kmToNearestStation": 0.29,
+   "nearestStation": "Emirates Towers",
+   "nearestType": "subway",
+   "stationsInCommunity": 3
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "kmToNearestStation": 11.04,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "kmToNearestStation": 0.78,
+   "nearestStation": "Abu Baker Al Siddique",
+   "nearestType": "subway",
+   "stationsInCommunity": 2
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "kmToNearestStation": 4.22,
+   "nearestStation": "e&",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "kmToNearestStation": 0.51,
+   "nearestStation": "واحة دبي السيليكون",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "kmToNearestStation": 3.83,
+   "nearestStation": "Business Bay",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "kmToNearestStation": 2.98,
+   "nearestStation": "Dubai Internet City",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "kmToNearestStation": 0.47,
+   "nearestStation": "Dubai Internet City",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "kmToNearestStation": 14.65,
+   "nearestStation": "Life Pharmacy",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "kmToNearestStation": 8.03,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "kmToNearestStation": 2.62,
+   "nearestStation": "ONPASSIVE",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "kmToNearestStation": 0.78,
+   "nearestStation": "Business Bay",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "kmToNearestStation": 1.21,
+   "nearestStation": "Salah Al Din",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "kmToNearestStation": 17.22,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "kmToNearestStation": 13.92,
+   "nearestStation": "City Centre Mirdif",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "kmToNearestStation": 1.99,
+   "nearestStation": "Abu Hail",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "kmToNearestStation": 81.3,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "kmToNearestStation": 1.98,
+   "nearestStation": "Equiti",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "kmToNearestStation": 2.54,
+   "nearestStation": "إعمار العقارية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "kmToNearestStation": 23.69,
+   "nearestStation": "Expo City Dubai",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "kmToNearestStation": 44.28,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "kmToNearestStation": 2.74,
+   "nearestStation": "Al Qiyadah",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "kmToNearestStation": 1.65,
+   "nearestStation": "Abu Baker Al Siddique",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "kmToNearestStation": 2.81,
+   "nearestStation": "e&",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "kmToNearestStation": 1.02,
+   "nearestStation": "Equiti",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "kmToNearestStation": 37.38,
+   "nearestStation": "Expo City Dubai",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "kmToNearestStation": 3.04,
+   "nearestStation": "واحة دبي السيليكون",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "kmToNearestStation": 4.23,
+   "nearestStation": "واحة دبي السيليكون",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "kmToNearestStation": 10.71,
+   "nearestStation": "ONPASSIVE",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "kmToNearestStation": 4.31,
+   "nearestStation": "ONPASSIVE",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "kmToNearestStation": 3.01,
+   "nearestStation": "ONPASSIVE",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "kmToNearestStation": 2.19,
+   "nearestStation": "Al Ghubaiba",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "kmToNearestStation": 13.21,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "kmToNearestStation": 15.86,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "kmToNearestStation": 0.6,
+   "nearestStation": "BurJuman",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "kmToNearestStation": 5.4,
+   "nearestStation": "مدينة العالمية 1",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "kmToNearestStation": 6.28,
+   "nearestStation": "سوق السيارات",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "kmToNearestStation": 1.39,
+   "nearestStation": "Stadium",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "kmToNearestStation": 8.86,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "kmToNearestStation": 12.52,
+   "nearestStation": "Life Pharmacy",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "kmToNearestStation": 8.61,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "kmToNearestStation": 13.63,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "kmToNearestStation": 9.77,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "kmToNearestStation": 21.89,
+   "nearestStation": "مدينة العالمية 1",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "kmToNearestStation": 7.39,
+   "nearestStation": "Life Pharmacy",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "kmToNearestStation": 6.81,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "kmToNearestStation": 0.64,
+   "nearestStation": "Jumeirah Beach Residence 1",
+   "nearestType": "tram",
+   "stationsInCommunity": 10
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "kmToNearestStation": 0.97,
+   "nearestStation": "The Pointe",
+   "nearestType": "metro",
+   "stationsInCommunity": 3
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "kmToNearestStation": 0.2,
+   "nearestStation": "Al Ras",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "kmToNearestStation": 0.42,
+   "nearestStation": "Gold Souq",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "kmToNearestStation": 6.42,
+   "nearestStation": "e&",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "kmToNearestStation": 8.52,
+   "nearestStation": "City Centre Mirdif",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "kmToNearestStation": 0.54,
+   "nearestStation": "Baniyas Square",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "kmToNearestStation": 6.48,
+   "nearestStation": "Expo City Dubai",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "kmToNearestStation": 1.23,
+   "nearestStation": "Emirates",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "kmToNearestStation": 2.8,
+   "nearestStation": "Equiti",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "kmToNearestStation": 0.49,
+   "nearestStation": "max",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "kmToNearestStation": 0.32,
+   "nearestStation": "Union",
+   "nearestType": "subway",
+   "stationsInCommunity": 2
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "kmToNearestStation": 0.62,
+   "nearestStation": "Equiti",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "kmToNearestStation": 37.81,
+   "nearestStation": "Expo City Dubai",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "kmToNearestStation": 34.19,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "kmToNearestStation": 7.86,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "kmToNearestStation": 1.24,
+   "nearestStation": "سوق السيارات",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "kmToNearestStation": 12.52,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "kmToNearestStation": 43.55,
+   "nearestStation": "Expo City Dubai",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "kmToNearestStation": 1.43,
+   "nearestStation": "Emirates Towers",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "kmToNearestStation": 1.68,
+   "nearestStation": "Centrepoint",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "kmToNearestStation": 19.69,
+   "nearestStation": "Expo City Dubai",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "kmToNearestStation": 1.89,
+   "nearestStation": "Salah Al Din",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "kmToNearestStation": 8.61,
+   "nearestStation": "واحة دبي السيليكون",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "kmToNearestStation": 0.2,
+   "nearestStation": "Al Ghubaiba",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "kmToNearestStation": 2.47,
+   "nearestStation": "سوق السيارات",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "kmToNearestStation": 0.31,
+   "nearestStation": "Gold Souq",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "kmToNearestStation": 0.79,
+   "nearestStation": "Oud Metha",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "kmToNearestStation": 1.17,
+   "nearestStation": "City Centre Mirdif",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "kmToNearestStation": 0.2,
+   "nearestStation": "Emirates Towers",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "kmToNearestStation": 16.34,
+   "nearestStation": "Al Warqa'a",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "kmToNearestStation": 24.93,
+   "nearestStation": "Expo City Dubai",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "kmToNearestStation": 4.56,
+   "nearestStation": "e&",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "kmToNearestStation": 19.04,
+   "nearestStation": "Expo City Dubai",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "kmToNearestStation": 0.82,
+   "nearestStation": "Gold Souq",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "kmToNearestStation": 1.28,
+   "nearestStation": "Al Warqa'a",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "kmToNearestStation": 2.62,
+   "nearestStation": "ONPASSIVE",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "kmToNearestStation": 15.66,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "kmToNearestStation": 1.3,
+   "nearestStation": "ONPASSIVE",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "kmToNearestStation": 5.41,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "kmToNearestStation": 17.56,
+   "nearestStation": "The Pointe",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "kmToNearestStation": 2.52,
+   "nearestStation": "Al Warqa'a",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "kmToNearestStation": 6.32,
+   "nearestStation": "Mall of the Emirates",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "kmToNearestStation": 2.8,
+   "nearestStation": "Danube",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "kmToNearestStation": 8.26,
+   "nearestStation": "City Centre Mirdif",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "kmToNearestStation": 0.48,
+   "nearestStation": "Deira City Centre",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "kmToNearestStation": 0.58,
+   "nearestStation": "InsuranceMarket",
+   "nearestType": "subway",
+   "stationsInCommunity": 2
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "kmToNearestStation": 26.45,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "kmToNearestStation": 1.73,
+   "nearestStation": "max",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "kmToNearestStation": 2.63,
+   "nearestStation": "InsuranceMarket",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "kmToNearestStation": 0.92,
+   "nearestStation": "Dubai Trolley Station 3",
+   "nearestType": "tram",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "kmToNearestStation": 0.45,
+   "nearestStation": "Salah Al Din",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "kmToNearestStation": 0.43,
+   "nearestStation": "Dubai Trolley Station 2",
+   "nearestType": "tram",
+   "stationsInCommunity": 6
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "kmToNearestStation": 2,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 2
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "kmToNearestStation": 5.57,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "kmToNearestStation": 0.66,
+   "nearestStation": "ADCB",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "kmToNearestStation": 0.69,
+   "nearestStation": "Al Warqa'a",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "kmToNearestStation": 4.2,
+   "nearestStation": "e&",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "kmToNearestStation": 2.98,
+   "nearestStation": "Creek",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "kmToNearestStation": 1.64,
+   "nearestStation": "max",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "kmToNearestStation": 12.25,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "kmToNearestStation": 3.57,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "kmToNearestStation": 0.72,
+   "nearestStation": "Emirates Towers",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "kmToNearestStation": 3.72,
+   "nearestStation": "إعمار العقارية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "kmToNearestStation": 6.06,
+   "nearestStation": "City Centre Mirdif",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "kmToNearestStation": 15.24,
+   "nearestStation": "Life Pharmacy",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "kmToNearestStation": 0.7,
+   "nearestStation": "Airport Terminal 1",
+   "nearestType": "subway",
+   "stationsInCommunity": 2
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "kmToNearestStation": 0.62,
+   "nearestStation": "Dubai Healthcare City",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "kmToNearestStation": 3.07,
+   "nearestStation": "Abu Hail",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "kmToNearestStation": 2.64,
+   "nearestStation": "مدينة العالمية 1",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "kmToNearestStation": 0.77,
+   "nearestStation": "Al Qiyadah",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "kmToNearestStation": 4.36,
+   "nearestStation": "سوق التنبن",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "kmToNearestStation": 0.72,
+   "nearestStation": "مدينة العالمية 2",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "kmToNearestStation": 1.92,
+   "nearestStation": "e&",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "kmToNearestStation": 6.42,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "kmToNearestStation": 46.91,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "kmToNearestStation": 16.31,
+   "nearestStation": "Expo City Dubai",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "kmToNearestStation": 2.12,
+   "nearestStation": "Dubai Investment Park",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "kmToNearestStation": 0.38,
+   "nearestStation": "مدينة العالمية 1",
+   "nearestType": "subway",
+   "stationsInCommunity": 2
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "kmToNearestStation": 0.9,
+   "nearestStation": "Al Fardan Exchange",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "kmToNearestStation": 2.29,
+   "nearestStation": "DMCC",
+   "nearestType": "subway",
+   "stationsInCommunity": 2
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "kmToNearestStation": 1.89,
+   "nearestStation": "ONPASSIVE",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "kmToNearestStation": 1.95,
+   "nearestStation": "Dubai Trolley Station 1",
+   "nearestType": "tram",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "kmToNearestStation": 0.7,
+   "nearestStation": "Al Rigga",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "kmToNearestStation": 3.78,
+   "nearestStation": "e&",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "kmToNearestStation": 2.9,
+   "nearestStation": "Life Pharmacy",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "kmToNearestStation": 26.15,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "kmToNearestStation": 8.69,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "kmToNearestStation": 1.02,
+   "nearestStation": "Sharaf DG",
+   "nearestType": "subway",
+   "stationsInCommunity": 1
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "kmToNearestStation": 15.31,
+   "nearestStation": "Expo City Dubai",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "kmToNearestStation": 7.56,
+   "nearestStation": "InsuranceMarket",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "kmToNearestStation": 4.06,
+   "nearestStation": "City Centre Mirdif",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "kmToNearestStation": 1.2,
+   "nearestStation": "دبي فيستيفال سيتي",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "kmToNearestStation": 1.12,
+   "nearestStation": "Al Jadaf",
+   "nearestType": "subway",
+   "stationsInCommunity": 2
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "kmToNearestStation": 2.33,
+   "nearestStation": "e&",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "kmToNearestStation": 9.99,
+   "nearestStation": "Dubai Passenger Station (Under Construction)",
+   "nearestType": "metro",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "kmToNearestStation": 7.49,
+   "nearestStation": "واحة دبي السيليكون",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "kmToNearestStation": 0.81,
+   "nearestStation": "Bur Juman",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "kmToNearestStation": 1.01,
+   "nearestStation": "InsuranceMarket",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "kmToNearestStation": 3.53,
+   "nearestStation": "Business Bay",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "kmToNearestStation": 2.29,
+   "nearestStation": "Business Bay",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "kmToNearestStation": 0.62,
+   "nearestStation": "Al Ras",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "kmToNearestStation": 0.62,
+   "nearestStation": "Al Nahda",
+   "nearestType": "subway",
+   "stationsInCommunity": 3
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "kmToNearestStation": 2.8,
+   "nearestStation": "Dubai Trolley Station 2",
+   "nearestType": "tram",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "kmToNearestStation": 1.69,
+   "nearestStation": "ONPASSIVE",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "kmToNearestStation": 3.09,
+   "nearestStation": "ONPASSIVE",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "kmToNearestStation": 14.1,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "kmToNearestStation": 0.57,
+   "nearestStation": "Al Ghubaiba",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "kmToNearestStation": 6.88,
+   "nearestStation": "Equiti",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "kmToNearestStation": 5.12,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "kmToNearestStation": 5.23,
+   "nearestStation": "e&",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "kmToNearestStation": 17.56,
+   "nearestStation": "مدينة العالمية 1",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "kmToNearestStation": 0.82,
+   "nearestStation": "Concourse B",
+   "nearestType": "metro",
+   "stationsInCommunity": 6
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "kmToNearestStation": 2.96,
+   "nearestStation": "Emirates Towers",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "kmToNearestStation": 11.38,
+   "nearestStation": "مدينة الأكاديمية",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "kmToNearestStation": 2.12,
+   "nearestStation": "Al Nahda",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "kmToNearestStation": 2.83,
+   "nearestStation": "Al Warqa'a",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "kmToNearestStation": 12.83,
+   "nearestStation": "City Centre Mirdif",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "kmToNearestStation": 6,
+   "nearestStation": "Dubai Internet City",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "kmToNearestStation": 10.9,
+   "nearestStation": "Danube",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "kmToNearestStation": 16.76,
+   "nearestStation": "مدينة العالمية 1",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "kmToNearestStation": 3.25,
+   "nearestStation": "Sobha Realty",
+   "nearestType": "subway",
+   "stationsInCommunity": 0
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "kmToNearestStation": 1.08,
+   "nearestStation": "The Gardens",
+   "nearestType": "subway",
+   "stationsInCommunity": 6
+  }
+ ]
+}

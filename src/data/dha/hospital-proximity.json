@@ -1,0 +1,1381 @@
+{
+ "id": "hospital-proximity",
+ "label": "Distance to nearest licensed hospital (km)",
+ "scope": "community",
+ "joinKey": "COMM_NUM",
+ "metric": "kmToNearestHospital",
+ "source": "Dubai Health Authority Sheryan licensed-facility register, all general and specialty hospital categories (50 hospitals with coordinates)",
+ "sourceUrl": "https://services.dha.gov.ae/sheryan/wps/portal/home/medical-directory",
+ "retrieved": "2026-09-18",
+ "period": "current licence register (Sep 2026 snapshot)",
+ "method": "Straight-line distance from the community's area-weighted centroid to the nearest DHA-licensed hospital. Lower is better.",
+ "limitation": "Straight-line, not road distance, measured from the community centre. Hospital size and emergency capability are not weighted. DHA-licensed hospitals only; federal or free-zone facilities licensed elsewhere are not in this register.",
+ "hospitals": 50,
+ "communitiesWithData": 226,
+ "stops": [
+  0.21,
+  1.25,
+  2.22,
+  5.05,
+  10.55,
+  83.07
+ ],
+ "rows": [
+  {
+   "code": "991",
+   "name": "HEFAIR",
+   "kmToNearestHospital": 28.56,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "243",
+   "name": "AL QUSAIS IND. SECOND",
+   "kmToNearestHospital": 0.51,
+   "nearestHospital": "Aster Hospital Br Of Aster Dm Healthcare FZC"
+  },
+  {
+   "code": "323",
+   "name": "AL JAFILIYA",
+   "kmToNearestHospital": 0.9,
+   "nearestHospital": "CLINICA SABAH SPECIALTY HOSPITAL L.L.C"
+  },
+  {
+   "code": "592",
+   "name": "JABAL ALI SECOND",
+   "kmToNearestHospital": 5.09,
+   "nearestHospital": "ASTER CEDARS HOSPITAL JEBEL ALI"
+  },
+  {
+   "code": "648",
+   "name": "WADI AL SAFA 5",
+   "kmToNearestHospital": 5.98,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "594",
+   "name": "MENA JABAL ALI",
+   "kmToNearestHospital": 4.08,
+   "nearestHospital": "ASTER CEDARS HOSPITAL JEBEL ALI"
+  },
+  {
+   "code": "415",
+   "name": "AL KHEERAN FIRST",
+   "kmToNearestHospital": 3.94,
+   "nearestHospital": "Al Tadawi Specialty Hospital LLC"
+  },
+  {
+   "code": "124",
+   "name": "AL MURAQQABAT",
+   "kmToNearestHospital": 1.86,
+   "nearestHospital": "Medeor 24X7 Hospital LLC"
+  },
+  {
+   "code": "951",
+   "name": "SAIH AL SALAM",
+   "kmToNearestHospital": 25.08,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "845",
+   "name": "AL MAHA",
+   "kmToNearestHospital": 35.35,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "376",
+   "name": "AL BARSHA SECOND",
+   "kmToNearestHospital": 2.98,
+   "nearestHospital": "Saudi German Hospital"
+  },
+  {
+   "code": "128",
+   "name": "AL KHABAISI",
+   "kmToNearestHospital": 1.48,
+   "nearestHospital": "Canadian Specialist Hospital"
+  },
+  {
+   "code": "531",
+   "name": "SAIH SHUAIB 2",
+   "kmToNearestHospital": 2.83,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "233",
+   "name": "AL QUSAIS SECOND",
+   "kmToNearestHospital": 0.24,
+   "nearestHospital": "Medcare Royal Speciality Hospital (Br of Medcare Hospital LLC)"
+  },
+  {
+   "code": "228",
+   "name": "AL TWAR THIRD",
+   "kmToNearestHospital": 2.14,
+   "nearestHospital": "Medcare Royal Speciality Hospital (Br of Medcare Hospital LLC)"
+  },
+  {
+   "code": "683",
+   "name": "AL HEBIAH FIFTH",
+   "kmToNearestHospital": 6.53,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "857",
+   "name": "MARGAB",
+   "kmToNearestHospital": 41.01,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "851",
+   "name": "REMAH",
+   "kmToNearestHospital": 42.42,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "674",
+   "name": "AL HEBIAH FIRST",
+   "kmToNearestHospital": 2.38,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "924",
+   "name": "AL YALAYIS 4",
+   "kmToNearestHospital": 13.23,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "613",
+   "name": "RAS AL KHOR IND. SECOND",
+   "kmToNearestHospital": 5.16,
+   "nearestHospital": "Barraquer Eye Hospital FZ-LLC"
+  },
+  {
+   "code": "431",
+   "name": "WADI ALSHABAK",
+   "kmToNearestHospital": 10.35,
+   "nearestHospital": "Dubai Medical University Hospital"
+  },
+  {
+   "code": "665",
+   "name": "WADI AL SAFA 7",
+   "kmToNearestHospital": 4.71,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "282",
+   "name": "AL KHWANEEJ SECOND",
+   "kmToNearestHospital": 9.57,
+   "nearestHospital": "ASTER HOSPITAL SONAPUR LLC"
+  },
+  {
+   "code": "353",
+   "name": "AL SAFA FIRST",
+   "kmToNearestHospital": 0.96,
+   "nearestHospital": "Medcare Hospital(L.L.C)"
+  },
+  {
+   "code": "216",
+   "name": "AL RASHIDIYA",
+   "kmToNearestHospital": 3.71,
+   "nearestHospital": "Dubai Medical University Hospital"
+  },
+  {
+   "code": "358",
+   "name": "AL QOUZ THIRD",
+   "kmToNearestHospital": 1.11,
+   "nearestHospital": "Medcare Women And Child Hospital Br Of Medcare Hospital"
+  },
+  {
+   "code": "354",
+   "name": "AL QOUZ FIRST",
+   "kmToNearestHospital": 1.3,
+   "nearestHospital": "Medcare Orthopaedics And Spine Hospital"
+  },
+  {
+   "code": "615",
+   "name": "NADD AL SHIBA SECOND",
+   "kmToNearestHospital": 5.8,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "516",
+   "name": "JABAL ALI INDUSTRIAL THIRD",
+   "kmToNearestHospital": 3.33,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "234",
+   "name": "AL QUSAIS THIRD",
+   "kmToNearestHospital": 1.35,
+   "nearestHospital": "Medcare Royal Speciality Hospital (Br of Medcare Hospital LLC)"
+  },
+  {
+   "code": "931",
+   "name": "AL LESAILY",
+   "kmToNearestHospital": 23.21,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "671",
+   "name": "AL BARSHA SOUTH FIRST",
+   "kmToNearestHospital": 1.95,
+   "nearestHospital": "American Hospital Dubai Science Park"
+  },
+  {
+   "code": "812",
+   "name": "AL ROWAIYAH FIRST",
+   "kmToNearestHospital": 4.43,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "246",
+   "name": "AL QUSAIS IND. THIRD",
+   "kmToNearestHospital": 0.88,
+   "nearestHospital": "Zulekha Hospital LLC"
+  },
+  {
+   "code": "251",
+   "name": "MIRDIF",
+   "kmToNearestHospital": 2.77,
+   "nearestHospital": "Dubai Medical University Hospital"
+  },
+  {
+   "code": "357",
+   "name": "AL SAFA SECOND",
+   "kmToNearestHospital": 0.52,
+   "nearestHospital": "Medcare Women And Child Hospital Br Of Medcare Hospital"
+  },
+  {
+   "code": "226",
+   "name": "AL TWAR FIRST",
+   "kmToNearestHospital": 1.57,
+   "nearestHospital": "Canadian Specialist Hospital"
+  },
+  {
+   "code": "227",
+   "name": "AL TWAR SECOND",
+   "kmToNearestHospital": 0.96,
+   "nearestHospital": "Medcare Royal Speciality Hospital (Br of Medcare Hospital LLC)"
+  },
+  {
+   "code": "111",
+   "name": "AL CORNICHE",
+   "kmToNearestHospital": 2.15,
+   "nearestHospital": "Dubai Hospital - Dubai Health"
+  },
+  {
+   "code": "261",
+   "name": "MUHAISNAH FIRST",
+   "kmToNearestHospital": 0.37,
+   "nearestHospital": "Dubai Medical University Hospital"
+  },
+  {
+   "code": "731",
+   "name": "LEHBAB FIRST",
+   "kmToNearestHospital": 23.23,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "247",
+   "name": "AL QUSAIS IND. FOURTH",
+   "kmToNearestHospital": 1.65,
+   "nearestHospital": "Zulekha Hospital LLC"
+  },
+  {
+   "code": "847",
+   "name": "UMM ESELAY",
+   "kmToNearestHospital": 35.37,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "118",
+   "name": "NAIF",
+   "kmToNearestHospital": 1.64,
+   "nearestHospital": "Medeor 24X7 Hospital LLC"
+  },
+  {
+   "code": "831",
+   "name": "LEHBAB SECOND",
+   "kmToNearestHospital": 20.37,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "317",
+   "name": "MANKHOOL",
+   "kmToNearestHospital": 0.71,
+   "nearestHospital": "Aster Hospital Br Of Aster Dm Healthcare Fzc Dubai"
+  },
+  {
+   "code": "664",
+   "name": "WADI AL SAFA 6",
+   "kmToNearestHospital": 2.84,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "735",
+   "name": "AL MERYAL",
+   "kmToNearestHospital": 26.57,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "813",
+   "name": "AL ROWAIYAH SECOND",
+   "kmToNearestHospital": 2.05,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "922",
+   "name": "AL YALAYIS 2",
+   "kmToNearestHospital": 8.7,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "242",
+   "name": "AL QUSAIS IND. FIRST",
+   "kmToNearestHospital": 0.61,
+   "nearestHospital": "Zulekha Hospital LLC"
+  },
+  {
+   "code": "382",
+   "name": "AL SAFOUH SECOND",
+   "kmToNearestHospital": 2,
+   "nearestHospital": "Al Zahra Pvt. Hospital"
+  },
+  {
+   "code": "923",
+   "name": "AL YALAYIS 3",
+   "kmToNearestHospital": 14.17,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "941",
+   "name": "GRAYTEESAH",
+   "kmToNearestHospital": 32.16,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "101",
+   "name": "NAKHLAT DEIRA",
+   "kmToNearestHospital": 8.26,
+   "nearestHospital": "Dubai Hospital - Dubai Health"
+  },
+  {
+   "code": "502",
+   "name": "AL WAJEHA AL BAHRIAH",
+   "kmToNearestHospital": 18.59,
+   "nearestHospital": "ASTER CEDARS HOSPITAL JEBEL ALI"
+  },
+  {
+   "code": "336",
+   "name": "TRADE CENTER SECOND",
+   "kmToNearestHospital": 2.74,
+   "nearestHospital": "Valiant Healthcare L.Lc"
+  },
+  {
+   "code": "925",
+   "name": "AL YALAYIS 5",
+   "kmToNearestHospital": 10.55,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "127",
+   "name": "HOR AL ANZ",
+   "kmToNearestHospital": 1.2,
+   "nearestHospital": "Canadian Specialist Hospital"
+  },
+  {
+   "code": "267",
+   "name": "MUHAISANAH FIFTH",
+   "kmToNearestHospital": 1.59,
+   "nearestHospital": "ASTER HOSPITAL SONAPUR LLC"
+  },
+  {
+   "code": "626",
+   "name": "NADD HESSA",
+   "kmToNearestHospital": 0.38,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "302",
+   "name": "JUMEIRA BAY",
+   "kmToNearestHospital": 2.13,
+   "nearestHospital": "Emirates Hospital L.L.C"
+  },
+  {
+   "code": "384",
+   "name": "AL THANYAH SECOND",
+   "kmToNearestHospital": 2,
+   "nearestHospital": "Saudi German Hospital"
+  },
+  {
+   "code": "383",
+   "name": "AL THANYAH FIRST",
+   "kmToNearestHospital": 0.98,
+   "nearestHospital": "Saudi German Hospital"
+  },
+  {
+   "code": "532",
+   "name": "SAIH SHUAIB 3",
+   "kmToNearestHospital": 5.29,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "675",
+   "name": "AL HEBIAH SECOND",
+   "kmToNearestHospital": 3.46,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "362",
+   "name": "UMM SUQEIM SECOND",
+   "kmToNearestHospital": 0.21,
+   "nearestHospital": "Dubai London Clinic And Speciality Hospital"
+  },
+  {
+   "code": "343",
+   "name": "AL WASL",
+   "kmToNearestHospital": 0.91,
+   "nearestHospital": "Valiant Healthcare L.Lc"
+  },
+  {
+   "code": "122",
+   "name": "AL BARAHA",
+   "kmToNearestHospital": 0.66,
+   "nearestHospital": "Dubai Hospital - Dubai Health"
+  },
+  {
+   "code": "835",
+   "name": "UMM AL MO'MENEEN",
+   "kmToNearestHospital": 19.11,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "284",
+   "name": "AL TTAY",
+   "kmToNearestHospital": 11.61,
+   "nearestHospital": "ASTER HOSPITAL SONAPUR LLC"
+  },
+  {
+   "code": "132",
+   "name": "AL WUHEIDA",
+   "kmToNearestHospital": 1.61,
+   "nearestHospital": "Dubai Hospital - Dubai Health"
+  },
+  {
+   "code": "891",
+   "name": "HATTA",
+   "kmToNearestHospital": 83.07,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "366",
+   "name": "UMM SUQEIM THIRD",
+   "kmToNearestHospital": 0.51,
+   "nearestHospital": "Novomed Specialized Surgical Hospital LLC"
+  },
+  {
+   "code": "612",
+   "name": "RAS AL KHOR IND. FIRST",
+   "kmToNearestHospital": 4.01,
+   "nearestHospital": "Barraquer Eye Hospital FZ-LLC"
+  },
+  {
+   "code": "988",
+   "name": "AL LAYAN 2",
+   "kmToNearestHospital": 18.07,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "945",
+   "name": "AL FAGAA",
+   "kmToNearestHospital": 46.01,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "134",
+   "name": "AL MAMZAR",
+   "kmToNearestHospital": 2.43,
+   "nearestHospital": "N.M.C SPECIALTY HOSPITAL LTD - DUBAI BRANCH"
+  },
+  {
+   "code": "126",
+   "name": "ABU HAIL",
+   "kmToNearestHospital": 0.8,
+   "nearestHospital": "Dubai Hospital - Dubai Health"
+  },
+  {
+   "code": "245",
+   "name": "MUHAISANAH FOURTH",
+   "kmToNearestHospital": 1.39,
+   "nearestHospital": "Aster Hospital Br Of Aster Dm Healthcare FZC"
+  },
+  {
+   "code": "368",
+   "name": "AL QOUZ IND.THIRD",
+   "kmToNearestHospital": 2.16,
+   "nearestHospital": "Trellis Hospital L.L.C"
+  },
+  {
+   "code": "971",
+   "name": "SAIH AL DAHAL",
+   "kmToNearestHospital": 39.28,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "617",
+   "name": "NADD AL SHIBA FOURTH",
+   "kmToNearestHospital": 2.88,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "643",
+   "name": "WADI AL SAFA 2",
+   "kmToNearestHospital": 4.17,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "303",
+   "name": "WORLD ISLANDS",
+   "kmToNearestHospital": 8.52,
+   "nearestHospital": "Emirates Hospital L.L.C"
+  },
+  {
+   "code": "355",
+   "name": "AL QOUZ SECOND",
+   "kmToNearestHospital": 3.91,
+   "nearestHospital": "Medcare Orthopaedics And Spine Hospital"
+  },
+  {
+   "code": "352",
+   "name": "JUMEIRA THIRD",
+   "kmToNearestHospital": 1.4,
+   "nearestHospital": "Medcare Hospital(L.L.C)"
+  },
+  {
+   "code": "321",
+   "name": "MADINAT DUBAI AL MELAHEYAH",
+   "kmToNearestHospital": 3.12,
+   "nearestHospital": "Aster Hospital Br Of Aster Dm Healthcare Fzc Dubai"
+  },
+  {
+   "code": "916",
+   "name": "AL YUFRAH 2",
+   "kmToNearestHospital": 14.5,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "919",
+   "name": "AL YUFRAH 4",
+   "kmToNearestHospital": 17.17,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "313",
+   "name": "AL HAMRIYA",
+   "kmToNearestHospital": 0.43,
+   "nearestHospital": "Medeor 24X7 Hospital LLC"
+  },
+  {
+   "code": "811",
+   "name": "WARSAN THIRD",
+   "kmToNearestHospital": 8.42,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "618",
+   "name": "NADD AL SHIBA FIRST",
+   "kmToNearestHospital": 7.11,
+   "nearestHospital": "Barraquer Eye Hospital FZ-LLC"
+  },
+  {
+   "code": "231",
+   "name": "AL NAHDA FIRST",
+   "kmToNearestHospital": 0.51,
+   "nearestHospital": "N.M.C SPECIALTY HOSPITAL LTD - DUBAI BRANCH"
+  },
+  {
+   "code": "913",
+   "name": "UMM NAHAD THIRD",
+   "kmToNearestHospital": 10.52,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "513",
+   "name": "SAIH SHUAIB 1",
+   "kmToNearestHospital": 6.8,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "912",
+   "name": "UMM NAHAD SECOND",
+   "kmToNearestHospital": 8.76,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "921",
+   "name": "AL YALAYIS 1",
+   "kmToNearestHospital": 8.14,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "914",
+   "name": "UMM NAHAD FOURTH",
+   "kmToNearestHospital": 10.7,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "727",
+   "name": "AL WOHOOSH",
+   "kmToNearestHospital": 23.7,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "511",
+   "name": "HESSYAN FIRST",
+   "kmToNearestHospital": 8.59,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "814",
+   "name": "AL ROWAIYAH THIRD",
+   "kmToNearestHospital": 8.11,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "392",
+   "name": "MARSA DUBAI",
+   "kmToNearestHospital": 5.2,
+   "nearestHospital": "Al Zahra Pvt. Hospital"
+  },
+  {
+   "code": "381",
+   "name": "NAKHLAT JUMEIRA",
+   "kmToNearestHospital": 5.51,
+   "nearestHospital": "Al Zahra Pvt. Hospital"
+  },
+  {
+   "code": "112",
+   "name": "AL RAS",
+   "kmToNearestHospital": 1.68,
+   "nearestHospital": "Medeor 24X7 Hospital LLC"
+  },
+  {
+   "code": "113",
+   "name": "AL DAGHAYA",
+   "kmToNearestHospital": 1.79,
+   "nearestHospital": "Medeor 24X7 Hospital LLC"
+  },
+  {
+   "code": "266",
+   "name": "OUD AL MUTEENA SECOND",
+   "kmToNearestHospital": 3.06,
+   "nearestHospital": "ASTER HOSPITAL SONAPUR LLC"
+  },
+  {
+   "code": "281",
+   "name": "AL KHWANEEJ FIRST",
+   "kmToNearestHospital": 5.81,
+   "nearestHospital": "ASTER HOSPITAL SONAPUR LLC"
+  },
+  {
+   "code": "115",
+   "name": "AL SABKHA",
+   "kmToNearestHospital": 1.36,
+   "nearestHospital": "Medeor 24X7 Hospital LLC"
+  },
+  {
+   "code": "521",
+   "name": "MADINAT AL MATAAR",
+   "kmToNearestHospital": 8.56,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "215",
+   "name": "UMM RAMOOL",
+   "kmToNearestHospital": 1.45,
+   "nearestHospital": "Al Tadawi Specialty Hospital LLC"
+  },
+  {
+   "code": "369",
+   "name": "AL QOUZ IND.FOURTH",
+   "kmToNearestHospital": 2.22,
+   "nearestHospital": "Kings College Hospital London Br Of Kch Healthcare LLC"
+  },
+  {
+   "code": "324",
+   "name": "AL KIFAF",
+   "kmToNearestHospital": 0.72,
+   "nearestHospital": "CLINICA SABAH SPECIALTY HOSPITAL L.L.C"
+  },
+  {
+   "code": "119",
+   "name": "AL RIGGA",
+   "kmToNearestHospital": 1.1,
+   "nearestHospital": "Medeor 24X7 Hospital LLC"
+  },
+  {
+   "code": "367",
+   "name": "UMM AL SHEIF",
+   "kmToNearestHospital": 0.9,
+   "nearestHospital": "Novomed Specialized Surgical Hospital LLC"
+  },
+  {
+   "code": "975",
+   "name": "AL O'SHOOSH",
+   "kmToNearestHospital": 36.96,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "956",
+   "name": "AL HATHMAH",
+   "kmToNearestHospital": 35.38,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "824",
+   "name": "UMM AL DAMAN",
+   "kmToNearestHospital": 9.75,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "614",
+   "name": "RAS AL KHOR IND. THIRD",
+   "kmToNearestHospital": 5.86,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "826",
+   "name": "LE HEMAIRA",
+   "kmToNearestHospital": 14.42,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "978",
+   "name": "SAIH SHUA'ALAH",
+   "kmToNearestHospital": 43.73,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "333",
+   "name": "AL BADA'",
+   "kmToNearestHospital": 2.76,
+   "nearestHospital": "Valiant Healthcare L.Lc"
+  },
+  {
+   "code": "213",
+   "name": "NADD SHAMMA",
+   "kmToNearestHospital": 3.53,
+   "nearestHospital": "Al Tadawi Specialty Hospital LLC"
+  },
+  {
+   "code": "981",
+   "name": "MUGATRAH",
+   "kmToNearestHospital": 17.93,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "121",
+   "name": "CORNICHE DEIRA",
+   "kmToNearestHospital": 0.36,
+   "nearestHospital": "Dubai Hospital - Dubai Health"
+  },
+  {
+   "code": "646",
+   "name": "WADI AL SAFA 4",
+   "kmToNearestHospital": 7.07,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "311",
+   "name": "AL SHINDAGHA",
+   "kmToNearestHospital": 1.62,
+   "nearestHospital": "Aster Hospital Br Of Aster Dm Healthcare Fzc Dubai"
+  },
+  {
+   "code": "616",
+   "name": "NADD AL SHIBA THIRD",
+   "kmToNearestHospital": 3.88,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "116",
+   "name": "AYAL NASIR",
+   "kmToNearestHospital": 1.85,
+   "nearestHospital": "Medeor 24X7 Hospital LLC"
+  },
+  {
+   "code": "319",
+   "name": "OUD METHA",
+   "kmToNearestHospital": 0.24,
+   "nearestHospital": "American Hospital Dubai LLC"
+  },
+  {
+   "code": "422",
+   "name": "AL WARQA'A SECOND",
+   "kmToNearestHospital": 5.05,
+   "nearestHospital": "Dubai Medical University Hospital"
+  },
+  {
+   "code": "335",
+   "name": "TRADE CENTER FIRST",
+   "kmToNearestHospital": 2.57,
+   "nearestHospital": "Valiant Healthcare L.Lc"
+  },
+  {
+   "code": "711",
+   "name": "AL AWIR FIRST",
+   "kmToNearestHospital": 15.65,
+   "nearestHospital": "ASTER HOSPITAL SONAPUR LLC"
+  },
+  {
+   "code": "967",
+   "name": "GHADEER BARASHY",
+   "kmToNearestHospital": 27.19,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "265",
+   "name": "OUD AL MUTEENA FIRST",
+   "kmToNearestHospital": 1.17,
+   "nearestHospital": "ASTER HOSPITAL SONAPUR LLC"
+  },
+  {
+   "code": "987",
+   "name": "AL LAYAN 1",
+   "kmToNearestHospital": 12.23,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "117",
+   "name": "AL MURAR",
+   "kmToNearestHospital": 1.61,
+   "nearestHospital": "Dubai Hospital - Dubai Health"
+  },
+  {
+   "code": "423",
+   "name": "AL WARQA'A THIRD",
+   "kmToNearestHospital": 6.29,
+   "nearestHospital": "Dubai Medical University Hospital"
+  },
+  {
+   "code": "359",
+   "name": "AL QOUZ FOURTH",
+   "kmToNearestHospital": 2.6,
+   "nearestHospital": "Medcare Women And Child Hospital Br Of Medcare Hospital"
+  },
+  {
+   "code": "917",
+   "name": "AL MARMOOM",
+   "kmToNearestHospital": 17.4,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "364",
+   "name": "AL QOUZ IND.FIRST",
+   "kmToNearestHospital": 0.87,
+   "nearestHospital": "Burjeel Hospital For Advanced Surgery"
+  },
+  {
+   "code": "682",
+   "name": "AL HEBIAH FOURTH",
+   "kmToNearestHospital": 4.76,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "593",
+   "name": "JABAL ALI THIRD",
+   "kmToNearestHospital": 18.72,
+   "nearestHospital": "ASTER CEDARS HOSPITAL JEBEL ALI"
+  },
+  {
+   "code": "416",
+   "name": "NADD AL HAMAR",
+   "kmToNearestHospital": 5.07,
+   "nearestHospital": "Al Tadawi Specialty Hospital LLC"
+  },
+  {
+   "code": "672",
+   "name": "AL BARSHA SOUTH SECOND",
+   "kmToNearestHospital": 1.27,
+   "nearestHospital": "American Hospital Dubai Science Park"
+  },
+  {
+   "code": "599",
+   "name": "JABAL ALI INDUSTRIAL FIRST",
+   "kmToNearestHospital": 3.1,
+   "nearestHospital": "N M C ROYAL HOSPITAL LTD - DUBAI BRANCH"
+  },
+  {
+   "code": "271",
+   "name": "WADI ALAMARDI",
+   "kmToNearestHospital": 8.86,
+   "nearestHospital": "Dubai Medical University Hospital"
+  },
+  {
+   "code": "129",
+   "name": "PORT SAEED",
+   "kmToNearestHospital": 0.86,
+   "nearestHospital": "Mediclinic Welcare Hospital LLC"
+  },
+  {
+   "code": "373",
+   "name": "AL BARSHA FIRST",
+   "kmToNearestHospital": 1.5,
+   "nearestHospital": "Al Zahra Pvt. Hospital"
+  },
+  {
+   "code": "736",
+   "name": "NAZWAH",
+   "kmToNearestHospital": 28.19,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "325",
+   "name": "ZAA'BEEL FIRST",
+   "kmToNearestHospital": 1.3,
+   "nearestHospital": "Latifa Hospital - Dubai Health"
+  },
+  {
+   "code": "375",
+   "name": "AL BARSHA THIRD",
+   "kmToNearestHospital": 1.45,
+   "nearestHospital": "Saudi German Hospital"
+  },
+  {
+   "code": "346",
+   "name": "BUSINESS BAY",
+   "kmToNearestHospital": 2.15,
+   "nearestHospital": "Valiant Healthcare L.Lc"
+  },
+  {
+   "code": "123",
+   "name": "AL MUTEENA",
+   "kmToNearestHospital": 1.44,
+   "nearestHospital": "Dubai Hospital - Dubai Health"
+  },
+  {
+   "code": "345",
+   "name": "BURJ KHALIFA",
+   "kmToNearestHospital": 1.48,
+   "nearestHospital": "Valiant Healthcare L.Lc"
+  },
+  {
+   "code": "685",
+   "name": "ME'AISEM FIRST",
+   "kmToNearestHospital": 3.2,
+   "nearestHospital": "NMC SPECIALTY HOSPITAL DIP BR OF NMC ROYAL HOSPITAL LTD DUBAI BRANCH"
+  },
+  {
+   "code": "686",
+   "name": "ME'AISEM SECOND",
+   "kmToNearestHospital": 6.23,
+   "nearestHospital": "NMC SPECIALTY HOSPITAL DIP BR OF NMC ROYAL HOSPITAL LTD DUBAI BRANCH"
+  },
+  {
+   "code": "318",
+   "name": "AL KARAMA",
+   "kmToNearestHospital": 1.07,
+   "nearestHospital": "CLINICA SABAH SPECIALTY HOSPITAL L.L.C"
+  },
+  {
+   "code": "421",
+   "name": "AL WARQA'A FIRST",
+   "kmToNearestHospital": 6.85,
+   "nearestHospital": "Dubai Medical University Hospital"
+  },
+  {
+   "code": "262",
+   "name": "AL MIZHAR FIRST",
+   "kmToNearestHospital": 2.36,
+   "nearestHospital": "ASTER HOSPITAL SONAPUR LLC"
+  },
+  {
+   "code": "413",
+   "name": "RAS AL KHOR",
+   "kmToNearestHospital": 1.91,
+   "nearestHospital": "Barraquer Eye Hospital FZ-LLC"
+  },
+  {
+   "code": "322",
+   "name": "AL HUDAIBA",
+   "kmToNearestHospital": 0.82,
+   "nearestHospital": "International Modern Hospital (L. L. C)"
+  },
+  {
+   "code": "915",
+   "name": "AL YUFRAH 1",
+   "kmToNearestHospital": 13.93,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "684",
+   "name": "AL BARSHA SOUTH FIFTH",
+   "kmToNearestHospital": 4.82,
+   "nearestHospital": "NMC SPECIALTY HOSPITAL DIP BR OF NMC ROYAL HOSPITAL LTD DUBAI BRANCH"
+  },
+  {
+   "code": "334",
+   "name": "AL SATWA",
+   "kmToNearestHospital": 2.37,
+   "nearestHospital": "Valiant Healthcare L.Lc"
+  },
+  {
+   "code": "611",
+   "name": "BU KADRA",
+   "kmToNearestHospital": 3.72,
+   "nearestHospital": "Barraquer Eye Hospital FZ-LLC"
+  },
+  {
+   "code": "263",
+   "name": "AL MIZHAR SECOND",
+   "kmToNearestHospital": 3.62,
+   "nearestHospital": "ASTER HOSPITAL SONAPUR LLC"
+  },
+  {
+   "code": "512",
+   "name": "HESSYAN SECOND",
+   "kmToNearestHospital": 13,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "214",
+   "name": "AL GARHOUD",
+   "kmToNearestHospital": 0.94,
+   "nearestHospital": "Prime Hospital L.L.C"
+  },
+  {
+   "code": "315",
+   "name": "UMM HURAIR SECOND",
+   "kmToNearestHospital": 0.49,
+   "nearestHospital": "Dr Sulaiman Al Habib Hospital FZ-LLC"
+  },
+  {
+   "code": "131",
+   "name": "AL HAMRIYA PORT",
+   "kmToNearestHospital": 1.99,
+   "nearestHospital": "Dubai Hospital - Dubai Health"
+  },
+  {
+   "code": "622",
+   "name": "WARSAN SECOND",
+   "kmToNearestHospital": 6.48,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "133",
+   "name": "HOR AL ANZ EAST",
+   "kmToNearestHospital": 0.58,
+   "nearestHospital": "Canadian Specialist Hospital"
+  },
+  {
+   "code": "425",
+   "name": "AL WARQA'A FIFTH",
+   "kmToNearestHospital": 8.31,
+   "nearestHospital": "Dubai Medical University Hospital"
+  },
+  {
+   "code": "624",
+   "name": "WARSAN FOURTH",
+   "kmToNearestHospital": 3.02,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "244",
+   "name": "MUHAISANAH THIRD",
+   "kmToNearestHospital": 1.1,
+   "nearestHospital": "Aster Hospital Br Of Aster Dm Healthcare FZC"
+  },
+  {
+   "code": "597",
+   "name": "DUBAI INVESTMENT PARK SECOND",
+   "kmToNearestHospital": 6.53,
+   "nearestHospital": "N M C ROYAL HOSPITAL LTD - DUBAI BRANCH"
+  },
+  {
+   "code": "861",
+   "name": "YARAAH",
+   "kmToNearestHospital": 48.78,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "533",
+   "name": "SAIH SHUAIB 4",
+   "kmToNearestHospital": 8.14,
+   "nearestHospital": "Jebel Ali Hospital – Dubai Health"
+  },
+  {
+   "code": "598",
+   "name": "DUBAI INVESTMENT PARK FIRST",
+   "kmToNearestHospital": 2,
+   "nearestHospital": "N M C ROYAL HOSPITAL LTD - DUBAI BRANCH"
+  },
+  {
+   "code": "621",
+   "name": "WARSAN FIRST",
+   "kmToNearestHospital": 5.38,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "388",
+   "name": "AL THANYAH THIRD",
+   "kmToNearestHospital": 2.39,
+   "nearestHospital": "Saudi German Hospital"
+  },
+  {
+   "code": "393",
+   "name": "AL THANYAH FIFTH",
+   "kmToNearestHospital": 5.11,
+   "nearestHospital": "NMC SPECIALTY HOSPITAL DIP BR OF NMC ROYAL HOSPITAL LTD DUBAI BRANCH"
+  },
+  {
+   "code": "363",
+   "name": "AL MANARA",
+   "kmToNearestHospital": 0.95,
+   "nearestHospital": "Burjeel Hospital For Advanced Surgery"
+  },
+  {
+   "code": "337",
+   "name": "ZAA'BEEL SECOND",
+   "kmToNearestHospital": 2.44,
+   "nearestHospital": "Clemenceau Medical Center FZ-LLC"
+  },
+  {
+   "code": "125",
+   "name": "RIGGAT AL BUTEEN",
+   "kmToNearestHospital": 1.25,
+   "nearestHospital": "Medeor 24X7 Hospital LLC"
+  },
+  {
+   "code": "248",
+   "name": "AL QUSAIS IND. FIFTH",
+   "kmToNearestHospital": 2.19,
+   "nearestHospital": "Aster Hospital Br Of Aster Dm Healthcare FZC"
+  },
+  {
+   "code": "518",
+   "name": "JABAL ALI INDUSTRIAL SECOND",
+   "kmToNearestHospital": 6.99,
+   "nearestHospital": "ASTER CEDARS HOSPITAL JEBEL ALI"
+  },
+  {
+   "code": "841",
+   "name": "MARGHAM",
+   "kmToNearestHospital": 28.04,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "676",
+   "name": "AL HEBIAH THIRD",
+   "kmToNearestHospital": 4.86,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "316",
+   "name": "AL RAFFA",
+   "kmToNearestHospital": 0.25,
+   "nearestHospital": "Aster Hospital Br Of Aster Dm Healthcare Fzc Dubai"
+  },
+  {
+   "code": "961",
+   "name": "AL SELAL",
+   "kmToNearestHospital": 17.44,
+   "nearestHospital": "N M C ROYAL HOSPITAL LTD - DUBAI BRANCH"
+  },
+  {
+   "code": "673",
+   "name": "AL BARSHA SOUTH THIRD",
+   "kmToNearestHospital": 1.34,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "252",
+   "name": "MUSHRAIF",
+   "kmToNearestHospital": 5.16,
+   "nearestHospital": "Dubai Medical University Hospital"
+  },
+  {
+   "code": "412",
+   "name": "AL KHEERAN",
+   "kmToNearestHospital": 1.7,
+   "nearestHospital": "Al Tadawi Specialty Hospital LLC"
+  },
+  {
+   "code": "326",
+   "name": "AL JADAF",
+   "kmToNearestHospital": 1,
+   "nearestHospital": "Barraquer Eye Hospital FZ-LLC"
+  },
+  {
+   "code": "264",
+   "name": "MUHAISANAH SECOND",
+   "kmToNearestHospital": 1.19,
+   "nearestHospital": "ASTER HOSPITAL SONAPUR LLC"
+  },
+  {
+   "code": "677",
+   "name": "AL HEBIAH SIXTH",
+   "kmToNearestHospital": 5.73,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "645",
+   "name": "WADI AL SAFA 3",
+   "kmToNearestHospital": 6.12,
+   "nearestHospital": "Kings College Hospital London Br Of Kch Healthcare LLC"
+  },
+  {
+   "code": "314",
+   "name": "UMM HURAIR FIRST",
+   "kmToNearestHospital": 0.69,
+   "nearestHospital": "Medeor 24X7 Hospital LLC"
+  },
+  {
+   "code": "372",
+   "name": "AL SAFOUH FIRST",
+   "kmToNearestHospital": 1.56,
+   "nearestHospital": "Trellis Hospital L.L.C"
+  },
+  {
+   "code": "304",
+   "name": "JUMEIRA ISLAND 2",
+   "kmToNearestHospital": 1.11,
+   "nearestHospital": "Emirates Hospital L.L.C"
+  },
+  {
+   "code": "342",
+   "name": "JUMEIRA SECOND",
+   "kmToNearestHospital": 0.54,
+   "nearestHospital": "Emirates Hospital L.L.C"
+  },
+  {
+   "code": "114",
+   "name": "AL BUTEEN",
+   "kmToNearestHospital": 1.41,
+   "nearestHospital": "Medeor 24X7 Hospital LLC"
+  },
+  {
+   "code": "232",
+   "name": "AL QUSAIS FIRST",
+   "kmToNearestHospital": 1.36,
+   "nearestHospital": "N.M.C SPECIALTY HOSPITAL LTD - DUBAI BRANCH"
+  },
+  {
+   "code": "347",
+   "name": "AL MERKADH",
+   "kmToNearestHospital": 4.54,
+   "nearestHospital": "Valiant Healthcare L.Lc"
+  },
+  {
+   "code": "356",
+   "name": "UMM SUQEIM FIRST",
+   "kmToNearestHospital": 0.94,
+   "nearestHospital": "BELLA ROMA SPECIALTY HOSPITAL L.L.C"
+  },
+  {
+   "code": "365",
+   "name": "AL QOUZ IND.SECOND",
+   "kmToNearestHospital": 2.45,
+   "nearestHospital": "Kings College Hospital London Br Of Kch Healthcare LLC"
+  },
+  {
+   "code": "918",
+   "name": "AL YUFRAH 3",
+   "kmToNearestHospital": 14.53,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "312",
+   "name": "AL SOUQ AL KABEER",
+   "kmToNearestHospital": 1.22,
+   "nearestHospital": "Aster Hospital Br Of Aster Dm Healthcare Fzc Dubai"
+  },
+  {
+   "code": "631",
+   "name": "HADAEQ SHEIKH MOHAMMED BIN RASHID",
+   "kmToNearestHospital": 2.14,
+   "nearestHospital": "Kings College Hospital London Br Of Kch Healthcare LLC"
+  },
+  {
+   "code": "911",
+   "name": "UMM NAHAD FIRST",
+   "kmToNearestHospital": 6.24,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "268",
+   "name": "OUD AL MUTEENA THIRD",
+   "kmToNearestHospital": 1.82,
+   "nearestHospital": "ASTER HOSPITAL SONAPUR LLC"
+  },
+  {
+   "code": "721",
+   "name": "AL AWIR SECOND",
+   "kmToNearestHospital": 18.9,
+   "nearestHospital": "ASTER HOSPITAL SONAPUR LLC"
+  },
+  {
+   "code": "221",
+   "name": "DUBAI INT'L AIRPORT",
+   "kmToNearestHospital": 2.24,
+   "nearestHospital": "Prime Hospital L.L.C"
+  },
+  {
+   "code": "332",
+   "name": "JUMEIRA FIRST",
+   "kmToNearestHospital": 3.3,
+   "nearestHospital": "Valiant Healthcare L.Lc"
+  },
+  {
+   "code": "821",
+   "name": "MEREIYEEL",
+   "kmToNearestHospital": 12.93,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "241",
+   "name": "AL NAHDA SECOND",
+   "kmToNearestHospital": 0.63,
+   "nearestHospital": "Zulekha Hospital LLC"
+  },
+  {
+   "code": "424",
+   "name": "AL WARQA'A FOURTH",
+   "kmToNearestHospital": 7.09,
+   "nearestHospital": "Dubai Medical University Hospital"
+  },
+  {
+   "code": "283",
+   "name": "ALEYAS",
+   "kmToNearestHospital": 12.01,
+   "nearestHospital": "ASTER HOSPITAL SONAPUR LLC"
+  },
+  {
+   "code": "681",
+   "name": "AL BARSHA SOUTH FOURTH",
+   "kmToNearestHospital": 4.08,
+   "nearestHospital": "Mediclinic Parkview Hospital LLC"
+  },
+  {
+   "code": "501",
+   "name": "NAKHLAT JABAL ALI",
+   "kmToNearestHospital": 10.08,
+   "nearestHospital": "ASTER CEDARS HOSPITAL JEBEL ALI"
+  },
+  {
+   "code": "724",
+   "name": "ENKHALI",
+   "kmToNearestHospital": 18.21,
+   "nearestHospital": "Fakeeh University Hospital"
+  },
+  {
+   "code": "394",
+   "name": "AL THANYAH  FOURTH",
+   "kmToNearestHospital": 4,
+   "nearestHospital": "Saudi German Hospital"
+  },
+  {
+   "code": "591",
+   "name": "JABAL ALI FIRST",
+   "kmToNearestHospital": 3.66,
+   "nearestHospital": "NMC SPECIALTY HOSPITAL DIP BR OF NMC ROYAL HOSPITAL LTD DUBAI BRANCH"
+  }
+ ]
+}
