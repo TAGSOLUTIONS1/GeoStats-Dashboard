@@ -30,7 +30,7 @@ const localDatasets = {
     scopeLabel: 'Dubai emirate',
     series: housingUnits.series,
     yearRange: housingUnits.yearRange,
-    source: 'UAE census series (ArcGIS)',
+    source: 'DSC housing statistics 1980-2019 (private ArcGIS re-host; unverified)',
     isProxy: false,
   },
   'housing-units-growth-rate': {
@@ -40,7 +40,7 @@ const localDatasets = {
     scopeLabel: 'Dubai emirate',
     series: housingGrowth.series,
     yearRange: housingGrowth.yearRange,
-    source: 'UAE census series (ArcGIS)',
+    source: 'DSC housing statistics 1980-2019 (private ArcGIS re-host; unverified)',
     isProxy: false,
   },
   'poverty-rate': {
@@ -170,7 +170,7 @@ const localDatasets = {
     bands: ageDistribution.bands,
     totalPopulation: ageDistribution.totalPopulation,
     malePct: ageDistribution.malePct,
-    source: 'UAE population by age (ArcGIS)',
+    source: 'Dubai population by age 2019 (private ArcGIS re-host; unverified)',
     isProxy: false,
   },
 };

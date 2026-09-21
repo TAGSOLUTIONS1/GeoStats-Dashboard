@@ -4,7 +4,7 @@
   "scope": "emirate",
   "year": 2019,
   "unit": "years",
-  "source": "UAE population by age via ArcGIS (Dubai_PopulationByAge_2019)",
+  "source": "Dubai population by age, 2019 - feature service re-hosted on a private ArcGIS Online account; NOT published by Dubai Statistics Center's own account",
   "sourceUrl": "https://services5.arcgis.com/6A16OGWeO5n9jAWS/arcgis/rest/services/Dubai_PopulationByAge_2019/FeatureServer/0",
   "retrieved": "2026-08-25",
   "medianAge": 32.1,
@@ -77,5 +77,8 @@
       "label": "75-75+",
       "population": 11222
     }
-  ]
+  ],
+  "hostedBy": "ArcGIS Online user 'louinamisango' (private profile), item b08b7bf8426640618dd3b42120e244a4, created 2021-06-06, no credits or licence stated",
+  "provenance": "The feature service at the sourceUrl is owned by a private ArcGIS Online account (org 6A16OGWeO5n9jAWS) that also hosts unrelated demo layers for Addis Ababa, Belgium, Portugal and Washington DC. The item states no source. Dubai Statistics Center's own ArcGIS Online account (9 public items, enumerated 21 Sep 2026) publishes no population-by-age layer, so this data could not be verified against a DSC-owned item. The stated 2019 total of 3,355,900 is consistent with DSC's verified 2018 estimate (3,192,275) and published 2020 estimate (3,411,200), and the 16 age bands sum exactly to that total, but the figures themselves are unverified. Previously attributed as 'UAE population by age via ArcGIS' without this qualification.",
+  "limitation": "Provenance: a re-hosted copy of unstated origin, not an official DSC publication. Treat the age structure as indicative until replaced with DSC's Population Bulletin age tables."
 }

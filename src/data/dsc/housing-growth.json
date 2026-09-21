@@ -3,7 +3,7 @@
   "label": "Housing units growth (annualised %)",
   "scope": "emirate",
   "unit": "percent",
-  "source": "UAE census series via ArcGIS (DubaiHousingBuildings_1975_2019)",
+  "source": "Dubai housing and building statistics 1980-2019 - feature service re-hosted on a private ArcGIS Online account, self-described as 'sourced from published statistics data from Dubai Statistics Center'",
   "sourceUrl": "https://services5.arcgis.com/6A16OGWeO5n9jAWS/arcgis/rest/services/DubaiHousingBuildings_1975_2019/FeatureServer/0",
   "method": "Annualised CAGR between consecutive census years of Total_Housing",
   "retrieved": "2026-08-25",
@@ -44,5 +44,8 @@
       "year": 2019,
       "value": 8.09
     }
-  ]
+  ],
+  "hostedBy": "ArcGIS Online user 'louinamisango' (private profile), item 06f5601f1ff9433abebe20e0e08b1e87, created 2021-06-04, no credits or licence stated",
+  "provenance": "The feature service at the sourceUrl is owned by a private ArcGIS Online account (org 6A16OGWeO5n9jAWS), not by Dubai Statistics Center. The item's own description states the layer is 'sourced from published statistics data from Dubai Statistics Center', which is the only attribution available. Partial cross-check: the 2015 value (502,830 housing units) is consistent with the 551,077 units the Federal Competitiveness and Statistics Authority reports for 2017 (via CEIC). The 2019 value (686,480) could not be independently verified from this environment (DSC and CEIC pages returned 403/404). Previously attributed as 'UAE census series via ArcGIS' without this qualification.",
+  "limitation": "Provenance: a re-hosted copy whose only source statement is the uploader's own; not an official DSC publication."
 }

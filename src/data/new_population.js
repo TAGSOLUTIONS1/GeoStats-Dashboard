@@ -1,3 +1,8 @@
+// Dubai Statistics Center, 'Population by Sector and Community' table - the end-2024 estimate.
+// Bilingual DSC column layout; emirate total 3,863,600 matches DSC's Population Bulletin 2024
+// (dsc.gov.ae/Publication/Population Bulletin Emirate of Dubai - 2024.pdf). 977 rows include
+// sector subtotals; 218 communities carry a population. This is a NEWER vintage than the
+// 2011-2022 series in dsc/population-by-community.json and should not be mixed with it.
 export const New_Population=[
   {
     "رقم المنطقة ": "101",

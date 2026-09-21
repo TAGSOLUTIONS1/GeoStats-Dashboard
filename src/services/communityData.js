@@ -110,7 +110,7 @@ export const mapDataPoints = {
     label: 'Population growth (annual %, 2011–2022)',
     stops: [-0.29, 2.46, 5.68, 16.1, 39.5, 80],
     palette: BLUE,
-    source: 'Dubai Statistics Center',
+    source: 'Dubai Statistics Center (DSC ArcGIS Online items; verified per year)',
   },
   'community-safety-score': {
     dataset: trafficSafety,
@@ -121,7 +121,7 @@ export const mapDataPoints = {
     label: 'Road incidents per 1k people (2023–25)',
     stops: [11.1, 21.6, 39.6, 58.6, 96.5, 217],
     palette: SAFETY,
-    source: 'Dubai Traffic Incident Reports',
+    source: 'Traffic incident reports (Esri demo service; publisher unstated)',
     inverted: true,
   },
   'emergency-services-response-time': {
