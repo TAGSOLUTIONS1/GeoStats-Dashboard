@@ -101,7 +101,7 @@ const Sidebar = () => {
             placeholder="SEARCH DATA POINTS"
             value={searchQuery}
             onChange={handleSearchChange}
-            className="w-full pl-10 pr-4 py-1.5 text-sm bg-white border border-gray-400 rounded-lg text-blue-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full pl-10 pr-4 py-1.5 text-base lg:text-sm bg-white border border-gray-400 rounded-lg text-blue-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
       </div>

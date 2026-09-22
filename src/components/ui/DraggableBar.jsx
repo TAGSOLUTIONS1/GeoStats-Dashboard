@@ -62,7 +62,7 @@ const DraggableBar = ({ min = 0, max = 100, value, onChange, disabled = false })
   }, [pointerToValue, onChange, disabled]);
 
   return (
-    <div className="w-full px-6 py-3 bg-gray-50 border-y border-gray-200">
+    <div className="w-full px-3 sm:px-6 py-3 bg-gray-50 border-y border-gray-200 rounded-lg sm:rounded-none">
       <div className="flex items-center gap-4">
         <span className="text-xs font-semibold text-gray-600 whitespace-nowrap">Pan View:</span>
         <div

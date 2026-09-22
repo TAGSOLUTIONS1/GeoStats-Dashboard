@@ -1,5 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  // Only emit hover: styles on devices that can hover, so iPhone taps do not
+  // leave buttons stuck in their hover colour.
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
     "./public/index.html"

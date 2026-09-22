@@ -451,7 +451,9 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedFilter, addPopulation, getColorScheme]);
 
-  // Update data when filter changes
+  // Update data when filter changes. The features already carry every data
+  // point's value (addPopulation merges them once per filter), so a change of
+  // data point does not need the GeoJSON re-uploaded.
   useEffect(() => {
     if (!map.current || !isMapLoaded) return;
 
@@ -463,21 +465,31 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
     if (source) {
       source.setData(newData);
     }
+  }, [selectedFilter, isMapLoaded, addPopulation]);
 
-    const layer = map.current.getLayer('dubai-communities-fill');
-    if (layer) {
-      map.current.setPaintProperty('dubai-communities-fill', 'fill-color', getColorScheme(selectedFilter));
-    }
+  // Recolour and relabel when the data point (or filter) changes. Deferred by
+  // one task so that a drawer or menu closed by the same tap paints its first
+  // frame before the map restyle starts.
+  useEffect(() => {
+    if (!map.current || !isMapLoaded) return;
 
-    // Keep the printed number in step with the fill colour.
-    if (map.current.getLayer('dubai-communities-name')) {
-      map.current.setLayoutProperty(
-        'dubai-communities-name',
-        'text-field',
-        buildLabelExpression(typeof window !== 'undefined' ? window.selectedDataPoint : null)
-      );
-    }
-  }, [selectedFilter, isMapLoaded, addPopulation, getColorScheme, activeDataPoint]);
+    const id = setTimeout(() => {
+      if (!map.current) return;
+      if (map.current.getLayer('dubai-communities-fill')) {
+        map.current.setPaintProperty('dubai-communities-fill', 'fill-color', getColorScheme(selectedFilter));
+      }
+
+      // Keep the printed number in step with the fill colour.
+      if (map.current.getLayer('dubai-communities-name')) {
+        map.current.setLayoutProperty(
+          'dubai-communities-name',
+          'text-field',
+          buildLabelExpression(typeof window !== 'undefined' ? window.selectedDataPoint : null)
+        );
+      }
+    }, 0);
+    return () => clearTimeout(id);
+  }, [selectedFilter, isMapLoaded, getColorScheme, activeDataPoint]);
 
   const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
   const hasValidToken = token && token !== 'your_mapbox_access_token_here';

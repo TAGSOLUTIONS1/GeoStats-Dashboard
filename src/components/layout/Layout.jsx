@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, GraduationCap, RotateCcw, Ruler } from 'lucide-react';
+import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, GraduationCap, RotateCcw, Ruler, MoreHorizontal, ChevronUp, ChevronDown, TrendingUp } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
 import TableViewModal from '../ui/TableViewModal';
@@ -43,10 +43,15 @@ const Layout = ({ children }) => {
 
   const [searchSuggestions, setSearchSuggestions] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true); // Default to open on desktop
+  const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth >= 1024); // Open on desktop; closed on phones so the map shows first
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
   const searchTimeoutRef = useRef(null);
   const isDesktopRef = useRef(window.innerWidth >= 1024);
+  // Phone-only UI state: header overflow menu, collapsible legend and trend card
+  const [isMoreMenuOpen, setIsMoreMenuOpen] = useState(false);
+  const moreMenuRef = useRef(null);
+  const [isLegendOpen, setIsLegendOpen] = useState(false);
+  const [isTrendOpen, setIsTrendOpen] = useState(false);
   const [isExploreModalOpen, setIsExploreModalOpen] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState(null);
   
@@ -153,6 +158,8 @@ const Layout = ({ children }) => {
   
   // Check if school filter panel should be open
   const currentDataPoint = windowDataPoint || selectedDataPoint;
+  // Legend metadata for the painted community layer (null for Dubai-wide points)
+  const legendMeta = currentDataPoint ? getMapDataPointMeta(currentDataPoint) : null;
   // Show school map if:
   // 1. The active section is school landscape, OR
   // 2. A school data point is currently selected
@@ -279,6 +286,31 @@ const Layout = ({ children }) => {
       document.body.style.overflow = 'unset';
     };
   }, [isSidebarOpen, isDesktop]);
+
+  // Phones: close the drawer once a data point is picked so the painted map is visible.
+  // currentDataPoint follows the sidebar's selection (via window.selectedDataPoint).
+  const prevDataPointRef = useRef(currentDataPoint);
+  useEffect(() => {
+    if (prevDataPointRef.current === currentDataPoint) return;
+    prevDataPointRef.current = currentDataPoint;
+    if (!isDesktopRef.current) setIsSidebarOpen(false);
+  }, [currentDataPoint]);
+
+  // Close the header overflow menu on an outside tap
+  useEffect(() => {
+    if (!isMoreMenuOpen) return;
+    const handleOutside = (event) => {
+      if (moreMenuRef.current && !moreMenuRef.current.contains(event.target)) {
+        setIsMoreMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleOutside);
+    document.addEventListener('touchstart', handleOutside, { passive: true });
+    return () => {
+      document.removeEventListener('mousedown', handleOutside);
+      document.removeEventListener('touchstart', handleOutside);
+    };
+  }, [isMoreMenuOpen]);
 
   const handleFilterPanel = () => {
     if (isSchoolPanelOpen) {
@@ -868,7 +900,7 @@ const Layout = ({ children }) => {
     }, [isDesktop]);
     
   return (
-    <div className="flex h-screen bg-gray-50 relative mobile-scroll-fix">
+    <div className="flex h-screen bg-gray-50 relative mobile-scroll-fix overflow-hidden touch-manipulation">
       {/* Desktop Sidebar */}
       <div className={`hidden lg:block relative transition-all duration-300 ease-in-out overflow-hidden ${
         isSidebarOpen ? 'w-72' : 'w-0'
@@ -897,7 +929,7 @@ const Layout = ({ children }) => {
       )}
       
       {/* Mobile Sidebar */}
-      <div className={`sidebar-container fixed left-0 top-0 h-full z-50 transform transition-transform duration-300 ease-in-out lg:hidden mobile-scroll-fix ${
+      <div className={`sidebar-container fixed left-0 top-0 h-full z-50 transform transition-transform duration-300 ease-in-out lg:hidden mobile-scroll-fix pl-[env(safe-area-inset-left)] bg-gray-100 ${
         isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
       }`}>
         <div className="relative sidebar-content">
@@ -945,9 +977,10 @@ const Layout = ({ children }) => {
       </div>
       
       {/* Attribution + scale hint for map-painted community data points */}
-      {currentDataPoint && getMapDataPointMeta(currentDataPoint) && (
-        <div className="absolute left-4 bottom-24 z-30 pointer-events-none max-w-[calc(100vw-2rem)]">
-          <div className="bg-white/95 backdrop-blur rounded-lg shadow border border-gray-200 px-3 py-2 max-w-[280px]">
+      {legendMeta && (
+        <div className="absolute left-[max(1rem,env(safe-area-inset-left))] bottom-28 lg:bottom-24 z-30 pointer-events-none max-w-[calc(100vw-2rem)]">
+          {/* Phones: collapsed behind the chip below; desktop always shows the panel */}
+          <div className={`${isLegendOpen ? 'block' : 'hidden'} lg:block bg-white/95 backdrop-blur rounded-lg shadow border border-gray-200 px-3 py-2 max-w-[280px] mb-2 lg:mb-0 max-h-[calc(100vh-14rem)] lg:max-h-none overflow-y-auto lg:overflow-visible pointer-events-auto lg:pointer-events-none`}>
             <div className="text-xs font-inter font-semibold text-blue">
               {getMapDataPointMeta(currentDataPoint).label}
             </div>
@@ -992,21 +1025,42 @@ const Layout = ({ children }) => {
               Source: {getMapDataPointMeta(currentDataPoint).source}
             </div>
           </div>
+          <button
+            type="button"
+            onClick={() => setIsLegendOpen((open) => !open)}
+            aria-expanded={isLegendOpen}
+            className="lg:hidden pointer-events-auto relative before:absolute before:content-[''] before:-inset-2 flex items-center space-x-2 bg-white/95 backdrop-blur rounded-full shadow border border-gray-200 pl-2 pr-3 py-1.5 max-w-[calc(100vw-9rem)]"
+          >
+            <span
+              className="h-2 w-8 rounded shrink-0"
+              style={{ background: `linear-gradient(to right, ${legendMeta.palette.join(', ')})` }}
+            />
+            <span className="text-xs font-semibold text-blue truncate">{legendMeta.label}</span>
+            {isLegendOpen ? (
+              <ChevronDown className="w-3 h-3 text-gray-500 shrink-0" />
+            ) : (
+              <ChevronUp className="w-3 h-3 text-gray-500 shrink-0" />
+            )}
+          </button>
         </div>
       )}
 
-      {/* World Bank (UAE nationwide) indicator trend, for data points backed by it */}
-      {currentDataPoint && hasCard(currentDataPoint) && (
-        <div className="absolute right-4 bottom-64 z-30 pointer-events-none max-w-[calc(100vw-2rem)]">
+      {/* World Bank (UAE nationwide) indicator trend, for data points backed by it.
+          Always shown on desktop; on phones it opens from the Trend chip and scrolls
+          inside the viewport on short (landscape) screens. */}
+      {currentDataPoint && hasCard(currentDataPoint) && (isDesktop || isTrendOpen) && (
+        <div className="absolute right-[max(1rem,env(safe-area-inset-right))] bottom-60 lg:bottom-64 z-30 pointer-events-auto lg:pointer-events-none max-w-[calc(100vw-2rem)] max-h-[calc(100vh-19rem)] lg:max-h-none overflow-y-auto lg:overflow-visible">
           <IndicatorTrendCard dataPointId={currentDataPoint} />
         </div>
       )}
 
-      <main className="flex-1 relative z-20 flex flex-col pointer-events-none">
+      {/* z-[35]: menus that open from the header and bottom bar must paint above the
+          legend / trend / feedback chips (z-30) yet stay under the drawer backdrop (z-40) */}
+      <main className="flex-1 min-w-0 relative z-[35] flex flex-col pointer-events-none pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)]">
         {/* Top Header */}
         <div className="bg-white/95 mt-4 mx-2 sm:mx-4 lg:mx-6 border-b border-gray-200 px-2 sm:px-4 lg:px-6 py-2 flex justify-between pointer-events-auto items-center rounded-lg">
           {/* Left side with back button, logo, hamburger and search */}
-          <div className="flex items-center space-x-2 sm:space-x-4 flex-1">
+          <div className="flex items-center space-x-2 sm:space-x-4 flex-1 min-w-0">
             
             {/* Hamburger Menu - Visible on mobile and desktop when sidebar is closed */}
             <button
@@ -1024,19 +1078,19 @@ const Layout = ({ children }) => {
               <div className="w-10 h-10 rounded-lg flex items-center justify-center">
                 <img src="/logo/geo_stats.png" alt="Logo" className="w-auto h-10" />
               </div>
-              <h1 className="text-2xl font-semibold text-orange font-tomorrow">GeoStats</h1>
+              <h1 className="hidden sm:block text-2xl font-semibold text-orange font-tomorrow">GeoStats</h1>
             </div>
             )}
             
             {/* Search Bar */}
-            <div className="relative flex-1 max-w-sm lg:max-w-md">
+            <div className="relative flex-1 min-w-0 max-w-sm lg:max-w-md">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
               <input
                 type="text"
                 placeholder="Search locations in Dubai"
                 value={searchQuery}
                 onChange={(e) => handleSearch(e.target.value)}
-                className="pl-10 pr-4 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure w-full"
+                className="pl-10 pr-4 py-1.5 text-base sm:text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azure w-full"
               />
               
               {/* Search suggestions dropdown */}
@@ -1087,7 +1141,7 @@ const Layout = ({ children }) => {
             <div className="flex items-center space-x-1 sm:space-x-2 lg:space-x-4">
               <button 
                 onClick={handleClear}
-                className="p-2 hover:bg-gray-100 rounded-lg transition-colors flex items-center space-x-1 border border-gray-300"
+                className="hidden md:flex p-2 hover:bg-gray-100 rounded-lg transition-colors items-center space-x-1 border border-gray-300"
                 title="Clear markers"
               >
                 <RotateCcw className="w-4 h-4 text-gray-600" />
@@ -1095,7 +1149,7 @@ const Layout = ({ children }) => {
               </button>
               <button 
                 onClick={toggleMeasurement}
-                className={`p-2 rounded-lg transition-colors flex items-center space-x-1 border border-gray-300 ${
+                className={`hidden md:flex p-2 rounded-lg transition-colors items-center space-x-1 border border-gray-300 ${
                   isMeasurementMode 
                     ? 'bg-azure text-white hover:bg-azure-dark' 
                     : 'hover:bg-gray-100'
@@ -1107,10 +1161,52 @@ const Layout = ({ children }) => {
               </button>
               <button 
                 onClick={handleShare}
-                className="p-2 hover:bg-gray-100 rounded-lg transition-colors border border-gray-300"
+                className="hidden md:block p-2 hover:bg-gray-100 rounded-lg transition-colors border border-gray-300"
               >
                 <Share2 className="w-4 h-4 sm:w-5 sm:h-5 text-gray-600" />
               </button>
+              {/* Phones: Clear / Measure / Share fold into one overflow menu */}
+              <div className="relative md:hidden" ref={moreMenuRef}>
+                <button
+                  onClick={() => setIsMoreMenuOpen((open) => !open)}
+                  className={`relative before:absolute before:content-[''] before:-inset-y-1.5 before:-inset-x-0.5 p-2 rounded-lg transition-colors border border-gray-300 ${
+                    isMeasurementMode ? 'bg-azure text-white' : 'hover:bg-gray-100'
+                  }`}
+                  aria-haspopup="menu"
+                  aria-expanded={isMoreMenuOpen}
+                  aria-label="More map tools"
+                >
+                  <MoreHorizontal className={`w-4 h-4 ${isMeasurementMode ? 'text-white' : 'text-gray-600'}`} />
+                </button>
+                {isMoreMenuOpen && (
+                  <div role="menu" className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg z-50 overflow-hidden">
+                    <button
+                      role="menuitem"
+                      onClick={() => { setIsMoreMenuOpen(false); handleClear(); }}
+                      className="w-full flex items-center space-x-2 px-3 py-2.5 text-sm text-gray-700 hover:bg-gray-50"
+                    >
+                      <RotateCcw className="w-4 h-4 text-gray-600" />
+                      <span>Clear markers</span>
+                    </button>
+                    <button
+                      role="menuitem"
+                      onClick={() => { setIsMoreMenuOpen(false); toggleMeasurement(); }}
+                      className="w-full flex items-center space-x-2 px-3 py-2.5 text-sm text-gray-700 hover:bg-gray-50"
+                    >
+                      <Ruler className="w-4 h-4 text-gray-600" />
+                      <span>{isMeasurementMode ? 'Stop measuring' : 'Measure distance'}</span>
+                    </button>
+                    <button
+                      role="menuitem"
+                      onClick={() => { setIsMoreMenuOpen(false); handleShare(); }}
+                      className="w-full flex items-center space-x-2 px-3 py-2.5 text-sm text-gray-700 hover:bg-gray-50"
+                    >
+                      <Share2 className="w-4 h-4 text-gray-600" />
+                      <span>Share</span>
+                    </button>
+                  </div>
+                )}
+              </div>
               {/* Filter Button - Opens appropriate filter based on active map */}
               <button 
                 onClick={handleFilterPanel}
@@ -1168,7 +1264,7 @@ const Layout = ({ children }) => {
         )}
 
         {/* Bottom Control Bar */}
-        <div className="px-2 sm:px-4 lg:px-6 py-4 flex items-center space-x-4 lg:space-x-6 pointer-events-auto flex-wrap gap-3">
+        <div className="px-2 sm:px-4 lg:px-6 py-4 flex items-center pointer-events-auto flex-wrap gap-2 sm:gap-7 lg:gap-9">
           <div className="flex items-center">
             <button 
               onClick={handleTableView}
@@ -1200,8 +1296,22 @@ const Layout = ({ children }) => {
         </div>
       </main>
       
-      {/* Feedback Button - Floating above map controls */}
-      <div className="absolute bottom-52 right-2 sm:right-4 pointer-events-auto z-10">
+      {/* Feedback button. On phones the Trend chip stacks above it in one column
+          above the bottom bar; desktop keeps it floating above the map controls. */}
+      <div className="absolute bottom-40 lg:bottom-52 right-[max(0.5rem,env(safe-area-inset-right))] sm:right-[max(1rem,env(safe-area-inset-right))] pointer-events-auto z-30 lg:z-10 flex flex-col items-end space-y-2">
+        {currentDataPoint && hasCard(currentDataPoint) && (
+          <button
+            type="button"
+            onClick={() => setIsTrendOpen((open) => !open)}
+            aria-expanded={isTrendOpen}
+            className={`lg:hidden relative before:absolute before:content-[''] before:-inset-x-2 before:-inset-y-1.5 flex items-center space-x-1.5 rounded-full shadow-lg border px-3 py-2 text-xs font-medium transition-colors ${
+              isTrendOpen ? 'bg-azure text-white border-azure' : 'bg-white/95 text-gray-700 border-gray-200'
+            }`}
+          >
+            <TrendingUp className="w-4 h-4" />
+            <span>Trend</span>
+          </button>
+        )}
         <button 
           onClick={handleFeedback}
           className="flex items-center space-x-2 px-3 sm:px-4 py-2 bg-white/95 hover:bg-white rounded-lg shadow-lg transition-all duration-200 ease-in-out hover:shadow-xl transform hover:scale-105"

@@ -66,10 +66,13 @@ const DatePicker = ({ selectedDate, onDateChange, className = '' }) => {
     <div className={`relative ${className}`} ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-2 bg-white px-4 py-2 rounded-3xl hover:bg-gray-50 transition-colors"
+        className="flex items-center space-x-2 bg-white px-3 sm:px-4 py-2 rounded-3xl hover:bg-gray-50 transition-colors"
       >
         <Calendar className="w-4 h-4 text-gray-500" />
-        <span className="text-xs text-gray-700">Date: {selectedDate}</span>
+        <span className="text-xs text-gray-700">
+          <span className="hidden sm:inline">Date: </span>
+          {selectedDate}
+        </span>
       </button>
 
       <AnimatePresence>
@@ -79,7 +82,7 @@ const DatePicker = ({ selectedDate, onDateChange, className = '' }) => {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 10, scale: 0.95 }}
             transition={{ duration: 0.2 }}
-            className="absolute bottom-full mb-2 bg-white border border-gray-200 rounded-lg shadow-lg z-50 w-64"
+            className="absolute bottom-full mb-2 right-0 sm:right-auto sm:left-0 bg-white border border-gray-200 rounded-lg shadow-lg z-50 w-64"
           >
             {/* Year Navigation Header */}
             <div className="flex items-center justify-between p-4 border-b border-gray-200">
