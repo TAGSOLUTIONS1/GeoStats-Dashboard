@@ -832,6 +832,7 @@ const Layout = ({ children }) => {
 
   const [series, setSeries] = useState([]);
   const [pastSeries, setPastSeries] = useState([]);
+  const [seriesLoading, setSeriesLoading] = useState(false);
 
   console.log("graph place is " , graphPlace);
   useEffect(() => {
@@ -851,35 +852,46 @@ const Layout = ({ children }) => {
     }
 
     const areaId = areaEntry.area_id;
-    // Clear the previous area's data so it is never shown under the new name.
+    // Clear the previous area's data so it is never shown under the new name,
+    // and tell the modal a load is in flight so it shows a loading state rather
+    // than "no data" while the files arrive.
     setSeries([]);
     setPastSeries([]);
+    setSeriesLoading(true);
+    // A quick second tap on another community must not have its data
+    // overwritten by the first community's files arriving later.
+    let cancelled = false;
 
     // dynamic import forecast JSON using the area_id
-    import(
+    const forecastLoad = import(
       `../../data/average_meter_price/forecasts/xgb/forecast_area_${areaId}_2010onwards.json`
     )
       .then((module) => {
-        setSeries(module.default);
+        if (!cancelled) setSeries(module.default);
       })
       .catch((err) => {
         // No forecast file for this area: leave the series empty. The modal
         // says so instead of substituting anything.
         console.warn("No forecast for area:", areaId, err?.message);
-        setSeries([]);
+        if (!cancelled) setSeries([]);
       });
 
     //past series
-     import(
+    const historyLoad = import(
       `../../data/average_meter_price/historical_data/avg_meter_price_${areaId}_2010onwards.json`
     )
       .then((module) => {
-        setPastSeries(module.default);
+        if (!cancelled) setPastSeries(module.default);
       })
       .catch((err) => {
         console.warn("No historical data for area:", areaId, err?.message);
-        setPastSeries([]);
+        if (!cancelled) setPastSeries([]);
       });
+
+    Promise.allSettled([forecastLoad, historyLoad]).then(() => {
+      if (!cancelled) setSeriesLoading(false);
+    });
+    return () => { cancelled = true; };
   }, [graphPlace]);
 
 
@@ -1355,6 +1367,7 @@ const Layout = ({ children }) => {
         placeName={graphPlace}
         pastSeries={pastSeries}
         series={series}
+        loading={seriesLoading}
       />
 
        <ExploreDataPointsModal
