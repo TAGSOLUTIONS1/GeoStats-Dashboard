@@ -424,40 +424,73 @@ const SchoolMap = ({ selectedFilter, disableScrollZoom = false, selectedDataPoin
           const placeName = props.COMMUNITY_E || props.CNAME_E || 'Selected Area';
           const { valueLabel } = getSchoolLabels(props);
 
+          // "<br/>Key: value" lines become a headline figure plus chips, so the
+          // school card matches the community card (.geo-popup-* in index.css).
+          const lines = valueLabel.split('<br/>').map((l) => l.trim()).filter(Boolean);
+          const split = (line) => {
+            const i = line.indexOf(':');
+            return i < 0 ? [line, ''] : [line.slice(0, i).trim(), line.slice(i + 1).trim()];
+          };
+          const [headKey, headValue] = lines.length ? split(lines[0]) : ['Schools', ''];
+          const chips = lines.slice(1).map(split).filter(([, v]) => v);
           const tooltipHTML = `
-            <div style="padding: 8px;">
-              <strong style="display: block; margin-bottom: 8px;">${props.CNAME_E}</strong>
-              ${valueLabel}
-              <button 
-                id="show-schools-btn"
-                style="
-                  margin-top: 10px;
-                  width: 100%;
-                  padding: 8px 12px;
-                  background-color: #3696A8;
-                  color: white;
-                  border: none;
-                  border-radius: 6px;
-                  font-size: 14px;
-                  font-weight: 500;
-                  cursor: pointer;
-                "
-              >
-                View Schools
-              </button>
+            <div class="geo-popup-card">
+              <div class="geo-popup-head">
+                <div class="geo-popup-eyebrow">Community</div>
+                <div class="geo-popup-title">${props.CNAME_E}</div>
+              </div>
+              <div class="geo-popup-body">
+                <div class="geo-popup-metric-label">${headKey}</div>
+                ${headValue
+                  ? `<div class="geo-popup-value">${headValue}</div>`
+                  : '<div class="geo-popup-value geo-popup-value--empty">No data for this community</div>'}
+                ${chips.length
+                  ? `<div class="geo-popup-rows">${chips
+                      .map(([k, v]) => `<span class="geo-popup-chip">${k} <b>${v}</b></span>`)
+                      .join('')}</div>`
+                  : ''}
+                <div class="geo-popup-source">Source: KHDA school register</div>
+                <button id="show-schools-btn" class="geo-popup-cta" type="button">
+                  View schools
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </button>
+              </div>
             </div>
           `;
 
           const popup = new mapboxgl.Popup({ 
             closeButton: true, 
             maxWidth: '300px',
-            closeOnClick: false
+            closeOnClick: false,
+            className: 'geo-popup'
           })
             .setLngLat(e.lngLat)
             .setHTML(tooltipHTML)
             .addTo(map.current);
 
           clickPopupRef.current = popup;
+
+          const closeBtn = popup.getElement()?.querySelector('.mapboxgl-popup-close-button');
+          if (closeBtn) closeBtn.setAttribute('aria-label', 'Close');
+
+          // The card is taller than the map's own controls, so nudge the map
+          // when it would open under the header or the bottom bar rather than
+          // letting it sit half off screen.
+          const keepCardInView = () => {
+            const el = popup.getElement();
+            if (!el || !map.current) return;
+            const r = el.getBoundingClientRect();
+            const c = map.current.getContainer().getBoundingClientRect();
+            const inset = { top: 104, bottom: 96, side: 10 }; // header, bottom bar, gutters
+            let dx = 0;
+            let dy = 0;
+            if (r.left < c.left + inset.side) dx = r.left - (c.left + inset.side);
+            else if (r.right > c.right - inset.side) dx = r.right - (c.right - inset.side);
+            if (r.top < c.top + inset.top) dy = r.top - (c.top + inset.top);
+            else if (r.bottom > c.bottom - inset.bottom) dy = r.bottom - (c.bottom - inset.bottom);
+            if (dx || dy) map.current.panBy([dx, dy], { duration: 320 });
+          };
+          setTimeout(keepCardInView, 60);
 
           setTimeout(() => {
             const btn = document.getElementById('show-schools-btn');

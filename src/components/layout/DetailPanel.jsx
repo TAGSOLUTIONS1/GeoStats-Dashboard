@@ -57,11 +57,22 @@ const DetailPanel = ({ selectedItem, position, onClose }) => {
             {selectedItem.description}
           </p>
           
+          {/* Where the numbers come from. The legend shows this on the map, so
+              the panel must agree rather than leave the reader guessing. */}
+          {selectedItem.source && (
+            <p className="text-gray-300 text-xs leading-relaxed">
+              <strong className="text-white">Source:</strong> {selectedItem.source}
+            </p>
+          )}
+
+          {selectedItem.isPremium && (
+            <p className="text-orange-light text-xs leading-relaxed">
+              <strong className="text-white">Status:</strong> not available yet — this data point is waiting on the source above.
+            </p>
+          )}
+
           {selectedItem.id === 'for-sale-inventory' && (
             <div className="space-y-2">
-              {/* <p className="text-gray-300 text-xs">
-                <strong className="text-white">Source:</strong> Geostats
-              </p> */}
               <p className="text-gray-300 text-xs">
                 <strong className="text-white">Note:</strong> For Sale Inventory excludes listings that are pending.
               </p>

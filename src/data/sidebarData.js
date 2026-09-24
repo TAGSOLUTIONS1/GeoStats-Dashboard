@@ -282,7 +282,7 @@ const dataPoints = [
   },
   {
     count: 25,
-    label:'Inventory as % of Houses ',
+    label:'Inventory as % of Houses',
     id:'inventory-as-percent-of-houses',  
     icon: BarChart3,
     isSelected:false, 

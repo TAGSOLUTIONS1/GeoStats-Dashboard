@@ -846,8 +846,13 @@ const Layout = ({ children }) => {
       (area) => String(area.municipality_number) === municipalityNumber
     );
 
+    // Clear first: an unresolved name must not leave the previous community's
+    // series on screen under the new title.
     if (!areaEntry) {
       console.error("No matching area found for", municipalityNumber);
+      setSeries([]);
+      setPastSeries([]);
+      setSeriesLoading(false);
       return;
     }
 
@@ -864,7 +869,7 @@ const Layout = ({ children }) => {
 
     // dynamic import forecast JSON using the area_id
     const forecastLoad = import(
-      `../../data/average_meter_price/forecasts/xgb/forecast_area_${areaId}_2010onwards.json`
+      `../../data/average_meter_price/forecasts/geostats/forecast_area_${areaId}_2010onwards.json`
     )
       .then((module) => {
         if (!cancelled) setSeries(module.default);

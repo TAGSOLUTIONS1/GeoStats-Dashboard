@@ -110,6 +110,7 @@ export const mapDataPoints = {
     label: 'Population growth (annual %, 2011–2022)',
     stops: [-0.29, 2.46, 5.68, 16.1, 39.5, 80],
     palette: BLUE,
+    period: '2011–2022',
     source: 'Dubai Statistics Center (DSC ArcGIS Online items; verified per year)',
   },
   'community-safety-score': {
@@ -638,7 +639,9 @@ export const mapDataPoints = {
     label: 'Long-term growth score (0-100)',
     stops: [35, 44, 59, 75, 84, 90],
     palette: BLUE,
+    period: 'population 2011–2022, growth components to 2024',
     source: 'In-house composite (population + home value + income growth)',
+    note: 'Only the population term varies by community; the home value and income terms are Dubai-wide and shift every community equally.',
   },
   'median-listing-price': {
     dataset: medianListing,
@@ -814,8 +817,11 @@ export const getMapDataPointMeta = (dataPointId) => {
     stops: cfg.stops,
     palette: cfg.palette,
     inverted: !!inverted,
-    period: dataset.period || null,
-    note: dataset.limitation || dataset.note || null,
+    // A data file can serve several layers covering different spans (the DSC
+    // population file backs both the 2022 count and the 2011-2022 growth), so
+    // a layer's own period and caveat win over the file's.
+    period: cfg.period || dataset.period || null,
+    note: cfg.note || dataset.limitation || dataset.note || null,
     communities: Object.keys(getValuesByCommunity(dataPointId) || {}).length,
   };
 };

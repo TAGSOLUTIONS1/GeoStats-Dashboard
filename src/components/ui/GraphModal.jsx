@@ -181,6 +181,8 @@ const GraphModal = ({
       combined.push({
         x: parseLocalDate(item.ds),
         y: parseFloat(item.yhat),
+        lo: item.yhat_lower != null ? Number(item.yhat_lower) : null,
+        hi: item.yhat_upper != null ? Number(item.yhat_upper) : null,
         date: item.ds,
         type: 'forecast'
       });
@@ -188,6 +190,21 @@ const GraphModal = ({
 
     return combined.sort((a, b) => a.x - b.x);
   }, [activeSeries, activeHistorical]);
+
+  // Method and backtest quality travel with the forecast file, so the header
+  // badge and the explanation always describe the numbers actually drawn.
+  const forecastMeta = useMemo(() => {
+    const row = activeSeries[0];
+    if (!row) return null;
+    return {
+      method: row.method || 'bundled model',
+      mape: row.backtest_mape != null ? Number(row.backtest_mape) : null,
+      naiveMape: row.naive_mape != null ? Number(row.naive_mape) : null,
+      directionHit: row.direction_hit != null ? Number(row.direction_hit) : null,
+      validated: row.validated !== false && row.backtest_mape != null,
+      hasBand: row.yhat_lower != null && row.yhat_upper != null,
+    };
+  }, [activeSeries]);
 
   // The Dubai-wide index for the "Dubai average" overlay: for each month the
   // median across areas of that area's average price per m² (built by
@@ -248,8 +265,12 @@ const GraphModal = ({
     const yoyPct = yearAgo && yearAgo.y ? ((latest.y - yearAgo.y) / yearAgo.y) * 100 : null;
     const fc = allData.filter((d) => d.type === 'forecast');
     const forecastEnd = fc.length ? fc[fc.length - 1] : null;
-    const forecastPct = forecastEnd && latest.y ? ((forecastEnd.y - latest.y) / latest.y) * 100 : null;
-    return { latest, yearAgo, yoyPct, forecastEnd, forecastPct };
+    // Compare the forecast with the last three recorded months, not with one
+    // month that may be a single unusual sale.
+    const recent = hist.slice(-3);
+    const recentBase = recent.reduce((a, d) => a + d.y, 0) / recent.length;
+    const forecastPct = forecastEnd && recentBase ? ((forecastEnd.y - recentBase) / recentBase) * 100 : null;
+    return { latest, yearAgo, yoyPct, forecastEnd, forecastPct, recentBase, recentMonths: recent.length };
   }, [allData]);
 
   // Sparse areas open as scatter so the eye is not led along an invented line.
@@ -293,9 +314,11 @@ const GraphModal = ({
         : `${point.x.getFullYear()}`;
 
       if (!grouped[key]) {
-        grouped[key] = { values: [], types: new Set(), date: point.x };
+        grouped[key] = { values: [], los: [], his: [], types: new Set(), date: point.x };
       }
       grouped[key].values.push(point.y);
+      if (point.lo != null) grouped[key].los.push(point.lo);
+      if (point.hi != null) grouped[key].his.push(point.hi);
       grouped[key].types.add(point.type);
     });
 
@@ -308,9 +331,12 @@ const GraphModal = ({
       const hasHist = group.types.has('historical');
       const hasFc = group.types.has('forecast');
 
+      const mean = (arr) => (arr.length ? arr.reduce((a, b) => a + b, 0) / arr.length : null);
       return {
         x: periodDate,
         y: avgY,
+        lo: mean(group.los),
+        hi: mean(group.his),
         date: periodDate.toISOString(),
         type: hasHist && hasFc ? 'mixed' : hasHist ? 'historical' : hasFc ? 'forecast' : [...group.types][0],
         aggregated: true,
@@ -423,6 +449,14 @@ const GraphModal = ({
     return [...joins, ...forecastPts.map(toXY)];
   }, [observedPts, forecastPts, toXY]);
   const closeArea = (seg) => (seg.length ? `${monotonePath(seg)} L ${seg[seg.length - 1].x} ${baseY} L ${seg[0].x} ${baseY} Z` : '');
+  // Uncertainty band: the upper curve forward, the lower curve back.
+  const bandPath = useMemo(() => {
+    const pts = forecastPts.filter((p) => p.lo != null && p.hi != null);
+    if (pts.length < 2) return '';
+    const upper = pts.map((p) => ({ x: xScale(p.x), y: yScale(p.hi) }));
+    const lower = pts.map((p) => ({ x: xScale(p.x), y: yScale(p.lo) })).reverse();
+    return `${monotonePath(upper)} L ${lower[0].x} ${lower[0].y} ${monotonePath(lower).replace(/^M [^ ]+ [^ ]+/, '')} Z`;
+  }, [forecastPts, xScale, yScale]);
   const marketSegs = useMemo(() => splitAtGaps(marketPoints, gapLimit).map((seg) => seg.map(toXY)), [marketPoints, toXY, gapLimit]);
 
   // Spans with no observations, drawn as a hatched band so a gap reads as a
@@ -708,8 +742,15 @@ const GraphModal = ({
                       <div className={pctBadge(headline.forecastPct)}>
                         {headline.forecastPct >= 0 ? <TrendingUp className="w-3 h-3" /> : <TrendingDown className="w-3 h-3" />}
                         {headline.forecastPct >= 0 ? '+' : ''}{headline.forecastPct.toFixed(1)}%
-                        <span className="hidden sm:inline font-normal text-white/60"> vs latest</span>
+                        <span className="hidden sm:inline font-normal text-white/60"> vs last {headline.recentMonths} months</span>
                       </div>
+                      {forecastMeta && (
+                        <div className={`text-[10px] font-semibold mt-0.5 ${forecastMeta.validated ? 'text-white/70' : 'text-amber-200'}`}>
+                          {forecastMeta.validated
+                            ? `typical error ±${Math.round(forecastMeta.mape)}% · ${forecastMeta.method.startsWith('naive') ? 'trend baseline' : 'market × share model'}`
+                            : `${forecastMeta.method.startsWith('naive') ? 'trend baseline' : 'market × share model'} · too few months to validate`}
+                        </div>
+                      )}
                     </>
                   ) : (
                     <div className="text-sm font-semibold text-white/80 mt-1">Not available</div>
@@ -1039,6 +1080,11 @@ const GraphModal = ({
                         </g>
                       ))}
 
+                      {/* Forecast band (10th–90th percentile of the model's own past errors) */}
+                      {chartType === "line" && bandPath && (
+                        <path d={bandPath} fill={COLORS.series} fillOpacity="0.12" stroke="none" />
+                      )}
+
                       {/* Forecast: same weight, dashed, continuing from the last observed point */}
                       {chartType === "line" && forecastSeg.length > 1 && (
                         <>
@@ -1183,6 +1229,12 @@ const GraphModal = ({
                         <span className="font-medium text-xs sm:text-sm text-gray-700">Model forecast</span>
                       </div>
                     )}
+                    {bandPath && chartType === 'line' && dataView !== 'historical' && (
+                      <div className="flex items-center gap-2">
+                        <span className="w-4 h-3 rounded-sm" style={{ backgroundColor: COLORS.series, opacity: 0.2 }} />
+                        <span className="font-medium text-xs sm:text-sm text-gray-700">Likely range</span>
+                      </div>
+                    )}
                     {showMarket && (
                       <div className="flex items-center gap-2">
                         <span className="w-4 border-t-2" style={{ borderColor: COLORS.market }} />
@@ -1269,7 +1321,17 @@ const GraphModal = ({
                     )}
                     {hasForecast ? (
                       <div>
-                        Forecast: bundled gradient-boosting (XGBoost) model projection, monthly from {fmtMonth(quality.forecastStart)} to {fmtMonth(quality.forecastEnd)}, drawn dashed from the last recorded point. A model output for orientation only, not a prediction of actual sales, and unvalidated against outcomes.
+                        Forecast: {forecastMeta && forecastMeta.method.startsWith('naive')
+                          ? 'this area\'s own recent trend, damped, because the market model did not beat it in testing'
+                          : forecastMeta && !forecastMeta.validated
+                            ? 'the Dubai-wide price index projected with a damped trend, times this area\'s recent share of the market; too few recorded months to test it'
+                            : 'the Dubai-wide price index projected with a damped trend, times this area\'s typical share of the market'}
+                        , monthly from {fmtMonth(quality.forecastStart)} to {fmtMonth(quality.forecastEnd)}, drawn dashed from the last recorded point.
+                        {forecastMeta && forecastMeta.validated && (
+                          <> In rolling tests over the last two years it was off by {Math.round(forecastMeta.mape)}% on average{!forecastMeta.method.startsWith('naive') && forecastMeta.naiveMape != null ? ` (a plain trend line: ${Math.round(forecastMeta.naiveMape)}%)` : ''}{forecastMeta.directionHit != null ? ` and called the 12-month direction right ${forecastMeta.directionHit}% of the time` : ''}.</>
+                        )}
+                        {forecastMeta && forecastMeta.hasBand && <> The shaded band is the 10th–90th percentile of the model's own past errors at each horizon.</>}
+                        {' '}An orientation, not a prediction of actual sales.
                       </div>
                     ) : (
                       <div>No forecast is available for this area, so only recorded sales are shown.</div>

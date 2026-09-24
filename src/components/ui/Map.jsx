@@ -292,48 +292,109 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
         return { valueLabel, valueLabel2, valueLabel3 };
       };
 
+      // Phone card: the painted value as the headline figure, supporting
+      // numbers as chips, and the source spelled out. Structure rather than a
+      // run of <br/> lines, so it can be styled (.geo-popup-* in index.css).
+      const getValueParts = (props) => {
+        const selected = (typeof window !== 'undefined' && window.selectedDataPoint)
+          ? window.selectedDataPoint : 'population';
+        const num = (v, digits) => Number(v).toLocaleString('en-US', { maximumFractionDigits: digits });
+        const ok = (v) => v != null && v !== '' && Number.isFinite(Number(v));
+        const chips = [];
+        const areaKm = ok(props['Area Sq Km']) ? props['Area Sq Km'] : props['Area_New'];
+        if (ok(areaKm)) chips.push(['Area', `${num(areaKm, 1)} km²`]);
+
+        const osmCfg = mapDataPoints[selected];
+        if (osmCfg) {
+          const value = props[osmCfg.property];
+          return {
+            label: osmCfg.label,
+            value: ok(value) ? num(value, 2) : null,
+            chips,
+            source: osmCfg.source,
+          };
+        }
+
+        if (ok(props['PopDensity_New'])) chips.push(['Density', `${num(props['PopDensity_New'], 0)} /km²`]);
+        return {
+          label: 'Residents',
+          value: ok(props['Population_New']) ? num(props['Population_New'], 0) : null,
+          chips,
+          source: 'Dubai Statistics Center',
+        };
+      };
+
+      const buildCardHTML = (title, parts, ctaLabel, ctaId) => `
+        <div class="geo-popup-card">
+          <div class="geo-popup-head">
+            <div class="geo-popup-eyebrow">Community</div>
+            <div class="geo-popup-title">${title}</div>
+          </div>
+          <div class="geo-popup-body">
+            <div class="geo-popup-metric-label">${parts.label}</div>
+            ${parts.value == null
+              ? '<div class="geo-popup-value geo-popup-value--empty">No data for this community</div>'
+              : `<div class="geo-popup-value">${parts.value}</div>`}
+            ${parts.chips.length
+              ? `<div class="geo-popup-rows">${parts.chips
+                  .map(([k, v]) => `<span class="geo-popup-chip">${k} <b>${v}</b></span>`)
+                  .join('')}</div>`
+              : ''}
+            ${parts.source ? `<div class="geo-popup-source">Source: ${parts.source}</div>` : ''}
+            <button id="${ctaId}" class="geo-popup-cta" type="button">
+              ${ctaLabel}
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+          </div>
+        </div>
+      `;
+
       if (isMobile()) {
         map.current.on('click', 'dubai-communities-fill', (e) => {
           if (clickPopupRef.current) clickPopupRef.current.remove();
 
           const props = e.features[0].properties;
           const placeName = props.COMMUNITY_E || props.CNAME_E || 'Selected Area';
-          const { valueLabel, valueLabel2, valueLabel3 } = getValueLabels(props);
-
-          const tooltipHTML = `
-            <div style="padding: 8px;">
-              <strong style="display: block; margin-bottom: 8px;">${props.CNAME_E}</strong>
-              ${valueLabel}${valueLabel2}${valueLabel3}
-              <button 
-                id="show-graph-btn"
-                style="
-                  margin-top: 10px;
-                  width: 100%;
-                  padding: 8px 12px;
-                  background-color: #3696A8;
-                  color: white;
-                  border: none;
-                  border-radius: 6px;
-                  font-size: 14px;
-                  font-weight: 500;
-                  cursor: pointer;
-                "
-              >
-                Show Graph
-              </button>
-            </div>
-          `;
+          const tooltipHTML = buildCardHTML(
+            props.CNAME_E,
+            getValueParts(props),
+            'View price history',
+            'show-graph-btn'
+          );
 
           const popup = new mapboxgl.Popup({ 
             closeButton: true, 
             maxWidth: '300px',
-            closeOnClick: false
+            closeOnClick: false,
+            className: 'geo-popup'
           })
             .setLngLat(e.lngLat)
             .setHTML(tooltipHTML)
             .addTo(map.current);
 
           clickPopupRef.current = popup;
+
+          const closeLabel = popup.getElement()?.querySelector('.mapboxgl-popup-close-button');
+          if (closeLabel) closeLabel.setAttribute('aria-label', 'Close');
+
+          // The card is taller than the map's own controls, so nudge the map
+          // when it would open under the header or the bottom bar rather than
+          // letting it sit half off screen.
+          const keepCardInView = () => {
+            const el = popup.getElement();
+            if (!el || !map.current) return;
+            const r = el.getBoundingClientRect();
+            const c = map.current.getContainer().getBoundingClientRect();
+            const inset = { top: 104, bottom: 96, side: 10 }; // header, bottom bar, gutters
+            let dx = 0;
+            let dy = 0;
+            if (r.left < c.left + inset.side) dx = r.left - (c.left + inset.side);
+            else if (r.right > c.right - inset.side) dx = r.right - (c.right - inset.side);
+            if (r.top < c.top + inset.top) dy = r.top - (c.top + inset.top);
+            else if (r.bottom > c.bottom - inset.bottom) dy = r.bottom - (c.bottom - inset.bottom);
+            if (dx || dy) map.current.panBy([dx, dy], { duration: 320 });
+          };
+          setTimeout(keepCardInView, 60);
 
           setTimeout(() => {
             const btn = document.getElementById('show-graph-btn');
