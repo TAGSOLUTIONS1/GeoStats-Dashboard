@@ -528,6 +528,94 @@ const Map = ({ selectedFilter, disableScrollZoom = false }) => {
     }
   }, [selectedFilter, isMapLoaded, addPopulation]);
 
+  // --- "Find my area" overlay -------------------------------------------
+  // The shortlist is drawn as its own source and layers on top of whatever
+  // data point is painted, and removed when the search is closed. Nothing
+  // here reads or writes the community fill, so the data points keep working
+  // exactly as before.
+  useEffect(() => {
+    const SRC = 'find-area-src';
+    const FILL = 'find-area-fill';
+    const LINE = 'find-area-line';
+    const LABEL = 'find-area-label';
+
+    const clear = () => {
+      const m = map.current;
+      if (!m || !m.getStyle) return;
+      [LABEL, LINE, FILL].forEach((id) => { if (m.getLayer(id)) m.removeLayer(id); });
+      if (m.getSource(SRC)) m.removeSource(SRC);
+    };
+
+    const draw = (results) => {
+      const m = map.current;
+      if (!m || !m.getStyle || !m.getLayer('dubai-communities-fill')) return;
+      clear();
+      const ranked = new window.Map(
+        results.map((r, i) => [String(r.code), { score: Number(r.score) || 0, rank: i + 1, name: r.name }])
+      );
+      const features = geojsonData.features
+        .filter((f) => ranked.has(String(f.properties.COMM_NUM)))
+        .map((f) => {
+          const hit = ranked.get(String(f.properties.COMM_NUM));
+          return { ...f, properties: { ...f.properties, MatchScore: hit.score, MatchRank: hit.rank, MatchLabel: `${hit.rank}. ${hit.name}` } };
+        });
+      if (!features.length) return;
+
+      m.addSource(SRC, { type: 'geojson', data: { type: 'FeatureCollection', features } });
+      const before = m.getLayer('dubai-communities-name') ? 'dubai-communities-name' : undefined;
+      m.addLayer({
+        id: FILL,
+        type: 'fill',
+        source: SRC,
+        paint: {
+          'fill-color': ['interpolate', ['linear'], ['get', 'MatchScore'], 0, '#cfe8ec', 50, '#6fb9c4', 75, '#3696A8', 100, '#1d6176'],
+          'fill-opacity': 0.82,
+        },
+      }, before);
+      m.addLayer({
+        id: LINE,
+        type: 'line',
+        source: SRC,
+        paint: { 'line-color': '#052C43', 'line-width': ['case', ['<=', ['get', 'MatchRank'], 3], 2.4, 1.2] },
+      }, before);
+      m.addLayer({
+        id: LABEL,
+        type: 'symbol',
+        source: SRC,
+        layout: {
+          'text-field': ['get', 'MatchLabel'],
+          'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+          'text-size': 12,
+          // the shortlist ranking must stay readable over the data-point labels
+          'text-allow-overlap': true,
+          'text-ignore-placement': true,
+          'text-offset': [0, -0.2],
+        },
+        paint: { 'text-color': '#052C43', 'text-halo-color': '#ffffff', 'text-halo-width': 2 },
+      });
+
+      // frame the shortlist
+      const bounds = new mapboxgl.LngLatBounds();
+      features.forEach((f) => {
+        const walk = (co) => (typeof co[0] === 'number' ? bounds.extend(co) : co.forEach(walk));
+        walk(f.geometry.coordinates);
+      });
+      if (!bounds.isEmpty()) m.fitBounds(bounds, { padding: { top: 120, bottom: 140, left: 40, right: 40 }, duration: 700, maxZoom: 12 });
+    };
+
+    const onResults = (e) => {
+      const list = e.detail && Array.isArray(e.detail.results) ? e.detail.results : null;
+      if (!list || !list.length) clear(); else draw(list.slice(0, 10));
+    };
+    window.addEventListener('findArea:results', onResults);
+    window.addEventListener('findArea:clear', clear);
+    return () => {
+      window.removeEventListener('findArea:results', onResults);
+      window.removeEventListener('findArea:clear', clear);
+      clear();
+    };
+  }, [isMapLoaded]);
+
   // Recolour and relabel when the data point (or filter) changes. Deferred by
   // one task so that a drawer or menu closed by the same tap paints its first
   // frame before the map restyle starts.

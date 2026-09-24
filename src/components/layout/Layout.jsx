@@ -1,9 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, GraduationCap, RotateCcw, Ruler, MoreHorizontal, ChevronUp, ChevronDown, TrendingUp } from 'lucide-react';
+import { Search, Filter, LogIn, Share2, Table, MessageCircle, Menu, X, GraduationCap, RotateCcw, Ruler, MoreHorizontal, ChevronUp, ChevronDown, TrendingUp, Wand2 } from 'lucide-react';
 import Sidebar from './Sidebar';
 import FilterPanel from '../ui/FilterPanel';
 import TableViewModal from '../ui/TableViewModal';
 import DatePicker from '../ui/DatePicker';
+import FindMyAreaWizard from '../ui/FindMyAreaWizard';
+import MatchResultsPanel from '../ui/MatchResultsPanel';
 import FeedbackModal from '../ui/FeedbackModal';
 import ShareModal from '../ui/ShareModal';
 import Map from '../ui/Map';
@@ -749,6 +751,30 @@ const Layout = ({ children }) => {
   }, [isMeasurementMode]);
 
   // Dismiss every open modal so a newly opened one never stacks behind another
+  // --- "Find my area": a self-contained search that ranks communities against
+  // a visitor's budget and priorities. It paints its own map overlay and never
+  // changes which data point is selected.
+  const [isFindAreaOpen, setIsFindAreaOpen] = useState(false);
+  const [matchData, setMatchData] = useState(null);
+
+  const handleMatchResults = (data) => {
+    setMatchData(data);
+    window.dispatchEvent(new CustomEvent('findArea:results', { detail: data }));
+  };
+  const clearMatches = () => {
+    setMatchData(null);
+    window.dispatchEvent(new CustomEvent('findArea:clear'));
+  };
+  const openFindArea = () => {
+    if (!isDesktopRef.current) setIsSidebarOpen(false);
+    setIsFindAreaOpen(true);
+  };
+  const handleMatchSelect = (result) => {
+    window.dispatchEvent(new CustomEvent('map:placeSelected', {
+      detail: { placeName: result.fullName || result.name, lngLat: null },
+    }));
+  };
+
   const closeAllModals = () => {
     setIsExploreModalOpen(false);
     setIsGraphOpen(false);
@@ -1281,7 +1307,7 @@ const Layout = ({ children }) => {
         )}
 
         {/* Bottom Control Bar */}
-        <div className="px-2 sm:px-4 lg:px-6 py-4 flex items-center pointer-events-auto flex-wrap gap-2 sm:gap-7 lg:gap-9">
+        <div className="px-2 sm:px-4 lg:px-6 pt-4 pb-[max(1rem,env(safe-area-inset-bottom))] flex items-center pointer-events-auto flex-wrap gap-2 sm:gap-7 lg:gap-9">
           <div className="flex items-center">
             <button 
               onClick={handleTableView}
@@ -1289,6 +1315,17 @@ const Layout = ({ children }) => {
             >
               <Table className="w-4 h-4 text-gray-600" />
               <span className="text-sm text-gray-700 ">Table View</span>
+            </button>
+          </div>
+          <div className="flex items-center">
+            <button
+              onClick={openFindArea}
+              title="Find areas that fit your budget and priorities"
+              className="relative flex bg-blue text-white px-3 lg:px-5 sm:px-4 py-2 rounded-3xl hover:bg-blue-light items-center space-x-2 touch-manipulation transition-colors
+                         before:absolute before:content-[''] before:inset-x-0 before:-top-1.5 before:-bottom-1.5"
+            >
+              <Wand2 className="w-4 h-4" />
+              <span className="text-sm">Find my area</span>
             </button>
           </div>
           <div className="">
@@ -1341,6 +1378,21 @@ const Layout = ({ children }) => {
         </button>
       </div>
       
+      {/* Find my area: wizard and shortlist */}
+      <FindMyAreaWizard
+        isOpen={isFindAreaOpen}
+        onClose={() => setIsFindAreaOpen(false)}
+        onResults={handleMatchResults}
+      />
+      {matchData && !isFindAreaOpen && (
+        <MatchResultsPanel
+          data={matchData}
+          onClose={clearMatches}
+          onRefine={() => setIsFindAreaOpen(true)}
+          onSelect={handleMatchSelect}
+        />
+      )}
+
       {/* Filter Panel */}
       <FilterPanel 
         isOpen={isFilterPanelOpen} 
